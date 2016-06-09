@@ -196,6 +196,36 @@
         <attribute name="ord" optional="YES" attributeType="Integer 64" defaultValueString="0.0" syncable="YES"/>
         <relationship name="message" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMMessage" inverseName="pictures" inverseEntity="STMMessage" syncable="YES"/>
     </entity>
+    <entity name="STMOutlet" representedClassName="STMOutlet" syncable="YES">
+        <attribute name="address" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="commentText" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="deviceCts" optional="YES" attributeType="Date" indexed="YES" syncable="YES"/>
+        <attribute name="deviceTs" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" indexed="YES" syncable="YES"/>
+        <attribute name="isActive" optional="YES" attributeType="Boolean" defaultValueString="YES" syncable="YES"/>
+        <attribute name="isFantom" optional="YES" attributeType="Boolean" defaultValueString="YES" syncable="YES"/>
+        <attribute name="lts" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" indexed="YES" syncable="YES"/>
+        <attribute name="ownerXid" optional="YES" attributeType="Binary" indexed="YES" syncable="YES"/>
+        <attribute name="shortName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="source" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="xid" optional="YES" attributeType="Binary" indexed="YES" syncable="YES"/>
+        <relationship name="partner" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMPartner" inverseName="outlets" inverseEntity="STMPartner" syncable="YES"/>
+        <relationship name="visits" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="STMVisit" inverseName="outlet" inverseEntity="STMVisit" syncable="YES"/>
+    </entity>
+    <entity name="STMPartner" representedClassName="STMPartner" syncable="YES">
+        <attribute name="commentText" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="deviceCts" optional="YES" attributeType="Date" indexed="YES" syncable="YES"/>
+        <attribute name="deviceTs" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" indexed="YES" syncable="YES"/>
+        <attribute name="isFantom" optional="YES" attributeType="Boolean" defaultValueString="YES" syncable="YES"/>
+        <attribute name="lts" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ownerXid" optional="YES" attributeType="Binary" indexed="YES" syncable="YES"/>
+        <attribute name="source" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="xid" optional="YES" attributeType="Binary" indexed="YES" syncable="YES"/>
+        <relationship name="outlets" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="STMOutlet" inverseName="partner" inverseEntity="STMOutlet" syncable="YES"/>
+    </entity>
     <entity name="STMPhoto" representedClassName="STMPhoto" parentEntity="STMCorePicture" syncable="YES">
         <relationship name="location" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMLocation" inverseName="photos" inverseEntity="STMLocation" syncable="YES"/>
     </entity>
@@ -215,6 +245,19 @@
         <attribute name="source" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="xid" optional="YES" attributeType="Binary" indexed="YES" syncable="YES"/>
     </entity>
+    <entity name="STMSalesman" representedClassName="STMSalesman" syncable="YES">
+        <attribute name="commentText" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="deviceCts" optional="YES" attributeType="Date" indexed="YES" syncable="YES"/>
+        <attribute name="deviceTs" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" indexed="YES" syncable="YES"/>
+        <attribute name="isFantom" optional="YES" attributeType="Boolean" defaultValueString="YES" syncable="YES"/>
+        <attribute name="lts" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" indexed="YES" syncable="YES"/>
+        <attribute name="ownerXid" optional="YES" attributeType="Binary" indexed="YES" syncable="YES"/>
+        <attribute name="source" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="xid" optional="YES" attributeType="Binary" indexed="YES" syncable="YES"/>
+        <relationship name="visits" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="STMVisit" inverseName="salesman" inverseEntity="STMVisit" syncable="YES"/>
+    </entity>
     <entity name="STMSetting" representedClassName="STMSetting" syncable="YES">
         <attribute name="commentText" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="deviceCts" optional="YES" attributeType="Date" indexed="YES" syncable="YES"/>
@@ -228,6 +271,75 @@
         <attribute name="source" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="value" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="xid" optional="YES" attributeType="Binary" indexed="YES" syncable="YES"/>
+    </entity>
+    <entity name="STMVisit" representedClassName="STMVisit" syncable="YES">
+        <attribute name="date" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="deviceCts" optional="YES" attributeType="Date" indexed="YES" syncable="YES"/>
+        <attribute name="deviceTs" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" indexed="YES" syncable="YES"/>
+        <attribute name="isFantom" optional="YES" attributeType="Boolean" defaultValueString="YES" syncable="YES"/>
+        <attribute name="lts" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="xid" optional="YES" attributeType="Binary" indexed="YES" syncable="YES"/>
+        <relationship name="outlet" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMOutlet" inverseName="visits" inverseEntity="STMOutlet" syncable="YES"/>
+        <relationship name="salesman" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMSalesman" inverseName="visits" inverseEntity="STMSalesman" syncable="YES"/>
+        <relationship name="visitAnswers" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="STMVisitAnswer" inverseName="visit" inverseEntity="STMVisitAnswer" syncable="YES"/>
+    </entity>
+    <entity name="STMVisitAnswer" representedClassName="STMVisitAnswer" syncable="YES">
+        <attribute name="data" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="deviceCts" optional="YES" attributeType="Date" indexed="YES" syncable="YES"/>
+        <attribute name="deviceTs" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" indexed="YES" syncable="YES"/>
+        <attribute name="isFantom" optional="YES" attributeType="Boolean" defaultValueString="YES" syncable="YES"/>
+        <attribute name="lts" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="xid" optional="YES" attributeType="Binary" indexed="YES" syncable="YES"/>
+        <relationship name="visit" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMVisit" inverseName="visitAnswers" inverseEntity="STMVisit" syncable="YES"/>
+        <relationship name="visitQuestion" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMVisitQuestion" inverseName="visitAnswers" inverseEntity="STMVisitQuestion" syncable="YES"/>
+    </entity>
+    <entity name="STMVisitQuestion" representedClassName="STMVisitQuestion" syncable="YES">
+        <attribute name="deviceCts" optional="YES" attributeType="Date" indexed="YES" syncable="YES"/>
+        <attribute name="deviceTs" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" indexed="YES" syncable="YES"/>
+        <attribute name="isFantom" optional="YES" attributeType="Boolean" defaultValueString="YES" syncable="YES"/>
+        <attribute name="lts" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="xid" optional="YES" attributeType="Binary" indexed="YES" syncable="YES"/>
+        <relationship name="visitAnswers" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="STMVisitAnswer" inverseName="visitQuestion" inverseEntity="STMVisitAnswer" syncable="YES"/>
+        <relationship name="visitQuestionDataType" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMVisitQuestionDataType" inverseName="visitQuestions" inverseEntity="STMVisitQuestionDataType" syncable="YES"/>
+        <relationship name="visitQuestionGroup" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMVisitQuestionGroup" inverseName="visitQuestions" inverseEntity="STMVisitQuestionGroup" syncable="YES"/>
+    </entity>
+    <entity name="STMVisitQuestionDataType" representedClassName="STMVisitQuestionDataType" syncable="YES">
+        <attribute name="code" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="deviceCts" optional="YES" attributeType="Date" indexed="YES" syncable="YES"/>
+        <attribute name="deviceTs" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" indexed="YES" syncable="YES"/>
+        <attribute name="isFantom" optional="YES" attributeType="Boolean" defaultValueString="YES" syncable="YES"/>
+        <attribute name="lts" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="xid" optional="YES" attributeType="Binary" indexed="YES" syncable="YES"/>
+        <relationship name="visitQuestions" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="STMVisitQuestion" inverseName="visitQuestionDataType" inverseEntity="STMVisitQuestion" syncable="YES"/>
+    </entity>
+    <entity name="STMVisitQuestionGroup" representedClassName="STMVisitQuestionGroup" syncable="YES">
+        <attribute name="deviceCts" optional="YES" attributeType="Date" indexed="YES" syncable="YES"/>
+        <attribute name="deviceTs" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" indexed="YES" syncable="YES"/>
+        <attribute name="isFantom" optional="YES" attributeType="Boolean" defaultValueString="YES" syncable="YES"/>
+        <attribute name="lts" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="xid" optional="YES" attributeType="Binary" indexed="YES" syncable="YES"/>
+        <relationship name="visitQuestions" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="STMVisitQuestion" inverseName="visitQuestionGroup" inverseEntity="STMVisitQuestion" syncable="YES"/>
+        <relationship name="visitQuestionSet" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMVisitQuestionSet" inverseName="visitQuestionGroups" inverseEntity="STMVisitQuestionSet" syncable="YES"/>
+    </entity>
+    <entity name="STMVisitQuestionSet" representedClassName="STMVisitQuestionSet" syncable="YES">
+        <attribute name="deviceCts" optional="YES" attributeType="Date" indexed="YES" syncable="YES"/>
+        <attribute name="deviceTs" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" indexed="YES" syncable="YES"/>
+        <attribute name="isEnabled" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="isFantom" optional="YES" attributeType="Boolean" defaultValueString="YES" syncable="YES"/>
+        <attribute name="lts" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ord" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="xid" optional="YES" attributeType="Binary" indexed="YES" syncable="YES"/>
+        <relationship name="visitQuestionGroups" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="STMVisitQuestionGroup" inverseName="visitQuestionSet" inverseEntity="STMVisitQuestionGroup" syncable="YES"/>
     </entity>
     <entity name="STMWorkflow" representedClassName="STMWorkflow" syncable="YES">
         <attribute name="code" optional="YES" attributeType="String" syncable="YES"/>
@@ -258,9 +370,18 @@
         <element name="STMLogMessage" positionX="-1008" positionY="-684" width="128" height="208"/>
         <element name="STMMessage" positionX="-180" positionY="-552" width="128" height="313"/>
         <element name="STMMessagePicture" positionX="-353" positionY="-666" width="128" height="73"/>
+        <element name="STMOutlet" positionX="-954" positionY="-1570" width="128" height="268"/>
+        <element name="STMPartner" positionX="-1143" positionY="-1540" width="128" height="208"/>
         <element name="STMPhoto" positionX="-522" positionY="-585" width="128" height="58"/>
         <element name="STMRecordStatus" positionX="-693" positionY="-954" width="128" height="253"/>
+        <element name="STMSalesman" positionX="-954" positionY="-1269" width="128" height="208"/>
         <element name="STMSetting" positionX="-1154" positionY="-694" width="128" height="223"/>
+        <element name="STMVisit" positionX="-747" positionY="-1264" width="128" height="193"/>
+        <element name="STMVisitAnswer" positionX="-558" positionY="-1264" width="128" height="178"/>
+        <element name="STMVisitQuestion" positionX="-362" positionY="-1264" width="128" height="193"/>
+        <element name="STMVisitQuestionDataType" positionX="-182" positionY="-1495" width="128" height="178"/>
+        <element name="STMVisitQuestionGroup" positionX="-173" positionY="-1258" width="128" height="178"/>
+        <element name="STMVisitQuestionSet" positionX="7" positionY="-1260" width="128" height="193"/>
         <element name="STMWorkflow" positionX="7" positionY="-657" width="128" height="238"/>
     </elements>
 </model>
