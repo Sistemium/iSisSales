@@ -292,8 +292,8 @@
         <attribute name="isFantom" optional="YES" attributeType="Boolean" defaultValueString="YES" syncable="YES"/>
         <attribute name="lts" optional="YES" attributeType="Date" syncable="YES"/>
         <attribute name="xid" optional="YES" attributeType="Binary" indexed="YES" syncable="YES"/>
+        <relationship name="question" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMVisitQuestion" inverseName="visitAnswers" inverseEntity="STMVisitQuestion" syncable="YES"/>
         <relationship name="visit" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMVisit" inverseName="visitAnswers" inverseEntity="STMVisit" syncable="YES"/>
-        <relationship name="visitQuestion" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMVisitQuestion" inverseName="visitAnswers" inverseEntity="STMVisitQuestion" syncable="YES"/>
     </entity>
     <entity name="STMVisitQuestion" representedClassName="STMVisitQuestion" syncable="YES">
         <attribute name="deviceCts" optional="YES" attributeType="Date" indexed="YES" syncable="YES"/>
@@ -303,7 +303,7 @@
         <attribute name="lts" optional="YES" attributeType="Date" syncable="YES"/>
         <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="xid" optional="YES" attributeType="Binary" indexed="YES" syncable="YES"/>
-        <relationship name="visitAnswers" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="STMVisitAnswer" inverseName="visitQuestion" inverseEntity="STMVisitAnswer" syncable="YES"/>
+        <relationship name="visitAnswers" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="STMVisitAnswer" inverseName="question" inverseEntity="STMVisitAnswer" syncable="YES"/>
         <relationship name="visitQuestionDataType" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMVisitQuestionDataType" inverseName="visitQuestions" inverseEntity="STMVisitQuestionDataType" syncable="YES"/>
         <relationship name="visitQuestionGroup" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMVisitQuestionGroup" inverseName="visitQuestions" inverseEntity="STMVisitQuestionGroup" syncable="YES"/>
     </entity>
