@@ -314,6 +314,7 @@
 		2C0A8C9F1D09903C007C5B57 /* STMVisitQuestionGroup+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "STMVisitQuestionGroup+CoreDataProperties.m"; sourceTree = "<group>"; };
 		2C0A8CA01D09903C007C5B57 /* STMVisitQuestionGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMVisitQuestionGroup.h; sourceTree = "<group>"; };
 		2C0A8CA11D09903C007C5B57 /* STMVisitQuestionGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMVisitQuestionGroup.m; sourceTree = "<group>"; };
+		2C1444221D0B1C0700B8E386 /* STMCheckinDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMCheckinDelegate.h; sourceTree = "<group>"; };
 		2C2379B01CF2FFB4002AF3F5 /* STMObjectsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMObjectsController.h; sourceTree = "<group>"; };
 		2C2379B11CF2FFB4002AF3F5 /* STMObjectsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMObjectsController.m; sourceTree = "<group>"; };
 		2C40F77E1CF2037A00231E01 /* STMController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMController.h; sourceTree = "<group>"; };
@@ -947,6 +948,7 @@
 				2C94C04E1CF1B1BA004476D8 /* STMTabBarItemControllable.h */,
 				2C94C04F1CF1B1BA004476D8 /* STMVolumePickerOwner.h */,
 				2C94C0501CF1B1BA004476D8 /* STMWorkflowable.h */,
+				2C1444221D0B1C0700B8E386 /* STMCheckinDelegate.h */,
 			);
 			name = "☯ Protocols";
 			path = Protocols;
