@@ -11,6 +11,8 @@
 
 #import "STMCoreDataModel.h"
 
+#import "STMLocation.h"
+
 #import "STMOutlet.h"
 
 #import "STMPartner.h"
