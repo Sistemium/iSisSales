@@ -218,7 +218,7 @@
         <attribute name="source" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="xid" optional="YES" attributeType="Binary" indexed="YES" syncable="YES"/>
         <relationship name="partner" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMPartner" inverseName="outlets" inverseEntity="STMPartner" syncable="YES"/>
-        <relationship name="visits" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="STMVisit" inverseName="outlet" inverseEntity="STMVisit" syncable="YES"/>
+        <relationship name="visits" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="STMVisit" inverseName="outlet" inverseEntity="STMVisit" syncable="YES"/>
     </entity>
     <entity name="STMPartner" representedClassName="STMPartner" syncable="YES">
         <attribute name="commentText" optional="YES" attributeType="String" syncable="YES"/>
@@ -263,7 +263,7 @@
         <attribute name="ownerXid" optional="YES" attributeType="Binary" indexed="YES" syncable="YES"/>
         <attribute name="source" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="xid" optional="YES" attributeType="Binary" indexed="YES" syncable="YES"/>
-        <relationship name="visits" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="STMVisit" inverseName="salesman" inverseEntity="STMVisit" syncable="YES"/>
+        <relationship name="visits" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="STMVisit" inverseName="salesman" inverseEntity="STMVisit" syncable="YES"/>
     </entity>
     <entity name="STMSetting" representedClassName="STMSetting" syncable="YES">
         <attribute name="commentText" optional="YES" attributeType="String" syncable="YES"/>
@@ -291,7 +291,7 @@
         <relationship name="checkOutLocation" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMLocation" inverseName="visitOuts" inverseEntity="STMLocation" syncable="YES"/>
         <relationship name="outlet" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMOutlet" inverseName="visits" inverseEntity="STMOutlet" syncable="YES"/>
         <relationship name="salesman" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMSalesman" inverseName="visits" inverseEntity="STMSalesman" syncable="YES"/>
-        <relationship name="visitAnswers" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="STMVisitAnswer" inverseName="visit" inverseEntity="STMVisitAnswer" syncable="YES"/>
+        <relationship name="visitAnswers" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="STMVisitAnswer" inverseName="visit" inverseEntity="STMVisitAnswer" syncable="YES"/>
     </entity>
     <entity name="STMVisitAnswer" representedClassName="STMVisitAnswer" syncable="YES">
         <attribute name="data" optional="YES" attributeType="String" syncable="YES"/>
@@ -312,7 +312,7 @@
         <attribute name="lts" optional="YES" attributeType="Date" syncable="YES"/>
         <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="xid" optional="YES" attributeType="Binary" indexed="YES" syncable="YES"/>
-        <relationship name="visitAnswers" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="STMVisitAnswer" inverseName="question" inverseEntity="STMVisitAnswer" syncable="YES"/>
+        <relationship name="visitAnswers" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="STMVisitAnswer" inverseName="question" inverseEntity="STMVisitAnswer" syncable="YES"/>
         <relationship name="visitQuestionDataType" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMVisitQuestionDataType" inverseName="visitQuestions" inverseEntity="STMVisitQuestionDataType" syncable="YES"/>
         <relationship name="visitQuestionGroup" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMVisitQuestionGroup" inverseName="visitQuestions" inverseEntity="STMVisitQuestionGroup" syncable="YES"/>
     </entity>
@@ -325,7 +325,7 @@
         <attribute name="lts" optional="YES" attributeType="Date" syncable="YES"/>
         <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="xid" optional="YES" attributeType="Binary" indexed="YES" syncable="YES"/>
-        <relationship name="visitQuestions" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="STMVisitQuestion" inverseName="visitQuestionDataType" inverseEntity="STMVisitQuestion" syncable="YES"/>
+        <relationship name="visitQuestions" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="STMVisitQuestion" inverseName="visitQuestionDataType" inverseEntity="STMVisitQuestion" syncable="YES"/>
     </entity>
     <entity name="STMVisitQuestionGroup" representedClassName="STMVisitQuestionGroup" syncable="YES">
         <attribute name="deviceCts" optional="YES" attributeType="Date" indexed="YES" syncable="YES"/>
@@ -335,7 +335,7 @@
         <attribute name="lts" optional="YES" attributeType="Date" syncable="YES"/>
         <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="xid" optional="YES" attributeType="Binary" indexed="YES" syncable="YES"/>
-        <relationship name="visitQuestions" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="STMVisitQuestion" inverseName="visitQuestionGroup" inverseEntity="STMVisitQuestion" syncable="YES"/>
+        <relationship name="visitQuestions" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="STMVisitQuestion" inverseName="visitQuestionGroup" inverseEntity="STMVisitQuestion" syncable="YES"/>
         <relationship name="visitQuestionSet" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMVisitQuestionSet" inverseName="visitQuestionGroups" inverseEntity="STMVisitQuestionSet" syncable="YES"/>
     </entity>
     <entity name="STMVisitQuestionSet" representedClassName="STMVisitQuestionSet" syncable="YES">
@@ -348,7 +348,7 @@
         <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="ord" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
         <attribute name="xid" optional="YES" attributeType="Binary" indexed="YES" syncable="YES"/>
-        <relationship name="visitQuestionGroups" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="STMVisitQuestionGroup" inverseName="visitQuestionSet" inverseEntity="STMVisitQuestionGroup" syncable="YES"/>
+        <relationship name="visitQuestionGroups" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="STMVisitQuestionGroup" inverseName="visitQuestionSet" inverseEntity="STMVisitQuestionGroup" syncable="YES"/>
     </entity>
     <entity name="STMWorkflow" representedClassName="STMWorkflow" syncable="YES">
         <attribute name="code" optional="YES" attributeType="String" syncable="YES"/>
