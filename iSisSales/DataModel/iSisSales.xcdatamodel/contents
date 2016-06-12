@@ -150,6 +150,7 @@
         <relationship name="wf" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMWorkflow" inverseName="entities" inverseEntity="STMWorkflow" syncable="YES"/>
     </entity>
     <entity name="STMJson" representedClassName="STMJson" syncable="YES">
+        <attribute name="code" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="data" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="deviceCts" optional="YES" attributeType="Date" indexed="YES" syncable="YES"/>
         <attribute name="deviceTs" optional="YES" attributeType="Date" syncable="YES"/>
@@ -157,6 +158,8 @@
         <attribute name="isFantom" optional="YES" attributeType="Boolean" defaultValueString="YES" syncable="YES"/>
         <attribute name="lts" optional="YES" attributeType="Date" syncable="YES"/>
         <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="source" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="target" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="xid" optional="YES" attributeType="Binary" indexed="YES" syncable="YES"/>
     </entity>
     <entity name="STMLocation" representedClassName="STMLocation" parentEntity="STMCoreLocation" syncable="YES">
@@ -371,7 +374,7 @@
         <element name="STMCorePicture" positionX="-522" positionY="-954" width="128" height="298"/>
         <element name="STMDatum" positionX="-1154" positionY="-955" width="128" height="133"/>
         <element name="STMEntity" positionX="-182" positionY="-952" width="128" height="343"/>
-        <element name="STMJson" positionX="-855" positionY="-513" width="128" height="163"/>
+        <element name="STMJson" positionX="-855" positionY="-513" width="128" height="208"/>
         <element name="STMCoreLocation" positionX="-686" positionY="-954" width="128" height="328"/>
         <element name="STMLogMessage" positionX="-1008" positionY="-684" width="128" height="208"/>
         <element name="STMMessage" positionX="-180" positionY="-552" width="128" height="313"/>
