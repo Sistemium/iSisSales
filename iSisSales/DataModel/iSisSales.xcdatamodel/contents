@@ -120,6 +120,7 @@
         <attribute name="xid" optional="YES" attributeType="Binary" indexed="YES" syncable="YES"/>
     </entity>
     <entity name="STMDatum" representedClassName="STMDatum" syncable="YES">
+        <attribute name="commentText" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="deviceCts" optional="YES" attributeType="Date" indexed="YES" syncable="YES"/>
         <attribute name="deviceTs" optional="YES" attributeType="Date" syncable="YES"/>
         <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" indexed="YES" syncable="YES"/>
@@ -151,6 +152,7 @@
     </entity>
     <entity name="STMJson" representedClassName="STMJson" syncable="YES">
         <attribute name="code" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="commentText" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="data" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="deviceCts" optional="YES" attributeType="Date" indexed="YES" syncable="YES"/>
         <attribute name="deviceTs" optional="YES" attributeType="Date" syncable="YES"/>
@@ -280,6 +282,7 @@
         <attribute name="xid" optional="YES" attributeType="Binary" indexed="YES" syncable="YES"/>
     </entity>
     <entity name="STMVisit" representedClassName="STMVisit" syncable="YES">
+        <attribute name="commentText" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="date" optional="YES" attributeType="Date" syncable="YES"/>
         <attribute name="deviceCts" optional="YES" attributeType="Date" indexed="YES" syncable="YES"/>
         <attribute name="deviceTs" optional="YES" attributeType="Date" syncable="YES"/>
@@ -294,6 +297,7 @@
         <relationship name="visitAnswers" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="STMVisitAnswer" inverseName="visit" inverseEntity="STMVisitAnswer" syncable="YES"/>
     </entity>
     <entity name="STMVisitAnswer" representedClassName="STMVisitAnswer" syncable="YES">
+        <attribute name="commentText" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="data" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="deviceCts" optional="YES" attributeType="Date" indexed="YES" syncable="YES"/>
         <attribute name="deviceTs" optional="YES" attributeType="Date" syncable="YES"/>
@@ -305,6 +309,7 @@
         <relationship name="visit" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMVisit" inverseName="visitAnswers" inverseEntity="STMVisit" syncable="YES"/>
     </entity>
     <entity name="STMVisitQuestion" representedClassName="STMVisitQuestion" syncable="YES">
+        <attribute name="commentText" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="deviceCts" optional="YES" attributeType="Date" indexed="YES" syncable="YES"/>
         <attribute name="deviceTs" optional="YES" attributeType="Date" syncable="YES"/>
         <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" indexed="YES" syncable="YES"/>
@@ -318,6 +323,7 @@
     </entity>
     <entity name="STMVisitQuestionDataType" representedClassName="STMVisitQuestionDataType" syncable="YES">
         <attribute name="code" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="commentText" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="deviceCts" optional="YES" attributeType="Date" indexed="YES" syncable="YES"/>
         <attribute name="deviceTs" optional="YES" attributeType="Date" syncable="YES"/>
         <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" indexed="YES" syncable="YES"/>
@@ -328,6 +334,7 @@
         <relationship name="visitQuestions" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="STMVisitQuestion" inverseName="visitQuestionDataType" inverseEntity="STMVisitQuestion" syncable="YES"/>
     </entity>
     <entity name="STMVisitQuestionGroup" representedClassName="STMVisitQuestionGroup" syncable="YES">
+        <attribute name="commentText" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="deviceCts" optional="YES" attributeType="Date" indexed="YES" syncable="YES"/>
         <attribute name="deviceTs" optional="YES" attributeType="Date" syncable="YES"/>
         <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" indexed="YES" syncable="YES"/>
@@ -339,6 +346,7 @@
         <relationship name="visitQuestionSet" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMVisitQuestionSet" inverseName="visitQuestionGroups" inverseEntity="STMVisitQuestionSet" syncable="YES"/>
     </entity>
     <entity name="STMVisitQuestionSet" representedClassName="STMVisitQuestionSet" syncable="YES">
+        <attribute name="commentText" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="deviceCts" optional="YES" attributeType="Date" indexed="YES" syncable="YES"/>
         <attribute name="deviceTs" optional="YES" attributeType="Date" syncable="YES"/>
         <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" indexed="YES" syncable="YES"/>
@@ -372,9 +380,9 @@
         <element name="STMClientData" positionX="-855" positionY="-957" width="128" height="388"/>
         <element name="STMClientEntity" positionX="-344" positionY="-955" width="128" height="208"/>
         <element name="STMCorePicture" positionX="-522" positionY="-954" width="128" height="298"/>
-        <element name="STMDatum" positionX="-1154" positionY="-955" width="128" height="133"/>
+        <element name="STMDatum" positionX="-1154" positionY="-955" width="128" height="148"/>
         <element name="STMEntity" positionX="-182" positionY="-952" width="128" height="343"/>
-        <element name="STMJson" positionX="-855" positionY="-513" width="128" height="208"/>
+        <element name="STMJson" positionX="-855" positionY="-513" width="128" height="223"/>
         <element name="STMCoreLocation" positionX="-686" positionY="-954" width="128" height="328"/>
         <element name="STMLogMessage" positionX="-1008" positionY="-684" width="128" height="208"/>
         <element name="STMMessage" positionX="-180" positionY="-552" width="128" height="313"/>
@@ -385,12 +393,12 @@
         <element name="STMRecordStatus" positionX="-695" positionY="-513" width="128" height="253"/>
         <element name="STMSalesman" positionX="-954" positionY="-1269" width="128" height="208"/>
         <element name="STMSetting" positionX="-1154" positionY="-694" width="128" height="223"/>
-        <element name="STMVisit" positionX="-747" positionY="-1467" width="128" height="223"/>
-        <element name="STMVisitAnswer" positionX="-558" positionY="-1458" width="128" height="178"/>
-        <element name="STMVisitQuestion" positionX="-369" positionY="-1462" width="128" height="193"/>
-        <element name="STMVisitQuestionDataType" positionX="-182" positionY="-1495" width="128" height="178"/>
-        <element name="STMVisitQuestionGroup" positionX="-173" positionY="-1258" width="128" height="178"/>
-        <element name="STMVisitQuestionSet" positionX="7" positionY="-1260" width="128" height="193"/>
+        <element name="STMVisit" positionX="-747" positionY="-1467" width="128" height="238"/>
+        <element name="STMVisitAnswer" positionX="-558" positionY="-1458" width="128" height="193"/>
+        <element name="STMVisitQuestion" positionX="-369" positionY="-1462" width="128" height="208"/>
+        <element name="STMVisitQuestionDataType" positionX="-182" positionY="-1495" width="128" height="193"/>
+        <element name="STMVisitQuestionGroup" positionX="-173" positionY="-1258" width="128" height="193"/>
+        <element name="STMVisitQuestionSet" positionX="7" positionY="-1260" width="128" height="208"/>
         <element name="STMWorkflow" positionX="7" positionY="-657" width="128" height="238"/>
         <element name="STMLocation" positionX="-740" positionY="-1170" width="128" height="73"/>
     </elements>
