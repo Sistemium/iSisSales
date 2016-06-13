@@ -2,7 +2,7 @@
 //  STMVisitQuestionSet+CoreDataProperties.m
 //  iSisSales
 //
-//  Created by Maxim Grigoriev on 12/06/16.
+//  Created by Maxim Grigoriev on 13/06/16.
 //  Copyright © 2016 Sistemium UAB. All rights reserved.
 //
 //  Choose "Create NSManagedObject Subclass…" from the Core Data editor menu
@@ -13,6 +13,7 @@
 
 @implementation STMVisitQuestionSet (CoreDataProperties)
 
+@dynamic commentText;
 @dynamic deviceCts;
 @dynamic deviceTs;
 @dynamic id;
@@ -21,8 +22,10 @@
 @dynamic lts;
 @dynamic name;
 @dynamic ord;
+@dynamic ownerXid;
+@dynamic source;
+@dynamic target;
 @dynamic xid;
-@dynamic commentText;
 @dynamic visitQuestionGroups;
 
 @end

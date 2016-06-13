@@ -2,7 +2,7 @@
 //  STMOutlet+CoreDataProperties.m
 //  iSisSales
 //
-//  Created by Maxim Grigoriev on 09/06/16.
+//  Created by Maxim Grigoriev on 13/06/16.
 //  Copyright © 2016 Sistemium UAB. All rights reserved.
 //
 //  Choose "Create NSManagedObject Subclass…" from the Core Data editor menu
@@ -25,6 +25,7 @@
 @dynamic ownerXid;
 @dynamic shortName;
 @dynamic source;
+@dynamic target;
 @dynamic xid;
 @dynamic partner;
 @dynamic visits;
