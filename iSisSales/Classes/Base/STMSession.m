@@ -8,6 +8,7 @@
 
 #import "STMSession.h"
 
+#import "STMDataModel.h"
 #import "STMSettingsController.h"
 
 
@@ -17,6 +18,10 @@
 
 - (Class)settingsControllerClass {
     return [STMSettingsController class];
+}
+
+- (Class)locationClass {
+    return [STMLocation class];
 }
 
 
