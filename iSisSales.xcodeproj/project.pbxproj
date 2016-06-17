@@ -25,6 +25,7 @@
 		2C0A8CB21D09903C007C5B57 /* STMVisitQuestionGroup+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C0A8C9F1D09903C007C5B57 /* STMVisitQuestionGroup+CoreDataProperties.m */; };
 		2C0A8CB31D09903C007C5B57 /* STMVisitQuestionGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C0A8CA11D09903C007C5B57 /* STMVisitQuestionGroup.m */; };
 		2C2379B21CF2FFB4002AF3F5 /* STMObjectsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C2379B11CF2FFB4002AF3F5 /* STMObjectsController.m */; };
+		2C32C9D81D14441F00CE4981 /* STMCameraOverlayView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C32C9D71D14441F00CE4981 /* STMCameraOverlayView.xib */; };
 		2C40F7801CF2037A00231E01 /* STMController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C40F77F1CF2037A00231E01 /* STMController.m */; };
 		2C40F78B1CF203A100231E01 /* STMAuthController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C40F7821CF203A100231E01 /* STMAuthController.m */; };
 		2C40F78D1CF203A100231E01 /* STMSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C40F7861CF203A100231E01 /* STMSession.m */; };
@@ -317,6 +318,7 @@
 		2C1444221D0B1C0700B8E386 /* STMCheckinDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMCheckinDelegate.h; sourceTree = "<group>"; };
 		2C2379B01CF2FFB4002AF3F5 /* STMObjectsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMObjectsController.h; sourceTree = "<group>"; };
 		2C2379B11CF2FFB4002AF3F5 /* STMObjectsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMObjectsController.m; sourceTree = "<group>"; };
+		2C32C9D71D14441F00CE4981 /* STMCameraOverlayView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = STMCameraOverlayView.xib; sourceTree = "<group>"; };
 		2C40F77E1CF2037A00231E01 /* STMController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMController.h; sourceTree = "<group>"; };
 		2C40F77F1CF2037A00231E01 /* STMController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMController.m; sourceTree = "<group>"; };
 		2C40F7811CF203A100231E01 /* STMAuthController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMAuthController.h; sourceTree = "<group>"; };
@@ -1435,6 +1437,7 @@
 			children = (
 				2C94C2241CF1B3BA004476D8 /* STMAuth.storyboard */,
 				2C94C2251CF1B3BA004476D8 /* ☯ STMCustomCells */,
+				2C32C9D71D14441F00CE4981 /* STMCameraOverlayView.xib */,
 				2C94C2351CF1B3BA004476D8 /* STMLogs.storyboard */,
 				2C94C2361CF1B3BA004476D8 /* STMMessages.storyboard */,
 				2C94C2371CF1B3BA004476D8 /* STMMessageVC.storyboard */,
@@ -1732,6 +1735,7 @@
 				2C94C2101CF1B308004476D8 /* reordering.png in Resources */,
 				2C94C2511CF1B3BA004476D8 /* STMScannerInfo.storyboard in Resources */,
 				2C94C2471CF1B3BA004476D8 /* STMCustom6TVCell.xib in Resources */,
+				2C32C9D81D14441F00CE4981 /* STMCameraOverlayView.xib in Resources */,
 				2C94C2091CF1B308004476D8 /* numerical_sorting_12.png in Resources */,
 				2C94C24F1CF1B3BA004476D8 /* STMMessageVC.storyboard in Resources */,
 				2C94C2221CF1B36F004476D8 /* settings.json in Resources */,
