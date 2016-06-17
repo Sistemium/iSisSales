@@ -11,6 +11,7 @@
 #import "STMOutlet.h"
 #import "STMSalesman.h"
 #import "STMVisitAnswer.h"
+#import "STMVisitPhoto.h"
 
 @implementation STMVisit
 

@@ -165,7 +165,6 @@
 		2C94C19A1CF1B1F3004476D8 /* STMSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C1771CF1B1F3004476D8 /* STMSetting.m */; };
 		2C94C19B1CF1B1F3004476D8 /* STMWorkflow+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C1791CF1B1F3004476D8 /* STMWorkflow+CoreDataProperties.m */; };
 		2C94C19C1CF1B1F3004476D8 /* STMWorkflow.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C17B1CF1B1F3004476D8 /* STMWorkflow.m */; };
-		2C94C1A11CF1B2A6004476D8 /* iSisSales.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C1A01CF1B2A6004476D8 /* iSisSales.xcdatamodel */; };
 		2C94C1B41CF1B2D8004476D8 /* SocketAckEmitter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C1A41CF1B2D8004476D8 /* SocketAckEmitter.swift */; };
 		2C94C1B51CF1B2D8004476D8 /* SocketAckManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C1A51CF1B2D8004476D8 /* SocketAckManager.swift */; };
 		2C94C1B61CF1B2D8004476D8 /* SocketAnyEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C1A61CF1B2D8004476D8 /* SocketAnyEvent.swift */; };
@@ -258,6 +257,9 @@
 		2C9AE9A11CF5AF690018D9B3 /* STMJson+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C9AE99F1CF5AF690018D9B3 /* STMJson+CoreDataProperties.m */; };
 		2CB3146B1D06F0AE00E3E59D /* STMKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CB3146A1D06F0AE00E3E59D /* STMKeychain.m */; };
 		2CC2D2FF1D13DCF40026EB72 /* STMCorePhoto+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CC2D2FE1D13DCF40026EB72 /* STMCorePhoto+CoreDataProperties.m */; };
+		2CC2D3041D13E0A90026EB72 /* STMVisitPhoto+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CC2D3011D13E0A90026EB72 /* STMVisitPhoto+CoreDataProperties.m */; };
+		2CC2D3051D13E0A90026EB72 /* STMVisitPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CC2D3031D13E0A90026EB72 /* STMVisitPhoto.m */; };
+		2CC2D3091D13E3720026EB72 /* iSisSales.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2CC2D3061D13E3720026EB72 /* iSisSales.xcdatamodeld */; };
 		2CD5BEFD1CF1DFAB006E1E36 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CD5BEFC1CF1DFAB006E1E36 /* WebKit.framework */; };
 		2CD5BF081CF1E780006E1E36 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2CD5BF0A1CF1E780006E1E36 /* Localizable.strings */; };
 /* End PBXBuildFile section */
@@ -609,7 +611,6 @@
 		2C94C1791CF1B1F3004476D8 /* STMWorkflow+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "STMWorkflow+CoreDataProperties.m"; sourceTree = "<group>"; };
 		2C94C17A1CF1B1F3004476D8 /* STMWorkflow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMWorkflow.h; sourceTree = "<group>"; };
 		2C94C17B1CF1B1F3004476D8 /* STMWorkflow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMWorkflow.m; sourceTree = "<group>"; };
-		2C94C1A01CF1B2A6004476D8 /* iSisSales.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iSisSales.xcdatamodel; sourceTree = "<group>"; };
 		2C94C1A41CF1B2D8004476D8 /* SocketAckEmitter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketAckEmitter.swift; sourceTree = "<group>"; };
 		2C94C1A51CF1B2D8004476D8 /* SocketAckManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketAckManager.swift; sourceTree = "<group>"; };
 		2C94C1A61CF1B2D8004476D8 /* SocketAnyEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketAnyEvent.swift; sourceTree = "<group>"; };
@@ -712,6 +713,12 @@
 		2CB3146A1D06F0AE00E3E59D /* STMKeychain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMKeychain.m; sourceTree = "<group>"; };
 		2CC2D2FD1D13DCF40026EB72 /* STMCorePhoto+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "STMCorePhoto+CoreDataProperties.h"; sourceTree = "<group>"; };
 		2CC2D2FE1D13DCF40026EB72 /* STMCorePhoto+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "STMCorePhoto+CoreDataProperties.m"; sourceTree = "<group>"; };
+		2CC2D3001D13E0A90026EB72 /* STMVisitPhoto+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "STMVisitPhoto+CoreDataProperties.h"; sourceTree = "<group>"; };
+		2CC2D3011D13E0A90026EB72 /* STMVisitPhoto+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "STMVisitPhoto+CoreDataProperties.m"; sourceTree = "<group>"; };
+		2CC2D3021D13E0A90026EB72 /* STMVisitPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMVisitPhoto.h; sourceTree = "<group>"; };
+		2CC2D3031D13E0A90026EB72 /* STMVisitPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMVisitPhoto.m; sourceTree = "<group>"; };
+		2CC2D3071D13E3720026EB72 /* iSisSales 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "iSisSales 2.xcdatamodel"; sourceTree = "<group>"; };
+		2CC2D3081D13E3720026EB72 /* iSisSales.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iSisSales.xcdatamodel; sourceTree = "<group>"; };
 		2CD5BEFB1CF1DEE1006E1E36 /* iSistemium-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iSistemium-Prefix.pch"; sourceTree = "<group>"; };
 		2CD5BEFC1CF1DFAB006E1E36 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		2CD5BF091CF1E780006E1E36 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -1269,7 +1276,7 @@
 		2C94C19D1CF1B234004476D8 /* DataModel */ = {
 			isa = PBXGroup;
 			children = (
-				2C94C1A01CF1B2A6004476D8 /* iSisSales.xcdatamodel */,
+				2CC2D3061D13E3720026EB72 /* iSisSales.xcdatamodeld */,
 				2C40F7901CF203BF00231E01 /* STMDataModel.h */,
 				2C6112FB1D0BDE7B006BCB30 /* STMLocation.h */,
 				2C6112FC1D0BDE7B006BCB30 /* STMLocation.m */,
@@ -1295,6 +1302,10 @@
 				2C0A8C9D1D09903C007C5B57 /* STMVisitAnswer.m */,
 				2C0A8C9A1D09903C007C5B57 /* STMVisitAnswer+CoreDataProperties.h */,
 				2C0A8C9B1D09903C007C5B57 /* STMVisitAnswer+CoreDataProperties.m */,
+				2CC2D3021D13E0A90026EB72 /* STMVisitPhoto.h */,
+				2CC2D3031D13E0A90026EB72 /* STMVisitPhoto.m */,
+				2CC2D3001D13E0A90026EB72 /* STMVisitPhoto+CoreDataProperties.h */,
+				2CC2D3011D13E0A90026EB72 /* STMVisitPhoto+CoreDataProperties.m */,
 				2C0A8C8C1D09903C007C5B57 /* STMVisitQuestion.h */,
 				2C0A8C8D1D09903C007C5B57 /* STMVisitQuestion.m */,
 				2C0A8C8A1D09903C007C5B57 /* STMVisitQuestion+CoreDataProperties.h */,
@@ -1897,6 +1908,7 @@
 				2C94C1BD1CF1B2D8004476D8 /* SocketLogger.swift in Sources */,
 				2C94C0FE1CF1B1BB004476D8 /* STMActionPopoverNC.m in Sources */,
 				2C94C1B61CF1B2D8004476D8 /* SocketAnyEvent.swift in Sources */,
+				2CC2D3041D13E0A90026EB72 /* STMVisitPhoto+CoreDataProperties.m in Sources */,
 				2C94C1831CF1B1F3004476D8 /* STMClientData+CoreDataProperties.m in Sources */,
 				2C0A8CA71D09903C007C5B57 /* STMOutlet.m in Sources */,
 				2C40F78E1CF203A100231E01 /* STMSessionManager.m in Sources */,
@@ -1932,7 +1944,6 @@
 				2C0A8CAF1D09903C007C5B57 /* STMPartner.m in Sources */,
 				2C2379B21CF2FFB4002AF3F5 /* STMObjectsController.m in Sources */,
 				2C0A8CAA1D09903C007C5B57 /* STMVisitQuestionDataType+CoreDataProperties.m in Sources */,
-				2C94C1A11CF1B2A6004476D8 /* iSisSales.xcdatamodel in Sources */,
 				2C94C1171CF1B1BB004476D8 /* STMSegmentedControl.m in Sources */,
 				2C94C18E1CF1B1F3004476D8 /* STMCoreLocation.m in Sources */,
 				2C94C1351CF1B1BB004476D8 /* STMWebViewVC.m in Sources */,
@@ -1949,6 +1960,7 @@
 				2C0A8CA81D09903C007C5B57 /* STMVisitQuestion+CoreDataProperties.m in Sources */,
 				2CC2D2FF1D13DCF40026EB72 /* STMCorePhoto+CoreDataProperties.m in Sources */,
 				2C94C12C1CF1B1BB004476D8 /* STMProfileNC.m in Sources */,
+				2CC2D3091D13E3720026EB72 /* iSisSales.xcdatamodeld in Sources */,
 				2C94C1261CF1B1BB004476D8 /* STMLogMessagesDetailTVC.m in Sources */,
 				2C94C11D1CF1B1BB004476D8 /* STMVariableCellsHeightTVC.m in Sources */,
 				2C94C1B51CF1B2D8004476D8 /* SocketAckManager.swift in Sources */,
@@ -1960,6 +1972,7 @@
 				2C94C1BE1CF1B2D8004476D8 /* SocketPacket.swift in Sources */,
 				2C94C1341CF1B1BB004476D8 /* STMWebViewNC.m in Sources */,
 				2C94C11F1CF1B1BB004476D8 /* UIToolbar+custom.m in Sources */,
+				2CC2D3051D13E0A90026EB72 /* STMVisitPhoto.m in Sources */,
 				2C94C1851CF1B1F3004476D8 /* STMClientEntity+CoreDataProperties.m in Sources */,
 				2C94C0F91CF1B1BB004476D8 /* STMRecordStatusController.m in Sources */,
 				2C94C1081CF1B1BB004476D8 /* STMCustom4TVCell.m in Sources */,
@@ -2271,6 +2284,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2CC2D3061D13E3720026EB72 /* iSisSales.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2CC2D3071D13E3720026EB72 /* iSisSales 2.xcdatamodel */,
+				2CC2D3081D13E3720026EB72 /* iSisSales.xcdatamodel */,
+			);
+			currentVersion = 2CC2D3071D13E3720026EB72 /* iSisSales 2.xcdatamodel */;
+			path = iSisSales.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 2C94BFC21CF1ACB8004476D8 /* Project object */;
 }

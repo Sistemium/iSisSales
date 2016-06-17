@@ -2,7 +2,7 @@
 //  STMVisit+CoreDataProperties.h
 //  iSisSales
 //
-//  Created by Maxim Grigoriev on 13/06/16.
+//  Created by Maxim Grigoriev on 17/06/16.
 //  Copyright © 2016 Sistemium UAB. All rights reserved.
 //
 //  Choose "Create NSManagedObject Subclass…" from the Core Data editor menu
@@ -31,6 +31,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nullable, nonatomic, retain) STMOutlet *outlet;
 @property (nullable, nonatomic, retain) STMSalesman *salesman;
 @property (nullable, nonatomic, retain) NSSet<STMVisitAnswer *> *visitAnswers;
+@property (nullable, nonatomic, retain) NSSet<STMVisitPhoto *> *visitPhotos;
 
 @end
 
@@ -40,6 +41,11 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)removeVisitAnswersObject:(STMVisitAnswer *)value;
 - (void)addVisitAnswers:(NSSet<STMVisitAnswer *> *)values;
 - (void)removeVisitAnswers:(NSSet<STMVisitAnswer *> *)values;
+
+- (void)addVisitPhotosObject:(STMVisitPhoto *)value;
+- (void)removeVisitPhotosObject:(STMVisitPhoto *)value;
+- (void)addVisitPhotos:(NSSet<STMVisitPhoto *> *)values;
+- (void)removeVisitPhotos:(NSSet<STMVisitPhoto *> *)values;
 
 @end
 

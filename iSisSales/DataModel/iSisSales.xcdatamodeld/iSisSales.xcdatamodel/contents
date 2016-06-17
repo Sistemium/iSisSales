@@ -105,10 +105,7 @@
         <attribute name="timestamp" optional="YES" attributeType="Date" syncable="YES"/>
         <attribute name="verticalAccuracy" optional="YES" attributeType="Decimal" defaultValueString="0.0" syncable="YES"/>
         <attribute name="xid" optional="YES" attributeType="Binary" indexed="YES" syncable="YES"/>
-        <relationship name="photos" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="STMCorePhoto" inverseName="location" inverseEntity="STMCorePhoto" syncable="YES"/>
-    </entity>
-    <entity name="STMCorePhoto" representedClassName="STMCorePhoto" parentEntity="STMCorePicture" syncable="YES">
-        <relationship name="location" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMCoreLocation" inverseName="photos" inverseEntity="STMCoreLocation" syncable="YES"/>
+        <relationship name="photos" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="STMPhoto" inverseName="location" inverseEntity="STMPhoto" syncable="YES"/>
     </entity>
     <entity name="STMCorePicture" representedClassName="STMCorePicture" isAbstract="YES" syncable="YES">
         <attribute name="commentText" optional="YES" attributeType="String" syncable="YES"/>
@@ -262,6 +259,9 @@
         <attribute name="target" optional="YES" attributeType="String" indexed="YES" syncable="YES"/>
         <attribute name="xid" optional="YES" attributeType="Binary" indexed="YES" syncable="YES"/>
         <relationship name="outlets" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="STMOutlet" inverseName="partner" inverseEntity="STMOutlet" syncable="YES"/>
+    </entity>
+    <entity name="STMPhoto" representedClassName="STMPhoto" parentEntity="STMCorePicture" elementID="photo" syncable="YES">
+        <relationship name="location" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMCoreLocation" inverseName="photos" inverseEntity="STMCoreLocation" syncable="YES"/>
     </entity>
     <entity name="STMRecordStatus" representedClassName="STMRecordStatus" syncable="YES">
         <attribute name="commentText" optional="YES" attributeType="String" syncable="YES"/>
@@ -427,6 +427,7 @@
         <element name="STMClientData" positionX="-855" positionY="-957" width="128" height="403"/>
         <element name="STMClientEntity" positionX="-344" positionY="-955" width="128" height="223"/>
         <element name="STMCoreLocation" positionX="-686" positionY="-954" width="128" height="343"/>
+        <element name="STMPhoto" positionX="-515" positionY="-954" width="128" height="58"/>
         <element name="STMCorePicture" positionX="-515" positionY="-846" width="128" height="313"/>
         <element name="STMDatum" positionX="-1154" positionY="-955" width="128" height="133"/>
         <element name="STMEntity" positionX="-182" positionY="-952" width="128" height="358"/>
@@ -438,7 +439,6 @@
         <element name="STMMessagePicture" positionX="-353" positionY="-666" width="128" height="73"/>
         <element name="STMOutlet" positionX="-954" positionY="-1570" width="128" height="283"/>
         <element name="STMPartner" positionX="-1143" positionY="-1540" width="128" height="223"/>
-        <element name="STMCorePhoto" positionX="-515" positionY="-954" width="128" height="58"/>
         <element name="STMRecordStatus" positionX="-695" positionY="-513" width="128" height="268"/>
         <element name="STMSalesman" positionX="-954" positionY="-1269" width="128" height="223"/>
         <element name="STMSetting" positionX="-1154" positionY="-694" width="128" height="238"/>
