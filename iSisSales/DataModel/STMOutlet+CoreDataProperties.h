@@ -2,7 +2,7 @@
 //  STMOutlet+CoreDataProperties.h
 //  iSisSales
 //
-//  Created by Maxim Grigoriev on 13/06/16.
+//  Created by Maxim Grigoriev on 28/06/16.
 //  Copyright © 2016 Sistemium UAB. All rights reserved.
 //
 //  Choose "Create NSManagedObject Subclass…" from the Core Data editor menu
@@ -31,6 +31,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nullable, nonatomic, retain) NSData *xid;
 @property (nullable, nonatomic, retain) STMPartner *partner;
 @property (nullable, nonatomic, retain) NSSet<STMVisit *> *visits;
+@property (nullable, nonatomic, retain) NSSet<STMOutletSalesmanContract *> *outletSalesmanContracts;
 
 @end
 
@@ -40,6 +41,11 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)removeVisitsObject:(STMVisit *)value;
 - (void)addVisits:(NSSet<STMVisit *> *)values;
 - (void)removeVisits:(NSSet<STMVisit *> *)values;
+
+- (void)addOutletSalesmanContractsObject:(STMOutletSalesmanContract *)value;
+- (void)removeOutletSalesmanContractsObject:(STMOutletSalesmanContract *)value;
+- (void)addOutletSalesmanContracts:(NSSet<STMOutletSalesmanContract *> *)values;
+- (void)removeOutletSalesmanContracts:(NSSet<STMOutletSalesmanContract *> *)values;
 
 @end
 

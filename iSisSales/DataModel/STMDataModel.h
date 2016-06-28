@@ -11,9 +11,12 @@
 
 #import "STMCoreDataModel.h"
 
+#import "STMContract.h"
+
 #import "STMLocation.h"
 
 #import "STMOutlet.h"
+#import "STMOutletSalesmanContract.h"
 
 #import "STMPartner.h"
 

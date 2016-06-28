@@ -1,16 +1,17 @@
 //
-//  STMPartner.m
+//  STMOutletSalesmanContract.m
 //  iSisSales
 //
-//  Created by Maxim Grigoriev on 09/06/16.
+//  Created by Maxim Grigoriev on 28/06/16.
 //  Copyright © 2016 Sistemium UAB. All rights reserved.
 //
 
-#import "STMPartner.h"
+#import "STMOutletSalesmanContract.h"
 #import "STMContract.h"
 #import "STMOutlet.h"
+#import "STMSalesman.h"
 
-@implementation STMPartner
+@implementation STMOutletSalesmanContract
 
 // Insert code here to add functionality to your managed object subclass
 

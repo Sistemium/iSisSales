@@ -8,7 +8,7 @@
 
 #import "STMDatum.h"
 
-@class STMPartner, STMVisit;
+@class STMOutletSalesmanContract, STMPartner, STMVisit;
 
 NS_ASSUME_NONNULL_BEGIN
 

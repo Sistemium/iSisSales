@@ -8,7 +8,7 @@
 
 #import "STMDatum.h"
 
-@class STMOutlet;
+@class STMContract, STMOutlet;
 
 NS_ASSUME_NONNULL_BEGIN
 

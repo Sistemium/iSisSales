@@ -7,6 +7,7 @@
 //
 
 #import "STMOutlet.h"
+#import "STMOutletSalesmanContract.h"
 #import "STMPartner.h"
 #import "STMVisit.h"
 

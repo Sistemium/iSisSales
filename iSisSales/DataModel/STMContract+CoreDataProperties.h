@@ -1,5 +1,5 @@
 //
-//  STMSalesman+CoreDataProperties.h
+//  STMContract+CoreDataProperties.h
 //  iSisSales
 //
 //  Created by Maxim Grigoriev on 28/06/16.
@@ -9,11 +9,11 @@
 //  to delete and recreate this implementation file for your updated model.
 //
 
-#import "STMSalesman.h"
+#import "STMContract.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface STMSalesman (CoreDataProperties)
+@interface STMContract (CoreDataProperties)
 
 @property (nullable, nonatomic, retain) NSString *commentText;
 @property (nullable, nonatomic, retain) NSDate *deviceCts;
@@ -21,22 +21,18 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nullable, nonatomic, retain) NSNumber *id;
 @property (nullable, nonatomic, retain) NSNumber *isFantom;
 @property (nullable, nonatomic, retain) NSDate *lts;
-@property (nullable, nonatomic, retain) NSString *name;
 @property (nullable, nonatomic, retain) NSData *ownerXid;
 @property (nullable, nonatomic, retain) NSString *source;
 @property (nullable, nonatomic, retain) NSString *target;
 @property (nullable, nonatomic, retain) NSData *xid;
-@property (nullable, nonatomic, retain) NSSet<STMVisit *> *visits;
+@property (nullable, nonatomic, retain) NSDate *dateE;
+@property (nullable, nonatomic, retain) NSString *name;
 @property (nullable, nonatomic, retain) NSSet<STMOutletSalesmanContract *> *outletSalesmanContracts;
+@property (nullable, nonatomic, retain) STMPartner *partner;
 
 @end
 
-@interface STMSalesman (CoreDataGeneratedAccessors)
-
-- (void)addVisitsObject:(STMVisit *)value;
-- (void)removeVisitsObject:(STMVisit *)value;
-- (void)addVisits:(NSSet<STMVisit *> *)values;
-- (void)removeVisits:(NSSet<STMVisit *> *)values;
+@interface STMContract (CoreDataGeneratedAccessors)
 
 - (void)addOutletSalesmanContractsObject:(STMOutletSalesmanContract *)value;
 - (void)removeOutletSalesmanContractsObject:(STMOutletSalesmanContract *)value;

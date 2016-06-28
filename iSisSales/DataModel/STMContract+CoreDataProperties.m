@@ -1,5 +1,5 @@
 //
-//  STMSalesman+CoreDataProperties.m
+//  STMContract+CoreDataProperties.m
 //  iSisSales
 //
 //  Created by Maxim Grigoriev on 28/06/16.
@@ -9,9 +9,9 @@
 //  to delete and recreate this implementation file for your updated model.
 //
 
-#import "STMSalesman+CoreDataProperties.h"
+#import "STMContract+CoreDataProperties.h"
 
-@implementation STMSalesman (CoreDataProperties)
+@implementation STMContract (CoreDataProperties)
 
 @dynamic commentText;
 @dynamic deviceCts;
@@ -19,12 +19,13 @@
 @dynamic id;
 @dynamic isFantom;
 @dynamic lts;
-@dynamic name;
 @dynamic ownerXid;
 @dynamic source;
 @dynamic target;
 @dynamic xid;
-@dynamic visits;
+@dynamic dateE;
+@dynamic name;
 @dynamic outletSalesmanContracts;
+@dynamic partner;
 
 @end

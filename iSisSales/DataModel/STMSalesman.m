@@ -7,6 +7,7 @@
 //
 
 #import "STMSalesman.h"
+#import "STMOutletSalesmanContract.h"
 #import "STMVisit.h"
 
 @implementation STMSalesman
