@@ -2,7 +2,7 @@
 //  STMLocation+CoreDataProperties.h
 //  iSisSales
 //
-//  Created by Maxim Grigoriev on 11/06/16.
+//  Created by Maxim Grigoriev on 02/08/16.
 //  Copyright © 2016 Sistemium UAB. All rights reserved.
 //
 //  Choose "Create NSManagedObject Subclass…" from the Core Data editor menu
@@ -17,6 +17,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nullable, nonatomic, retain) NSSet<STMVisit *> *visitIns;
 @property (nullable, nonatomic, retain) NSSet<STMVisit *> *visitOuts;
+@property (nullable, nonatomic, retain) NSSet<STMOutlet *> *outlets;
 
 @end
 
@@ -31,6 +32,11 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)removeVisitOutsObject:(STMVisit *)value;
 - (void)addVisitOuts:(NSSet<STMVisit *> *)values;
 - (void)removeVisitOuts:(NSSet<STMVisit *> *)values;
+
+- (void)addOutletsObject:(STMOutlet *)value;
+- (void)removeOutletsObject:(STMOutlet *)value;
+- (void)addOutlets:(NSSet<STMOutlet *> *)values;
+- (void)removeOutlets:(NSSet<STMOutlet *> *)values;
 
 @end
 

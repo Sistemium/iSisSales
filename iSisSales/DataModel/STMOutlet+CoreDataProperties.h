@@ -2,7 +2,7 @@
 //  STMOutlet+CoreDataProperties.h
 //  iSisSales
 //
-//  Created by Maxim Grigoriev on 28/06/16.
+//  Created by Maxim Grigoriev on 02/08/16.
 //  Copyright © 2016 Sistemium UAB. All rights reserved.
 //
 //  Choose "Create NSManagedObject Subclass…" from the Core Data editor menu
@@ -29,23 +29,30 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nullable, nonatomic, retain) NSString *source;
 @property (nullable, nonatomic, retain) NSString *target;
 @property (nullable, nonatomic, retain) NSData *xid;
+@property (nullable, nonatomic, retain) NSSet<STMOutletSalesmanContract *> *outletSalesmanContracts;
 @property (nullable, nonatomic, retain) STMPartner *partner;
 @property (nullable, nonatomic, retain) NSSet<STMVisit *> *visits;
-@property (nullable, nonatomic, retain) NSSet<STMOutletSalesmanContract *> *outletSalesmanContracts;
+@property (nullable, nonatomic, retain) NSSet<STMOutletPhoto *> *photos;
+@property (nullable, nonatomic, retain) STMLocation *location;
 
 @end
 
 @interface STMOutlet (CoreDataGeneratedAccessors)
+
+- (void)addOutletSalesmanContractsObject:(STMOutletSalesmanContract *)value;
+- (void)removeOutletSalesmanContractsObject:(STMOutletSalesmanContract *)value;
+- (void)addOutletSalesmanContracts:(NSSet<STMOutletSalesmanContract *> *)values;
+- (void)removeOutletSalesmanContracts:(NSSet<STMOutletSalesmanContract *> *)values;
 
 - (void)addVisitsObject:(STMVisit *)value;
 - (void)removeVisitsObject:(STMVisit *)value;
 - (void)addVisits:(NSSet<STMVisit *> *)values;
 - (void)removeVisits:(NSSet<STMVisit *> *)values;
 
-- (void)addOutletSalesmanContractsObject:(STMOutletSalesmanContract *)value;
-- (void)removeOutletSalesmanContractsObject:(STMOutletSalesmanContract *)value;
-- (void)addOutletSalesmanContracts:(NSSet<STMOutletSalesmanContract *> *)values;
-- (void)removeOutletSalesmanContracts:(NSSet<STMOutletSalesmanContract *> *)values;
+- (void)addPhotosObject:(STMOutletPhoto *)value;
+- (void)removePhotosObject:(STMOutletPhoto *)value;
+- (void)addPhotos:(NSSet<STMOutletPhoto *> *)values;
+- (void)removePhotos:(NSSet<STMOutletPhoto *> *)values;
 
 @end
 

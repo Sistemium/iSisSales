@@ -1,5 +1,5 @@
 //
-//  STMLocation+CoreDataProperties.m
+//  STMOutletPhoto+CoreDataProperties.h
 //  iSisSales
 //
 //  Created by Maxim Grigoriev on 02/08/16.
@@ -9,12 +9,14 @@
 //  to delete and recreate this implementation file for your updated model.
 //
 
-#import "STMLocation+CoreDataProperties.h"
+#import "STMOutletPhoto.h"
 
-@implementation STMLocation (CoreDataProperties)
+NS_ASSUME_NONNULL_BEGIN
 
-@dynamic visitIns;
-@dynamic visitOuts;
-@dynamic outlets;
+@interface STMOutletPhoto (CoreDataProperties)
+
+@property (nullable, nonatomic, retain) STMOutlet *outlet;
 
 @end
+
+NS_ASSUME_NONNULL_END

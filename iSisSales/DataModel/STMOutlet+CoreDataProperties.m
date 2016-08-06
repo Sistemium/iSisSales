@@ -2,7 +2,7 @@
 //  STMOutlet+CoreDataProperties.m
 //  iSisSales
 //
-//  Created by Maxim Grigoriev on 28/06/16.
+//  Created by Maxim Grigoriev on 02/08/16.
 //  Copyright © 2016 Sistemium UAB. All rights reserved.
 //
 //  Choose "Create NSManagedObject Subclass…" from the Core Data editor menu
@@ -27,8 +27,10 @@
 @dynamic source;
 @dynamic target;
 @dynamic xid;
+@dynamic outletSalesmanContracts;
 @dynamic partner;
 @dynamic visits;
-@dynamic outletSalesmanContracts;
+@dynamic photos;
+@dynamic location;
 
 @end

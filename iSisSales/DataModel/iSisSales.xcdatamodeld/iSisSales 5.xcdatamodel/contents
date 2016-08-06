@@ -206,6 +206,7 @@
         <attribute name="xid" optional="YES" attributeType="Binary" indexed="YES" syncable="YES"/>
     </entity>
     <entity name="STMLocation" representedClassName="STMLocation" parentEntity="STMCoreLocation" syncable="YES">
+        <relationship name="outlets" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="STMOutlet" inverseName="location" inverseEntity="STMOutlet" syncable="YES"/>
         <relationship name="visitIns" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="STMVisit" inverseName="checkInLocation" inverseEntity="STMVisit" syncable="YES"/>
         <relationship name="visitOuts" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="STMVisit" inverseName="checkOutLocation" inverseEntity="STMVisit" syncable="YES"/>
     </entity>
@@ -263,9 +264,14 @@
         <attribute name="source" optional="YES" attributeType="String" indexed="YES" syncable="YES"/>
         <attribute name="target" optional="YES" attributeType="String" indexed="YES" syncable="YES"/>
         <attribute name="xid" optional="YES" attributeType="Binary" indexed="YES" syncable="YES"/>
+        <relationship name="location" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMLocation" inverseName="outlets" inverseEntity="STMLocation" syncable="YES"/>
         <relationship name="outletSalesmanContracts" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="STMOutletSalesmanContract" inverseName="outlet" inverseEntity="STMOutletSalesmanContract" syncable="YES"/>
         <relationship name="partner" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMPartner" inverseName="outlets" inverseEntity="STMPartner" syncable="YES"/>
+        <relationship name="photos" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="STMOutletPhoto" inverseName="outlet" inverseEntity="STMOutletPhoto" syncable="YES"/>
         <relationship name="visits" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="STMVisit" inverseName="outlet" inverseEntity="STMVisit" syncable="YES"/>
+    </entity>
+    <entity name="STMOutletPhoto" representedClassName="STMOutletPhoto" parentEntity="STMCorePhoto" syncable="YES">
+        <relationship name="outlet" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMOutlet" inverseName="photos" inverseEntity="STMOutlet" syncable="YES"/>
     </entity>
     <entity name="STMOutletSalesmanContract" representedClassName="STMOutletSalesmanContract" syncable="YES">
         <attribute name="commentText" optional="YES" attributeType="String" syncable="YES"/>
@@ -474,23 +480,24 @@
         <element name="STMEntity" positionX="-182" positionY="-952" width="128" height="358"/>
         <element name="STMEntityTemplate" positionX="-1332" positionY="-954" width="128" height="193"/>
         <element name="STMJson" positionX="-855" positionY="-513" width="128" height="238"/>
-        <element name="STMLocation" positionX="-767" positionY="-1098" width="128" height="73"/>
+        <element name="STMLocation" positionX="-720" positionY="-1135" width="128" height="88"/>
         <element name="STMLogMessage" positionX="-1008" positionY="-684" width="128" height="223"/>
         <element name="STMMessage" positionX="-180" positionY="-552" width="128" height="328"/>
         <element name="STMMessagePicture" positionX="-353" positionY="-666" width="128" height="73"/>
-        <element name="STMOutlet" positionX="-954" positionY="-1570" width="128" height="298"/>
+        <element name="STMOutlet" positionX="-954" positionY="-1620" width="128" height="328"/>
         <element name="STMOutletSalesmanContract" positionX="-1152" positionY="-1287" width="128" height="253"/>
         <element name="STMPartner" positionX="-1170" positionY="-1594" width="128" height="238"/>
         <element name="STMRecordStatus" positionX="-695" positionY="-513" width="128" height="268"/>
-        <element name="STMSalesman" positionX="-954" positionY="-1242" width="128" height="238"/>
+        <element name="STMSalesman" positionX="-974" positionY="-1242" width="128" height="238"/>
         <element name="STMSetting" positionX="-1154" positionY="-694" width="128" height="238"/>
-        <element name="STMVisit" positionX="-747" positionY="-1467" width="128" height="298"/>
-        <element name="STMVisitAnswer" positionX="-549" positionY="-1467" width="128" height="238"/>
-        <element name="STMVisitPhoto" positionX="-549" positionY="-1102" width="128" height="58"/>
-        <element name="STMVisitQuestion" positionX="-369" positionY="-1462" width="128" height="253"/>
+        <element name="STMVisit" positionX="-729" positionY="-1756" width="128" height="298"/>
+        <element name="STMVisitAnswer" positionX="-540" positionY="-1746" width="128" height="238"/>
+        <element name="STMVisitPhoto" positionX="-396" positionY="-1359" width="128" height="58"/>
+        <element name="STMVisitQuestion" positionX="-362" positionY="-1665" width="128" height="253"/>
         <element name="STMVisitQuestionDataType" positionX="-182" positionY="-1495" width="128" height="238"/>
         <element name="STMVisitQuestionGroup" positionX="-173" positionY="-1240" width="128" height="238"/>
         <element name="STMVisitQuestionSet" positionX="7" positionY="-1260" width="128" height="253"/>
         <element name="STMWorkflow" positionX="7" positionY="-657" width="128" height="253"/>
+        <element name="STMOutletPhoto" positionX="-558" positionY="-1242" width="128" height="58"/>
     </elements>
 </model>

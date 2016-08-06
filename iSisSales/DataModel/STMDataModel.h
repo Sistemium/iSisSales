@@ -16,6 +16,7 @@
 #import "STMLocation.h"
 
 #import "STMOutlet.h"
+#import "STMOutletPhoto.h"
 #import "STMOutletSalesmanContract.h"
 
 #import "STMPartner.h"
