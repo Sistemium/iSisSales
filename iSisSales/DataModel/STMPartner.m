@@ -12,6 +12,30 @@
 
 @implementation STMPartner
 
-// Insert code here to add functionality to your managed object subclass
+- (NSString *)shortName {
+    
+    NSError *error = nil;
+    NSRegularExpression *regex = [NSRegularExpression regularExpressionWithPattern:@"\"([^\"]*[^ ])\""
+                                                                           options:NSRegularExpressionCaseInsensitive
+                                                                             error:&error];
+
+    NSTextCheckingResult *match = [regex firstMatchInString:self.name
+                                                    options:0
+                                                      range:NSMakeRange(0, self.name.length)];
+    
+    if (match) {
+        
+        NSString *shortName = [self.name substringWithRange:match.range];
+        shortName = [shortName stringByReplacingOccurrencesOfString:@"\"" withString:@""];
+        return shortName;
+        
+    } else {
+        
+        return self.name;
+        
+    }
+
+}
+
 
 @end
