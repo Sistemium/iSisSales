@@ -8,6 +8,7 @@
 
 #import "STMPartner.h"
 #import "STMContract.h"
+#import "STMLegalForm.h"
 #import "STMOutlet.h"
 
 @implementation STMPartner

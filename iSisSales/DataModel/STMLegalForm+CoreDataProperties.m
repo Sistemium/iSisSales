@@ -1,5 +1,5 @@
 //
-//  STMPartner+CoreDataProperties.m
+//  STMLegalForm+CoreDataProperties.m
 //  iSisSales
 //
 //  Created by Maxim Grigoriev on 17/08/16.
@@ -9,9 +9,9 @@
 //  to delete and recreate this implementation file for your updated model.
 //
 
-#import "STMPartner+CoreDataProperties.h"
+#import "STMLegalForm+CoreDataProperties.h"
 
-@implementation STMPartner (CoreDataProperties)
+@implementation STMLegalForm (CoreDataProperties)
 
 @dynamic commentText;
 @dynamic deviceCts;
@@ -19,13 +19,12 @@
 @dynamic id;
 @dynamic isFantom;
 @dynamic lts;
-@dynamic name;
 @dynamic ownerXid;
 @dynamic source;
 @dynamic target;
 @dynamic xid;
-@dynamic contracts;
-@dynamic outlets;
-@dynamic legalForm;
+@dynamic name;
+@dynamic fullName;
+@dynamic partners;
 
 @end

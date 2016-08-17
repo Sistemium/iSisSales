@@ -245,6 +245,8 @@
 		2CC2D3041D13E0A90026EB72 /* STMVisitPhoto+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CC2D3011D13E0A90026EB72 /* STMVisitPhoto+CoreDataProperties.m */; };
 		2CC2D3051D13E0A90026EB72 /* STMVisitPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CC2D3031D13E0A90026EB72 /* STMVisitPhoto.m */; };
 		2CC2D3091D13E3720026EB72 /* iSisSales.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2CC2D3061D13E3720026EB72 /* iSisSales.xcdatamodeld */; };
+		2CCD468C1D646BAF003F8A14 /* STMLegalForm+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CCD46891D646BAF003F8A14 /* STMLegalForm+CoreDataProperties.m */; };
+		2CCD468D1D646BAF003F8A14 /* STMLegalForm.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CCD468B1D646BAF003F8A14 /* STMLegalForm.m */; };
 		2CD5BEFD1CF1DFAB006E1E36 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CD5BEFC1CF1DFAB006E1E36 /* WebKit.framework */; };
 		2CD5BF081CF1E780006E1E36 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2CD5BF0A1CF1E780006E1E36 /* Localizable.strings */; };
 		2CD977071D23C99B005FBC6C /* STMScriptMessagesController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CD977061D23C99B005FBC6C /* STMScriptMessagesController.m */; };
@@ -722,6 +724,11 @@
 		2CC2D3031D13E0A90026EB72 /* STMVisitPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMVisitPhoto.m; sourceTree = "<group>"; };
 		2CC2D3071D13E3720026EB72 /* iSisSales 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "iSisSales 2.xcdatamodel"; sourceTree = "<group>"; };
 		2CC2D3081D13E3720026EB72 /* iSisSales.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iSisSales.xcdatamodel; sourceTree = "<group>"; };
+		2CCD46871D646A47003F8A14 /* iSisSales 6.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "iSisSales 6.xcdatamodel"; sourceTree = "<group>"; };
+		2CCD46881D646BAF003F8A14 /* STMLegalForm+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "STMLegalForm+CoreDataProperties.h"; sourceTree = "<group>"; };
+		2CCD46891D646BAF003F8A14 /* STMLegalForm+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "STMLegalForm+CoreDataProperties.m"; sourceTree = "<group>"; };
+		2CCD468A1D646BAF003F8A14 /* STMLegalForm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMLegalForm.h; sourceTree = "<group>"; };
+		2CCD468B1D646BAF003F8A14 /* STMLegalForm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMLegalForm.m; sourceTree = "<group>"; };
 		2CD5BEFB1CF1DEE1006E1E36 /* iSistemium-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iSistemium-Prefix.pch"; sourceTree = "<group>"; };
 		2CD5BEFC1CF1DFAB006E1E36 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		2CD5BF091CF1E780006E1E36 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -1331,6 +1338,10 @@
 				2CE24E2A1D226B0C0004B63C /* STMContract.m */,
 				2CE24E271D226B0B0004B63C /* STMContract+CoreDataProperties.h */,
 				2CE24E281D226B0B0004B63C /* STMContract+CoreDataProperties.m */,
+				2CCD468A1D646BAF003F8A14 /* STMLegalForm.h */,
+				2CCD468B1D646BAF003F8A14 /* STMLegalForm.m */,
+				2CCD46881D646BAF003F8A14 /* STMLegalForm+CoreDataProperties.h */,
+				2CCD46891D646BAF003F8A14 /* STMLegalForm+CoreDataProperties.m */,
 				2C6112FB1D0BDE7B006BCB30 /* STMLocation.h */,
 				2C6112FC1D0BDE7B006BCB30 /* STMLocation.m */,
 				2C6112F91D0BDE7B006BCB30 /* STMLocation+CoreDataProperties.h */,
@@ -2050,6 +2061,7 @@
 				2C94C0E11CF1B1BB004476D8 /* STMDocument.m in Sources */,
 				2C94C1971CF1B1F3004476D8 /* STMRecordStatus+CoreDataProperties.m in Sources */,
 				2C0A8CA81D09903C007C5B57 /* STMVisitQuestion+CoreDataProperties.m in Sources */,
+				2CCD468C1D646BAF003F8A14 /* STMLegalForm+CoreDataProperties.m in Sources */,
 				2CC2D2FF1D13DCF40026EB72 /* STMCorePhoto+CoreDataProperties.m in Sources */,
 				2C94C12C1CF1B1BB004476D8 /* STMProfileNC.m in Sources */,
 				2CC2D3091D13E3720026EB72 /* iSisSales.xcdatamodeld in Sources */,
@@ -2071,6 +2083,7 @@
 				2C0A8CA41D09903C007C5B57 /* STMVisitQuestionSet+CoreDataProperties.m in Sources */,
 				2C94C0F11CF1B1BB004476D8 /* STMCoreBarCodeController.m in Sources */,
 				2C94C1201CF1B1BB004476D8 /* UIViewController+custom.m in Sources */,
+				2CCD468D1D646BAF003F8A14 /* STMLegalForm.m in Sources */,
 				2C94C25A1CF1B3D8004476D8 /* STMCoreApplication.m in Sources */,
 				2C94C0EC1CF1B1BB004476D8 /* STMStringExtension.swift in Sources */,
 				2C94C1321CF1B1BB004476D8 /* STMSettingsTVC.m in Sources */,
@@ -2384,13 +2397,14 @@
 		2CC2D3061D13E3720026EB72 /* iSisSales.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
+				2CCD46871D646A47003F8A14 /* iSisSales 6.xcdatamodel */,
 				2CFA30311D50DA7500BB9E35 /* iSisSales 5.xcdatamodel */,
 				2C73D6D11D26549100932981 /* iSisSales 4.xcdatamodel */,
 				2CE24E221D2267700004B63C /* iSisSales 3.xcdatamodel */,
 				2CC2D3071D13E3720026EB72 /* iSisSales 2.xcdatamodel */,
 				2CC2D3081D13E3720026EB72 /* iSisSales.xcdatamodel */,
 			);
-			currentVersion = 2CFA30311D50DA7500BB9E35 /* iSisSales 5.xcdatamodel */;
+			currentVersion = 2CCD46871D646A47003F8A14 /* iSisSales 6.xcdatamodel */;
 			path = iSisSales.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
