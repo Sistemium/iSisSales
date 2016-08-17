@@ -26,9 +26,10 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nullable, nonatomic, retain) NSString *source;
 @property (nullable, nonatomic, retain) NSString *target;
 @property (nullable, nonatomic, retain) NSData *xid;
+@property (nullable, nonatomic, retain) NSString *inn;
 @property (nullable, nonatomic, retain) NSSet<STMContract *> *contracts;
-@property (nullable, nonatomic, retain) NSSet<STMOutlet *> *outlets;
 @property (nullable, nonatomic, retain) STMLegalForm *legalForm;
+@property (nullable, nonatomic, retain) NSSet<STMOutlet *> *outlets;
 
 @end
 

@@ -24,8 +24,9 @@
 @dynamic source;
 @dynamic target;
 @dynamic xid;
+@dynamic inn;
 @dynamic contracts;
-@dynamic outlets;
 @dynamic legalForm;
+@dynamic outlets;
 
 @end

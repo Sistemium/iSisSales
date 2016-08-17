@@ -309,6 +309,7 @@
         <attribute name="deviceCts" optional="YES" attributeType="Date" indexed="YES" syncable="YES"/>
         <attribute name="deviceTs" optional="YES" attributeType="Date" syncable="YES"/>
         <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" indexed="YES" syncable="YES"/>
+        <attribute name="inn" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="isFantom" optional="YES" attributeType="Boolean" defaultValueString="YES" syncable="YES"/>
         <attribute name="lts" optional="YES" attributeType="Date" syncable="YES"/>
         <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
@@ -504,7 +505,7 @@
         <element name="STMOutlet" positionX="-954" positionY="-1620" width="128" height="328"/>
         <element name="STMOutletPhoto" positionX="-558" positionY="-1242" width="128" height="58"/>
         <element name="STMOutletSalesmanContract" positionX="-1152" positionY="-1287" width="128" height="253"/>
-        <element name="STMPartner" positionX="-1170" positionY="-1594" width="128" height="253"/>
+        <element name="STMPartner" positionX="-1170" positionY="-1594" width="128" height="268"/>
         <element name="STMRecordStatus" positionX="-695" positionY="-513" width="128" height="268"/>
         <element name="STMSalesman" positionX="-974" positionY="-1242" width="128" height="238"/>
         <element name="STMSetting" positionX="-1154" positionY="-694" width="128" height="238"/>
