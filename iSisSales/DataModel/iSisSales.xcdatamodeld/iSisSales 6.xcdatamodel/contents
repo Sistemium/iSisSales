@@ -214,6 +214,7 @@
         <attribute name="isFantom" optional="YES" attributeType="Boolean" defaultValueString="YES" syncable="YES"/>
         <attribute name="lts" optional="YES" attributeType="Date" syncable="YES"/>
         <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ord" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
         <attribute name="ownerXid" optional="YES" attributeType="Binary" indexed="YES" syncable="YES"/>
         <attribute name="source" optional="YES" attributeType="String" indexed="YES" syncable="YES"/>
         <attribute name="target" optional="YES" attributeType="String" indexed="YES" syncable="YES"/>
@@ -497,7 +498,7 @@
         <element name="STMEntity" positionX="-182" positionY="-952" width="128" height="358"/>
         <element name="STMEntityTemplate" positionX="-1332" positionY="-954" width="128" height="193"/>
         <element name="STMJson" positionX="-855" positionY="-513" width="128" height="238"/>
-        <element name="STMLegalForm" positionX="-1368" positionY="-1546" width="128" height="238"/>
+        <element name="STMLegalForm" positionX="-1368" positionY="-1546" width="128" height="253"/>
         <element name="STMLocation" positionX="-720" positionY="-1135" width="128" height="88"/>
         <element name="STMLogMessage" positionX="-1008" positionY="-684" width="128" height="223"/>
         <element name="STMMessage" positionX="-180" positionY="-552" width="128" height="328"/>
