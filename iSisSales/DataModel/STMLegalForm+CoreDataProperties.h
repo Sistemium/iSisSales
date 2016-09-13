@@ -1,23 +1,24 @@
 //
-//  STMSalesman+CoreDataProperties.h
+//  STMLegalForm+CoreDataProperties.h
 //  iSisSales
 //
-//  Created by Maxim Grigoriev on 28/06/16.
+//  Created by Maxim Grigoriev on 25/08/16.
 //  Copyright © 2016 Sistemium UAB. All rights reserved.
 //
 //  Choose "Create NSManagedObject Subclass…" from the Core Data editor menu
 //  to delete and recreate this implementation file for your updated model.
 //
 
-#import "STMSalesman.h"
+#import "STMLegalForm.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface STMSalesman (CoreDataProperties)
+@interface STMLegalForm (CoreDataProperties)
 
 @property (nullable, nonatomic, retain) NSString *commentText;
 @property (nullable, nonatomic, retain) NSDate *deviceCts;
 @property (nullable, nonatomic, retain) NSDate *deviceTs;
+@property (nullable, nonatomic, retain) NSString *fullName;
 @property (nullable, nonatomic, retain) NSNumber *id;
 @property (nullable, nonatomic, retain) NSNumber *isFantom;
 @property (nullable, nonatomic, retain) NSDate *lts;
@@ -26,22 +27,17 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nullable, nonatomic, retain) NSString *source;
 @property (nullable, nonatomic, retain) NSString *target;
 @property (nullable, nonatomic, retain) NSData *xid;
-@property (nullable, nonatomic, retain) NSSet<STMVisit *> *visits;
-@property (nullable, nonatomic, retain) NSSet<STMOutletSalesmanContract *> *outletSalesmanContracts;
+@property (nullable, nonatomic, retain) NSNumber *ord;
+@property (nullable, nonatomic, retain) NSSet<STMPartner *> *partners;
 
 @end
 
-@interface STMSalesman (CoreDataGeneratedAccessors)
+@interface STMLegalForm (CoreDataGeneratedAccessors)
 
-- (void)addVisitsObject:(STMVisit *)value;
-- (void)removeVisitsObject:(STMVisit *)value;
-- (void)addVisits:(NSSet<STMVisit *> *)values;
-- (void)removeVisits:(NSSet<STMVisit *> *)values;
-
-- (void)addOutletSalesmanContractsObject:(STMOutletSalesmanContract *)value;
-- (void)removeOutletSalesmanContractsObject:(STMOutletSalesmanContract *)value;
-- (void)addOutletSalesmanContracts:(NSSet<STMOutletSalesmanContract *> *)values;
-- (void)removeOutletSalesmanContracts:(NSSet<STMOutletSalesmanContract *> *)values;
+- (void)addPartnersObject:(STMPartner *)value;
+- (void)removePartnersObject:(STMPartner *)value;
+- (void)addPartners:(NSSet<STMPartner *> *)values;
+- (void)removePartners:(NSSet<STMPartner *> *)values;
 
 @end
 

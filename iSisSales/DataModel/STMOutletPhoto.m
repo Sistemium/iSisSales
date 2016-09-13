@@ -1,16 +1,15 @@
 //
-//  STMLocation.m
+//  STMOutletPhoto.m
 //  iSisSales
 //
-//  Created by Maxim Grigoriev on 11/06/16.
+//  Created by Maxim Grigoriev on 02/08/16.
 //  Copyright © 2016 Sistemium UAB. All rights reserved.
 //
 
-#import "STMLocation.h"
+#import "STMOutletPhoto.h"
 #import "STMOutlet.h"
-#import "STMVisit.h"
 
-@implementation STMLocation
+@implementation STMOutletPhoto
 
 // Insert code here to add functionality to your managed object subclass
 

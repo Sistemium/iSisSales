@@ -1,18 +1,18 @@
 //
-//  STMSalesman.h
+//  STMOutletSalesmanContract.h
 //  iSisSales
 //
-//  Created by Maxim Grigoriev on 09/06/16.
+//  Created by Maxim Grigoriev on 28/06/16.
 //  Copyright © 2016 Sistemium UAB. All rights reserved.
 //
 
 #import "STMDatum.h"
 
-@class STMOutletSalesmanContract, STMVisit;
+@class STMContract, STMOutlet, STMSalesman;
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface STMSalesman : STMDatum
+@interface STMOutletSalesmanContract : STMDatum
 
 // Insert code here to declare functionality of your managed object subclass
 
@@ -20,4 +20,4 @@ NS_ASSUME_NONNULL_BEGIN
 
 NS_ASSUME_NONNULL_END
 
-#import "STMSalesman+CoreDataProperties.h"
+#import "STMOutletSalesmanContract+CoreDataProperties.h"

@@ -1,16 +1,15 @@
 //
-//  STMLocation.m
+//  STMLegalForm.m
 //  iSisSales
 //
-//  Created by Maxim Grigoriev on 11/06/16.
+//  Created by Maxim Grigoriev on 17/08/16.
 //  Copyright © 2016 Sistemium UAB. All rights reserved.
 //
 
-#import "STMLocation.h"
-#import "STMOutlet.h"
-#import "STMVisit.h"
+#import "STMLegalForm.h"
+#import "STMPartner.h"
 
-@implementation STMLocation
+@implementation STMLegalForm
 
 // Insert code here to add functionality to your managed object subclass
 
