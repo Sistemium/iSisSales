@@ -10,3 +10,5 @@ xcuserdata
 /ScanApiSDK/*
 
 fabric.sh
+
+.DS_Store

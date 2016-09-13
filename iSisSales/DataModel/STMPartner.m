@@ -15,27 +15,37 @@
 
 - (NSString *)shortName {
     
-    NSError *error = nil;
-    NSRegularExpression *regex = [NSRegularExpression regularExpressionWithPattern:@"\"([^\"]*[^ ])\""
-                                                                           options:NSRegularExpressionCaseInsensitive
-                                                                             error:&error];
-
-    NSTextCheckingResult *match = [regex firstMatchInString:self.name
-                                                    options:0
-                                                      range:NSMakeRange(0, self.name.length)];
+    NSTextCheckingResult *match = [self matchWithRegexPattern:@"\"([^\"]*[^ ])\"" string:self.name];
     
-    if (match) {
+    if (!match) match = [self matchWithRegexPattern:@"\"([^\"]*[^ \"]*)\"" string:self.name];
+
+    if (!match) {
+        
+        return self.name;
+        
+    } else {
         
         NSString *shortName = [self.name substringWithRange:match.range];
         shortName = [shortName stringByReplacingOccurrencesOfString:@"\"" withString:@""];
         return shortName;
         
-    } else {
-        
-        return self.name;
-        
     }
 
+}
+
+- (NSTextCheckingResult *)matchWithRegexPattern:(NSString *)regexPattern string:(NSString *)string {
+    
+    NSError *error = nil;
+    NSRegularExpression *regex = [NSRegularExpression regularExpressionWithPattern:regexPattern
+                                                                           options:NSRegularExpressionCaseInsensitive
+                                                                             error:&error];
+    
+    NSTextCheckingResult *match = [regex firstMatchInString:string
+                                                    options:0
+                                                      range:NSMakeRange(0, string.length)];
+
+    return match;
+    
 }
 
 
