@@ -2,7 +2,7 @@ platform :ios, '7.1'
 
 pod 'KiteJSONValidator', '~> 0.2.3'
 pod 'Reachability', '~> 3.1.0'
-pod 'Crashlytics', '~> 3.7.0'
+pod 'Crashlytics', '~> 3.8.0'
 pod 'JNKeychain', '~> 0.1.4'
 pod 'ScanAPI', :path => '../ScanApiSDK'
 
