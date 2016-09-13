@@ -375,6 +375,7 @@
 		2C40F7961CF2056700231E01 /* STMNS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STMNS.h; sourceTree = "<group>"; };
 		2C40F7971CF205CC00231E01 /* STMUI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STMUI.h; sourceTree = "<group>"; };
 		2C40F7981CF2060300231E01 /* STMCoreNS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STMCoreNS.h; sourceTree = "<group>"; };
+		2C453F031D88015500A43956 /* iSisSales.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = iSisSales.entitlements; sourceTree = "<group>"; };
 		2C6112F91D0BDE7B006BCB30 /* STMLocation+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "STMLocation+CoreDataProperties.h"; sourceTree = "<group>"; };
 		2C6112FA1D0BDE7B006BCB30 /* STMLocation+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "STMLocation+CoreDataProperties.m"; sourceTree = "<group>"; };
 		2C6112FB1D0BDE7B006BCB30 /* STMLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMLocation.h; sourceTree = "<group>"; };
@@ -841,6 +842,7 @@
 		2C94BFCC1CF1ACB8004476D8 /* iSisSales */ = {
 			isa = PBXGroup;
 			children = (
+				2C453F031D88015500A43956 /* iSisSales.entitlements */,
 				2C94C0001CF1B140004476D8 /* ☯ iSisCore */,
 				2C94C25C1CF1B46E004476D8 /* Classes */,
 				2C94C19D1CF1B234004476D8 /* DataModel */,
@@ -2279,6 +2281,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = iSisSales/iSisSales.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_PREFIX_HEADER = "iSisSales/iSistemium-Prefix.pch";
@@ -2300,6 +2303,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = iSisSales/iSisSales.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PREFIX_HEADER = "iSisSales/iSistemium-Prefix.pch";
 				INFOPLIST_FILE = iSisSales/Info.plist;
