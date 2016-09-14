@@ -953,7 +953,6 @@
 				2C94C0201CF1B1BA004476D8 /* STMScanApiHelper.h */,
 				2C94C0211CF1B1BA004476D8 /* STMScanApiHelper.m */,
 				2C94C0221CF1B1BA004476D8 /* STMScriptMessageController.swift */,
-
 				2CD977051D23C99B005FBC6C /* STMScriptMessagesController.h */,
 				2CD977061D23C99B005FBC6C /* STMScriptMessagesController.m */,
 				2C94C0231CF1B1BA004476D8 /* STMSettingsData.h */,
@@ -2136,7 +2135,6 @@
 				2C94C1281CF1B1BB004476D8 /* STMLogMessagesSVC.m in Sources */,
 				2C9AE9A11CF5AF690018D9B3 /* STMJson+CoreDataProperties.m in Sources */,
 				2C94C19A1CF1B1F3004476D8 /* STMSetting.m in Sources */,
-				2CD9770A1D251F32005FBC6C /* STMScriptMessagesController.m in Sources */,
 				2C94C2621CF1B771004476D8 /* STMAppDelegate.m in Sources */,
 				2C94C1961CF1B1F3004476D8 /* STMCorePhoto.m in Sources */,
 				2C94C1811CF1B1F3004476D8 /* STMBatteryStatus+CoreDataProperties.m in Sources */,
@@ -2283,6 +2281,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
 				GCC_PREFIX_HEADER = "iSisSales/iSistemium-Prefix.pch";
 				INFOPLIST_FILE = iSisSales/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -2302,6 +2301,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
 				GCC_PREFIX_HEADER = "iSisSales/iSistemium-Prefix.pch";
 				INFOPLIST_FILE = iSisSales/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
