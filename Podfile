@@ -1,4 +1,4 @@
-platform :ios, '7.1'
+platform :ios, '8.0'
 
 pod 'KiteJSONValidator', '~> 0.2.3'
 pod 'Reachability', '~> 3.1.0'
