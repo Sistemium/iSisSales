@@ -26,6 +26,7 @@
 		2C0A8CB31D09903C007C5B57 /* STMVisitQuestionGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C0A8CA11D09903C007C5B57 /* STMVisitQuestionGroup.m */; };
 		2C2379B21CF2FFB4002AF3F5 /* STMObjectsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C2379B11CF2FFB4002AF3F5 /* STMObjectsController.m */; };
 		2C32C9D81D14441F00CE4981 /* STMCameraOverlayView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C32C9D71D14441F00CE4981 /* STMCameraOverlayView.xib */; };
+		2C3920821D8A7D3500898FC6 /* STMCoreAppManifestHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C3920811D8A7D3500898FC6 /* STMCoreAppManifestHandler.m */; };
 		2C40F7801CF2037A00231E01 /* STMController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C40F77F1CF2037A00231E01 /* STMController.m */; };
 		2C40F78B1CF203A100231E01 /* STMAuthController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C40F7821CF203A100231E01 /* STMAuthController.m */; };
 		2C40F78D1CF203A100231E01 /* STMSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C40F7861CF203A100231E01 /* STMSession.m */; };
@@ -337,6 +338,8 @@
 		2C2379B01CF2FFB4002AF3F5 /* STMObjectsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMObjectsController.h; sourceTree = "<group>"; };
 		2C2379B11CF2FFB4002AF3F5 /* STMObjectsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMObjectsController.m; sourceTree = "<group>"; };
 		2C32C9D71D14441F00CE4981 /* STMCameraOverlayView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = STMCameraOverlayView.xib; sourceTree = "<group>"; };
+		2C3920801D8A7D3500898FC6 /* STMCoreAppManifestHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMCoreAppManifestHandler.h; sourceTree = "<group>"; };
+		2C3920811D8A7D3500898FC6 /* STMCoreAppManifestHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMCoreAppManifestHandler.m; sourceTree = "<group>"; };
 		2C40F77E1CF2037A00231E01 /* STMController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMController.h; sourceTree = "<group>"; };
 		2C40F77F1CF2037A00231E01 /* STMController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMController.m; sourceTree = "<group>"; };
 		2C40F7811CF203A100231E01 /* STMAuthController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMAuthController.h; sourceTree = "<group>"; };
@@ -1247,6 +1250,8 @@
 				2C94C0D41CF1B1BB004476D8 /* STMWKWebViewNC.m */,
 				2C94C0D51CF1B1BB004476D8 /* STMCoreWKWebViewVC.h */,
 				2C94C0D61CF1B1BB004476D8 /* STMCoreWKWebViewVC.m */,
+				2C3920801D8A7D3500898FC6 /* STMCoreAppManifestHandler.h */,
+				2C3920811D8A7D3500898FC6 /* STMCoreAppManifestHandler.m */,
 			);
 			name = "☯ STMWKWebView";
 			path = STMWKWebView;
@@ -2096,6 +2101,7 @@
 				2C94C1891CF1B1F3004476D8 /* STMDatum+CoreDataProperties.m in Sources */,
 				2CD9779F1D2570F0005FBC6C /* SocketEngineWebsocket.swift in Sources */,
 				2C94C0F61CF1B1BB004476D8 /* STMEntityController.m in Sources */,
+				2C3920821D8A7D3500898FC6 /* STMCoreAppManifestHandler.m in Sources */,
 				2C94C18F1CF1B1F3004476D8 /* STMLogMessage+CoreDataProperties.m in Sources */,
 				2CD977991D2570F0005FBC6C /* SocketClientManager.swift in Sources */,
 				2C94C18A1CF1B1F3004476D8 /* STMDatum.m in Sources */,
