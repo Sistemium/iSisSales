@@ -55,6 +55,8 @@
 	<string>NSLocationAlwaysUsageDescription</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string>NSLocationWhenInUseUsageDescription</string>
+	<key>NSBluetoothPeripheralUsageDescription</key>
+	<string>NSBluetoothPeripheralUsageDescription</string>
 	<key>UIBackgroundModes</key>
 	<array>
 		<string>audio</string>

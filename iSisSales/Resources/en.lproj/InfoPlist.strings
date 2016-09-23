@@ -10,3 +10,4 @@ NSCameraUsageDescription = "To make photos";
 NSPhotoLibraryUsageDescription = "To select photos";
 NSLocationAlwaysUsageDescription = "";
 NSLocationWhenInUseUsageDescription = "";
+NSBluetoothPeripheralUsageDescription = "";
