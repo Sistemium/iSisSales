@@ -1,0 +1,13 @@
+/* 
+  InfoPlist.strings
+  iSisSales
+
+  Created by Alexander Levin on 17/09/16.
+  Copyright © 2016 Sistemium UAB. All rights reserved.
+*/
+
+NSCameraUsageDescription = "To make photos";
+NSPhotoLibraryUsageDescription = "To select photos";
+NSLocationAlwaysUsageDescription = "";
+NSLocationWhenInUseUsageDescription = "";
+NSBluetoothPeripheralUsageDescription = "";
