@@ -11,5 +11,24 @@
 
 #import "STMCoreDataModel.h"
 
+#import "STMContract.h"
+
+#import "STMLocation.h"
+
+#import "STMOutlet.h"
+#import "STMOutletPhoto.h"
+#import "STMOutletSalesmanContract.h"
+
+#import "STMPartner.h"
+
+#import "STMSalesman.h"
+
+#import "STMVisit.h"
+#import "STMVisitAnswer.h"
+#import "STMVisitQuestion.h"
+#import "STMVisitQuestionDataType.h"
+#import "STMVisitQuestionGroup.h"
+#import "STMVisitQuestionSet.h"
+
 
 #endif

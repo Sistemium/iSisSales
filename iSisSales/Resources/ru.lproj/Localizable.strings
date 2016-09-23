@@ -203,7 +203,7 @@
 "VERSION" = "версия";
 "LOCATIONS ON" = "Геолокация разрешена";
 "LOCATIONS OFF" = "Геолокация запрещена";
-"LOCATIONS BACKGROUND OFF" = "Фоновая геолокация запрещена";
+"LOCATIONS BACKGROUND OFF" = "Геолокация при использовании";
 "LAST LOCATION" = "Последняя геометка: ";
 "NO LAST LOCATION" = "Нет геометок";
 "ACCURACY IS NOT SUFFICIENT" = "Недостаточная точность геолокации";
@@ -485,3 +485,5 @@
 "2UNUSED" = "%lu неиспользуемые %@";
 "5UNUSED" = "%lu неиспользуемых %@";
 "UNUSED PICTURES" = "Неиспользуемые картинки";
+"CAMERA PERMISSION RESTRICTED" = "Доступ к камере ограничен. Обратитесь к владельцу устройства.";
+"CAMERA PERMISSION DENIED" = "Доступ к камере запрещён. Разрешите использование камеры в настройках программы.";

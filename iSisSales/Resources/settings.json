@@ -17,11 +17,6 @@
            "data":
            [
                 {
-                    "name": "socketUrl",
-                    "value": "",
-                    "control": "textField"
-                },
-                {
                     "name": "objectsLifeTime",
                     "value": 72,
                     "control": "slider",
@@ -224,14 +219,14 @@
           "step": 60
         },
         {
-          "name": "restServerURI",
-          "value": "",
-          "control": "textField"
+            "name": "socketUrl",
+            "value": "",
+            "control": "textField"
         },
         {
-           "name": "API.url",
-           "value": "",
-           "control": "textField"
+            "name": "entityResource",
+            "value": "",
+            "control": "textField"
         },
         {
             "name": "xmlNamespace",
