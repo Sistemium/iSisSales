@@ -485,3 +485,5 @@
 "2UNUSED" = "%lu unused %@";
 "5UNUSED" = "%lu unused %@";
 "UNUSED PICTURES" = "Unused pictures";
+"CAMERA PERMISSION RESTRICTED" = "Camera permission restricted";
+"CAMERA PERMISSION DENIED" = "Camera permission denied";
