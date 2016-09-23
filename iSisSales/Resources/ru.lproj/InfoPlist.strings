@@ -6,4 +6,7 @@
   Copyright © 2016 Sistemium UAB. All rights reserved.
 */
 
-"NSCameraUsageDescription" = "Чтобы делать фотографии";
+NSCameraUsageDescription = "Чтобы делать фотографии";
+NSPhotoLibraryUsageDescription = "Чтобы выбирать фотографии";
+NSLocationAlwaysUsageDescription = "";
+NSLocationWhenInUseUsageDescription = "";

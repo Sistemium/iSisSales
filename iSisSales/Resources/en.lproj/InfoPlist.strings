@@ -6,4 +6,7 @@
   Copyright © 2016 Sistemium UAB. All rights reserved.
 */
 
-"NSCameraUsageDescription" = "To make photos";
+NSCameraUsageDescription = "To make photos";
+NSPhotoLibraryUsageDescription = "To select photos";
+NSLocationAlwaysUsageDescription = "";
+NSLocationWhenInUseUsageDescription = "";
