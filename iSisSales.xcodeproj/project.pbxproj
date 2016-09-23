@@ -2304,10 +2304,7 @@
 				CODE_SIGN_ENTITLEMENTS = iSisSales/iSisSales.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-<<<<<<< HEAD
-=======
 				DEVELOPMENT_TEAM = HZMMGDCLPA;
->>>>>>> localHTML_xcode8
 				ENABLE_BITCODE = NO;
 				GCC_PREFIX_HEADER = "iSisSales/iSistemium-Prefix.pch";
 				INFOPLIST_FILE = iSisSales/Info.plist;
@@ -2330,10 +2327,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_ENTITLEMENTS = iSisSales/iSisSales.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-<<<<<<< HEAD
-=======
 				DEVELOPMENT_TEAM = HZMMGDCLPA;
->>>>>>> localHTML_xcode8
 				ENABLE_BITCODE = NO;
 				GCC_PREFIX_HEADER = "iSisSales/iSistemium-Prefix.pch";
 				INFOPLIST_FILE = iSisSales/Info.plist;
