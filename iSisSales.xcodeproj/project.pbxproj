@@ -24,6 +24,7 @@
 		2C0A8CB11D09903C007C5B57 /* STMVisitAnswer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C0A8C9D1D09903C007C5B57 /* STMVisitAnswer.m */; };
 		2C0A8CB21D09903C007C5B57 /* STMVisitQuestionGroup+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C0A8C9F1D09903C007C5B57 /* STMVisitQuestionGroup+CoreDataProperties.m */; };
 		2C0A8CB31D09903C007C5B57 /* STMVisitQuestionGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C0A8CA11D09903C007C5B57 /* STMVisitQuestionGroup.m */; };
+		2C1AE2521D9BF62500272A63 /* errorCatcherScript.js in Resources */ = {isa = PBXBuildFile; fileRef = 2C1AE2511D9BF62500272A63 /* errorCatcherScript.js */; };
 		2C2379B21CF2FFB4002AF3F5 /* STMObjectsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C2379B11CF2FFB4002AF3F5 /* STMObjectsController.m */; };
 		2C32C9D81D14441F00CE4981 /* STMCameraOverlayView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C32C9D71D14441F00CE4981 /* STMCameraOverlayView.xib */; };
 		2C3920821D8A7D3500898FC6 /* STMCoreAppManifestHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C3920811D8A7D3500898FC6 /* STMCoreAppManifestHandler.m */; };
@@ -336,6 +337,7 @@
 		2C0A8CA01D09903C007C5B57 /* STMVisitQuestionGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMVisitQuestionGroup.h; sourceTree = "<group>"; };
 		2C0A8CA11D09903C007C5B57 /* STMVisitQuestionGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMVisitQuestionGroup.m; sourceTree = "<group>"; };
 		2C1444221D0B1C0700B8E386 /* STMCheckinDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMCheckinDelegate.h; sourceTree = "<group>"; };
+		2C1AE2511D9BF62500272A63 /* errorCatcherScript.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = errorCatcherScript.js; sourceTree = "<group>"; };
 		2C2379B01CF2FFB4002AF3F5 /* STMObjectsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMObjectsController.h; sourceTree = "<group>"; };
 		2C2379B11CF2FFB4002AF3F5 /* STMObjectsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMObjectsController.m; sourceTree = "<group>"; };
 		2C32C9D71D14441F00CE4981 /* STMCameraOverlayView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = STMCameraOverlayView.xib; sourceTree = "<group>"; };
@@ -1257,6 +1259,7 @@
 				2C94C0D61CF1B1BB004476D8 /* STMCoreWKWebViewVC.m */,
 				2C3920801D8A7D3500898FC6 /* STMCoreAppManifestHandler.h */,
 				2C3920811D8A7D3500898FC6 /* STMCoreAppManifestHandler.m */,
+				2C1AE2511D9BF62500272A63 /* errorCatcherScript.js */,
 			);
 			name = "☯ STMWKWebView";
 			path = STMWKWebView;
@@ -1793,6 +1796,7 @@
 			files = (
 				2C94C2011CF1B308004476D8 /* Download From Cloud-100.png in Resources */,
 				2C94C2411CF1B3BA004476D8 /* STMCustom1CVHeader.xib in Resources */,
+				2C1AE2521D9BF62500272A63 /* errorCatcherScript.js in Resources */,
 				2C94C1F41CF1B308004476D8 /* alphabetical_sorting_2.png in Resources */,
 				2C94C2041CF1B308004476D8 /* full_moon-128.png in Resources */,
 				2C94C20F1CF1B308004476D8 /* refresh_barcode.png in Resources */,
