@@ -271,6 +271,9 @@
 		2CC2D3041D13E0A90026EB72 /* STMVisitPhoto+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CC2D3011D13E0A90026EB72 /* STMVisitPhoto+CoreDataProperties.m */; };
 		2CC2D3051D13E0A90026EB72 /* STMVisitPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CC2D3031D13E0A90026EB72 /* STMVisitPhoto.m */; };
 		2CC2D3091D13E3720026EB72 /* iSisSales.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2CC2D3061D13E3720026EB72 /* iSisSales.xcdatamodeld */; };
+		2CC33EED1DAD06B200D21771 /* error.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2CC33EEA1DAD06B200D21771 /* error.mp3 */; };
+		2CC33EEE1DAD06B200D21771 /* ok.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2CC33EEB1DAD06B200D21771 /* ok.mp3 */; };
+		2CC33EEF1DAD06B200D21771 /* silent.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2CC33EEC1DAD06B200D21771 /* silent.wav */; };
 		2CCD468C1D646BAF003F8A14 /* STMLegalForm+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CCD46891D646BAF003F8A14 /* STMLegalForm+CoreDataProperties.m */; };
 		2CCD468D1D646BAF003F8A14 /* STMLegalForm.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CCD468B1D646BAF003F8A14 /* STMLegalForm.m */; };
 		2CD5BEFD1CF1DFAB006E1E36 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CD5BEFC1CF1DFAB006E1E36 /* WebKit.framework */; };
@@ -755,6 +758,9 @@
 		2CC2D3031D13E0A90026EB72 /* STMVisitPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMVisitPhoto.m; sourceTree = "<group>"; };
 		2CC2D3071D13E3720026EB72 /* iSisSales 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "iSisSales 2.xcdatamodel"; sourceTree = "<group>"; };
 		2CC2D3081D13E3720026EB72 /* iSisSales.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iSisSales.xcdatamodel; sourceTree = "<group>"; };
+		2CC33EEA1DAD06B200D21771 /* error.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = error.mp3; sourceTree = "<group>"; };
+		2CC33EEB1DAD06B200D21771 /* ok.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ok.mp3; sourceTree = "<group>"; };
+		2CC33EEC1DAD06B200D21771 /* silent.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = silent.wav; sourceTree = "<group>"; };
 		2CCD46871D646A47003F8A14 /* iSisSales 6.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "iSisSales 6.xcdatamodel"; sourceTree = "<group>"; };
 		2CCD46881D646BAF003F8A14 /* STMLegalForm+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "STMLegalForm+CoreDataProperties.h"; sourceTree = "<group>"; };
 		2CCD46891D646BAF003F8A14 /* STMLegalForm+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "STMLegalForm+CoreDataProperties.m"; sourceTree = "<group>"; };
@@ -823,6 +829,16 @@
 				5E9639524B0D712DC31B0658 /* libPods.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2C907E051DA6979500326CA8 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				2CC33EEA1DAD06B200D21771 /* error.mp3 */,
+				2CC33EEB1DAD06B200D21771 /* ok.mp3 */,
+				2CC33EEC1DAD06B200D21771 /* silent.wav */,
+			);
+			path = Sounds;
 			sourceTree = "<group>";
 		};
 		2C94BFC11CF1ACB8004476D8 = {
@@ -1455,6 +1471,7 @@
 		2C94C1C41CF1B308004476D8 /* ☯ Resources */ = {
 			isa = PBXGroup;
 			children = (
+				2C907E051DA6979500326CA8 /* Sounds */,
 				2C94C1C51CF1B308004476D8 /* ☯ Images */,
 				2C94C1F11CF1B308004476D8 /* settings_schema.json */,
 			);
@@ -1814,6 +1831,8 @@
 				2C94C20B1CF1B308004476D8 /* password2-128.png in Resources */,
 				2C94C2481CF1B3BA004476D8 /* STMCustom7TVCell.xib in Resources */,
 				2C94C2171CF1B308004476D8 /* uncheckmark_filled.png in Resources */,
+				2CC33EEE1DAD06B200D21771 /* ok.mp3 in Resources */,
+				2CC33EEF1DAD06B200D21771 /* silent.wav in Resources */,
 				2C94C2081CF1B308004476D8 /* No connection Cloud-100.png in Resources */,
 				2C94C2111CF1B308004476D8 /* scanner_info.png in Resources */,
 				2C94C24C1CF1B3BA004476D8 /* STMVolumeControlsTVCell.xib in Resources */,
@@ -1857,6 +1876,7 @@
 				2C94C24B1CF1B3BA004476D8 /* STMThreeLinesAndCheckboxTVCell.xib in Resources */,
 				2C94C23E1CF1B3BA004476D8 /* STMCoreVolumeTVCell.xib in Resources */,
 				2C94C1F31CF1B308004476D8 /* alphabetical_sorting.png in Resources */,
+				2CC33EED1DAD06B200D21771 /* error.mp3 in Resources */,
 				2C94BFDA1CF1ACB8004476D8 /* Assets.xcassets in Resources */,
 				2C94C1FF1CF1B308004476D8 /* data_in_both_directions.png in Resources */,
 				2C94C24E1CF1B3BA004476D8 /* STMMessages.storyboard in Resources */,
