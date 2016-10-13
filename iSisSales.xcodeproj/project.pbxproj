@@ -831,13 +831,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		2C907E051DA6979500326CA8 /* Sounds */ = {
+		2C907E051DA6979500326CA8 /* ☯ Sounds */ = {
 			isa = PBXGroup;
 			children = (
 				2CC33EEA1DAD06B200D21771 /* error.mp3 */,
 				2CC33EEB1DAD06B200D21771 /* ok.mp3 */,
 				2CC33EEC1DAD06B200D21771 /* silent.wav */,
 			);
+			name = "☯ Sounds";
 			path = Sounds;
 			sourceTree = "<group>";
 		};
@@ -1471,7 +1472,7 @@
 		2C94C1C41CF1B308004476D8 /* ☯ Resources */ = {
 			isa = PBXGroup;
 			children = (
-				2C907E051DA6979500326CA8 /* Sounds */,
+				2C907E051DA6979500326CA8 /* ☯ Sounds */,
 				2C94C1C51CF1B308004476D8 /* ☯ Images */,
 				2C94C1F11CF1B308004476D8 /* settings_schema.json */,
 			);
