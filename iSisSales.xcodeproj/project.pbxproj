@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		03E0124B49F4F46928602305 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9639524B0D712DC31B0658 /* libPods.a */; };
 		2C0A8CA41D09903C007C5B57 /* STMVisitQuestionSet+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C0A8C831D09903C007C5B57 /* STMVisitQuestionSet+CoreDataProperties.m */; };
 		2C0A8CA51D09903C007C5B57 /* STMVisitQuestionSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C0A8C851D09903C007C5B57 /* STMVisitQuestionSet.m */; };
 		2C0A8CA61D09903C007C5B57 /* STMOutlet+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C0A8C871D09903C007C5B57 /* STMOutlet+CoreDataProperties.m */; };
@@ -33,30 +32,6 @@
 		2C40F78D1CF203A100231E01 /* STMSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C40F7861CF203A100231E01 /* STMSession.m */; };
 		2C40F78E1CF203A100231E01 /* STMSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C40F7881CF203A100231E01 /* STMSessionManager.m */; };
 		2C40F78F1CF203A100231E01 /* STMSettingsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C40F78A1CF203A100231E01 /* STMSettingsController.m */; };
-		2C453F4C1D88033600A43956 /* SocketAckEmitter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C453F341D88033600A43956 /* SocketAckEmitter.swift */; };
-		2C453F4D1D88033600A43956 /* SocketAckManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C453F351D88033600A43956 /* SocketAckManager.swift */; };
-		2C453F4E1D88033600A43956 /* SocketAnyEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C453F361D88033600A43956 /* SocketAnyEvent.swift */; };
-		2C453F4F1D88033600A43956 /* SocketClientManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C453F371D88033600A43956 /* SocketClientManager.swift */; };
-		2C453F501D88033600A43956 /* SocketEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C453F381D88033600A43956 /* SocketEngine.swift */; };
-		2C453F511D88033600A43956 /* SocketEngineClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C453F391D88033600A43956 /* SocketEngineClient.swift */; };
-		2C453F521D88033600A43956 /* SocketEnginePacketType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C453F3A1D88033600A43956 /* SocketEnginePacketType.swift */; };
-		2C453F531D88033600A43956 /* SocketEnginePollable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C453F3B1D88033600A43956 /* SocketEnginePollable.swift */; };
-		2C453F541D88033600A43956 /* SocketEngineSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C453F3C1D88033600A43956 /* SocketEngineSpec.swift */; };
-		2C453F551D88033600A43956 /* SocketEngineWebsocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C453F3D1D88033600A43956 /* SocketEngineWebsocket.swift */; };
-		2C453F561D88033600A43956 /* SocketEventHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C453F3E1D88033600A43956 /* SocketEventHandler.swift */; };
-		2C453F571D88033600A43956 /* SocketExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C453F3F1D88033600A43956 /* SocketExtensions.swift */; };
-		2C453F581D88033600A43956 /* SocketIOClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C453F401D88033600A43956 /* SocketIOClient.swift */; };
-		2C453F591D88033600A43956 /* SocketIOClientConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C453F411D88033600A43956 /* SocketIOClientConfiguration.swift */; };
-		2C453F5A1D88033600A43956 /* SocketIOClientOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C453F421D88033600A43956 /* SocketIOClientOption.swift */; };
-		2C453F5B1D88033600A43956 /* SocketIOClientSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C453F431D88033600A43956 /* SocketIOClientSpec.swift */; };
-		2C453F5C1D88033600A43956 /* SocketIOClientStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C453F441D88033600A43956 /* SocketIOClientStatus.swift */; };
-		2C453F5D1D88033600A43956 /* SocketLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C453F451D88033600A43956 /* SocketLogger.swift */; };
-		2C453F5E1D88033600A43956 /* SocketPacket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C453F461D88033600A43956 /* SocketPacket.swift */; };
-		2C453F5F1D88033600A43956 /* SocketParsable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C453F471D88033600A43956 /* SocketParsable.swift */; };
-		2C453F601D88033600A43956 /* SocketStringReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C453F481D88033600A43956 /* SocketStringReader.swift */; };
-		2C453F611D88033600A43956 /* SocketTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C453F491D88033600A43956 /* SocketTypes.swift */; };
-		2C453F621D88033600A43956 /* SSLSecurity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C453F4A1D88033600A43956 /* SSLSecurity.swift */; };
-		2C453F631D88033600A43956 /* WebSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C453F4B1D88033600A43956 /* WebSocket.swift */; };
 		2C6113011D0BDE7B006BCB30 /* STMLocation+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C6112FA1D0BDE7B006BCB30 /* STMLocation+CoreDataProperties.m */; };
 		2C6113021D0BDE7B006BCB30 /* STMLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C6112FC1D0BDE7B006BCB30 /* STMLocation.m */; };
 		2C6113031D0BDE7B006BCB30 /* STMVisit+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C6112FE1D0BDE7B006BCB30 /* STMVisit+CoreDataProperties.m */; };
@@ -171,12 +146,8 @@
 		2C94C1841CF1B1F3004476D8 /* STMClientData.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C14A1CF1B1F3004476D8 /* STMClientData.m */; };
 		2C94C1851CF1B1F3004476D8 /* STMClientEntity+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C14C1CF1B1F3004476D8 /* STMClientEntity+CoreDataProperties.m */; };
 		2C94C1861CF1B1F3004476D8 /* STMClientEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C14E1CF1B1F3004476D8 /* STMClientEntity.m */; };
-		2C94C1871CF1B1F3004476D8 /* STMCorePicture+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C1511CF1B1F3004476D8 /* STMCorePicture+CoreDataProperties.m */; };
-		2C94C1881CF1B1F3004476D8 /* STMCorePicture.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C1531CF1B1F3004476D8 /* STMCorePicture.m */; };
 		2C94C1891CF1B1F3004476D8 /* STMDatum+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C1551CF1B1F3004476D8 /* STMDatum+CoreDataProperties.m */; };
 		2C94C18A1CF1B1F3004476D8 /* STMDatum.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C1571CF1B1F3004476D8 /* STMDatum.m */; };
-		2C94C18B1CF1B1F3004476D8 /* STMEntity+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C1591CF1B1F3004476D8 /* STMEntity+CoreDataProperties.m */; };
-		2C94C18C1CF1B1F3004476D8 /* STMEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C15B1CF1B1F3004476D8 /* STMEntity.m */; };
 		2C94C18D1CF1B1F3004476D8 /* STMCoreLocation+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C15D1CF1B1F3004476D8 /* STMCoreLocation+CoreDataProperties.m */; };
 		2C94C18E1CF1B1F3004476D8 /* STMCoreLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C15F1CF1B1F3004476D8 /* STMCoreLocation.m */; };
 		2C94C18F1CF1B1F3004476D8 /* STMLogMessage+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C1611CF1B1F3004476D8 /* STMLogMessage+CoreDataProperties.m */; };
@@ -286,6 +257,11 @@
 		2CFA30301D4F310300BB9E35 /* STMUserDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CFA302F1D4F310300BB9E35 /* STMUserDefaults.m */; };
 		2CFA30361D50DBF300BB9E35 /* STMOutletPhoto+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CFA30331D50DBF300BB9E35 /* STMOutletPhoto+CoreDataProperties.m */; };
 		2CFA30371D50DBF300BB9E35 /* STMOutletPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CFA30351D50DBF300BB9E35 /* STMOutletPhoto.m */; };
+		3550B1DC1DAE59F300F8A368 /* STMCorePicture.m in Sources */ = {isa = PBXBuildFile; fileRef = 3550B1D91DAE59F300F8A368 /* STMCorePicture.m */; };
+		3550B1DD1DAE59F300F8A368 /* STMCorePicture+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 3550B1DB1DAE59F300F8A368 /* STMCorePicture+CoreDataProperties.m */; };
+		3550B1E21DAE5CC300F8A368 /* STMEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 3550B1DF1DAE5CC300F8A368 /* STMEntity.m */; };
+		3550B1E31DAE5CC300F8A368 /* STMEntity+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 3550B1E11DAE5CC300F8A368 /* STMEntity+CoreDataProperties.m */; };
+		6CB5EFF57DB5E4B78CC4A080 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5AB0EC47BD72C1AE7EBF7FA /* Pods.framework */; };
 		D920AF7D1D8D417700E825FC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D920AF7F1D8D417700E825FC /* InfoPlist.strings */; };
 /* End PBXBuildFile section */
 
@@ -361,30 +337,6 @@
 		2C40F7971CF205CC00231E01 /* STMUI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STMUI.h; sourceTree = "<group>"; };
 		2C40F7981CF2060300231E01 /* STMCoreNS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STMCoreNS.h; sourceTree = "<group>"; };
 		2C453F031D88015500A43956 /* iSisSales.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = iSisSales.entitlements; sourceTree = "<group>"; };
-		2C453F341D88033600A43956 /* SocketAckEmitter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketAckEmitter.swift; sourceTree = "<group>"; };
-		2C453F351D88033600A43956 /* SocketAckManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketAckManager.swift; sourceTree = "<group>"; };
-		2C453F361D88033600A43956 /* SocketAnyEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketAnyEvent.swift; sourceTree = "<group>"; };
-		2C453F371D88033600A43956 /* SocketClientManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketClientManager.swift; sourceTree = "<group>"; };
-		2C453F381D88033600A43956 /* SocketEngine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketEngine.swift; sourceTree = "<group>"; };
-		2C453F391D88033600A43956 /* SocketEngineClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketEngineClient.swift; sourceTree = "<group>"; };
-		2C453F3A1D88033600A43956 /* SocketEnginePacketType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketEnginePacketType.swift; sourceTree = "<group>"; };
-		2C453F3B1D88033600A43956 /* SocketEnginePollable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketEnginePollable.swift; sourceTree = "<group>"; };
-		2C453F3C1D88033600A43956 /* SocketEngineSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketEngineSpec.swift; sourceTree = "<group>"; };
-		2C453F3D1D88033600A43956 /* SocketEngineWebsocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketEngineWebsocket.swift; sourceTree = "<group>"; };
-		2C453F3E1D88033600A43956 /* SocketEventHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketEventHandler.swift; sourceTree = "<group>"; };
-		2C453F3F1D88033600A43956 /* SocketExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketExtensions.swift; sourceTree = "<group>"; };
-		2C453F401D88033600A43956 /* SocketIOClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketIOClient.swift; sourceTree = "<group>"; };
-		2C453F411D88033600A43956 /* SocketIOClientConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketIOClientConfiguration.swift; sourceTree = "<group>"; };
-		2C453F421D88033600A43956 /* SocketIOClientOption.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketIOClientOption.swift; sourceTree = "<group>"; };
-		2C453F431D88033600A43956 /* SocketIOClientSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketIOClientSpec.swift; sourceTree = "<group>"; };
-		2C453F441D88033600A43956 /* SocketIOClientStatus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketIOClientStatus.swift; sourceTree = "<group>"; };
-		2C453F451D88033600A43956 /* SocketLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketLogger.swift; sourceTree = "<group>"; };
-		2C453F461D88033600A43956 /* SocketPacket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketPacket.swift; sourceTree = "<group>"; };
-		2C453F471D88033600A43956 /* SocketParsable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketParsable.swift; sourceTree = "<group>"; };
-		2C453F481D88033600A43956 /* SocketStringReader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketStringReader.swift; sourceTree = "<group>"; };
-		2C453F491D88033600A43956 /* SocketTypes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketTypes.swift; sourceTree = "<group>"; };
-		2C453F4A1D88033600A43956 /* SSLSecurity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSLSecurity.swift; sourceTree = "<group>"; };
-		2C453F4B1D88033600A43956 /* WebSocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebSocket.swift; sourceTree = "<group>"; };
 		2C6112F91D0BDE7B006BCB30 /* STMLocation+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "STMLocation+CoreDataProperties.h"; sourceTree = "<group>"; };
 		2C6112FA1D0BDE7B006BCB30 /* STMLocation+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "STMLocation+CoreDataProperties.m"; sourceTree = "<group>"; };
 		2C6112FB1D0BDE7B006BCB30 /* STMLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMLocation.h; sourceTree = "<group>"; };
@@ -624,18 +576,10 @@
 		2C94C14D1CF1B1F3004476D8 /* STMClientEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMClientEntity.h; sourceTree = "<group>"; };
 		2C94C14E1CF1B1F3004476D8 /* STMClientEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMClientEntity.m; sourceTree = "<group>"; };
 		2C94C14F1CF1B1F3004476D8 /* STMCoreDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMCoreDataModel.h; sourceTree = "<group>"; };
-		2C94C1501CF1B1F3004476D8 /* STMCorePicture+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "STMCorePicture+CoreDataProperties.h"; sourceTree = "<group>"; };
-		2C94C1511CF1B1F3004476D8 /* STMCorePicture+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "STMCorePicture+CoreDataProperties.m"; sourceTree = "<group>"; };
-		2C94C1521CF1B1F3004476D8 /* STMCorePicture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMCorePicture.h; sourceTree = "<group>"; };
-		2C94C1531CF1B1F3004476D8 /* STMCorePicture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMCorePicture.m; sourceTree = "<group>"; };
 		2C94C1541CF1B1F3004476D8 /* STMDatum+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "STMDatum+CoreDataProperties.h"; sourceTree = "<group>"; };
 		2C94C1551CF1B1F3004476D8 /* STMDatum+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "STMDatum+CoreDataProperties.m"; sourceTree = "<group>"; };
 		2C94C1561CF1B1F3004476D8 /* STMDatum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMDatum.h; sourceTree = "<group>"; };
 		2C94C1571CF1B1F3004476D8 /* STMDatum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMDatum.m; sourceTree = "<group>"; };
-		2C94C1581CF1B1F3004476D8 /* STMEntity+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "STMEntity+CoreDataProperties.h"; sourceTree = "<group>"; };
-		2C94C1591CF1B1F3004476D8 /* STMEntity+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "STMEntity+CoreDataProperties.m"; sourceTree = "<group>"; };
-		2C94C15A1CF1B1F3004476D8 /* STMEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMEntity.h; sourceTree = "<group>"; };
-		2C94C15B1CF1B1F3004476D8 /* STMEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMEntity.m; sourceTree = "<group>"; };
 		2C94C15C1CF1B1F3004476D8 /* STMCoreLocation+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "STMCoreLocation+CoreDataProperties.h"; sourceTree = "<group>"; };
 		2C94C15D1CF1B1F3004476D8 /* STMCoreLocation+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "STMCoreLocation+CoreDataProperties.m"; sourceTree = "<group>"; };
 		2C94C15E1CF1B1F3004476D8 /* STMCoreLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMCoreLocation.h; sourceTree = "<group>"; };
@@ -788,9 +732,18 @@
 		2CFA30331D50DBF300BB9E35 /* STMOutletPhoto+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "STMOutletPhoto+CoreDataProperties.m"; sourceTree = "<group>"; };
 		2CFA30341D50DBF300BB9E35 /* STMOutletPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMOutletPhoto.h; sourceTree = "<group>"; };
 		2CFA30351D50DBF300BB9E35 /* STMOutletPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMOutletPhoto.m; sourceTree = "<group>"; };
-		5E9639524B0D712DC31B0658 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		3550B1D11DAE58C300F8A368 /* iSisSales 7.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "iSisSales 7.xcdatamodel"; sourceTree = "<group>"; };
+		3550B1D81DAE59F300F8A368 /* STMCorePicture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMCorePicture.h; sourceTree = "<group>"; };
+		3550B1D91DAE59F300F8A368 /* STMCorePicture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMCorePicture.m; sourceTree = "<group>"; };
+		3550B1DA1DAE59F300F8A368 /* STMCorePicture+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "STMCorePicture+CoreDataProperties.h"; sourceTree = "<group>"; };
+		3550B1DB1DAE59F300F8A368 /* STMCorePicture+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "STMCorePicture+CoreDataProperties.m"; sourceTree = "<group>"; };
+		3550B1DE1DAE5CC300F8A368 /* STMEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMEntity.h; sourceTree = "<group>"; };
+		3550B1DF1DAE5CC300F8A368 /* STMEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMEntity.m; sourceTree = "<group>"; };
+		3550B1E01DAE5CC300F8A368 /* STMEntity+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "STMEntity+CoreDataProperties.h"; sourceTree = "<group>"; };
+		3550B1E11DAE5CC300F8A368 /* STMEntity+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "STMEntity+CoreDataProperties.m"; sourceTree = "<group>"; };
 		7B689995AE2A7E80F555D29A /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		A3277DFA3A62BBCE8AF2B808 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		A5AB0EC47BD72C1AE7EBF7FA /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D920AF7E1D8D417700E825FC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D920AF801D8D417C00E825FC /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -801,7 +754,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2CD5BEFD1CF1DFAB006E1E36 /* WebKit.framework in Frameworks */,
-				03E0124B49F4F46928602305 /* libPods.a in Frameworks */,
+				6CB5EFF57DB5E4B78CC4A080 /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -826,7 +779,7 @@
 			isa = PBXGroup;
 			children = (
 				2CD5BEFC1CF1DFAB006E1E36 /* WebKit.framework */,
-				5E9639524B0D712DC31B0658 /* libPods.a */,
+				A5AB0EC47BD72C1AE7EBF7FA /* Pods.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -917,7 +870,6 @@
 			children = (
 				2C94C0011CF1B1BA004476D8 /* ☯ Classes */,
 				2C94C1391CF1B1F3004476D8 /* ☯ DataModel */,
-				2C94C1A21CF1B2D8004476D8 /* ☯ Frameworks */,
 				2C94C1C41CF1B308004476D8 /* ☯ Resources */,
 				2C94C2231CF1B3BA004476D8 /* ☯ Storyboards */,
 				2C94C25B1CF1B3E5004476D8 /* iSistemiumCore-Bridging-Header.h */,
@@ -1285,6 +1237,14 @@
 		2C94C1391CF1B1F3004476D8 /* ☯ DataModel */ = {
 			isa = PBXGroup;
 			children = (
+				3550B1DE1DAE5CC300F8A368 /* STMEntity.h */,
+				3550B1DF1DAE5CC300F8A368 /* STMEntity.m */,
+				3550B1E01DAE5CC300F8A368 /* STMEntity+CoreDataProperties.h */,
+				3550B1E11DAE5CC300F8A368 /* STMEntity+CoreDataProperties.m */,
+				3550B1D81DAE59F300F8A368 /* STMCorePicture.h */,
+				3550B1D91DAE59F300F8A368 /* STMCorePicture.m */,
+				3550B1DA1DAE59F300F8A368 /* STMCorePicture+CoreDataProperties.h */,
+				3550B1DB1DAE59F300F8A368 /* STMCorePicture+CoreDataProperties.m */,
 				2C94C14F1CF1B1F3004476D8 /* STMCoreDataModel.h */,
 				2C94C13D1CF1B1F3004476D8 /* STMBarCodeScan.h */,
 				2C94C13E1CF1B1F3004476D8 /* STMBarCodeScan.m */,
@@ -1308,24 +1268,16 @@
 				2C94C14C1CF1B1F3004476D8 /* STMClientEntity+CoreDataProperties.m */,
 				2C94C15E1CF1B1F3004476D8 /* STMCoreLocation.h */,
 				2C94C15F1CF1B1F3004476D8 /* STMCoreLocation.m */,
-				2C94C15C1CF1B1F3004476D8 /* STMCoreLocation+CoreDataProperties.h */,
 				2C94C15D1CF1B1F3004476D8 /* STMCoreLocation+CoreDataProperties.m */,
+				2C94C15C1CF1B1F3004476D8 /* STMCoreLocation+CoreDataProperties.h */,
 				2C94C16E1CF1B1F3004476D8 /* STMCorePhoto.h */,
 				2C94C16F1CF1B1F3004476D8 /* STMCorePhoto.m */,
 				2CC2D2FD1D13DCF40026EB72 /* STMCorePhoto+CoreDataProperties.h */,
 				2CC2D2FE1D13DCF40026EB72 /* STMCorePhoto+CoreDataProperties.m */,
-				2C94C1521CF1B1F3004476D8 /* STMCorePicture.h */,
-				2C94C1531CF1B1F3004476D8 /* STMCorePicture.m */,
-				2C94C1501CF1B1F3004476D8 /* STMCorePicture+CoreDataProperties.h */,
-				2C94C1511CF1B1F3004476D8 /* STMCorePicture+CoreDataProperties.m */,
 				2C94C1561CF1B1F3004476D8 /* STMDatum.h */,
 				2C94C1571CF1B1F3004476D8 /* STMDatum.m */,
 				2C94C1541CF1B1F3004476D8 /* STMDatum+CoreDataProperties.h */,
 				2C94C1551CF1B1F3004476D8 /* STMDatum+CoreDataProperties.m */,
-				2C94C15A1CF1B1F3004476D8 /* STMEntity.h */,
-				2C94C15B1CF1B1F3004476D8 /* STMEntity.m */,
-				2C94C1581CF1B1F3004476D8 /* STMEntity+CoreDataProperties.h */,
-				2C94C1591CF1B1F3004476D8 /* STMEntity+CoreDataProperties.m */,
 				2C9AE99C1CF5AF690018D9B3 /* STMJson.h */,
 				2C9AE99D1CF5AF690018D9B3 /* STMJson.m */,
 				2C9AE99E1CF5AF690018D9B3 /* STMJson+CoreDataProperties.h */,
@@ -1426,47 +1378,6 @@
 				2C0A8C831D09903C007C5B57 /* STMVisitQuestionSet+CoreDataProperties.m */,
 			);
 			path = DataModel;
-			sourceTree = "<group>";
-		};
-		2C94C1A21CF1B2D8004476D8 /* ☯ Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				2C94C1A31CF1B2D8004476D8 /* ☯ SocketIOClientSwift */,
-			);
-			name = "☯ Frameworks";
-			path = ../../iSistemiumCore/iSistemiumCore/Frameworks;
-			sourceTree = "<group>";
-		};
-		2C94C1A31CF1B2D8004476D8 /* ☯ SocketIOClientSwift */ = {
-			isa = PBXGroup;
-			children = (
-				2C453F341D88033600A43956 /* SocketAckEmitter.swift */,
-				2C453F351D88033600A43956 /* SocketAckManager.swift */,
-				2C453F361D88033600A43956 /* SocketAnyEvent.swift */,
-				2C453F371D88033600A43956 /* SocketClientManager.swift */,
-				2C453F381D88033600A43956 /* SocketEngine.swift */,
-				2C453F391D88033600A43956 /* SocketEngineClient.swift */,
-				2C453F3A1D88033600A43956 /* SocketEnginePacketType.swift */,
-				2C453F3B1D88033600A43956 /* SocketEnginePollable.swift */,
-				2C453F3C1D88033600A43956 /* SocketEngineSpec.swift */,
-				2C453F3D1D88033600A43956 /* SocketEngineWebsocket.swift */,
-				2C453F3E1D88033600A43956 /* SocketEventHandler.swift */,
-				2C453F3F1D88033600A43956 /* SocketExtensions.swift */,
-				2C453F401D88033600A43956 /* SocketIOClient.swift */,
-				2C453F411D88033600A43956 /* SocketIOClientConfiguration.swift */,
-				2C453F421D88033600A43956 /* SocketIOClientOption.swift */,
-				2C453F431D88033600A43956 /* SocketIOClientSpec.swift */,
-				2C453F441D88033600A43956 /* SocketIOClientStatus.swift */,
-				2C453F451D88033600A43956 /* SocketLogger.swift */,
-				2C453F461D88033600A43956 /* SocketPacket.swift */,
-				2C453F471D88033600A43956 /* SocketParsable.swift */,
-				2C453F481D88033600A43956 /* SocketStringReader.swift */,
-				2C453F491D88033600A43956 /* SocketTypes.swift */,
-				2C453F4A1D88033600A43956 /* SSLSecurity.swift */,
-				2C453F4B1D88033600A43956 /* WebSocket.swift */,
-			);
-			name = "☯ SocketIOClientSwift";
-			path = SocketIOClientSwift;
 			sourceTree = "<group>";
 		};
 		2C94C1C41CF1B308004476D8 /* ☯ Resources */ = {
@@ -1983,7 +1894,6 @@
 				2C94C0E71CF1B1BB004476D8 /* STMScanApiHelper.m in Sources */,
 				2CD977071D23C99B005FBC6C /* STMScriptMessagesController.m in Sources */,
 				2C94C0DF1CF1B1BB004476D8 /* STMCoreSettingsController.m in Sources */,
-				2C453F521D88033600A43956 /* SocketEnginePacketType.swift in Sources */,
 				2C94C1161CF1B1BB004476D8 /* STMSearchableTVC.m in Sources */,
 				2C94C1841CF1B1F3004476D8 /* STMClientData.m in Sources */,
 				2C94C0F21CF1B1BB004476D8 /* STMCoreController.m in Sources */,
@@ -1997,32 +1907,27 @@
 				2C6113041D0BDE7B006BCB30 /* STMVisit.m in Sources */,
 				2C0A8CAB1D09903C007C5B57 /* STMVisitQuestionDataType.m in Sources */,
 				2C94C1151CF1B1BB004476D8 /* STMLabel.m in Sources */,
-				2C94C18B1CF1B1F3004476D8 /* STMEntity+CoreDataProperties.m in Sources */,
-				2C453F5C1D88033600A43956 /* SocketIOClientStatus.swift in Sources */,
 				2C40F7801CF2037A00231E01 /* STMController.m in Sources */,
 				2C94C1361CF1B1BB004476D8 /* STMWKWebViewNC.m in Sources */,
 				2C94C0EA1CF1B1BB004476D8 /* STMSocketController.m in Sources */,
 				2C94C1921CF1B1F3004476D8 /* STMMessage.m in Sources */,
-				2C453F631D88033600A43956 /* WebSocket.swift in Sources */,
 				2C94C1011CF1B1BB004476D8 /* STMCoreVolumeTVCell.m in Sources */,
 				2C94C0E61CF1B1BB004476D8 /* STMRemoteController.m in Sources */,
 				2C94C17D1CF1B1F3004476D8 /* STMBarCodeScan+CoreDataProperties.m in Sources */,
 				2C94C0FB1CF1B1BB004476D8 /* STMEntityDescription.m in Sources */,
 				2C94C1381CF1B1BB004476D8 /* STMWorkflowEditablesVC.m in Sources */,
-				2C453F5F1D88033600A43956 /* SocketParsable.swift in Sources */,
-				2C453F5B1D88033600A43956 /* SocketIOClientSpec.swift in Sources */,
 				2C94C0E21CF1B1BB004476D8 /* STMExtendNSLog.m in Sources */,
 				2C94C17F1CF1B1F3004476D8 /* STMBarCodeType+CoreDataProperties.m in Sources */,
-				2C453F561D88033600A43956 /* SocketEventHandler.swift in Sources */,
+				3550B1DC1DAE59F300F8A368 /* STMCorePicture.m in Sources */,
 				2C94C0E01CF1B1BB004476D8 /* STMCoreTracker.m in Sources */,
 				2CE24E2C1D226B0C0004B63C /* STMOutletSalesmanContract.m in Sources */,
 				2C0A8CA51D09903C007C5B57 /* STMVisitQuestionSet.m in Sources */,
 				2C94C19C1CF1B1F3004476D8 /* STMWorkflow.m in Sources */,
 				2C94C1801CF1B1F3004476D8 /* STMBarCodeType.m in Sources */,
 				2C94C10C1CF1B1BB004476D8 /* STMCustom8TVCell.m in Sources */,
-				2C94C1881CF1B1F3004476D8 /* STMCorePicture.m in Sources */,
 				2CFA30301D4F310300BB9E35 /* STMUserDefaults.m in Sources */,
 				2C94C0F01CF1B1BB004476D8 /* STMClientEntityController.m in Sources */,
+				3550B1DD1DAE59F300F8A368 /* STMCorePicture+CoreDataProperties.m in Sources */,
 				2C94C0E91CF1B1BB004476D8 /* STMSettingsData.m in Sources */,
 				2C94C1371CF1B1BB004476D8 /* STMCoreWKWebViewVC.m in Sources */,
 				2C0A8CA61D09903C007C5B57 /* STMOutlet+CoreDataProperties.m in Sources */,
@@ -2045,7 +1950,6 @@
 				2CFA30371D50DBF300BB9E35 /* STMOutletPhoto.m in Sources */,
 				2C94C1191CF1B1BB004476D8 /* STMSplitViewController.m in Sources */,
 				2C94C1301CF1B1BB004476D8 /* STMSettingControlsTVC.m in Sources */,
-				2C453F4E1D88033600A43956 /* SocketAnyEvent.swift in Sources */,
 				2C94C1101CF1B1BB004476D8 /* STMDatePicker.swift in Sources */,
 				2C94C1221CF1B1BB004476D8 /* STMAuthPhoneVC.m in Sources */,
 				2C94C10E1CF1B1BB004476D8 /* STMThreeLinesAndCheckboxTVCell.swift in Sources */,
@@ -2056,32 +1960,24 @@
 				2C94C1021CF1B1BB004476D8 /* STMCustom10TVCell.m in Sources */,
 				2C94C12E1CF1B1BB004476D8 /* STMScannerInfoNC.m in Sources */,
 				2C94C1031CF1B1BB004476D8 /* STMCustom1CVCell.m in Sources */,
-				2C453F571D88033600A43956 /* SocketExtensions.swift in Sources */,
 				2C94C0D91CF1B1BB004476D8 /* STMBarCodeScanner.m in Sources */,
 				2C94C1211CF1B1BB004476D8 /* STMAuthNC.m in Sources */,
 				2C94C1051CF1B1BB004476D8 /* STMCustom1TVCell.m in Sources */,
-				2C453F581D88033600A43956 /* SocketIOClient.swift in Sources */,
 				2C94C1311CF1B1BB004476D8 /* STMSettingsNC.m in Sources */,
 				2C6113021D0BDE7B006BCB30 /* STMLocation.m in Sources */,
 				2C0A8CAE1D09903C007C5B57 /* STMPartner+CoreDataProperties.m in Sources */,
 				2C94C0F81CF1B1BB004476D8 /* STMMessageController.m in Sources */,
-				2C453F5D1D88033600A43956 /* SocketLogger.swift in Sources */,
+				3550B1E31DAE5CC300F8A368 /* STMEntity+CoreDataProperties.m in Sources */,
 				2C94C10D1CF1B1BB004476D8 /* STMCustom9TVCell.m in Sources */,
 				2C94C2631CF1B771004476D8 /* STMApplication.m in Sources */,
 				2C94C11A1CF1B1BB004476D8 /* STMSplitViewController_Swift.swift in Sources */,
-				2C94C18C1CF1B1F3004476D8 /* STMEntity.m in Sources */,
 				2C94C1331CF1B1BB004476D8 /* STMTabBarButtonTVC.m in Sources */,
 				2C94C1181CF1B1BB004476D8 /* STMSpinnerView.m in Sources */,
-				2C453F541D88033600A43956 /* SocketEngineSpec.swift in Sources */,
 				2C94C1911CF1B1F3004476D8 /* STMMessage+CoreDataProperties.m in Sources */,
-				2C453F4D1D88033600A43956 /* SocketAckManager.swift in Sources */,
 				2C0A8CAF1D09903C007C5B57 /* STMPartner.m in Sources */,
 				2C2379B21CF2FFB4002AF3F5 /* STMObjectsController.m in Sources */,
-				2C453F611D88033600A43956 /* SocketTypes.swift in Sources */,
 				2C0A8CAA1D09903C007C5B57 /* STMVisitQuestionDataType+CoreDataProperties.m in Sources */,
 				2C94C1171CF1B1BB004476D8 /* STMSegmentedControl.m in Sources */,
-				2C453F501D88033600A43956 /* SocketEngine.swift in Sources */,
-				2C453F551D88033600A43956 /* SocketEngineWebsocket.swift in Sources */,
 				2C94C18E1CF1B1F3004476D8 /* STMCoreLocation.m in Sources */,
 				2C94C1351CF1B1BB004476D8 /* STMWebViewVC.m in Sources */,
 				2C94C0DA1CF1B1BB004476D8 /* STMCoreAuthController.m in Sources */,
@@ -2105,12 +2001,8 @@
 				2C94C12B1CF1B1BB004476D8 /* STMMessageVC.m in Sources */,
 				2C94C0F41CF1B1BB004476D8 /* STMCorePhotosController.m in Sources */,
 				2C94C1341CF1B1BB004476D8 /* STMWebViewNC.m in Sources */,
-				2C453F601D88033600A43956 /* SocketStringReader.swift in Sources */,
-				2C453F531D88033600A43956 /* SocketEnginePollable.swift in Sources */,
 				2C94C11F1CF1B1BB004476D8 /* UIToolbar+custom.m in Sources */,
-				2C453F591D88033600A43956 /* SocketIOClientConfiguration.swift in Sources */,
 				2CC2D3051D13E0A90026EB72 /* STMVisitPhoto.m in Sources */,
-				2C453F4F1D88033600A43956 /* SocketClientManager.swift in Sources */,
 				2C94C1851CF1B1F3004476D8 /* STMClientEntity+CoreDataProperties.m in Sources */,
 				2C94C0F91CF1B1BB004476D8 /* STMRecordStatusController.m in Sources */,
 				2C94C1081CF1B1BB004476D8 /* STMCustom4TVCell.m in Sources */,
@@ -2122,14 +2014,13 @@
 				2C94C1201CF1B1BB004476D8 /* UIViewController+custom.m in Sources */,
 				2CCD468D1D646BAF003F8A14 /* STMLegalForm.m in Sources */,
 				2C94C25A1CF1B3D8004476D8 /* STMCoreApplication.m in Sources */,
-				2C453F621D88033600A43956 /* SSLSecurity.swift in Sources */,
 				2C94C0EC1CF1B1BB004476D8 /* STMStringExtension.swift in Sources */,
 				2C94C1321CF1B1BB004476D8 /* STMSettingsTVC.m in Sources */,
 				2C94C1891CF1B1F3004476D8 /* STMDatum+CoreDataProperties.m in Sources */,
-				2C453F5E1D88033600A43956 /* SocketPacket.swift in Sources */,
 				2C94C0F61CF1B1BB004476D8 /* STMEntityController.m in Sources */,
 				2C3920821D8A7D3500898FC6 /* STMCoreAppManifestHandler.m in Sources */,
 				2C94C18F1CF1B1F3004476D8 /* STMLogMessage+CoreDataProperties.m in Sources */,
+				3550B1E21DAE5CC300F8A368 /* STMEntity.m in Sources */,
 				2C94C18A1CF1B1F3004476D8 /* STMDatum.m in Sources */,
 				2C94C0DC1CF1B1BB004476D8 /* STMCoreLocationTracker.m in Sources */,
 				2C6113031D0BDE7B006BCB30 /* STMVisit+CoreDataProperties.m in Sources */,
@@ -2148,7 +2039,6 @@
 				2C0A8CB21D09903C007C5B57 /* STMVisitQuestionGroup+CoreDataProperties.m in Sources */,
 				2C0A8CAD1D09903C007C5B57 /* STMSalesman.m in Sources */,
 				2C94C1071CF1B1BB004476D8 /* STMCustom3TVCell.m in Sources */,
-				2C94C1871CF1B1F3004476D8 /* STMCorePicture+CoreDataProperties.m in Sources */,
 				2C94C1141CF1B1BB004476D8 /* STMInsetLabel.m in Sources */,
 				2C94C0E31CF1B1BB004476D8 /* STMFunctions.m in Sources */,
 				2CE24E2B1D226B0C0004B63C /* STMOutletSalesmanContract+CoreDataProperties.m in Sources */,
@@ -2157,9 +2047,7 @@
 				2C94C1121CF1B1BB004476D8 /* STMImagePickerController.m in Sources */,
 				2C94BFCF1CF1ACB8004476D8 /* main.m in Sources */,
 				2C94C12F1CF1B1BB004476D8 /* STMScannerInfoVC.m in Sources */,
-				2C453F511D88033600A43956 /* SocketEngineClient.swift in Sources */,
 				2C94C0EE1CF1B1BB004476D8 /* STMSyncer.m in Sources */,
-				2C453F4C1D88033600A43956 /* SocketAckEmitter.swift in Sources */,
 				2C94C11C1CF1B1BB004476D8 /* STMTableViewCell.m in Sources */,
 				2CE24E2E1D226B0C0004B63C /* STMContract.m in Sources */,
 				2C94C0FD1CF1B1BB004476D8 /* STMPredicate.m in Sources */,
@@ -2167,7 +2055,6 @@
 				2C9AE9A11CF5AF690018D9B3 /* STMJson+CoreDataProperties.m in Sources */,
 				2C94C19A1CF1B1F3004476D8 /* STMSetting.m in Sources */,
 				2C94C2621CF1B771004476D8 /* STMAppDelegate.m in Sources */,
-				2C453F5A1D88033600A43956 /* SocketIOClientOption.swift in Sources */,
 				2C94C1961CF1B1F3004476D8 /* STMCorePhoto.m in Sources */,
 				2C94C1811CF1B1F3004476D8 /* STMBatteryStatus+CoreDataProperties.m in Sources */,
 				2C94C0FC1CF1B1BB004476D8 /* STMFetchRequest.m in Sources */,
@@ -2324,6 +2211,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7B689995AE2A7E80F555D29A /* Pods.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_ENTITLEMENTS = iSisSales/iSisSales.entitlements;
@@ -2339,7 +2227,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "iSisSales/iSistemium-Bridging-Header.h";
 				SWIFT_OBJC_INTERFACE_HEADER_NAME = "iSistemiumCore-Swift.h";
-				SWIFT_VERSION = 2.3;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -2348,6 +2236,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A3277DFA3A62BBCE8AF2B808 /* Pods.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_ENTITLEMENTS = iSisSales/iSisSales.entitlements;
@@ -2362,7 +2251,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "iSisSales/iSistemium-Bridging-Header.h";
 				SWIFT_OBJC_INTERFACE_HEADER_NAME = "iSistemiumCore-Swift.h";
-				SWIFT_VERSION = 2.3;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -2458,6 +2347,7 @@
 		2CC2D3061D13E3720026EB72 /* iSisSales.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
+				3550B1D11DAE58C300F8A368 /* iSisSales 7.xcdatamodel */,
 				2CCD46871D646A47003F8A14 /* iSisSales 6.xcdatamodel */,
 				2CFA30311D50DA7500BB9E35 /* iSisSales 5.xcdatamodel */,
 				2C73D6D11D26549100932981 /* iSisSales 4.xcdatamodel */,
@@ -2465,7 +2355,7 @@
 				2CC2D3071D13E3720026EB72 /* iSisSales 2.xcdatamodel */,
 				2CC2D3081D13E3720026EB72 /* iSisSales.xcdatamodel */,
 			);
-			currentVersion = 2CCD46871D646A47003F8A14 /* iSisSales 6.xcdatamodel */;
+			currentVersion = 3550B1D11DAE58C300F8A368 /* iSisSales 7.xcdatamodel */;
 			path = iSisSales.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;

@@ -129,6 +129,7 @@
     </entity>
     <entity name="STMCorePicture" representedClassName="STMCorePicture" isAbstract="YES" syncable="YES">
         <attribute name="commentText" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="deviceAts" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
         <attribute name="deviceCts" optional="YES" attributeType="Date" usesScalarValueType="NO" indexed="YES" syncable="YES"/>
         <attribute name="deviceTs" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
         <attribute name="href" optional="YES" attributeType="String" syncable="YES"/>
@@ -169,6 +170,7 @@
         <attribute name="lts" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
         <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="ownerXid" optional="YES" attributeType="Binary" indexed="YES" syncable="YES"/>
+        <attribute name="pictureLifeTime" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="NO" syncable="YES"/>
         <attribute name="roleName" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="roleOwner" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="source" optional="YES" attributeType="String" indexed="YES" syncable="YES"/>
@@ -493,9 +495,9 @@
         <element name="STMContract" positionX="-1343" positionY="-1270" width="128" height="253"/>
         <element name="STMCoreLocation" positionX="-686" positionY="-954" width="128" height="343"/>
         <element name="STMCorePhoto" positionX="-515" positionY="-954" width="128" height="58"/>
-        <element name="STMCorePicture" positionX="-515" positionY="-846" width="128" height="315"/>
+        <element name="STMCorePicture" positionX="-515" positionY="-846" width="128" height="330"/>
         <element name="STMDatum" positionX="-1154" positionY="-955" width="128" height="133"/>
-        <element name="STMEntity" positionX="-182" positionY="-952" width="128" height="358"/>
+        <element name="STMEntity" positionX="-182" positionY="-952" width="128" height="375"/>
         <element name="STMEntityTemplate" positionX="-1332" positionY="-954" width="128" height="193"/>
         <element name="STMJson" positionX="-855" positionY="-513" width="128" height="238"/>
         <element name="STMLegalForm" positionX="-1368" positionY="-1546" width="128" height="253"/>
