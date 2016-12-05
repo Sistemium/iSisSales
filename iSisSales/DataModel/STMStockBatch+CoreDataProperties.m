@@ -18,11 +18,16 @@
 @dynamic deviceCts;
 @dynamic deviceTs;
 @dynamic id;
+@dynamic isInventarized;
 @dynamic isFantom;
 @dynamic lts;
 @dynamic ownerXid;
+@dynamic processing;
+@dynamic productionInfo;
 @dynamic source;
+@dynamic stockToken;
 @dynamic target;
+@dynamic volume;
 @dynamic xid;
 
 @end

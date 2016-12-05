@@ -21,8 +21,12 @@
 @dynamic isFantom;
 @dynamic lts;
 @dynamic ownerXid;
+@dynamic price;
+@dynamic priceDoc;
+@dynamic priceOrigin;
 @dynamic source;
 @dynamic target;
+@dynamic volume;
 @dynamic xid;
 
 @end

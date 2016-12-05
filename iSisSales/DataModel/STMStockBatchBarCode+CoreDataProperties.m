@@ -14,6 +14,7 @@
 	return [[NSFetchRequest alloc] initWithEntityName:@"STMStockBatchBarCode"];
 }
 
+@dynamic code;
 @dynamic commentText;
 @dynamic deviceCts;
 @dynamic deviceTs;

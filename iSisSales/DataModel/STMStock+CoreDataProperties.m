@@ -17,12 +17,14 @@
 @dynamic commentText;
 @dynamic deviceCts;
 @dynamic deviceTs;
+@dynamic displayVolume;
 @dynamic id;
 @dynamic isFantom;
 @dynamic lts;
 @dynamic ownerXid;
 @dynamic source;
 @dynamic target;
+@dynamic volume;
 @dynamic xid;
 
 @end

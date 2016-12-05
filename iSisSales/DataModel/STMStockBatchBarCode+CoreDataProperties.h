@@ -15,6 +15,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 + (NSFetchRequest<STMStockBatchBarCode *> *)fetchRequest;
 
+@property (nullable, nonatomic, copy) NSString *code;
 @property (nullable, nonatomic, copy) NSString *commentText;
 @property (nullable, nonatomic, copy) NSDate *deviceCts;
 @property (nullable, nonatomic, copy) NSDate *deviceTs;

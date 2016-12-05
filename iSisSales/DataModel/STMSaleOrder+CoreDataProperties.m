@@ -15,14 +15,18 @@
 }
 
 @dynamic commentText;
+@dynamic date;
 @dynamic deviceCts;
 @dynamic deviceTs;
 @dynamic id;
 @dynamic isFantom;
 @dynamic lts;
 @dynamic ownerXid;
+@dynamic processing;
+@dynamic processingMessage;
 @dynamic source;
 @dynamic target;
+@dynamic totalCost;
 @dynamic xid;
 
 @end

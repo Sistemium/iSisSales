@@ -20,6 +20,7 @@
 @dynamic id;
 @dynamic isFantom;
 @dynamic lts;
+@dynamic name;
 @dynamic ownerXid;
 @dynamic source;
 @dynamic target;
