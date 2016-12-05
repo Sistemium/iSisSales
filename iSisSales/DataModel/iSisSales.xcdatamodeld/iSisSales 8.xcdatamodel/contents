@@ -24,7 +24,6 @@
         <relationship name="prices" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="STMPrice" inverseName="article" inverseEntity="STMPrice" syncable="YES"/>
         <relationship name="saleOrderPositions" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="STMSaleOrderPosition" inverseName="article" inverseEntity="STMSaleOrderPosition" syncable="YES"/>
         <relationship name="stock" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMStock" inverseName="article" inverseEntity="STMStock" syncable="YES"/>
-        <relationship name="stockBatches" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="STMStockBatch" inverseName="article" inverseEntity="STMStockBatch" syncable="YES"/>
     </entity>
     <entity name="STMArticleGroup" representedClassName="STMArticleGroup" syncable="YES">
         <attribute name="commentText" optional="YES" attributeType="String" syncable="YES"/>
@@ -500,39 +499,6 @@
         <attribute name="xid" optional="YES" attributeType="Binary" indexed="YES" syncable="YES"/>
         <relationship name="article" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMArticle" inverseName="stock" inverseEntity="STMArticle" syncable="YES"/>
     </entity>
-    <entity name="STMStockBatch" representedClassName="STMStockBatch" syncable="YES">
-        <attribute name="commentText" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="deviceCts" optional="YES" attributeType="Date" usesScalarValueType="NO" indexed="YES" syncable="YES"/>
-        <attribute name="deviceTs" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
-        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="NO" indexed="YES" syncable="YES"/>
-        <attribute name="isFantom" optional="YES" attributeType="Boolean" defaultValueString="YES" usesScalarValueType="NO" syncable="YES"/>
-        <attribute name="isInventarized" optional="YES" attributeType="Boolean" usesScalarValueType="NO" syncable="YES"/>
-        <attribute name="lts" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
-        <attribute name="ownerXid" optional="YES" attributeType="Binary" indexed="YES" syncable="YES"/>
-        <attribute name="processing" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="productionInfo" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="source" optional="YES" attributeType="String" indexed="YES" syncable="YES"/>
-        <attribute name="stockToken" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="target" optional="YES" attributeType="String" indexed="YES" syncable="YES"/>
-        <attribute name="volume" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
-        <attribute name="xid" optional="YES" attributeType="Binary" indexed="YES" syncable="YES"/>
-        <relationship name="article" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMArticle" inverseName="stockBatches" inverseEntity="STMArticle" syncable="YES"/>
-        <relationship name="stockBatchBarCodes" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="STMStockBatchBarCode" inverseName="stockBatch" inverseEntity="STMStockBatchBarCode" syncable="YES"/>
-    </entity>
-    <entity name="STMStockBatchBarCode" representedClassName="STMStockBatchBarCode" syncable="YES">
-        <attribute name="code" optional="YES" attributeType="String" indexed="YES" syncable="YES"/>
-        <attribute name="commentText" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="deviceCts" optional="YES" attributeType="Date" usesScalarValueType="NO" indexed="YES" syncable="YES"/>
-        <attribute name="deviceTs" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
-        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="NO" indexed="YES" syncable="YES"/>
-        <attribute name="isFantom" optional="YES" attributeType="Boolean" defaultValueString="YES" usesScalarValueType="NO" syncable="YES"/>
-        <attribute name="lts" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
-        <attribute name="ownerXid" optional="YES" attributeType="Binary" indexed="YES" syncable="YES"/>
-        <attribute name="source" optional="YES" attributeType="String" indexed="YES" syncable="YES"/>
-        <attribute name="target" optional="YES" attributeType="String" indexed="YES" syncable="YES"/>
-        <attribute name="xid" optional="YES" attributeType="Binary" indexed="YES" syncable="YES"/>
-        <relationship name="stockBatch" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMStockBatch" inverseName="stockBatchBarCodes" inverseEntity="STMStockBatch" syncable="YES"/>
-    </entity>
     <entity name="STMVisit" representedClassName="STMVisit" syncable="YES">
         <attribute name="commentText" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="date" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
@@ -649,7 +615,7 @@
         <relationship name="messages" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMMessage" inverseName="workflow" inverseEntity="STMMessage" syncable="YES"/>
     </entity>
     <elements>
-        <element name="STMArticle" positionX="-1163" positionY="-655" width="128" height="403"/>
+        <element name="STMArticle" positionX="-1163" positionY="-655" width="128" height="388"/>
         <element name="STMArticleGroup" positionX="-1386" positionY="-918" width="128" height="283"/>
         <element name="STMBarCodeScan" positionX="-72" positionY="-2286" width="128" height="238"/>
         <element name="STMBarCodeType" positionX="-218" positionY="-2286" width="128" height="253"/>
@@ -680,9 +646,7 @@
         <element name="STMSaleOrderPosition" positionX="-1125" positionY="-999" width="128" height="283"/>
         <element name="STMSalesman" positionX="-974" positionY="-1242" width="128" height="253"/>
         <element name="STMSetting" positionX="-1080" positionY="-2286" width="128" height="238"/>
-        <element name="STMStock" positionX="-963" positionY="-211" width="128" height="238"/>
-        <element name="STMStockBatch" positionX="-981" positionY="-558" width="128" height="298"/>
-        <element name="STMStockBatchBarCode" positionX="-758" positionY="-466" width="128" height="223"/>
+        <element name="STMStock" positionX="-920" positionY="-486" width="128" height="238"/>
         <element name="STMVisit" positionX="-729" positionY="-1756" width="128" height="298"/>
         <element name="STMVisitAnswer" positionX="-540" positionY="-1746" width="128" height="238"/>
         <element name="STMVisitPhoto" positionX="-396" positionY="-1359" width="128" height="58"/>

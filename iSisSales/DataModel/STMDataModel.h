@@ -30,8 +30,6 @@
 #import "STMSaleOrder+CoreDataClass.h"
 #import "STMSaleOrderPosition+CoreDataClass.h"
 #import "STMStock+CoreDataClass.h"
-#import "STMStockBatch+CoreDataClass.h"
-#import "STMStockBatchBarCode+CoreDataClass.h"
 
 #import "STMVisit.h"
 #import "STMVisitAnswer.h"
