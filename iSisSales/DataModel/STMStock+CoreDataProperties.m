@@ -26,5 +26,6 @@
 @dynamic target;
 @dynamic volume;
 @dynamic xid;
+@dynamic article;
 
 @end

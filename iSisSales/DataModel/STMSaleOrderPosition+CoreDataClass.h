@@ -8,6 +8,8 @@
 
 #import "STMDatum.h"
 
+@class STMArticle, STMSaleOrder;
+
 NS_ASSUME_NONNULL_BEGIN
 
 @interface STMSaleOrderPosition : STMDatum

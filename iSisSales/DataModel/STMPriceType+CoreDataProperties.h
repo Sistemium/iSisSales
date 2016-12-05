@@ -26,6 +26,23 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nullable, nonatomic, copy) NSString *source;
 @property (nullable, nonatomic, copy) NSString *target;
 @property (nullable, nonatomic, retain) NSData *xid;
+@property (nullable, nonatomic, retain) NSSet<STMPrice *> *prices;
+@property (nullable, nonatomic, retain) STMPriceType *parent;
+@property (nullable, nonatomic, retain) NSSet<STMPriceType *> *children;
+
+@end
+
+@interface STMPriceType (CoreDataGeneratedAccessors)
+
+- (void)addPricesObject:(STMPrice *)value;
+- (void)removePricesObject:(STMPrice *)value;
+- (void)addPrices:(NSSet<STMPrice *> *)values;
+- (void)removePrices:(NSSet<STMPrice *> *)values;
+
+- (void)addChildrenObject:(STMPriceType *)value;
+- (void)removeChildrenObject:(STMPriceType *)value;
+- (void)addChildren:(NSSet<STMPriceType *> *)values;
+- (void)removeChildren:(NSSet<STMPriceType *> *)values;
 
 @end
 

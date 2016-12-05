@@ -30,6 +30,17 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nullable, nonatomic, copy) NSString *target;
 @property (nullable, nonatomic, copy) NSNumber *volume;
 @property (nullable, nonatomic, retain) NSData *xid;
+@property (nullable, nonatomic, retain) STMArticle *article;
+@property (nullable, nonatomic, retain) NSSet<STMStockBatchBarCode *> *stockBatchBarCodes;
+
+@end
+
+@interface STMStockBatch (CoreDataGeneratedAccessors)
+
+- (void)addStockBatchBarCodesObject:(STMStockBatchBarCode *)value;
+- (void)removeStockBatchBarCodesObject:(STMStockBatchBarCode *)value;
+- (void)addStockBatchBarCodes:(NSSet<STMStockBatchBarCode *> *)values;
+- (void)removeStockBatchBarCodes:(NSSet<STMStockBatchBarCode *> *)values;
 
 @end
 

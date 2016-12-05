@@ -25,5 +25,7 @@
 @dynamic source;
 @dynamic target;
 @dynamic xid;
+@dynamic priceType;
+@dynamic article;
 
 @end

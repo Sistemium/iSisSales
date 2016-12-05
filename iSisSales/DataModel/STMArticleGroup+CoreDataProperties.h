@@ -26,6 +26,35 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nullable, nonatomic, copy) NSString *source;
 @property (nullable, nonatomic, copy) NSString *target;
 @property (nullable, nonatomic, retain) NSData *xid;
+@property (nullable, nonatomic, retain) NSSet<STMArticle *> *articles;
+@property (nullable, nonatomic, retain) STMArticleGroup *articleGroup;
+@property (nullable, nonatomic, retain) NSSet<STMArticleGroup *> *articleGroups;
+@property (nullable, nonatomic, retain) NSSet<STMArticleGroup *> *children;
+@property (nullable, nonatomic, retain) NSSet<STMArticleGroup *> *parents;
+
+@end
+
+@interface STMArticleGroup (CoreDataGeneratedAccessors)
+
+- (void)addArticlesObject:(STMArticle *)value;
+- (void)removeArticlesObject:(STMArticle *)value;
+- (void)addArticles:(NSSet<STMArticle *> *)values;
+- (void)removeArticles:(NSSet<STMArticle *> *)values;
+
+- (void)addArticleGroupsObject:(STMArticleGroup *)value;
+- (void)removeArticleGroupsObject:(STMArticleGroup *)value;
+- (void)addArticleGroups:(NSSet<STMArticleGroup *> *)values;
+- (void)removeArticleGroups:(NSSet<STMArticleGroup *> *)values;
+
+- (void)addChildrenObject:(STMArticleGroup *)value;
+- (void)removeChildrenObject:(STMArticleGroup *)value;
+- (void)addChildren:(NSSet<STMArticleGroup *> *)values;
+- (void)removeChildren:(NSSet<STMArticleGroup *> *)values;
+
+- (void)addParentsObject:(STMArticleGroup *)value;
+- (void)removeParentsObject:(STMArticleGroup *)value;
+- (void)addParents:(NSSet<STMArticleGroup *> *)values;
+- (void)removeParents:(NSSet<STMArticleGroup *> *)values;
 
 @end
 

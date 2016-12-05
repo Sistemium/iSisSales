@@ -11,17 +11,27 @@
 
 #import "STMCoreDataModel.h"
 
+#import "STMArticle+CoreDataClass.h"
+#import "STMArticleGroup+CoreDataClass.h"
+
 #import "STMContract.h"
 
 #import "STMLocation.h"
 
-#import "STMOutlet.h"
+#import "STMOutlet+CoreDataClass.h"
 #import "STMOutletPhoto.h"
 #import "STMOutletSalesmanContract.h"
 
 #import "STMPartner.h"
+#import "STMPrice+CoreDataClass.h"
+#import "STMPriceType+CoreDataClass.h"
 
-#import "STMSalesman.h"
+#import "STMSalesman+CoreDataClass.h"
+#import "STMSaleOrder+CoreDataClass.h"
+#import "STMSaleOrderPosition+CoreDataClass.h"
+#import "STMStock+CoreDataClass.h"
+#import "STMStockBatch+CoreDataClass.h"
+#import "STMStockBatchBarCode+CoreDataClass.h"
 
 #import "STMVisit.h"
 #import "STMVisitAnswer.h"

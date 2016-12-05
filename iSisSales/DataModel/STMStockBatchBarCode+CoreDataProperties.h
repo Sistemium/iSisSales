@@ -26,6 +26,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nullable, nonatomic, copy) NSString *source;
 @property (nullable, nonatomic, copy) NSString *target;
 @property (nullable, nonatomic, retain) NSData *xid;
+@property (nullable, nonatomic, retain) STMStockBatch *stockBatch;
 
 @end
 

@@ -25,5 +25,10 @@
 @dynamic source;
 @dynamic target;
 @dynamic xid;
+@dynamic articles;
+@dynamic articleGroup;
+@dynamic articleGroups;
+@dynamic children;
+@dynamic parents;
 
 @end

@@ -7,7 +7,8 @@
 //
 
 #import "STMSaleOrderPosition+CoreDataClass.h"
-
+#import "STMArticle+CoreDataClass.h"
+#import "STMSaleOrder+CoreDataClass.h"
 @implementation STMSaleOrderPosition
 
 @end

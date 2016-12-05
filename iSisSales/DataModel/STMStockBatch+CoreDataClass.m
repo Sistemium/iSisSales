@@ -7,7 +7,8 @@
 //
 
 #import "STMStockBatch+CoreDataClass.h"
-
+#import "STMArticle+CoreDataClass.h"
+#import "STMStockBatchBarCode+CoreDataClass.h"
 @implementation STMStockBatch
 
 @end

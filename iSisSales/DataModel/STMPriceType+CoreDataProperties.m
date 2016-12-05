@@ -25,5 +25,8 @@
 @dynamic source;
 @dynamic target;
 @dynamic xid;
+@dynamic prices;
+@dynamic parent;
+@dynamic children;
 
 @end

@@ -33,5 +33,10 @@
 @dynamic source;
 @dynamic target;
 @dynamic xid;
+@dynamic stock;
+@dynamic saleOrderPositions;
+@dynamic stockBatches;
+@dynamic articleGroup;
+@dynamic prices;
 
 @end

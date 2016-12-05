@@ -7,7 +7,7 @@
 //
 
 #import "STMArticleGroup+CoreDataClass.h"
-
+#import "STMArticle+CoreDataClass.h"
 @implementation STMArticleGroup
 
 @end

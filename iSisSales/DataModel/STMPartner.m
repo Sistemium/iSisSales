@@ -9,7 +9,7 @@
 #import "STMPartner.h"
 #import "STMContract.h"
 #import "STMLegalForm.h"
-#import "STMOutlet.h"
+#import "STMOutlet+CoreDataClass.h"
 
 @implementation STMPartner
 

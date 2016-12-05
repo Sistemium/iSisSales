@@ -8,8 +8,8 @@
 
 #import "STMOutletSalesmanContract.h"
 #import "STMContract.h"
-#import "STMOutlet.h"
-#import "STMSalesman.h"
+#import "STMOutlet+CoreDataClass.h"
+#import "STMSalesman+CoreDataClass.h"
 
 @implementation STMOutletSalesmanContract
 

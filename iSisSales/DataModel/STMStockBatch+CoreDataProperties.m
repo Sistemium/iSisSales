@@ -29,5 +29,7 @@
 @dynamic target;
 @dynamic volume;
 @dynamic xid;
+@dynamic article;
+@dynamic stockBatchBarCodes;
 
 @end

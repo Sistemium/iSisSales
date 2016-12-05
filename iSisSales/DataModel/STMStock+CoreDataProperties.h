@@ -27,6 +27,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nullable, nonatomic, copy) NSString *target;
 @property (nullable, nonatomic, copy) NSNumber *volume;
 @property (nullable, nonatomic, retain) NSData *xid;
+@property (nullable, nonatomic, retain) STMArticle *article;
 
 @end
 

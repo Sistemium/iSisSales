@@ -7,7 +7,7 @@
 //
 
 #import "STMStock+CoreDataClass.h"
-
+#import "STMArticle+CoreDataClass.h"
 @implementation STMStock
 
 @end

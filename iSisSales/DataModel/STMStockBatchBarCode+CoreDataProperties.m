@@ -25,5 +25,6 @@
 @dynamic source;
 @dynamic target;
 @dynamic xid;
+@dynamic stockBatch;
 
 @end

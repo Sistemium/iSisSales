@@ -7,7 +7,7 @@
 //
 
 #import "STMPriceType+CoreDataClass.h"
-
+#import "STMPrice+CoreDataClass.h"
 @implementation STMPriceType
 
 @end

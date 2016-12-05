@@ -28,5 +28,8 @@
 @dynamic target;
 @dynamic totalCost;
 @dynamic xid;
+@dynamic saleOrderPositions;
+@dynamic salesman;
+@dynamic outlet;
 
 @end

@@ -34,6 +34,30 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nullable, nonatomic, copy) NSString *source;
 @property (nullable, nonatomic, copy) NSString *target;
 @property (nullable, nonatomic, retain) NSData *xid;
+@property (nullable, nonatomic, retain) STMStock *stock;
+@property (nullable, nonatomic, retain) NSSet<STMSaleOrderPosition *> *saleOrderPositions;
+@property (nullable, nonatomic, retain) NSSet<STMStockBatch *> *stockBatches;
+@property (nullable, nonatomic, retain) STMArticleGroup *articleGroup;
+@property (nullable, nonatomic, retain) NSSet<STMPrice *> *prices;
+
+@end
+
+@interface STMArticle (CoreDataGeneratedAccessors)
+
+- (void)addSaleOrderPositionsObject:(STMSaleOrderPosition *)value;
+- (void)removeSaleOrderPositionsObject:(STMSaleOrderPosition *)value;
+- (void)addSaleOrderPositions:(NSSet<STMSaleOrderPosition *> *)values;
+- (void)removeSaleOrderPositions:(NSSet<STMSaleOrderPosition *> *)values;
+
+- (void)addStockBatchesObject:(STMStockBatch *)value;
+- (void)removeStockBatchesObject:(STMStockBatch *)value;
+- (void)addStockBatches:(NSSet<STMStockBatch *> *)values;
+- (void)removeStockBatches:(NSSet<STMStockBatch *> *)values;
+
+- (void)addPricesObject:(STMPrice *)value;
+- (void)removePricesObject:(STMPrice *)value;
+- (void)addPrices:(NSSet<STMPrice *> *)values;
+- (void)removePrices:(NSSet<STMPrice *> *)values;
 
 @end
 

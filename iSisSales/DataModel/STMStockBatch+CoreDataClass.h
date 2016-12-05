@@ -8,6 +8,8 @@
 
 #import "STMDatum.h"
 
+@class STMArticle, STMStockBatchBarCode;
+
 NS_ASSUME_NONNULL_BEGIN
 
 @interface STMStockBatch : STMDatum
