@@ -15,6 +15,7 @@
 }
 
 @dynamic commentText;
+@dynamic cost;
 @dynamic deviceCts;
 @dynamic deviceTs;
 @dynamic id;

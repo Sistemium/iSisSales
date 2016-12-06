@@ -437,6 +437,7 @@
     </entity>
     <entity name="STMSaleOrderPosition" representedClassName="STMSaleOrderPosition" syncable="YES">
         <attribute name="commentText" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cost" optional="YES" attributeType="Decimal" defaultValueString="0.0" syncable="YES"/>
         <attribute name="deviceCts" optional="YES" attributeType="Date" usesScalarValueType="NO" indexed="YES" syncable="YES"/>
         <attribute name="deviceTs" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
         <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="NO" indexed="YES" syncable="YES"/>
@@ -643,7 +644,7 @@
         <element name="STMPriceType" positionX="-1343" positionY="-244" width="128" height="253"/>
         <element name="STMRecordStatus" positionX="-360" positionY="-2286" width="128" height="268"/>
         <element name="STMSaleOrder" positionX="-945" positionY="-901" width="128" height="298"/>
-        <element name="STMSaleOrderPosition" positionX="-1125" positionY="-999" width="128" height="283"/>
+        <element name="STMSaleOrderPosition" positionX="-1125" positionY="-999" width="128" height="300"/>
         <element name="STMSalesman" positionX="-974" positionY="-1242" width="128" height="253"/>
         <element name="STMSetting" positionX="-1080" positionY="-2286" width="128" height="238"/>
         <element name="STMStock" positionX="-920" positionY="-486" width="128" height="238"/>

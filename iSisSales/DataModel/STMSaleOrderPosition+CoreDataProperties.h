@@ -16,6 +16,7 @@ NS_ASSUME_NONNULL_BEGIN
 + (NSFetchRequest<STMSaleOrderPosition *> *)fetchRequest;
 
 @property (nullable, nonatomic, copy) NSString *commentText;
+@property (nullable, nonatomic, copy) NSDecimalNumber *cost;
 @property (nullable, nonatomic, copy) NSDate *deviceCts;
 @property (nullable, nonatomic, copy) NSDate *deviceTs;
 @property (nullable, nonatomic, copy) NSNumber *id;
