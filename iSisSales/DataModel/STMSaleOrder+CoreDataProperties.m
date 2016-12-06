@@ -2,7 +2,7 @@
 //  STMSaleOrder+CoreDataProperties.m
 //  iSisSales
 //
-//  Created by Maxim Grigoriev on 05/12/16.
+//  Created by Alexander Levin on 06/12/16.
 //  Copyright © 2016 Sistemium UAB. All rights reserved.
 //
 
@@ -28,8 +28,9 @@
 @dynamic target;
 @dynamic totalCost;
 @dynamic xid;
+@dynamic totalCostDoc;
+@dynamic outlet;
 @dynamic saleOrderPositions;
 @dynamic salesman;
-@dynamic outlet;
 
 @end

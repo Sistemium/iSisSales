@@ -2,7 +2,7 @@
 //  STMSaleOrder+CoreDataProperties.h
 //  iSisSales
 //
-//  Created by Maxim Grigoriev on 05/12/16.
+//  Created by Alexander Levin on 06/12/16.
 //  Copyright © 2016 Sistemium UAB. All rights reserved.
 //
 
@@ -29,9 +29,10 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nullable, nonatomic, copy) NSString *target;
 @property (nullable, nonatomic, copy) NSDecimalNumber *totalCost;
 @property (nullable, nonatomic, retain) NSData *xid;
+@property (nullable, nonatomic, copy) NSDecimalNumber *totalCostDoc;
+@property (nullable, nonatomic, retain) STMOutlet *outlet;
 @property (nullable, nonatomic, retain) NSSet<STMSaleOrderPosition *> *saleOrderPositions;
 @property (nullable, nonatomic, retain) STMSalesman *salesman;
-@property (nullable, nonatomic, retain) STMOutlet *outlet;
 
 @end
 

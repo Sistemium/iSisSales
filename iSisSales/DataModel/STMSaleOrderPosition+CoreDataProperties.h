@@ -2,7 +2,7 @@
 //  STMSaleOrderPosition+CoreDataProperties.h
 //  iSisSales
 //
-//  Created by Maxim Grigoriev on 05/12/16.
+//  Created by Alexander Levin on 06/12/16.
 //  Copyright © 2016 Sistemium UAB. All rights reserved.
 //
 
@@ -30,6 +30,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nullable, nonatomic, copy) NSString *target;
 @property (nullable, nonatomic, copy) NSNumber *volume;
 @property (nullable, nonatomic, retain) NSData *xid;
+@property (nullable, nonatomic, copy) NSNumber *backVolume;
 @property (nullable, nonatomic, retain) STMArticle *article;
 @property (nullable, nonatomic, retain) STMSaleOrder *saleOrder;
 
