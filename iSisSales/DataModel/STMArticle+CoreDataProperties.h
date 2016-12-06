@@ -2,7 +2,7 @@
 //  STMArticle+CoreDataProperties.h
 //  iSisSales
 //
-//  Created by Alexander Levin on 06/12/16.
+//  Created by Maxim Grigoriev on 06/12/16.
 //  Copyright © 2016 Sistemium UAB. All rights reserved.
 //
 
@@ -37,7 +37,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nullable, nonatomic, retain) STMArticleGroup *articleGroup;
 @property (nullable, nonatomic, retain) NSSet<STMPrice *> *prices;
 @property (nullable, nonatomic, retain) NSSet<STMSaleOrderPosition *> *saleOrderPositions;
-@property (nullable, nonatomic, retain) NSSet<STMStock *> *stock;
+@property (nullable, nonatomic, retain) NSSet<STMStock *> *stocks;
 
 @end
 
@@ -53,10 +53,10 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)addSaleOrderPositions:(NSSet<STMSaleOrderPosition *> *)values;
 - (void)removeSaleOrderPositions:(NSSet<STMSaleOrderPosition *> *)values;
 
-- (void)addStockObject:(STMStock *)value;
-- (void)removeStockObject:(STMStock *)value;
-- (void)addStock:(NSSet<STMStock *> *)values;
-- (void)removeStock:(NSSet<STMStock *> *)values;
+- (void)addStocksObject:(STMStock *)value;
+- (void)removeStocksObject:(STMStock *)value;
+- (void)addStocks:(NSSet<STMStock *> *)values;
+- (void)removeStocks:(NSSet<STMStock *> *)values;
 
 @end
 

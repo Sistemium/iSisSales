@@ -23,7 +23,7 @@
         <relationship name="articleGroup" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMArticleGroup" inverseName="articles" inverseEntity="STMArticleGroup" syncable="YES"/>
         <relationship name="prices" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="STMPrice" inverseName="article" inverseEntity="STMPrice" syncable="YES"/>
         <relationship name="saleOrderPositions" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="STMSaleOrderPosition" inverseName="article" inverseEntity="STMSaleOrderPosition" syncable="YES"/>
-        <relationship name="stock" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="STMStock" inverseName="article" inverseEntity="STMStock" syncable="YES"/>
+        <relationship name="stocks" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="STMStock" inverseName="article" inverseEntity="STMStock" syncable="YES"/>
     </entity>
     <entity name="STMArticleGroup" representedClassName="STMArticleGroup" syncable="YES">
         <attribute name="commentText" optional="YES" attributeType="String" syncable="YES"/>
@@ -498,7 +498,7 @@
         <attribute name="target" optional="YES" attributeType="String" indexed="YES" syncable="YES"/>
         <attribute name="volume" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
         <attribute name="xid" optional="YES" attributeType="Binary" indexed="YES" syncable="YES"/>
-        <relationship name="article" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMArticle" inverseName="stock" inverseEntity="STMArticle" syncable="YES"/>
+        <relationship name="article" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMArticle" inverseName="stocks" inverseEntity="STMArticle" syncable="YES"/>
     </entity>
     <entity name="STMVisit" representedClassName="STMVisit" syncable="YES">
         <attribute name="commentText" optional="YES" attributeType="String" syncable="YES"/>

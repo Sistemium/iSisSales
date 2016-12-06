@@ -2,7 +2,7 @@
 //  STMArticle+CoreDataProperties.m
 //  iSisSales
 //
-//  Created by Alexander Levin on 06/12/16.
+//  Created by Maxim Grigoriev on 06/12/16.
 //  Copyright © 2016 Sistemium UAB. All rights reserved.
 //
 
@@ -36,6 +36,6 @@
 @dynamic articleGroup;
 @dynamic prices;
 @dynamic saleOrderPositions;
-@dynamic stock;
+@dynamic stocks;
 
 @end
