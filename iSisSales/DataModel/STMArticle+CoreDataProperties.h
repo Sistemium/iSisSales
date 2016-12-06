@@ -2,7 +2,7 @@
 //  STMArticle+CoreDataProperties.h
 //  iSisSales
 //
-//  Created by Maxim Grigoriev on 05/12/16.
+//  Created by Alexander Levin on 06/12/16.
 //  Copyright © 2016 Sistemium UAB. All rights reserved.
 //
 
@@ -34,24 +34,29 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nullable, nonatomic, copy) NSString *source;
 @property (nullable, nonatomic, copy) NSString *target;
 @property (nullable, nonatomic, retain) NSData *xid;
-@property (nullable, nonatomic, retain) STMStock *stock;
-@property (nullable, nonatomic, retain) NSSet<STMSaleOrderPosition *> *saleOrderPositions;
 @property (nullable, nonatomic, retain) STMArticleGroup *articleGroup;
 @property (nullable, nonatomic, retain) NSSet<STMPrice *> *prices;
+@property (nullable, nonatomic, retain) NSSet<STMSaleOrderPosition *> *saleOrderPositions;
+@property (nullable, nonatomic, retain) NSSet<STMStock *> *stock;
 
 @end
 
 @interface STMArticle (CoreDataGeneratedAccessors)
+
+- (void)addPricesObject:(STMPrice *)value;
+- (void)removePricesObject:(STMPrice *)value;
+- (void)addPrices:(NSSet<STMPrice *> *)values;
+- (void)removePrices:(NSSet<STMPrice *> *)values;
 
 - (void)addSaleOrderPositionsObject:(STMSaleOrderPosition *)value;
 - (void)removeSaleOrderPositionsObject:(STMSaleOrderPosition *)value;
 - (void)addSaleOrderPositions:(NSSet<STMSaleOrderPosition *> *)values;
 - (void)removeSaleOrderPositions:(NSSet<STMSaleOrderPosition *> *)values;
 
-- (void)addPricesObject:(STMPrice *)value;
-- (void)removePricesObject:(STMPrice *)value;
-- (void)addPrices:(NSSet<STMPrice *> *)values;
-- (void)removePrices:(NSSet<STMPrice *> *)values;
+- (void)addStockObject:(STMStock *)value;
+- (void)removeStockObject:(STMStock *)value;
+- (void)addStock:(NSSet<STMStock *> *)values;
+- (void)removeStock:(NSSet<STMStock *> *)values;
 
 @end
 
