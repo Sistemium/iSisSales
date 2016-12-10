@@ -2,7 +2,7 @@
 //  STMPriceType+CoreDataProperties.h
 //  iSisSales
 //
-//  Created by Maxim Grigoriev on 05/12/16.
+//  Created by Maxim Grigoriev on 10/12/16.
 //  Copyright © 2016 Sistemium UAB. All rights reserved.
 //
 
@@ -26,23 +26,29 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nullable, nonatomic, copy) NSString *source;
 @property (nullable, nonatomic, copy) NSString *target;
 @property (nullable, nonatomic, retain) NSData *xid;
-@property (nullable, nonatomic, retain) NSSet<STMPrice *> *prices;
-@property (nullable, nonatomic, retain) STMPriceType *parent;
 @property (nullable, nonatomic, retain) NSSet<STMPriceType *> *children;
+@property (nullable, nonatomic, retain) STMPriceType *parent;
+@property (nullable, nonatomic, retain) NSSet<STMPrice *> *prices;
+@property (nullable, nonatomic, retain) NSSet<STMOutletSalesmanContract *> *outletSalesmanContracts;
 
 @end
 
 @interface STMPriceType (CoreDataGeneratedAccessors)
+
+- (void)addChildrenObject:(STMPriceType *)value;
+- (void)removeChildrenObject:(STMPriceType *)value;
+- (void)addChildren:(NSSet<STMPriceType *> *)values;
+- (void)removeChildren:(NSSet<STMPriceType *> *)values;
 
 - (void)addPricesObject:(STMPrice *)value;
 - (void)removePricesObject:(STMPrice *)value;
 - (void)addPrices:(NSSet<STMPrice *> *)values;
 - (void)removePrices:(NSSet<STMPrice *> *)values;
 
-- (void)addChildrenObject:(STMPriceType *)value;
-- (void)removeChildrenObject:(STMPriceType *)value;
-- (void)addChildren:(NSSet<STMPriceType *> *)values;
-- (void)removeChildren:(NSSet<STMPriceType *> *)values;
+- (void)addOutletSalesmanContractsObject:(STMOutletSalesmanContract *)value;
+- (void)removeOutletSalesmanContractsObject:(STMOutletSalesmanContract *)value;
+- (void)addOutletSalesmanContracts:(NSSet<STMOutletSalesmanContract *> *)values;
+- (void)removeOutletSalesmanContracts:(NSSet<STMOutletSalesmanContract *> *)values;
 
 @end
 

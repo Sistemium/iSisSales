@@ -7,7 +7,7 @@
 //
 
 #import "STMContract.h"
-#import "STMOutletSalesmanContract.h"
+#import "STMOutletSalesmanContract+CoreDataClass.h"
 #import "STMPartner.h"
 
 @implementation STMContract

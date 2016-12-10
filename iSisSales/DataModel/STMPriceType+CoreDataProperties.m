@@ -2,7 +2,7 @@
 //  STMPriceType+CoreDataProperties.m
 //  iSisSales
 //
-//  Created by Maxim Grigoriev on 05/12/16.
+//  Created by Maxim Grigoriev on 10/12/16.
 //  Copyright © 2016 Sistemium UAB. All rights reserved.
 //
 
@@ -25,8 +25,9 @@
 @dynamic source;
 @dynamic target;
 @dynamic xid;
-@dynamic prices;
-@dynamic parent;
 @dynamic children;
+@dynamic parent;
+@dynamic prices;
+@dynamic outletSalesmanContracts;
 
 @end

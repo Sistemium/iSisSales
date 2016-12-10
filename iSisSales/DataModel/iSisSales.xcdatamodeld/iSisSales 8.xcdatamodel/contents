@@ -349,6 +349,7 @@
         <attribute name="xid" optional="YES" attributeType="Binary" indexed="YES" syncable="YES"/>
         <relationship name="contract" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMContract" inverseName="outletSalesmanContracts" inverseEntity="STMContract" syncable="YES"/>
         <relationship name="outlet" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMOutlet" inverseName="outletSalesmanContracts" inverseEntity="STMOutlet" syncable="YES"/>
+        <relationship name="priceType" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMPriceType" inverseName="outletSalesmanContracts" inverseEntity="STMPriceType" syncable="YES"/>
         <relationship name="salesman" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMSalesman" inverseName="outletSalesmanContracts" inverseEntity="STMSalesman" syncable="YES"/>
     </entity>
     <entity name="STMPartner" representedClassName="STMPartner" syncable="YES">
@@ -396,6 +397,7 @@
         <attribute name="target" optional="YES" attributeType="String" indexed="YES" syncable="YES"/>
         <attribute name="xid" optional="YES" attributeType="Binary" indexed="YES" syncable="YES"/>
         <relationship name="children" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="STMPriceType" inverseName="parent" inverseEntity="STMPriceType" syncable="YES"/>
+        <relationship name="outletSalesmanContracts" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="STMOutletSalesmanContract" inverseName="priceType" inverseEntity="STMOutletSalesmanContract" syncable="YES"/>
         <relationship name="parent" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMPriceType" inverseName="children" inverseEntity="STMPriceType" syncable="YES"/>
         <relationship name="prices" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="STMPrice" inverseName="priceType" inverseEntity="STMPrice" syncable="YES"/>
     </entity>
@@ -640,10 +642,10 @@
         <element name="STMMessagePicture" positionX="-353" positionY="-666" width="128" height="73"/>
         <element name="STMOutlet" positionX="-954" positionY="-1620" width="128" height="343"/>
         <element name="STMOutletPhoto" positionX="-558" positionY="-1242" width="128" height="58"/>
-        <element name="STMOutletSalesmanContract" positionX="-1152" positionY="-1287" width="128" height="253"/>
+        <element name="STMOutletSalesmanContract" positionX="-1145" positionY="-1314" width="128" height="268"/>
         <element name="STMPartner" positionX="-1170" positionY="-1594" width="128" height="268"/>
-        <element name="STMPrice" positionX="-1424" positionY="-549" width="128" height="238"/>
-        <element name="STMPriceType" positionX="-1343" positionY="-244" width="128" height="253"/>
+        <element name="STMPrice" positionX="-1523" positionY="-495" width="128" height="238"/>
+        <element name="STMPriceType" positionX="-1352" positionY="-244" width="128" height="268"/>
         <element name="STMRecordStatus" positionX="-360" positionY="-2286" width="128" height="268"/>
         <element name="STMSaleOrder" positionX="-945" positionY="-901" width="128" height="315"/>
         <element name="STMSaleOrderPosition" positionX="-1125" positionY="-999" width="128" height="315"/>
