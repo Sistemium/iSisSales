@@ -345,6 +345,7 @@
 		2C40F7961CF2056700231E01 /* STMNS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STMNS.h; sourceTree = "<group>"; };
 		2C40F7971CF205CC00231E01 /* STMUI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STMUI.h; sourceTree = "<group>"; };
 		2C40F7981CF2060300231E01 /* STMCoreNS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STMCoreNS.h; sourceTree = "<group>"; };
+		2C42556E1DFC44DB00F0BF9B /* iSisSales 9.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "iSisSales 9.xcdatamodel"; sourceTree = "<group>"; };
 		2C453F031D88015500A43956 /* iSisSales.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = iSisSales.entitlements; sourceTree = "<group>"; };
 		2C5033A91DF59DB100687A64 /* iSisSales 8.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "iSisSales 8.xcdatamodel"; sourceTree = "<group>"; };
 		2C5033E01DF5AF4F00687A64 /* STMSalesman+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "STMSalesman+CoreDataClass.h"; sourceTree = "<group>"; };
@@ -2432,6 +2433,7 @@
 		2CC2D3061D13E3720026EB72 /* iSisSales.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
+				2C42556E1DFC44DB00F0BF9B /* iSisSales 9.xcdatamodel */,
 				2C5033A91DF59DB100687A64 /* iSisSales 8.xcdatamodel */,
 				3550B1D11DAE58C300F8A368 /* iSisSales 7.xcdatamodel */,
 				2CCD46871D646A47003F8A14 /* iSisSales 6.xcdatamodel */,
@@ -2441,7 +2443,7 @@
 				2CC2D3071D13E3720026EB72 /* iSisSales 2.xcdatamodel */,
 				2CC2D3081D13E3720026EB72 /* iSisSales.xcdatamodel */,
 			);
-			currentVersion = 2C5033A91DF59DB100687A64 /* iSisSales 8.xcdatamodel */;
+			currentVersion = 2C42556E1DFC44DB00F0BF9B /* iSisSales 9.xcdatamodel */;
 			path = iSisSales.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
