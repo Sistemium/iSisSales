@@ -20,7 +20,7 @@
 
 #import "STMOutlet+CoreDataClass.h"
 #import "STMOutletPhoto.h"
-#import "STMOutletSalesmanContract.h"
+#import "STMOutletSalesmanContract+CoreDataClass.h"
 
 #import "STMPartner.h"
 #import "STMPrice+CoreDataClass.h"

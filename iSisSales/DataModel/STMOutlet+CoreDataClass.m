@@ -9,7 +9,7 @@
 #import "STMOutlet+CoreDataClass.h"
 #import "STMLocation.h"
 #import "STMOutletPhoto.h"
-#import "STMOutletSalesmanContract.h"
+#import "STMOutletSalesmanContract+CoreDataClass.h"
 #import "STMPartner.h"
 #import "STMSaleOrder+CoreDataClass.h"
 #import "STMVisit.h"

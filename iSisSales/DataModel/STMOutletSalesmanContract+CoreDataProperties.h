@@ -2,33 +2,34 @@
 //  STMOutletSalesmanContract+CoreDataProperties.h
 //  iSisSales
 //
-//  Created by Maxim Grigoriev on 28/06/16.
+//  Created by Maxim Grigoriev on 10/12/16.
 //  Copyright © 2016 Sistemium UAB. All rights reserved.
 //
-//  Choose "Create NSManagedObject Subclass…" from the Core Data editor menu
-//  to delete and recreate this implementation file for your updated model.
-//
 
-#import "STMOutletSalesmanContract.h"
+#import "STMOutletSalesmanContract+CoreDataClass.h"
+
 
 NS_ASSUME_NONNULL_BEGIN
 
 @interface STMOutletSalesmanContract (CoreDataProperties)
 
-@property (nullable, nonatomic, retain) NSString *commentText;
-@property (nullable, nonatomic, retain) NSDate *deviceCts;
-@property (nullable, nonatomic, retain) NSDate *deviceTs;
-@property (nullable, nonatomic, retain) NSNumber *id;
-@property (nullable, nonatomic, retain) NSNumber *isFantom;
-@property (nullable, nonatomic, retain) NSDate *lts;
++ (NSFetchRequest<STMOutletSalesmanContract *> *)fetchRequest;
+
+@property (nullable, nonatomic, copy) NSString *commentText;
+@property (nullable, nonatomic, copy) NSDate *deviceCts;
+@property (nullable, nonatomic, copy) NSDate *deviceTs;
+@property (nullable, nonatomic, copy) NSNumber *id;
+@property (nullable, nonatomic, copy) NSNumber *isDisabled;
+@property (nullable, nonatomic, copy) NSNumber *isFantom;
+@property (nullable, nonatomic, copy) NSDate *lts;
 @property (nullable, nonatomic, retain) NSData *ownerXid;
-@property (nullable, nonatomic, retain) NSString *source;
-@property (nullable, nonatomic, retain) NSString *target;
+@property (nullable, nonatomic, copy) NSString *source;
+@property (nullable, nonatomic, copy) NSString *target;
 @property (nullable, nonatomic, retain) NSData *xid;
-@property (nullable, nonatomic, retain) NSNumber *isDisabled;
 @property (nullable, nonatomic, retain) STMContract *contract;
 @property (nullable, nonatomic, retain) STMOutlet *outlet;
 @property (nullable, nonatomic, retain) STMSalesman *salesman;
+@property (nullable, nonatomic, retain) STMPriceType *priceType;
 
 @end
 
