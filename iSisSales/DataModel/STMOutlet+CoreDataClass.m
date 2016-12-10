@@ -12,6 +12,7 @@
 #import "STMOutletSalesmanContract+CoreDataClass.h"
 #import "STMPartner.h"
 #import "STMSaleOrder+CoreDataClass.h"
+#import "STMScheduledEvent+CoreDataClass.h"
 #import "STMVisit.h"
 @implementation STMOutlet
 

@@ -29,6 +29,9 @@
 #import "STMSalesman+CoreDataClass.h"
 #import "STMSaleOrder+CoreDataClass.h"
 #import "STMSaleOrderPosition+CoreDataClass.h"
+#import "STMSchedule+CoreDataClass.h"
+#import "STMScheduledEvent+CoreDataClass.h"
+#import "STMSchedulePurpose+CoreDataClass.h"
 #import "STMStock+CoreDataClass.h"
 
 #import "STMVisit.h"

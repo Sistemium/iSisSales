@@ -1,19 +1,20 @@
 //
-//  STMSalesman+CoreDataProperties.m
+//  STMSchedulePurpose+CoreDataProperties.m
 //  iSisSales
 //
 //  Created by Maxim Grigoriev on 10/12/16.
 //  Copyright © 2016 Sistemium UAB. All rights reserved.
 //
 
-#import "STMSalesman+CoreDataProperties.h"
+#import "STMSchedulePurpose+CoreDataProperties.h"
 
-@implementation STMSalesman (CoreDataProperties)
+@implementation STMSchedulePurpose (CoreDataProperties)
 
-+ (NSFetchRequest<STMSalesman *> *)fetchRequest {
-	return [[NSFetchRequest alloc] initWithEntityName:@"STMSalesman"];
++ (NSFetchRequest<STMSchedulePurpose *> *)fetchRequest {
+	return [[NSFetchRequest alloc] initWithEntityName:@"STMSchedulePurpose"];
 }
 
+@dynamic code;
 @dynamic commentText;
 @dynamic deviceCts;
 @dynamic deviceTs;
@@ -21,13 +22,11 @@
 @dynamic isFantom;
 @dynamic lts;
 @dynamic name;
+@dynamic ord;
 @dynamic ownerXid;
 @dynamic source;
 @dynamic target;
 @dynamic xid;
-@dynamic outletSalesmanContracts;
-@dynamic saleOrders;
 @dynamic scheduledEvents;
-@dynamic visits;
 
 @end

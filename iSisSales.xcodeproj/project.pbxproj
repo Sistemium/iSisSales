@@ -30,6 +30,13 @@
 		2C40F78D1CF203A100231E01 /* STMSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C40F7861CF203A100231E01 /* STMSession.m */; };
 		2C40F78E1CF203A100231E01 /* STMSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C40F7881CF203A100231E01 /* STMSessionManager.m */; };
 		2C40F78F1CF203A100231E01 /* STMSettingsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C40F78A1CF203A100231E01 /* STMSettingsController.m */; };
+		2C4255741DFC4A9D00F0BF9B /* STMOutletSalesmanContract+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C4255731DFC4A9D00F0BF9B /* STMOutletSalesmanContract+CoreDataClass.m */; };
+		2C4255811DFC4B3300F0BF9B /* STMSchedule+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C4255761DFC4B3300F0BF9B /* STMSchedule+CoreDataClass.m */; };
+		2C4255821DFC4B3300F0BF9B /* STMSchedule+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C4255781DFC4B3300F0BF9B /* STMSchedule+CoreDataProperties.m */; };
+		2C4255831DFC4B3300F0BF9B /* STMSchedulePurpose+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C42557A1DFC4B3300F0BF9B /* STMSchedulePurpose+CoreDataClass.m */; };
+		2C4255841DFC4B3300F0BF9B /* STMSchedulePurpose+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C42557C1DFC4B3300F0BF9B /* STMSchedulePurpose+CoreDataProperties.m */; };
+		2C4255851DFC4B3300F0BF9B /* STMScheduledEvent+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C42557E1DFC4B3300F0BF9B /* STMScheduledEvent+CoreDataClass.m */; };
+		2C4255861DFC4B3300F0BF9B /* STMScheduledEvent+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C4255801DFC4B3300F0BF9B /* STMScheduledEvent+CoreDataProperties.m */; };
 		2C5033E41DF5AF4F00687A64 /* STMSalesman+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C5033E11DF5AF4F00687A64 /* STMSalesman+CoreDataClass.m */; };
 		2C5033E51DF5AF4F00687A64 /* STMOutlet+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C5033E31DF5AF4F00687A64 /* STMOutlet+CoreDataClass.m */; };
 		2C50340A1DF5B00900687A64 /* STMPriceType+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C5033E71DF5B00900687A64 /* STMPriceType+CoreDataClass.m */; };
@@ -264,7 +271,6 @@
 		2CD5BF081CF1E780006E1E36 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2CD5BF0A1CF1E780006E1E36 /* Localizable.strings */; };
 		2CD977071D23C99B005FBC6C /* STMScriptMessagesController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CD977061D23C99B005FBC6C /* STMScriptMessagesController.m */; };
 		2CE24E2B1D226B0C0004B63C /* STMOutletSalesmanContract+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CE24E241D226B0B0004B63C /* STMOutletSalesmanContract+CoreDataProperties.m */; };
-		2CE24E2C1D226B0C0004B63C /* STMOutletSalesmanContract.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CE24E261D226B0B0004B63C /* STMOutletSalesmanContract.m */; };
 		2CE24E2D1D226B0C0004B63C /* STMContract+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CE24E281D226B0B0004B63C /* STMContract+CoreDataProperties.m */; };
 		2CE24E2E1D226B0C0004B63C /* STMContract.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CE24E2A1D226B0C0004B63C /* STMContract.m */; };
 		2CFA30301D4F310300BB9E35 /* STMUserDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CFA302F1D4F310300BB9E35 /* STMUserDefaults.m */; };
@@ -346,6 +352,20 @@
 		2C40F7971CF205CC00231E01 /* STMUI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STMUI.h; sourceTree = "<group>"; };
 		2C40F7981CF2060300231E01 /* STMCoreNS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STMCoreNS.h; sourceTree = "<group>"; };
 		2C42556E1DFC44DB00F0BF9B /* iSisSales 9.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "iSisSales 9.xcdatamodel"; sourceTree = "<group>"; };
+		2C4255721DFC4A9D00F0BF9B /* STMOutletSalesmanContract+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "STMOutletSalesmanContract+CoreDataClass.h"; sourceTree = "<group>"; };
+		2C4255731DFC4A9D00F0BF9B /* STMOutletSalesmanContract+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "STMOutletSalesmanContract+CoreDataClass.m"; sourceTree = "<group>"; };
+		2C4255751DFC4B3300F0BF9B /* STMSchedule+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "STMSchedule+CoreDataClass.h"; sourceTree = "<group>"; };
+		2C4255761DFC4B3300F0BF9B /* STMSchedule+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "STMSchedule+CoreDataClass.m"; sourceTree = "<group>"; };
+		2C4255771DFC4B3300F0BF9B /* STMSchedule+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "STMSchedule+CoreDataProperties.h"; sourceTree = "<group>"; };
+		2C4255781DFC4B3300F0BF9B /* STMSchedule+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "STMSchedule+CoreDataProperties.m"; sourceTree = "<group>"; };
+		2C4255791DFC4B3300F0BF9B /* STMSchedulePurpose+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "STMSchedulePurpose+CoreDataClass.h"; sourceTree = "<group>"; };
+		2C42557A1DFC4B3300F0BF9B /* STMSchedulePurpose+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "STMSchedulePurpose+CoreDataClass.m"; sourceTree = "<group>"; };
+		2C42557B1DFC4B3300F0BF9B /* STMSchedulePurpose+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "STMSchedulePurpose+CoreDataProperties.h"; sourceTree = "<group>"; };
+		2C42557C1DFC4B3300F0BF9B /* STMSchedulePurpose+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "STMSchedulePurpose+CoreDataProperties.m"; sourceTree = "<group>"; };
+		2C42557D1DFC4B3300F0BF9B /* STMScheduledEvent+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "STMScheduledEvent+CoreDataClass.h"; sourceTree = "<group>"; };
+		2C42557E1DFC4B3300F0BF9B /* STMScheduledEvent+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "STMScheduledEvent+CoreDataClass.m"; sourceTree = "<group>"; };
+		2C42557F1DFC4B3300F0BF9B /* STMScheduledEvent+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "STMScheduledEvent+CoreDataProperties.h"; sourceTree = "<group>"; };
+		2C4255801DFC4B3300F0BF9B /* STMScheduledEvent+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "STMScheduledEvent+CoreDataProperties.m"; sourceTree = "<group>"; };
 		2C453F031D88015500A43956 /* iSisSales.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = iSisSales.entitlements; sourceTree = "<group>"; };
 		2C5033A91DF59DB100687A64 /* iSisSales 8.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "iSisSales 8.xcdatamodel"; sourceTree = "<group>"; };
 		2C5033E01DF5AF4F00687A64 /* STMSalesman+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "STMSalesman+CoreDataClass.h"; sourceTree = "<group>"; };
@@ -761,8 +781,6 @@
 		2CE24E221D2267700004B63C /* iSisSales 3.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "iSisSales 3.xcdatamodel"; sourceTree = "<group>"; };
 		2CE24E231D226B0B0004B63C /* STMOutletSalesmanContract+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "STMOutletSalesmanContract+CoreDataProperties.h"; sourceTree = "<group>"; };
 		2CE24E241D226B0B0004B63C /* STMOutletSalesmanContract+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "STMOutletSalesmanContract+CoreDataProperties.m"; sourceTree = "<group>"; };
-		2CE24E251D226B0B0004B63C /* STMOutletSalesmanContract.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMOutletSalesmanContract.h; sourceTree = "<group>"; };
-		2CE24E261D226B0B0004B63C /* STMOutletSalesmanContract.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMOutletSalesmanContract.m; sourceTree = "<group>"; };
 		2CE24E271D226B0B0004B63C /* STMContract+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "STMContract+CoreDataProperties.h"; sourceTree = "<group>"; };
 		2CE24E281D226B0B0004B63C /* STMContract+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "STMContract+CoreDataProperties.m"; sourceTree = "<group>"; };
 		2CE24E291D226B0C0004B63C /* STMContract.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMContract.h; sourceTree = "<group>"; };
@@ -1387,8 +1405,8 @@
 				2CFA30351D50DBF300BB9E35 /* STMOutletPhoto.m */,
 				2CFA30321D50DBF300BB9E35 /* STMOutletPhoto+CoreDataProperties.h */,
 				2CFA30331D50DBF300BB9E35 /* STMOutletPhoto+CoreDataProperties.m */,
-				2CE24E251D226B0B0004B63C /* STMOutletSalesmanContract.h */,
-				2CE24E261D226B0B0004B63C /* STMOutletSalesmanContract.m */,
+				2C4255721DFC4A9D00F0BF9B /* STMOutletSalesmanContract+CoreDataClass.h */,
+				2C4255731DFC4A9D00F0BF9B /* STMOutletSalesmanContract+CoreDataClass.m */,
 				2CE24E231D226B0B0004B63C /* STMOutletSalesmanContract+CoreDataProperties.h */,
 				2CE24E241D226B0B0004B63C /* STMOutletSalesmanContract+CoreDataProperties.m */,
 				2C0A8C981D09903C007C5B57 /* STMPartner.h */,
@@ -1415,6 +1433,18 @@
 				2C5033E11DF5AF4F00687A64 /* STMSalesman+CoreDataClass.m */,
 				2C0A8C921D09903C007C5B57 /* STMSalesman+CoreDataProperties.h */,
 				2C0A8C931D09903C007C5B57 /* STMSalesman+CoreDataProperties.m */,
+				2C4255751DFC4B3300F0BF9B /* STMSchedule+CoreDataClass.h */,
+				2C4255761DFC4B3300F0BF9B /* STMSchedule+CoreDataClass.m */,
+				2C4255771DFC4B3300F0BF9B /* STMSchedule+CoreDataProperties.h */,
+				2C4255781DFC4B3300F0BF9B /* STMSchedule+CoreDataProperties.m */,
+				2C4255791DFC4B3300F0BF9B /* STMSchedulePurpose+CoreDataClass.h */,
+				2C42557A1DFC4B3300F0BF9B /* STMSchedulePurpose+CoreDataClass.m */,
+				2C42557B1DFC4B3300F0BF9B /* STMSchedulePurpose+CoreDataProperties.h */,
+				2C42557C1DFC4B3300F0BF9B /* STMSchedulePurpose+CoreDataProperties.m */,
+				2C42557D1DFC4B3300F0BF9B /* STMScheduledEvent+CoreDataClass.h */,
+				2C42557E1DFC4B3300F0BF9B /* STMScheduledEvent+CoreDataClass.m */,
+				2C42557F1DFC4B3300F0BF9B /* STMScheduledEvent+CoreDataProperties.h */,
+				2C4255801DFC4B3300F0BF9B /* STMScheduledEvent+CoreDataProperties.m */,
 				2C5033F21DF5B00900687A64 /* STMStock+CoreDataClass.h */,
 				2C5033F31DF5B00900687A64 /* STMStock+CoreDataClass.m */,
 				2C5033F41DF5B00900687A64 /* STMStock+CoreDataProperties.h */,
@@ -1955,6 +1985,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C4255741DFC4A9D00F0BF9B /* STMOutletSalesmanContract+CoreDataClass.m in Sources */,
 				2CE24E2D1D226B0C0004B63C /* STMContract+CoreDataProperties.m in Sources */,
 				2C50340F1DF5B00900687A64 /* STMArticleGroup+CoreDataProperties.m in Sources */,
 				2C0A8CB01D09903C007C5B57 /* STMVisitAnswer+CoreDataProperties.m in Sources */,
@@ -1994,7 +2025,6 @@
 				2C94C17F1CF1B1F3004476D8 /* STMBarCodeType+CoreDataProperties.m in Sources */,
 				3550B1DC1DAE59F300F8A368 /* STMCorePicture.m in Sources */,
 				2C94C0E01CF1B1BB004476D8 /* STMCoreTracker.m in Sources */,
-				2CE24E2C1D226B0C0004B63C /* STMOutletSalesmanContract.m in Sources */,
 				2C0A8CA51D09903C007C5B57 /* STMVisitQuestionSet.m in Sources */,
 				2C94C19C1CF1B1F3004476D8 /* STMWorkflow.m in Sources */,
 				2C50340A1DF5B00900687A64 /* STMPriceType+CoreDataClass.m in Sources */,
@@ -2042,6 +2072,7 @@
 				2C94C1051CF1B1BB004476D8 /* STMCustom1TVCell.m in Sources */,
 				2C94C1311CF1B1BB004476D8 /* STMSettingsNC.m in Sources */,
 				2C6113021D0BDE7B006BCB30 /* STMLocation.m in Sources */,
+				2C4255841DFC4B3300F0BF9B /* STMSchedulePurpose+CoreDataProperties.m in Sources */,
 				2C0A8CAE1D09903C007C5B57 /* STMPartner+CoreDataProperties.m in Sources */,
 				2C94C0F81CF1B1BB004476D8 /* STMMessageController.m in Sources */,
 				2C5034161DF5B00900687A64 /* STMSaleOrder+CoreDataClass.m in Sources */,
@@ -2067,6 +2098,7 @@
 				2C94C1981CF1B1F3004476D8 /* STMRecordStatus.m in Sources */,
 				2C94C0F31CF1B1BB004476D8 /* STMCoreObjectsController.m in Sources */,
 				2C94C0E11CF1B1BB004476D8 /* STMDocument.m in Sources */,
+				2C4255831DFC4B3300F0BF9B /* STMSchedulePurpose+CoreDataClass.m in Sources */,
 				2C94C1971CF1B1F3004476D8 /* STMRecordStatus+CoreDataProperties.m in Sources */,
 				2C0A8CA81D09903C007C5B57 /* STMVisitQuestion+CoreDataProperties.m in Sources */,
 				2CCD468C1D646BAF003F8A14 /* STMLegalForm+CoreDataProperties.m in Sources */,
@@ -2077,6 +2109,7 @@
 				2C94C11D1CF1B1BB004476D8 /* STMVariableCellsHeightTVC.m in Sources */,
 				2C94C0FA1CF1B1BB004476D8 /* STMWorkflowController.m in Sources */,
 				2C0A8CB11D09903C007C5B57 /* STMVisitAnswer.m in Sources */,
+				2C4255821DFC4B3300F0BF9B /* STMSchedule+CoreDataProperties.m in Sources */,
 				2C94C12B1CF1B1BB004476D8 /* STMMessageVC.m in Sources */,
 				2C94C0F41CF1B1BB004476D8 /* STMCorePhotosController.m in Sources */,
 				2C94C1341CF1B1BB004476D8 /* STMWebViewNC.m in Sources */,
@@ -2123,6 +2156,7 @@
 				2C94C1141CF1B1BB004476D8 /* STMInsetLabel.m in Sources */,
 				2C94C0E31CF1B1BB004476D8 /* STMFunctions.m in Sources */,
 				2C5034111DF5B00900687A64 /* STMStock+CoreDataProperties.m in Sources */,
+				2C4255851DFC4B3300F0BF9B /* STMScheduledEvent+CoreDataClass.m in Sources */,
 				2CE24E2B1D226B0C0004B63C /* STMOutletSalesmanContract+CoreDataProperties.m in Sources */,
 				2C94C11E1CF1B1BB004476D8 /* STMWorkflowAS.m in Sources */,
 				2C94C12A1CF1B1BB004476D8 /* STMMessagesTVC.m in Sources */,
@@ -2130,8 +2164,10 @@
 				2C94BFCF1CF1ACB8004476D8 /* main.m in Sources */,
 				2C94C12F1CF1B1BB004476D8 /* STMScannerInfoVC.m in Sources */,
 				2C94C0EE1CF1B1BB004476D8 /* STMSyncer.m in Sources */,
+				2C4255861DFC4B3300F0BF9B /* STMScheduledEvent+CoreDataProperties.m in Sources */,
 				2C94C11C1CF1B1BB004476D8 /* STMTableViewCell.m in Sources */,
 				2CE24E2E1D226B0C0004B63C /* STMContract.m in Sources */,
+				2C4255811DFC4B3300F0BF9B /* STMSchedule+CoreDataClass.m in Sources */,
 				2C94C0FD1CF1B1BB004476D8 /* STMPredicate.m in Sources */,
 				2C94C1281CF1B1BB004476D8 /* STMLogMessagesSVC.m in Sources */,
 				2C9AE9A11CF5AF690018D9B3 /* STMJson+CoreDataProperties.m in Sources */,

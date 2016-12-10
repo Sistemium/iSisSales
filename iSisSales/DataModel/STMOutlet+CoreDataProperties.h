@@ -2,7 +2,7 @@
 //  STMOutlet+CoreDataProperties.h
 //  iSisSales
 //
-//  Created by Maxim Grigoriev on 05/12/16.
+//  Created by Maxim Grigoriev on 10/12/16.
 //  Copyright © 2016 Sistemium UAB. All rights reserved.
 //
 
@@ -33,8 +33,9 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nullable, nonatomic, retain) NSSet<STMOutletSalesmanContract *> *outletSalesmanContracts;
 @property (nullable, nonatomic, retain) STMPartner *partner;
 @property (nullable, nonatomic, retain) NSSet<STMOutletPhoto *> *photos;
-@property (nullable, nonatomic, retain) NSSet<STMVisit *> *visits;
 @property (nullable, nonatomic, retain) NSSet<STMSaleOrder *> *saleOrders;
+@property (nullable, nonatomic, retain) NSSet<STMScheduledEvent *> *scheduledEvents;
+@property (nullable, nonatomic, retain) NSSet<STMVisit *> *visits;
 
 @end
 
@@ -50,15 +51,20 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)addPhotos:(NSSet<STMOutletPhoto *> *)values;
 - (void)removePhotos:(NSSet<STMOutletPhoto *> *)values;
 
-- (void)addVisitsObject:(STMVisit *)value;
-- (void)removeVisitsObject:(STMVisit *)value;
-- (void)addVisits:(NSSet<STMVisit *> *)values;
-- (void)removeVisits:(NSSet<STMVisit *> *)values;
-
 - (void)addSaleOrdersObject:(STMSaleOrder *)value;
 - (void)removeSaleOrdersObject:(STMSaleOrder *)value;
 - (void)addSaleOrders:(NSSet<STMSaleOrder *> *)values;
 - (void)removeSaleOrders:(NSSet<STMSaleOrder *> *)values;
+
+- (void)addScheduledEventsObject:(STMScheduledEvent *)value;
+- (void)removeScheduledEventsObject:(STMScheduledEvent *)value;
+- (void)addScheduledEvents:(NSSet<STMScheduledEvent *> *)values;
+- (void)removeScheduledEvents:(NSSet<STMScheduledEvent *> *)values;
+
+- (void)addVisitsObject:(STMVisit *)value;
+- (void)removeVisitsObject:(STMVisit *)value;
+- (void)addVisits:(NSSet<STMVisit *> *)values;
+- (void)removeVisits:(NSSet<STMVisit *> *)values;
 
 @end
 
