@@ -280,6 +280,7 @@
 		3550B1DD1DAE59F300F8A368 /* STMCorePicture+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 3550B1DB1DAE59F300F8A368 /* STMCorePicture+CoreDataProperties.m */; };
 		3550B1E21DAE5CC300F8A368 /* STMEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 3550B1DF1DAE5CC300F8A368 /* STMEntity.m */; };
 		3550B1E31DAE5CC300F8A368 /* STMEntity+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 3550B1E11DAE5CC300F8A368 /* STMEntity+CoreDataProperties.m */; };
+		356C5D411DFECF7D00165163 /* STMFmdb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356C5D401DFECF7D00165163 /* STMFmdb.swift */; };
 		B765DF6BD8F1900FE8C5AE92 /* Pods_iSisSales.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D83C8648154EC85EB3023D68 /* Pods_iSisSales.framework */; };
 		D920AF7D1D8D417700E825FC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D920AF7F1D8D417700E825FC /* InfoPlist.strings */; };
 /* End PBXBuildFile section */
@@ -801,6 +802,7 @@
 		3550B1DF1DAE5CC300F8A368 /* STMEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMEntity.m; sourceTree = "<group>"; };
 		3550B1E01DAE5CC300F8A368 /* STMEntity+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "STMEntity+CoreDataProperties.h"; sourceTree = "<group>"; };
 		3550B1E11DAE5CC300F8A368 /* STMEntity+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "STMEntity+CoreDataProperties.m"; sourceTree = "<group>"; };
+		356C5D401DFECF7D00165163 /* STMFmdb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = STMFmdb.swift; sourceTree = "<group>"; };
 		4033E05BE502B1B13735187B /* Pods-iSisSales.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSales.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSales/Pods-iSisSales.debug.xcconfig"; sourceTree = "<group>"; };
 		A5AB0EC47BD72C1AE7EBF7FA /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D83C8648154EC85EB3023D68 /* Pods_iSisSales.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iSisSales.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1367,6 +1369,7 @@
 				2C94C17B1CF1B1F3004476D8 /* STMWorkflow.m */,
 				2C94C1781CF1B1F3004476D8 /* STMWorkflow+CoreDataProperties.h */,
 				2C94C1791CF1B1F3004476D8 /* STMWorkflow+CoreDataProperties.m */,
+				356C5D401DFECF7D00165163 /* STMFmdb.swift */,
 			);
 			name = "☯ DataModel";
 			path = ../../iSistemiumCore/iSistemiumCore/DataModel;
@@ -2058,6 +2061,7 @@
 				2C94C1301CF1B1BB004476D8 /* STMSettingControlsTVC.m in Sources */,
 				2C94C1101CF1B1BB004476D8 /* STMDatePicker.swift in Sources */,
 				2C94C1221CF1B1BB004476D8 /* STMAuthPhoneVC.m in Sources */,
+				356C5D411DFECF7D00165163 /* STMFmdb.swift in Sources */,
 				2C50341A1DF5B00900687A64 /* STMArticle+CoreDataClass.m in Sources */,
 				2C94C10E1CF1B1BB004476D8 /* STMThreeLinesAndCheckboxTVCell.swift in Sources */,
 				2C94C0DD1CF1B1BB004476D8 /* STMCoreSession.m in Sources */,
