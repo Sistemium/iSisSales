@@ -8,6 +8,7 @@ target 'iSisSales' do
     pod 'JNKeychain', '~> 0.1.4'
     pod 'ScanAPI', :path => '../ScanApiSDK'
     pod 'Socket.IO-Client-Swift', '~> 8.0.2'
+    pod 'FMDB', '~> 2.6.2’
     use_frameworks! 
 end
 
