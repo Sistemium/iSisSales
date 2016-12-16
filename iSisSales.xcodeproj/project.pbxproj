@@ -276,6 +276,7 @@
 		2CFA30301D4F310300BB9E35 /* STMUserDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CFA302F1D4F310300BB9E35 /* STMUserDefaults.m */; };
 		2CFA30361D50DBF300BB9E35 /* STMOutletPhoto+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CFA30331D50DBF300BB9E35 /* STMOutletPhoto+CoreDataProperties.m */; };
 		2CFA30371D50DBF300BB9E35 /* STMOutletPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CFA30351D50DBF300BB9E35 /* STMOutletPhoto.m */; };
+		3534EC301E0452340067A69E /* STMFMDB_OBJC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3534EC2F1E0452340067A69E /* STMFMDB_OBJC.m */; };
 		3550B1DC1DAE59F300F8A368 /* STMCorePicture.m in Sources */ = {isa = PBXBuildFile; fileRef = 3550B1D91DAE59F300F8A368 /* STMCorePicture.m */; };
 		3550B1DD1DAE59F300F8A368 /* STMCorePicture+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 3550B1DB1DAE59F300F8A368 /* STMCorePicture+CoreDataProperties.m */; };
 		3550B1E21DAE5CC300F8A368 /* STMEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 3550B1DF1DAE5CC300F8A368 /* STMEntity.m */; };
@@ -793,6 +794,8 @@
 		2CFA30331D50DBF300BB9E35 /* STMOutletPhoto+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "STMOutletPhoto+CoreDataProperties.m"; sourceTree = "<group>"; };
 		2CFA30341D50DBF300BB9E35 /* STMOutletPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMOutletPhoto.h; sourceTree = "<group>"; };
 		2CFA30351D50DBF300BB9E35 /* STMOutletPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMOutletPhoto.m; sourceTree = "<group>"; };
+		3534EC2F1E0452340067A69E /* STMFMDB_OBJC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMFMDB_OBJC.m; sourceTree = "<group>"; };
+		3534EC311E04525E0067A69E /* STMFMDB_OBJC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STMFMDB_OBJC.h; sourceTree = "<group>"; };
 		3550B1D11DAE58C300F8A368 /* iSisSales 7.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "iSisSales 7.xcdatamodel"; sourceTree = "<group>"; };
 		3550B1D81DAE59F300F8A368 /* STMCorePicture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMCorePicture.h; sourceTree = "<group>"; };
 		3550B1D91DAE59F300F8A368 /* STMCorePicture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMCorePicture.m; sourceTree = "<group>"; };
@@ -1370,6 +1373,8 @@
 				2C94C1781CF1B1F3004476D8 /* STMWorkflow+CoreDataProperties.h */,
 				2C94C1791CF1B1F3004476D8 /* STMWorkflow+CoreDataProperties.m */,
 				356C5D401DFECF7D00165163 /* STMFmdb.swift */,
+				3534EC2F1E0452340067A69E /* STMFMDB_OBJC.m */,
+				3534EC311E04525E0067A69E /* STMFMDB_OBJC.h */,
 			);
 			name = "☯ DataModel";
 			path = ../../iSistemiumCore/iSistemiumCore/DataModel;
@@ -1772,7 +1777,7 @@
 		2C94BFC21CF1ACB8004476D8 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0810;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "Sistemium UAB";
 				TargetAttributes = {
 					2C94BFC91CF1ACB8004476D8 = {
@@ -2092,6 +2097,7 @@
 				2C2379B21CF2FFB4002AF3F5 /* STMObjectsController.m in Sources */,
 				2C0A8CAA1D09903C007C5B57 /* STMVisitQuestionDataType+CoreDataProperties.m in Sources */,
 				2C94C1171CF1B1BB004476D8 /* STMSegmentedControl.m in Sources */,
+				3534EC301E0452340067A69E /* STMFMDB_OBJC.m in Sources */,
 				2C94C18E1CF1B1F3004476D8 /* STMCoreLocation.m in Sources */,
 				2C94C1351CF1B1BB004476D8 /* STMWebViewVC.m in Sources */,
 				2C94C0DA1CF1B1BB004476D8 /* STMCoreAuthController.m in Sources */,
