@@ -2,7 +2,7 @@
 //  STMSaleOrderPosition+CoreDataProperties.m
 //  iSisSales
 //
-//  Created by Alexander Levin on 06/12/16.
+//  Created by Maxim Grigoriev on 20/12/2016.
 //  Copyright © 2016 Sistemium UAB. All rights reserved.
 //
 
@@ -14,6 +14,7 @@
 	return [[NSFetchRequest alloc] initWithEntityName:@"STMSaleOrderPosition"];
 }
 
+@dynamic backVolume;
 @dynamic commentText;
 @dynamic cost;
 @dynamic deviceCts;
@@ -29,7 +30,7 @@
 @dynamic target;
 @dynamic volume;
 @dynamic xid;
-@dynamic backVolume;
+@dynamic deviceAts;
 @dynamic article;
 @dynamic saleOrder;
 
