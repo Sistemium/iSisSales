@@ -330,7 +330,7 @@
         <relationship name="partner" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMPartner" inverseName="outlets" inverseEntity="STMPartner" syncable="YES"/>
         <relationship name="photos" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="STMOutletPhoto" inverseName="outlet" inverseEntity="STMOutletPhoto" syncable="YES"/>
         <relationship name="saleOrders" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="STMSaleOrder" inverseName="outlet" inverseEntity="STMSaleOrder" syncable="YES"/>
-        <relationship name="scheduledEvents" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="STMScheduledEvent" inverseName="outlet" inverseEntity="STMScheduledEvent" syncable="YES"/>
+        <relationship name="scheduledEvents" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="STMScheduledEvent" inverseName="outlet" inverseEntity="STMScheduledEvent" syncable="YES"/>
         <relationship name="visits" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="STMVisit" inverseName="outlet" inverseEntity="STMVisit" syncable="YES"/>
     </entity>
     <entity name="STMOutletPhoto" representedClassName="STMOutletPhoto" parentEntity="STMCorePhoto" syncable="YES">
@@ -475,7 +475,7 @@
         <attribute name="xid" optional="YES" attributeType="Binary" indexed="YES" syncable="YES"/>
         <relationship name="outletSalesmanContracts" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="STMOutletSalesmanContract" inverseName="salesman" inverseEntity="STMOutletSalesmanContract" syncable="YES"/>
         <relationship name="saleOrders" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="STMSaleOrder" inverseName="salesman" inverseEntity="STMSaleOrder" syncable="YES"/>
-        <relationship name="scheduledEvents" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="STMScheduledEvent" inverseName="salesman" inverseEntity="STMScheduledEvent" syncable="YES"/>
+        <relationship name="scheduledEvents" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="STMScheduledEvent" inverseName="salesman" inverseEntity="STMScheduledEvent" syncable="YES"/>
         <relationship name="visits" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="STMVisit" inverseName="salesman" inverseEntity="STMVisit" syncable="YES"/>
     </entity>
     <entity name="STMSchedule" representedClassName="STMSchedule" syncable="YES">
