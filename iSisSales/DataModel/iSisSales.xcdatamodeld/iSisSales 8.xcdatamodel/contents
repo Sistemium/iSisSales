@@ -650,11 +650,7 @@
         <element name="STMPriceType" positionX="-1352" positionY="-244" width="128" height="268"/>
         <element name="STMRecordStatus" positionX="-360" positionY="-2286" width="128" height="268"/>
         <element name="STMSaleOrder" positionX="-945" positionY="-901" width="128" height="328"/>
-<<<<<<< HEAD
         <element name="STMSaleOrderPosition" positionX="-1134" positionY="-1026" width="128" height="328"/>
-=======
-        <element name="STMSaleOrderPosition" positionX="-1134" positionY="-1026" width="128" height="330"/>
->>>>>>> saleOrders
         <element name="STMSalesman" positionX="-974" positionY="-1242" width="128" height="253"/>
         <element name="STMSetting" positionX="-1080" positionY="-2286" width="128" height="238"/>
         <element name="STMStock" positionX="-920" positionY="-486" width="128" height="238"/>
