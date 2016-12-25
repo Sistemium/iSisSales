@@ -9,6 +9,7 @@ target 'iSisSales' do
     pod 'ScanAPI', :path => '../ScanApiSDK'
     pod 'Socket.IO-Client-Swift', '~> 8.0.2'
     pod 'FMDB', '~> 2.6.2’
+    pod "PromiseKit", "~> 4.0"
     use_frameworks! 
 end
 
