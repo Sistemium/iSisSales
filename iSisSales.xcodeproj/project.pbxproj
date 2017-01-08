@@ -812,7 +812,6 @@
 		35B32E2F1E1E681700E11EF6 /* STMPersistingSync.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMPersistingSync.h; sourceTree = "<group>"; };
 		35B32E301E1E682D00E11EF6 /* STMPersistingAsync.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMPersistingAsync.h; sourceTree = "<group>"; };
 		35B32E311E1E683E00E11EF6 /* STMPersistingPromised.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMPersistingPromised.h; sourceTree = "<group>"; };
-		35B32E321E1E8F9D00E11EF6 /* STMPersisting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMPersisting.h; sourceTree = "<group>"; };
 		35B32E331E1EB4D400E11EF6 /* STMPersister.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STMPersister.h; sourceTree = "<group>"; };
 		35B32E341E1EB4EE00E11EF6 /* STMPersister.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMPersister.m; sourceTree = "<group>"; };
 		35D38BF61E12D079003F8C89 /* STMPredicateToSQL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STMPredicateToSQL.h; sourceTree = "<group>"; };
@@ -1081,7 +1080,6 @@
 				35B32E2F1E1E681700E11EF6 /* STMPersistingSync.h */,
 				35B32E301E1E682D00E11EF6 /* STMPersistingAsync.h */,
 				35B32E311E1E683E00E11EF6 /* STMPersistingPromised.h */,
-				35B32E321E1E8F9D00E11EF6 /* STMPersisting.h */,
 			);
 			name = "☯ Protocols";
 			path = Protocols;
