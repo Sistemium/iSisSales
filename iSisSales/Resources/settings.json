@@ -204,7 +204,7 @@
       [
         {
           "name": "fetchLimit",
-          "value": 50,
+          "value": 500,
           "control": "slider",
           "min": 10,
           "max": 200,
