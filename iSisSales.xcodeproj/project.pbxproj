@@ -798,8 +798,8 @@
 		2CFA30331D50DBF300BB9E35 /* STMOutletPhoto+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "STMOutletPhoto+CoreDataProperties.m"; sourceTree = "<group>"; };
 		2CFA30341D50DBF300BB9E35 /* STMOutletPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMOutletPhoto.h; sourceTree = "<group>"; };
 		2CFA30351D50DBF300BB9E35 /* STMOutletPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMOutletPhoto.m; sourceTree = "<group>"; };
-		3534EC2F1E0452340067A69E /* STMFmdb.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMFmdb.m; sourceTree = "<group>"; };
-		3534EC311E04525E0067A69E /* STMFmdb.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STMFmdb.h; sourceTree = "<group>"; };
+		3534EC2F1E0452340067A69E /* STMFmdb.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = STMFmdb.m; path = ../../DataModel/STMFmdb.m; sourceTree = "<group>"; };
+		3534EC311E04525E0067A69E /* STMFmdb.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = STMFmdb.h; path = ../../DataModel/STMFmdb.h; sourceTree = "<group>"; };
 		3550B1D11DAE58C300F8A368 /* iSisSales 7.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "iSisSales 7.xcdatamodel"; sourceTree = "<group>"; };
 		3550B1D81DAE59F300F8A368 /* STMCorePicture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMCorePicture.h; sourceTree = "<group>"; };
 		3550B1D91DAE59F300F8A368 /* STMCorePicture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMCorePicture.m; sourceTree = "<group>"; };
@@ -1026,6 +1026,8 @@
 				35D38BF71E12D140003F8C89 /* STMPredicateToSQL.m */,
 				35B32E331E1EB4D400E11EF6 /* STMPersister.h */,
 				35B32E341E1EB4EE00E11EF6 /* STMPersister.m */,
+				3534EC2F1E0452340067A69E /* STMFmdb.m */,
+				3534EC311E04525E0067A69E /* STMFmdb.h */,
 			);
 			name = "☯ Base";
 			path = Base;
@@ -1391,8 +1393,6 @@
 				2C94C17B1CF1B1F3004476D8 /* STMWorkflow.m */,
 				2C94C1781CF1B1F3004476D8 /* STMWorkflow+CoreDataProperties.h */,
 				2C94C1791CF1B1F3004476D8 /* STMWorkflow+CoreDataProperties.m */,
-				3534EC2F1E0452340067A69E /* STMFmdb.m */,
-				3534EC311E04525E0067A69E /* STMFmdb.h */,
 			);
 			name = "☯ DataModel";
 			path = ../../iSistemiumCore/iSistemiumCore/DataModel;
