@@ -8,6 +8,7 @@
 
 #import "STMArticle+CoreDataClass.h"
 #import "STMArticleGroup+CoreDataClass.h"
+#import "STMArticlePicture+CoreDataClass.h"
 #import "STMPrice+CoreDataClass.h"
 #import "STMSaleOrderPosition+CoreDataClass.h"
 #import "STMStock+CoreDataClass.h"
