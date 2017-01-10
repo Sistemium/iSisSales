@@ -38,7 +38,6 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nullable, nonatomic, retain) NSSet<STMPrice *> *prices;
 @property (nullable, nonatomic, retain) NSSet<STMSaleOrderPosition *> *saleOrderPositions;
 @property (nullable, nonatomic, retain) NSSet<STMStock *> *stocks;
-@property (nullable, nonatomic, retain) NSSet<STMArticlePicture *> *pictures;
 
 @end
 
@@ -58,11 +57,6 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)removeStocksObject:(STMStock *)value;
 - (void)addStocks:(NSSet<STMStock *> *)values;
 - (void)removeStocks:(NSSet<STMStock *> *)values;
-
-- (void)addPicturesObject:(STMArticlePicture *)value;
-- (void)removePicturesObject:(STMArticlePicture *)value;
-- (void)addPictures:(NSSet<STMArticlePicture *> *)values;
-- (void)removePictures:(NSSet<STMArticlePicture *> *)values;
 
 @end
 

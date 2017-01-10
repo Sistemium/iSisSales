@@ -14,6 +14,4 @@
 	return [[NSFetchRequest alloc] initWithEntityName:@"STMArticlePicture"];
 }
 
-@dynamic articles;
-
 @end

@@ -9,7 +9,6 @@
 #import <Foundation/Foundation.h>
 #import "STMCorePicture.h"
 
-@class STMArticle;
 
 NS_ASSUME_NONNULL_BEGIN
 

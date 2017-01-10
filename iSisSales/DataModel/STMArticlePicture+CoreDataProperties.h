@@ -15,16 +15,11 @@ NS_ASSUME_NONNULL_BEGIN
 
 + (NSFetchRequest<STMArticlePicture *> *)fetchRequest;
 
-@property (nullable, nonatomic, retain) NSSet<STMArticle *> *articles;
 
 @end
 
 @interface STMArticlePicture (CoreDataGeneratedAccessors)
 
-- (void)addArticlesObject:(STMArticle *)value;
-- (void)removeArticlesObject:(STMArticle *)value;
-- (void)addArticles:(NSSet<STMArticle *> *)values;
-- (void)removeArticles:(NSSet<STMArticle *> *)values;
 
 @end
 

@@ -37,6 +37,5 @@
 @dynamic prices;
 @dynamic saleOrderPositions;
 @dynamic stocks;
-@dynamic pictures;
 
 @end

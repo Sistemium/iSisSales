@@ -7,7 +7,6 @@
 //
 
 #import "STMArticlePicture+CoreDataClass.h"
-#import "STMArticle+CoreDataClass.h"
 @implementation STMArticlePicture
 
 @end
