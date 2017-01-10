@@ -13,6 +13,7 @@
 
 #import "STMArticle+CoreDataClass.h"
 #import "STMArticleGroup+CoreDataClass.h"
+#import "STMArticlePicture+CoreDataClass.h"
 
 #import "STMContract.h"
 

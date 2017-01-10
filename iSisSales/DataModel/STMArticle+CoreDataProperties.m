@@ -2,8 +2,8 @@
 //  STMArticle+CoreDataProperties.m
 //  iSisSales
 //
-//  Created by Maxim Grigoriev on 06/12/16.
-//  Copyright © 2016 Sistemium UAB. All rights reserved.
+//  Created by Maxim Grigoriev on 10/01/2017.
+//  Copyright © 2017 Sistemium UAB. All rights reserved.
 //
 
 #import "STMArticle+CoreDataProperties.h"

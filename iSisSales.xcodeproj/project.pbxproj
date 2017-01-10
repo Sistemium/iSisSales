@@ -24,6 +24,8 @@
 		2C1AE2521D9BF62500272A63 /* errorCatcherScript.js in Resources */ = {isa = PBXBuildFile; fileRef = 2C1AE2511D9BF62500272A63 /* errorCatcherScript.js */; };
 		2C2379B21CF2FFB4002AF3F5 /* STMObjectsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C2379B11CF2FFB4002AF3F5 /* STMObjectsController.m */; };
 		2C32C9D81D14441F00CE4981 /* STMCameraOverlayView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C32C9D71D14441F00CE4981 /* STMCameraOverlayView.xib */; };
+		2C34EDAE1E2522D1004DE82D /* STMArticlePicture+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C34EDAB1E2522D1004DE82D /* STMArticlePicture+CoreDataClass.m */; };
+		2C34EDAF1E2522D1004DE82D /* STMArticlePicture+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C34EDAD1E2522D1004DE82D /* STMArticlePicture+CoreDataProperties.m */; };
 		2C3920821D8A7D3500898FC6 /* STMCoreAppManifestHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C3920811D8A7D3500898FC6 /* STMCoreAppManifestHandler.m */; };
 		2C40F7801CF2037A00231E01 /* STMController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C40F77F1CF2037A00231E01 /* STMController.m */; };
 		2C40F78B1CF203A100231E01 /* STMAuthController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C40F7821CF203A100231E01 /* STMAuthController.m */; };
@@ -339,6 +341,11 @@
 		2C2379B01CF2FFB4002AF3F5 /* STMObjectsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMObjectsController.h; sourceTree = "<group>"; };
 		2C2379B11CF2FFB4002AF3F5 /* STMObjectsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMObjectsController.m; sourceTree = "<group>"; };
 		2C32C9D71D14441F00CE4981 /* STMCameraOverlayView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = STMCameraOverlayView.xib; sourceTree = "<group>"; };
+		2C34EDA91E252189004DE82D /* iSisSales 10.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "iSisSales 10.xcdatamodel"; sourceTree = "<group>"; };
+		2C34EDAA1E2522D1004DE82D /* STMArticlePicture+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "STMArticlePicture+CoreDataClass.h"; sourceTree = "<group>"; };
+		2C34EDAB1E2522D1004DE82D /* STMArticlePicture+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "STMArticlePicture+CoreDataClass.m"; sourceTree = "<group>"; };
+		2C34EDAC1E2522D1004DE82D /* STMArticlePicture+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "STMArticlePicture+CoreDataProperties.h"; sourceTree = "<group>"; };
+		2C34EDAD1E2522D1004DE82D /* STMArticlePicture+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "STMArticlePicture+CoreDataProperties.m"; sourceTree = "<group>"; };
 		2C3920801D8A7D3500898FC6 /* STMCoreAppManifestHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMCoreAppManifestHandler.h; sourceTree = "<group>"; };
 		2C3920811D8A7D3500898FC6 /* STMCoreAppManifestHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMCoreAppManifestHandler.m; sourceTree = "<group>"; };
 		2C40F77E1CF2037A00231E01 /* STMController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMController.h; sourceTree = "<group>"; };
@@ -1411,6 +1418,10 @@
 				2C5033EF1DF5B00900687A64 /* STMArticleGroup+CoreDataClass.m */,
 				2C5033F01DF5B00900687A64 /* STMArticleGroup+CoreDataProperties.h */,
 				2C5033F11DF5B00900687A64 /* STMArticleGroup+CoreDataProperties.m */,
+				2C34EDAA1E2522D1004DE82D /* STMArticlePicture+CoreDataClass.h */,
+				2C34EDAB1E2522D1004DE82D /* STMArticlePicture+CoreDataClass.m */,
+				2C34EDAC1E2522D1004DE82D /* STMArticlePicture+CoreDataProperties.h */,
+				2C34EDAD1E2522D1004DE82D /* STMArticlePicture+CoreDataProperties.m */,
 				2CE24E291D226B0C0004B63C /* STMContract.h */,
 				2CE24E2A1D226B0C0004B63C /* STMContract.m */,
 				2CE24E271D226B0B0004B63C /* STMContract+CoreDataProperties.h */,
@@ -2036,6 +2047,7 @@
 				2C94C1821CF1B1F3004476D8 /* STMBatteryStatus.m in Sources */,
 				2C6113041D0BDE7B006BCB30 /* STMVisit.m in Sources */,
 				2C0A8CAB1D09903C007C5B57 /* STMVisitQuestionDataType.m in Sources */,
+				2C34EDAF1E2522D1004DE82D /* STMArticlePicture+CoreDataProperties.m in Sources */,
 				2C94C1151CF1B1BB004476D8 /* STMLabel.m in Sources */,
 				2C40F7801CF2037A00231E01 /* STMController.m in Sources */,
 				2C94C1361CF1B1BB004476D8 /* STMWKWebViewNC.m in Sources */,
@@ -2047,6 +2059,7 @@
 				2C94C17D1CF1B1F3004476D8 /* STMBarCodeScan+CoreDataProperties.m in Sources */,
 				2C94C0FB1CF1B1BB004476D8 /* STMEntityDescription.m in Sources */,
 				2C94C1381CF1B1BB004476D8 /* STMWorkflowEditablesVC.m in Sources */,
+				2C34EDAE1E2522D1004DE82D /* STMArticlePicture+CoreDataClass.m in Sources */,
 				2C94C0E21CF1B1BB004476D8 /* STMExtendNSLog.m in Sources */,
 				2C94C17F1CF1B1F3004476D8 /* STMBarCodeType+CoreDataProperties.m in Sources */,
 				3550B1DC1DAE59F300F8A368 /* STMCorePicture.m in Sources */,
@@ -2499,6 +2512,7 @@
 		2CC2D3061D13E3720026EB72 /* iSisSales.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
+				2C34EDA91E252189004DE82D /* iSisSales 10.xcdatamodel */,
 				2C42556E1DFC44DB00F0BF9B /* iSisSales 9.xcdatamodel */,
 				2C5033A91DF59DB100687A64 /* iSisSales 8.xcdatamodel */,
 				3550B1D11DAE58C300F8A368 /* iSisSales 7.xcdatamodel */,
@@ -2509,7 +2523,7 @@
 				2CC2D3071D13E3720026EB72 /* iSisSales 2.xcdatamodel */,
 				2CC2D3081D13E3720026EB72 /* iSisSales.xcdatamodel */,
 			);
-			currentVersion = 2C42556E1DFC44DB00F0BF9B /* iSisSales 9.xcdatamodel */;
+			currentVersion = 2C34EDA91E252189004DE82D /* iSisSales 10.xcdatamodel */;
 			path = iSisSales.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
