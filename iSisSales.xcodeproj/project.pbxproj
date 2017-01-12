@@ -440,43 +440,43 @@
 		2C94BFF41CF1ACB8004476D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2C94C0031CF1B1BA004476D8 /* STMBarCodeScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMBarCodeScanner.h; sourceTree = "<group>"; };
 		2C94C0041CF1B1BA004476D8 /* STMBarCodeScanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMBarCodeScanner.m; sourceTree = "<group>"; };
-		2C94C0051CF1B1BA004476D8 /* STMConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMConstants.h; sourceTree = "<group>"; };
-		2C94C0061CF1B1BA004476D8 /* STMCoreAuthController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMCoreAuthController.h; sourceTree = "<group>"; };
-		2C94C0071CF1B1BA004476D8 /* STMCoreAuthController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = STMCoreAuthController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
-		2C94C0081CF1B1BA004476D8 /* STMCoreBatteryTracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMCoreBatteryTracker.h; sourceTree = "<group>"; };
-		2C94C0091CF1B1BA004476D8 /* STMCoreBatteryTracker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMCoreBatteryTracker.m; sourceTree = "<group>"; };
-		2C94C00A1CF1B1BA004476D8 /* STMCoreLocationTracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMCoreLocationTracker.h; sourceTree = "<group>"; };
-		2C94C00B1CF1B1BA004476D8 /* STMCoreLocationTracker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMCoreLocationTracker.m; sourceTree = "<group>"; };
-		2C94C00C1CF1B1BA004476D8 /* STMCoreSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMCoreSession.h; sourceTree = "<group>"; };
-		2C94C00D1CF1B1BA004476D8 /* STMCoreSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMCoreSession.m; sourceTree = "<group>"; };
-		2C94C00E1CF1B1BA004476D8 /* STMCoreSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMCoreSessionManager.h; sourceTree = "<group>"; };
-		2C94C00F1CF1B1BA004476D8 /* STMCoreSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMCoreSessionManager.m; sourceTree = "<group>"; };
-		2C94C0101CF1B1BA004476D8 /* STMCoreSettingsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMCoreSettingsController.h; sourceTree = "<group>"; };
-		2C94C0111CF1B1BA004476D8 /* STMCoreSettingsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMCoreSettingsController.m; sourceTree = "<group>"; };
-		2C94C0121CF1B1BA004476D8 /* STMCoreTracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMCoreTracker.h; sourceTree = "<group>"; };
-		2C94C0131CF1B1BA004476D8 /* STMCoreTracker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMCoreTracker.m; sourceTree = "<group>"; };
-		2C94C0141CF1B1BA004476D8 /* STMDevDef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMDevDef.h; sourceTree = "<group>"; };
-		2C94C0151CF1B1BA004476D8 /* STMDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMDocument.h; sourceTree = "<group>"; };
-		2C94C0161CF1B1BA004476D8 /* STMDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMDocument.m; sourceTree = "<group>"; };
-		2C94C0171CF1B1BA004476D8 /* STMExtendNSLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMExtendNSLog.h; sourceTree = "<group>"; };
-		2C94C0181CF1B1BA004476D8 /* STMExtendNSLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMExtendNSLog.m; sourceTree = "<group>"; };
-		2C94C0191CF1B1BA004476D8 /* STMFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMFunctions.h; sourceTree = "<group>"; };
-		2C94C01A1CF1B1BA004476D8 /* STMFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMFunctions.m; sourceTree = "<group>"; };
-		2C94C01B1CF1B1BA004476D8 /* STMGarbageCollector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = STMGarbageCollector.swift; sourceTree = "<group>"; };
-		2C94C01C1CF1B1BA004476D8 /* STMLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMLogger.h; sourceTree = "<group>"; };
-		2C94C01D1CF1B1BA004476D8 /* STMLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMLogger.m; sourceTree = "<group>"; };
-		2C94C01E1CF1B1BA004476D8 /* STMRemoteController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMRemoteController.h; sourceTree = "<group>"; };
-		2C94C01F1CF1B1BA004476D8 /* STMRemoteController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMRemoteController.m; sourceTree = "<group>"; };
+		2C94C0051CF1B1BA004476D8 /* STMConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = STMConstants.h; path = ../STMConstants.h; sourceTree = "<group>"; };
+		2C94C0061CF1B1BA004476D8 /* STMCoreAuthController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = STMCoreAuthController.h; path = ../STMCoreAuthController.h; sourceTree = "<group>"; };
+		2C94C0071CF1B1BA004476D8 /* STMCoreAuthController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; name = STMCoreAuthController.m; path = ../STMCoreAuthController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		2C94C0081CF1B1BA004476D8 /* STMCoreBatteryTracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = STMCoreBatteryTracker.h; path = ../STMCoreBatteryTracker.h; sourceTree = "<group>"; };
+		2C94C0091CF1B1BA004476D8 /* STMCoreBatteryTracker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = STMCoreBatteryTracker.m; path = ../STMCoreBatteryTracker.m; sourceTree = "<group>"; };
+		2C94C00A1CF1B1BA004476D8 /* STMCoreLocationTracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = STMCoreLocationTracker.h; path = ../STMCoreLocationTracker.h; sourceTree = "<group>"; };
+		2C94C00B1CF1B1BA004476D8 /* STMCoreLocationTracker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = STMCoreLocationTracker.m; path = ../STMCoreLocationTracker.m; sourceTree = "<group>"; };
+		2C94C00C1CF1B1BA004476D8 /* STMCoreSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = STMCoreSession.h; path = ../STMCoreSession.h; sourceTree = "<group>"; };
+		2C94C00D1CF1B1BA004476D8 /* STMCoreSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = STMCoreSession.m; path = ../STMCoreSession.m; sourceTree = "<group>"; };
+		2C94C00E1CF1B1BA004476D8 /* STMCoreSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = STMCoreSessionManager.h; path = ../STMCoreSessionManager.h; sourceTree = "<group>"; };
+		2C94C00F1CF1B1BA004476D8 /* STMCoreSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = STMCoreSessionManager.m; path = ../STMCoreSessionManager.m; sourceTree = "<group>"; };
+		2C94C0101CF1B1BA004476D8 /* STMCoreSettingsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = STMCoreSettingsController.h; path = ../STMCoreSettingsController.h; sourceTree = "<group>"; };
+		2C94C0111CF1B1BA004476D8 /* STMCoreSettingsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = STMCoreSettingsController.m; path = ../STMCoreSettingsController.m; sourceTree = "<group>"; };
+		2C94C0121CF1B1BA004476D8 /* STMCoreTracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = STMCoreTracker.h; path = ../STMCoreTracker.h; sourceTree = "<group>"; };
+		2C94C0131CF1B1BA004476D8 /* STMCoreTracker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = STMCoreTracker.m; path = ../STMCoreTracker.m; sourceTree = "<group>"; };
+		2C94C0141CF1B1BA004476D8 /* STMDevDef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = STMDevDef.h; path = ../STMDevDef.h; sourceTree = "<group>"; };
+		2C94C0151CF1B1BA004476D8 /* STMDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = STMDocument.h; path = ../STMDocument.h; sourceTree = "<group>"; };
+		2C94C0161CF1B1BA004476D8 /* STMDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = STMDocument.m; path = ../STMDocument.m; sourceTree = "<group>"; };
+		2C94C0171CF1B1BA004476D8 /* STMExtendNSLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = STMExtendNSLog.h; path = ../STMExtendNSLog.h; sourceTree = "<group>"; };
+		2C94C0181CF1B1BA004476D8 /* STMExtendNSLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = STMExtendNSLog.m; path = ../STMExtendNSLog.m; sourceTree = "<group>"; };
+		2C94C0191CF1B1BA004476D8 /* STMFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = STMFunctions.h; path = ../STMFunctions.h; sourceTree = "<group>"; };
+		2C94C01A1CF1B1BA004476D8 /* STMFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = STMFunctions.m; path = ../STMFunctions.m; sourceTree = "<group>"; };
+		2C94C01B1CF1B1BA004476D8 /* STMGarbageCollector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = STMGarbageCollector.swift; path = ../STMGarbageCollector.swift; sourceTree = "<group>"; };
+		2C94C01C1CF1B1BA004476D8 /* STMLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = STMLogger.h; path = ../STMLogger.h; sourceTree = "<group>"; };
+		2C94C01D1CF1B1BA004476D8 /* STMLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = STMLogger.m; path = ../STMLogger.m; sourceTree = "<group>"; };
+		2C94C01E1CF1B1BA004476D8 /* STMRemoteController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = STMRemoteController.h; path = ../STMRemoteController.h; sourceTree = "<group>"; };
+		2C94C01F1CF1B1BA004476D8 /* STMRemoteController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = STMRemoteController.m; path = ../STMRemoteController.m; sourceTree = "<group>"; };
 		2C94C0201CF1B1BA004476D8 /* STMScanApiHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMScanApiHelper.h; sourceTree = "<group>"; };
 		2C94C0211CF1B1BA004476D8 /* STMScanApiHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMScanApiHelper.m; sourceTree = "<group>"; };
-		2C94C0231CF1B1BA004476D8 /* STMSettingsData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMSettingsData.h; sourceTree = "<group>"; };
-		2C94C0241CF1B1BA004476D8 /* STMSettingsData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMSettingsData.m; sourceTree = "<group>"; };
+		2C94C0231CF1B1BA004476D8 /* STMSettingsData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = STMSettingsData.h; path = ../STMSettingsData.h; sourceTree = "<group>"; };
+		2C94C0241CF1B1BA004476D8 /* STMSettingsData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = STMSettingsData.m; path = ../STMSettingsData.m; sourceTree = "<group>"; };
 		2C94C0251CF1B1BA004476D8 /* STMSocketController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = STMSocketController.h; path = ../STMSocketController.h; sourceTree = "<group>"; };
 		2C94C0261CF1B1BA004476D8 /* STMSocketController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = STMSocketController.m; path = ../STMSocketController.m; sourceTree = "<group>"; };
-		2C94C0271CF1B1BA004476D8 /* STMSoundController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMSoundController.h; sourceTree = "<group>"; };
-		2C94C0281CF1B1BA004476D8 /* STMSoundController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMSoundController.m; sourceTree = "<group>"; };
-		2C94C0291CF1B1BA004476D8 /* STMStringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = STMStringExtension.swift; sourceTree = "<group>"; };
-		2C94C02A1CF1B1BA004476D8 /* STMSwiftConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = STMSwiftConstants.swift; sourceTree = "<group>"; };
+		2C94C0271CF1B1BA004476D8 /* STMSoundController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = STMSoundController.h; path = ../STMSoundController.h; sourceTree = "<group>"; };
+		2C94C0281CF1B1BA004476D8 /* STMSoundController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = STMSoundController.m; path = ../STMSoundController.m; sourceTree = "<group>"; };
+		2C94C0291CF1B1BA004476D8 /* STMStringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = STMStringExtension.swift; path = ../STMStringExtension.swift; sourceTree = "<group>"; };
+		2C94C02A1CF1B1BA004476D8 /* STMSwiftConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = STMSwiftConstants.swift; path = ../STMSwiftConstants.swift; sourceTree = "<group>"; };
 		2C94C02B1CF1B1BA004476D8 /* STMSyncer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = STMSyncer.h; path = ../STMSyncer.h; sourceTree = "<group>"; };
 		2C94C02C1CF1B1BA004476D8 /* STMSyncer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = STMSyncer.m; path = ../STMSyncer.m; sourceTree = "<group>"; };
 		2C94C02E1CF1B1BA004476D8 /* STMClientDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = STMClientDataController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
@@ -773,8 +773,8 @@
 		2C9AE99D1CF5AF690018D9B3 /* STMJson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMJson.m; sourceTree = "<group>"; };
 		2C9AE99E1CF5AF690018D9B3 /* STMJson+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "STMJson+CoreDataProperties.h"; sourceTree = "<group>"; };
 		2C9AE99F1CF5AF690018D9B3 /* STMJson+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "STMJson+CoreDataProperties.m"; sourceTree = "<group>"; };
-		2CB314691D06F0AE00E3E59D /* STMKeychain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMKeychain.h; sourceTree = "<group>"; };
-		2CB3146A1D06F0AE00E3E59D /* STMKeychain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMKeychain.m; sourceTree = "<group>"; };
+		2CB314691D06F0AE00E3E59D /* STMKeychain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = STMKeychain.h; path = ../STMKeychain.h; sourceTree = "<group>"; };
+		2CB3146A1D06F0AE00E3E59D /* STMKeychain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = STMKeychain.m; path = ../STMKeychain.m; sourceTree = "<group>"; };
 		2CC2D2FD1D13DCF40026EB72 /* STMCorePhoto+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "STMCorePhoto+CoreDataProperties.h"; sourceTree = "<group>"; };
 		2CC2D2FE1D13DCF40026EB72 /* STMCorePhoto+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "STMCorePhoto+CoreDataProperties.m"; sourceTree = "<group>"; };
 		2CC2D3001D13E0A90026EB72 /* STMVisitPhoto+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "STMVisitPhoto+CoreDataProperties.h"; sourceTree = "<group>"; };
@@ -795,8 +795,8 @@
 		2CD5BEFC1CF1DFAB006E1E36 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		2CD5BF091CF1E780006E1E36 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		2CD5BF0B1CF1E7A4006E1E36 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
-		2CD977051D23C99B005FBC6C /* STMScriptMessagesController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMScriptMessagesController.h; sourceTree = "<group>"; };
-		2CD977061D23C99B005FBC6C /* STMScriptMessagesController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMScriptMessagesController.m; sourceTree = "<group>"; };
+		2CD977051D23C99B005FBC6C /* STMScriptMessagesController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = STMScriptMessagesController.h; path = ../STMScriptMessagesController.h; sourceTree = "<group>"; };
+		2CD977061D23C99B005FBC6C /* STMScriptMessagesController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = STMScriptMessagesController.m; path = ../STMScriptMessagesController.m; sourceTree = "<group>"; };
 		2CE24E221D2267700004B63C /* iSisSales 3.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "iSisSales 3.xcdatamodel"; sourceTree = "<group>"; };
 		2CE24E231D226B0B0004B63C /* STMOutletSalesmanContract+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "STMOutletSalesmanContract+CoreDataProperties.h"; sourceTree = "<group>"; };
 		2CE24E241D226B0B0004B63C /* STMOutletSalesmanContract+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "STMOutletSalesmanContract+CoreDataProperties.m"; sourceTree = "<group>"; };
@@ -804,15 +804,15 @@
 		2CE24E281D226B0B0004B63C /* STMContract+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "STMContract+CoreDataProperties.m"; sourceTree = "<group>"; };
 		2CE24E291D226B0C0004B63C /* STMContract.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMContract.h; sourceTree = "<group>"; };
 		2CE24E2A1D226B0C0004B63C /* STMContract.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMContract.m; sourceTree = "<group>"; };
-		2CFA302E1D4F310300BB9E35 /* STMUserDefaults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMUserDefaults.h; sourceTree = "<group>"; };
-		2CFA302F1D4F310300BB9E35 /* STMUserDefaults.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMUserDefaults.m; sourceTree = "<group>"; };
+		2CFA302E1D4F310300BB9E35 /* STMUserDefaults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = STMUserDefaults.h; path = ../STMUserDefaults.h; sourceTree = "<group>"; };
+		2CFA302F1D4F310300BB9E35 /* STMUserDefaults.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = STMUserDefaults.m; path = ../STMUserDefaults.m; sourceTree = "<group>"; };
 		2CFA30311D50DA7500BB9E35 /* iSisSales 5.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "iSisSales 5.xcdatamodel"; sourceTree = "<group>"; };
 		2CFA30321D50DBF300BB9E35 /* STMOutletPhoto+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "STMOutletPhoto+CoreDataProperties.h"; sourceTree = "<group>"; };
 		2CFA30331D50DBF300BB9E35 /* STMOutletPhoto+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "STMOutletPhoto+CoreDataProperties.m"; sourceTree = "<group>"; };
 		2CFA30341D50DBF300BB9E35 /* STMOutletPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMOutletPhoto.h; sourceTree = "<group>"; };
 		2CFA30351D50DBF300BB9E35 /* STMOutletPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMOutletPhoto.m; sourceTree = "<group>"; };
-		3534EC2F1E0452340067A69E /* STMFmdb.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = STMFmdb.m; path = ../../DataModel/STMFmdb.m; sourceTree = "<group>"; };
-		3534EC311E04525E0067A69E /* STMFmdb.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = STMFmdb.h; path = ../../DataModel/STMFmdb.h; sourceTree = "<group>"; };
+		3534EC2F1E0452340067A69E /* STMFmdb.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = STMFmdb.m; path = ../../../DataModel/STMFmdb.m; sourceTree = "<group>"; };
+		3534EC311E04525E0067A69E /* STMFmdb.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = STMFmdb.h; path = ../../../DataModel/STMFmdb.h; sourceTree = "<group>"; };
 		3550B1D11DAE58C300F8A368 /* iSisSales 7.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "iSisSales 7.xcdatamodel"; sourceTree = "<group>"; };
 		3550B1D81DAE59F300F8A368 /* STMCorePicture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMCorePicture.h; sourceTree = "<group>"; };
 		3550B1D91DAE59F300F8A368 /* STMCorePicture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMCorePicture.m; sourceTree = "<group>"; };
@@ -825,10 +825,10 @@
 		35B32E2F1E1E681700E11EF6 /* STMPersistingSync.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMPersistingSync.h; sourceTree = "<group>"; };
 		35B32E301E1E682D00E11EF6 /* STMPersistingAsync.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMPersistingAsync.h; sourceTree = "<group>"; };
 		35B32E311E1E683E00E11EF6 /* STMPersistingPromised.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMPersistingPromised.h; sourceTree = "<group>"; };
-		35B32E331E1EB4D400E11EF6 /* STMPersister.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STMPersister.h; sourceTree = "<group>"; };
-		35B32E341E1EB4EE00E11EF6 /* STMPersister.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMPersister.m; sourceTree = "<group>"; };
-		35D38BF61E12D079003F8C89 /* STMPredicateToSQL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STMPredicateToSQL.h; sourceTree = "<group>"; };
-		35D38BF71E12D140003F8C89 /* STMPredicateToSQL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMPredicateToSQL.m; sourceTree = "<group>"; };
+		35B32E331E1EB4D400E11EF6 /* STMPersister.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = STMPersister.h; path = ../STMPersister.h; sourceTree = "<group>"; };
+		35B32E341E1EB4EE00E11EF6 /* STMPersister.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = STMPersister.m; path = ../STMPersister.m; sourceTree = "<group>"; };
+		35D38BF61E12D079003F8C89 /* STMPredicateToSQL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = STMPredicateToSQL.h; path = ../STMPredicateToSQL.h; sourceTree = "<group>"; };
+		35D38BF71E12D140003F8C89 /* STMPredicateToSQL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = STMPredicateToSQL.m; path = ../STMPredicateToSQL.m; sourceTree = "<group>"; };
 		4033E05BE502B1B13735187B /* Pods-iSisSales.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSales.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSales/Pods-iSisSales.debug.xcconfig"; sourceTree = "<group>"; };
 		A5AB0EC47BD72C1AE7EBF7FA /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D83C8648154EC85EB3023D68 /* Pods_iSisSales.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iSisSales.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -888,6 +888,94 @@
 			);
 			name = "☯ Syncer";
 			path = Syncer;
+			sourceTree = "<group>";
+		};
+		2C34EDB71E27BABB004DE82D /* ☯ Session */ = {
+			isa = PBXGroup;
+			children = (
+				2C94C0101CF1B1BA004476D8 /* STMCoreSettingsController.h */,
+				2C94C0111CF1B1BA004476D8 /* STMCoreSettingsController.m */,
+				2C94C0231CF1B1BA004476D8 /* STMSettingsData.h */,
+				2C94C0241CF1B1BA004476D8 /* STMSettingsData.m */,
+				2C94C0061CF1B1BA004476D8 /* STMCoreAuthController.h */,
+				2C94C0071CF1B1BA004476D8 /* STMCoreAuthController.m */,
+				2C94C00C1CF1B1BA004476D8 /* STMCoreSession.h */,
+				2C94C00D1CF1B1BA004476D8 /* STMCoreSession.m */,
+				2C94C00E1CF1B1BA004476D8 /* STMCoreSessionManager.h */,
+				2C94C00F1CF1B1BA004476D8 /* STMCoreSessionManager.m */,
+			);
+			name = "☯ Session";
+			path = Session;
+			sourceTree = "<group>";
+		};
+		2C34EDB81E27BAFC004DE82D /* ☯ Persisting */ = {
+			isa = PBXGroup;
+			children = (
+				2C94C0151CF1B1BA004476D8 /* STMDocument.h */,
+				2C94C0161CF1B1BA004476D8 /* STMDocument.m */,
+				3534EC311E04525E0067A69E /* STMFmdb.h */,
+				3534EC2F1E0452340067A69E /* STMFmdb.m */,
+				2C94C01B1CF1B1BA004476D8 /* STMGarbageCollector.swift */,
+				35B32E331E1EB4D400E11EF6 /* STMPersister.h */,
+				35B32E341E1EB4EE00E11EF6 /* STMPersister.m */,
+				35D38BF61E12D079003F8C89 /* STMPredicateToSQL.h */,
+				35D38BF71E12D140003F8C89 /* STMPredicateToSQL.m */,
+				2CD977051D23C99B005FBC6C /* STMScriptMessagesController.h */,
+				2CD977061D23C99B005FBC6C /* STMScriptMessagesController.m */,
+			);
+			name = "☯ Persisting";
+			path = Persisting;
+			sourceTree = "<group>";
+		};
+		2C34EDB91E27BB66004DE82D /* ☯ Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				2C94C0051CF1B1BA004476D8 /* STMConstants.h */,
+				2C94C0141CF1B1BA004476D8 /* STMDevDef.h */,
+				2C94C0171CF1B1BA004476D8 /* STMExtendNSLog.h */,
+				2C94C0181CF1B1BA004476D8 /* STMExtendNSLog.m */,
+				2C94C0191CF1B1BA004476D8 /* STMFunctions.h */,
+				2C94C01A1CF1B1BA004476D8 /* STMFunctions.m */,
+				2CB314691D06F0AE00E3E59D /* STMKeychain.h */,
+				2CB3146A1D06F0AE00E3E59D /* STMKeychain.m */,
+				2C94C01C1CF1B1BA004476D8 /* STMLogger.h */,
+				2C94C01D1CF1B1BA004476D8 /* STMLogger.m */,
+				2C94C01E1CF1B1BA004476D8 /* STMRemoteController.h */,
+				2C94C01F1CF1B1BA004476D8 /* STMRemoteController.m */,
+				2C94C0271CF1B1BA004476D8 /* STMSoundController.h */,
+				2C94C0281CF1B1BA004476D8 /* STMSoundController.m */,
+				2C94C0291CF1B1BA004476D8 /* STMStringExtension.swift */,
+				2C94C02A1CF1B1BA004476D8 /* STMSwiftConstants.swift */,
+				2CFA302E1D4F310300BB9E35 /* STMUserDefaults.h */,
+				2CFA302F1D4F310300BB9E35 /* STMUserDefaults.m */,
+			);
+			name = "☯ Helpers";
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		2C34EDBA1E27BBB5004DE82D /* ☯ BarCode */ = {
+			isa = PBXGroup;
+			children = (
+				2C94C0031CF1B1BA004476D8 /* STMBarCodeScanner.h */,
+				2C94C0041CF1B1BA004476D8 /* STMBarCodeScanner.m */,
+				2C94C0201CF1B1BA004476D8 /* STMScanApiHelper.h */,
+				2C94C0211CF1B1BA004476D8 /* STMScanApiHelper.m */,
+			);
+			name = "☯ BarCode";
+			sourceTree = "<group>";
+		};
+		2C34EDBB1E27BBEF004DE82D /* ☯ Trackers */ = {
+			isa = PBXGroup;
+			children = (
+				2C94C0081CF1B1BA004476D8 /* STMCoreBatteryTracker.h */,
+				2C94C0091CF1B1BA004476D8 /* STMCoreBatteryTracker.m */,
+				2C94C00A1CF1B1BA004476D8 /* STMCoreLocationTracker.h */,
+				2C94C00B1CF1B1BA004476D8 /* STMCoreLocationTracker.m */,
+				2C94C0121CF1B1BA004476D8 /* STMCoreTracker.h */,
+				2C94C0131CF1B1BA004476D8 /* STMCoreTracker.m */,
+			);
+			name = "☯ Trackers";
+			path = Trackers;
 			sourceTree = "<group>";
 		};
 		2C907E051DA6979500326CA8 /* ☯ Sounds */ = {
@@ -1004,56 +1092,12 @@
 		2C94C0021CF1B1BA004476D8 /* ☯ Base */ = {
 			isa = PBXGroup;
 			children = (
+				2C34EDBA1E27BBB5004DE82D /* ☯ BarCode */,
+				2C34EDB91E27BB66004DE82D /* ☯ Helpers */,
+				2C34EDB81E27BAFC004DE82D /* ☯ Persisting */,
+				2C34EDB71E27BABB004DE82D /* ☯ Session */,
 				2C34EDB31E267264004DE82D /* ☯ Syncer */,
-				2C94C0031CF1B1BA004476D8 /* STMBarCodeScanner.h */,
-				2C94C0041CF1B1BA004476D8 /* STMBarCodeScanner.m */,
-				2C94C0051CF1B1BA004476D8 /* STMConstants.h */,
-				2C94C0061CF1B1BA004476D8 /* STMCoreAuthController.h */,
-				2C94C0071CF1B1BA004476D8 /* STMCoreAuthController.m */,
-				2C94C0081CF1B1BA004476D8 /* STMCoreBatteryTracker.h */,
-				2C94C0091CF1B1BA004476D8 /* STMCoreBatteryTracker.m */,
-				2C94C00A1CF1B1BA004476D8 /* STMCoreLocationTracker.h */,
-				2C94C00B1CF1B1BA004476D8 /* STMCoreLocationTracker.m */,
-				2C94C00C1CF1B1BA004476D8 /* STMCoreSession.h */,
-				2C94C00D1CF1B1BA004476D8 /* STMCoreSession.m */,
-				2C94C00E1CF1B1BA004476D8 /* STMCoreSessionManager.h */,
-				2C94C00F1CF1B1BA004476D8 /* STMCoreSessionManager.m */,
-				2C94C0101CF1B1BA004476D8 /* STMCoreSettingsController.h */,
-				2C94C0111CF1B1BA004476D8 /* STMCoreSettingsController.m */,
-				2C94C0121CF1B1BA004476D8 /* STMCoreTracker.h */,
-				2C94C0131CF1B1BA004476D8 /* STMCoreTracker.m */,
-				2C94C0141CF1B1BA004476D8 /* STMDevDef.h */,
-				2C94C0151CF1B1BA004476D8 /* STMDocument.h */,
-				2C94C0161CF1B1BA004476D8 /* STMDocument.m */,
-				2C94C0171CF1B1BA004476D8 /* STMExtendNSLog.h */,
-				2C94C0181CF1B1BA004476D8 /* STMExtendNSLog.m */,
-				2C94C0191CF1B1BA004476D8 /* STMFunctions.h */,
-				2C94C01A1CF1B1BA004476D8 /* STMFunctions.m */,
-				2C94C01B1CF1B1BA004476D8 /* STMGarbageCollector.swift */,
-				2C94C01C1CF1B1BA004476D8 /* STMLogger.h */,
-				2C94C01D1CF1B1BA004476D8 /* STMLogger.m */,
-				2CB314691D06F0AE00E3E59D /* STMKeychain.h */,
-				2CB3146A1D06F0AE00E3E59D /* STMKeychain.m */,
-				2C94C01E1CF1B1BA004476D8 /* STMRemoteController.h */,
-				2C94C01F1CF1B1BA004476D8 /* STMRemoteController.m */,
-				2C94C0201CF1B1BA004476D8 /* STMScanApiHelper.h */,
-				2C94C0211CF1B1BA004476D8 /* STMScanApiHelper.m */,
-				2CD977051D23C99B005FBC6C /* STMScriptMessagesController.h */,
-				2CD977061D23C99B005FBC6C /* STMScriptMessagesController.m */,
-				2C94C0231CF1B1BA004476D8 /* STMSettingsData.h */,
-				2C94C0241CF1B1BA004476D8 /* STMSettingsData.m */,
-				2C94C0271CF1B1BA004476D8 /* STMSoundController.h */,
-				2C94C0281CF1B1BA004476D8 /* STMSoundController.m */,
-				2C94C0291CF1B1BA004476D8 /* STMStringExtension.swift */,
-				2C94C02A1CF1B1BA004476D8 /* STMSwiftConstants.swift */,
-				2CFA302E1D4F310300BB9E35 /* STMUserDefaults.h */,
-				2CFA302F1D4F310300BB9E35 /* STMUserDefaults.m */,
-				35D38BF61E12D079003F8C89 /* STMPredicateToSQL.h */,
-				35D38BF71E12D140003F8C89 /* STMPredicateToSQL.m */,
-				35B32E331E1EB4D400E11EF6 /* STMPersister.h */,
-				35B32E341E1EB4EE00E11EF6 /* STMPersister.m */,
-				3534EC2F1E0452340067A69E /* STMFmdb.m */,
-				3534EC311E04525E0067A69E /* STMFmdb.h */,
+				2C34EDBB1E27BBEF004DE82D /* ☯ Trackers */,
 			);
 			name = "☯ Base";
 			path = Base;
