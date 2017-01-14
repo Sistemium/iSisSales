@@ -439,8 +439,8 @@
 		2C94BFEE1CF1ACB8004476D8 /* iSisSalesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iSisSalesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C94BFF21CF1ACB8004476D8 /* iSisSalesUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iSisSalesUITests.m; sourceTree = "<group>"; };
 		2C94BFF41CF1ACB8004476D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2C94C0031CF1B1BA004476D8 /* STMBarCodeScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMBarCodeScanner.h; sourceTree = "<group>"; };
-		2C94C0041CF1B1BA004476D8 /* STMBarCodeScanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMBarCodeScanner.m; sourceTree = "<group>"; };
+		2C94C0031CF1B1BA004476D8 /* STMBarCodeScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = STMBarCodeScanner.h; path = ../STMBarCodeScanner.h; sourceTree = "<group>"; };
+		2C94C0041CF1B1BA004476D8 /* STMBarCodeScanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = STMBarCodeScanner.m; path = ../STMBarCodeScanner.m; sourceTree = "<group>"; };
 		2C94C0051CF1B1BA004476D8 /* STMConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = STMConstants.h; path = ../STMConstants.h; sourceTree = "<group>"; };
 		2C94C0061CF1B1BA004476D8 /* STMCoreAuthController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = STMCoreAuthController.h; path = ../STMCoreAuthController.h; sourceTree = "<group>"; };
 		2C94C0071CF1B1BA004476D8 /* STMCoreAuthController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; name = STMCoreAuthController.m; path = ../STMCoreAuthController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
@@ -468,8 +468,8 @@
 		2C94C01D1CF1B1BA004476D8 /* STMLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = STMLogger.m; path = ../STMLogger.m; sourceTree = "<group>"; };
 		2C94C01E1CF1B1BA004476D8 /* STMRemoteController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = STMRemoteController.h; path = ../STMRemoteController.h; sourceTree = "<group>"; };
 		2C94C01F1CF1B1BA004476D8 /* STMRemoteController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = STMRemoteController.m; path = ../STMRemoteController.m; sourceTree = "<group>"; };
-		2C94C0201CF1B1BA004476D8 /* STMScanApiHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMScanApiHelper.h; sourceTree = "<group>"; };
-		2C94C0211CF1B1BA004476D8 /* STMScanApiHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMScanApiHelper.m; sourceTree = "<group>"; };
+		2C94C0201CF1B1BA004476D8 /* STMScanApiHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = STMScanApiHelper.h; path = ../STMScanApiHelper.h; sourceTree = "<group>"; };
+		2C94C0211CF1B1BA004476D8 /* STMScanApiHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = STMScanApiHelper.m; path = ../STMScanApiHelper.m; sourceTree = "<group>"; };
 		2C94C0231CF1B1BA004476D8 /* STMSettingsData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = STMSettingsData.h; path = ../STMSettingsData.h; sourceTree = "<group>"; };
 		2C94C0241CF1B1BA004476D8 /* STMSettingsData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = STMSettingsData.m; path = ../STMSettingsData.m; sourceTree = "<group>"; };
 		2C94C0251CF1B1BA004476D8 /* STMSocketController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = STMSocketController.h; path = ../STMSocketController.h; sourceTree = "<group>"; };
