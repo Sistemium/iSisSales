@@ -352,6 +352,7 @@
 		2C34EDB11E261C60004DE82D /* STMSocketTransport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = STMSocketTransport.m; path = ../STMSocketTransport.m; sourceTree = "<group>"; };
 		2C34EDB41E267326004DE82D /* STMSyncerHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMSyncerHelper.h; sourceTree = "<group>"; };
 		2C34EDB51E267326004DE82D /* STMSyncerHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMSyncerHelper.m; sourceTree = "<group>"; };
+		2C34EDBC1E291183004DE82D /* STMDataSyncing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMDataSyncing.h; sourceTree = "<group>"; };
 		2C3920801D8A7D3500898FC6 /* STMCoreAppManifestHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMCoreAppManifestHandler.h; sourceTree = "<group>"; };
 		2C3920811D8A7D3500898FC6 /* STMCoreAppManifestHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMCoreAppManifestHandler.m; sourceTree = "<group>"; };
 		2C40F77E1CF2037A00231E01 /* STMController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMController.h; sourceTree = "<group>"; };
@@ -1152,6 +1153,7 @@
 				35B32E2F1E1E681700E11EF6 /* STMPersistingSync.h */,
 				35B32E301E1E682D00E11EF6 /* STMPersistingAsync.h */,
 				35B32E311E1E683E00E11EF6 /* STMPersistingPromised.h */,
+				2C34EDBC1E291183004DE82D /* STMDataSyncing.h */,
 			);
 			name = "☯ Protocols";
 			path = Protocols;
