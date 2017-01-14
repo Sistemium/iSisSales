@@ -894,16 +894,16 @@
 		2C34EDB71E27BABB004DE82D /* ☯ Session */ = {
 			isa = PBXGroup;
 			children = (
-				2C94C0101CF1B1BA004476D8 /* STMCoreSettingsController.h */,
-				2C94C0111CF1B1BA004476D8 /* STMCoreSettingsController.m */,
-				2C94C0231CF1B1BA004476D8 /* STMSettingsData.h */,
-				2C94C0241CF1B1BA004476D8 /* STMSettingsData.m */,
 				2C94C0061CF1B1BA004476D8 /* STMCoreAuthController.h */,
 				2C94C0071CF1B1BA004476D8 /* STMCoreAuthController.m */,
 				2C94C00C1CF1B1BA004476D8 /* STMCoreSession.h */,
 				2C94C00D1CF1B1BA004476D8 /* STMCoreSession.m */,
 				2C94C00E1CF1B1BA004476D8 /* STMCoreSessionManager.h */,
 				2C94C00F1CF1B1BA004476D8 /* STMCoreSessionManager.m */,
+				2C94C0101CF1B1BA004476D8 /* STMCoreSettingsController.h */,
+				2C94C0111CF1B1BA004476D8 /* STMCoreSettingsController.m */,
+				2C94C0231CF1B1BA004476D8 /* STMSettingsData.h */,
+				2C94C0241CF1B1BA004476D8 /* STMSettingsData.m */,
 			);
 			name = "☯ Session";
 			path = Session;
@@ -954,7 +954,7 @@
 			path = Helpers;
 			sourceTree = "<group>";
 		};
-		2C34EDBA1E27BBB5004DE82D /* ☯ BarCode */ = {
+		2C34EDBA1E27BBB5004DE82D /* ☯ BarCodeScanner */ = {
 			isa = PBXGroup;
 			children = (
 				2C94C0031CF1B1BA004476D8 /* STMBarCodeScanner.h */,
@@ -962,7 +962,8 @@
 				2C94C0201CF1B1BA004476D8 /* STMScanApiHelper.h */,
 				2C94C0211CF1B1BA004476D8 /* STMScanApiHelper.m */,
 			);
-			name = "☯ BarCode";
+			name = "☯ BarCodeScanner";
+			path = BarCodeScanner;
 			sourceTree = "<group>";
 		};
 		2C34EDBB1E27BBEF004DE82D /* ☯ Trackers */ = {
@@ -1093,7 +1094,7 @@
 		2C94C0021CF1B1BA004476D8 /* ☯ Base */ = {
 			isa = PBXGroup;
 			children = (
-				2C34EDBA1E27BBB5004DE82D /* ☯ BarCode */,
+				2C34EDBA1E27BBB5004DE82D /* ☯ BarCodeScanner */,
 				2C34EDB91E27BB66004DE82D /* ☯ Helpers */,
 				2C34EDB81E27BAFC004DE82D /* ☯ Persisting */,
 				2C34EDB71E27BABB004DE82D /* ☯ Session */,
