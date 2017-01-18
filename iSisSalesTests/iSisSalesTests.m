@@ -9,6 +9,9 @@
 #import <XCTest/XCTest.h>
 #import "STMPredicateToSQL.h"
 
+#define STMAssertSQLFilter(predicate, expectation, ...) \
+    XCTAssertEqualObjects([STMPredicateToSQL.sharedInstance SQLFilterForPredicate:predicate], expectation, __VA_ARGS__)
+
 @interface iSisSalesTests : XCTestCase
 
 @end
@@ -31,18 +34,17 @@
     
     predicate = [NSPredicate predicateWithFormat:@"date == %@", @"2017-01-01"];
     
-    [self runSQLFilterTest:predicate expectation:@"(date = '2017-01-01')"];
+    STMAssertSQLFilter(predicate, @"(date = '2017-01-01')");
     
     predicate = [NSPredicate predicateWithFormat:@"type IN %@", @[@"error", @"important"]];
     
-    [self runSQLFilterTest:predicate expectation:@"(type IN ('error', 'important'))"];
+    STMAssertSQLFilter(predicate, @"(type IN ('error', 'important'))");
+
+    predicate = [NSPredicate predicateWithFormat:@"SELF.deviceTs > SELF.lts"];
     
+    STMAssertSQLFilter(predicate, @"(deviceTs > lts)");
+
 }
 
-- (void)runSQLFilterTest:(NSPredicate *)predicate expectation:(NSString*)expectation {
-
-    XCTAssertEqualObjects([STMPredicateToSQL.sharedInstance SQLFilterForPredicate:predicate], expectation);
-    
-}
 
 @end
