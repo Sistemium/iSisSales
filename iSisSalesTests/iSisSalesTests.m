@@ -36,9 +36,17 @@
     
     STMAssertSQLFilter(predicate, @"(date = '2017-01-01')");
     
+    predicate = [NSPredicate predicateWithFormat:@"avatarPictureId == %@", nil];
+    
+    STMAssertSQLFilter(predicate, @"(avatarPictureId IS NULL)");
+    
     predicate = [NSPredicate predicateWithFormat:@"type IN %@", @[@"error", @"important"]];
     
     STMAssertSQLFilter(predicate, @"(type IN ('error','important'))");
+    
+    predicate = [NSPredicate predicateWithFormat:@"type IN %@", nil];
+    
+    STMAssertSQLFilter(predicate, @"(type IN (NULL))");
 
     predicate = [NSPredicate predicateWithFormat:@"SELF.deviceTs > SELF.lts"];
     
