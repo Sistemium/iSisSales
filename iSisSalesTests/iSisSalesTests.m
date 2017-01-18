@@ -38,7 +38,7 @@
     
     predicate = [NSPredicate predicateWithFormat:@"type IN %@", @[@"error", @"important"]];
     
-    STMAssertSQLFilter(predicate, @"(type IN ('error', 'important'))");
+    STMAssertSQLFilter(predicate, @"(type IN ('error','important'))");
 
     predicate = [NSPredicate predicateWithFormat:@"SELF.deviceTs > SELF.lts"];
     
