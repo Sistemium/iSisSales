@@ -287,6 +287,7 @@
 		35B32E351E1EB4EE00E11EF6 /* STMPersister.m in Sources */ = {isa = PBXBuildFile; fileRef = 35B32E341E1EB4EE00E11EF6 /* STMPersister.m */; };
 		35D38BF81E12D140003F8C89 /* STMPredicateToSQL.m in Sources */ = {isa = PBXBuildFile; fileRef = 35D38BF71E12D140003F8C89 /* STMPredicateToSQL.m */; };
 		B765DF6BD8F1900FE8C5AE92 /* Pods_iSisSales.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D83C8648154EC85EB3023D68 /* Pods_iSisSales.framework */; };
+		D90B75781E2FA62D0015A994 /* iSistemiumCoreTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D90B75761E2FA62D0015A994 /* iSistemiumCoreTests.m */; };
 		D920AF7D1D8D417700E825FC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D920AF7F1D8D417700E825FC /* InfoPlist.strings */; };
 /* End PBXBuildFile section */
 
@@ -826,6 +827,7 @@
 		4033E05BE502B1B13735187B /* Pods-iSisSales.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSales.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSales/Pods-iSisSales.debug.xcconfig"; sourceTree = "<group>"; };
 		A5AB0EC47BD72C1AE7EBF7FA /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D83C8648154EC85EB3023D68 /* Pods_iSisSales.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iSisSales.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D90B75761E2FA62D0015A994 /* iSistemiumCoreTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iSistemiumCoreTests.m; sourceTree = "<group>"; };
 		D920AF7E1D8D417700E825FC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D920AF801D8D417C00E825FC /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E40623DC4ABD0FB0D719ED86 /* Pods-iSisSales.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSales.release.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSales/Pods-iSisSales.release.xcconfig"; sourceTree = "<group>"; };
@@ -952,6 +954,7 @@
 		2C94C0001CF1B140004476D8 /* ☯ iSisCore */ = {
 			isa = PBXGroup;
 			children = (
+				D90B75741E2FA62D0015A994 /* iSistemiumCoreTests */,
 				2C94C0011CF1B1BA004476D8 /* ☯ Classes */,
 				2C94C1391CF1B1F3004476D8 /* ☯ DataModel */,
 				2C94C1C41CF1B308004476D8 /* ☯ Resources */,
@@ -1740,6 +1743,15 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		D90B75741E2FA62D0015A994 /* iSistemiumCoreTests */ = {
+			isa = PBXGroup;
+			children = (
+				D90B75761E2FA62D0015A994 /* iSistemiumCoreTests.m */,
+			);
+			name = iSistemiumCoreTests;
+			path = ../../iSistemiumCore/iSistemiumCoreTests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -2231,6 +2243,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2C94BFE81CF1ACB8004476D8 /* iSisSalesTests.m in Sources */,
+				D90B75781E2FA62D0015A994 /* iSistemiumCoreTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
