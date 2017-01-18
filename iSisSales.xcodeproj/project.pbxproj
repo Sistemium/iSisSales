@@ -954,7 +954,7 @@
 		2C94C0001CF1B140004476D8 /* ☯ iSisCore */ = {
 			isa = PBXGroup;
 			children = (
-				D90B75741E2FA62D0015A994 /* iSistemiumCoreTests */,
+				D90B75741E2FA62D0015A994 /* ☯ iSistemiumCoreTests */,
 				2C94C0011CF1B1BA004476D8 /* ☯ Classes */,
 				2C94C1391CF1B1F3004476D8 /* ☯ DataModel */,
 				2C94C1C41CF1B308004476D8 /* ☯ Resources */,
@@ -1743,12 +1743,12 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		D90B75741E2FA62D0015A994 /* iSistemiumCoreTests */ = {
+		D90B75741E2FA62D0015A994 /* ☯ iSistemiumCoreTests */ = {
 			isa = PBXGroup;
 			children = (
 				D90B75761E2FA62D0015A994 /* iSistemiumCoreTests.m */,
 			);
-			name = iSistemiumCoreTests;
+			name = "☯ iSistemiumCoreTests";
 			path = ../../iSistemiumCore/iSistemiumCoreTests;
 			sourceTree = "<group>";
 		};
