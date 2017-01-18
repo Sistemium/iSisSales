@@ -15,13 +15,9 @@
 
 @implementation iSisSalesTests
 
-STMPredicateToSQL *predicator;
-
 - (void)setUp {
     [super setUp];
     // Put setup code here. This method is called before the invocation of each test method in the class.
-    
-    predicator = STMPredicateToSQL.sharedInstance;
 }
 
 - (void)tearDown {
@@ -30,14 +26,23 @@ STMPredicateToSQL *predicator;
 }
 
 - (void)testSQLFilters {
-    // This is an example of a functional test case.
-    // Use XCTAssert and related functions to verify your tests produce the correct results.
     
-    NSString *sql = [predicator SQLFilterForPredicate:[NSPredicate predicateWithFormat:@"date == %@", @"2017-01-01"]];
+    NSPredicate *predicate;
     
-    XCTAssertEqualObjects(@"(date = '2017-01-01')", sql, @"Failed predicate '='");
+    predicate = [NSPredicate predicateWithFormat:@"date == %@", @"2017-01-01"];
+    
+    [self runSQLFilterTest:predicate expectation:@"(date = '2017-01-01')"];
+    
+    predicate = [NSPredicate predicateWithFormat:@"type IN %@", @[@"error", @"important"]];
+    
+    [self runSQLFilterTest:predicate expectation:@"(type IN ('error', 'important'))"];
     
 }
 
+- (void)runSQLFilterTest:(NSPredicate *)predicate expectation:(NSString*)expectation {
+
+    XCTAssertEqualObjects([STMPredicateToSQL.sharedInstance SQLFilterForPredicate:predicate], expectation);
+    
+}
 
 @end
