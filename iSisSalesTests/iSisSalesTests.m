@@ -43,6 +43,11 @@
     predicate = [NSPredicate predicateWithFormat:@"SELF.deviceTs > SELF.lts"];
     
     STMAssertSQLFilter(predicate, @"(deviceTs > lts)");
+    
+    predicate = [NSPredicate predicateWithFormat:@"deviceTs > lts"];
+    
+    STMAssertSQLFilter(predicate, @"(deviceTs > lts)");
+
 
 }
 
