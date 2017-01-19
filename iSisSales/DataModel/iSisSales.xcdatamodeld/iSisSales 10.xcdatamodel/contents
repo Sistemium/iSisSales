@@ -246,6 +246,9 @@
         <attribute name="workflow" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="xid" optional="YES" attributeType="Binary" indexed="YES" syncable="YES"/>
         <relationship name="wf" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMWorkflow" inverseName="entities" inverseEntity="STMWorkflow" syncable="YES"/>
+        <userInfo>
+            <entry key="STORE" value="CoreData"/>
+        </userInfo>
     </entity>
     <entity name="STMEntityTemplate" syncable="YES">
         <attribute name="commentText" optional="YES" attributeType="String" syncable="YES"/>
@@ -569,6 +572,9 @@
         <attribute name="target" optional="YES" attributeType="String" indexed="YES" syncable="YES"/>
         <attribute name="value" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="xid" optional="YES" attributeType="Binary" indexed="YES" syncable="YES"/>
+        <userInfo>
+            <entry key="STORE" value="CoreData"/>
+        </userInfo>
     </entity>
     <entity name="STMStock" representedClassName="STMStock" syncable="YES">
         <attribute name="commentText" optional="YES" attributeType="String" syncable="YES"/>
