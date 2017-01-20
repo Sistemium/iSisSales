@@ -134,6 +134,9 @@
         <attribute name="target" optional="YES" attributeType="String" indexed="YES" syncable="YES"/>
         <attribute name="tokenHash" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="xid" optional="YES" attributeType="Binary" indexed="YES" syncable="YES"/>
+        <userInfo>
+            <entry key="STORE" value="CoreData"/>
+        </userInfo>
     </entity>
     <entity name="STMClientEntity" representedClassName="STMClientEntity" syncable="YES">
         <attribute name="commentText" optional="YES" attributeType="String" syncable="YES"/>
@@ -143,11 +146,18 @@
         <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="NO" indexed="YES" syncable="YES"/>
         <attribute name="isFantom" optional="YES" attributeType="Boolean" defaultValueString="YES" usesScalarValueType="NO" syncable="YES"/>
         <attribute name="lts" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
-        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES">
+            <userInfo>
+                <entry key="UNIQUE" value="REPLACE"/>
+            </userInfo>
+        </attribute>
         <attribute name="ownerXid" optional="YES" attributeType="Binary" indexed="YES" syncable="YES"/>
         <attribute name="source" optional="YES" attributeType="String" indexed="YES" syncable="YES"/>
         <attribute name="target" optional="YES" attributeType="String" indexed="YES" syncable="YES"/>
         <attribute name="xid" optional="YES" attributeType="Binary" indexed="YES" syncable="YES"/>
+        <userInfo>
+            <entry key="STORE" value="CoreData"/>
+        </userInfo>
     </entity>
     <entity name="STMContract" representedClassName="STMContract" syncable="YES">
         <attribute name="commentText" optional="YES" attributeType="String" syncable="YES"/>
@@ -165,7 +175,7 @@
         <relationship name="outletSalesmanContracts" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="STMOutletSalesmanContract" inverseName="contract" inverseEntity="STMOutletSalesmanContract" syncable="YES"/>
         <relationship name="partner" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMPartner" inverseName="contracts" inverseEntity="STMPartner" syncable="YES"/>
     </entity>
-    <entity name="STMCoreLocation" representedClassName="STMCoreLocation" syncable="YES">
+    <entity name="STMCoreLocation" representedClassName="STMCoreLocation" isAbstract="YES" syncable="YES">
         <attribute name="altitude" optional="YES" attributeType="Decimal" defaultValueString="0.0" syncable="YES"/>
         <attribute name="commentText" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="course" optional="YES" attributeType="Decimal" defaultValueString="0.0" syncable="YES"/>
@@ -187,7 +197,7 @@
         <attribute name="xid" optional="YES" attributeType="Binary" indexed="YES" syncable="YES"/>
         <relationship name="photos" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="STMCorePhoto" inverseName="location" inverseEntity="STMCorePhoto" syncable="YES"/>
     </entity>
-    <entity name="STMCorePhoto" representedClassName="STMCorePhoto" parentEntity="STMCorePicture" elementID="photo" syncable="YES">
+    <entity name="STMCorePhoto" representedClassName="STMCorePhoto" isAbstract="YES" parentEntity="STMCorePicture" elementID="photo" syncable="YES">
         <relationship name="location" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMCoreLocation" inverseName="photos" inverseEntity="STMCoreLocation" syncable="YES"/>
     </entity>
     <entity name="STMCorePicture" representedClassName="STMCorePicture" isAbstract="YES" syncable="YES">
@@ -211,7 +221,7 @@
         <attribute name="thumbnailHref" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="xid" optional="YES" attributeType="Binary" indexed="YES" syncable="YES"/>
     </entity>
-    <entity name="STMDatum" representedClassName="STMDatum" syncable="YES">
+    <entity name="STMDatum" representedClassName="STMDatum" isAbstract="YES" syncable="YES">
         <attribute name="deviceCts" optional="YES" attributeType="Date" usesScalarValueType="NO" indexed="YES" syncable="YES"/>
         <attribute name="deviceTs" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
         <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="NO" indexed="YES" syncable="YES"/>
@@ -242,6 +252,9 @@
         <attribute name="workflow" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="xid" optional="YES" attributeType="Binary" indexed="YES" syncable="YES"/>
         <relationship name="wf" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMWorkflow" inverseName="entities" inverseEntity="STMWorkflow" syncable="YES"/>
+        <userInfo>
+            <entry key="STORE" value="CoreData"/>
+        </userInfo>
     </entity>
     <entity name="STMEntityTemplate" syncable="YES">
         <attribute name="commentText" optional="YES" attributeType="String" syncable="YES"/>
@@ -565,6 +578,9 @@
         <attribute name="target" optional="YES" attributeType="String" indexed="YES" syncable="YES"/>
         <attribute name="value" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="xid" optional="YES" attributeType="Binary" indexed="YES" syncable="YES"/>
+        <userInfo>
+            <entry key="STORE" value="CoreData"/>
+        </userInfo>
     </entity>
     <entity name="STMStock" representedClassName="STMStock" syncable="YES">
         <attribute name="commentText" optional="YES" attributeType="String" syncable="YES"/>
@@ -705,12 +721,12 @@
         <element name="STMBarCodeType" positionX="-218" positionY="-2286" width="128" height="253"/>
         <element name="STMBatteryStatus" positionX="-648" positionY="-2286" width="128" height="223"/>
         <element name="STMClientData" positionX="-936" positionY="-2286" width="128" height="420"/>
-        <element name="STMClientEntity" positionX="70" positionY="-2286" width="128" height="223"/>
+        <element name="STMClientEntity" positionX="70" positionY="-2286" width="128" height="225"/>
         <element name="STMContract" positionX="-1388" positionY="-1261" width="128" height="253"/>
-        <element name="STMCoreLocation" positionX="-495" positionY="-1179" width="128" height="343"/>
-        <element name="STMCorePhoto" positionX="-272" positionY="-1147" width="128" height="58"/>
+        <element name="STMCoreLocation" positionX="-495" positionY="-1179" width="128" height="345"/>
+        <element name="STMCorePhoto" positionX="-272" positionY="-1147" width="128" height="60"/>
         <element name="STMCorePicture" positionX="-92" positionY="-1188" width="128" height="330"/>
-        <element name="STMDatum" positionX="-1224" positionY="-2286" width="128" height="133"/>
+        <element name="STMDatum" positionX="-1224" positionY="-2286" width="128" height="135"/>
         <element name="STMEntity" positionX="232" positionY="-681" width="128" height="375"/>
         <element name="STMEntityTemplate" positionX="-1368" positionY="-2286" width="128" height="193"/>
         <element name="STMJson" positionX="-504" positionY="-2286" width="128" height="238"/>
@@ -732,7 +748,7 @@
         <element name="STMSchedule" positionX="-504" positionY="-810" width="128" height="253"/>
         <element name="STMScheduledEvent" positionX="-686" positionY="-747" width="128" height="298"/>
         <element name="STMSchedulePurpose" positionX="-342" positionY="-765" width="128" height="253"/>
-        <element name="STMSetting" positionX="-1080" positionY="-2286" width="128" height="238"/>
+        <element name="STMSetting" positionX="-1080" positionY="-2286" width="128" height="240"/>
         <element name="STMStock" positionX="-947" positionY="-540" width="128" height="238"/>
         <element name="STMVisit" positionX="-729" positionY="-1756" width="128" height="300"/>
         <element name="STMVisitAnswer" positionX="-540" positionY="-1746" width="128" height="238"/>
