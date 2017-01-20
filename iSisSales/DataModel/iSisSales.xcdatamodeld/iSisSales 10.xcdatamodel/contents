@@ -221,7 +221,7 @@
         <attribute name="thumbnailHref" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="xid" optional="YES" attributeType="Binary" indexed="YES" syncable="YES"/>
     </entity>
-    <entity name="STMDatum" representedClassName="STMDatum" syncable="YES">
+    <entity name="STMDatum" representedClassName="STMDatum" isAbstract="YES" syncable="YES">
         <attribute name="deviceCts" optional="YES" attributeType="Date" usesScalarValueType="NO" indexed="YES" syncable="YES"/>
         <attribute name="deviceTs" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
         <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="NO" indexed="YES" syncable="YES"/>
@@ -726,7 +726,7 @@
         <element name="STMCoreLocation" positionX="-495" positionY="-1179" width="128" height="345"/>
         <element name="STMCorePhoto" positionX="-272" positionY="-1147" width="128" height="60"/>
         <element name="STMCorePicture" positionX="-92" positionY="-1188" width="128" height="330"/>
-        <element name="STMDatum" positionX="-1224" positionY="-2286" width="128" height="133"/>
+        <element name="STMDatum" positionX="-1224" positionY="-2286" width="128" height="135"/>
         <element name="STMEntity" positionX="232" positionY="-681" width="128" height="375"/>
         <element name="STMEntityTemplate" positionX="-1368" positionY="-2286" width="128" height="193"/>
         <element name="STMJson" positionX="-504" positionY="-2286" width="128" height="238"/>

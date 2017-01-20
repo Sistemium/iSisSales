@@ -46,7 +46,7 @@
 		<true/>
 		<key>NSExceptionDomains</key>
 		<dict>
-			<key>lamac3.local</key>
+			<key>lamac.local</key>
 			<dict>
 				<key>NSExceptionAllowsInsecureHTTPLoads</key>
 				<true/>
