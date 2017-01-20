@@ -26,8 +26,6 @@
 		2C32C9D81D14441F00CE4981 /* STMCameraOverlayView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C32C9D71D14441F00CE4981 /* STMCameraOverlayView.xib */; };
 		2C34EDAE1E2522D1004DE82D /* STMArticlePicture+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C34EDAB1E2522D1004DE82D /* STMArticlePicture+CoreDataClass.m */; };
 		2C34EDAF1E2522D1004DE82D /* STMArticlePicture+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C34EDAD1E2522D1004DE82D /* STMArticlePicture+CoreDataProperties.m */; };
-		2C34EDB21E261C60004DE82D /* STMSocketTransport.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C34EDB11E261C60004DE82D /* STMSocketTransport.m */; };
-		2C34EDB61E267326004DE82D /* STMSyncerHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C34EDB51E267326004DE82D /* STMSyncerHelper.m */; };
 		2C3920821D8A7D3500898FC6 /* STMCoreAppManifestHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C3920811D8A7D3500898FC6 /* STMCoreAppManifestHandler.m */; };
 		2C40F7801CF2037A00231E01 /* STMController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C40F77F1CF2037A00231E01 /* STMController.m */; };
 		2C40F78B1CF203A100231E01 /* STMAuthController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C40F7821CF203A100231E01 /* STMAuthController.m */; };
@@ -62,6 +60,10 @@
 		2C6113021D0BDE7B006BCB30 /* STMLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C6112FC1D0BDE7B006BCB30 /* STMLocation.m */; };
 		2C6113031D0BDE7B006BCB30 /* STMVisit+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C6112FE1D0BDE7B006BCB30 /* STMVisit+CoreDataProperties.m */; };
 		2C6113041D0BDE7B006BCB30 /* STMVisit.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C6113001D0BDE7B006BCB30 /* STMVisit.m */; };
+		2C7366651E3246EF00DD0D45 /* STMSocketController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C7366601E3246EF00DD0D45 /* STMSocketController.m */; };
+		2C7366661E3246EF00DD0D45 /* STMSocketTransport.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C7366621E3246EF00DD0D45 /* STMSocketTransport.m */; };
+		2C7366671E3246EF00DD0D45 /* STMSyncer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C7366641E3246EF00DD0D45 /* STMSyncer.m */; };
+		2C73666A1E32470400DD0D45 /* STMSyncerHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C7366691E32470400DD0D45 /* STMSyncerHelper.m */; };
 		2C94BFCF1CF1ACB8004476D8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94BFCE1CF1ACB8004476D8 /* main.m */; };
 		2C94BFDA1CF1ACB8004476D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C94BFD91CF1ACB8004476D8 /* Assets.xcassets */; };
 		2C94BFE81CF1ACB8004476D8 /* iSisSalesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94BFE71CF1ACB8004476D8 /* iSisSalesTests.m */; };
@@ -82,11 +84,9 @@
 		2C94C0E61CF1B1BB004476D8 /* STMRemoteController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C01F1CF1B1BA004476D8 /* STMRemoteController.m */; };
 		2C94C0E71CF1B1BB004476D8 /* STMScanApiHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C0211CF1B1BA004476D8 /* STMScanApiHelper.m */; };
 		2C94C0E91CF1B1BB004476D8 /* STMSettingsData.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C0241CF1B1BA004476D8 /* STMSettingsData.m */; };
-		2C94C0EA1CF1B1BB004476D8 /* STMSocketController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C0261CF1B1BA004476D8 /* STMSocketController.m */; };
 		2C94C0EB1CF1B1BB004476D8 /* STMSoundController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C0281CF1B1BA004476D8 /* STMSoundController.m */; };
 		2C94C0EC1CF1B1BB004476D8 /* STMStringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C0291CF1B1BA004476D8 /* STMStringExtension.swift */; };
 		2C94C0ED1CF1B1BB004476D8 /* STMSwiftConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C02A1CF1B1BA004476D8 /* STMSwiftConstants.swift */; };
-		2C94C0EE1CF1B1BB004476D8 /* STMSyncer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C02C1CF1B1BA004476D8 /* STMSyncer.m */; };
 		2C94C0EF1CF1B1BB004476D8 /* STMClientDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C02F1CF1B1BA004476D8 /* STMClientDataController.m */; };
 		2C94C0F01CF1B1BB004476D8 /* STMClientEntityController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C0311CF1B1BA004476D8 /* STMClientEntityController.m */; };
 		2C94C0F11CF1B1BB004476D8 /* STMCoreBarCodeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C0331CF1B1BA004476D8 /* STMCoreBarCodeController.m */; };
@@ -349,10 +349,6 @@
 		2C34EDAB1E2522D1004DE82D /* STMArticlePicture+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "STMArticlePicture+CoreDataClass.m"; sourceTree = "<group>"; };
 		2C34EDAC1E2522D1004DE82D /* STMArticlePicture+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "STMArticlePicture+CoreDataProperties.h"; sourceTree = "<group>"; };
 		2C34EDAD1E2522D1004DE82D /* STMArticlePicture+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "STMArticlePicture+CoreDataProperties.m"; sourceTree = "<group>"; };
-		2C34EDB01E261C60004DE82D /* STMSocketTransport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = STMSocketTransport.h; path = ../STMSocketTransport.h; sourceTree = "<group>"; };
-		2C34EDB11E261C60004DE82D /* STMSocketTransport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = STMSocketTransport.m; path = ../STMSocketTransport.m; sourceTree = "<group>"; };
-		2C34EDB41E267326004DE82D /* STMSyncerHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMSyncerHelper.h; sourceTree = "<group>"; };
-		2C34EDB51E267326004DE82D /* STMSyncerHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMSyncerHelper.m; sourceTree = "<group>"; };
 		2C34EDBC1E291183004DE82D /* STMDataSyncing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMDataSyncing.h; sourceTree = "<group>"; };
 		2C3920801D8A7D3500898FC6 /* STMCoreAppManifestHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMCoreAppManifestHandler.h; sourceTree = "<group>"; };
 		2C3920811D8A7D3500898FC6 /* STMCoreAppManifestHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMCoreAppManifestHandler.m; sourceTree = "<group>"; };
@@ -429,6 +425,14 @@
 		2C6112FE1D0BDE7B006BCB30 /* STMVisit+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "STMVisit+CoreDataProperties.m"; sourceTree = "<group>"; };
 		2C6112FF1D0BDE7B006BCB30 /* STMVisit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMVisit.h; sourceTree = "<group>"; };
 		2C6113001D0BDE7B006BCB30 /* STMVisit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMVisit.m; sourceTree = "<group>"; };
+		2C73665F1E3246EF00DD0D45 /* STMSocketController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = STMSocketController.h; path = ../STMSocketController.h; sourceTree = "<group>"; };
+		2C7366601E3246EF00DD0D45 /* STMSocketController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = STMSocketController.m; path = ../STMSocketController.m; sourceTree = "<group>"; };
+		2C7366611E3246EF00DD0D45 /* STMSocketTransport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = STMSocketTransport.h; path = ../STMSocketTransport.h; sourceTree = "<group>"; };
+		2C7366621E3246EF00DD0D45 /* STMSocketTransport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = STMSocketTransport.m; path = ../STMSocketTransport.m; sourceTree = "<group>"; };
+		2C7366631E3246EF00DD0D45 /* STMSyncer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = STMSyncer.h; path = ../STMSyncer.h; sourceTree = "<group>"; };
+		2C7366641E3246EF00DD0D45 /* STMSyncer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = STMSyncer.m; path = ../STMSyncer.m; sourceTree = "<group>"; };
+		2C7366681E32470400DD0D45 /* STMSyncerHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMSyncerHelper.h; sourceTree = "<group>"; };
+		2C7366691E32470400DD0D45 /* STMSyncerHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMSyncerHelper.m; sourceTree = "<group>"; };
 		2C73D6D11D26549100932981 /* iSisSales 4.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "iSisSales 4.xcdatamodel"; sourceTree = "<group>"; };
 		2C94BFCA1CF1ACB8004476D8 /* iSisSales.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iSisSales.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C94BFCE1CF1ACB8004476D8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -473,14 +477,10 @@
 		2C94C0211CF1B1BA004476D8 /* STMScanApiHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = STMScanApiHelper.m; path = ../STMScanApiHelper.m; sourceTree = "<group>"; };
 		2C94C0231CF1B1BA004476D8 /* STMSettingsData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = STMSettingsData.h; path = ../STMSettingsData.h; sourceTree = "<group>"; };
 		2C94C0241CF1B1BA004476D8 /* STMSettingsData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = STMSettingsData.m; path = ../STMSettingsData.m; sourceTree = "<group>"; };
-		2C94C0251CF1B1BA004476D8 /* STMSocketController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = STMSocketController.h; path = ../STMSocketController.h; sourceTree = "<group>"; };
-		2C94C0261CF1B1BA004476D8 /* STMSocketController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = STMSocketController.m; path = ../STMSocketController.m; sourceTree = "<group>"; };
 		2C94C0271CF1B1BA004476D8 /* STMSoundController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = STMSoundController.h; path = ../STMSoundController.h; sourceTree = "<group>"; };
 		2C94C0281CF1B1BA004476D8 /* STMSoundController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = STMSoundController.m; path = ../STMSoundController.m; sourceTree = "<group>"; };
 		2C94C0291CF1B1BA004476D8 /* STMStringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = STMStringExtension.swift; path = ../STMStringExtension.swift; sourceTree = "<group>"; };
 		2C94C02A1CF1B1BA004476D8 /* STMSwiftConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = STMSwiftConstants.swift; path = ../STMSwiftConstants.swift; sourceTree = "<group>"; };
-		2C94C02B1CF1B1BA004476D8 /* STMSyncer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = STMSyncer.h; path = ../STMSyncer.h; sourceTree = "<group>"; };
-		2C94C02C1CF1B1BA004476D8 /* STMSyncer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = STMSyncer.m; path = ../STMSyncer.m; sourceTree = "<group>"; };
 		2C94C02E1CF1B1BA004476D8 /* STMClientDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = STMClientDataController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		2C94C02F1CF1B1BA004476D8 /* STMClientDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = STMClientDataController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		2C94C0301CF1B1BA004476D8 /* STMClientEntityController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = STMClientEntityController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
@@ -880,14 +880,14 @@
 		2C34EDB31E267264004DE82D /* ☯ Syncer */ = {
 			isa = PBXGroup;
 			children = (
-				2C94C0251CF1B1BA004476D8 /* STMSocketController.h */,
-				2C94C0261CF1B1BA004476D8 /* STMSocketController.m */,
-				2C34EDB01E261C60004DE82D /* STMSocketTransport.h */,
-				2C34EDB11E261C60004DE82D /* STMSocketTransport.m */,
-				2C94C02B1CF1B1BA004476D8 /* STMSyncer.h */,
-				2C94C02C1CF1B1BA004476D8 /* STMSyncer.m */,
-				2C34EDB41E267326004DE82D /* STMSyncerHelper.h */,
-				2C34EDB51E267326004DE82D /* STMSyncerHelper.m */,
+				2C73665F1E3246EF00DD0D45 /* STMSocketController.h */,
+				2C7366601E3246EF00DD0D45 /* STMSocketController.m */,
+				2C7366611E3246EF00DD0D45 /* STMSocketTransport.h */,
+				2C7366621E3246EF00DD0D45 /* STMSocketTransport.m */,
+				2C7366631E3246EF00DD0D45 /* STMSyncer.h */,
+				2C7366641E3246EF00DD0D45 /* STMSyncer.m */,
+				2C7366681E32470400DD0D45 /* STMSyncerHelper.h */,
+				2C7366691E32470400DD0D45 /* STMSyncerHelper.m */,
 			);
 			name = "☯ Syncer";
 			path = Syncer;
@@ -2125,12 +2125,12 @@
 				2C94C1821CF1B1F3004476D8 /* STMBatteryStatus.m in Sources */,
 				2C6113041D0BDE7B006BCB30 /* STMVisit.m in Sources */,
 				2C0A8CAB1D09903C007C5B57 /* STMVisitQuestionDataType.m in Sources */,
+				2C7366661E3246EF00DD0D45 /* STMSocketTransport.m in Sources */,
 				2C34EDAF1E2522D1004DE82D /* STMArticlePicture+CoreDataProperties.m in Sources */,
 				2C94C1151CF1B1BB004476D8 /* STMLabel.m in Sources */,
 				2C40F7801CF2037A00231E01 /* STMController.m in Sources */,
 				2C94C1361CF1B1BB004476D8 /* STMWKWebViewNC.m in Sources */,
 				2C50340D1DF5B00900687A64 /* STMSaleOrderPosition+CoreDataProperties.m in Sources */,
-				2C94C0EA1CF1B1BB004476D8 /* STMSocketController.m in Sources */,
 				2C94C1921CF1B1F3004476D8 /* STMMessage.m in Sources */,
 				2C94C1011CF1B1BB004476D8 /* STMCoreVolumeTVCell.m in Sources */,
 				2C94C0E61CF1B1BB004476D8 /* STMRemoteController.m in Sources */,
@@ -2190,12 +2190,13 @@
 				2C94C1051CF1B1BB004476D8 /* STMCustom1TVCell.m in Sources */,
 				2C94C1311CF1B1BB004476D8 /* STMSettingsNC.m in Sources */,
 				2C6113021D0BDE7B006BCB30 /* STMLocation.m in Sources */,
+				2C7366651E3246EF00DD0D45 /* STMSocketController.m in Sources */,
 				2C4255841DFC4B3300F0BF9B /* STMSchedulePurpose+CoreDataProperties.m in Sources */,
+				2C7366671E3246EF00DD0D45 /* STMSyncer.m in Sources */,
 				2C0A8CAE1D09903C007C5B57 /* STMPartner+CoreDataProperties.m in Sources */,
 				2C5DA9131E21252600679735 /* STMScriptMessageHandler.m in Sources */,
 				2C94C0F81CF1B1BB004476D8 /* STMMessageController.m in Sources */,
 				2C5034161DF5B00900687A64 /* STMSaleOrder+CoreDataClass.m in Sources */,
-				2C34EDB21E261C60004DE82D /* STMSocketTransport.m in Sources */,
 				2C5034171DF5B00900687A64 /* STMSaleOrder+CoreDataProperties.m in Sources */,
 				3550B1E31DAE5CC300F8A368 /* STMEntity+CoreDataProperties.m in Sources */,
 				2C94C10D1CF1B1BB004476D8 /* STMCustom9TVCell.m in Sources */,
@@ -2285,13 +2286,12 @@
 				2C94C1121CF1B1BB004476D8 /* STMImagePickerController.m in Sources */,
 				2C94BFCF1CF1ACB8004476D8 /* main.m in Sources */,
 				2C94C12F1CF1B1BB004476D8 /* STMScannerInfoVC.m in Sources */,
-				2C94C0EE1CF1B1BB004476D8 /* STMSyncer.m in Sources */,
 				2C4255861DFC4B3300F0BF9B /* STMScheduledEvent+CoreDataProperties.m in Sources */,
 				2C94C11C1CF1B1BB004476D8 /* STMTableViewCell.m in Sources */,
 				2CE24E2E1D226B0C0004B63C /* STMContract.m in Sources */,
 				2C4255811DFC4B3300F0BF9B /* STMSchedule+CoreDataClass.m in Sources */,
 				2C94C0FD1CF1B1BB004476D8 /* STMPredicate.m in Sources */,
-				2C34EDB61E267326004DE82D /* STMSyncerHelper.m in Sources */,
+				2C73666A1E32470400DD0D45 /* STMSyncerHelper.m in Sources */,
 				2C94C1281CF1B1BB004476D8 /* STMLogMessagesSVC.m in Sources */,
 				2C9AE9A11CF5AF690018D9B3 /* STMJson+CoreDataProperties.m in Sources */,
 				2C94C19A1CF1B1F3004476D8 /* STMSetting.m in Sources */,
