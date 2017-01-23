@@ -60,7 +60,6 @@
 		2C6113021D0BDE7B006BCB30 /* STMLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C6112FC1D0BDE7B006BCB30 /* STMLocation.m */; };
 		2C6113031D0BDE7B006BCB30 /* STMVisit+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C6112FE1D0BDE7B006BCB30 /* STMVisit+CoreDataProperties.m */; };
 		2C6113041D0BDE7B006BCB30 /* STMVisit.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C6113001D0BDE7B006BCB30 /* STMVisit.m */; };
-		2C7366651E3246EF00DD0D45 /* STMSocketController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C7366601E3246EF00DD0D45 /* STMSocketController.m */; };
 		2C7366661E3246EF00DD0D45 /* STMSocketTransport.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C7366621E3246EF00DD0D45 /* STMSocketTransport.m */; };
 		2C7366671E3246EF00DD0D45 /* STMSyncer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C7366641E3246EF00DD0D45 /* STMSyncer.m */; };
 		2C73666A1E32470400DD0D45 /* STMSyncerHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C7366691E32470400DD0D45 /* STMSyncerHelper.m */; };
@@ -425,8 +424,6 @@
 		2C6112FE1D0BDE7B006BCB30 /* STMVisit+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "STMVisit+CoreDataProperties.m"; sourceTree = "<group>"; };
 		2C6112FF1D0BDE7B006BCB30 /* STMVisit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMVisit.h; sourceTree = "<group>"; };
 		2C6113001D0BDE7B006BCB30 /* STMVisit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMVisit.m; sourceTree = "<group>"; };
-		2C73665F1E3246EF00DD0D45 /* STMSocketController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = STMSocketController.h; path = ../STMSocketController.h; sourceTree = "<group>"; };
-		2C7366601E3246EF00DD0D45 /* STMSocketController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = STMSocketController.m; path = ../STMSocketController.m; sourceTree = "<group>"; };
 		2C7366611E3246EF00DD0D45 /* STMSocketTransport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = STMSocketTransport.h; path = ../STMSocketTransport.h; sourceTree = "<group>"; };
 		2C7366621E3246EF00DD0D45 /* STMSocketTransport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = STMSocketTransport.m; path = ../STMSocketTransport.m; sourceTree = "<group>"; };
 		2C7366631E3246EF00DD0D45 /* STMSyncer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = STMSyncer.h; path = ../STMSyncer.h; sourceTree = "<group>"; };
@@ -881,8 +878,6 @@
 		2C34EDB31E267264004DE82D /* ☯ Syncer */ = {
 			isa = PBXGroup;
 			children = (
-				2C73665F1E3246EF00DD0D45 /* STMSocketController.h */,
-				2C7366601E3246EF00DD0D45 /* STMSocketController.m */,
 				2C7366611E3246EF00DD0D45 /* STMSocketTransport.h */,
 				2C7366621E3246EF00DD0D45 /* STMSocketTransport.m */,
 				2C7366631E3246EF00DD0D45 /* STMSyncer.h */,
@@ -2201,7 +2196,6 @@
 				2C94C1051CF1B1BB004476D8 /* STMCustom1TVCell.m in Sources */,
 				2C94C1311CF1B1BB004476D8 /* STMSettingsNC.m in Sources */,
 				2C6113021D0BDE7B006BCB30 /* STMLocation.m in Sources */,
-				2C7366651E3246EF00DD0D45 /* STMSocketController.m in Sources */,
 				2C4255841DFC4B3300F0BF9B /* STMSchedulePurpose+CoreDataProperties.m in Sources */,
 				2C7366671E3246EF00DD0D45 /* STMSyncer.m in Sources */,
 				2C0A8CAE1D09903C007C5B57 /* STMPartner+CoreDataProperties.m in Sources */,
