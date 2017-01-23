@@ -828,6 +828,7 @@
 		A5AB0EC47BD72C1AE7EBF7FA /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D83C8648154EC85EB3023D68 /* Pods_iSisSales.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iSisSales.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D90B75761E2FA62D0015A994 /* iSistemiumCoreTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iSistemiumCoreTests.m; sourceTree = "<group>"; };
+		D90B75791E362B270015A994 /* STMModelling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMModelling.h; sourceTree = "<group>"; };
 		D920AF7E1D8D417700E825FC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D920AF801D8D417C00E825FC /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E40623DC4ABD0FB0D719ED86 /* Pods-iSisSales.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSales.release.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSales/Pods-iSisSales.release.xcconfig"; sourceTree = "<group>"; };
@@ -1092,6 +1093,7 @@
 				35B32E2F1E1E681700E11EF6 /* STMPersistingSync.h */,
 				35B32E301E1E682D00E11EF6 /* STMPersistingAsync.h */,
 				35B32E311E1E683E00E11EF6 /* STMPersistingPromised.h */,
+				D90B75791E362B270015A994 /* STMModelling.h */,
 			);
 			name = "☯ Protocols";
 			path = Protocols;
