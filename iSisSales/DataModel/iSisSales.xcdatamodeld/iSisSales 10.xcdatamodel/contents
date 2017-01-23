@@ -198,7 +198,7 @@
         <relationship name="photos" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="STMCorePhoto" inverseName="location" inverseEntity="STMCorePhoto" syncable="YES"/>
     </entity>
     <entity name="STMCorePhoto" representedClassName="STMCorePhoto" isAbstract="YES" parentEntity="STMCorePicture" elementID="photo" syncable="YES">
-        <relationship name="location" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMCoreLocation" inverseName="photos" inverseEntity="STMCoreLocation" syncable="YES"/>
+        <relationship name="location" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMLocation" inverseName="photos" inverseEntity="STMCoreLocation" syncable="YES"/>
     </entity>
     <entity name="STMCorePicture" representedClassName="STMCorePicture" isAbstract="YES" syncable="YES">
         <attribute name="commentText" optional="YES" attributeType="String" syncable="YES"/>
