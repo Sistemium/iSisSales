@@ -921,12 +921,12 @@
 				2CCD5DBE1E36473500B84565 /* STMGarbageCollector.swift */,
 				2CCD5DBF1E36473500B84565 /* STMPersister.h */,
 				2CCD5DC01E36473500B84565 /* STMPersister.m */,
+				D94F46021E38AC5600D78925 /* STMPersister+Async.h */,
+				D94F46031E38AC5600D78925 /* STMPersister+Async.m */,
 				2CCD5DC11E36473500B84565 /* STMPredicateToSQL.h */,
 				2CCD5DC21E36473500B84565 /* STMPredicateToSQL.m */,
 				2CCD5DC31E36473500B84565 /* STMScriptMessagesController.h */,
 				2CCD5DC41E36473500B84565 /* STMScriptMessagesController.m */,
-				D94F46021E38AC5600D78925 /* STMPersister+Async.h */,
-				D94F46031E38AC5600D78925 /* STMPersister+Async.m */,
 			);
 			name = "☯ Persisting";
 			path = Persisting;
