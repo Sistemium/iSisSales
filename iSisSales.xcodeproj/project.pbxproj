@@ -287,6 +287,7 @@
 		3550B1DD1DAE59F300F8A368 /* STMCorePicture+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 3550B1DB1DAE59F300F8A368 /* STMCorePicture+CoreDataProperties.m */; };
 		3550B1E21DAE5CC300F8A368 /* STMEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 3550B1DF1DAE5CC300F8A368 /* STMEntity.m */; };
 		3550B1E31DAE5CC300F8A368 /* STMEntity+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 3550B1E11DAE5CC300F8A368 /* STMEntity+CoreDataProperties.m */; };
+		35BE11981E38F51E007F761B /* STMModeller.m in Sources */ = {isa = PBXBuildFile; fileRef = 35BE11971E38F51E007F761B /* STMModeller.m */; };
 		B765DF6BD8F1900FE8C5AE92 /* Pods_iSisSales.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D83C8648154EC85EB3023D68 /* Pods_iSisSales.framework */; };
 		D90B75781E2FA62D0015A994 /* iSistemiumCoreTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D90B75761E2FA62D0015A994 /* iSistemiumCoreTests.m */; };
 		D920AF7D1D8D417700E825FC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D920AF7F1D8D417700E825FC /* InfoPlist.strings */; };
@@ -830,6 +831,8 @@
 		3550B1DF1DAE5CC300F8A368 /* STMEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMEntity.m; sourceTree = "<group>"; };
 		3550B1E01DAE5CC300F8A368 /* STMEntity+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "STMEntity+CoreDataProperties.h"; sourceTree = "<group>"; };
 		3550B1E11DAE5CC300F8A368 /* STMEntity+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "STMEntity+CoreDataProperties.m"; sourceTree = "<group>"; };
+		35BE11971E38F51E007F761B /* STMModeller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMModeller.m; sourceTree = "<group>"; };
+		35BE11991E38F5AB007F761B /* STMModeller.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STMModeller.h; sourceTree = "<group>"; };
 		4033E05BE502B1B13735187B /* Pods-iSisSales.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSales.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSales/Pods-iSisSales.debug.xcconfig"; sourceTree = "<group>"; };
 		A5AB0EC47BD72C1AE7EBF7FA /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D83C8648154EC85EB3023D68 /* Pods_iSisSales.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iSisSales.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -927,6 +930,8 @@
 				2CCD5DC21E36473500B84565 /* STMPredicateToSQL.m */,
 				2CCD5DC31E36473500B84565 /* STMScriptMessagesController.h */,
 				2CCD5DC41E36473500B84565 /* STMScriptMessagesController.m */,
+				35BE11991E38F5AB007F761B /* STMModeller.h */,
+				35BE11971E38F51E007F761B /* STMModeller.m */,
 			);
 			name = "☯ Persisting";
 			path = Persisting;
@@ -2289,6 +2294,7 @@
 				2C94C1141CF1B1BB004476D8 /* STMInsetLabel.m in Sources */,
 				2CCD5DD81E36478500B84565 /* STMCoreLocationTracker.m in Sources */,
 				2C5034111DF5B00900687A64 /* STMStock+CoreDataProperties.m in Sources */,
+				35BE11981E38F51E007F761B /* STMModeller.m in Sources */,
 				2C4255851DFC4B3300F0BF9B /* STMScheduledEvent+CoreDataClass.m in Sources */,
 				2CE24E2B1D226B0C0004B63C /* STMOutletSalesmanContract+CoreDataProperties.m in Sources */,
 				2C94C11E1CF1B1BB004476D8 /* STMWorkflowAS.m in Sources */,
