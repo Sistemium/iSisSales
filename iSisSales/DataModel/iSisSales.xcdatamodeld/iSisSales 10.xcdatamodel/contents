@@ -221,13 +221,16 @@
         <attribute name="thumbnailHref" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="xid" optional="YES" attributeType="Binary" indexed="YES" syncable="YES"/>
     </entity>
-    <entity name="STMDatum" representedClassName="STMDatum" isAbstract="YES" syncable="YES">
+    <entity name="STMDatum" representedClassName="STMDatum" syncable="YES">
         <attribute name="deviceCts" optional="YES" attributeType="Date" usesScalarValueType="NO" indexed="YES" syncable="YES"/>
         <attribute name="deviceTs" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
         <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="NO" indexed="YES" syncable="YES"/>
         <attribute name="isFantom" optional="YES" attributeType="Boolean" defaultValueString="YES" usesScalarValueType="NO" syncable="YES"/>
         <attribute name="lts" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
         <attribute name="xid" optional="YES" attributeType="Binary" indexed="YES" syncable="YES"/>
+        <userInfo>
+            <entry key="STORE" value="NONE"/>
+        </userInfo>
     </entity>
     <entity name="STMEntity" representedClassName="STMEntity" syncable="YES">
         <attribute name="commentText" optional="YES" attributeType="String" syncable="YES"/>
