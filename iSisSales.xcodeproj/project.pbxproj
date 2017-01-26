@@ -2534,6 +2534,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.sistemium.iSisSalesTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iSisSales.app/iSisSales";
+				USER_HEADER_SEARCH_PATHS = "$(CONFIGURATION_TEMP_DIR)/$(PROJECT_NAME).build/DerivedSources";
 			};
 			name = Debug;
 		};
@@ -2546,6 +2547,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.sistemium.iSisSalesTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iSisSales.app/iSisSales";
+				USER_HEADER_SEARCH_PATHS = "$(CONFIGURATION_TEMP_DIR)/$(PROJECT_NAME).build/DerivedSources";
 			};
 			name = Release;
 		};
