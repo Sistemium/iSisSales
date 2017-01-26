@@ -288,6 +288,7 @@
 		3550B1E21DAE5CC300F8A368 /* STMEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 3550B1DF1DAE5CC300F8A368 /* STMEntity.m */; };
 		3550B1E31DAE5CC300F8A368 /* STMEntity+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 3550B1E11DAE5CC300F8A368 /* STMEntity+CoreDataProperties.m */; };
 		35BE11981E38F51E007F761B /* STMModeller.m in Sources */ = {isa = PBXBuildFile; fileRef = 35BE11971E38F51E007F761B /* STMModeller.m */; };
+		35BE119C1E3A3A90007F761B /* STMPersister+CoreData.m in Sources */ = {isa = PBXBuildFile; fileRef = 35BE119B1E3A3A8F007F761B /* STMPersister+CoreData.m */; };
 		B765DF6BD8F1900FE8C5AE92 /* Pods_iSisSales.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D83C8648154EC85EB3023D68 /* Pods_iSisSales.framework */; };
 		D90B75781E2FA62D0015A994 /* iSistemiumCoreTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D90B75761E2FA62D0015A994 /* iSistemiumCoreTests.m */; };
 		D920AF7D1D8D417700E825FC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D920AF7F1D8D417700E825FC /* InfoPlist.strings */; };
@@ -833,6 +834,8 @@
 		3550B1E11DAE5CC300F8A368 /* STMEntity+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "STMEntity+CoreDataProperties.m"; sourceTree = "<group>"; };
 		35BE11971E38F51E007F761B /* STMModeller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMModeller.m; sourceTree = "<group>"; };
 		35BE11991E38F5AB007F761B /* STMModeller.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STMModeller.h; sourceTree = "<group>"; };
+		35BE119A1E3A3A8F007F761B /* STMPersister+CoreData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "STMPersister+CoreData.h"; sourceTree = "<group>"; };
+		35BE119B1E3A3A8F007F761B /* STMPersister+CoreData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "STMPersister+CoreData.m"; sourceTree = "<group>"; };
 		4033E05BE502B1B13735187B /* Pods-iSisSales.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSales.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSales/Pods-iSisSales.debug.xcconfig"; sourceTree = "<group>"; };
 		A5AB0EC47BD72C1AE7EBF7FA /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D83C8648154EC85EB3023D68 /* Pods_iSisSales.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iSisSales.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -924,6 +927,8 @@
 				2CCD5DBE1E36473500B84565 /* STMGarbageCollector.swift */,
 				2CCD5DBF1E36473500B84565 /* STMPersister.h */,
 				2CCD5DC01E36473500B84565 /* STMPersister.m */,
+				35BE119A1E3A3A8F007F761B /* STMPersister+CoreData.h */,
+				35BE119B1E3A3A8F007F761B /* STMPersister+CoreData.m */,
 				D94F46021E38AC5600D78925 /* STMPersister+Async.h */,
 				D94F46031E38AC5600D78925 /* STMPersister+Async.m */,
 				2CCD5DC11E36473500B84565 /* STMPredicateToSQL.h */,
@@ -2262,6 +2267,7 @@
 				2C94C18D1CF1B1F3004476D8 /* STMCoreLocation+CoreDataProperties.m in Sources */,
 				2C0A8CAC1D09903C007C5B57 /* STMSalesman+CoreDataProperties.m in Sources */,
 				2C0A8CA41D09903C007C5B57 /* STMVisitQuestionSet+CoreDataProperties.m in Sources */,
+				35BE119C1E3A3A90007F761B /* STMPersister+CoreData.m in Sources */,
 				2C94C0F11CF1B1BB004476D8 /* STMCoreBarCodeController.m in Sources */,
 				2C94C1201CF1B1BB004476D8 /* UIViewController+custom.m in Sources */,
 				2CCD468D1D646BAF003F8A14 /* STMLegalForm.m in Sources */,
