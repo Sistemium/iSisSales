@@ -296,6 +296,7 @@
 		D94F46041E38AC5600D78925 /* STMPersister+Async.m in Sources */ = {isa = PBXBuildFile; fileRef = D94F46031E38AC5600D78925 /* STMPersister+Async.m */; };
 		D94F46061E3A1FFD00D78925 /* SocketIOTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D94F46051E3A1FFD00D78925 /* SocketIOTests.m */; };
 		D94F46081E3B429600D78925 /* STMSocketTransportTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D94F46071E3B429600D78925 /* STMSocketTransportTests.m */; };
+		D94F460B1E3B626B00D78925 /* STMFmdb+Private.m in Sources */ = {isa = PBXBuildFile; fileRef = D94F460A1E3B626B00D78925 /* STMFmdb+Private.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -852,6 +853,8 @@
 		D94F46031E38AC5600D78925 /* STMPersister+Async.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "STMPersister+Async.m"; sourceTree = "<group>"; };
 		D94F46051E3A1FFD00D78925 /* SocketIOTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SocketIOTests.m; sourceTree = "<group>"; };
 		D94F46071E3B429600D78925 /* STMSocketTransportTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMSocketTransportTests.m; sourceTree = "<group>"; };
+		D94F46091E3B626B00D78925 /* STMFmdb+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "STMFmdb+Private.h"; sourceTree = "<group>"; };
+		D94F460A1E3B626B00D78925 /* STMFmdb+Private.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "STMFmdb+Private.m"; sourceTree = "<group>"; };
 		E40623DC4ABD0FB0D719ED86 /* Pods-iSisSales.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSales.release.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSales/Pods-iSisSales.release.xcconfig"; sourceTree = "<group>"; };
 		EFEE3E7425CEF6DC61EAF6D3 /* Pods_iSisSalesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iSisSalesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -934,6 +937,8 @@
 				2CCD5DBB1E36473500B84565 /* STMDocument.m */,
 				2CCD5DBC1E36473500B84565 /* STMFmdb.h */,
 				2CCD5DBD1E36473500B84565 /* STMFmdb.m */,
+				D94F46091E3B626B00D78925 /* STMFmdb+Private.h */,
+				D94F460A1E3B626B00D78925 /* STMFmdb+Private.m */,
 				2CCD5DBE1E36473500B84565 /* STMGarbageCollector.swift */,
 				2CCD5DBF1E36473500B84565 /* STMPersister.h */,
 				2CCD5DC01E36473500B84565 /* STMPersister.m */,
@@ -2380,6 +2385,7 @@
 				2C73666A1E32470400DD0D45 /* STMSyncerHelper.m in Sources */,
 				2C94C1281CF1B1BB004476D8 /* STMLogMessagesSVC.m in Sources */,
 				2C9AE9A11CF5AF690018D9B3 /* STMJson+CoreDataProperties.m in Sources */,
+				D94F460B1E3B626B00D78925 /* STMFmdb+Private.m in Sources */,
 				2C94C19A1CF1B1F3004476D8 /* STMSetting.m in Sources */,
 				2C94C2621CF1B771004476D8 /* STMAppDelegate.m in Sources */,
 				2C94C1961CF1B1F3004476D8 /* STMCorePhoto.m in Sources */,
