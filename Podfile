@@ -1,4 +1,5 @@
 platform :ios, '8.0'
+use_frameworks!
 
 target 'iSisSales' do
     pod 'KiteJSONValidator', '~> 0.2.3'
@@ -7,11 +8,16 @@ target 'iSisSales' do
     pod 'Fabric', '~> 1.6.10'
     pod 'JNKeychain', '~> 0.1.4'
     pod 'ScanAPI', :path => '../ScanApiSDK'
-    pod 'Socket.IO-Client-Swift', '~> 8.0.2'
+    pod 'Socket.IO-Client-Swift', '~> 8.2.0'
     pod 'FMDB', '~> 2.6.2’
-    pod "PromiseKit", "~> 4.0"
-    use_frameworks! 
+    pod 'PromiseKit', '~> 4.0'
+
+    target 'iSisSalesTests' do
+        inherit! :search_paths
+    end
+
 end
+
 
 post_install do |installer|
     installer.pods_project.targets.each do |target|
