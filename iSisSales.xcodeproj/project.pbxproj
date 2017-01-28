@@ -430,6 +430,8 @@
 		2C7366681E32470400DD0D45 /* STMSyncerHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMSyncerHelper.h; sourceTree = "<group>"; };
 		2C7366691E32470400DD0D45 /* STMSyncerHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMSyncerHelper.m; sourceTree = "<group>"; };
 		2C73D6D11D26549100932981 /* iSisSales 4.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "iSisSales 4.xcdatamodel"; sourceTree = "<group>"; };
+		2C9000D01E3BA70100DEDF3C /* STMPersistingWithHeadersAsync.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMPersistingWithHeadersAsync.h; sourceTree = "<group>"; };
+		2C9000D11E3CCA5E00DEDF3C /* STMDataSyncingSubscriber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMDataSyncingSubscriber.h; sourceTree = "<group>"; };
 		2C94BFCA1CF1ACB8004476D8 /* iSisSales.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iSisSales.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C94BFCE1CF1ACB8004476D8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2C94BFD91CF1ACB8004476D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -1168,6 +1170,7 @@
 				2C94C0501CF1B1BA004476D8 /* STMWorkflowable.h */,
 				2C1444221D0B1C0700B8E386 /* STMCheckinDelegate.h */,
 				2C34EDBC1E291183004DE82D /* STMDataSyncing.h */,
+				2C9000D11E3CCA5E00DEDF3C /* STMDataSyncingSubscriber.h */,
 				2CCD5D891E36330B00B84565 /* STMSocketTransportOwner.h */,
 			);
 			name = "☯ Protocols";
@@ -1818,6 +1821,7 @@
 				2CCD5DDA1E36479E00B84565 /* STMPersistingAsync.h */,
 				2CCD5DDB1E36479E00B84565 /* STMPersistingPromised.h */,
 				2CCD5DDC1E36479E00B84565 /* STMPersistingSync.h */,
+				2C9000D01E3BA70100DEDF3C /* STMPersistingWithHeadersAsync.h */,
 			);
 			name = "☯ Persisting";
 			path = Persisting;
