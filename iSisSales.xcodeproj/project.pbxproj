@@ -870,6 +870,7 @@
 		D94F46141E3E28C300D78925 /* STMPersisting.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STMPersisting.h; sourceTree = "<group>"; };
 		D94F46151E3E8D2F00D78925 /* STMCoreSession+Persistable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "STMCoreSession+Persistable.h"; sourceTree = "<group>"; };
 		D94F46161E3E8D2F00D78925 /* STMCoreSession+Persistable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "STMCoreSession+Persistable.m"; sourceTree = "<group>"; };
+		D94F46181E3E9E6300D78925 /* STMDefantomizing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMDefantomizing.h; sourceTree = "<group>"; };
 		E40623DC4ABD0FB0D719ED86 /* Pods-iSisSales.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSales.release.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSales/Pods-iSisSales.release.xcconfig"; sourceTree = "<group>"; };
 		EFEE3E7425CEF6DC61EAF6D3 /* Pods_iSisSalesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iSisSalesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -1205,6 +1206,7 @@
 				2C1444221D0B1C0700B8E386 /* STMCheckinDelegate.h */,
 				2C34EDBC1E291183004DE82D /* STMDataSyncing.h */,
 				2C9000D11E3CCA5E00DEDF3C /* STMDataSyncingSubscriber.h */,
+				D94F46181E3E9E6300D78925 /* STMDefantomizing.h */,
 				2CCD5D891E36330B00B84565 /* STMSocketTransportOwner.h */,
 			);
 			name = "☯ Protocols";
