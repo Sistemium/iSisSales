@@ -298,6 +298,8 @@
 		D94F46061E3A1FFD00D78925 /* SocketIOTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D94F46051E3A1FFD00D78925 /* SocketIOTests.m */; };
 		D94F46081E3B429600D78925 /* STMSocketTransportTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D94F46071E3B429600D78925 /* STMSocketTransportTests.m */; };
 		D94F460B1E3B626B00D78925 /* STMFmdb+Private.m in Sources */ = {isa = PBXBuildFile; fileRef = D94F460A1E3B626B00D78925 /* STMFmdb+Private.m */; };
+		D94F46111E3D327000D78925 /* STMPersister+Observable.m in Sources */ = {isa = PBXBuildFile; fileRef = D94F46101E3D327000D78925 /* STMPersister+Observable.m */; };
+		D94F46131E3D3B5900D78925 /* PersistingObservingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D94F46121E3D3B5900D78925 /* PersistingObservingTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -860,6 +862,10 @@
 		D94F46071E3B429600D78925 /* STMSocketTransportTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMSocketTransportTests.m; sourceTree = "<group>"; };
 		D94F46091E3B626B00D78925 /* STMFmdb+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "STMFmdb+Private.h"; sourceTree = "<group>"; };
 		D94F460A1E3B626B00D78925 /* STMFmdb+Private.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "STMFmdb+Private.m"; sourceTree = "<group>"; };
+		D94F460E1E3D2FA300D78925 /* STMPersistingObserving.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMPersistingObserving.h; sourceTree = "<group>"; };
+		D94F460F1E3D327000D78925 /* STMPersister+Observable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "STMPersister+Observable.h"; sourceTree = "<group>"; };
+		D94F46101E3D327000D78925 /* STMPersister+Observable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "STMPersister+Observable.m"; sourceTree = "<group>"; };
+		D94F46121E3D3B5900D78925 /* PersistingObservingTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersistingObservingTests.m; sourceTree = "<group>"; };
 		E40623DC4ABD0FB0D719ED86 /* Pods-iSisSales.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSales.release.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSales/Pods-iSisSales.release.xcconfig"; sourceTree = "<group>"; };
 		EFEE3E7425CEF6DC61EAF6D3 /* Pods_iSisSalesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iSisSalesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -951,6 +957,8 @@
 				35BE119B1E3A3A8F007F761B /* STMPersister+CoreData.m */,
 				D94F46021E38AC5600D78925 /* STMPersister+Async.h */,
 				D94F46031E38AC5600D78925 /* STMPersister+Async.m */,
+				D94F460F1E3D327000D78925 /* STMPersister+Observable.h */,
+				D94F46101E3D327000D78925 /* STMPersister+Observable.m */,
 				2CCD5DC11E36473500B84565 /* STMPredicateToSQL.h */,
 				2CCD5DC21E36473500B84565 /* STMPredicateToSQL.m */,
 				2CCD5DC31E36473500B84565 /* STMScriptMessagesController.h */,
@@ -1842,6 +1850,7 @@
 				2CCD5DDB1E36479E00B84565 /* STMPersistingPromised.h */,
 				2CCD5DDC1E36479E00B84565 /* STMPersistingSync.h */,
 				2C9000D01E3BA70100DEDF3C /* STMPersistingWithHeadersAsync.h */,
+				D94F460E1E3D2FA300D78925 /* STMPersistingObserving.h */,
 			);
 			name = "☯ Persisting";
 			path = Persisting;
@@ -1864,6 +1873,7 @@
 				D90B75761E2FA62D0015A994 /* iSistemiumCoreTests.m */,
 				D94F46051E3A1FFD00D78925 /* SocketIOTests.m */,
 				D94F46071E3B429600D78925 /* STMSocketTransportTests.m */,
+				D94F46121E3D3B5900D78925 /* PersistingObservingTests.m */,
 			);
 			name = "☯ iSistemiumCoreTests";
 			path = ../../iSistemiumCore/iSistemiumCoreTests;
@@ -2320,6 +2330,7 @@
 				2C94C0F31CF1B1BB004476D8 /* STMCoreObjectsController.m in Sources */,
 				2C4255831DFC4B3300F0BF9B /* STMSchedulePurpose+CoreDataClass.m in Sources */,
 				2C94C1971CF1B1F3004476D8 /* STMRecordStatus+CoreDataProperties.m in Sources */,
+				D94F46111E3D327000D78925 /* STMPersister+Observable.m in Sources */,
 				2C0A8CA81D09903C007C5B57 /* STMVisitQuestion+CoreDataProperties.m in Sources */,
 				2CCD468C1D646BAF003F8A14 /* STMLegalForm+CoreDataProperties.m in Sources */,
 				2CC2D2FF1D13DCF40026EB72 /* STMCorePhoto+CoreDataProperties.m in Sources */,
@@ -2416,6 +2427,7 @@
 				2C94BFE81CF1ACB8004476D8 /* iSisSalesTests.m in Sources */,
 				D94F46081E3B429600D78925 /* STMSocketTransportTests.m in Sources */,
 				D94F46061E3A1FFD00D78925 /* SocketIOTests.m in Sources */,
+				D94F46131E3D3B5900D78925 /* PersistingObservingTests.m in Sources */,
 				D90B75781E2FA62D0015A994 /* iSistemiumCoreTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
