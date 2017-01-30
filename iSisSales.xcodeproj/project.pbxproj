@@ -60,6 +60,7 @@
 		2C6113021D0BDE7B006BCB30 /* STMLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C6112FC1D0BDE7B006BCB30 /* STMLocation.m */; };
 		2C6113031D0BDE7B006BCB30 /* STMVisit+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C6112FE1D0BDE7B006BCB30 /* STMVisit+CoreDataProperties.m */; };
 		2C6113041D0BDE7B006BCB30 /* STMVisit.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C6113001D0BDE7B006BCB30 /* STMVisit.m */; };
+		2C70FBCD1E3F62A700FE49AF /* LtsCoreDataTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C70FBCC1E3F62A700FE49AF /* LtsCoreDataTests.m */; };
 		2C73666A1E32470400DD0D45 /* STMSyncerHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C7366691E32470400DD0D45 /* STMSyncerHelper.m */; };
 		2C94BFCF1CF1ACB8004476D8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94BFCE1CF1ACB8004476D8 /* main.m */; };
 		2C94BFDA1CF1ACB8004476D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C94BFD91CF1ACB8004476D8 /* Assets.xcassets */; };
@@ -436,6 +437,7 @@
 		2C6112FE1D0BDE7B006BCB30 /* STMVisit+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "STMVisit+CoreDataProperties.m"; sourceTree = "<group>"; };
 		2C6112FF1D0BDE7B006BCB30 /* STMVisit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMVisit.h; sourceTree = "<group>"; };
 		2C6113001D0BDE7B006BCB30 /* STMVisit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMVisit.m; sourceTree = "<group>"; };
+		2C70FBCC1E3F62A700FE49AF /* LtsCoreDataTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LtsCoreDataTests.m; sourceTree = "<group>"; };
 		2C7366681E32470400DD0D45 /* STMSyncerHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMSyncerHelper.h; sourceTree = "<group>"; };
 		2C7366691E32470400DD0D45 /* STMSyncerHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMSyncerHelper.m; sourceTree = "<group>"; };
 		2C73D6D11D26549100932981 /* iSisSales 4.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "iSisSales 4.xcdatamodel"; sourceTree = "<group>"; };
@@ -1888,6 +1890,7 @@
 				D94F46051E3A1FFD00D78925 /* SocketIOTests.m */,
 				D94F46071E3B429600D78925 /* STMSocketTransportTests.m */,
 				D94F46121E3D3B5900D78925 /* PersistingObservingTests.m */,
+				2C70FBCC1E3F62A700FE49AF /* LtsCoreDataTests.m */,
 			);
 			name = "☯ iSistemiumCoreTests";
 			path = ../../iSistemiumCore/iSistemiumCoreTests;
@@ -2440,6 +2443,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C70FBCD1E3F62A700FE49AF /* LtsCoreDataTests.m in Sources */,
 				2C94BFE81CF1ACB8004476D8 /* iSisSalesTests.m in Sources */,
 				D94F46081E3B429600D78925 /* STMSocketTransportTests.m in Sources */,
 				D94F46061E3A1FFD00D78925 /* SocketIOTests.m in Sources */,
