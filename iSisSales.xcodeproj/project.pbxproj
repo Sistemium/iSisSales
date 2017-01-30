@@ -303,6 +303,7 @@
 		D94F46131E3D3B5900D78925 /* PersistingObservingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D94F46121E3D3B5900D78925 /* PersistingObservingTests.m */; };
 		D94F46171E3E8D2F00D78925 /* STMCoreSession+Persistable.m in Sources */ = {isa = PBXBuildFile; fileRef = D94F46161E3E8D2F00D78925 /* STMCoreSession+Persistable.m */; };
 		D9F0B38E1E3EA6B900989BB0 /* STMSyncerHelper+Defantomizing.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F0B38D1E3EA6B900989BB0 /* STMSyncerHelper+Defantomizing.m */; };
+		D9F0B3921E3FE98400989BB0 /* STMScriptMessageHandler+Private.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F0B3911E3FE98400989BB0 /* STMScriptMessageHandler+Private.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -876,6 +877,9 @@
 		D94F46181E3E9E6300D78925 /* STMDefantomizing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMDefantomizing.h; sourceTree = "<group>"; };
 		D9F0B38C1E3EA6B900989BB0 /* STMSyncerHelper+Defantomizing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "STMSyncerHelper+Defantomizing.h"; sourceTree = "<group>"; };
 		D9F0B38D1E3EA6B900989BB0 /* STMSyncerHelper+Defantomizing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "STMSyncerHelper+Defantomizing.m"; sourceTree = "<group>"; };
+		D9F0B38F1E3FE61600989BB0 /* STMScriptMessaging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMScriptMessaging.h; sourceTree = "<group>"; };
+		D9F0B3901E3FE98400989BB0 /* STMScriptMessageHandler+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "STMScriptMessageHandler+Private.h"; sourceTree = "<group>"; };
+		D9F0B3911E3FE98400989BB0 /* STMScriptMessageHandler+Private.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "STMScriptMessageHandler+Private.m"; sourceTree = "<group>"; };
 		E40623DC4ABD0FB0D719ED86 /* Pods-iSisSales.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSales.release.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSales/Pods-iSisSales.release.xcconfig"; sourceTree = "<group>"; };
 		EFEE3E7425CEF6DC61EAF6D3 /* Pods_iSisSalesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iSisSalesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -1215,6 +1219,7 @@
 				2C9000D11E3CCA5E00DEDF3C /* STMDataSyncingSubscriber.h */,
 				D94F46181E3E9E6300D78925 /* STMDefantomizing.h */,
 				2CCD5D891E36330B00B84565 /* STMSocketTransportOwner.h */,
+				D9F0B38F1E3FE61600989BB0 /* STMScriptMessaging.h */,
 			);
 			name = "☯ Protocols";
 			path = Protocols;
@@ -1449,6 +1454,8 @@
 				2C1AE2511D9BF62500272A63 /* errorCatcherScript.js */,
 				2C5DA9111E21252600679735 /* STMScriptMessageHandler.h */,
 				2C5DA9121E21252600679735 /* STMScriptMessageHandler.m */,
+				D9F0B3901E3FE98400989BB0 /* STMScriptMessageHandler+Private.h */,
+				D9F0B3911E3FE98400989BB0 /* STMScriptMessageHandler+Private.m */,
 			);
 			name = "☯ STMWKWebView";
 			path = STMWKWebView;
@@ -2376,6 +2383,7 @@
 				35BE119C1E3A3A90007F761B /* STMPersister+CoreData.m in Sources */,
 				2C94C0F11CF1B1BB004476D8 /* STMCoreBarCodeController.m in Sources */,
 				2C94C1201CF1B1BB004476D8 /* UIViewController+custom.m in Sources */,
+				D9F0B3921E3FE98400989BB0 /* STMScriptMessageHandler+Private.m in Sources */,
 				2CCD468D1D646BAF003F8A14 /* STMLegalForm.m in Sources */,
 				2C94C25A1CF1B3D8004476D8 /* STMCoreApplication.m in Sources */,
 				2C94C1321CF1B1BB004476D8 /* STMSettingsTVC.m in Sources */,
