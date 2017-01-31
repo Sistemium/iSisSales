@@ -479,7 +479,6 @@
 		2C94C0441CF1B1BA004476D8 /* STMWorkflowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = STMWorkflowController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		2C94C0451CF1B1BA004476D8 /* STMWorkflowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMWorkflowController.m; sourceTree = "<group>"; };
 		2C94C0471CF1B1BA004476D8 /* STMBarCodeScannerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMBarCodeScannerDelegate.h; sourceTree = "<group>"; };
-		2C94C0481CF1B1BA004476D8 /* STMEntitiesSubscribable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMEntitiesSubscribable.h; sourceTree = "<group>"; };
 		2C94C0491CF1B1BA004476D8 /* STMImagePickerOwnerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMImagePickerOwnerProtocol.h; sourceTree = "<group>"; };
 		2C94C04A1CF1B1BA004476D8 /* STMRequestAuthenticatable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMRequestAuthenticatable.h; sourceTree = "<group>"; };
 		2C94C04B1CF1B1BA004476D8 /* STMScanApiHelperDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMScanApiHelperDelegate.h; sourceTree = "<group>"; };
@@ -1205,7 +1204,6 @@
 			children = (
 				2CCD5D881E3630F100B84565 /* ☯ Persisting */,
 				2C94C0471CF1B1BA004476D8 /* STMBarCodeScannerDelegate.h */,
-				2C94C0481CF1B1BA004476D8 /* STMEntitiesSubscribable.h */,
 				2C94C0491CF1B1BA004476D8 /* STMImagePickerOwnerProtocol.h */,
 				2C94C04A1CF1B1BA004476D8 /* STMRequestAuthenticatable.h */,
 				2C94C04B1CF1B1BA004476D8 /* STMScanApiHelperDelegate.h */,
