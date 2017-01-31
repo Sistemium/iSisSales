@@ -304,6 +304,7 @@
 		D9F0B38E1E3EA6B900989BB0 /* STMSyncerHelper+Defantomizing.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F0B38D1E3EA6B900989BB0 /* STMSyncerHelper+Defantomizing.m */; };
 		D9F0B3921E3FE98400989BB0 /* STMScriptMessageHandler+Private.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F0B3911E3FE98400989BB0 /* STMScriptMessageHandler+Private.m */; };
 		D9F0B3951E4094F300989BB0 /* STMScriptMessageHandler+Predicates.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F0B3941E4094F300989BB0 /* STMScriptMessageHandler+Predicates.m */; };
+		D9F0B3971E40A9CE00989BB0 /* ScriptMessagingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F0B3961E40A9CE00989BB0 /* ScriptMessagingTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -879,6 +880,7 @@
 		D9F0B3911E3FE98400989BB0 /* STMScriptMessageHandler+Private.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "STMScriptMessageHandler+Private.m"; sourceTree = "<group>"; };
 		D9F0B3931E4094F300989BB0 /* STMScriptMessageHandler+Predicates.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "STMScriptMessageHandler+Predicates.h"; sourceTree = "<group>"; };
 		D9F0B3941E4094F300989BB0 /* STMScriptMessageHandler+Predicates.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "STMScriptMessageHandler+Predicates.m"; sourceTree = "<group>"; };
+		D9F0B3961E40A9CE00989BB0 /* ScriptMessagingTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScriptMessagingTests.m; sourceTree = "<group>"; };
 		E40623DC4ABD0FB0D719ED86 /* Pods-iSisSales.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSales.release.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSales/Pods-iSisSales.release.xcconfig"; sourceTree = "<group>"; };
 		EFEE3E7425CEF6DC61EAF6D3 /* Pods_iSisSalesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iSisSalesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -1896,6 +1898,7 @@
 				D94F46071E3B429600D78925 /* STMSocketTransportTests.m */,
 				D94F46121E3D3B5900D78925 /* PersistingObservingTests.m */,
 				2C70FBCC1E3F62A700FE49AF /* LtsCoreDataTests.m */,
+				D9F0B3961E40A9CE00989BB0 /* ScriptMessagingTests.m */,
 			);
 			name = "☯ iSistemiumCoreTests";
 			path = ../../iSistemiumCore/iSistemiumCoreTests;
@@ -2455,6 +2458,7 @@
 				D94F46061E3A1FFD00D78925 /* SocketIOTests.m in Sources */,
 				D94F46131E3D3B5900D78925 /* PersistingObservingTests.m in Sources */,
 				D90B75781E2FA62D0015A994 /* iSistemiumCoreTests.m in Sources */,
+				D9F0B3971E40A9CE00989BB0 /* ScriptMessagingTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
