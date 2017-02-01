@@ -307,6 +307,7 @@
 		D9F0B3971E40A9CE00989BB0 /* ScriptMessagingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F0B3961E40A9CE00989BB0 /* ScriptMessagingTests.m */; };
 		D9F0B39B1E40BC9A00989BB0 /* STMPersistingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F0B39A1E40BC9A00989BB0 /* STMPersistingTests.m */; };
 		D9F0B39D1E40BFE100989BB0 /* STMPersistingSpeedTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F0B39C1E40BFE100989BB0 /* STMPersistingSpeedTests.m */; };
+		D9F0B39F1E41F6A500989BB0 /* STMFMDBTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F0B39E1E41F6A500989BB0 /* STMFMDBTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -886,6 +887,7 @@
 		D9F0B3991E40BB9300989BB0 /* STMPersistingTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STMPersistingTests.h; sourceTree = "<group>"; };
 		D9F0B39A1E40BC9A00989BB0 /* STMPersistingTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMPersistingTests.m; sourceTree = "<group>"; };
 		D9F0B39C1E40BFE100989BB0 /* STMPersistingSpeedTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMPersistingSpeedTests.m; sourceTree = "<group>"; };
+		D9F0B39E1E41F6A500989BB0 /* STMFMDBTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMFMDBTests.m; sourceTree = "<group>"; };
 		E40623DC4ABD0FB0D719ED86 /* Pods-iSisSales.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSales.release.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSales/Pods-iSisSales.release.xcconfig"; sourceTree = "<group>"; };
 		EFEE3E7425CEF6DC61EAF6D3 /* Pods_iSisSalesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iSisSalesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -1906,6 +1908,7 @@
 				2C70FBCC1E3F62A700FE49AF /* LtsCoreDataTests.m */,
 				D9F0B3961E40A9CE00989BB0 /* ScriptMessagingTests.m */,
 				D9F0B39C1E40BFE100989BB0 /* STMPersistingSpeedTests.m */,
+				D9F0B39E1E41F6A500989BB0 /* STMFMDBTests.m */,
 			);
 			name = "☯ iSistemiumCoreTests";
 			path = ../../iSistemiumCore/iSistemiumCoreTests;
@@ -2471,6 +2474,7 @@
 				2C70FBCD1E3F62A700FE49AF /* LtsCoreDataTests.m in Sources */,
 				2C94BFE81CF1ACB8004476D8 /* iSisSalesTests.m in Sources */,
 				D94F46081E3B429600D78925 /* STMSocketTransportTests.m in Sources */,
+				D9F0B39F1E41F6A500989BB0 /* STMFMDBTests.m in Sources */,
 				D94F46061E3A1FFD00D78925 /* SocketIOTests.m in Sources */,
 				D94F46131E3D3B5900D78925 /* PersistingObservingTests.m in Sources */,
 				D90B75781E2FA62D0015A994 /* iSistemiumCoreTests.m in Sources */,
