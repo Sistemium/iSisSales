@@ -311,6 +311,7 @@
 		D9F0B39F1E41F6A500989BB0 /* STMFMDBTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F0B39E1E41F6A500989BB0 /* STMFMDBTests.m */; };
 		D9F0B3A11E420B4700989BB0 /* PersistingAsyncTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F0B3A01E420B4700989BB0 /* PersistingAsyncTests.m */; };
 		D9F0B3A31E420B9F00989BB0 /* PersistingSyncTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F0B3A21E420B9F00989BB0 /* PersistingSyncTests.m */; };
+		D9F0B3A71E432BF600989BB0 /* STMSocketTransport+Persisting.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F0B3A61E432BF600989BB0 /* STMSocketTransport+Persisting.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -772,7 +773,7 @@
 		2CCD46891D646BAF003F8A14 /* STMLegalForm+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "STMLegalForm+CoreDataProperties.m"; sourceTree = "<group>"; };
 		2CCD468A1D646BAF003F8A14 /* STMLegalForm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMLegalForm.h; sourceTree = "<group>"; };
 		2CCD468B1D646BAF003F8A14 /* STMLegalForm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMLegalForm.m; sourceTree = "<group>"; };
-		2CCD5D891E36330B00B84565 /* STMSocketTransportOwner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMSocketTransportOwner.h; sourceTree = "<group>"; };
+		2CCD5D891E36330B00B84565 /* STMSocketConnectionOwner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMSocketConnectionOwner.h; sourceTree = "<group>"; };
 		2CCD5D8A1E36468000B84565 /* STMBarCodeScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMBarCodeScanner.h; sourceTree = "<group>"; };
 		2CCD5D8B1E36468000B84565 /* STMBarCodeScanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMBarCodeScanner.m; sourceTree = "<group>"; };
 		2CCD5D8C1E36468000B84565 /* STMScanApiHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMScanApiHelper.h; sourceTree = "<group>"; };
@@ -895,6 +896,9 @@
 		D9F0B39E1E41F6A500989BB0 /* STMFMDBTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMFMDBTests.m; sourceTree = "<group>"; };
 		D9F0B3A01E420B4700989BB0 /* PersistingAsyncTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersistingAsyncTests.m; sourceTree = "<group>"; };
 		D9F0B3A21E420B9F00989BB0 /* PersistingSyncTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersistingSyncTests.m; sourceTree = "<group>"; };
+		D9F0B3A51E432BF600989BB0 /* STMSocketTransport+Persisting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "STMSocketTransport+Persisting.h"; sourceTree = "<group>"; };
+		D9F0B3A61E432BF600989BB0 /* STMSocketTransport+Persisting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "STMSocketTransport+Persisting.m"; sourceTree = "<group>"; };
+		D9F0B3A81E432CE000989BB0 /* STMSocketConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMSocketConnection.h; sourceTree = "<group>"; };
 		E40623DC4ABD0FB0D719ED86 /* Pods-iSisSales.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSales.release.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSales/Pods-iSisSales.release.xcconfig"; sourceTree = "<group>"; };
 		EFEE3E7425CEF6DC61EAF6D3 /* Pods_iSisSalesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iSisSalesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -943,6 +947,8 @@
 			children = (
 				2CCD5DCB1E36476800B84565 /* STMSocketTransport.h */,
 				2CCD5DCC1E36476800B84565 /* STMSocketTransport.m */,
+				D9F0B3A51E432BF600989BB0 /* STMSocketTransport+Persisting.h */,
+				D9F0B3A61E432BF600989BB0 /* STMSocketTransport+Persisting.m */,
 				2CCD5DCD1E36476800B84565 /* STMSyncer.h */,
 				2CCD5DCE1E36476800B84565 /* STMSyncer.m */,
 				2C70FBCE1E4214D900FE49AF /* STMUnsyncedDataHelper.h */,
@@ -1232,7 +1238,8 @@
 				2C34EDBC1E291183004DE82D /* STMDataSyncing.h */,
 				2C9000D11E3CCA5E00DEDF3C /* STMDataSyncingSubscriber.h */,
 				D94F46181E3E9E6300D78925 /* STMDefantomizing.h */,
-				2CCD5D891E36330B00B84565 /* STMSocketTransportOwner.h */,
+				D9F0B3A81E432CE000989BB0 /* STMSocketConnection.h */,
+				2CCD5D891E36330B00B84565 /* STMSocketConnectionOwner.h */,
 				D9F0B38F1E3FE61600989BB0 /* STMScriptMessaging.h */,
 			);
 			name = "☯ Protocols";
@@ -2362,6 +2369,7 @@
 				D94F46041E38AC5600D78925 /* STMPersister+Async.m in Sources */,
 				2C5034161DF5B00900687A64 /* STMSaleOrder+CoreDataClass.m in Sources */,
 				2C5034171DF5B00900687A64 /* STMSaleOrder+CoreDataProperties.m in Sources */,
+				D9F0B3A71E432BF600989BB0 /* STMSocketTransport+Persisting.m in Sources */,
 				3550B1E31DAE5CC300F8A368 /* STMEntity+CoreDataProperties.m in Sources */,
 				2C94C10D1CF1B1BB004476D8 /* STMCustom9TVCell.m in Sources */,
 				2C94C2631CF1B771004476D8 /* STMApplication.m in Sources */,
