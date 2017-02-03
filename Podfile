@@ -15,6 +15,10 @@ target 'iSisSales' do
     target 'iSisSalesTests' do
         inherit! :search_paths
     end
+    
+    target 'iSisSalesOfLibsTests' do
+        inherit! :search_paths
+    end
 
 end
 

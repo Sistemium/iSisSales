@@ -297,7 +297,6 @@
 		D90B75781E2FA62D0015A994 /* iSistemiumCoreTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D90B75761E2FA62D0015A994 /* iSistemiumCoreTests.m */; };
 		D920AF7D1D8D417700E825FC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D920AF7F1D8D417700E825FC /* InfoPlist.strings */; };
 		D94F46041E38AC5600D78925 /* STMPersister+Async.m in Sources */ = {isa = PBXBuildFile; fileRef = D94F46031E38AC5600D78925 /* STMPersister+Async.m */; };
-		D94F46061E3A1FFD00D78925 /* SocketIOTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D94F46051E3A1FFD00D78925 /* SocketIOTests.m */; };
 		D94F46081E3B429600D78925 /* STMSocketTransportTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D94F46071E3B429600D78925 /* STMSocketTransportTests.m */; };
 		D94F460B1E3B626B00D78925 /* STMFmdb+Private.m in Sources */ = {isa = PBXBuildFile; fileRef = D94F460A1E3B626B00D78925 /* STMFmdb+Private.m */; };
 		D94F46111E3D327000D78925 /* STMPersister+Observable.m in Sources */ = {isa = PBXBuildFile; fileRef = D94F46101E3D327000D78925 /* STMPersister+Observable.m */; };
@@ -313,6 +312,8 @@
 		D9F0B3A11E420B4700989BB0 /* PersistingAsyncTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F0B3A01E420B4700989BB0 /* PersistingAsyncTests.m */; };
 		D9F0B3A31E420B9F00989BB0 /* PersistingSyncTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F0B3A21E420B9F00989BB0 /* PersistingSyncTests.m */; };
 		D9F0B3A71E432BF600989BB0 /* STMSocketTransport+Persisting.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F0B3A61E432BF600989BB0 /* STMSocketTransport+Persisting.m */; };
+		D9F0B3B81E447E5500989BB0 /* SocketIOTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D94F46051E3A1FFD00D78925 /* SocketIOTests.m */; };
+		ED19D6BEB9F34012551638E9 /* Pods_iSisSalesOfLibsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA69E3A73683282867CEBDE0 /* Pods_iSisSalesOfLibsTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -330,9 +331,17 @@
 			remoteGlobalIDString = 2C94BFC91CF1ACB8004476D8;
 			remoteInfo = iSisSales;
 		};
+		D9F0B3B31E447E0500989BB0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C94BFC21CF1ACB8004476D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C94BFC91CF1ACB8004476D8;
+			remoteInfo = iSisSales;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		13BD4DCEC7C7773998CA9B2D /* Pods-iSisSalesOfLibsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesOfLibsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesOfLibsTests/Pods-iSisSalesOfLibsTests.debug.xcconfig"; sourceTree = "<group>"; };
 		2C0A8C821D09903C007C5B57 /* STMVisitQuestionSet+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "STMVisitQuestionSet+CoreDataProperties.h"; sourceTree = "<group>"; };
 		2C0A8C831D09903C007C5B57 /* STMVisitQuestionSet+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "STMVisitQuestionSet+CoreDataProperties.m"; sourceTree = "<group>"; };
 		2C0A8C841D09903C007C5B57 /* STMVisitQuestionSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMVisitQuestionSet.h; sourceTree = "<group>"; };
@@ -863,6 +872,7 @@
 		35BE119B1E3A3A8F007F761B /* STMPersister+CoreData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "STMPersister+CoreData.m"; sourceTree = "<group>"; };
 		4033E05BE502B1B13735187B /* Pods-iSisSales.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSales.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSales/Pods-iSisSales.debug.xcconfig"; sourceTree = "<group>"; };
 		5B6F8D8FF8734D3C12C75FA4 /* Pods-iSisSalesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesTests/Pods-iSisSalesTests.release.xcconfig"; sourceTree = "<group>"; };
+		6FA720401327377AC917714F /* Pods-iSisSalesOfLibsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesOfLibsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesOfLibsTests/Pods-iSisSalesOfLibsTests.release.xcconfig"; sourceTree = "<group>"; };
 		A5AB0EC47BD72C1AE7EBF7FA /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D83C8648154EC85EB3023D68 /* Pods_iSisSales.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iSisSales.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8EA36A0AC383581E9899EC7 /* Pods-iSisSalesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesTests/Pods-iSisSalesTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -872,7 +882,7 @@
 		D94F45FE1E375C2E00D78925 /* STMModelling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMModelling.h; sourceTree = "<group>"; };
 		D94F46021E38AC5600D78925 /* STMPersister+Async.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "STMPersister+Async.h"; sourceTree = "<group>"; };
 		D94F46031E38AC5600D78925 /* STMPersister+Async.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "STMPersister+Async.m"; sourceTree = "<group>"; };
-		D94F46051E3A1FFD00D78925 /* SocketIOTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SocketIOTests.m; sourceTree = "<group>"; };
+		D94F46051E3A1FFD00D78925 /* SocketIOTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SocketIOTests.m; path = ../../iSistemiumCore/iSistemiumCoreTests/SocketIOTests.m; sourceTree = "<group>"; };
 		D94F46071E3B429600D78925 /* STMSocketTransportTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMSocketTransportTests.m; sourceTree = "<group>"; };
 		D94F46091E3B626B00D78925 /* STMFmdb+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "STMFmdb+Private.h"; sourceTree = "<group>"; };
 		D94F460A1E3B626B00D78925 /* STMFmdb+Private.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "STMFmdb+Private.m"; sourceTree = "<group>"; };
@@ -902,6 +912,9 @@
 		D9F0B3A61E432BF600989BB0 /* STMSocketTransport+Persisting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "STMSocketTransport+Persisting.m"; sourceTree = "<group>"; };
 		D9F0B3A81E432CE000989BB0 /* STMSocketConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMSocketConnection.h; sourceTree = "<group>"; };
 		D9F0B3A91E43913C00989BB0 /* STMPersistingFullStack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STMPersistingFullStack.h; sourceTree = "<group>"; };
+		D9F0B3AE1E447E0500989BB0 /* iSisSalesOfLibsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iSisSalesOfLibsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9F0B3B21E447E0500989BB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA69E3A73683282867CEBDE0 /* Pods_iSisSalesOfLibsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iSisSalesOfLibsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E40623DC4ABD0FB0D719ED86 /* Pods-iSisSales.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSales.release.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSales/Pods-iSisSales.release.xcconfig"; sourceTree = "<group>"; };
 		EFEE3E7425CEF6DC61EAF6D3 /* Pods_iSisSalesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iSisSalesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -931,6 +944,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D9F0B3AB1E447E0500989BB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED19D6BEB9F34012551638E9 /* Pods_iSisSalesOfLibsTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -941,6 +962,7 @@
 				A5AB0EC47BD72C1AE7EBF7FA /* Pods.framework */,
 				D83C8648154EC85EB3023D68 /* Pods_iSisSales.framework */,
 				EFEE3E7425CEF6DC61EAF6D3 /* Pods_iSisSalesTests.framework */,
+				DA69E3A73683282867CEBDE0 /* Pods_iSisSalesOfLibsTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -1083,6 +1105,7 @@
 				2C94BFCC1CF1ACB8004476D8 /* iSisSales */,
 				2C94BFE61CF1ACB8004476D8 /* iSisSalesTests */,
 				2C94BFF11CF1ACB8004476D8 /* iSisSalesUITests */,
+				D9F0B3AF1E447E0500989BB0 /* iSisSalesOfLibsTests */,
 				2C94BFCB1CF1ACB8004476D8 /* Products */,
 				19A13E8DF2831B9700FDE8B8 /* Frameworks */,
 				B667165BAF36E7D3E97FC469 /* Pods */,
@@ -1095,6 +1118,7 @@
 				2C94BFCA1CF1ACB8004476D8 /* iSisSales.app */,
 				2C94BFE31CF1ACB8004476D8 /* iSisSalesTests.xctest */,
 				2C94BFEE1CF1ACB8004476D8 /* iSisSalesUITests.xctest */,
+				D9F0B3AE1E447E0500989BB0 /* iSisSalesOfLibsTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1913,6 +1937,8 @@
 				E40623DC4ABD0FB0D719ED86 /* Pods-iSisSales.release.xcconfig */,
 				D8EA36A0AC383581E9899EC7 /* Pods-iSisSalesTests.debug.xcconfig */,
 				5B6F8D8FF8734D3C12C75FA4 /* Pods-iSisSalesTests.release.xcconfig */,
+				13BD4DCEC7C7773998CA9B2D /* Pods-iSisSalesOfLibsTests.debug.xcconfig */,
+				6FA720401327377AC917714F /* Pods-iSisSalesOfLibsTests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -1922,7 +1948,6 @@
 			children = (
 				D9F0B3981E40BB5D00989BB0 /* Abstract */,
 				D90B75761E2FA62D0015A994 /* iSistemiumCoreTests.m */,
-				D94F46051E3A1FFD00D78925 /* SocketIOTests.m */,
 				D94F46071E3B429600D78925 /* STMSocketTransportTests.m */,
 				D9F0B3A21E420B9F00989BB0 /* PersistingSyncTests.m */,
 				D9F0B3A01E420B4700989BB0 /* PersistingAsyncTests.m */,
@@ -1944,6 +1969,15 @@
 				D9F0B39A1E40BC9A00989BB0 /* STMPersistingTests.m */,
 			);
 			name = Abstract;
+			sourceTree = "<group>";
+		};
+		D9F0B3AF1E447E0500989BB0 /* iSisSalesOfLibsTests */ = {
+			isa = PBXGroup;
+			children = (
+				D9F0B3B21E447E0500989BB0 /* Info.plist */,
+				D94F46051E3A1FFD00D78925 /* SocketIOTests.m */,
+			);
+			path = iSisSalesOfLibsTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -2009,6 +2043,27 @@
 			productReference = 2C94BFEE1CF1ACB8004476D8 /* iSisSalesUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		D9F0B3AD1E447E0500989BB0 /* iSisSalesOfLibsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9F0B3B51E447E0500989BB0 /* Build configuration list for PBXNativeTarget "iSisSalesOfLibsTests" */;
+			buildPhases = (
+				9C62AD52B0F7221793BF46CA /* [CP] Check Pods Manifest.lock */,
+				D9F0B3AA1E447E0500989BB0 /* Sources */,
+				D9F0B3AB1E447E0500989BB0 /* Frameworks */,
+				D9F0B3AC1E447E0500989BB0 /* Resources */,
+				FA0D8D8CBF63DFF3C3BC30AE /* [CP] Embed Pods Frameworks */,
+				1CB358D02A2E68B03D9E331C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D9F0B3B41E447E0500989BB0 /* PBXTargetDependency */,
+			);
+			name = iSisSalesOfLibsTests;
+			productName = iSisSalesOfLibsTests;
+			productReference = D9F0B3AE1E447E0500989BB0 /* iSisSalesOfLibsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -2042,6 +2097,12 @@
 						CreatedOnToolsVersion = 7.3.1;
 						TestTargetID = 2C94BFC91CF1ACB8004476D8;
 					};
+					D9F0B3AD1E447E0500989BB0 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = HZMMGDCLPA;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2C94BFC91CF1ACB8004476D8;
+					};
 				};
 			};
 			buildConfigurationList = 2C94BFC51CF1ACB8004476D8 /* Build configuration list for PBXProject "iSisSales" */;
@@ -2061,6 +2122,7 @@
 				2C94BFC91CF1ACB8004476D8 /* iSisSales */,
 				2C94BFE21CF1ACB8004476D8 /* iSisSalesTests */,
 				2C94BFED1CF1ACB8004476D8 /* iSisSalesUITests */,
+				D9F0B3AD1E447E0500989BB0 /* iSisSalesOfLibsTests */,
 			);
 		};
 /* End PBXProject section */
@@ -2163,6 +2225,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D9F0B3AC1E447E0500989BB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
@@ -2179,6 +2248,21 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		1CB358D02A2E68B03D9E331C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iSisSalesOfLibsTests/Pods-iSisSalesOfLibsTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		2C0A8CB41D0994CF007C5B57 /* ShellScript */ = {
@@ -2224,6 +2308,21 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iSisSalesTests/Pods-iSisSalesTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		9C62AD52B0F7221793BF46CA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
 		CD2A0D5AC71221D92370282F /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -2267,6 +2366,21 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iSisSalesTests/Pods-iSisSalesTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA0D8D8CBF63DFF3C3BC30AE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iSisSalesOfLibsTests/Pods-iSisSalesOfLibsTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -2502,7 +2616,6 @@
 				D94F46081E3B429600D78925 /* STMSocketTransportTests.m in Sources */,
 				D9F0B39F1E41F6A500989BB0 /* STMFMDBTests.m in Sources */,
 				D9F0B3A31E420B9F00989BB0 /* PersistingSyncTests.m in Sources */,
-				D94F46061E3A1FFD00D78925 /* SocketIOTests.m in Sources */,
 				D94F46131E3D3B5900D78925 /* PersistingObservingTests.m in Sources */,
 				D90B75781E2FA62D0015A994 /* iSistemiumCoreTests.m in Sources */,
 				D9F0B39D1E40BFE100989BB0 /* STMPersistingSpeedTests.m in Sources */,
@@ -2520,6 +2633,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D9F0B3AA1E447E0500989BB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9F0B3B81E447E5500989BB0 /* SocketIOTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -2532,6 +2653,11 @@
 			isa = PBXTargetDependency;
 			target = 2C94BFC91CF1ACB8004476D8 /* iSisSales */;
 			targetProxy = 2C94BFEF1CF1ACB8004476D8 /* PBXContainerItemProxy */;
+		};
+		D9F0B3B41E447E0500989BB0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C94BFC91CF1ACB8004476D8 /* iSisSales */;
+			targetProxy = D9F0B3B31E447E0500989BB0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -2757,6 +2883,40 @@
 			};
 			name = Release;
 		};
+		D9F0B3B61E447E0500989BB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13BD4DCEC7C7773998CA9B2D /* Pods-iSisSalesOfLibsTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				DEVELOPMENT_TEAM = HZMMGDCLPA;
+				INFOPLIST_FILE = iSisSalesOfLibsTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sistemium.iSisSalesOfLibsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iSisSales.app/iSisSales";
+			};
+			name = Debug;
+		};
+		D9F0B3B71E447E0500989BB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FA720401327377AC917714F /* Pods-iSisSalesOfLibsTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				DEVELOPMENT_TEAM = HZMMGDCLPA;
+				INFOPLIST_FILE = iSisSalesOfLibsTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sistemium.iSisSalesOfLibsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iSisSales.app/iSisSales";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -2795,6 +2955,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		D9F0B3B51E447E0500989BB0 /* Build configuration list for PBXNativeTarget "iSisSalesOfLibsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9F0B3B61E447E0500989BB0 /* Debug */,
+				D9F0B3B71E447E0500989BB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 
