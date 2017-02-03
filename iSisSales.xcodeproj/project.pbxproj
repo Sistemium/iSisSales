@@ -313,6 +313,7 @@
 		D9F0B3A31E420B9F00989BB0 /* PersistingSyncTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F0B3A21E420B9F00989BB0 /* PersistingSyncTests.m */; };
 		D9F0B3A71E432BF600989BB0 /* STMSocketTransport+Persisting.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F0B3A61E432BF600989BB0 /* STMSocketTransport+Persisting.m */; };
 		D9F0B3B81E447E5500989BB0 /* SocketIOTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D94F46051E3A1FFD00D78925 /* SocketIOTests.m */; };
+		D9F0B3BB1E449C4D00989BB0 /* STMFakePersisting.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F0B3BA1E449C4D00989BB0 /* STMFakePersisting.m */; };
 		ED19D6BEB9F34012551638E9 /* Pods_iSisSalesOfLibsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA69E3A73683282867CEBDE0 /* Pods_iSisSalesOfLibsTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -914,6 +915,8 @@
 		D9F0B3A91E43913C00989BB0 /* STMPersistingFullStack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STMPersistingFullStack.h; sourceTree = "<group>"; };
 		D9F0B3AE1E447E0500989BB0 /* iSisSalesOfLibsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iSisSalesOfLibsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9F0B3B21E447E0500989BB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9F0B3B91E449C4D00989BB0 /* STMFakePersisting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMFakePersisting.h; sourceTree = "<group>"; };
+		D9F0B3BA1E449C4D00989BB0 /* STMFakePersisting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMFakePersisting.m; sourceTree = "<group>"; };
 		DA69E3A73683282867CEBDE0 /* Pods_iSisSalesOfLibsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iSisSalesOfLibsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E40623DC4ABD0FB0D719ED86 /* Pods-iSisSales.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSales.release.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSales/Pods-iSisSales.release.xcconfig"; sourceTree = "<group>"; };
 		EFEE3E7425CEF6DC61EAF6D3 /* Pods_iSisSalesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iSisSalesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1967,6 +1970,8 @@
 			children = (
 				D9F0B3991E40BB9300989BB0 /* STMPersistingTests.h */,
 				D9F0B39A1E40BC9A00989BB0 /* STMPersistingTests.m */,
+				D9F0B3B91E449C4D00989BB0 /* STMFakePersisting.h */,
+				D9F0B3BA1E449C4D00989BB0 /* STMFakePersisting.m */,
 			);
 			name = Abstract;
 			sourceTree = "<group>";
@@ -2617,6 +2622,7 @@
 				D9F0B39F1E41F6A500989BB0 /* STMFMDBTests.m in Sources */,
 				D9F0B3A31E420B9F00989BB0 /* PersistingSyncTests.m in Sources */,
 				D94F46131E3D3B5900D78925 /* PersistingObservingTests.m in Sources */,
+				D9F0B3BB1E449C4D00989BB0 /* STMFakePersisting.m in Sources */,
 				D90B75781E2FA62D0015A994 /* iSistemiumCoreTests.m in Sources */,
 				D9F0B39D1E40BFE100989BB0 /* STMPersistingSpeedTests.m in Sources */,
 				D9F0B39B1E40BC9A00989BB0 /* STMPersistingTests.m in Sources */,
@@ -2963,6 +2969,7 @@
 				D9F0B3B71E447E0500989BB0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
