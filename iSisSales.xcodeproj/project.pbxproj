@@ -61,6 +61,8 @@
 		2C6113031D0BDE7B006BCB30 /* STMVisit+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C6112FE1D0BDE7B006BCB30 /* STMVisit+CoreDataProperties.m */; };
 		2C6113041D0BDE7B006BCB30 /* STMVisit.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C6113001D0BDE7B006BCB30 /* STMVisit.m */; };
 		2C70FBCD1E3F62A700FE49AF /* LtsCoreDataTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C70FBCC1E3F62A700FE49AF /* LtsCoreDataTests.m */; };
+		2C70FBD01E4214D900FE49AF /* STMUnsyncedDataHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C70FBCF1E4214D900FE49AF /* STMUnsyncedDataHelper.m */; };
+		2C70FBD41E435CC200FE49AF /* SyncingDataTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C70FBD31E435CC200FE49AF /* SyncingDataTests.m */; };
 		2C73666A1E32470400DD0D45 /* STMSyncerHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C7366691E32470400DD0D45 /* STMSyncerHelper.m */; };
 		2C94BFCF1CF1ACB8004476D8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94BFCE1CF1ACB8004476D8 /* main.m */; };
 		2C94BFDA1CF1ACB8004476D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C94BFD91CF1ACB8004476D8 /* Assets.xcassets */; };
@@ -307,6 +309,10 @@
 		D9F0B3971E40A9CE00989BB0 /* ScriptMessagingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F0B3961E40A9CE00989BB0 /* ScriptMessagingTests.m */; };
 		D9F0B39B1E40BC9A00989BB0 /* STMPersistingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F0B39A1E40BC9A00989BB0 /* STMPersistingTests.m */; };
 		D9F0B39D1E40BFE100989BB0 /* STMPersistingSpeedTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F0B39C1E40BFE100989BB0 /* STMPersistingSpeedTests.m */; };
+		D9F0B39F1E41F6A500989BB0 /* STMFMDBTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F0B39E1E41F6A500989BB0 /* STMFMDBTests.m */; };
+		D9F0B3A11E420B4700989BB0 /* PersistingAsyncTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F0B3A01E420B4700989BB0 /* PersistingAsyncTests.m */; };
+		D9F0B3A31E420B9F00989BB0 /* PersistingSyncTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F0B3A21E420B9F00989BB0 /* PersistingSyncTests.m */; };
+		D9F0B3A71E432BF600989BB0 /* STMSocketTransport+Persisting.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F0B3A61E432BF600989BB0 /* STMSocketTransport+Persisting.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -442,6 +448,9 @@
 		2C6112FF1D0BDE7B006BCB30 /* STMVisit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMVisit.h; sourceTree = "<group>"; };
 		2C6113001D0BDE7B006BCB30 /* STMVisit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMVisit.m; sourceTree = "<group>"; };
 		2C70FBCC1E3F62A700FE49AF /* LtsCoreDataTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LtsCoreDataTests.m; sourceTree = "<group>"; };
+		2C70FBCE1E4214D900FE49AF /* STMUnsyncedDataHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMUnsyncedDataHelper.h; sourceTree = "<group>"; };
+		2C70FBCF1E4214D900FE49AF /* STMUnsyncedDataHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMUnsyncedDataHelper.m; sourceTree = "<group>"; };
+		2C70FBD31E435CC200FE49AF /* SyncingDataTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SyncingDataTests.m; sourceTree = "<group>"; };
 		2C7366681E32470400DD0D45 /* STMSyncerHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMSyncerHelper.h; sourceTree = "<group>"; };
 		2C7366691E32470400DD0D45 /* STMSyncerHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMSyncerHelper.m; sourceTree = "<group>"; };
 		2C73D6D11D26549100932981 /* iSisSales 4.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "iSisSales 4.xcdatamodel"; sourceTree = "<group>"; };
@@ -766,7 +775,7 @@
 		2CCD46891D646BAF003F8A14 /* STMLegalForm+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "STMLegalForm+CoreDataProperties.m"; sourceTree = "<group>"; };
 		2CCD468A1D646BAF003F8A14 /* STMLegalForm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMLegalForm.h; sourceTree = "<group>"; };
 		2CCD468B1D646BAF003F8A14 /* STMLegalForm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMLegalForm.m; sourceTree = "<group>"; };
-		2CCD5D891E36330B00B84565 /* STMSocketTransportOwner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMSocketTransportOwner.h; sourceTree = "<group>"; };
+		2CCD5D891E36330B00B84565 /* STMSocketConnectionOwner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMSocketConnectionOwner.h; sourceTree = "<group>"; };
 		2CCD5D8A1E36468000B84565 /* STMBarCodeScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMBarCodeScanner.h; sourceTree = "<group>"; };
 		2CCD5D8B1E36468000B84565 /* STMBarCodeScanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMBarCodeScanner.m; sourceTree = "<group>"; };
 		2CCD5D8C1E36468000B84565 /* STMScanApiHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMScanApiHelper.h; sourceTree = "<group>"; };
@@ -886,6 +895,13 @@
 		D9F0B3991E40BB9300989BB0 /* STMPersistingTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STMPersistingTests.h; sourceTree = "<group>"; };
 		D9F0B39A1E40BC9A00989BB0 /* STMPersistingTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMPersistingTests.m; sourceTree = "<group>"; };
 		D9F0B39C1E40BFE100989BB0 /* STMPersistingSpeedTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMPersistingSpeedTests.m; sourceTree = "<group>"; };
+		D9F0B39E1E41F6A500989BB0 /* STMFMDBTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMFMDBTests.m; sourceTree = "<group>"; };
+		D9F0B3A01E420B4700989BB0 /* PersistingAsyncTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersistingAsyncTests.m; sourceTree = "<group>"; };
+		D9F0B3A21E420B9F00989BB0 /* PersistingSyncTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersistingSyncTests.m; sourceTree = "<group>"; };
+		D9F0B3A51E432BF600989BB0 /* STMSocketTransport+Persisting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "STMSocketTransport+Persisting.h"; sourceTree = "<group>"; };
+		D9F0B3A61E432BF600989BB0 /* STMSocketTransport+Persisting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "STMSocketTransport+Persisting.m"; sourceTree = "<group>"; };
+		D9F0B3A81E432CE000989BB0 /* STMSocketConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMSocketConnection.h; sourceTree = "<group>"; };
+		D9F0B3A91E43913C00989BB0 /* STMPersistingFullStack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STMPersistingFullStack.h; sourceTree = "<group>"; };
 		E40623DC4ABD0FB0D719ED86 /* Pods-iSisSales.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSales.release.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSales/Pods-iSisSales.release.xcconfig"; sourceTree = "<group>"; };
 		EFEE3E7425CEF6DC61EAF6D3 /* Pods_iSisSalesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iSisSalesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -934,8 +950,12 @@
 			children = (
 				2CCD5DCB1E36476800B84565 /* STMSocketTransport.h */,
 				2CCD5DCC1E36476800B84565 /* STMSocketTransport.m */,
+				D9F0B3A51E432BF600989BB0 /* STMSocketTransport+Persisting.h */,
+				D9F0B3A61E432BF600989BB0 /* STMSocketTransport+Persisting.m */,
 				2CCD5DCD1E36476800B84565 /* STMSyncer.h */,
 				2CCD5DCE1E36476800B84565 /* STMSyncer.m */,
+				2C70FBCE1E4214D900FE49AF /* STMUnsyncedDataHelper.h */,
+				2C70FBCF1E4214D900FE49AF /* STMUnsyncedDataHelper.m */,
 				2C7366681E32470400DD0D45 /* STMSyncerHelper.h */,
 				2C7366691E32470400DD0D45 /* STMSyncerHelper.m */,
 				D9F0B38C1E3EA6B900989BB0 /* STMSyncerHelper+Defantomizing.h */,
@@ -1221,7 +1241,8 @@
 				2C34EDBC1E291183004DE82D /* STMDataSyncing.h */,
 				2C9000D11E3CCA5E00DEDF3C /* STMDataSyncingSubscriber.h */,
 				D94F46181E3E9E6300D78925 /* STMDefantomizing.h */,
-				2CCD5D891E36330B00B84565 /* STMSocketTransportOwner.h */,
+				D9F0B3A81E432CE000989BB0 /* STMSocketConnection.h */,
+				2CCD5D891E36330B00B84565 /* STMSocketConnectionOwner.h */,
 				D9F0B38F1E3FE61600989BB0 /* STMScriptMessaging.h */,
 			);
 			name = "☯ Protocols";
@@ -1879,6 +1900,7 @@
 				2CCD5DDC1E36479E00B84565 /* STMPersistingSync.h */,
 				2C9000D01E3BA70100DEDF3C /* STMPersistingWithHeadersAsync.h */,
 				D94F460E1E3D2FA300D78925 /* STMPersistingObserving.h */,
+				D9F0B3A91E43913C00989BB0 /* STMPersistingFullStack.h */,
 			);
 			name = "☯ Persisting";
 			path = Persisting;
@@ -1902,10 +1924,14 @@
 				D90B75761E2FA62D0015A994 /* iSistemiumCoreTests.m */,
 				D94F46051E3A1FFD00D78925 /* SocketIOTests.m */,
 				D94F46071E3B429600D78925 /* STMSocketTransportTests.m */,
+				D9F0B3A21E420B9F00989BB0 /* PersistingSyncTests.m */,
+				D9F0B3A01E420B4700989BB0 /* PersistingAsyncTests.m */,
 				D94F46121E3D3B5900D78925 /* PersistingObservingTests.m */,
 				2C70FBCC1E3F62A700FE49AF /* LtsCoreDataTests.m */,
 				D9F0B3961E40A9CE00989BB0 /* ScriptMessagingTests.m */,
 				D9F0B39C1E40BFE100989BB0 /* STMPersistingSpeedTests.m */,
+				D9F0B39E1E41F6A500989BB0 /* STMFMDBTests.m */,
+				2C70FBD31E435CC200FE49AF /* SyncingDataTests.m */,
 			);
 			name = "☯ iSistemiumCoreTests";
 			path = ../../iSistemiumCore/iSistemiumCoreTests;
@@ -2348,6 +2374,7 @@
 				D94F46041E38AC5600D78925 /* STMPersister+Async.m in Sources */,
 				2C5034161DF5B00900687A64 /* STMSaleOrder+CoreDataClass.m in Sources */,
 				2C5034171DF5B00900687A64 /* STMSaleOrder+CoreDataProperties.m in Sources */,
+				D9F0B3A71E432BF600989BB0 /* STMSocketTransport+Persisting.m in Sources */,
 				3550B1E31DAE5CC300F8A368 /* STMEntity+CoreDataProperties.m in Sources */,
 				2C94C10D1CF1B1BB004476D8 /* STMCustom9TVCell.m in Sources */,
 				2C94C2631CF1B771004476D8 /* STMApplication.m in Sources */,
@@ -2435,6 +2462,7 @@
 				2C4255851DFC4B3300F0BF9B /* STMScheduledEvent+CoreDataClass.m in Sources */,
 				2CE24E2B1D226B0C0004B63C /* STMOutletSalesmanContract+CoreDataProperties.m in Sources */,
 				2C94C11E1CF1B1BB004476D8 /* STMWorkflowAS.m in Sources */,
+				2C70FBD01E4214D900FE49AF /* STMUnsyncedDataHelper.m in Sources */,
 				2C94C12A1CF1B1BB004476D8 /* STMMessagesTVC.m in Sources */,
 				2C94C1121CF1B1BB004476D8 /* STMImagePickerController.m in Sources */,
 				2CCD5DC61E36473500B84565 /* STMFmdb.m in Sources */,
@@ -2469,13 +2497,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				2C70FBCD1E3F62A700FE49AF /* LtsCoreDataTests.m in Sources */,
+				2C70FBD41E435CC200FE49AF /* SyncingDataTests.m in Sources */,
 				2C94BFE81CF1ACB8004476D8 /* iSisSalesTests.m in Sources */,
 				D94F46081E3B429600D78925 /* STMSocketTransportTests.m in Sources */,
+				D9F0B39F1E41F6A500989BB0 /* STMFMDBTests.m in Sources */,
+				D9F0B3A31E420B9F00989BB0 /* PersistingSyncTests.m in Sources */,
 				D94F46061E3A1FFD00D78925 /* SocketIOTests.m in Sources */,
 				D94F46131E3D3B5900D78925 /* PersistingObservingTests.m in Sources */,
 				D90B75781E2FA62D0015A994 /* iSistemiumCoreTests.m in Sources */,
 				D9F0B39D1E40BFE100989BB0 /* STMPersistingSpeedTests.m in Sources */,
 				D9F0B39B1E40BC9A00989BB0 /* STMPersistingTests.m in Sources */,
+				D9F0B3A11E420B4700989BB0 /* PersistingAsyncTests.m in Sources */,
 				D9F0B3971E40A9CE00989BB0 /* ScriptMessagingTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
