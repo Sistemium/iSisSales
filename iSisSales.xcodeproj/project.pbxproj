@@ -296,6 +296,7 @@
 		B765DF6BD8F1900FE8C5AE92 /* Pods_iSisSales.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D83C8648154EC85EB3023D68 /* Pods_iSisSales.framework */; };
 		D90B75781E2FA62D0015A994 /* iSistemiumCoreTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D90B75761E2FA62D0015A994 /* iSistemiumCoreTests.m */; };
 		D920AF7D1D8D417700E825FC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D920AF7F1D8D417700E825FC /* InfoPlist.strings */; };
+		D9343AF71E467FD700B7A5E5 /* STMIndexedArray.m in Sources */ = {isa = PBXBuildFile; fileRef = D9343AF61E467FD700B7A5E5 /* STMIndexedArray.m */; };
 		D94F46041E38AC5600D78925 /* STMPersister+Async.m in Sources */ = {isa = PBXBuildFile; fileRef = D94F46031E38AC5600D78925 /* STMPersister+Async.m */; };
 		D94F46081E3B429600D78925 /* STMSocketTransportTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D94F46071E3B429600D78925 /* STMSocketTransportTests.m */; };
 		D94F460B1E3B626B00D78925 /* STMFmdb+Private.m in Sources */ = {isa = PBXBuildFile; fileRef = D94F460A1E3B626B00D78925 /* STMFmdb+Private.m */; };
@@ -880,6 +881,8 @@
 		D90B75761E2FA62D0015A994 /* iSistemiumCoreTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iSistemiumCoreTests.m; sourceTree = "<group>"; };
 		D920AF7E1D8D417700E825FC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D920AF801D8D417C00E825FC /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D9343AF51E467FD700B7A5E5 /* STMIndexedArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMIndexedArray.h; sourceTree = "<group>"; };
+		D9343AF61E467FD700B7A5E5 /* STMIndexedArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMIndexedArray.m; sourceTree = "<group>"; };
 		D94F45FE1E375C2E00D78925 /* STMModelling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMModelling.h; sourceTree = "<group>"; };
 		D94F46021E38AC5600D78925 /* STMPersister+Async.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "STMPersister+Async.h"; sourceTree = "<group>"; };
 		D94F46031E38AC5600D78925 /* STMPersister+Async.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "STMPersister+Async.m"; sourceTree = "<group>"; };
@@ -1060,6 +1063,8 @@
 				2CCD5DAE1E3646EB00B84565 /* STMSwiftConstants.swift */,
 				2CCD5DAF1E3646EB00B84565 /* STMUserDefaults.h */,
 				2CCD5DB01E3646EB00B84565 /* STMUserDefaults.m */,
+				D9343AF51E467FD700B7A5E5 /* STMIndexedArray.h */,
+				D9343AF61E467FD700B7A5E5 /* STMIndexedArray.m */,
 			);
 			name = "☯ Helpers";
 			path = Helpers;
@@ -2481,6 +2486,7 @@
 				2CCD5D8E1E36468000B84565 /* STMBarCodeScanner.m in Sources */,
 				2C94C1211CF1B1BB004476D8 /* STMAuthNC.m in Sources */,
 				2CCD5D9D1E3646BE00B84565 /* STMCoreSettingsController.m in Sources */,
+				D9343AF71E467FD700B7A5E5 /* STMIndexedArray.m in Sources */,
 				2C94C1051CF1B1BB004476D8 /* STMCustom1TVCell.m in Sources */,
 				2C94C1311CF1B1BB004476D8 /* STMSettingsNC.m in Sources */,
 				2CCD5DB31E3646EB00B84565 /* STMKeychain.m in Sources */,
