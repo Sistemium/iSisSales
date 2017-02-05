@@ -466,6 +466,8 @@
 		2C70FBDB1E4715C300FE49AF /* STMDefantomizing.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STMDefantomizing.h; sourceTree = "<group>"; };
 		2C70FBDC1E4715C300FE49AF /* STMSocketConnection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STMSocketConnection.h; sourceTree = "<group>"; };
 		2C70FBDD1E4715C300FE49AF /* STMSocketConnectionOwner.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STMSocketConnectionOwner.h; sourceTree = "<group>"; };
+		2C70FBDF1E4718D600FE49AF /* STMDataDownloadingOwner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMDataDownloadingOwner.h; sourceTree = "<group>"; };
+		2C70FBE01E4718F300FE49AF /* STMDataDownloading.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STMDataDownloading.h; sourceTree = "<group>"; };
 		2C7366681E32470400DD0D45 /* STMSyncerHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMSyncerHelper.h; sourceTree = "<group>"; };
 		2C7366691E32470400DD0D45 /* STMSyncerHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMSyncerHelper.m; sourceTree = "<group>"; };
 		2C73D6D11D26549100932981 /* iSisSales 4.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "iSisSales 4.xcdatamodel"; sourceTree = "<group>"; };
@@ -1104,6 +1106,8 @@
 				2C70FBDB1E4715C300FE49AF /* STMDefantomizing.h */,
 				2C70FBDC1E4715C300FE49AF /* STMSocketConnection.h */,
 				2C70FBDD1E4715C300FE49AF /* STMSocketConnectionOwner.h */,
+				2C70FBE01E4718F300FE49AF /* STMDataDownloading.h */,
+				2C70FBDF1E4718D600FE49AF /* STMDataDownloadingOwner.h */,
 			);
 			name = "☯ Syncing";
 			path = Syncing;
