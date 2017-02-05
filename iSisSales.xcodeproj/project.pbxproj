@@ -347,6 +347,7 @@
 		13BD4DCEC7C7773998CA9B2D /* Pods-iSisSalesOfLibsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesOfLibsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesOfLibsTests/Pods-iSisSalesOfLibsTests.debug.xcconfig"; sourceTree = "<group>"; };
 		2C09C73E1E471A9900D88DFD /* STMSyncerHelper+Downloading.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "STMSyncerHelper+Downloading.h"; sourceTree = "<group>"; };
 		2C09C73F1E471A9900D88DFD /* STMSyncerHelper+Downloading.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "STMSyncerHelper+Downloading.m"; sourceTree = "<group>"; };
+		2C09C7411E473DE200D88DFD /* STMDataSyncingState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMDataSyncingState.h; sourceTree = "<group>"; };
 		2C0A8C821D09903C007C5B57 /* STMVisitQuestionSet+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "STMVisitQuestionSet+CoreDataProperties.h"; sourceTree = "<group>"; };
 		2C0A8C831D09903C007C5B57 /* STMVisitQuestionSet+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "STMVisitQuestionSet+CoreDataProperties.m"; sourceTree = "<group>"; };
 		2C0A8C841D09903C007C5B57 /* STMVisitQuestionSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMVisitQuestionSet.h; sourceTree = "<group>"; };
@@ -1113,6 +1114,7 @@
 				2C70FBDD1E4715C300FE49AF /* STMSocketConnectionOwner.h */,
 				2C70FBE01E4718F300FE49AF /* STMDataDownloading.h */,
 				2C70FBDF1E4718D600FE49AF /* STMDataDownloadingOwner.h */,
+				2C09C7411E473DE200D88DFD /* STMDataSyncingState.h */,
 			);
 			name = "☯ Syncing";
 			path = Syncing;
