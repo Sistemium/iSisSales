@@ -301,6 +301,8 @@
 		D92982F61E48B07F00A4F153 /* SyncingDataTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C70FBD31E435CC200FE49AF /* SyncingDataTests.m */; };
 		D92982F71E48B36400A4F153 /* PersistingSyncTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F0B3A21E420B9F00989BB0 /* PersistingSyncTests.m */; };
 		D92982F81E48B36D00A4F153 /* ScriptMessagingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F0B3961E40A9CE00989BB0 /* ScriptMessagingTests.m */; };
+		D92982FD1E48CCFC00A4F153 /* STMFakePersisting+Async.m in Sources */ = {isa = PBXBuildFile; fileRef = D92982FA1E48C4DA00A4F153 /* STMFakePersisting+Async.m */; };
+		D92982FE1E48CCFD00A4F153 /* STMFakePersisting+Async.m in Sources */ = {isa = PBXBuildFile; fileRef = D92982FA1E48C4DA00A4F153 /* STMFakePersisting+Async.m */; };
 		D9343AF71E467FD700B7A5E5 /* STMIndexedArray.m in Sources */ = {isa = PBXBuildFile; fileRef = D9343AF61E467FD700B7A5E5 /* STMIndexedArray.m */; };
 		D94F46041E38AC5600D78925 /* STMPersister+Async.m in Sources */ = {isa = PBXBuildFile; fileRef = D94F46031E38AC5600D78925 /* STMPersister+Async.m */; };
 		D94F46081E3B429600D78925 /* STMSocketTransportTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D94F46071E3B429600D78925 /* STMSocketTransportTests.m */; };
@@ -911,6 +913,8 @@
 		D90B75761E2FA62D0015A994 /* iSistemiumCoreTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iSistemiumCoreTests.m; sourceTree = "<group>"; };
 		D920AF7E1D8D417700E825FC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D920AF801D8D417C00E825FC /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D92982F91E48C4DA00A4F153 /* STMFakePersisting+Async.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "STMFakePersisting+Async.h"; sourceTree = "<group>"; };
+		D92982FA1E48C4DA00A4F153 /* STMFakePersisting+Async.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "STMFakePersisting+Async.m"; sourceTree = "<group>"; };
 		D9343AF51E467FD700B7A5E5 /* STMIndexedArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMIndexedArray.h; sourceTree = "<group>"; };
 		D9343AF61E467FD700B7A5E5 /* STMIndexedArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMIndexedArray.m; sourceTree = "<group>"; };
 		D94F45FE1E375C2E00D78925 /* STMModelling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMModelling.h; sourceTree = "<group>"; };
@@ -2040,6 +2044,8 @@
 				D95FBADF1E487D8B0029F3C8 /* STMIndexedArrayPersisting.m */,
 				D9F0B3B91E449C4D00989BB0 /* STMFakePersisting.h */,
 				D9F0B3BA1E449C4D00989BB0 /* STMFakePersisting.m */,
+				D92982F91E48C4DA00A4F153 /* STMFakePersisting+Async.h */,
+				D92982FA1E48C4DA00A4F153 /* STMFakePersisting+Async.m */,
 				D95FBADB1E486D8B0029F3C8 /* STMFakePersisting+Promised.h */,
 				D95FBADC1E486D8B0029F3C8 /* STMFakePersisting+Promised.m */,
 			);
@@ -2787,6 +2793,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D92982FD1E48CCFC00A4F153 /* STMFakePersisting+Async.m in Sources */,
 				D95FBAE11E48883B0029F3C8 /* STMIndexedArrayPersisting.m in Sources */,
 				2C70FBCD1E3F62A700FE49AF /* LtsCoreDataTests.m in Sources */,
 				2C70FBD41E435CC200FE49AF /* SyncingDataTests.m in Sources */,
@@ -2819,6 +2826,7 @@
 			files = (
 				D92982F71E48B36400A4F153 /* PersistingSyncTests.m in Sources */,
 				D95FBAE91E489C540029F3C8 /* iSisSalesTestsInMemory.m in Sources */,
+				D92982FE1E48CCFD00A4F153 /* STMFakePersisting+Async.m in Sources */,
 				D95FBAF11E48A06F0029F3C8 /* PersistingObservingTests.m in Sources */,
 				D95FBAF51E48A2190029F3C8 /* STMFakePersisting+Promised.m in Sources */,
 				D95FBAF41E48A2190029F3C8 /* STMFakePersisting.m in Sources */,
