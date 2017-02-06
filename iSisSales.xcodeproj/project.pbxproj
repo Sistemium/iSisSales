@@ -305,6 +305,7 @@
 		D94F46131E3D3B5900D78925 /* PersistingObservingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D94F46121E3D3B5900D78925 /* PersistingObservingTests.m */; };
 		D94F46171E3E8D2F00D78925 /* STMCoreSession+Persistable.m in Sources */ = {isa = PBXBuildFile; fileRef = D94F46161E3E8D2F00D78925 /* STMCoreSession+Persistable.m */; };
 		D95FBADD1E486D8B0029F3C8 /* STMFakePersisting+Promised.m in Sources */ = {isa = PBXBuildFile; fileRef = D95FBADC1E486D8B0029F3C8 /* STMFakePersisting+Promised.m */; };
+		D95FBAE11E48883B0029F3C8 /* STMIndexedArrayPersisting.m in Sources */ = {isa = PBXBuildFile; fileRef = D95FBADF1E487D8B0029F3C8 /* STMIndexedArrayPersisting.m */; };
 		D9F0B38E1E3EA6B900989BB0 /* STMSyncerHelper+Defantomizing.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F0B38D1E3EA6B900989BB0 /* STMSyncerHelper+Defantomizing.m */; };
 		D9F0B3921E3FE98400989BB0 /* STMScriptMessageHandler+Private.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F0B3911E3FE98400989BB0 /* STMScriptMessageHandler+Private.m */; };
 		D9F0B3951E4094F300989BB0 /* STMScriptMessageHandler+Predicates.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F0B3941E4094F300989BB0 /* STMScriptMessageHandler+Predicates.m */; };
@@ -908,6 +909,8 @@
 		D94F46161E3E8D2F00D78925 /* STMCoreSession+Persistable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "STMCoreSession+Persistable.m"; sourceTree = "<group>"; };
 		D95FBADB1E486D8B0029F3C8 /* STMFakePersisting+Promised.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "STMFakePersisting+Promised.h"; sourceTree = "<group>"; };
 		D95FBADC1E486D8B0029F3C8 /* STMFakePersisting+Promised.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "STMFakePersisting+Promised.m"; sourceTree = "<group>"; };
+		D95FBADE1E487D8A0029F3C8 /* STMIndexedArrayPersisting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMIndexedArrayPersisting.h; sourceTree = "<group>"; };
+		D95FBADF1E487D8B0029F3C8 /* STMIndexedArrayPersisting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMIndexedArrayPersisting.m; sourceTree = "<group>"; };
 		D9F0B38C1E3EA6B900989BB0 /* STMSyncerHelper+Defantomizing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "STMSyncerHelper+Defantomizing.h"; sourceTree = "<group>"; };
 		D9F0B38D1E3EA6B900989BB0 /* STMSyncerHelper+Defantomizing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "STMSyncerHelper+Defantomizing.m"; sourceTree = "<group>"; };
 		D9F0B38F1E3FE61600989BB0 /* STMScriptMessaging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMScriptMessaging.h; sourceTree = "<group>"; };
@@ -1996,6 +1999,8 @@
 		D95FBADA1E486D430029F3C8 /* FakePersisting */ = {
 			isa = PBXGroup;
 			children = (
+				D95FBADE1E487D8A0029F3C8 /* STMIndexedArrayPersisting.h */,
+				D95FBADF1E487D8B0029F3C8 /* STMIndexedArrayPersisting.m */,
 				D9F0B3B91E449C4D00989BB0 /* STMFakePersisting.h */,
 				D9F0B3BA1E449C4D00989BB0 /* STMFakePersisting.m */,
 				D95FBADB1E486D8B0029F3C8 /* STMFakePersisting+Promised.h */,
@@ -2655,6 +2660,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D95FBAE11E48883B0029F3C8 /* STMIndexedArrayPersisting.m in Sources */,
 				2C70FBCD1E3F62A700FE49AF /* LtsCoreDataTests.m in Sources */,
 				2C70FBD41E435CC200FE49AF /* SyncingDataTests.m in Sources */,
 				2C94BFE81CF1ACB8004476D8 /* iSisSalesTests.m in Sources */,
