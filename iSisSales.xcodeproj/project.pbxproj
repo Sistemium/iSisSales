@@ -303,6 +303,7 @@
 		D92982F81E48B36D00A4F153 /* ScriptMessagingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F0B3961E40A9CE00989BB0 /* ScriptMessagingTests.m */; };
 		D92982FD1E48CCFC00A4F153 /* STMFakePersisting+Async.m in Sources */ = {isa = PBXBuildFile; fileRef = D92982FA1E48C4DA00A4F153 /* STMFakePersisting+Async.m */; };
 		D92982FE1E48CCFD00A4F153 /* STMFakePersisting+Async.m in Sources */ = {isa = PBXBuildFile; fileRef = D92982FA1E48C4DA00A4F153 /* STMFakePersisting+Async.m */; };
+		D92982FF1E48E64400A4F153 /* PersistingAsyncTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F0B3A01E420B4700989BB0 /* PersistingAsyncTests.m */; };
 		D9343AF71E467FD700B7A5E5 /* STMIndexedArray.m in Sources */ = {isa = PBXBuildFile; fileRef = D9343AF61E467FD700B7A5E5 /* STMIndexedArray.m */; };
 		D94F46041E38AC5600D78925 /* STMPersister+Async.m in Sources */ = {isa = PBXBuildFile; fileRef = D94F46031E38AC5600D78925 /* STMPersister+Async.m */; };
 		D94F46081E3B429600D78925 /* STMSocketTransportTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D94F46071E3B429600D78925 /* STMSocketTransportTests.m */; };
@@ -2835,6 +2836,7 @@
 				D95FBAF31E48A2190029F3C8 /* STMIndexedArrayPersisting.m in Sources */,
 				D95FBAF21E48A2100029F3C8 /* STMPersistingTests.m in Sources */,
 				D92982F81E48B36D00A4F153 /* ScriptMessagingTests.m in Sources */,
+				D92982FF1E48E64400A4F153 /* PersistingAsyncTests.m in Sources */,
 				D92982F61E48B07F00A4F153 /* SyncingDataTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
