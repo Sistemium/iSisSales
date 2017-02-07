@@ -20,6 +20,10 @@ target 'iSisSales' do
         inherit! :search_paths
     end
 
+    target 'iSisSalesTestsInMemory' do
+        inherit! :search_paths
+    end
+
 end
 
 

@@ -23,8 +23,8 @@
         <relationship name="articleGroup" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMArticleGroup" inverseName="articles" inverseEntity="STMArticleGroup" syncable="YES"/>
         <relationship name="avatarPicture" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMArticlePicture" inverseName="avatarArticles" inverseEntity="STMArticlePicture" syncable="YES"/>
         <relationship name="pictures" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="STMArticlePictureArticle" inverseName="article" inverseEntity="STMArticlePictureArticle" syncable="YES"/>
-        <relationship name="prices" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="STMPrice" inverseName="article" inverseEntity="STMPrice" syncable="YES"/>
-        <relationship name="saleOrderPositions" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="STMSaleOrderPosition" inverseName="article" inverseEntity="STMSaleOrderPosition" syncable="YES"/>
+        <relationship name="prices" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="STMPrice" inverseName="article" inverseEntity="STMPrice" syncable="YES"/>
+        <relationship name="saleOrderPositions" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="STMSaleOrderPosition" inverseName="article" inverseEntity="STMSaleOrderPosition" syncable="YES"/>
         <relationship name="stocks" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="STMStock" inverseName="article" inverseEntity="STMStock" syncable="YES"/>
     </entity>
     <entity name="STMArticleGroup" representedClassName="STMArticleGroup" syncable="YES">
@@ -40,8 +40,8 @@
         <attribute name="target" optional="YES" attributeType="String" indexed="YES" syncable="YES"/>
         <attribute name="xid" optional="YES" attributeType="Binary" indexed="YES" syncable="YES"/>
         <relationship name="articleGroup" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMArticleGroup" inverseName="articleGroups" inverseEntity="STMArticleGroup" syncable="YES"/>
-        <relationship name="articleGroups" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="STMArticleGroup" inverseName="articleGroup" inverseEntity="STMArticleGroup" syncable="YES"/>
-        <relationship name="articles" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="STMArticle" inverseName="articleGroup" inverseEntity="STMArticle" syncable="YES"/>
+        <relationship name="articleGroups" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="STMArticleGroup" inverseName="articleGroup" inverseEntity="STMArticleGroup" syncable="YES"/>
+        <relationship name="articles" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="STMArticle" inverseName="articleGroup" inverseEntity="STMArticle" syncable="YES"/>
         <relationship name="children" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="STMArticleGroup" inverseName="parents" inverseEntity="STMArticleGroup" syncable="YES"/>
         <relationship name="parents" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="STMArticleGroup" inverseName="children" inverseEntity="STMArticleGroup" syncable="YES"/>
     </entity>
@@ -438,7 +438,7 @@
         <relationship name="children" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="STMPriceType" inverseName="parent" inverseEntity="STMPriceType" syncable="YES"/>
         <relationship name="outletSalesmanContracts" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="STMOutletSalesmanContract" inverseName="priceType" inverseEntity="STMOutletSalesmanContract" syncable="YES"/>
         <relationship name="parent" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMPriceType" inverseName="children" inverseEntity="STMPriceType" syncable="YES"/>
-        <relationship name="prices" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="STMPrice" inverseName="priceType" inverseEntity="STMPrice" syncable="YES"/>
+        <relationship name="prices" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="STMPrice" inverseName="priceType" inverseEntity="STMPrice" syncable="YES"/>
     </entity>
     <entity name="STMRecordStatus" representedClassName="STMRecordStatus" syncable="YES">
         <attribute name="commentText" optional="YES" attributeType="String" syncable="YES"/>
@@ -530,7 +530,7 @@
         <attribute name="source" optional="YES" attributeType="String" indexed="YES" syncable="YES"/>
         <attribute name="target" optional="YES" attributeType="String" indexed="YES" syncable="YES"/>
         <attribute name="xid" optional="YES" attributeType="Binary" indexed="YES" syncable="YES"/>
-        <relationship name="scheduledEvents" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="STMScheduledEvent" inverseName="schedule" inverseEntity="STMScheduledEvent" syncable="YES"/>
+        <relationship name="scheduledEvents" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="STMScheduledEvent" inverseName="schedule" inverseEntity="STMScheduledEvent" syncable="YES"/>
     </entity>
     <entity name="STMScheduledEvent" representedClassName="STMScheduledEvent" syncable="YES">
         <attribute name="commentText" optional="YES" attributeType="String" syncable="YES"/>
@@ -565,7 +565,7 @@
         <attribute name="source" optional="YES" attributeType="String" indexed="YES" syncable="YES"/>
         <attribute name="target" optional="YES" attributeType="String" indexed="YES" syncable="YES"/>
         <attribute name="xid" optional="YES" attributeType="Binary" indexed="YES" syncable="YES"/>
-        <relationship name="scheduledEvents" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="STMScheduledEvent" inverseName="schedulePurpose" inverseEntity="STMScheduledEvent" syncable="YES"/>
+        <relationship name="scheduledEvents" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="STMScheduledEvent" inverseName="schedulePurpose" inverseEntity="STMScheduledEvent" syncable="YES"/>
     </entity>
     <entity name="STMSetting" representedClassName="STMSetting" syncable="YES">
         <attribute name="commentText" optional="YES" attributeType="String" syncable="YES"/>
@@ -681,7 +681,7 @@
         <attribute name="target" optional="YES" attributeType="String" indexed="YES" syncable="YES"/>
         <attribute name="xid" optional="YES" attributeType="Binary" indexed="YES" syncable="YES"/>
         <relationship name="visitQuestions" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="STMVisitQuestion" inverseName="visitQuestionGroup" inverseEntity="STMVisitQuestion" syncable="YES"/>
-        <relationship name="visitQuestionSet" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMVisitQuestionSet" inverseName="visitQuestionGroups" inverseEntity="STMVisitQuestionSet" syncable="YES"/>
+        <relationship name="visitQuestionSet" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="STMVisitQuestionSet" inverseName="visitQuestionGroups" inverseEntity="STMVisitQuestionSet" syncable="YES"/>
     </entity>
     <entity name="STMVisitQuestionSet" representedClassName="STMVisitQuestionSet" syncable="YES">
         <attribute name="commentText" optional="YES" attributeType="String" syncable="YES"/>
@@ -716,8 +716,8 @@
         <relationship name="messages" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMMessage" inverseName="workflow" inverseEntity="STMMessage" syncable="YES"/>
     </entity>
     <elements>
-        <element name="STMArticle" positionX="-1163" positionY="-619" width="128" height="418"/>
-        <element name="STMArticleGroup" positionX="-1386" positionY="-918" width="128" height="283"/>
+        <element name="STMArticle" positionX="-1163" positionY="-619" width="128" height="420"/>
+        <element name="STMArticleGroup" positionX="-1386" positionY="-918" width="128" height="285"/>
         <element name="STMArticlePicture" positionX="-38" positionY="-792" width="128" height="73"/>
         <element name="STMArticlePictureArticle" positionX="-407" positionY="-349" width="128" height="225"/>
         <element name="STMBarCodeScan" positionX="-72" positionY="-2286" width="128" height="238"/>
@@ -743,14 +743,14 @@
         <element name="STMOutletSalesmanContract" positionX="-1152" positionY="-1287" width="128" height="268"/>
         <element name="STMPartner" positionX="-1170" positionY="-1594" width="128" height="268"/>
         <element name="STMPrice" positionX="-1575" positionY="-517" width="128" height="238"/>
-        <element name="STMPriceType" positionX="-1377" positionY="-262" width="128" height="268"/>
+        <element name="STMPriceType" positionX="-1377" positionY="-262" width="128" height="270"/>
         <element name="STMRecordStatus" positionX="-360" positionY="-2286" width="128" height="270"/>
         <element name="STMSaleOrder" positionX="-945" positionY="-901" width="128" height="330"/>
         <element name="STMSaleOrderPosition" positionX="-1134" positionY="-999" width="128" height="330"/>
         <element name="STMSalesman" positionX="-974" positionY="-1242" width="128" height="268"/>
-        <element name="STMSchedule" positionX="-504" positionY="-810" width="128" height="253"/>
+        <element name="STMSchedule" positionX="-504" positionY="-810" width="128" height="255"/>
         <element name="STMScheduledEvent" positionX="-686" positionY="-747" width="128" height="298"/>
-        <element name="STMSchedulePurpose" positionX="-342" positionY="-765" width="128" height="253"/>
+        <element name="STMSchedulePurpose" positionX="-342" positionY="-765" width="128" height="255"/>
         <element name="STMSetting" positionX="-1080" positionY="-2286" width="128" height="240"/>
         <element name="STMStock" positionX="-947" positionY="-540" width="128" height="238"/>
         <element name="STMVisit" positionX="-729" positionY="-1756" width="128" height="300"/>
@@ -758,7 +758,7 @@
         <element name="STMVisitPhoto" positionX="-396" positionY="-1359" width="128" height="58"/>
         <element name="STMVisitQuestion" positionX="-362" positionY="-1665" width="128" height="253"/>
         <element name="STMVisitQuestionDataType" positionX="-171" positionY="-1710" width="128" height="238"/>
-        <element name="STMVisitQuestionGroup" positionX="-171" positionY="-1458" width="128" height="238"/>
+        <element name="STMVisitQuestionGroup" positionX="-171" positionY="-1458" width="128" height="240"/>
         <element name="STMVisitQuestionSet" positionX="7" positionY="-1566" width="128" height="253"/>
         <element name="STMWorkflow" positionX="45" positionY="-675" width="128" height="253"/>
     </elements>
