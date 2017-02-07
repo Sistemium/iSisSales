@@ -874,6 +874,7 @@
 		2CD5BEFC1CF1DFAB006E1E36 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		2CD5BF091CF1E780006E1E36 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		2CD5BF0B1CF1E7A4006E1E36 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		2CDF9B491E49E79100256545 /* STMDefantomizingOwner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMDefantomizingOwner.h; sourceTree = "<group>"; };
 		2CE24E221D2267700004B63C /* iSisSales 3.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "iSisSales 3.xcdatamodel"; sourceTree = "<group>"; };
 		2CE24E231D226B0B0004B63C /* STMOutletSalesmanContract+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "STMOutletSalesmanContract+CoreDataProperties.h"; sourceTree = "<group>"; };
 		2CE24E241D226B0B0004B63C /* STMOutletSalesmanContract+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "STMOutletSalesmanContract+CoreDataProperties.m"; sourceTree = "<group>"; };
@@ -1153,6 +1154,7 @@
 				2C70FBD91E4715C300FE49AF /* STMDataSyncing.h */,
 				2C70FBDA1E4715C300FE49AF /* STMDataSyncingSubscriber.h */,
 				2C70FBDB1E4715C300FE49AF /* STMDefantomizing.h */,
+				2CDF9B491E49E79100256545 /* STMDefantomizingOwner.h */,
 				2C70FBDC1E4715C300FE49AF /* STMSocketConnection.h */,
 				2C70FBDD1E4715C300FE49AF /* STMSocketConnectionOwner.h */,
 				2C70FBE01E4718F300FE49AF /* STMDataDownloading.h */,
