@@ -279,6 +279,7 @@
 		2CCD5DD71E36478500B84565 /* STMCoreBatteryTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CCD5DD21E36478500B84565 /* STMCoreBatteryTracker.m */; };
 		2CCD5DD81E36478500B84565 /* STMCoreLocationTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CCD5DD41E36478500B84565 /* STMCoreLocationTracker.m */; };
 		2CCD5DD91E36478500B84565 /* STMCoreTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CCD5DD61E36478500B84565 /* STMCoreTracker.m */; };
+		2CD424A61E4B475C0020694F /* STMPersister+Fantoms.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CD424A51E4B475C0020694F /* STMPersister+Fantoms.m */; };
 		2CD5BEFD1CF1DFAB006E1E36 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CD5BEFC1CF1DFAB006E1E36 /* WebKit.framework */; };
 		2CD5BF081CF1E780006E1E36 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2CD5BF0A1CF1E780006E1E36 /* Localizable.strings */; };
 		2CE24E2B1D226B0C0004B63C /* STMOutletSalesmanContract+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CE24E241D226B0B0004B63C /* STMOutletSalesmanContract+CoreDataProperties.m */; };
@@ -871,6 +872,8 @@
 		2CCD5DDA1E36479E00B84565 /* STMPersistingAsync.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STMPersistingAsync.h; sourceTree = "<group>"; };
 		2CCD5DDB1E36479E00B84565 /* STMPersistingPromised.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STMPersistingPromised.h; sourceTree = "<group>"; };
 		2CCD5DDC1E36479E00B84565 /* STMPersistingSync.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STMPersistingSync.h; sourceTree = "<group>"; };
+		2CD424A41E4B475C0020694F /* STMPersister+Fantoms.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "STMPersister+Fantoms.h"; sourceTree = "<group>"; };
+		2CD424A51E4B475C0020694F /* STMPersister+Fantoms.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "STMPersister+Fantoms.m"; sourceTree = "<group>"; };
 		2CD424A71E4B47C50020694F /* STMPersistingFantoms.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STMPersistingFantoms.h; sourceTree = "<group>"; };
 		2CD5BEFB1CF1DEE1006E1E36 /* iSistemium-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iSistemium-Prefix.pch"; sourceTree = "<group>"; };
 		2CD5BEFC1CF1DFAB006E1E36 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
@@ -1083,6 +1086,8 @@
 				35BE119B1E3A3A8F007F761B /* STMPersister+CoreData.m */,
 				D94F46021E38AC5600D78925 /* STMPersister+Async.h */,
 				D94F46031E38AC5600D78925 /* STMPersister+Async.m */,
+				2CD424A41E4B475C0020694F /* STMPersister+Fantoms.h */,
+				2CD424A51E4B475C0020694F /* STMPersister+Fantoms.m */,
 				D94F460F1E3D327000D78925 /* STMPersistingObservable.h */,
 				D94F46101E3D327000D78925 /* STMPersistingObservable.m */,
 				2CCD5DC11E36473500B84565 /* STMPredicateToSQL.h */,
@@ -2681,6 +2686,7 @@
 				2C94C10D1CF1B1BB004476D8 /* STMCustom9TVCell.m in Sources */,
 				2C94C2631CF1B771004476D8 /* STMApplication.m in Sources */,
 				2C94C11A1CF1B1BB004476D8 /* STMSplitViewController_Swift.swift in Sources */,
+				2CD424A61E4B475C0020694F /* STMPersister+Fantoms.m in Sources */,
 				2CCD5D8F1E36468000B84565 /* STMScanApiHelper.m in Sources */,
 				2C94C1331CF1B1BB004476D8 /* STMTabBarButtonTVC.m in Sources */,
 				2C94C1181CF1B1BB004476D8 /* STMSpinnerView.m in Sources */,
