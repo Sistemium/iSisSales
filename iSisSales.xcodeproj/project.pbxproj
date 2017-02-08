@@ -871,6 +871,7 @@
 		2CCD5DDA1E36479E00B84565 /* STMPersistingAsync.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STMPersistingAsync.h; sourceTree = "<group>"; };
 		2CCD5DDB1E36479E00B84565 /* STMPersistingPromised.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STMPersistingPromised.h; sourceTree = "<group>"; };
 		2CCD5DDC1E36479E00B84565 /* STMPersistingSync.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STMPersistingSync.h; sourceTree = "<group>"; };
+		2CD424A71E4B47C50020694F /* STMPersistingFantoms.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STMPersistingFantoms.h; sourceTree = "<group>"; };
 		2CD5BEFB1CF1DEE1006E1E36 /* iSistemium-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iSistemium-Prefix.pch"; sourceTree = "<group>"; };
 		2CD5BEFC1CF1DFAB006E1E36 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		2CD5BF091CF1E780006E1E36 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -2001,6 +2002,7 @@
 				2C9000D01E3BA70100DEDF3C /* STMPersistingWithHeadersAsync.h */,
 				D94F460E1E3D2FA300D78925 /* STMPersistingObserving.h */,
 				D9F0B3A91E43913C00989BB0 /* STMPersistingFullStack.h */,
+				2CD424A71E4B47C50020694F /* STMPersistingFantoms.h */,
 			);
 			name = "☯ Persisting";
 			path = Persisting;
