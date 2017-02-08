@@ -307,6 +307,7 @@
 		D92982FE1E48CCFD00A4F153 /* STMFakePersisting+Async.m in Sources */ = {isa = PBXBuildFile; fileRef = D92982FA1E48C4DA00A4F153 /* STMFakePersisting+Async.m */; };
 		D92982FF1E48E64400A4F153 /* PersistingAsyncTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F0B3A01E420B4700989BB0 /* PersistingAsyncTests.m */; };
 		D92983021E4B5FFB00A4F153 /* STMLazyDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = D92983011E4B5FFB00A4F153 /* STMLazyDictionary.m */; };
+		D92983041E4B7DFF00A4F153 /* LazyDictionaryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D92983031E4B7DFF00A4F153 /* LazyDictionaryTests.m */; };
 		D9343AF71E467FD700B7A5E5 /* STMIndexedArray.m in Sources */ = {isa = PBXBuildFile; fileRef = D9343AF61E467FD700B7A5E5 /* STMIndexedArray.m */; };
 		D94F46041E38AC5600D78925 /* STMPersister+Async.m in Sources */ = {isa = PBXBuildFile; fileRef = D94F46031E38AC5600D78925 /* STMPersister+Async.m */; };
 		D94F46081E3B429600D78925 /* STMSocketTransportTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D94F46071E3B429600D78925 /* STMSocketTransportTests.m */; };
@@ -926,6 +927,7 @@
 		D92982FA1E48C4DA00A4F153 /* STMFakePersisting+Async.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "STMFakePersisting+Async.m"; sourceTree = "<group>"; };
 		D92983001E4B5FFB00A4F153 /* STMLazyDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMLazyDictionary.h; sourceTree = "<group>"; };
 		D92983011E4B5FFB00A4F153 /* STMLazyDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMLazyDictionary.m; sourceTree = "<group>"; };
+		D92983031E4B7DFF00A4F153 /* LazyDictionaryTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LazyDictionaryTests.m; sourceTree = "<group>"; };
 		D9343AF51E467FD700B7A5E5 /* STMIndexedArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMIndexedArray.h; sourceTree = "<group>"; };
 		D9343AF61E467FD700B7A5E5 /* STMIndexedArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMIndexedArray.m; sourceTree = "<group>"; };
 		D94F45FE1E375C2E00D78925 /* STMModelling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMModelling.h; sourceTree = "<group>"; };
@@ -2050,6 +2052,7 @@
 				D9F0B39E1E41F6A500989BB0 /* STMFMDBTests.m */,
 				2C70FBD31E435CC200FE49AF /* SyncingDataTests.m */,
 				2CD5D8231E4B655A00A88639 /* DefantomizingTests.m */,
+				D92983031E4B7DFF00A4F153 /* LazyDictionaryTests.m */,
 			);
 			name = "☯ iSistemiumCoreTests";
 			path = ../../iSistemiumCore/iSistemiumCoreTests;
@@ -2864,6 +2867,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D9F0B3B81E447E5500989BB0 /* SocketIOTests.m in Sources */,
+				D92983041E4B7DFF00A4F153 /* LazyDictionaryTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
