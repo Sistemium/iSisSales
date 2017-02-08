@@ -209,7 +209,6 @@
         <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="NO" indexed="YES" syncable="YES"/>
         <attribute name="imageFormat" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="imagePath" optional="YES" attributeType="String" allowsExternalBinaryDataStorage="YES" syncable="YES"/>
-        <attribute name="imageThumbnail" optional="YES" attributeType="Binary" allowsExternalBinaryDataStorage="YES" storedInTruthFile="YES" syncable="YES"/>
         <attribute name="isFantom" optional="YES" attributeType="Boolean" defaultValueString="YES" usesScalarValueType="NO" syncable="YES"/>
         <attribute name="lts" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
         <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
@@ -219,6 +218,7 @@
         <attribute name="source" optional="YES" attributeType="String" indexed="YES" syncable="YES"/>
         <attribute name="target" optional="YES" attributeType="String" indexed="YES" syncable="YES"/>
         <attribute name="thumbnailHref" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="thumbnailPath" optional="YES" attributeType="String" allowsExternalBinaryDataStorage="YES" storedInTruthFile="YES" syncable="YES"/>
         <attribute name="xid" optional="YES" attributeType="Binary" indexed="YES" syncable="YES"/>
     </entity>
     <entity name="STMDatum" representedClassName="STMDatum" syncable="YES">
@@ -719,7 +719,7 @@
         <element name="STMArticle" positionX="-1163" positionY="-619" width="128" height="420"/>
         <element name="STMArticleGroup" positionX="-1386" positionY="-918" width="128" height="285"/>
         <element name="STMArticlePicture" positionX="-38" positionY="-792" width="128" height="73"/>
-        <element name="STMArticlePictureArticle" positionX="-407" positionY="-349" width="128" height="223"/>
+        <element name="STMArticlePictureArticle" positionX="-407" positionY="-349" width="128" height="225"/>
         <element name="STMBarCodeScan" positionX="-72" positionY="-2286" width="128" height="238"/>
         <element name="STMBarCodeType" positionX="-218" positionY="-2286" width="128" height="253"/>
         <element name="STMBatteryStatus" positionX="-648" positionY="-2286" width="128" height="223"/>
