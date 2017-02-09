@@ -244,6 +244,7 @@
 		2C94C2631CF1B771004476D8 /* STMApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C2611CF1B771004476D8 /* STMApplication.m */; };
 		2C9AE9A01CF5AF690018D9B3 /* STMJson.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C9AE99D1CF5AF690018D9B3 /* STMJson.m */; };
 		2C9AE9A11CF5AF690018D9B3 /* STMJson+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C9AE99F1CF5AF690018D9B3 /* STMJson+CoreDataProperties.m */; };
+		2CA8B6471E4CA49200E359B0 /* LoggerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CA8B6441E4C9B5E00E359B0 /* LoggerTests.m */; };
 		2CC2D2FF1D13DCF40026EB72 /* STMCorePhoto+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CC2D2FE1D13DCF40026EB72 /* STMCorePhoto+CoreDataProperties.m */; };
 		2CC2D3041D13E0A90026EB72 /* STMVisitPhoto+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CC2D3011D13E0A90026EB72 /* STMVisitPhoto+CoreDataProperties.m */; };
 		2CC2D3051D13E0A90026EB72 /* STMVisitPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CC2D3031D13E0A90026EB72 /* STMVisitPhoto.m */; };
@@ -806,6 +807,7 @@
 		2C9AE99D1CF5AF690018D9B3 /* STMJson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMJson.m; sourceTree = "<group>"; };
 		2C9AE99E1CF5AF690018D9B3 /* STMJson+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "STMJson+CoreDataProperties.h"; sourceTree = "<group>"; };
 		2C9AE99F1CF5AF690018D9B3 /* STMJson+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "STMJson+CoreDataProperties.m"; sourceTree = "<group>"; };
+		2CA8B6441E4C9B5E00E359B0 /* LoggerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoggerTests.m; sourceTree = "<group>"; };
 		2CC2D2FD1D13DCF40026EB72 /* STMCorePhoto+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "STMCorePhoto+CoreDataProperties.h"; sourceTree = "<group>"; };
 		2CC2D2FE1D13DCF40026EB72 /* STMCorePhoto+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "STMCorePhoto+CoreDataProperties.m"; sourceTree = "<group>"; };
 		2CC2D3001D13E0A90026EB72 /* STMVisitPhoto+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "STMVisitPhoto+CoreDataProperties.h"; sourceTree = "<group>"; };
@@ -2056,6 +2058,7 @@
 				2CD5D8231E4B655A00A88639 /* DefantomizingTests.m */,
 				D92983031E4B7DFF00A4F153 /* LazyDictionaryTests.m */,
 				D92983051E4BFDC500A4F153 /* UnobservingTests.m */,
+				2CA8B6441E4C9B5E00E359B0 /* LoggerTests.m */,
 			);
 			name = "☯ iSistemiumCoreTests";
 			path = ../../iSistemiumCore/iSistemiumCoreTests;
@@ -2822,6 +2825,7 @@
 				D92982FD1E48CCFC00A4F153 /* STMFakePersisting+Async.m in Sources */,
 				D95FBAE11E48883B0029F3C8 /* STMIndexedArrayPersisting.m in Sources */,
 				2C70FBCD1E3F62A700FE49AF /* LtsCoreDataTests.m in Sources */,
+				2CA8B6471E4CA49200E359B0 /* LoggerTests.m in Sources */,
 				2C70FBD41E435CC200FE49AF /* SyncingDataTests.m in Sources */,
 				2C94BFE81CF1ACB8004476D8 /* iSisSalesTests.m in Sources */,
 				D94F46081E3B429600D78925 /* STMSocketTransportTests.m in Sources */,
