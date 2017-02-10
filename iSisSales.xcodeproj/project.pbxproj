@@ -1122,7 +1122,7 @@
 		2C34EDB91E27BB66004DE82D /* ☯ Helpers */ = {
 			isa = PBXGroup;
 			children = (
-				D96BFE971E4DC14F0080327D /* Logger */,
+				D96BFE971E4DC14F0080327D /* ☯ Logger */,
 				2CCD5D9F1E3646EB00B84565 /* STMConstants.h */,
 				2CCD5DA01E3646EB00B84565 /* STMDevDef.h */,
 				2CCD5DA11E3646EB00B84565 /* STMExtendNSLog.h */,
@@ -2095,7 +2095,7 @@
 			path = iSisSalesTestsInMemory;
 			sourceTree = "<group>";
 		};
-		D96BFE971E4DC14F0080327D /* Logger */ = {
+		D96BFE971E4DC14F0080327D /* ☯ Logger */ = {
 			isa = PBXGroup;
 			children = (
 				2CD5D8251E4DEC8F00A88639 /* STMLogger.h */,
@@ -2106,6 +2106,7 @@
 				2CD5D82A1E4DEC8F00A88639 /* STMLogger+TableView.h */,
 				2CD5D82B1E4DEC8F00A88639 /* STMLogger+TableView.m */,
 			);
+			name = "☯ Logger";
 			path = Logger;
 			sourceTree = "<group>";
 		};
