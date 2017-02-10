@@ -290,6 +290,8 @@
 		2CE24E2E1D226B0C0004B63C /* STMContract.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CE24E2A1D226B0C0004B63C /* STMContract.m */; };
 		2CFA30361D50DBF300BB9E35 /* STMOutletPhoto+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CFA30331D50DBF300BB9E35 /* STMOutletPhoto+CoreDataProperties.m */; };
 		2CFA30371D50DBF300BB9E35 /* STMOutletPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CFA30351D50DBF300BB9E35 /* STMOutletPhoto.m */; };
+		350B7E701E4C8FFC0051D0A9 /* STMModellerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 350B7E6B1E4C84710051D0A9 /* STMModellerTests.m */; };
+		350B7E7A1E4CFC6B0051D0A9 /* STMCorePicturesControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 350B7E711E4CB0350051D0A9 /* STMCorePicturesControllerTests.m */; };
 		3550B1DC1DAE59F300F8A368 /* STMCorePicture.m in Sources */ = {isa = PBXBuildFile; fileRef = 3550B1D91DAE59F300F8A368 /* STMCorePicture.m */; };
 		3550B1DD1DAE59F300F8A368 /* STMCorePicture+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 3550B1DB1DAE59F300F8A368 /* STMCorePicture+CoreDataProperties.m */; };
 		3550B1E21DAE5CC300F8A368 /* STMEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 3550B1DF1DAE5CC300F8A368 /* STMEntity.m */; };
@@ -911,6 +913,8 @@
 		2CFA30331D50DBF300BB9E35 /* STMOutletPhoto+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "STMOutletPhoto+CoreDataProperties.m"; sourceTree = "<group>"; };
 		2CFA30341D50DBF300BB9E35 /* STMOutletPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMOutletPhoto.h; sourceTree = "<group>"; };
 		2CFA30351D50DBF300BB9E35 /* STMOutletPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMOutletPhoto.m; sourceTree = "<group>"; };
+		350B7E6B1E4C84710051D0A9 /* STMModellerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMModellerTests.m; sourceTree = "<group>"; };
+		350B7E711E4CB0350051D0A9 /* STMCorePicturesControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMCorePicturesControllerTests.m; sourceTree = "<group>"; };
 		3550B1D11DAE58C300F8A368 /* iSisSales 7.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "iSisSales 7.xcdatamodel"; sourceTree = "<group>"; };
 		3550B1D81DAE59F300F8A368 /* STMCorePicture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMCorePicture.h; sourceTree = "<group>"; };
 		3550B1D91DAE59F300F8A368 /* STMCorePicture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMCorePicture.m; sourceTree = "<group>"; };
@@ -2064,6 +2068,8 @@
 				2CD5D8231E4B655A00A88639 /* DefantomizingTests.m */,
 				D92983031E4B7DFF00A4F153 /* LazyDictionaryTests.m */,
 				D92983051E4BFDC500A4F153 /* UnobservingTests.m */,
+				350B7E6B1E4C84710051D0A9 /* STMModellerTests.m */,
+				350B7E711E4CB0350051D0A9 /* STMCorePicturesControllerTests.m */,
 				2CA8B6441E4C9B5E00E359B0 /* LoggerTests.m */,
 			);
 			name = "☯ iSistemiumCoreTests";
@@ -2860,6 +2866,7 @@
 				D90B75781E2FA62D0015A994 /* iSistemiumCoreTests.m in Sources */,
 				D9F0B39D1E40BFE100989BB0 /* STMPersistingSpeedTests.m in Sources */,
 				D9F0B39B1E40BC9A00989BB0 /* STMPersistingTests.m in Sources */,
+				350B7E7A1E4CFC6B0051D0A9 /* STMCorePicturesControllerTests.m in Sources */,
 				D9F0B3A11E420B4700989BB0 /* PersistingAsyncTests.m in Sources */,
 				D9F0B3971E40A9CE00989BB0 /* ScriptMessagingTests.m in Sources */,
 			);
@@ -2881,6 +2888,7 @@
 				D95FBAE91E489C540029F3C8 /* iSisSalesTestsInMemory.m in Sources */,
 				D92982FE1E48CCFD00A4F153 /* STMFakePersisting+Async.m in Sources */,
 				D95FBAF11E48A06F0029F3C8 /* PersistingObservingTests.m in Sources */,
+				350B7E701E4C8FFC0051D0A9 /* STMModellerTests.m in Sources */,
 				D95FBAF51E48A2190029F3C8 /* STMFakePersisting+Promised.m in Sources */,
 				D95FBAF41E48A2190029F3C8 /* STMFakePersisting.m in Sources */,
 				D95FBAF31E48A2190029F3C8 /* STMIndexedArrayPersisting.m in Sources */,
