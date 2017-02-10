@@ -582,7 +582,7 @@
         <attribute name="value" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="xid" optional="YES" attributeType="Binary" indexed="YES" syncable="YES"/>
         <userInfo>
-            <entry key="STORE" value="CoreData"/>
+            <entry key="STORE" value="FMDB"/>
         </userInfo>
     </entity>
     <entity name="STMStock" representedClassName="STMStock" syncable="YES">
