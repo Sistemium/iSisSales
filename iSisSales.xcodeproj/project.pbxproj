@@ -329,6 +329,7 @@
 		D95FBAF41E48A2190029F3C8 /* STMFakePersisting.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F0B3BA1E449C4D00989BB0 /* STMFakePersisting.m */; };
 		D95FBAF51E48A2190029F3C8 /* STMFakePersisting+Promised.m in Sources */ = {isa = PBXBuildFile; fileRef = D95FBADC1E486D8B0029F3C8 /* STMFakePersisting+Promised.m */; };
 		D96BFE981E4E0EC00080327D /* STMCorePicturesControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 350B7E711E4CB0350051D0A9 /* STMCorePicturesControllerTests.m */; };
+		D96BFE9F1E4E59BA0080327D /* STMSocketTransport+Decoder.m in Sources */ = {isa = PBXBuildFile; fileRef = D96BFE9E1E4E59BA0080327D /* STMSocketTransport+Decoder.m */; };
 		D9F0B38E1E3EA6B900989BB0 /* STMSyncerHelper+Defantomizing.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F0B38D1E3EA6B900989BB0 /* STMSyncerHelper+Defantomizing.m */; };
 		D9F0B3921E3FE98400989BB0 /* STMScriptMessageHandler+Private.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F0B3911E3FE98400989BB0 /* STMScriptMessageHandler+Private.m */; };
 		D9F0B3951E4094F300989BB0 /* STMScriptMessageHandler+Predicates.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F0B3941E4094F300989BB0 /* STMScriptMessageHandler+Predicates.m */; };
@@ -969,6 +970,8 @@
 		D95FBAE81E489C540029F3C8 /* iSisSalesTestsInMemory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iSisSalesTestsInMemory.m; sourceTree = "<group>"; };
 		D95FBAEA1E489C540029F3C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D95FBAF01E489FDA0029F3C8 /* iSisSalesTestsInMemory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iSisSalesTestsInMemory.h; sourceTree = "<group>"; };
+		D96BFE9D1E4E59BA0080327D /* STMSocketTransport+Decoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "STMSocketTransport+Decoder.h"; sourceTree = "<group>"; };
+		D96BFE9E1E4E59BA0080327D /* STMSocketTransport+Decoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "STMSocketTransport+Decoder.m"; sourceTree = "<group>"; };
 		D9F0B38C1E3EA6B900989BB0 /* STMSyncerHelper+Defantomizing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "STMSyncerHelper+Defantomizing.h"; sourceTree = "<group>"; };
 		D9F0B38D1E3EA6B900989BB0 /* STMSyncerHelper+Defantomizing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "STMSyncerHelper+Defantomizing.m"; sourceTree = "<group>"; };
 		D9F0B3901E3FE98400989BB0 /* STMScriptMessageHandler+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "STMScriptMessageHandler+Private.h"; sourceTree = "<group>"; };
@@ -1055,6 +1058,8 @@
 			children = (
 				2CCD5DCB1E36476800B84565 /* STMSocketTransport.h */,
 				2CCD5DCC1E36476800B84565 /* STMSocketTransport.m */,
+				D96BFE9D1E4E59BA0080327D /* STMSocketTransport+Decoder.h */,
+				D96BFE9E1E4E59BA0080327D /* STMSocketTransport+Decoder.m */,
 				D9F0B3A51E432BF600989BB0 /* STMSocketTransport+Persisting.h */,
 				D9F0B3A61E432BF600989BB0 /* STMSocketTransport+Persisting.m */,
 				2CCD5DCD1E36476800B84565 /* STMSyncer.h */,
@@ -2695,6 +2700,7 @@
 				2CC2D3041D13E0A90026EB72 /* STMVisitPhoto+CoreDataProperties.m in Sources */,
 				2C94C1831CF1B1F3004476D8 /* STMClientData+CoreDataProperties.m in Sources */,
 				2C40F78E1CF203A100231E01 /* STMSessionManager.m in Sources */,
+				D96BFE9F1E4E59BA0080327D /* STMSocketTransport+Decoder.m in Sources */,
 				2CFA30371D50DBF300BB9E35 /* STMOutletPhoto.m in Sources */,
 				2C5034101DF5B00900687A64 /* STMStock+CoreDataClass.m in Sources */,
 				2C94C1191CF1B1BB004476D8 /* STMSplitViewController.m in Sources */,
