@@ -377,7 +377,6 @@
 		13BD4DCEC7C7773998CA9B2D /* Pods-iSisSalesOfLibsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesOfLibsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesOfLibsTests/Pods-iSisSalesOfLibsTests.debug.xcconfig"; sourceTree = "<group>"; };
 		2C09C73E1E471A9900D88DFD /* STMSyncerHelper+Downloading.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "STMSyncerHelper+Downloading.h"; sourceTree = "<group>"; };
 		2C09C73F1E471A9900D88DFD /* STMSyncerHelper+Downloading.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "STMSyncerHelper+Downloading.m"; sourceTree = "<group>"; };
-		2C09C7411E473DE200D88DFD /* STMDataSyncingState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMDataSyncingState.h; sourceTree = "<group>"; };
 		2C0A8C821D09903C007C5B57 /* STMVisitQuestionSet+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "STMVisitQuestionSet+CoreDataProperties.h"; sourceTree = "<group>"; };
 		2C0A8C831D09903C007C5B57 /* STMVisitQuestionSet+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "STMVisitQuestionSet+CoreDataProperties.m"; sourceTree = "<group>"; };
 		2C0A8C841D09903C007C5B57 /* STMVisitQuestionSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMVisitQuestionSet.h; sourceTree = "<group>"; };
@@ -406,7 +405,6 @@
 		2C0A8C9F1D09903C007C5B57 /* STMVisitQuestionGroup+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "STMVisitQuestionGroup+CoreDataProperties.m"; sourceTree = "<group>"; };
 		2C0A8CA01D09903C007C5B57 /* STMVisitQuestionGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMVisitQuestionGroup.h; sourceTree = "<group>"; };
 		2C0A8CA11D09903C007C5B57 /* STMVisitQuestionGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMVisitQuestionGroup.m; sourceTree = "<group>"; };
-		2C1444221D0B1C0700B8E386 /* STMCheckinDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMCheckinDelegate.h; sourceTree = "<group>"; };
 		2C1AE2511D9BF62500272A63 /* errorCatcherScript.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = errorCatcherScript.js; sourceTree = "<group>"; };
 		2C2379B01CF2FFB4002AF3F5 /* STMObjectsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMObjectsController.h; sourceTree = "<group>"; };
 		2C2379B11CF2FFB4002AF3F5 /* STMObjectsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMObjectsController.m; sourceTree = "<group>"; };
@@ -495,17 +493,9 @@
 		2C70FBCE1E4214D900FE49AF /* STMUnsyncedDataHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMUnsyncedDataHelper.h; sourceTree = "<group>"; };
 		2C70FBCF1E4214D900FE49AF /* STMUnsyncedDataHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMUnsyncedDataHelper.m; sourceTree = "<group>"; };
 		2C70FBD31E435CC200FE49AF /* SyncingDataTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SyncingDataTests.m; sourceTree = "<group>"; };
-		2C70FBD91E4715C300FE49AF /* STMDataSyncing.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STMDataSyncing.h; sourceTree = "<group>"; };
-		2C70FBDA1E4715C300FE49AF /* STMDataSyncingSubscriber.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STMDataSyncingSubscriber.h; sourceTree = "<group>"; };
-		2C70FBDB1E4715C300FE49AF /* STMDefantomizing.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STMDefantomizing.h; sourceTree = "<group>"; };
-		2C70FBDC1E4715C300FE49AF /* STMSocketConnection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STMSocketConnection.h; sourceTree = "<group>"; };
-		2C70FBDD1E4715C300FE49AF /* STMSocketConnectionOwner.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STMSocketConnectionOwner.h; sourceTree = "<group>"; };
-		2C70FBDF1E4718D600FE49AF /* STMDataDownloadingOwner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMDataDownloadingOwner.h; sourceTree = "<group>"; };
-		2C70FBE01E4718F300FE49AF /* STMDataDownloading.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STMDataDownloading.h; sourceTree = "<group>"; };
 		2C7366681E32470400DD0D45 /* STMSyncerHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMSyncerHelper.h; sourceTree = "<group>"; };
 		2C7366691E32470400DD0D45 /* STMSyncerHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMSyncerHelper.m; sourceTree = "<group>"; };
 		2C73D6D11D26549100932981 /* iSisSales 4.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "iSisSales 4.xcdatamodel"; sourceTree = "<group>"; };
-		2C9000D01E3BA70100DEDF3C /* STMPersistingWithHeadersAsync.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMPersistingWithHeadersAsync.h; sourceTree = "<group>"; };
 		2C94BFCA1CF1ACB8004476D8 /* iSisSales.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iSisSales.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C94BFCE1CF1ACB8004476D8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2C94BFD91CF1ACB8004476D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -540,15 +530,6 @@
 		2C94C0431CF1B1BA004476D8 /* STMRecordStatusController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMRecordStatusController.m; sourceTree = "<group>"; };
 		2C94C0441CF1B1BA004476D8 /* STMWorkflowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = STMWorkflowController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		2C94C0451CF1B1BA004476D8 /* STMWorkflowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMWorkflowController.m; sourceTree = "<group>"; };
-		2C94C0471CF1B1BA004476D8 /* STMBarCodeScannerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMBarCodeScannerDelegate.h; sourceTree = "<group>"; };
-		2C94C0491CF1B1BA004476D8 /* STMImagePickerOwnerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMImagePickerOwnerProtocol.h; sourceTree = "<group>"; };
-		2C94C04A1CF1B1BA004476D8 /* STMRequestAuthenticatable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMRequestAuthenticatable.h; sourceTree = "<group>"; };
-		2C94C04B1CF1B1BA004476D8 /* STMScanApiHelperDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMScanApiHelperDelegate.h; sourceTree = "<group>"; };
-		2C94C04C1CF1B1BA004476D8 /* STMSessionManagement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMSessionManagement.h; sourceTree = "<group>"; };
-		2C94C04D1CF1B1BA004476D8 /* STMSoundCallbackable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMSoundCallbackable.h; sourceTree = "<group>"; };
-		2C94C04E1CF1B1BA004476D8 /* STMTabBarItemControllable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMTabBarItemControllable.h; sourceTree = "<group>"; };
-		2C94C04F1CF1B1BA004476D8 /* STMVolumePickerOwner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMVolumePickerOwner.h; sourceTree = "<group>"; };
-		2C94C0501CF1B1BA004476D8 /* STMWorkflowable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMWorkflowable.h; sourceTree = "<group>"; };
 		2C94C0521CF1B1BA004476D8 /* STMEntityDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMEntityDescription.h; sourceTree = "<group>"; };
 		2C94C0531CF1B1BA004476D8 /* STMEntityDescription.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMEntityDescription.m; sourceTree = "<group>"; };
 		2C94C0541CF1B1BA004476D8 /* STMFetchRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMFetchRequest.h; sourceTree = "<group>"; };
@@ -875,10 +856,6 @@
 		2CCD5DD41E36478500B84565 /* STMCoreLocationTracker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMCoreLocationTracker.m; sourceTree = "<group>"; };
 		2CCD5DD51E36478500B84565 /* STMCoreTracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMCoreTracker.h; sourceTree = "<group>"; };
 		2CCD5DD61E36478500B84565 /* STMCoreTracker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMCoreTracker.m; sourceTree = "<group>"; };
-		2CCD5DDA1E36479E00B84565 /* STMPersistingAsync.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STMPersistingAsync.h; sourceTree = "<group>"; };
-		2CCD5DDB1E36479E00B84565 /* STMPersistingPromised.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STMPersistingPromised.h; sourceTree = "<group>"; };
-		2CCD5DDC1E36479E00B84565 /* STMPersistingSync.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STMPersistingSync.h; sourceTree = "<group>"; };
-		2CD424A71E4B47C50020694F /* STMPersistingFantoms.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STMPersistingFantoms.h; sourceTree = "<group>"; };
 		2CD5BEFB1CF1DEE1006E1E36 /* iSistemium-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iSistemium-Prefix.pch"; sourceTree = "<group>"; };
 		2CD5BEFC1CF1DFAB006E1E36 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		2CD5BF091CF1E780006E1E36 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -893,7 +870,35 @@
 		2CD5D8291E4DEC8F00A88639 /* STMLogger+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "STMLogger+Private.h"; sourceTree = "<group>"; };
 		2CD5D82A1E4DEC8F00A88639 /* STMLogger+TableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "STMLogger+TableView.h"; sourceTree = "<group>"; };
 		2CD5D82B1E4DEC8F00A88639 /* STMLogger+TableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "STMLogger+TableView.m"; sourceTree = "<group>"; };
-		2CDF9B491E49E79100256545 /* STMDefantomizingOwner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMDefantomizingOwner.h; sourceTree = "<group>"; };
+		2CD5D8311E4DED7800A88639 /* STMModelling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMModelling.h; sourceTree = "<group>"; };
+		2CD5D8321E4DED7800A88639 /* STMPersisting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMPersisting.h; sourceTree = "<group>"; };
+		2CD5D8331E4DED7800A88639 /* STMPersistingAsync.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMPersistingAsync.h; sourceTree = "<group>"; };
+		2CD5D8341E4DED7800A88639 /* STMPersistingFantoms.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMPersistingFantoms.h; sourceTree = "<group>"; };
+		2CD5D8351E4DED7800A88639 /* STMPersistingFullStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMPersistingFullStack.h; sourceTree = "<group>"; };
+		2CD5D8361E4DED7800A88639 /* STMPersistingObserving.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMPersistingObserving.h; sourceTree = "<group>"; };
+		2CD5D8371E4DED7800A88639 /* STMPersistingPromised.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMPersistingPromised.h; sourceTree = "<group>"; };
+		2CD5D8381E4DED7800A88639 /* STMPersistingSync.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMPersistingSync.h; sourceTree = "<group>"; };
+		2CD5D8391E4DED7800A88639 /* STMPersistingWithHeadersAsync.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMPersistingWithHeadersAsync.h; sourceTree = "<group>"; };
+		2CD5D83A1E4DED7800A88639 /* STMBarCodeScannerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMBarCodeScannerDelegate.h; sourceTree = "<group>"; };
+		2CD5D83B1E4DED7800A88639 /* STMCheckinDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMCheckinDelegate.h; sourceTree = "<group>"; };
+		2CD5D83C1E4DED7800A88639 /* STMImagePickerOwnerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMImagePickerOwnerProtocol.h; sourceTree = "<group>"; };
+		2CD5D83D1E4DED7800A88639 /* STMRequestAuthenticatable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMRequestAuthenticatable.h; sourceTree = "<group>"; };
+		2CD5D83E1E4DED7800A88639 /* STMScanApiHelperDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMScanApiHelperDelegate.h; sourceTree = "<group>"; };
+		2CD5D83F1E4DED7800A88639 /* STMScriptMessaging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMScriptMessaging.h; sourceTree = "<group>"; };
+		2CD5D8401E4DED7800A88639 /* STMSessionManagement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMSessionManagement.h; sourceTree = "<group>"; };
+		2CD5D8411E4DED7800A88639 /* STMSoundCallbackable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMSoundCallbackable.h; sourceTree = "<group>"; };
+		2CD5D8421E4DED7800A88639 /* STMTabBarItemControllable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMTabBarItemControllable.h; sourceTree = "<group>"; };
+		2CD5D8431E4DED7800A88639 /* STMVolumePickerOwner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMVolumePickerOwner.h; sourceTree = "<group>"; };
+		2CD5D8441E4DED7800A88639 /* STMWorkflowable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMWorkflowable.h; sourceTree = "<group>"; };
+		2CD5D8461E4DED7800A88639 /* STMDataDownloading.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMDataDownloading.h; sourceTree = "<group>"; };
+		2CD5D8471E4DED7800A88639 /* STMDataDownloadingOwner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMDataDownloadingOwner.h; sourceTree = "<group>"; };
+		2CD5D8481E4DED7800A88639 /* STMDataSyncing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMDataSyncing.h; sourceTree = "<group>"; };
+		2CD5D8491E4DED7800A88639 /* STMDataSyncingState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMDataSyncingState.h; sourceTree = "<group>"; };
+		2CD5D84A1E4DED7800A88639 /* STMDataSyncingSubscriber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMDataSyncingSubscriber.h; sourceTree = "<group>"; };
+		2CD5D84B1E4DED7800A88639 /* STMDefantomizing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMDefantomizing.h; sourceTree = "<group>"; };
+		2CD5D84C1E4DED7800A88639 /* STMDefantomizingOwner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMDefantomizingOwner.h; sourceTree = "<group>"; };
+		2CD5D84D1E4DED7800A88639 /* STMSocketConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMSocketConnection.h; sourceTree = "<group>"; };
+		2CD5D84E1E4DED7800A88639 /* STMSocketConnectionOwner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMSocketConnectionOwner.h; sourceTree = "<group>"; };
 		2CE24E221D2267700004B63C /* iSisSales 3.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "iSisSales 3.xcdatamodel"; sourceTree = "<group>"; };
 		2CE24E231D226B0B0004B63C /* STMOutletSalesmanContract+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "STMOutletSalesmanContract+CoreDataProperties.h"; sourceTree = "<group>"; };
 		2CE24E241D226B0B0004B63C /* STMOutletSalesmanContract+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "STMOutletSalesmanContract+CoreDataProperties.m"; sourceTree = "<group>"; };
@@ -941,18 +946,15 @@
 		D92983051E4BFDC500A4F153 /* UnobservingTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UnobservingTests.m; sourceTree = "<group>"; };
 		D9343AF51E467FD700B7A5E5 /* STMIndexedArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMIndexedArray.h; sourceTree = "<group>"; };
 		D9343AF61E467FD700B7A5E5 /* STMIndexedArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMIndexedArray.m; sourceTree = "<group>"; };
-		D94F45FE1E375C2E00D78925 /* STMModelling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMModelling.h; sourceTree = "<group>"; };
 		D94F46021E38AC5600D78925 /* STMPersister+Async.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "STMPersister+Async.h"; sourceTree = "<group>"; };
 		D94F46031E38AC5600D78925 /* STMPersister+Async.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "STMPersister+Async.m"; sourceTree = "<group>"; };
 		D94F46051E3A1FFD00D78925 /* SocketIOTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SocketIOTests.m; path = ../../iSistemiumCore/iSistemiumCoreTests/SocketIOTests.m; sourceTree = "<group>"; };
 		D94F46071E3B429600D78925 /* STMSocketTransportTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMSocketTransportTests.m; sourceTree = "<group>"; };
 		D94F46091E3B626B00D78925 /* STMFmdb+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "STMFmdb+Private.h"; sourceTree = "<group>"; };
 		D94F460A1E3B626B00D78925 /* STMFmdb+Private.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "STMFmdb+Private.m"; sourceTree = "<group>"; };
-		D94F460E1E3D2FA300D78925 /* STMPersistingObserving.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMPersistingObserving.h; sourceTree = "<group>"; };
 		D94F460F1E3D327000D78925 /* STMPersistingObservable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMPersistingObservable.h; sourceTree = "<group>"; };
 		D94F46101E3D327000D78925 /* STMPersistingObservable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMPersistingObservable.m; sourceTree = "<group>"; };
 		D94F46121E3D3B5900D78925 /* PersistingObservingTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersistingObservingTests.m; sourceTree = "<group>"; };
-		D94F46141E3E28C300D78925 /* STMPersisting.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STMPersisting.h; sourceTree = "<group>"; };
 		D94F46151E3E8D2F00D78925 /* STMCoreSession+Persistable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "STMCoreSession+Persistable.h"; sourceTree = "<group>"; };
 		D94F46161E3E8D2F00D78925 /* STMCoreSession+Persistable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "STMCoreSession+Persistable.m"; sourceTree = "<group>"; };
 		D95FBADB1E486D8B0029F3C8 /* STMFakePersisting+Promised.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "STMFakePersisting+Promised.h"; sourceTree = "<group>"; };
@@ -965,7 +967,6 @@
 		D95FBAF01E489FDA0029F3C8 /* iSisSalesTestsInMemory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iSisSalesTestsInMemory.h; sourceTree = "<group>"; };
 		D9F0B38C1E3EA6B900989BB0 /* STMSyncerHelper+Defantomizing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "STMSyncerHelper+Defantomizing.h"; sourceTree = "<group>"; };
 		D9F0B38D1E3EA6B900989BB0 /* STMSyncerHelper+Defantomizing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "STMSyncerHelper+Defantomizing.m"; sourceTree = "<group>"; };
-		D9F0B38F1E3FE61600989BB0 /* STMScriptMessaging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMScriptMessaging.h; sourceTree = "<group>"; };
 		D9F0B3901E3FE98400989BB0 /* STMScriptMessageHandler+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "STMScriptMessageHandler+Private.h"; sourceTree = "<group>"; };
 		D9F0B3911E3FE98400989BB0 /* STMScriptMessageHandler+Private.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "STMScriptMessageHandler+Private.m"; sourceTree = "<group>"; };
 		D9F0B3931E4094F300989BB0 /* STMScriptMessageHandler+Predicates.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "STMScriptMessageHandler+Predicates.h"; sourceTree = "<group>"; };
@@ -979,7 +980,6 @@
 		D9F0B3A21E420B9F00989BB0 /* PersistingSyncTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersistingSyncTests.m; sourceTree = "<group>"; };
 		D9F0B3A51E432BF600989BB0 /* STMSocketTransport+Persisting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "STMSocketTransport+Persisting.h"; sourceTree = "<group>"; };
 		D9F0B3A61E432BF600989BB0 /* STMSocketTransport+Persisting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "STMSocketTransport+Persisting.m"; sourceTree = "<group>"; };
-		D9F0B3A91E43913C00989BB0 /* STMPersistingFullStack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STMPersistingFullStack.h; sourceTree = "<group>"; };
 		D9F0B3AE1E447E0500989BB0 /* iSisSalesOfLibsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iSisSalesOfLibsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9F0B3B21E447E0500989BB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D9F0B3B91E449C4D00989BB0 /* STMFakePersisting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMFakePersisting.h; sourceTree = "<group>"; };
@@ -1174,23 +1174,6 @@
 			path = Trackers;
 			sourceTree = "<group>";
 		};
-		2C70FBD81E47156500FE49AF /* ☯ Syncing */ = {
-			isa = PBXGroup;
-			children = (
-				2C70FBD91E4715C300FE49AF /* STMDataSyncing.h */,
-				2C70FBDA1E4715C300FE49AF /* STMDataSyncingSubscriber.h */,
-				2C70FBDB1E4715C300FE49AF /* STMDefantomizing.h */,
-				2CDF9B491E49E79100256545 /* STMDefantomizingOwner.h */,
-				2C70FBDC1E4715C300FE49AF /* STMSocketConnection.h */,
-				2C70FBDD1E4715C300FE49AF /* STMSocketConnectionOwner.h */,
-				2C70FBE01E4718F300FE49AF /* STMDataDownloading.h */,
-				2C70FBDF1E4718D600FE49AF /* STMDataDownloadingOwner.h */,
-				2C09C7411E473DE200D88DFD /* STMDataSyncingState.h */,
-			);
-			name = "☯ Syncing";
-			path = Syncing;
-			sourceTree = "<group>";
-		};
 		2C907E051DA6979500326CA8 /* ☯ Sounds */ = {
 			isa = PBXGroup;
 			children = (
@@ -1279,9 +1262,10 @@
 		2C94C0001CF1B140004476D8 /* ☯ iSisCore */ = {
 			isa = PBXGroup;
 			children = (
-				D90B75741E2FA62D0015A994 /* ☯ iSistemiumCoreTests */,
 				2C94C0011CF1B1BA004476D8 /* ☯ Classes */,
 				2C94C1391CF1B1F3004476D8 /* ☯ DataModel */,
+				D90B75741E2FA62D0015A994 /* ☯ iSistemiumCoreTests */,
+				2CD5D82F1E4DED0F00A88639 /* ☯ Protocols */,
 				2C94C1C41CF1B308004476D8 /* ☯ Resources */,
 				2C94C2231CF1B3BA004476D8 /* ☯ Storyboards */,
 				2C94C25B1CF1B3E5004476D8 /* iSistemiumCore-Bridging-Header.h */,
@@ -1298,7 +1282,6 @@
 			children = (
 				2C94C0021CF1B1BA004476D8 /* ☯ Base */,
 				2C94C02D1CF1B1BA004476D8 /* ☯ EntityControllers */,
-				2C94C0461CF1B1BA004476D8 /* ☯ Protocols */,
 				2C94C0511CF1B1BA004476D8 /* ☯ STMNS */,
 				2C94C0591CF1B1BA004476D8 /* ☯ STMUI */,
 				2C94C0A01CF1B1BA004476D8 /* ☯ Views */,
@@ -1351,27 +1334,6 @@
 			);
 			name = "☯ EntityControllers";
 			path = EntityControllers;
-			sourceTree = "<group>";
-		};
-		2C94C0461CF1B1BA004476D8 /* ☯ Protocols */ = {
-			isa = PBXGroup;
-			children = (
-				2C70FBD81E47156500FE49AF /* ☯ Syncing */,
-				2CCD5D881E3630F100B84565 /* ☯ Persisting */,
-				2C94C0471CF1B1BA004476D8 /* STMBarCodeScannerDelegate.h */,
-				2C94C0491CF1B1BA004476D8 /* STMImagePickerOwnerProtocol.h */,
-				2C94C04A1CF1B1BA004476D8 /* STMRequestAuthenticatable.h */,
-				2C94C04B1CF1B1BA004476D8 /* STMScanApiHelperDelegate.h */,
-				2C94C04C1CF1B1BA004476D8 /* STMSessionManagement.h */,
-				2C94C04D1CF1B1BA004476D8 /* STMSoundCallbackable.h */,
-				2C94C04E1CF1B1BA004476D8 /* STMTabBarItemControllable.h */,
-				2C94C04F1CF1B1BA004476D8 /* STMVolumePickerOwner.h */,
-				2C94C0501CF1B1BA004476D8 /* STMWorkflowable.h */,
-				2C1444221D0B1C0700B8E386 /* STMCheckinDelegate.h */,
-				D9F0B38F1E3FE61600989BB0 /* STMScriptMessaging.h */,
-			);
-			name = "☯ Protocols";
-			path = Protocols;
 			sourceTree = "<group>";
 		};
 		2C94C0511CF1B1BA004476D8 /* ☯ STMNS */ = {
@@ -2015,21 +1977,59 @@
 			path = Images;
 			sourceTree = "<group>";
 		};
-		2CCD5D881E3630F100B84565 /* ☯ Persisting */ = {
+		2CD5D82F1E4DED0F00A88639 /* ☯ Protocols */ = {
 			isa = PBXGroup;
 			children = (
-				D94F45FE1E375C2E00D78925 /* STMModelling.h */,
-				D94F46141E3E28C300D78925 /* STMPersisting.h */,
-				2CCD5DDA1E36479E00B84565 /* STMPersistingAsync.h */,
-				2CCD5DDB1E36479E00B84565 /* STMPersistingPromised.h */,
-				2CCD5DDC1E36479E00B84565 /* STMPersistingSync.h */,
-				2C9000D01E3BA70100DEDF3C /* STMPersistingWithHeadersAsync.h */,
-				D94F460E1E3D2FA300D78925 /* STMPersistingObserving.h */,
-				D9F0B3A91E43913C00989BB0 /* STMPersistingFullStack.h */,
-				2CD424A71E4B47C50020694F /* STMPersistingFantoms.h */,
+				2CD5D8301E4DED7800A88639 /* ☯ Persisting */,
+				2CD5D8451E4DED7800A88639 /* ☯ Syncing */,
+				2CD5D83A1E4DED7800A88639 /* STMBarCodeScannerDelegate.h */,
+				2CD5D83B1E4DED7800A88639 /* STMCheckinDelegate.h */,
+				2CD5D83C1E4DED7800A88639 /* STMImagePickerOwnerProtocol.h */,
+				2CD5D83D1E4DED7800A88639 /* STMRequestAuthenticatable.h */,
+				2CD5D83E1E4DED7800A88639 /* STMScanApiHelperDelegate.h */,
+				2CD5D83F1E4DED7800A88639 /* STMScriptMessaging.h */,
+				2CD5D8401E4DED7800A88639 /* STMSessionManagement.h */,
+				2CD5D8411E4DED7800A88639 /* STMSoundCallbackable.h */,
+				2CD5D8421E4DED7800A88639 /* STMTabBarItemControllable.h */,
+				2CD5D8431E4DED7800A88639 /* STMVolumePickerOwner.h */,
+				2CD5D8441E4DED7800A88639 /* STMWorkflowable.h */,
+			);
+			name = "☯ Protocols";
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		2CD5D8301E4DED7800A88639 /* ☯ Persisting */ = {
+			isa = PBXGroup;
+			children = (
+				2CD5D8311E4DED7800A88639 /* STMModelling.h */,
+				2CD5D8321E4DED7800A88639 /* STMPersisting.h */,
+				2CD5D8331E4DED7800A88639 /* STMPersistingAsync.h */,
+				2CD5D8341E4DED7800A88639 /* STMPersistingFantoms.h */,
+				2CD5D8351E4DED7800A88639 /* STMPersistingFullStack.h */,
+				2CD5D8361E4DED7800A88639 /* STMPersistingObserving.h */,
+				2CD5D8371E4DED7800A88639 /* STMPersistingPromised.h */,
+				2CD5D8381E4DED7800A88639 /* STMPersistingSync.h */,
+				2CD5D8391E4DED7800A88639 /* STMPersistingWithHeadersAsync.h */,
 			);
 			name = "☯ Persisting";
 			path = Persisting;
+			sourceTree = "<group>";
+		};
+		2CD5D8451E4DED7800A88639 /* ☯ Syncing */ = {
+			isa = PBXGroup;
+			children = (
+				2CD5D8461E4DED7800A88639 /* STMDataDownloading.h */,
+				2CD5D8471E4DED7800A88639 /* STMDataDownloadingOwner.h */,
+				2CD5D8481E4DED7800A88639 /* STMDataSyncing.h */,
+				2CD5D8491E4DED7800A88639 /* STMDataSyncingState.h */,
+				2CD5D84A1E4DED7800A88639 /* STMDataSyncingSubscriber.h */,
+				2CD5D84B1E4DED7800A88639 /* STMDefantomizing.h */,
+				2CD5D84C1E4DED7800A88639 /* STMDefantomizingOwner.h */,
+				2CD5D84D1E4DED7800A88639 /* STMSocketConnection.h */,
+				2CD5D84E1E4DED7800A88639 /* STMSocketConnectionOwner.h */,
+			);
+			name = "☯ Syncing";
+			path = Syncing;
 			sourceTree = "<group>";
 		};
 		B667165BAF36E7D3E97FC469 /* Pods */ = {
