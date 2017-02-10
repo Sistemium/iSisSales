@@ -291,7 +291,6 @@
 		2CFA30361D50DBF300BB9E35 /* STMOutletPhoto+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CFA30331D50DBF300BB9E35 /* STMOutletPhoto+CoreDataProperties.m */; };
 		2CFA30371D50DBF300BB9E35 /* STMOutletPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CFA30351D50DBF300BB9E35 /* STMOutletPhoto.m */; };
 		350B7E701E4C8FFC0051D0A9 /* STMModellerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 350B7E6B1E4C84710051D0A9 /* STMModellerTests.m */; };
-		350B7E7A1E4CFC6B0051D0A9 /* STMCorePicturesControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 350B7E711E4CB0350051D0A9 /* STMCorePicturesControllerTests.m */; };
 		3550B1DC1DAE59F300F8A368 /* STMCorePicture.m in Sources */ = {isa = PBXBuildFile; fileRef = 3550B1D91DAE59F300F8A368 /* STMCorePicture.m */; };
 		3550B1DD1DAE59F300F8A368 /* STMCorePicture+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 3550B1DB1DAE59F300F8A368 /* STMCorePicture+CoreDataProperties.m */; };
 		3550B1E21DAE5CC300F8A368 /* STMEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 3550B1DF1DAE5CC300F8A368 /* STMEntity.m */; };
@@ -329,6 +328,7 @@
 		D95FBAF31E48A2190029F3C8 /* STMIndexedArrayPersisting.m in Sources */ = {isa = PBXBuildFile; fileRef = D95FBADF1E487D8B0029F3C8 /* STMIndexedArrayPersisting.m */; };
 		D95FBAF41E48A2190029F3C8 /* STMFakePersisting.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F0B3BA1E449C4D00989BB0 /* STMFakePersisting.m */; };
 		D95FBAF51E48A2190029F3C8 /* STMFakePersisting+Promised.m in Sources */ = {isa = PBXBuildFile; fileRef = D95FBADC1E486D8B0029F3C8 /* STMFakePersisting+Promised.m */; };
+		D96BFE981E4E0EC00080327D /* STMCorePicturesControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 350B7E711E4CB0350051D0A9 /* STMCorePicturesControllerTests.m */; };
 		D9F0B38E1E3EA6B900989BB0 /* STMSyncerHelper+Defantomizing.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F0B38D1E3EA6B900989BB0 /* STMSyncerHelper+Defantomizing.m */; };
 		D9F0B3921E3FE98400989BB0 /* STMScriptMessageHandler+Private.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F0B3911E3FE98400989BB0 /* STMScriptMessageHandler+Private.m */; };
 		D9F0B3951E4094F300989BB0 /* STMScriptMessageHandler+Predicates.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F0B3941E4094F300989BB0 /* STMScriptMessageHandler+Predicates.m */; };
@@ -2866,7 +2866,6 @@
 				D90B75781E2FA62D0015A994 /* iSistemiumCoreTests.m in Sources */,
 				D9F0B39D1E40BFE100989BB0 /* STMPersistingSpeedTests.m in Sources */,
 				D9F0B39B1E40BC9A00989BB0 /* STMPersistingTests.m in Sources */,
-				350B7E7A1E4CFC6B0051D0A9 /* STMCorePicturesControllerTests.m in Sources */,
 				D9F0B3A11E420B4700989BB0 /* PersistingAsyncTests.m in Sources */,
 				D9F0B3971E40A9CE00989BB0 /* ScriptMessagingTests.m in Sources */,
 			);
@@ -2898,6 +2897,7 @@
 				D92983071E4C6A7400A4F153 /* DefantomizingTests.m in Sources */,
 				D92983061E4BFDC500A4F153 /* UnobservingTests.m in Sources */,
 				D92982F61E48B07F00A4F153 /* SyncingDataTests.m in Sources */,
+				D96BFE981E4E0EC00080327D /* STMCorePicturesControllerTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
