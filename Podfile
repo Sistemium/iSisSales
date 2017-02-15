@@ -24,6 +24,10 @@ target 'iSisSales' do
         inherit! :search_paths
     end
 
+    target 'iSisSalesSpeedTests' do
+        inherit! :search_paths
+    end
+
 end
 
 
