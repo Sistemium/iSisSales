@@ -987,6 +987,7 @@
 		D96BFEA41E547DA30080327D /* iSisSalesSpeedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iSisSalesSpeedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D96BFEA61E547DA30080327D /* iSisSalesSpeedTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iSisSalesSpeedTests.m; sourceTree = "<group>"; };
 		D96BFEA81E547DA30080327D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D96BFEB41E54A6270080327D /* STMSyncerHelper+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "STMSyncerHelper+Private.h"; sourceTree = "<group>"; };
 		D96BFEB71E54A8870080327D /* STMCoreObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMCoreObject.h; sourceTree = "<group>"; };
 		D96BFEB81E54A8870080327D /* STMCoreObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMCoreObject.m; sourceTree = "<group>"; };
 		D9F0B38C1E3EA6B900989BB0 /* STMSyncerHelper+Defantomizing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "STMSyncerHelper+Defantomizing.h"; sourceTree = "<group>"; };
@@ -1093,6 +1094,7 @@
 				2C70FBCE1E4214D900FE49AF /* STMUnsyncedDataHelper.h */,
 				2C70FBCF1E4214D900FE49AF /* STMUnsyncedDataHelper.m */,
 				2C7366681E32470400DD0D45 /* STMSyncerHelper.h */,
+				D96BFEB41E54A6270080327D /* STMSyncerHelper+Private.h */,
 				2C7366691E32470400DD0D45 /* STMSyncerHelper.m */,
 				2C09C73E1E471A9900D88DFD /* STMSyncerHelper+Downloading.h */,
 				2C09C73F1E471A9900D88DFD /* STMSyncerHelper+Downloading.m */,
