@@ -990,6 +990,8 @@
 		D96BFEB41E54A6270080327D /* STMSyncerHelper+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "STMSyncerHelper+Private.h"; sourceTree = "<group>"; };
 		D96BFEB71E54A8870080327D /* STMCoreObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMCoreObject.h; sourceTree = "<group>"; };
 		D96BFEB81E54A8870080327D /* STMCoreObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMCoreObject.m; sourceTree = "<group>"; };
+		D96BFEBA1E56013C0080327D /* STMCoreAuth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMCoreAuth.h; sourceTree = "<group>"; };
+		D96BFEBB1E5609D50080327D /* STMCoreUserDefaults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMCoreUserDefaults.h; sourceTree = "<group>"; };
 		D9F0B38C1E3EA6B900989BB0 /* STMSyncerHelper+Defantomizing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "STMSyncerHelper+Defantomizing.h"; sourceTree = "<group>"; };
 		D9F0B38D1E3EA6B900989BB0 /* STMSyncerHelper+Defantomizing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "STMSyncerHelper+Defantomizing.m"; sourceTree = "<group>"; };
 		D9F0B3901E3FE98400989BB0 /* STMScriptMessageHandler+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "STMScriptMessageHandler+Private.h"; sourceTree = "<group>"; };
@@ -2034,6 +2036,8 @@
 				2CD5D8611E4DF36C00A88639 /* STMTabBarItemControllable.h */,
 				2CD5D8621E4DF36C00A88639 /* STMVolumePickerOwner.h */,
 				2CD5D8631E4DF36C00A88639 /* STMWorkflowable.h */,
+				D96BFEBA1E56013C0080327D /* STMCoreAuth.h */,
+				D96BFEBB1E5609D50080327D /* STMCoreUserDefaults.h */,
 			);
 			name = "☯ Protocols";
 			path = ../../iSistemiumCore/iSistemiumCore/Protocols;
