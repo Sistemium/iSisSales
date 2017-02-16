@@ -992,6 +992,8 @@
 		D96BFEB81E54A8870080327D /* STMCoreObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMCoreObject.m; sourceTree = "<group>"; };
 		D96BFEBA1E56013C0080327D /* STMCoreAuth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMCoreAuth.h; sourceTree = "<group>"; };
 		D96BFEBB1E5609D50080327D /* STMCoreUserDefaults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMCoreUserDefaults.h; sourceTree = "<group>"; };
+		D96BFEBC1E5647520080327D /* STMCoreSession+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "STMCoreSession+Private.h"; sourceTree = "<group>"; };
+		D96BFEBF1E56538D0080327D /* STMCoreControlling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMCoreControlling.h; sourceTree = "<group>"; };
 		D9F0B38C1E3EA6B900989BB0 /* STMSyncerHelper+Defantomizing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "STMSyncerHelper+Defantomizing.h"; sourceTree = "<group>"; };
 		D9F0B38D1E3EA6B900989BB0 /* STMSyncerHelper+Defantomizing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "STMSyncerHelper+Defantomizing.m"; sourceTree = "<group>"; };
 		D9F0B3901E3FE98400989BB0 /* STMScriptMessageHandler+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "STMScriptMessageHandler+Private.h"; sourceTree = "<group>"; };
@@ -1114,6 +1116,7 @@
 				2CCD5D911E3646BE00B84565 /* STMCoreAuthController.m */,
 				2CCD5D921E3646BE00B84565 /* STMCoreSession.h */,
 				2CCD5D931E3646BE00B84565 /* STMCoreSession.m */,
+				D96BFEBC1E5647520080327D /* STMCoreSession+Private.h */,
 				D94F46151E3E8D2F00D78925 /* STMCoreSession+Persistable.h */,
 				D94F46161E3E8D2F00D78925 /* STMCoreSession+Persistable.m */,
 				2CCD5D941E3646BE00B84565 /* STMCoreSessionManager.h */,
@@ -2038,6 +2041,7 @@
 				2CD5D8631E4DF36C00A88639 /* STMWorkflowable.h */,
 				D96BFEBA1E56013C0080327D /* STMCoreAuth.h */,
 				D96BFEBB1E5609D50080327D /* STMCoreUserDefaults.h */,
+				D96BFEBF1E56538D0080327D /* STMCoreControlling.h */,
 			);
 			name = "☯ Protocols";
 			path = ../../iSistemiumCore/iSistemiumCore/Protocols;
