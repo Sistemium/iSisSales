@@ -334,6 +334,7 @@
 		D96BFEB91E54A8870080327D /* STMCoreObject.m in Sources */ = {isa = PBXBuildFile; fileRef = D96BFEB81E54A8870080327D /* STMCoreObject.m */; };
 		D96BFEC61E5721040080327D /* STMModeller+Interceptable.m in Sources */ = {isa = PBXBuildFile; fileRef = D96BFEC51E5721040080327D /* STMModeller+Interceptable.m */; };
 		D96BFECB1E573A130080327D /* PersistingInterceptingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D96BFECA1E573A130080327D /* PersistingInterceptingTests.m */; };
+		D96BFECC1E57414B0080327D /* PersistingInterceptingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D96BFECA1E573A130080327D /* PersistingInterceptingTests.m */; };
 		D9F0B38E1E3EA6B900989BB0 /* STMSyncerHelper+Defantomizing.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F0B38D1E3EA6B900989BB0 /* STMSyncerHelper+Defantomizing.m */; };
 		D9F0B3921E3FE98400989BB0 /* STMScriptMessageHandler+Private.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F0B3911E3FE98400989BB0 /* STMScriptMessageHandler+Private.m */; };
 		D9F0B3951E4094F300989BB0 /* STMScriptMessageHandler+Predicates.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F0B3941E4094F300989BB0 /* STMScriptMessageHandler+Predicates.m */; };
@@ -2112,13 +2113,13 @@
 		D90B75741E2FA62D0015A994 /* ☯ iSistemiumCoreTests */ = {
 			isa = PBXGroup;
 			children = (
-				D96BFECA1E573A130080327D /* PersistingInterceptingTests.m */,
 				D9F0B3981E40BB5D00989BB0 /* Abstract */,
 				D90B75761E2FA62D0015A994 /* iSistemiumCoreTests.m */,
 				D94F46071E3B429600D78925 /* STMSocketTransportTests.m */,
 				D9F0B3A21E420B9F00989BB0 /* PersistingSyncTests.m */,
 				D9F0B3A01E420B4700989BB0 /* PersistingAsyncTests.m */,
 				D94F46121E3D3B5900D78925 /* PersistingObservingTests.m */,
+				D96BFECA1E573A130080327D /* PersistingInterceptingTests.m */,
 				2C70FBCC1E3F62A700FE49AF /* LtsCoreDataTests.m */,
 				D9F0B3961E40A9CE00989BB0 /* ScriptMessagingTests.m */,
 				D9F0B39C1E40BFE100989BB0 /* STMPersistingSpeedTests.m */,
@@ -3010,6 +3011,7 @@
 				2C70FBCD1E3F62A700FE49AF /* LtsCoreDataTests.m in Sources */,
 				2CA8B6471E4CA49200E359B0 /* LoggerTests.m in Sources */,
 				2C70FBD41E435CC200FE49AF /* SyncingDataTests.m in Sources */,
+				D96BFECC1E57414B0080327D /* PersistingInterceptingTests.m in Sources */,
 				2C94BFE81CF1ACB8004476D8 /* iSisSalesTests.m in Sources */,
 				2CD5D86F1E51FB1E00A88639 /* SessionManagerTests.m in Sources */,
 				D94F46081E3B429600D78925 /* STMSocketTransportTests.m in Sources */,
