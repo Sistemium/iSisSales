@@ -1249,11 +1249,7 @@
 			isa = PBXGroup;
 			children = (
 				2C94BFCC1CF1ACB8004476D8 /* iSisSales */,
-				2C94BFE61CF1ACB8004476D8 /* iSisSalesTests */,
-				2C94BFF11CF1ACB8004476D8 /* iSisSalesUITests */,
-				D9F0B3AF1E447E0500989BB0 /* iSisSalesOfLibsTests */,
-				D95FBAE71E489C540029F3C8 /* iSisSalesTestsInMemory */,
-				D96BFEA51E547DA30080327D /* iSisSalesSpeedTests */,
+				D96BFED21E589F6B0080327D /* TestTargets */,
 				2C94BFCB1CF1ACB8004476D8 /* Products */,
 				19A13E8DF2831B9700FDE8B8 /* Frameworks */,
 				B667165BAF36E7D3E97FC469 /* Pods */,
@@ -2199,6 +2195,18 @@
 				D96BFECF1E576D9B0080327D /* STMPersistingInterceptorUniqueProperty.m */,
 			);
 			name = Interceptors;
+			sourceTree = "<group>";
+		};
+		D96BFED21E589F6B0080327D /* TestTargets */ = {
+			isa = PBXGroup;
+			children = (
+				2C94BFE61CF1ACB8004476D8 /* iSisSalesTests */,
+				2C94BFF11CF1ACB8004476D8 /* iSisSalesUITests */,
+				D9F0B3AF1E447E0500989BB0 /* iSisSalesOfLibsTests */,
+				D95FBAE71E489C540029F3C8 /* iSisSalesTestsInMemory */,
+				D96BFEA51E547DA30080327D /* iSisSalesSpeedTests */,
+			);
+			name = TestTargets;
 			sourceTree = "<group>";
 		};
 		D9F0B3981E40BB5D00989BB0 /* Abstract */ = {
