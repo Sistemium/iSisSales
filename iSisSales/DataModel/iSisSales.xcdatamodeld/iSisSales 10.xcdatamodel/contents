@@ -120,7 +120,7 @@
         <attribute name="deviceToken" optional="YES" attributeType="Binary" syncable="YES"/>
         <attribute name="deviceTokenError" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="deviceTs" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
-        <attribute name="deviceUUID" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="deviceUUID" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="freeDiskSpace" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
         <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="NO" indexed="YES" syncable="YES"/>
         <attribute name="isFantom" optional="YES" attributeType="Boolean" defaultValueString="YES" usesScalarValueType="NO" syncable="YES"/>
