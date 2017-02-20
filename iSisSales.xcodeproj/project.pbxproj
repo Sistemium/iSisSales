@@ -116,7 +116,7 @@
 		2C94C11B1CF1B1BB004476D8 /* STMStoryboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C0951CF1B1BA004476D8 /* STMStoryboard.m */; };
 		2C94C11C1CF1B1BB004476D8 /* STMTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C0971CF1B1BA004476D8 /* STMTableViewCell.m */; };
 		2C94C11D1CF1B1BB004476D8 /* STMVariableCellsHeightTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C0991CF1B1BA004476D8 /* STMVariableCellsHeightTVC.m */; };
-		2C94C11E1CF1B1BB004476D8 /* STMWorkflowAS.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C09B1CF1B1BA004476D8 /* STMWorkflowAS.m */; };
+		2C94C11E1CF1B1BB004476D8 /* STMWorkflowAC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C09B1CF1B1BA004476D8 /* STMWorkflowAC.m */; };
 		2C94C11F1CF1B1BB004476D8 /* UIToolbar+custom.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C09D1CF1B1BA004476D8 /* UIToolbar+custom.m */; };
 		2C94C1201CF1B1BB004476D8 /* UIViewController+custom.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C09F1CF1B1BA004476D8 /* UIViewController+custom.m */; };
 		2C94C1211CF1B1BB004476D8 /* STMAuthNC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C0A31CF1B1BA004476D8 /* STMAuthNC.m */; };
@@ -611,8 +611,8 @@
 		2C94C0971CF1B1BA004476D8 /* STMTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMTableViewCell.m; sourceTree = "<group>"; };
 		2C94C0981CF1B1BA004476D8 /* STMVariableCellsHeightTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMVariableCellsHeightTVC.h; sourceTree = "<group>"; };
 		2C94C0991CF1B1BA004476D8 /* STMVariableCellsHeightTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMVariableCellsHeightTVC.m; sourceTree = "<group>"; };
-		2C94C09A1CF1B1BA004476D8 /* STMWorkflowAS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMWorkflowAS.h; sourceTree = "<group>"; };
-		2C94C09B1CF1B1BA004476D8 /* STMWorkflowAS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMWorkflowAS.m; sourceTree = "<group>"; };
+		2C94C09A1CF1B1BA004476D8 /* STMWorkflowAC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMWorkflowAC.h; sourceTree = "<group>"; };
+		2C94C09B1CF1B1BA004476D8 /* STMWorkflowAC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMWorkflowAC.m; sourceTree = "<group>"; };
 		2C94C09C1CF1B1BA004476D8 /* UIToolbar+custom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIToolbar+custom.h"; sourceTree = "<group>"; };
 		2C94C09D1CF1B1BA004476D8 /* UIToolbar+custom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIToolbar+custom.m"; sourceTree = "<group>"; };
 		2C94C09E1CF1B1BA004476D8 /* UIViewController+custom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+custom.h"; sourceTree = "<group>"; };
@@ -1434,8 +1434,8 @@
 				2C94C0971CF1B1BA004476D8 /* STMTableViewCell.m */,
 				2C94C0981CF1B1BA004476D8 /* STMVariableCellsHeightTVC.h */,
 				2C94C0991CF1B1BA004476D8 /* STMVariableCellsHeightTVC.m */,
-				2C94C09A1CF1B1BA004476D8 /* STMWorkflowAS.h */,
-				2C94C09B1CF1B1BA004476D8 /* STMWorkflowAS.m */,
+				2C94C09A1CF1B1BA004476D8 /* STMWorkflowAC.h */,
+				2C94C09B1CF1B1BA004476D8 /* STMWorkflowAC.m */,
 				2C94C09C1CF1B1BA004476D8 /* UIToolbar+custom.h */,
 				2C94C09D1CF1B1BA004476D8 /* UIToolbar+custom.m */,
 				2C94C09E1CF1B1BA004476D8 /* UIViewController+custom.h */,
@@ -2956,7 +2956,7 @@
 				35BE11981E38F51E007F761B /* STMModeller.m in Sources */,
 				2C4255851DFC4B3300F0BF9B /* STMScheduledEvent+CoreDataClass.m in Sources */,
 				2CE24E2B1D226B0C0004B63C /* STMOutletSalesmanContract+CoreDataProperties.m in Sources */,
-				2C94C11E1CF1B1BB004476D8 /* STMWorkflowAS.m in Sources */,
+				2C94C11E1CF1B1BB004476D8 /* STMWorkflowAC.m in Sources */,
 				2C70FBD01E4214D900FE49AF /* STMUnsyncedDataHelper.m in Sources */,
 				2C94C12A1CF1B1BB004476D8 /* STMMessagesTVC.m in Sources */,
 				2C94C1121CF1B1BB004476D8 /* STMImagePickerController.m in Sources */,
