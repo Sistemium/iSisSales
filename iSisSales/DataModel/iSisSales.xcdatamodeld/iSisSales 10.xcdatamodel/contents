@@ -135,7 +135,7 @@
         <attribute name="tokenHash" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="xid" optional="YES" attributeType="Binary" indexed="YES" syncable="YES"/>
         <userInfo>
-            <entry key="STORE" value="CoreData"/>
+            <entry key="STORE" value="FMDB"/>
         </userInfo>
     </entity>
     <entity name="STMClientEntity" representedClassName="STMClientEntity" syncable="YES">
@@ -723,7 +723,7 @@
         <element name="STMBarCodeScan" positionX="-72" positionY="-2286" width="128" height="238"/>
         <element name="STMBarCodeType" positionX="-218" positionY="-2286" width="128" height="253"/>
         <element name="STMBatteryStatus" positionX="-648" positionY="-2286" width="128" height="223"/>
-        <element name="STMClientData" positionX="-936" positionY="-2286" width="128" height="420"/>
+        <element name="STMClientData" positionX="-936" positionY="-2286" width="128" height="418"/>
         <element name="STMClientEntity" positionX="70" positionY="-2286" width="128" height="223"/>
         <element name="STMContract" positionX="-1388" positionY="-1261" width="128" height="253"/>
         <element name="STMCoreLocation" positionX="-495" positionY="-1179" width="128" height="345"/>
