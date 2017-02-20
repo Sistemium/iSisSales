@@ -256,7 +256,7 @@
         <attribute name="xid" optional="YES" attributeType="Binary" indexed="YES" syncable="YES"/>
         <relationship name="wf" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMWorkflow" inverseName="entities" inverseEntity="STMWorkflow" syncable="YES"/>
         <userInfo>
-            <entry key="STORE" value="CoreData"/>
+            <entry key="STORE" value="FMDB"/>
         </userInfo>
     </entity>
     <entity name="STMEntityTemplate" syncable="YES">
@@ -730,7 +730,7 @@
         <element name="STMCorePhoto" positionX="-272" positionY="-1147" width="128" height="60"/>
         <element name="STMCorePicture" positionX="-92" positionY="-1188" width="128" height="330"/>
         <element name="STMDatum" positionX="-1224" positionY="-2286" width="128" height="135"/>
-        <element name="STMEntity" positionX="232" positionY="-681" width="128" height="375"/>
+        <element name="STMEntity" positionX="232" positionY="-681" width="128" height="373"/>
         <element name="STMEntityTemplate" positionX="-1368" positionY="-2286" width="128" height="193"/>
         <element name="STMJson" positionX="-504" positionY="-2286" width="128" height="238"/>
         <element name="STMLegalForm" positionX="-1368" positionY="-1546" width="128" height="253"/>
