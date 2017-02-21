@@ -301,6 +301,7 @@
 		35BE11981E38F51E007F761B /* STMModeller.m in Sources */ = {isa = PBXBuildFile; fileRef = 35BE11971E38F51E007F761B /* STMModeller.m */; };
 		35BE119C1E3A3A90007F761B /* STMPersister+CoreData.m in Sources */ = {isa = PBXBuildFile; fileRef = 35BE119B1E3A3A8F007F761B /* STMPersister+CoreData.m */; };
 		3E873491EFBF4D2FD467BB9A /* Pods_iSisSalesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFEE3E7425CEF6DC61EAF6D3 /* Pods_iSisSalesTests.framework */; };
+		4678C3D65044EE1435611066 /* Pods_iSisSalesUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 464A3CD5CCC3049472886369 /* Pods_iSisSalesUITests.framework */; };
 		744B5294EF591EB5FCB18EDD /* Pods_iSisSalesTestsInMemory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F3911A3DEFF236838CDC4D1 /* Pods_iSisSalesTestsInMemory.framework */; };
 		B765DF6BD8F1900FE8C5AE92 /* Pods_iSisSales.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D83C8648154EC85EB3023D68 /* Pods_iSisSales.framework */; };
 		D90B75781E2FA62D0015A994 /* iSistemiumCoreTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D90B75761E2FA62D0015A994 /* iSistemiumCoreTests.m */; };
@@ -951,6 +952,7 @@
 		35BE119B1E3A3A8F007F761B /* STMPersister+CoreData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "STMPersister+CoreData.m"; sourceTree = "<group>"; };
 		390FE1B1108DBF3207298BAA /* Pods-iSisSalesSpeedTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesSpeedTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesSpeedTests/Pods-iSisSalesSpeedTests.debug.xcconfig"; sourceTree = "<group>"; };
 		4033E05BE502B1B13735187B /* Pods-iSisSales.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSales.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSales/Pods-iSisSales.debug.xcconfig"; sourceTree = "<group>"; };
+		464A3CD5CCC3049472886369 /* Pods_iSisSalesUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iSisSalesUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B6F8D8FF8734D3C12C75FA4 /* Pods-iSisSalesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesTests/Pods-iSisSalesTests.release.xcconfig"; sourceTree = "<group>"; };
 		6F3911A3DEFF236838CDC4D1 /* Pods_iSisSalesTestsInMemory.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iSisSalesTestsInMemory.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FA720401327377AC917714F /* Pods-iSisSalesOfLibsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesOfLibsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesOfLibsTests/Pods-iSisSalesOfLibsTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -958,6 +960,7 @@
 		9A5E8F9623682BCCB7081A46 /* Pods_iSisSalesSpeedTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iSisSalesSpeedTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9ABF4A6FD9F2C33D149A9E1B /* Pods-iSisSalesTestsInMemory.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesTestsInMemory.release.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesTestsInMemory/Pods-iSisSalesTestsInMemory.release.xcconfig"; sourceTree = "<group>"; };
 		A5AB0EC47BD72C1AE7EBF7FA /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BABBA9023B105EF42B21C27D /* Pods-iSisSalesUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesUITests/Pods-iSisSalesUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		D83C8648154EC85EB3023D68 /* Pods_iSisSales.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iSisSales.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8EA36A0AC383581E9899EC7 /* Pods-iSisSalesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesTests/Pods-iSisSalesTests.debug.xcconfig"; sourceTree = "<group>"; };
 		D90B75761E2FA62D0015A994 /* iSistemiumCoreTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iSistemiumCoreTests.m; sourceTree = "<group>"; };
@@ -1037,6 +1040,7 @@
 		DA69E3A73683282867CEBDE0 /* Pods_iSisSalesOfLibsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iSisSalesOfLibsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E40623DC4ABD0FB0D719ED86 /* Pods-iSisSales.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSales.release.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSales/Pods-iSisSales.release.xcconfig"; sourceTree = "<group>"; };
 		EFEE3E7425CEF6DC61EAF6D3 /* Pods_iSisSalesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iSisSalesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCE75EE42F351494BC43E2DD /* Pods-iSisSalesUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesUITests/Pods-iSisSalesUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1061,6 +1065,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4678C3D65044EE1435611066 /* Pods_iSisSalesUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1101,6 +1106,7 @@
 				DA69E3A73683282867CEBDE0 /* Pods_iSisSalesOfLibsTests.framework */,
 				6F3911A3DEFF236838CDC4D1 /* Pods_iSisSalesTestsInMemory.framework */,
 				9A5E8F9623682BCCB7081A46 /* Pods_iSisSalesSpeedTests.framework */,
+				464A3CD5CCC3049472886369 /* Pods_iSisSalesUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -2122,6 +2128,8 @@
 				9ABF4A6FD9F2C33D149A9E1B /* Pods-iSisSalesTestsInMemory.release.xcconfig */,
 				390FE1B1108DBF3207298BAA /* Pods-iSisSalesSpeedTests.debug.xcconfig */,
 				1C2F058E789CCC06B62D470D /* Pods-iSisSalesSpeedTests.release.xcconfig */,
+				BABBA9023B105EF42B21C27D /* Pods-iSisSalesUITests.debug.xcconfig */,
+				FCE75EE42F351494BC43E2DD /* Pods-iSisSalesUITests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -2292,9 +2300,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2C94BFFD1CF1ACB8004476D8 /* Build configuration list for PBXNativeTarget "iSisSalesUITests" */;
 			buildPhases = (
+				CDDA2B6803C4971A47898666 /* [CP] Check Pods Manifest.lock */,
 				2C94BFEA1CF1ACB8004476D8 /* Sources */,
 				2C94BFEB1CF1ACB8004476D8 /* Frameworks */,
 				2C94BFEC1CF1ACB8004476D8 /* Resources */,
+				2ECAC81B13B564A74386B1D6 /* [CP] Embed Pods Frameworks */,
+				30ED465DFEC666AFFEBB0846 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -2611,6 +2622,36 @@
 			shellPath = /bin/sh;
 			shellScript = "source ./fabric.sh";
 		};
+		2ECAC81B13B564A74386B1D6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iSisSalesUITests/Pods-iSisSalesUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		30ED465DFEC666AFFEBB0846 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iSisSalesUITests/Pods-iSisSalesUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		41490621D821E641AA346E52 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -2744,6 +2785,21 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iSisSales/Pods-iSisSales-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CDDA2B6803C4971A47898666 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		D44387C132DB2AC55C4A5EF2 /* [CP] Embed Pods Frameworks */ = {
@@ -3349,6 +3405,7 @@
 		};
 		2C94BFFE1CF1ACB8004476D8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BABBA9023B105EF42B21C27D /* Pods-iSisSalesUITests.debug.xcconfig */;
 			buildSettings = {
 				GCC_PREFIX_HEADER = "iSisSales/iSistemium-Prefix.pch";
 				INFOPLIST_FILE = iSisSalesUITests/Info.plist;
@@ -3361,6 +3418,7 @@
 		};
 		2C94BFFF1CF1ACB8004476D8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FCE75EE42F351494BC43E2DD /* Pods-iSisSalesUITests.release.xcconfig */;
 			buildSettings = {
 				GCC_PREFIX_HEADER = "iSisSales/iSistemium-Prefix.pch";
 				INFOPLIST_FILE = iSisSalesUITests/Info.plist;
