@@ -26,6 +26,18 @@
 					<string>Local Baseline</string>
 				</dict>
 			</dict>
+			<key>testMergeAsyncSpeed</key>
+			<dict>
+				<key>com.apple.XCTPerformanceMetric_WallClockTime</key>
+				<dict>
+					<key>baselineAverage</key>
+					<real>1.424</real>
+					<key>baselineIntegrationDisplayName</key>
+					<string>Local Baseline</string>
+					<key>maxPercentRelativeStandardDeviation</key>
+					<real>10</real>
+				</dict>
+			</dict>
 			<key>testMergeManySpeed</key>
 			<dict>
 				<key>com.apple.XCTPerformanceMetric_WallClockTime</key>

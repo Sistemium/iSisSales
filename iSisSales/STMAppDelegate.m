@@ -36,7 +36,7 @@
                                           forKey:@"deviceName"];
     [[Crashlytics sharedInstance] setObjectValue:[STMFunctions devicePlatform]
                                           forKey:@"devicePlatform"];
-    [[Crashlytics sharedInstance] setObjectValue:[STMClientDataController deviceUUIDString]
+    [[Crashlytics sharedInstance] setObjectValue:[STMClientDataController deviceUUID]
                                           forKey:@"deviceUUID"];
     [[Crashlytics sharedInstance] setObjectValue:[STMAuthController authController].userID
                                           forKey:@"userID"];

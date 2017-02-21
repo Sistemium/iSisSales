@@ -335,11 +335,11 @@
 		D96BFEB31E547E950080327D /* STMFakePersisting+Promised.m in Sources */ = {isa = PBXBuildFile; fileRef = D95FBADC1E486D8B0029F3C8 /* STMFakePersisting+Promised.m */; };
 		D96BFEB91E54A8870080327D /* STMCoreObject.m in Sources */ = {isa = PBXBuildFile; fileRef = D96BFEB81E54A8870080327D /* STMCoreObject.m */; };
 		D96BFEC61E5721040080327D /* STMModeller+Interceptable.m in Sources */ = {isa = PBXBuildFile; fileRef = D96BFEC51E5721040080327D /* STMModeller+Interceptable.m */; };
-		D96BFECB1E573A130080327D /* PersistingInterceptingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D96BFECA1E573A130080327D /* PersistingInterceptingTests.m */; };
 		D96BFECC1E57414B0080327D /* PersistingInterceptingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D96BFECA1E573A130080327D /* PersistingInterceptingTests.m */; };
 		D96BFED01E576D9B0080327D /* STMPersistingInterceptorUniqueProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = D96BFECF1E576D9B0080327D /* STMPersistingInterceptorUniqueProperty.m */; };
 		D96BFED91E58B84A0080327D /* STMPersister+Transactions.m in Sources */ = {isa = PBXBuildFile; fileRef = D96BFED81E58B84A0080327D /* STMPersister+Transactions.m */; };
 		D96BFEDF1E5904070080327D /* STMFmdb+Transactions.m in Sources */ = {isa = PBXBuildFile; fileRef = D96BFEDE1E5904070080327D /* STMFmdb+Transactions.m */; };
+		D96BFEE21E5AF3B00080327D /* STMInMemoryTransaction.m in Sources */ = {isa = PBXBuildFile; fileRef = D96BFEE11E5AF3B00080327D /* STMInMemoryTransaction.m */; };
 		D9F0B38E1E3EA6B900989BB0 /* STMSyncerHelper+Defantomizing.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F0B38D1E3EA6B900989BB0 /* STMSyncerHelper+Defantomizing.m */; };
 		D9F0B3921E3FE98400989BB0 /* STMScriptMessageHandler+Private.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F0B3911E3FE98400989BB0 /* STMScriptMessageHandler+Private.m */; };
 		D9F0B3951E4094F300989BB0 /* STMScriptMessageHandler+Predicates.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F0B3941E4094F300989BB0 /* STMScriptMessageHandler+Predicates.m */; };
@@ -1018,6 +1018,8 @@
 		D96BFED81E58B84A0080327D /* STMPersister+Transactions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "STMPersister+Transactions.m"; sourceTree = "<group>"; };
 		D96BFEDD1E5904070080327D /* STMFmdb+Transactions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "STMFmdb+Transactions.h"; sourceTree = "<group>"; };
 		D96BFEDE1E5904070080327D /* STMFmdb+Transactions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "STMFmdb+Transactions.m"; sourceTree = "<group>"; };
+		D96BFEE01E5AF3B00080327D /* STMInMemoryTransaction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMInMemoryTransaction.h; sourceTree = "<group>"; };
+		D96BFEE11E5AF3B00080327D /* STMInMemoryTransaction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMInMemoryTransaction.m; sourceTree = "<group>"; };
 		D9F0B38C1E3EA6B900989BB0 /* STMSyncerHelper+Defantomizing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "STMSyncerHelper+Defantomizing.h"; sourceTree = "<group>"; };
 		D9F0B38D1E3EA6B900989BB0 /* STMSyncerHelper+Defantomizing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "STMSyncerHelper+Defantomizing.m"; sourceTree = "<group>"; };
 		D9F0B3901E3FE98400989BB0 /* STMScriptMessageHandler+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "STMScriptMessageHandler+Private.h"; sourceTree = "<group>"; };
@@ -2173,6 +2175,8 @@
 				D92982FA1E48C4DA00A4F153 /* STMFakePersisting+Async.m */,
 				D95FBADB1E486D8B0029F3C8 /* STMFakePersisting+Promised.h */,
 				D95FBADC1E486D8B0029F3C8 /* STMFakePersisting+Promised.m */,
+				D96BFEE01E5AF3B00080327D /* STMInMemoryTransaction.h */,
+				D96BFEE11E5AF3B00080327D /* STMInMemoryTransaction.m */,
 			);
 			name = FakePersisting;
 			sourceTree = "<group>";
@@ -2968,6 +2972,7 @@
 				2C6113021D0BDE7B006BCB30 /* STMLocation.m in Sources */,
 				2C4255841DFC4B3300F0BF9B /* STMSchedulePurpose+CoreDataProperties.m in Sources */,
 				2CCD5DD01E36476800B84565 /* STMSyncer.m in Sources */,
+				D96BFEE21E5AF3B00080327D /* STMInMemoryTransaction.m in Sources */,
 				2C0A8CAE1D09903C007C5B57 /* STMPartner+CoreDataProperties.m in Sources */,
 				2C5DA9131E21252600679735 /* STMScriptMessageHandler.m in Sources */,
 				2C94C0F81CF1B1BB004476D8 /* STMMessageController.m in Sources */,
@@ -3138,7 +3143,6 @@
 				D92982F71E48B36400A4F153 /* PersistingSyncTests.m in Sources */,
 				D95FBAE91E489C540029F3C8 /* iSisSalesTestsInMemory.m in Sources */,
 				D95FBAF11E48A06F0029F3C8 /* PersistingObservingTests.m in Sources */,
-				D96BFECB1E573A130080327D /* PersistingInterceptingTests.m in Sources */,
 				350B7E701E4C8FFC0051D0A9 /* STMModellerTests.m in Sources */,
 				D95FBAF21E48A2100029F3C8 /* STMPersistingTests.m in Sources */,
 				D92982F81E48B36D00A4F153 /* ScriptMessagingTests.m in Sources */,
