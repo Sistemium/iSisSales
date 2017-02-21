@@ -334,7 +334,6 @@
 		D96BFEB31E547E950080327D /* STMFakePersisting+Promised.m in Sources */ = {isa = PBXBuildFile; fileRef = D95FBADC1E486D8B0029F3C8 /* STMFakePersisting+Promised.m */; };
 		D96BFEB91E54A8870080327D /* STMCoreObject.m in Sources */ = {isa = PBXBuildFile; fileRef = D96BFEB81E54A8870080327D /* STMCoreObject.m */; };
 		D96BFEC61E5721040080327D /* STMModeller+Interceptable.m in Sources */ = {isa = PBXBuildFile; fileRef = D96BFEC51E5721040080327D /* STMModeller+Interceptable.m */; };
-		D96BFECB1E573A130080327D /* PersistingInterceptingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D96BFECA1E573A130080327D /* PersistingInterceptingTests.m */; };
 		D96BFECC1E57414B0080327D /* PersistingInterceptingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D96BFECA1E573A130080327D /* PersistingInterceptingTests.m */; };
 		D96BFED01E576D9B0080327D /* STMPersistingInterceptorUniqueProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = D96BFECF1E576D9B0080327D /* STMPersistingInterceptorUniqueProperty.m */; };
 		D96BFED91E58B84A0080327D /* STMPersister+Transactions.m in Sources */ = {isa = PBXBuildFile; fileRef = D96BFED81E58B84A0080327D /* STMPersister+Transactions.m */; };
@@ -3088,7 +3087,6 @@
 				D92982F71E48B36400A4F153 /* PersistingSyncTests.m in Sources */,
 				D95FBAE91E489C540029F3C8 /* iSisSalesTestsInMemory.m in Sources */,
 				D95FBAF11E48A06F0029F3C8 /* PersistingObservingTests.m in Sources */,
-				D96BFECB1E573A130080327D /* PersistingInterceptingTests.m in Sources */,
 				350B7E701E4C8FFC0051D0A9 /* STMModellerTests.m in Sources */,
 				D95FBAF21E48A2100029F3C8 /* STMPersistingTests.m in Sources */,
 				D92982F81E48B36D00A4F153 /* ScriptMessagingTests.m in Sources */,
