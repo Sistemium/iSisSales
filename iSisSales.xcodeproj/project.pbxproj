@@ -3411,6 +3411,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BABBA9023B105EF42B21C27D /* Pods-iSisSalesUITests.debug.xcconfig */;
 			buildSettings = {
+				BUNDLE_LOADER = "";
 				GCC_PREFIX_HEADER = "iSisSales/iSistemium-Prefix.pch";
 				INFOPLIST_FILE = iSisSalesUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -3424,6 +3425,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FCE75EE42F351494BC43E2DD /* Pods-iSisSalesUITests.release.xcconfig */;
 			buildSettings = {
+				BUNDLE_LOADER = "";
 				GCC_PREFIX_HEADER = "iSisSales/iSistemium-Prefix.pch";
 				INFOPLIST_FILE = iSisSalesUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
