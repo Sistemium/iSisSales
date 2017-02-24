@@ -1022,6 +1022,7 @@
 		D9E1973C1E5F0E5800F8FC18 /* STMOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMOperation.m; sourceTree = "<group>"; };
 		D9E1973E1E5F0E7500F8FC18 /* STMOperationQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMOperationQueue.h; sourceTree = "<group>"; };
 		D9E1973F1E5F0E7500F8FC18 /* STMOperationQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMOperationQueue.m; sourceTree = "<group>"; };
+		D9E439521E60115C0094DC14 /* STMLogging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMLogging.h; sourceTree = "<group>"; };
 		D9F0B38C1E3EA6B900989BB0 /* STMSyncerHelper+Defantomizing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "STMSyncerHelper+Defantomizing.h"; sourceTree = "<group>"; };
 		D9F0B38D1E3EA6B900989BB0 /* STMSyncerHelper+Defantomizing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "STMSyncerHelper+Defantomizing.m"; sourceTree = "<group>"; };
 		D9F0B3901E3FE98400989BB0 /* STMScriptMessageHandler+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "STMScriptMessageHandler+Private.h"; sourceTree = "<group>"; };
@@ -2079,6 +2080,7 @@
 				D96BFEBB1E5609D50080327D /* STMCoreUserDefaults.h */,
 				D96BFEBF1E56538D0080327D /* STMCoreControlling.h */,
 				D96BFED11E584AEB0080327D /* STMNotifications.h */,
+				D9E439521E60115C0094DC14 /* STMLogging.h */,
 			);
 			name = "☯ Protocols";
 			path = ../../iSistemiumCore/iSistemiumCore/Protocols;
