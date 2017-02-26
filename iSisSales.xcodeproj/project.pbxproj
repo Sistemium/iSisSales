@@ -339,6 +339,8 @@
 		D96BFED91E58B84A0080327D /* STMPersister+Transactions.m in Sources */ = {isa = PBXBuildFile; fileRef = D96BFED81E58B84A0080327D /* STMPersister+Transactions.m */; };
 		D96BFEDF1E5904070080327D /* STMFmdb+Transactions.m in Sources */ = {isa = PBXBuildFile; fileRef = D96BFEDE1E5904070080327D /* STMFmdb+Transactions.m */; };
 		D96BFEE21E5AF3B00080327D /* STMInMemoryTransaction.m in Sources */ = {isa = PBXBuildFile; fileRef = D96BFEE11E5AF3B00080327D /* STMInMemoryTransaction.m */; };
+		D9E1973D1E5F0E5800F8FC18 /* STMOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = D9E1973C1E5F0E5800F8FC18 /* STMOperation.m */; };
+		D9E197401E5F0E7500F8FC18 /* STMOperationQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = D9E1973F1E5F0E7500F8FC18 /* STMOperationQueue.m */; };
 		D9F0B38E1E3EA6B900989BB0 /* STMSyncerHelper+Defantomizing.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F0B38D1E3EA6B900989BB0 /* STMSyncerHelper+Defantomizing.m */; };
 		D9F0B3921E3FE98400989BB0 /* STMScriptMessageHandler+Private.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F0B3911E3FE98400989BB0 /* STMScriptMessageHandler+Private.m */; };
 		D9F0B3951E4094F300989BB0 /* STMScriptMessageHandler+Predicates.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F0B3941E4094F300989BB0 /* STMScriptMessageHandler+Predicates.m */; };
@@ -1007,6 +1009,11 @@
 		D96BFEDE1E5904070080327D /* STMFmdb+Transactions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "STMFmdb+Transactions.m"; sourceTree = "<group>"; };
 		D96BFEE01E5AF3B00080327D /* STMInMemoryTransaction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMInMemoryTransaction.h; sourceTree = "<group>"; };
 		D96BFEE11E5AF3B00080327D /* STMInMemoryTransaction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMInMemoryTransaction.m; sourceTree = "<group>"; };
+		D9E1973B1E5F0E5800F8FC18 /* STMOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMOperation.h; sourceTree = "<group>"; };
+		D9E1973C1E5F0E5800F8FC18 /* STMOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMOperation.m; sourceTree = "<group>"; };
+		D9E1973E1E5F0E7500F8FC18 /* STMOperationQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMOperationQueue.h; sourceTree = "<group>"; };
+		D9E1973F1E5F0E7500F8FC18 /* STMOperationQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMOperationQueue.m; sourceTree = "<group>"; };
+		D9E439521E60115C0094DC14 /* STMLogging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMLogging.h; sourceTree = "<group>"; };
 		D9F0B38C1E3EA6B900989BB0 /* STMSyncerHelper+Defantomizing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "STMSyncerHelper+Defantomizing.h"; sourceTree = "<group>"; };
 		D9F0B38D1E3EA6B900989BB0 /* STMSyncerHelper+Defantomizing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "STMSyncerHelper+Defantomizing.m"; sourceTree = "<group>"; };
 		D9F0B3901E3FE98400989BB0 /* STMScriptMessageHandler+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "STMScriptMessageHandler+Private.h"; sourceTree = "<group>"; };
@@ -1409,6 +1416,10 @@
 				2C94C0551CF1B1BA004476D8 /* STMFetchRequest.m */,
 				2C94C0571CF1B1BA004476D8 /* STMPredicate.h */,
 				2C94C0581CF1B1BA004476D8 /* STMPredicate.m */,
+				D9E1973B1E5F0E5800F8FC18 /* STMOperation.h */,
+				D9E1973C1E5F0E5800F8FC18 /* STMOperation.m */,
+				D9E1973E1E5F0E7500F8FC18 /* STMOperationQueue.h */,
+				D9E1973F1E5F0E7500F8FC18 /* STMOperationQueue.m */,
 			);
 			name = "☯ STMNS";
 			path = STMNS;
@@ -2060,6 +2071,7 @@
 				D96BFEBB1E5609D50080327D /* STMCoreUserDefaults.h */,
 				D96BFEBF1E56538D0080327D /* STMCoreControlling.h */,
 				D96BFED11E584AEB0080327D /* STMNotifications.h */,
+				D9E439521E60115C0094DC14 /* STMLogging.h */,
 			);
 			name = "☯ Protocols";
 			path = ../../iSistemiumCore/iSistemiumCore/Protocols;
@@ -2910,6 +2922,7 @@
 				2C0A8CAE1D09903C007C5B57 /* STMPartner+CoreDataProperties.m in Sources */,
 				2C5DA9131E21252600679735 /* STMScriptMessageHandler.m in Sources */,
 				2C94C0F81CF1B1BB004476D8 /* STMMessageController.m in Sources */,
+				D9E1973D1E5F0E5800F8FC18 /* STMOperation.m in Sources */,
 				D94F46041E38AC5600D78925 /* STMPersister+Async.m in Sources */,
 				2C5034161DF5B00900687A64 /* STMSaleOrder+CoreDataClass.m in Sources */,
 				2C5034171DF5B00900687A64 /* STMSaleOrder+CoreDataProperties.m in Sources */,
@@ -3021,6 +3034,7 @@
 				2C94C0FD1CF1B1BB004476D8 /* STMPredicate.m in Sources */,
 				2C73666A1E32470400DD0D45 /* STMSyncerHelper.m in Sources */,
 				2C94C1281CF1B1BB004476D8 /* STMLogMessagesSVC.m in Sources */,
+				D9E197401E5F0E7500F8FC18 /* STMOperationQueue.m in Sources */,
 				2C9AE9A11CF5AF690018D9B3 /* STMJson+CoreDataProperties.m in Sources */,
 				D94F460B1E3B626B00D78925 /* STMFmdb+Private.m in Sources */,
 				2C94C19A1CF1B1F3004476D8 /* STMSetting.m in Sources */,
