@@ -916,6 +916,7 @@
 		2CD5D86E1E51FB1E00A88639 /* SessionManagerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SessionManagerTests.m; sourceTree = "<group>"; };
 		2CD5D8701E57073300A88639 /* LoggerPatternTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoggerPatternTests.m; sourceTree = "<group>"; };
 		2CD5D8731E5D7C9C00A88639 /* iSisSales.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iSisSales.xcdatamodel; sourceTree = "<group>"; };
+		2CD5D8771E647B2300A88639 /* STMFiling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMFiling.h; sourceTree = "<group>"; };
 		2CE24E231D226B0B0004B63C /* STMOutletSalesmanContract+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "STMOutletSalesmanContract+CoreDataProperties.h"; sourceTree = "<group>"; };
 		2CE24E241D226B0B0004B63C /* STMOutletSalesmanContract+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "STMOutletSalesmanContract+CoreDataProperties.m"; sourceTree = "<group>"; };
 		2CE24E271D226B0B0004B63C /* STMContract+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "STMContract+CoreDataProperties.h"; sourceTree = "<group>"; };
@@ -2074,6 +2075,7 @@
 				D96BFEBF1E56538D0080327D /* STMCoreControlling.h */,
 				D96BFED11E584AEB0080327D /* STMNotifications.h */,
 				D9E439521E60115C0094DC14 /* STMLogging.h */,
+				2CD5D8771E647B2300A88639 /* STMFiling.h */,
 			);
 			name = "☯ Protocols";
 			path = ../../iSistemiumCore/iSistemiumCore/Protocols;
