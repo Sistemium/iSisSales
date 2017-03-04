@@ -343,7 +343,6 @@
 		D96BFED91E58B84A0080327D /* STMPersister+Transactions.m in Sources */ = {isa = PBXBuildFile; fileRef = D96BFED81E58B84A0080327D /* STMPersister+Transactions.m */; };
 		D96BFEDF1E5904070080327D /* STMFmdb+Transactions.m in Sources */ = {isa = PBXBuildFile; fileRef = D96BFEDE1E5904070080327D /* STMFmdb+Transactions.m */; };
 		D96BFEE21E5AF3B00080327D /* STMInMemoryTransaction.m in Sources */ = {isa = PBXBuildFile; fileRef = D96BFEE11E5AF3B00080327D /* STMInMemoryTransaction.m */; };
-		D9DB3D831E630C6C004A9478 /* ModelVersioningTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DB3D811E62F3F8004A9478 /* ModelVersioningTests.m */; };
 		D9E1973D1E5F0E5800F8FC18 /* STMOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = D9E1973C1E5F0E5800F8FC18 /* STMOperation.m */; };
 		D9E197401E5F0E7500F8FC18 /* STMOperationQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = D9E1973F1E5F0E7500F8FC18 /* STMOperationQueue.m */; };
 		D9F0B38E1E3EA6B900989BB0 /* STMSyncerHelper+Defantomizing.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F0B38D1E3EA6B900989BB0 /* STMSyncerHelper+Defantomizing.m */; };
@@ -1020,7 +1019,6 @@
 		D96BFEDE1E5904070080327D /* STMFmdb+Transactions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "STMFmdb+Transactions.m"; sourceTree = "<group>"; };
 		D96BFEE01E5AF3B00080327D /* STMInMemoryTransaction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMInMemoryTransaction.h; sourceTree = "<group>"; };
 		D96BFEE11E5AF3B00080327D /* STMInMemoryTransaction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMInMemoryTransaction.m; sourceTree = "<group>"; };
-		D9DB3D811E62F3F8004A9478 /* ModelVersioningTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModelVersioningTests.m; sourceTree = "<group>"; };
 		D9E1973B1E5F0E5800F8FC18 /* STMOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMOperation.h; sourceTree = "<group>"; };
 		D9E1973C1E5F0E5800F8FC18 /* STMOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMOperation.m; sourceTree = "<group>"; };
 		D9E1973E1E5F0E7500F8FC18 /* STMOperationQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMOperationQueue.h; sourceTree = "<group>"; };
@@ -2167,7 +2165,6 @@
 				2CA8B6441E4C9B5E00E359B0 /* LoggerTests.m */,
 				2CD5D8701E57073300A88639 /* LoggerPatternTests.m */,
 				2CD5D86E1E51FB1E00A88639 /* SessionManagerTests.m */,
-				D9DB3D811E62F3F8004A9478 /* ModelVersioningTests.m */,
 				2CD5D8781E65938100A88639 /* FilingTests.m */,
 				2CD5D87A1E65C23C00A88639 /* testModel.xcdatamodeld */,
 				2CD5D8891E670AB400A88639 /* testModelChanged.xcdatamodeld */,
@@ -3119,7 +3116,6 @@
 				D92982FF1E48E64400A4F153 /* PersistingAsyncTests.m in Sources */,
 				D92983071E4C6A7400A4F153 /* DefantomizingTests.m in Sources */,
 				D92983061E4BFDC500A4F153 /* UnobservingTests.m in Sources */,
-				D9DB3D831E630C6C004A9478 /* ModelVersioningTests.m in Sources */,
 				D92982F61E48B07F00A4F153 /* SyncingDataTests.m in Sources */,
 				D96BFE981E4E0EC00080327D /* STMCorePicturesControllerTests.m in Sources */,
 			);
