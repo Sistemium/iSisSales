@@ -303,7 +303,6 @@
 		2CD5D8921E69743200A88639 /* STMCoreSessionFiler.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CD5D8911E69743200A88639 /* STMCoreSessionFiler.m */; };
 		2CD5D8951E6AADE500A88639 /* STMPersistingInterceptorUniqueProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CD5D8941E6AADE500A88639 /* STMPersistingInterceptorUniqueProperty.m */; };
 		2CD5D89D1E6AAE2100A88639 /* STMFmdb.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CD5D8981E6AAE2100A88639 /* STMFmdb.m */; };
-		2CD5D89E1E6AAE2100A88639 /* STMFmdb+Private.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CD5D89A1E6AAE2100A88639 /* STMFmdb+Private.m */; };
 		2CD5D89F1E6AAE2100A88639 /* STMFmdb+Transactions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CD5D89C1E6AAE2100A88639 /* STMFmdb+Transactions.m */; };
 		2CD5D8AE1E6AAE6100A88639 /* STMPersister.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CD5D8A21E6AAE6100A88639 /* STMPersister.m */; };
 		2CD5D8AF1E6AAE6100A88639 /* STMPersister+Async.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CD5D8A41E6AAE6100A88639 /* STMPersister+Async.m */; };
@@ -347,6 +346,7 @@
 		D96BFEB31E547E950080327D /* STMFakePersisting+Promised.m in Sources */ = {isa = PBXBuildFile; fileRef = D95FBADC1E486D8B0029F3C8 /* STMFakePersisting+Promised.m */; };
 		D96BFEB91E54A8870080327D /* STMCoreObject.m in Sources */ = {isa = PBXBuildFile; fileRef = D96BFEB81E54A8870080327D /* STMCoreObject.m */; };
 		D96BFEE21E5AF3B00080327D /* STMInMemoryTransaction.m in Sources */ = {isa = PBXBuildFile; fileRef = D96BFEE11E5AF3B00080327D /* STMInMemoryTransaction.m */; };
+		D9DB3D861E6C5F88004A9478 /* STMFmdbSchema.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DB3D851E6C5F88004A9478 /* STMFmdbSchema.m */; };
 		D9E1973D1E5F0E5800F8FC18 /* STMOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = D9E1973C1E5F0E5800F8FC18 /* STMOperation.m */; };
 		D9E197401E5F0E7500F8FC18 /* STMOperationQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = D9E1973F1E5F0E7500F8FC18 /* STMOperationQueue.m */; };
 		D9F0B38E1E3EA6B900989BB0 /* STMSyncerHelper+Defantomizing.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F0B38D1E3EA6B900989BB0 /* STMSyncerHelper+Defantomizing.m */; };
@@ -919,7 +919,6 @@
 		2CD5D8971E6AAE2100A88639 /* STMFmdb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMFmdb.h; sourceTree = "<group>"; };
 		2CD5D8981E6AAE2100A88639 /* STMFmdb.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMFmdb.m; sourceTree = "<group>"; };
 		2CD5D8991E6AAE2100A88639 /* STMFmdb+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "STMFmdb+Private.h"; sourceTree = "<group>"; };
-		2CD5D89A1E6AAE2100A88639 /* STMFmdb+Private.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "STMFmdb+Private.m"; sourceTree = "<group>"; };
 		2CD5D89B1E6AAE2100A88639 /* STMFmdb+Transactions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "STMFmdb+Transactions.h"; sourceTree = "<group>"; };
 		2CD5D89C1E6AAE2100A88639 /* STMFmdb+Transactions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "STMFmdb+Transactions.m"; sourceTree = "<group>"; };
 		2CD5D8A11E6AAE6100A88639 /* STMPersister.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMPersister.h; sourceTree = "<group>"; };
@@ -1025,6 +1024,8 @@
 		D96BFED61E58AE6F0080327D /* STMPersistingTransaction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMPersistingTransaction.h; sourceTree = "<group>"; };
 		D96BFEE01E5AF3B00080327D /* STMInMemoryTransaction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMInMemoryTransaction.h; sourceTree = "<group>"; };
 		D96BFEE11E5AF3B00080327D /* STMInMemoryTransaction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMInMemoryTransaction.m; sourceTree = "<group>"; };
+		D9DB3D841E6C5F88004A9478 /* STMFmdbSchema.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMFmdbSchema.h; sourceTree = "<group>"; };
+		D9DB3D851E6C5F88004A9478 /* STMFmdbSchema.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMFmdbSchema.m; sourceTree = "<group>"; };
 		D9E1973B1E5F0E5800F8FC18 /* STMOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMOperation.h; sourceTree = "<group>"; };
 		D9E1973C1E5F0E5800F8FC18 /* STMOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMOperation.m; sourceTree = "<group>"; };
 		D9E1973E1E5F0E7500F8FC18 /* STMOperationQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMOperationQueue.h; sourceTree = "<group>"; };
@@ -2104,9 +2105,10 @@
 				2CD5D8971E6AAE2100A88639 /* STMFmdb.h */,
 				2CD5D8981E6AAE2100A88639 /* STMFmdb.m */,
 				2CD5D8991E6AAE2100A88639 /* STMFmdb+Private.h */,
-				2CD5D89A1E6AAE2100A88639 /* STMFmdb+Private.m */,
 				2CD5D89B1E6AAE2100A88639 /* STMFmdb+Transactions.h */,
 				2CD5D89C1E6AAE2100A88639 /* STMFmdb+Transactions.m */,
+				D9DB3D841E6C5F88004A9478 /* STMFmdbSchema.h */,
+				D9DB3D851E6C5F88004A9478 /* STMFmdbSchema.m */,
 			);
 			path = FMDB;
 			sourceTree = "<group>";
@@ -3090,8 +3092,8 @@
 				2C94C1121CF1B1BB004476D8 /* STMImagePickerController.m in Sources */,
 				2CCD5DB21E3646EB00B84565 /* STMFunctions.m in Sources */,
 				2C94BFCF1CF1ACB8004476D8 /* main.m in Sources */,
+				D9DB3D861E6C5F88004A9478 /* STMFmdbSchema.m in Sources */,
 				2C94C12F1CF1B1BB004476D8 /* STMScannerInfoVC.m in Sources */,
-				2CD5D89E1E6AAE2100A88639 /* STMFmdb+Private.m in Sources */,
 				2C4255861DFC4B3300F0BF9B /* STMScheduledEvent+CoreDataProperties.m in Sources */,
 				2C94C11C1CF1B1BB004476D8 /* STMTableViewCell.m in Sources */,
 				2CE24E2E1D226B0C0004B63C /* STMContract.m in Sources */,
