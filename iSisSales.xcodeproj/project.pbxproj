@@ -1001,6 +1001,7 @@
 		D92983051E4BFDC500A4F153 /* UnobservingTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UnobservingTests.m; sourceTree = "<group>"; };
 		D9343AF51E467FD700B7A5E5 /* STMIndexedArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMIndexedArray.h; sourceTree = "<group>"; };
 		D9343AF61E467FD700B7A5E5 /* STMIndexedArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMIndexedArray.m; sourceTree = "<group>"; };
+		D948DC9F1E6CC97D00F9A1CF /* STMCoreSessionFiler+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "STMCoreSessionFiler+Private.h"; sourceTree = "<group>"; };
 		D94F46051E3A1FFD00D78925 /* SocketIOTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SocketIOTests.m; path = ../../iSistemiumCore/iSistemiumCoreTests/SocketIOTests.m; sourceTree = "<group>"; };
 		D94F46151E3E8D2F00D78925 /* STMCoreSession+Persistable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "STMCoreSession+Persistable.h"; sourceTree = "<group>"; };
 		D94F46161E3E8D2F00D78925 /* STMCoreSession+Persistable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "STMCoreSession+Persistable.m"; sourceTree = "<group>"; };
@@ -1150,6 +1151,7 @@
 				D94F46151E3E8D2F00D78925 /* STMCoreSession+Persistable.h */,
 				D94F46161E3E8D2F00D78925 /* STMCoreSession+Persistable.m */,
 				2CD5D8901E69743200A88639 /* STMCoreSessionFiler.h */,
+				D948DC9F1E6CC97D00F9A1CF /* STMCoreSessionFiler+Private.h */,
 				2CD5D8911E69743200A88639 /* STMCoreSessionFiler.m */,
 				2CCD5D941E3646BE00B84565 /* STMCoreSessionManager.h */,
 				2CCD5D951E3646BE00B84565 /* STMCoreSessionManager.m */,
