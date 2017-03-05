@@ -334,6 +334,8 @@
 		D92983041E4B7DFF00A4F153 /* LazyDictionaryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D92983031E4B7DFF00A4F153 /* LazyDictionaryTests.m */; };
 		D92983061E4BFDC500A4F153 /* UnobservingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D92983051E4BFDC500A4F153 /* UnobservingTests.m */; };
 		D9343AF71E467FD700B7A5E5 /* STMIndexedArray.m in Sources */ = {isa = PBXBuildFile; fileRef = D9343AF61E467FD700B7A5E5 /* STMIndexedArray.m */; };
+		D948DC9D1E6CC5EB00F9A1CF /* testModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2CD5D87A1E65C23C00A88639 /* testModel.xcdatamodeld */; };
+		D948DC9E1E6CC5EF00F9A1CF /* testModelChanged.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2CD5D8891E670AB400A88639 /* testModelChanged.xcdatamodeld */; };
 		D94F46171E3E8D2F00D78925 /* STMCoreSession+Persistable.m in Sources */ = {isa = PBXBuildFile; fileRef = D94F46161E3E8D2F00D78925 /* STMCoreSession+Persistable.m */; };
 		D95FBAE91E489C540029F3C8 /* iSisSalesTestsInMemory.m in Sources */ = {isa = PBXBuildFile; fileRef = D95FBAE81E489C540029F3C8 /* iSisSalesTestsInMemory.m */; };
 		D95FBAF21E48A2100029F3C8 /* STMPersistingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F0B39A1E40BC9A00989BB0 /* STMPersistingTests.m */; };
@@ -346,6 +348,7 @@
 		D96BFEB31E547E950080327D /* STMFakePersisting+Promised.m in Sources */ = {isa = PBXBuildFile; fileRef = D95FBADC1E486D8B0029F3C8 /* STMFakePersisting+Promised.m */; };
 		D96BFEB91E54A8870080327D /* STMCoreObject.m in Sources */ = {isa = PBXBuildFile; fileRef = D96BFEB81E54A8870080327D /* STMCoreObject.m */; };
 		D96BFEE21E5AF3B00080327D /* STMInMemoryTransaction.m in Sources */ = {isa = PBXBuildFile; fileRef = D96BFEE11E5AF3B00080327D /* STMInMemoryTransaction.m */; };
+		D99A12AC1E6CADF800BD4222 /* ModelMappingFMDBTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D99A12AB1E6CADF800BD4222 /* ModelMappingFMDBTests.m */; };
 		D9DB3D861E6C5F88004A9478 /* STMFmdbSchema.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DB3D851E6C5F88004A9478 /* STMFmdbSchema.m */; };
 		D9E1973D1E5F0E5800F8FC18 /* STMOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = D9E1973C1E5F0E5800F8FC18 /* STMOperation.m */; };
 		D9E197401E5F0E7500F8FC18 /* STMOperationQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = D9E1973F1E5F0E7500F8FC18 /* STMOperationQueue.m */; };
@@ -1024,6 +1027,7 @@
 		D96BFED61E58AE6F0080327D /* STMPersistingTransaction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMPersistingTransaction.h; sourceTree = "<group>"; };
 		D96BFEE01E5AF3B00080327D /* STMInMemoryTransaction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMInMemoryTransaction.h; sourceTree = "<group>"; };
 		D96BFEE11E5AF3B00080327D /* STMInMemoryTransaction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMInMemoryTransaction.m; sourceTree = "<group>"; };
+		D99A12AB1E6CADF800BD4222 /* ModelMappingFMDBTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModelMappingFMDBTests.m; sourceTree = "<group>"; };
 		D9DB3D841E6C5F88004A9478 /* STMFmdbSchema.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMFmdbSchema.h; sourceTree = "<group>"; };
 		D9DB3D851E6C5F88004A9478 /* STMFmdbSchema.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMFmdbSchema.m; sourceTree = "<group>"; };
 		D9E1973B1E5F0E5800F8FC18 /* STMOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMOperation.h; sourceTree = "<group>"; };
@@ -2218,6 +2222,7 @@
 				2CD5D8781E65938100A88639 /* FilingTests.m */,
 				2CD5D87A1E65C23C00A88639 /* testModel.xcdatamodeld */,
 				2CD5D8891E670AB400A88639 /* testModelChanged.xcdatamodeld */,
+				D99A12AB1E6CADF800BD4222 /* ModelMappingFMDBTests.m */,
 			);
 			name = "☯ iSistemiumCoreTests";
 			path = ../../iSistemiumCore/iSistemiumCoreTests;
@@ -3159,15 +3164,18 @@
 			files = (
 				D95FBAE91E489C540029F3C8 /* iSisSalesTestsInMemory.m in Sources */,
 				2CC0E1E81E6AB79400DB5BF0 /* DefantomizingTests.m in Sources */,
+				D948DC9E1E6CC5EF00F9A1CF /* testModelChanged.xcdatamodeld in Sources */,
 				D95FBAF21E48A2100029F3C8 /* STMPersistingTests.m in Sources */,
 				2CC0E1E31E6AB21000DB5BF0 /* PersistingSyncTests.m in Sources */,
 				D92982F81E48B36D00A4F153 /* ScriptMessagingTests.m in Sources */,
 				D92983061E4BFDC500A4F153 /* UnobservingTests.m in Sources */,
+				D948DC9D1E6CC5EB00F9A1CF /* testModel.xcdatamodeld in Sources */,
 				2CC0E1E01E6AB21000DB5BF0 /* PersistingAsyncTests.m in Sources */,
 				D96BFE981E4E0EC00080327D /* STMCorePicturesControllerTests.m in Sources */,
 				2CC0E1D11E6AB1FD00DB5BF0 /* SyncingDataTests.m in Sources */,
 				2CC0E1E21E6AB21000DB5BF0 /* PersistingObservingTests.m in Sources */,
 				2CC0E1E51E6AB21000DB5BF0 /* STMModellerTests.m in Sources */,
+				D99A12AC1E6CADF800BD4222 /* ModelMappingFMDBTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
