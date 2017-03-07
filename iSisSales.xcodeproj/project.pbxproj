@@ -443,6 +443,7 @@
 		2C34EDAD1E2522D1004DE82D /* STMArticlePicture+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "STMArticlePicture+CoreDataProperties.m"; sourceTree = "<group>"; };
 		2C3920801D8A7D3500898FC6 /* STMCoreAppManifestHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMCoreAppManifestHandler.h; sourceTree = "<group>"; };
 		2C3920811D8A7D3500898FC6 /* STMCoreAppManifestHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMCoreAppManifestHandler.m; sourceTree = "<group>"; };
+		2C3F9BF11E6EA846003B75F5 /* STMModelMapping.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMModelMapping.h; sourceTree = "<group>"; };
 		2C40F77E1CF2037A00231E01 /* STMController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMController.h; sourceTree = "<group>"; };
 		2C40F77F1CF2037A00231E01 /* STMController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMController.m; sourceTree = "<group>"; };
 		2C40F7811CF203A100231E01 /* STMAuthController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMAuthController.h; sourceTree = "<group>"; };
@@ -2074,6 +2075,7 @@
 			isa = PBXGroup;
 			children = (
 				2CD5D8501E4DF36C00A88639 /* STMModelling.h */,
+				2C3F9BF11E6EA846003B75F5 /* STMModelMapping.h */,
 				2CD5D8511E4DF36C00A88639 /* STMPersisting.h */,
 				2CD5D8521E4DF36C00A88639 /* STMPersistingAsync.h */,
 				2CD5D8531E4DF36C00A88639 /* STMPersistingFantoms.h */,
