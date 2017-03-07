@@ -28,6 +28,7 @@
 		2C34EDAE1E2522D1004DE82D /* STMArticlePicture+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C34EDAB1E2522D1004DE82D /* STMArticlePicture+CoreDataClass.m */; };
 		2C34EDAF1E2522D1004DE82D /* STMArticlePicture+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C34EDAD1E2522D1004DE82D /* STMArticlePicture+CoreDataProperties.m */; };
 		2C3920821D8A7D3500898FC6 /* STMCoreAppManifestHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C3920811D8A7D3500898FC6 /* STMCoreAppManifestHandler.m */; };
+		2C3F9BF01E6EA5E5003B75F5 /* STMModelMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C3F9BEF1E6EA5E5003B75F5 /* STMModelMapper.m */; };
 		2C40F7801CF2037A00231E01 /* STMController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C40F77F1CF2037A00231E01 /* STMController.m */; };
 		2C40F78B1CF203A100231E01 /* STMAuthController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C40F7821CF203A100231E01 /* STMAuthController.m */; };
 		2C40F78D1CF203A100231E01 /* STMSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C40F7861CF203A100231E01 /* STMSession.m */; };
@@ -443,6 +444,8 @@
 		2C34EDAD1E2522D1004DE82D /* STMArticlePicture+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "STMArticlePicture+CoreDataProperties.m"; sourceTree = "<group>"; };
 		2C3920801D8A7D3500898FC6 /* STMCoreAppManifestHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMCoreAppManifestHandler.h; sourceTree = "<group>"; };
 		2C3920811D8A7D3500898FC6 /* STMCoreAppManifestHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMCoreAppManifestHandler.m; sourceTree = "<group>"; };
+		2C3F9BEE1E6EA5E5003B75F5 /* STMModelMapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMModelMapper.h; sourceTree = "<group>"; };
+		2C3F9BEF1E6EA5E5003B75F5 /* STMModelMapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMModelMapper.m; sourceTree = "<group>"; };
 		2C3F9BF11E6EA846003B75F5 /* STMModelMapping.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMModelMapping.h; sourceTree = "<group>"; };
 		2C40F77E1CF2037A00231E01 /* STMController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMController.h; sourceTree = "<group>"; };
 		2C40F77F1CF2037A00231E01 /* STMController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMController.m; sourceTree = "<group>"; };
@@ -2150,6 +2153,8 @@
 				2CD5D8B81E6AAE9A00A88639 /* STMModeller+Interceptable.m */,
 				2CD5D8B91E6AAE9A00A88639 /* STMModeller+Private.h */,
 				2CD5D8BA1E6AAE9A00A88639 /* STMModeller+Private.m */,
+				2C3F9BEE1E6EA5E5003B75F5 /* STMModelMapper.h */,
+				2C3F9BEF1E6EA5E5003B75F5 /* STMModelMapper.m */,
 			);
 			path = Modeller;
 			sourceTree = "<group>";
@@ -2908,6 +2913,7 @@
 				2C94C10A1CF1B1BB004476D8 /* STMCustom6TVCell.m in Sources */,
 				2C94C1901CF1B1F3004476D8 /* STMLogMessage.m in Sources */,
 				2CD5D8C51E6AAF6E00A88639 /* STMSocketTransport.m in Sources */,
+				2C3F9BF01E6EA5E5003B75F5 /* STMModelMapper.m in Sources */,
 				2C94C1251CF1B1BB004476D8 /* STMCoreRootTBC.m in Sources */,
 				2C94C1161CF1B1BB004476D8 /* STMSearchableTVC.m in Sources */,
 				2C94C1841CF1B1F3004476D8 /* STMClientData.m in Sources */,
