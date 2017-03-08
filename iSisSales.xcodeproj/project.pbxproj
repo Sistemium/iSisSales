@@ -1261,6 +1261,7 @@
 		2C94BFC11CF1ACB8004476D8 = {
 			isa = PBXGroup;
 			children = (
+				2C94C0001CF1B140004476D8 /* ☯ iSisCore */,
 				2C94BFCC1CF1ACB8004476D8 /* iSisSales */,
 				D96BFED21E589F6B0080327D /* TestTargets */,
 				2C94BFCB1CF1ACB8004476D8 /* Products */,
@@ -1286,7 +1287,6 @@
 			isa = PBXGroup;
 			children = (
 				2C453F031D88015500A43956 /* iSisSales.entitlements */,
-				2C94C0001CF1B140004476D8 /* ☯ iSisCore */,
 				2C94C25C1CF1B46E004476D8 /* Classes */,
 				2C94C19D1CF1B234004476D8 /* DataModel */,
 				2C94C21E1CF1B352004476D8 /* Resources */,
@@ -1348,6 +1348,7 @@
 				2C94C2581CF1B3D8004476D8 /* STMCoreApplication.m */,
 			);
 			name = "☯ iSisCore";
+			path = iSisSales;
 			sourceTree = "<group>";
 		};
 		2C94C0011CF1B1BA004476D8 /* ☯ Classes */ = {
