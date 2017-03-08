@@ -1262,6 +1262,7 @@
 			isa = PBXGroup;
 			children = (
 				2C94C0001CF1B140004476D8 /* ☯ iSisCore */,
+				D90B75741E2FA62D0015A994 /* ☯ iSistemiumCoreTests */,
 				2C94BFCC1CF1ACB8004476D8 /* iSisSales */,
 				D96BFED21E589F6B0080327D /* TestTargets */,
 				2C94BFCB1CF1ACB8004476D8 /* Products */,
@@ -1337,7 +1338,6 @@
 			children = (
 				2C94C0011CF1B1BA004476D8 /* ☯ Classes */,
 				2C94C1391CF1B1F3004476D8 /* ☯ DataModel */,
-				D90B75741E2FA62D0015A994 /* ☯ iSistemiumCoreTests */,
 				2CD5D82F1E4DED0F00A88639 /* ☯ Protocols */,
 				2C94C1C41CF1B308004476D8 /* ☯ Resources */,
 				2C94C2231CF1B3BA004476D8 /* ☯ Storyboards */,
@@ -2241,7 +2241,7 @@
 				D99A12AB1E6CADF800BD4222 /* ModelMappingFMDBTests.m */,
 			);
 			name = "☯ iSistemiumCoreTests";
-			path = ../../iSistemiumCore/iSistemiumCoreTests;
+			path = ../iSistemiumCore/iSistemiumCoreTests;
 			sourceTree = "<group>";
 		};
 		D95FBADA1E486D430029F3C8 /* FakePersisting */ = {
