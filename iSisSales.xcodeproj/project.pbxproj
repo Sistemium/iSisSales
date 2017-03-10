@@ -326,6 +326,7 @@
 		3550B1E21DAE5CC300F8A368 /* STMEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 3550B1DF1DAE5CC300F8A368 /* STMEntity.m */; };
 		3550B1E31DAE5CC300F8A368 /* STMEntity+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 3550B1E11DAE5CC300F8A368 /* STMEntity+CoreDataProperties.m */; };
 		355322231E6DAAC10028DF5C /* UITestSetup.m in Sources */ = {isa = PBXBuildFile; fileRef = 355322221E6DAAC10028DF5C /* UITestSetup.m */; };
+		35B53DBD1E72D5B00002230F /* STMTestDirectoring.m in Sources */ = {isa = PBXBuildFile; fileRef = 35B53DBC1E72D5B00002230F /* STMTestDirectoring.m */; };
 		3E873491EFBF4D2FD467BB9A /* Pods_iSisSalesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFEE3E7425CEF6DC61EAF6D3 /* Pods_iSisSalesTests.framework */; };
 		4678C3D65044EE1435611066 /* Pods_iSisSalesUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 464A3CD5CCC3049472886369 /* Pods_iSisSalesUITests.framework */; };
 		744B5294EF591EB5FCB18EDD /* Pods_iSisSalesTestsInMemory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F3911A3DEFF236838CDC4D1 /* Pods_iSisSalesTestsInMemory.framework */; };
@@ -984,6 +985,8 @@
 		3550B1E11DAE5CC300F8A368 /* STMEntity+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "STMEntity+CoreDataProperties.m"; sourceTree = "<group>"; };
 		355322211E6DAA540028DF5C /* UITestSetup.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UITestSetup.h; sourceTree = "<group>"; };
 		355322221E6DAAC10028DF5C /* UITestSetup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UITestSetup.m; sourceTree = "<group>"; };
+		35B53DBB1E72D5620002230F /* STMTestDirectoring.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STMTestDirectoring.h; sourceTree = "<group>"; };
+		35B53DBC1E72D5B00002230F /* STMTestDirectoring.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMTestDirectoring.m; sourceTree = "<group>"; };
 		390FE1B1108DBF3207298BAA /* Pods-iSisSalesSpeedTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesSpeedTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesSpeedTests/Pods-iSisSalesSpeedTests.debug.xcconfig"; sourceTree = "<group>"; };
 		4033E05BE502B1B13735187B /* Pods-iSisSales.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSales.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSales/Pods-iSisSales.debug.xcconfig"; sourceTree = "<group>"; };
 		464A3CD5CCC3049472886369 /* Pods_iSisSalesUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iSisSalesUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -2321,6 +2324,8 @@
 			children = (
 				D9F0B3991E40BB9300989BB0 /* STMPersistingTests.h */,
 				D9F0B39A1E40BC9A00989BB0 /* STMPersistingTests.m */,
+				35B53DBB1E72D5620002230F /* STMTestDirectoring.h */,
+				35B53DBC1E72D5B00002230F /* STMTestDirectoring.m */,
 				D95FBADA1E486D430029F3C8 /* FakePersisting */,
 			);
 			path = Abstract;
@@ -2971,6 +2976,7 @@
 				2C94C1251CF1B1BB004476D8 /* STMCoreRootTBC.m in Sources */,
 				2C94C1161CF1B1BB004476D8 /* STMSearchableTVC.m in Sources */,
 				2C94C1841CF1B1F3004476D8 /* STMClientData.m in Sources */,
+				35B53DBD1E72D5B00002230F /* STMTestDirectoring.m in Sources */,
 				2C94C0F21CF1B1BB004476D8 /* STMCoreController.m in Sources */,
 				2C94C19B1CF1B1F3004476D8 /* STMWorkflow+CoreDataProperties.m in Sources */,
 				D96BFEB91E54A8870080327D /* STMCoreObject.m in Sources */,
