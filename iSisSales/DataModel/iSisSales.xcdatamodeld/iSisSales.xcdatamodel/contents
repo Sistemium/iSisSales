@@ -174,6 +174,7 @@
         <attribute name="xid" optional="YES" attributeType="Binary" indexed="YES" syncable="YES"/>
         <relationship name="outletSalesmanContracts" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="STMOutletSalesmanContract" inverseName="contract" inverseEntity="STMOutletSalesmanContract" syncable="YES"/>
         <relationship name="partner" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMPartner" inverseName="contracts" inverseEntity="STMPartner" syncable="YES"/>
+        <relationship name="saleOrders" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMSaleOrder" inverseName="contract" inverseEntity="STMSaleOrder" syncable="YES"/>
     </entity>
     <entity name="STMCoreLocation" representedClassName="STMCoreLocation" isAbstract="YES" syncable="YES">
         <attribute name="altitude" optional="YES" attributeType="Decimal" defaultValueString="0.0" syncable="YES"/>
@@ -458,6 +459,7 @@
         <attribute name="xid" optional="YES" attributeType="Binary" indexed="YES" syncable="YES"/>
     </entity>
     <entity name="STMSaleOrder" representedClassName="STMSaleOrder" syncable="YES">
+        <attribute name="commentExpeditor" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="commentText" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="date" optional="YES" attributeType="String" indexed="YES" syncable="YES"/>
         <attribute name="deviceAts" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
@@ -470,10 +472,12 @@
         <attribute name="processing" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="processingMessage" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="source" optional="YES" attributeType="String" indexed="YES" syncable="YES"/>
+        <attribute name="spoilerNotNeeded" optional="YES" attributeType="Boolean" usesScalarValueType="NO" syncable="YES"/>
         <attribute name="target" optional="YES" attributeType="String" indexed="YES" syncable="YES"/>
         <attribute name="totalCost" optional="YES" attributeType="Decimal" defaultValueString="0.0" indexed="YES" syncable="YES"/>
         <attribute name="totalCostDoc" optional="YES" attributeType="Decimal" defaultValueString="0.0" syncable="YES"/>
         <attribute name="xid" optional="YES" attributeType="Binary" indexed="YES" syncable="YES"/>
+        <relationship name="contract" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMContract" inverseName="saleOrders" inverseEntity="STMContract" syncable="YES"/>
         <relationship name="outlet" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMOutlet" inverseName="saleOrders" inverseEntity="STMOutlet" syncable="YES"/>
         <relationship name="saleOrderPositions" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="STMSaleOrderPosition" inverseName="saleOrder" inverseEntity="STMSaleOrderPosition" syncable="YES"/>
         <relationship name="salesman" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMSalesman" inverseName="saleOrders" inverseEntity="STMSalesman" syncable="YES"/>
@@ -725,7 +729,7 @@
         <element name="STMBatteryStatus" positionX="-648" positionY="-2286" width="128" height="223"/>
         <element name="STMClientData" positionX="-936" positionY="-2286" width="128" height="418"/>
         <element name="STMClientEntity" positionX="70" positionY="-2286" width="128" height="223"/>
-        <element name="STMContract" positionX="-1388" positionY="-1261" width="128" height="253"/>
+        <element name="STMContract" positionX="-1388" positionY="-1261" width="128" height="270"/>
         <element name="STMCoreLocation" positionX="-495" positionY="-1179" width="128" height="345"/>
         <element name="STMCorePhoto" positionX="-272" positionY="-1147" width="128" height="60"/>
         <element name="STMCorePicture" positionX="-92" positionY="-1188" width="128" height="330"/>
@@ -745,7 +749,7 @@
         <element name="STMPrice" positionX="-1575" positionY="-517" width="128" height="238"/>
         <element name="STMPriceType" positionX="-1377" positionY="-262" width="128" height="270"/>
         <element name="STMRecordStatus" positionX="-360" positionY="-2286" width="128" height="270"/>
-        <element name="STMSaleOrder" positionX="-945" positionY="-901" width="128" height="330"/>
+        <element name="STMSaleOrder" positionX="-945" positionY="-901" width="128" height="375"/>
         <element name="STMSaleOrderPosition" positionX="-1134" positionY="-999" width="128" height="330"/>
         <element name="STMSalesman" positionX="-974" positionY="-1242" width="128" height="268"/>
         <element name="STMSchedule" positionX="-504" positionY="-810" width="128" height="255"/>
