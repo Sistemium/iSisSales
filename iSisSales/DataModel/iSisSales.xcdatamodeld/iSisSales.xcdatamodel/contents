@@ -174,7 +174,7 @@
         <attribute name="xid" optional="YES" attributeType="Binary" indexed="YES" syncable="YES"/>
         <relationship name="outletSalesmanContracts" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="STMOutletSalesmanContract" inverseName="contract" inverseEntity="STMOutletSalesmanContract" syncable="YES"/>
         <relationship name="partner" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMPartner" inverseName="contracts" inverseEntity="STMPartner" syncable="YES"/>
-        <relationship name="saleOrders" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMSaleOrder" inverseName="contract" inverseEntity="STMSaleOrder" syncable="YES"/>
+        <relationship name="saleOrders" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="STMSaleOrder" inverseName="contract" inverseEntity="STMSaleOrder" syncable="YES"/>
     </entity>
     <entity name="STMCoreLocation" representedClassName="STMCoreLocation" isAbstract="YES" syncable="YES">
         <attribute name="altitude" optional="YES" attributeType="Decimal" defaultValueString="0.0" syncable="YES"/>
@@ -440,6 +440,7 @@
         <relationship name="outletSalesmanContracts" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="STMOutletSalesmanContract" inverseName="priceType" inverseEntity="STMOutletSalesmanContract" syncable="YES"/>
         <relationship name="parent" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMPriceType" inverseName="children" inverseEntity="STMPriceType" syncable="YES"/>
         <relationship name="prices" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="STMPrice" inverseName="priceType" inverseEntity="STMPrice" syncable="YES"/>
+        <relationship name="saleOrders" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="STMSaleOrder" inverseName="priceType" inverseEntity="STMSaleOrder" syncable="YES"/>
     </entity>
     <entity name="STMRecordStatus" representedClassName="STMRecordStatus" syncable="YES">
         <attribute name="commentText" optional="YES" attributeType="String" syncable="YES"/>
@@ -479,6 +480,7 @@
         <attribute name="xid" optional="YES" attributeType="Binary" indexed="YES" syncable="YES"/>
         <relationship name="contract" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMContract" inverseName="saleOrders" inverseEntity="STMContract" syncable="YES"/>
         <relationship name="outlet" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMOutlet" inverseName="saleOrders" inverseEntity="STMOutlet" syncable="YES"/>
+        <relationship name="priceType" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMPriceType" inverseName="saleOrders" inverseEntity="STMPriceType" syncable="YES"/>
         <relationship name="saleOrderPositions" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="STMSaleOrderPosition" inverseName="saleOrder" inverseEntity="STMSaleOrderPosition" syncable="YES"/>
         <relationship name="salesman" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMSalesman" inverseName="saleOrders" inverseEntity="STMSalesman" syncable="YES"/>
     </entity>
@@ -747,9 +749,9 @@
         <element name="STMOutletSalesmanContract" positionX="-1152" positionY="-1287" width="128" height="268"/>
         <element name="STMPartner" positionX="-1170" positionY="-1594" width="128" height="268"/>
         <element name="STMPrice" positionX="-1575" positionY="-517" width="128" height="238"/>
-        <element name="STMPriceType" positionX="-1377" positionY="-262" width="128" height="270"/>
+        <element name="STMPriceType" positionX="-1377" positionY="-262" width="128" height="285"/>
         <element name="STMRecordStatus" positionX="-360" positionY="-2286" width="128" height="270"/>
-        <element name="STMSaleOrder" positionX="-945" positionY="-901" width="128" height="375"/>
+        <element name="STMSaleOrder" positionX="-945" positionY="-901" width="128" height="390"/>
         <element name="STMSaleOrderPosition" positionX="-1134" positionY="-999" width="128" height="330"/>
         <element name="STMSalesman" positionX="-974" positionY="-1242" width="128" height="268"/>
         <element name="STMSchedule" positionX="-504" positionY="-810" width="128" height="255"/>
