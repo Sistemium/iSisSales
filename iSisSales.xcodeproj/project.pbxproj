@@ -327,6 +327,7 @@
 		3550B1E21DAE5CC300F8A368 /* STMEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 3550B1DF1DAE5CC300F8A368 /* STMEntity.m */; };
 		3550B1E31DAE5CC300F8A368 /* STMEntity+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 3550B1E11DAE5CC300F8A368 /* STMEntity+CoreDataProperties.m */; };
 		355322231E6DAAC10028DF5C /* UITestSetup.m in Sources */ = {isa = PBXBuildFile; fileRef = 355322221E6DAAC10028DF5C /* UITestSetup.m */; };
+		355CFD391E79B50C005C4EDB /* STMTestDirectoring.m in Sources */ = {isa = PBXBuildFile; fileRef = 35B53DBC1E72D5B00002230F /* STMTestDirectoring.m */; };
 		35B53DBD1E72D5B00002230F /* STMTestDirectoring.m in Sources */ = {isa = PBXBuildFile; fileRef = 35B53DBC1E72D5B00002230F /* STMTestDirectoring.m */; };
 		3E873491EFBF4D2FD467BB9A /* Pods_iSisSalesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFEE3E7425CEF6DC61EAF6D3 /* Pods_iSisSalesTests.framework */; };
 		4678C3D65044EE1435611066 /* Pods_iSisSalesUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 464A3CD5CCC3049472886369 /* Pods_iSisSalesUITests.framework */; };
@@ -3253,6 +3254,7 @@
 				D96BFE981E4E0EC00080327D /* STMCorePicturesControllerTests.m in Sources */,
 				2CC0E1D11E6AB1FD00DB5BF0 /* SyncingDataTests.m in Sources */,
 				2CC0E1E21E6AB21000DB5BF0 /* PersistingObservingTests.m in Sources */,
+				355CFD391E79B50C005C4EDB /* STMTestDirectoring.m in Sources */,
 				2CC0E1E51E6AB21000DB5BF0 /* STMModellerTests.m in Sources */,
 				D99A12AC1E6CADF800BD4222 /* ModelMappingFMDBTests.m in Sources */,
 			);
