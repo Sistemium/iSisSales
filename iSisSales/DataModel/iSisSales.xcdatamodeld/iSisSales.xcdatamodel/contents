@@ -460,12 +460,14 @@
         <attribute name="xid" optional="YES" attributeType="Binary" indexed="YES" syncable="YES"/>
     </entity>
     <entity name="STMSaleOrder" representedClassName="STMSaleOrder" syncable="YES">
+        <attribute name="cashOnShipment" optional="YES" attributeType="Boolean" usesScalarValueType="NO" syncable="YES"/>
         <attribute name="commentExpeditor" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="commentText" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="date" optional="YES" attributeType="String" indexed="YES" syncable="YES"/>
         <attribute name="deviceAts" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
         <attribute name="deviceCts" optional="YES" attributeType="Date" usesScalarValueType="NO" indexed="YES" syncable="YES"/>
         <attribute name="deviceTs" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="docDiscounts" optional="YES" attributeType="Boolean" usesScalarValueType="NO" syncable="YES"/>
         <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="NO" indexed="YES" syncable="YES"/>
         <attribute name="isFantom" optional="YES" attributeType="Boolean" defaultValueString="YES" usesScalarValueType="NO" syncable="YES"/>
         <attribute name="lts" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
@@ -751,7 +753,7 @@
         <element name="STMPrice" positionX="-1575" positionY="-517" width="128" height="238"/>
         <element name="STMPriceType" positionX="-1377" positionY="-262" width="128" height="285"/>
         <element name="STMRecordStatus" positionX="-360" positionY="-2286" width="128" height="270"/>
-        <element name="STMSaleOrder" positionX="-945" positionY="-901" width="128" height="390"/>
+        <element name="STMSaleOrder" positionX="-945" positionY="-901" width="128" height="420"/>
         <element name="STMSaleOrderPosition" positionX="-1134" positionY="-999" width="128" height="330"/>
         <element name="STMSalesman" positionX="-974" positionY="-1242" width="128" height="268"/>
         <element name="STMSchedule" positionX="-504" positionY="-810" width="128" height="255"/>
