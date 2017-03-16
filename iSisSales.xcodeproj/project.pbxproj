@@ -341,6 +341,7 @@
 		D9343AF71E467FD700B7A5E5 /* STMIndexedArray.m in Sources */ = {isa = PBXBuildFile; fileRef = D9343AF61E467FD700B7A5E5 /* STMIndexedArray.m */; };
 		D948DC9D1E6CC5EB00F9A1CF /* testModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2CD5D87A1E65C23C00A88639 /* testModel.xcdatamodeld */; };
 		D948DC9E1E6CC5EF00F9A1CF /* testModelChanged.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2CD5D8891E670AB400A88639 /* testModelChanged.xcdatamodeld */; };
+		D948DCA41E7A8EDB00F9A1CF /* NSManagedObjectModel+Serialization.m in Sources */ = {isa = PBXBuildFile; fileRef = D948DCA31E7A8EDB00F9A1CF /* NSManagedObjectModel+Serialization.m */; };
 		D94F46171E3E8D2F00D78925 /* STMCoreSession+Persistable.m in Sources */ = {isa = PBXBuildFile; fileRef = D94F46161E3E8D2F00D78925 /* STMCoreSession+Persistable.m */; };
 		D95FBAE91E489C540029F3C8 /* iSisSalesTestsInMemory.m in Sources */ = {isa = PBXBuildFile; fileRef = D95FBAE81E489C540029F3C8 /* iSisSalesTestsInMemory.m */; };
 		D95FBAF21E48A2100029F3C8 /* STMPersistingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F0B39A1E40BC9A00989BB0 /* STMPersistingTests.m */; };
@@ -1016,6 +1017,8 @@
 		D9343AF51E467FD700B7A5E5 /* STMIndexedArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMIndexedArray.h; sourceTree = "<group>"; };
 		D9343AF61E467FD700B7A5E5 /* STMIndexedArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMIndexedArray.m; sourceTree = "<group>"; };
 		D948DC9F1E6CC97D00F9A1CF /* STMCoreSessionFiler+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "STMCoreSessionFiler+Private.h"; sourceTree = "<group>"; };
+		D948DCA21E7A8EDB00F9A1CF /* NSManagedObjectModel+Serialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSManagedObjectModel+Serialization.h"; sourceTree = "<group>"; };
+		D948DCA31E7A8EDB00F9A1CF /* NSManagedObjectModel+Serialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSManagedObjectModel+Serialization.m"; sourceTree = "<group>"; };
 		D94F46051E3A1FFD00D78925 /* SocketIOTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SocketIOTests.m; path = ../../iSistemiumCore/iSistemiumCoreTests/SocketIOTests.m; sourceTree = "<group>"; };
 		D94F46151E3E8D2F00D78925 /* STMCoreSession+Persistable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "STMCoreSession+Persistable.h"; sourceTree = "<group>"; };
 		D94F46161E3E8D2F00D78925 /* STMCoreSession+Persistable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "STMCoreSession+Persistable.m"; sourceTree = "<group>"; };
@@ -1432,6 +1435,8 @@
 				D9E1973C1E5F0E5800F8FC18 /* STMOperation.m */,
 				D9E1973E1E5F0E7500F8FC18 /* STMOperationQueue.h */,
 				D9E1973F1E5F0E7500F8FC18 /* STMOperationQueue.m */,
+				D948DCA21E7A8EDB00F9A1CF /* NSManagedObjectModel+Serialization.h */,
+				D948DCA31E7A8EDB00F9A1CF /* NSManagedObjectModel+Serialization.m */,
 			);
 			name = "☯ STMNS";
 			path = STMNS;
@@ -3145,6 +3150,7 @@
 				3550B1E21DAE5CC300F8A368 /* STMEntity.m in Sources */,
 				355322231E6DAAC10028DF5C /* UITestSetup.m in Sources */,
 				2CCD5D9A1E3646BE00B84565 /* STMCoreAuthController.m in Sources */,
+				D948DCA41E7A8EDB00F9A1CF /* NSManagedObjectModel+Serialization.m in Sources */,
 				2CD5D82C1E4DEC8F00A88639 /* STMLogger.m in Sources */,
 				2C94C18A1CF1B1F3004476D8 /* STMDatum.m in Sources */,
 				2C6113031D0BDE7B006BCB30 /* STMVisit+CoreDataProperties.m in Sources */,
