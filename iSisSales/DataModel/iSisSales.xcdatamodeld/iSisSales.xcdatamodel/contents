@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="11759" systemVersion="16D32" minimumToolsVersion="Xcode 7.3" sourceLanguage="Objective-C" userDefinedModelVersionIdentifier="">
     <entity name="STMAbstract" isAbstract="YES" parentEntity="STMDatum" syncable="YES">
+        <attribute name="commentText" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="ownerXid" optional="YES" attributeType="Binary" syncable="YES"/>
         <attribute name="source" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="target" optional="YES" attributeType="String" syncable="YES"/>
@@ -167,19 +168,11 @@
             <entry key="STORE" value="FMDB"/>
         </userInfo>
     </entity>
-    <entity name="STMContract" representedClassName="STMContract" syncable="YES">
-        <attribute name="commentText" optional="YES" attributeType="String" syncable="YES"/>
+    <entity name="STMContract" representedClassName="STMContract" parentEntity="STMAbstract" syncable="YES">
+        <attribute name="creditLimit" optional="YES" attributeType="Decimal" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="creditRemains" optional="YES" attributeType="Decimal" defaultValueString="0.0" syncable="YES"/>
         <attribute name="dateE" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
-        <attribute name="deviceCts" optional="YES" attributeType="Date" usesScalarValueType="NO" indexed="YES" syncable="YES"/>
-        <attribute name="deviceTs" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
-        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="NO" indexed="YES" syncable="YES"/>
-        <attribute name="isFantom" optional="YES" attributeType="Boolean" defaultValueString="YES" usesScalarValueType="NO" syncable="YES"/>
-        <attribute name="lts" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
         <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="ownerXid" optional="YES" attributeType="Binary" indexed="YES" syncable="YES"/>
-        <attribute name="source" optional="YES" attributeType="String" indexed="YES" syncable="YES"/>
-        <attribute name="target" optional="YES" attributeType="String" indexed="YES" syncable="YES"/>
-        <attribute name="xid" optional="YES" attributeType="Binary" indexed="YES" syncable="YES"/>
         <relationship name="contractArticles" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="STMContractArticle" inverseName="contract" inverseEntity="STMContractArticle" syncable="YES"/>
         <relationship name="contractPriceGroups" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="STMContractPriceGroup" inverseName="contract" inverseEntity="STMContractPriceGroup" syncable="YES"/>
         <relationship name="outletSalesmanContracts" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="STMOutletSalesmanContract" inverseName="contract" inverseEntity="STMOutletSalesmanContract" syncable="YES"/>
@@ -762,7 +755,7 @@
         <relationship name="messages" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMMessage" inverseName="workflow" inverseEntity="STMMessage" syncable="YES"/>
     </entity>
     <elements>
-        <element name="STMAbstract" positionX="-1341" positionY="-2106" width="128" height="90"/>
+        <element name="STMAbstract" positionX="-1341" positionY="-2106" width="128" height="105"/>
         <element name="STMArticle" positionX="-1163" positionY="-619" width="128" height="465"/>
         <element name="STMArticleGroup" positionX="-1386" positionY="-918" width="128" height="285"/>
         <element name="STMArticlePicture" positionX="-38" positionY="-792" width="128" height="73"/>
@@ -772,7 +765,7 @@
         <element name="STMBatteryStatus" positionX="-648" positionY="-2286" width="128" height="223"/>
         <element name="STMClientData" positionX="-936" positionY="-2286" width="128" height="418"/>
         <element name="STMClientEntity" positionX="70" positionY="-2286" width="128" height="223"/>
-        <element name="STMContract" positionX="-1388" positionY="-1261" width="128" height="300"/>
+        <element name="STMContract" positionX="-1388" positionY="-1261" width="128" height="180"/>
         <element name="STMContractArticle" positionX="-1350" positionY="-2115" width="128" height="90"/>
         <element name="STMContractPriceGroup" positionX="-1359" positionY="-2124" width="128" height="90"/>
         <element name="STMCoreLocation" positionX="-495" positionY="-1179" width="128" height="345"/>
