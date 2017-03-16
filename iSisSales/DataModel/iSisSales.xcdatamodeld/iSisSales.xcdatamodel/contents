@@ -173,7 +173,7 @@
         <attribute name="creditRemains" optional="YES" attributeType="Decimal" defaultValueString="0.0" syncable="YES"/>
         <attribute name="dateE" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
         <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
-        <relationship name="contractArticles" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="STMContractArticle" inverseName="contract" inverseEntity="STMContractArticle" syncable="YES"/>
+        <relationship name="contractArticles" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="STMContractArticle" inverseName="contract" inverseEntity="STMContractArticle" syncable="YES"/>
         <relationship name="contractPriceGroups" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="STMContractPriceGroup" inverseName="contract" inverseEntity="STMContractPriceGroup" syncable="YES"/>
         <relationship name="outletSalesmanContracts" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="STMOutletSalesmanContract" inverseName="contract" inverseEntity="STMOutletSalesmanContract" syncable="YES"/>
         <relationship name="partner" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMPartner" inverseName="contracts" inverseEntity="STMPartner" syncable="YES"/>
