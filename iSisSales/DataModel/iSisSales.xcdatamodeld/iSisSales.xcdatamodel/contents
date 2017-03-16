@@ -22,6 +22,7 @@
         <attribute name="xid" optional="YES" attributeType="Binary" indexed="YES" syncable="YES"/>
         <relationship name="articleGroup" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMArticleGroup" inverseName="articles" inverseEntity="STMArticleGroup" syncable="YES"/>
         <relationship name="avatarPicture" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMArticlePicture" inverseName="avatarArticles" inverseEntity="STMArticlePicture" syncable="YES"/>
+        <relationship name="contractArticles" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="STMContractArticle" inverseName="article" inverseEntity="STMContractArticle" syncable="YES"/>
         <relationship name="pictures" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="STMArticlePictureArticle" inverseName="article" inverseEntity="STMArticlePictureArticle" syncable="YES"/>
         <relationship name="priceGroup" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMPriceGroup" inverseName="articles" inverseEntity="STMPriceGroup" syncable="YES"/>
         <relationship name="prices" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="STMPrice" inverseName="article" inverseEntity="STMPrice" syncable="YES"/>
@@ -173,10 +174,16 @@
         <attribute name="source" optional="YES" attributeType="String" indexed="YES" syncable="YES"/>
         <attribute name="target" optional="YES" attributeType="String" indexed="YES" syncable="YES"/>
         <attribute name="xid" optional="YES" attributeType="Binary" indexed="YES" syncable="YES"/>
+        <relationship name="contractArticles" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="STMContractArticle" inverseName="contract" inverseEntity="STMContractArticle" syncable="YES"/>
         <relationship name="contractPriceGroups" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="STMContractPriceGroup" inverseName="contract" inverseEntity="STMContractPriceGroup" syncable="YES"/>
         <relationship name="outletSalesmanContracts" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="STMOutletSalesmanContract" inverseName="contract" inverseEntity="STMOutletSalesmanContract" syncable="YES"/>
         <relationship name="partner" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMPartner" inverseName="contracts" inverseEntity="STMPartner" syncable="YES"/>
         <relationship name="saleOrders" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="STMSaleOrder" inverseName="contract" inverseEntity="STMSaleOrder" syncable="YES"/>
+    </entity>
+    <entity name="STMContractArticle" parentEntity="STMDatum" syncable="YES">
+        <attribute name="discount" optional="YES" attributeType="Decimal" defaultValueString="0.0" syncable="YES"/>
+        <relationship name="article" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMArticle" inverseName="contractArticles" inverseEntity="STMArticle" syncable="YES"/>
+        <relationship name="contract" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMContract" inverseName="contractArticles" inverseEntity="STMContract" syncable="YES"/>
     </entity>
     <entity name="STMContractPriceGroup" parentEntity="STMDatum" syncable="YES">
         <attribute name="discount" optional="YES" attributeType="Decimal" defaultValueString="0.0" syncable="YES"/>
@@ -736,7 +743,7 @@
         <relationship name="messages" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMMessage" inverseName="workflow" inverseEntity="STMMessage" syncable="YES"/>
     </entity>
     <elements>
-        <element name="STMArticle" positionX="-1163" positionY="-619" width="128" height="435"/>
+        <element name="STMArticle" positionX="-1163" positionY="-619" width="128" height="450"/>
         <element name="STMArticleGroup" positionX="-1386" positionY="-918" width="128" height="285"/>
         <element name="STMArticlePicture" positionX="-38" positionY="-792" width="128" height="73"/>
         <element name="STMArticlePictureArticle" positionX="-407" positionY="-349" width="128" height="225"/>
@@ -745,7 +752,8 @@
         <element name="STMBatteryStatus" positionX="-648" positionY="-2286" width="128" height="223"/>
         <element name="STMClientData" positionX="-936" positionY="-2286" width="128" height="418"/>
         <element name="STMClientEntity" positionX="70" positionY="-2286" width="128" height="223"/>
-        <element name="STMContract" positionX="-1388" positionY="-1261" width="128" height="285"/>
+        <element name="STMContract" positionX="-1388" positionY="-1261" width="128" height="300"/>
+        <element name="STMContractPriceGroup" positionX="-1359" positionY="-2124" width="128" height="90"/>
         <element name="STMCoreLocation" positionX="-495" positionY="-1179" width="128" height="345"/>
         <element name="STMCorePhoto" positionX="-272" positionY="-1147" width="128" height="60"/>
         <element name="STMCorePicture" positionX="-92" positionY="-1188" width="128" height="330"/>
@@ -763,6 +771,7 @@
         <element name="STMOutletSalesmanContract" positionX="-1152" positionY="-1287" width="128" height="268"/>
         <element name="STMPartner" positionX="-1170" positionY="-1594" width="128" height="268"/>
         <element name="STMPrice" positionX="-1575" positionY="-517" width="128" height="238"/>
+        <element name="STMPriceGroup" positionX="-1368" positionY="-2133" width="128" height="90"/>
         <element name="STMPriceType" positionX="-1377" positionY="-262" width="128" height="285"/>
         <element name="STMRecordStatus" positionX="-360" positionY="-2286" width="128" height="270"/>
         <element name="STMSaleOrder" positionX="-945" positionY="-901" width="128" height="420"/>
@@ -781,7 +790,6 @@
         <element name="STMVisitQuestionGroup" positionX="-171" positionY="-1458" width="128" height="240"/>
         <element name="STMVisitQuestionSet" positionX="7" positionY="-1566" width="128" height="253"/>
         <element name="STMWorkflow" positionX="45" positionY="-675" width="128" height="253"/>
-        <element name="STMPriceGroup" positionX="-1368" positionY="-2133" width="128" height="90"/>
-        <element name="STMContractPriceGroup" positionX="-1359" positionY="-2124" width="128" height="90"/>
+        <element name="STMContractArticle" positionX="-1350" positionY="-2115" width="128" height="90"/>
     </elements>
 </model>
