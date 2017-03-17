@@ -33,6 +33,7 @@
         <relationship name="pictures" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="STMArticlePictureArticle" inverseName="article" inverseEntity="STMArticlePictureArticle" syncable="YES"/>
         <relationship name="priceGroup" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMPriceGroup" inverseName="articles" inverseEntity="STMPriceGroup" syncable="YES"/>
         <relationship name="prices" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="STMPrice" inverseName="article" inverseEntity="STMPrice" syncable="YES"/>
+        <relationship name="restrictionArticles" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="STMRestrictionArticle" inverseName="article" inverseEntity="STMRestrictionArticle" syncable="YES"/>
         <relationship name="saleOrderPositions" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="STMSaleOrderPosition" inverseName="article" inverseEntity="STMSaleOrderPosition" syncable="YES"/>
         <relationship name="stocks" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="STMStock" inverseName="article" inverseEntity="STMStock" syncable="YES"/>
     </entity>
@@ -490,6 +491,15 @@
         <attribute name="target" optional="YES" attributeType="String" indexed="YES" syncable="YES"/>
         <attribute name="xid" optional="YES" attributeType="Binary" indexed="YES" syncable="YES"/>
     </entity>
+    <entity name="STMRestriction" parentEntity="STMAbstract" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="shortName" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="restrictionArticles" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="STMRestrictionArticle" inverseName="restriction" inverseEntity="STMRestrictionArticle" syncable="YES"/>
+    </entity>
+    <entity name="STMRestrictionArticle" parentEntity="STMAbstract" syncable="YES">
+        <relationship name="article" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMArticle" inverseName="restrictionArticles" inverseEntity="STMArticle" syncable="YES"/>
+        <relationship name="restriction" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMRestriction" inverseName="restrictionArticles" inverseEntity="STMRestriction" syncable="YES"/>
+    </entity>
     <entity name="STMSaleOrder" representedClassName="STMSaleOrder" syncable="YES">
         <attribute name="cashOnShipment" optional="YES" attributeType="Boolean" usesScalarValueType="NO" syncable="YES"/>
         <attribute name="commentExpeditor" optional="YES" attributeType="String" syncable="YES"/>
@@ -756,7 +766,7 @@
     </entity>
     <elements>
         <element name="STMAbstract" positionX="-1341" positionY="-2106" width="128" height="105"/>
-        <element name="STMArticle" positionX="-1163" positionY="-619" width="128" height="465"/>
+        <element name="STMArticle" positionX="-1163" positionY="-619" width="128" height="480"/>
         <element name="STMArticleGroup" positionX="-1386" positionY="-918" width="128" height="285"/>
         <element name="STMArticlePicture" positionX="-38" positionY="-792" width="128" height="73"/>
         <element name="STMArticlePictureArticle" positionX="-407" positionY="-349" width="128" height="225"/>
@@ -806,5 +816,7 @@
         <element name="STMWorkflow" positionX="45" positionY="-675" width="128" height="253"/>
         <element name="STMPartnerPriceGroup" positionX="-1368" positionY="-2133" width="128" height="90"/>
         <element name="STMPartnerArticle" positionX="-1359" positionY="-2124" width="128" height="90"/>
+        <element name="STMRestriction" positionX="-1350" positionY="-2115" width="128" height="90"/>
+        <element name="STMRestrictionArticle" positionX="-1341" positionY="-2106" width="128" height="75"/>
     </elements>
 </model>
