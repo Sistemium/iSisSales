@@ -383,6 +383,7 @@
         <relationship name="partner" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMPartner" inverseName="outlets" inverseEntity="STMPartner" syncable="YES"/>
         <relationship name="photos" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="STMOutletPhoto" inverseName="outlet" inverseEntity="STMOutletPhoto" syncable="YES"/>
         <relationship name="saleOrders" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="STMSaleOrder" inverseName="outlet" inverseEntity="STMSaleOrder" syncable="YES"/>
+        <relationship name="salesmanOutletRestrictions" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="STMSalesmanOutletRestriction" inverseName="outlet" inverseEntity="STMSalesmanOutletRestriction" syncable="YES"/>
         <relationship name="scheduledEvents" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="STMScheduledEvent" inverseName="outlet" inverseEntity="STMScheduledEvent" syncable="YES"/>
         <relationship name="visits" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="STMVisit" inverseName="outlet" inverseEntity="STMVisit" syncable="YES"/>
     </entity>
@@ -501,6 +502,7 @@
         <attribute name="shortName" optional="YES" attributeType="String" syncable="YES"/>
         <relationship name="outletRestrictions" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="STMOutletRestriction" inverseName="restriction" inverseEntity="STMOutletRestriction" syncable="YES"/>
         <relationship name="restrictionArticles" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="STMRestrictionArticle" inverseName="restriction" inverseEntity="STMRestrictionArticle" syncable="YES"/>
+        <relationship name="salesmanOutletRestrictions" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="STMSalesmanOutletRestriction" inverseName="restriction" inverseEntity="STMSalesmanOutletRestriction" syncable="YES"/>
     </entity>
     <entity name="STMRestrictionArticle" parentEntity="STMAbstract" syncable="YES">
         <relationship name="article" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMArticle" inverseName="restrictionArticles" inverseEntity="STMArticle" syncable="YES"/>
@@ -568,8 +570,14 @@
         <attribute name="xid" optional="YES" attributeType="Binary" indexed="YES" syncable="YES"/>
         <relationship name="outletSalesmanContracts" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="STMOutletSalesmanContract" inverseName="salesman" inverseEntity="STMOutletSalesmanContract" syncable="YES"/>
         <relationship name="saleOrders" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="STMSaleOrder" inverseName="salesman" inverseEntity="STMSaleOrder" syncable="YES"/>
+        <relationship name="salesmanOutletRestrictions" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="STMSalesmanOutletRestriction" inverseName="salesman" inverseEntity="STMSalesmanOutletRestriction" syncable="YES"/>
         <relationship name="scheduledEvents" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="STMScheduledEvent" inverseName="salesman" inverseEntity="STMScheduledEvent" syncable="YES"/>
         <relationship name="visits" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="STMVisit" inverseName="salesman" inverseEntity="STMVisit" syncable="YES"/>
+    </entity>
+    <entity name="STMSalesmanOutletRestriction" parentEntity="STMAbstract" syncable="YES">
+        <relationship name="outlet" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMOutlet" inverseName="salesmanOutletRestrictions" inverseEntity="STMOutlet" syncable="YES"/>
+        <relationship name="restriction" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMRestriction" inverseName="salesmanOutletRestrictions" inverseEntity="STMRestriction" syncable="YES"/>
+        <relationship name="salesman" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMSalesman" inverseName="salesmanOutletRestrictions" inverseEntity="STMSalesman" syncable="YES"/>
     </entity>
     <entity name="STMSchedule" representedClassName="STMSchedule" syncable="YES">
         <attribute name="code" optional="YES" attributeType="String" syncable="YES"/>
@@ -796,7 +804,7 @@
         <element name="STMLogMessage" positionX="-792" positionY="-2286" width="128" height="223"/>
         <element name="STMMessage" positionX="252" positionY="-1083" width="128" height="328"/>
         <element name="STMMessagePicture" positionX="72" positionY="-999" width="128" height="73"/>
-        <element name="STMOutlet" positionX="-954" positionY="-1620" width="128" height="390"/>
+        <element name="STMOutlet" positionX="-954" positionY="-1620" width="128" height="405"/>
         <element name="STMOutletPhoto" positionX="-513" positionY="-1278" width="128" height="73"/>
         <element name="STMOutletSalesmanContract" positionX="-1152" positionY="-1287" width="128" height="268"/>
         <element name="STMPartner" positionX="-1170" positionY="-1594" width="128" height="300"/>
@@ -806,7 +814,7 @@
         <element name="STMRecordStatus" positionX="-360" positionY="-2286" width="128" height="270"/>
         <element name="STMSaleOrder" positionX="-945" positionY="-901" width="128" height="420"/>
         <element name="STMSaleOrderPosition" positionX="-1134" positionY="-999" width="128" height="330"/>
-        <element name="STMSalesman" positionX="-974" positionY="-1242" width="128" height="268"/>
+        <element name="STMSalesman" positionX="-974" positionY="-1242" width="128" height="285"/>
         <element name="STMSchedule" positionX="-504" positionY="-810" width="128" height="255"/>
         <element name="STMScheduledEvent" positionX="-686" positionY="-747" width="128" height="298"/>
         <element name="STMSchedulePurpose" positionX="-342" positionY="-765" width="128" height="255"/>
@@ -822,8 +830,9 @@
         <element name="STMWorkflow" positionX="45" positionY="-675" width="128" height="253"/>
         <element name="STMPartnerPriceGroup" positionX="-1368" positionY="-2133" width="128" height="90"/>
         <element name="STMPartnerArticle" positionX="-1359" positionY="-2124" width="128" height="90"/>
-        <element name="STMRestriction" positionX="-1350" positionY="-2115" width="128" height="105"/>
+        <element name="STMRestriction" positionX="-1350" positionY="-2115" width="128" height="120"/>
         <element name="STMRestrictionArticle" positionX="-1341" positionY="-2106" width="128" height="75"/>
         <element name="STMOutletRestriction" positionX="-1332" positionY="-2097" width="128" height="75"/>
+        <element name="STMSalesmanOutletRestriction" positionX="-1323" positionY="-2088" width="128" height="90"/>
     </elements>
 </model>
