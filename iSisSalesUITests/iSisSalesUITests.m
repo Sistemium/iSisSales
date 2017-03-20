@@ -39,4 +39,20 @@
     
 }
 
+//- (void)testWeb{
+//    
+//    self.app = [[XCUIApplication alloc] init];
+//    [self.app launch];
+//    [self.app.tabBars.buttons[@"ISD"] tap];
+//    
+//    XCUIElement *mainMenu = self.app.staticTexts[@"Главное меню"];
+//    NSPredicate *exists = [NSPredicate predicateWithFormat:@"exists == 1"];
+//    [self expectationForPredicate:exists evaluatedWithObject:mainMenu handler:nil];
+//    
+//    [self waitForExpectationsWithTimeout:5 handler:^(NSError * _Nullable error) {
+//        
+//    }];
+//    
+//}
+
 @end
