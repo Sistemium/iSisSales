@@ -328,6 +328,7 @@
 		3550B1E31DAE5CC300F8A368 /* STMEntity+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 3550B1E11DAE5CC300F8A368 /* STMEntity+CoreDataProperties.m */; };
 		355322231E6DAAC10028DF5C /* UITestSetup.m in Sources */ = {isa = PBXBuildFile; fileRef = 355322221E6DAAC10028DF5C /* UITestSetup.m */; };
 		355CFD391E79B50C005C4EDB /* STMTestDirectoring.m in Sources */ = {isa = PBXBuildFile; fileRef = 35B53DBC1E72D5B00002230F /* STMTestDirectoring.m */; };
+		35A985CA1E80987500DE2299 /* NSJSONSerializationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A985C91E80987500DE2299 /* NSJSONSerializationTests.m */; };
 		35B53DBD1E72D5B00002230F /* STMTestDirectoring.m in Sources */ = {isa = PBXBuildFile; fileRef = 35B53DBC1E72D5B00002230F /* STMTestDirectoring.m */; };
 		3E873491EFBF4D2FD467BB9A /* Pods_iSisSalesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFEE3E7425CEF6DC61EAF6D3 /* Pods_iSisSalesTests.framework */; };
 		4678C3D65044EE1435611066 /* Pods_iSisSalesUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 464A3CD5CCC3049472886369 /* Pods_iSisSalesUITests.framework */; };
@@ -991,6 +992,7 @@
 		3550B1E11DAE5CC300F8A368 /* STMEntity+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "STMEntity+CoreDataProperties.m"; sourceTree = "<group>"; };
 		355322211E6DAA540028DF5C /* UITestSetup.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UITestSetup.h; sourceTree = "<group>"; };
 		355322221E6DAAC10028DF5C /* UITestSetup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UITestSetup.m; sourceTree = "<group>"; };
+		35A985C91E80987500DE2299 /* NSJSONSerializationTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSJSONSerializationTests.m; sourceTree = "<group>"; };
 		35B53DBB1E72D5620002230F /* STMTestDirectoring.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STMTestDirectoring.h; sourceTree = "<group>"; };
 		35B53DBC1E72D5B00002230F /* STMTestDirectoring.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMTestDirectoring.m; sourceTree = "<group>"; };
 		390FE1B1108DBF3207298BAA /* Pods-iSisSalesSpeedTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesSpeedTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesSpeedTests/Pods-iSisSalesSpeedTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -2241,6 +2243,7 @@
 		D90B75741E2FA62D0015A994 /* ☯ iSistemiumCoreTests */ = {
 			isa = PBXGroup;
 			children = (
+				35A985C91E80987500DE2299 /* NSJSONSerializationTests.m */,
 				D9F0B3981E40BB5D00989BB0 /* Abstract */,
 				2CD5D8C81E6AB02600A88639 /* Persisting */,
 				2CD5D8DB1E6AB08600A88639 /* Syncer */,
@@ -3282,6 +3285,7 @@
 			files = (
 				D9F0B3B81E447E5500989BB0 /* SocketIOTests.m in Sources */,
 				D92983041E4B7DFF00A4F153 /* LazyDictionaryTests.m in Sources */,
+				35A985CA1E80987500DE2299 /* NSJSONSerializationTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
