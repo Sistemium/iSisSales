@@ -52,6 +52,7 @@
         <relationship name="articleGroup" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMArticleGroup" inverseName="articleGroups" inverseEntity="STMArticleGroup" syncable="YES"/>
         <relationship name="articleGroups" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="STMArticleGroup" inverseName="articleGroup" inverseEntity="STMArticleGroup" syncable="YES"/>
         <relationship name="articles" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="STMArticle" inverseName="articleGroup" inverseEntity="STMArticle" syncable="YES"/>
+        <relationship name="catalogueAlerts" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="STMCatalogueAlert" inverseName="articleGroup" inverseEntity="STMCatalogueAlert" syncable="YES"/>
         <relationship name="children" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="STMArticleGroup" inverseName="parents" inverseEntity="STMArticleGroup" syncable="YES"/>
         <relationship name="parents" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="STMArticleGroup" inverseName="children" inverseEntity="STMArticleGroup" syncable="YES"/>
     </entity>
@@ -117,6 +118,26 @@
         <attribute name="source" optional="YES" attributeType="String" indexed="YES" syncable="YES"/>
         <attribute name="target" optional="YES" attributeType="String" indexed="YES" syncable="YES"/>
         <attribute name="xid" optional="YES" attributeType="Binary" indexed="YES" syncable="YES"/>
+    </entity>
+    <entity name="STMCatalogueAlert" parentEntity="STMAbstract" syncable="YES">
+        <attribute name="dateB" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dateE" optional="YES" attributeType="String" syncable="YES">
+            <userInfo>
+                <entry key="type" value="date"/>
+            </userInfo>
+        </attribute>
+        <attribute name="options" optional="YES" attributeType="String" syncable="YES">
+            <userInfo>
+                <entry key="type" value="json"/>
+            </userInfo>
+        </attribute>
+        <attribute name="style" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="text" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="articleGroup" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMArticleGroup" inverseName="catalogueAlerts" inverseEntity="STMArticleGroup" syncable="YES"/>
+        <userInfo>
+            <entry key="type" value="date"/>
+        </userInfo>
     </entity>
     <entity name="STMClientData" representedClassName="STMClientData" syncable="YES">
         <attribute name="appVersion" optional="YES" attributeType="String" syncable="YES"/>
@@ -783,7 +804,7 @@
     <elements>
         <element name="STMAbstract" positionX="-1341" positionY="-2106" width="128" height="105"/>
         <element name="STMArticle" positionX="-1163" positionY="-619" width="128" height="480"/>
-        <element name="STMArticleGroup" positionX="-1386" positionY="-918" width="128" height="285"/>
+        <element name="STMArticleGroup" positionX="-1386" positionY="-918" width="128" height="300"/>
         <element name="STMArticlePicture" positionX="-38" positionY="-792" width="128" height="73"/>
         <element name="STMArticlePictureArticle" positionX="-407" positionY="-349" width="128" height="225"/>
         <element name="STMBarCodeScan" positionX="-72" positionY="-2286" width="128" height="238"/>
@@ -836,5 +857,6 @@
         <element name="STMVisitQuestionGroup" positionX="-171" positionY="-1458" width="128" height="240"/>
         <element name="STMVisitQuestionSet" positionX="7" positionY="-1566" width="128" height="253"/>
         <element name="STMWorkflow" positionX="45" positionY="-675" width="128" height="253"/>
+        <element name="STMCatalogueAlert" positionX="-1314" positionY="-2079" width="128" height="150"/>
     </elements>
 </model>
