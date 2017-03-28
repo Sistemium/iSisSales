@@ -2512,27 +2512,32 @@
 					};
 					2C94BFE21CF1ACB8004476D8 = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0830;
 						TestTargetID = 2C94BFC91CF1ACB8004476D8;
 					};
 					2C94BFED1CF1ACB8004476D8 = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0830;
 						TestTargetID = 2C94BFC91CF1ACB8004476D8;
 					};
 					D95FBAE51E489C540029F3C8 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = HZMMGDCLPA;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 2C94BFC91CF1ACB8004476D8;
 					};
 					D96BFEA31E547DA30080327D = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = HZMMGDCLPA;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 2C94BFC91CF1ACB8004476D8;
 					};
 					D9F0B3AD1E447E0500989BB0 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = HZMMGDCLPA;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 2C94BFC91CF1ACB8004476D8;
 					};
@@ -3499,6 +3504,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sistemium.iSisSalesTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iSisSales.app/iSisSales";
 				USER_HEADER_SEARCH_PATHS = "$(CONFIGURATION_TEMP_DIR)/$(PROJECT_NAME).build/DerivedSources $(TARGET_TEMP_DIR)/../$(PROJECT_NAME).build/DerivedSources";
 			};
@@ -3518,6 +3524,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sistemium.iSisSalesTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iSisSales.app/iSisSales";
 				USER_HEADER_SEARCH_PATHS = "$(CONFIGURATION_TEMP_DIR)/$(PROJECT_NAME).build/DerivedSources $(TARGET_TEMP_DIR)/../$(PROJECT_NAME).build/DerivedSources";
 			};
@@ -3533,6 +3540,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sistemium.iSisSalesUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = iSisSales;
 			};
 			name = Debug;
@@ -3547,6 +3555,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sistemium.iSisSalesUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = iSisSales;
 			};
 			name = Release;
@@ -3572,6 +3581,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sistemium.iSisSalesTestsInMemory;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iSisSales.app/iSisSales";
 			};
 			name = Debug;
@@ -3597,6 +3607,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sistemium.iSisSalesTestsInMemory;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iSisSales.app/iSisSales";
 			};
 			name = Release;
@@ -3615,6 +3626,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sistemium.iSisSalesSpeedTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iSisSales.app/iSisSales";
 			};
 			name = Debug;
@@ -3633,6 +3645,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sistemium.iSisSalesSpeedTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iSisSales.app/iSisSales";
 			};
 			name = Release;
@@ -3651,6 +3664,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sistemium.iSisSalesOfLibsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iSisSales.app/iSisSales";
 			};
 			name = Debug;
@@ -3669,6 +3683,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sistemium.iSisSalesOfLibsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iSisSales.app/iSisSales";
 			};
 			name = Release;
