@@ -126,7 +126,7 @@
                 <entry key="type" value="date"/>
             </userInfo>
         </attribute>
-        <attribute name="options" optional="YES" attributeType="String" syncable="YES">
+        <attribute name="options" optional="YES" attributeType="Transformable" syncable="YES">
             <userInfo>
                 <entry key="type" value="json"/>
             </userInfo>
@@ -810,6 +810,7 @@
         <element name="STMBarCodeScan" positionX="-72" positionY="-2286" width="128" height="238"/>
         <element name="STMBarCodeType" positionX="-218" positionY="-2286" width="128" height="253"/>
         <element name="STMBatteryStatus" positionX="-648" positionY="-2286" width="128" height="223"/>
+        <element name="STMCatalogueAlert" positionX="-1314" positionY="-2079" width="128" height="150"/>
         <element name="STMClientData" positionX="-936" positionY="-2286" width="128" height="418"/>
         <element name="STMClientEntity" positionX="70" positionY="-2286" width="128" height="223"/>
         <element name="STMContract" positionX="-1388" positionY="-1261" width="128" height="180"/>
@@ -857,6 +858,5 @@
         <element name="STMVisitQuestionGroup" positionX="-171" positionY="-1458" width="128" height="240"/>
         <element name="STMVisitQuestionSet" positionX="7" positionY="-1566" width="128" height="253"/>
         <element name="STMWorkflow" positionX="45" positionY="-675" width="128" height="253"/>
-        <element name="STMCatalogueAlert" positionX="-1314" positionY="-2079" width="128" height="150"/>
     </elements>
 </model>
