@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="12141" systemVersion="16D32" minimumToolsVersion="Xcode 7.3" sourceLanguage="Objective-C" userDefinedModelVersionIdentifier="">
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="11759" systemVersion="16D32" minimumToolsVersion="Xcode 7.3" sourceLanguage="Objective-C" userDefinedModelVersionIdentifier="">
     <entity name="STMAbstract" isAbstract="YES" parentEntity="STMDatum" syncable="YES">
         <attribute name="commentText" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="ownerXid" optional="YES" attributeType="Binary" syncable="YES"/>
@@ -120,37 +120,17 @@
         <attribute name="target" optional="YES" attributeType="String" indexed="YES" syncable="YES"/>
         <attribute name="xid" optional="YES" attributeType="Binary" indexed="YES" syncable="YES"/>
     </entity>
-    <entity name="STMCampaign" syncable="YES">
-        <attribute name="commentText" optional="YES" attributeType="String" syncable="YES"/>
+    <entity name="STMCampaign" parentEntity="STMAbstract" syncable="YES">
         <attribute name="dateB" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="dateE" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="deviceCts" optional="YES" attributeType="Date" usesScalarValueType="NO" indexed="YES" syncable="YES"/>
-        <attribute name="deviceTs" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
-        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="NO" indexed="YES" syncable="YES"/>
-        <attribute name="isFantom" optional="YES" attributeType="Boolean" defaultValueString="YES" usesScalarValueType="NO" syncable="YES"/>
-        <attribute name="lts" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
         <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="ownerXid" optional="YES" attributeType="Binary" indexed="YES" syncable="YES"/>
-        <attribute name="source" optional="YES" attributeType="String" indexed="YES" syncable="YES"/>
-        <attribute name="target" optional="YES" attributeType="String" indexed="YES" syncable="YES"/>
-        <attribute name="xid" optional="YES" attributeType="Binary" indexed="YES" syncable="YES"/>
         <relationship name="campaignGroup" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMCampaignGroup" inverseName="campaigns" inverseEntity="STMCampaignGroup" syncable="YES"/>
         <relationship name="pictures" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="STMCampaignPicture" inverseName="campaign" inverseEntity="STMCampaignPicture" syncable="YES"/>
     </entity>
-    <entity name="STMCampaignGroup" syncable="YES">
-        <attribute name="commentText" optional="YES" attributeType="String" syncable="YES"/>
+    <entity name="STMCampaignGroup" parentEntity="STMAbstract" syncable="YES">
         <attribute name="dateB" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="dateE" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="deviceCts" optional="YES" attributeType="Date" usesScalarValueType="NO" indexed="YES" syncable="YES"/>
-        <attribute name="deviceTs" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
-        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="NO" indexed="YES" syncable="YES"/>
-        <attribute name="isFantom" optional="YES" attributeType="Boolean" defaultValueString="YES" usesScalarValueType="NO" syncable="YES"/>
-        <attribute name="lts" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
         <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="ownerXid" optional="YES" attributeType="Binary" indexed="YES" syncable="YES"/>
-        <attribute name="source" optional="YES" attributeType="String" indexed="YES" syncable="YES"/>
-        <attribute name="target" optional="YES" attributeType="String" indexed="YES" syncable="YES"/>
-        <attribute name="xid" optional="YES" attributeType="Binary" indexed="YES" syncable="YES"/>
         <relationship name="campaigns" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="STMCampaign" inverseName="campaignGroup" inverseEntity="STMCampaign" syncable="YES"/>
     </entity>
     <entity name="STMCampaignPicture" parentEntity="STMCorePicture" syncable="YES">
@@ -305,21 +285,11 @@
             <entry key="STORE" value="NONE"/>
         </userInfo>
     </entity>
-    <entity name="STMDriver" syncable="YES">
-        <attribute name="commentText" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="deviceCts" optional="YES" attributeType="Date" usesScalarValueType="NO" indexed="YES" syncable="YES"/>
-        <attribute name="deviceTs" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
-        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="NO" indexed="YES" syncable="YES"/>
-        <attribute name="isFantom" optional="YES" attributeType="Boolean" defaultValueString="YES" usesScalarValueType="NO" syncable="YES"/>
-        <attribute name="lts" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+    <entity name="STMDriver" parentEntity="STMAbstract" syncable="YES">
         <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="ownerXid" optional="YES" attributeType="Binary" indexed="YES" syncable="YES"/>
         <attribute name="phone" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="source" optional="YES" attributeType="String" indexed="YES" syncable="YES"/>
-        <attribute name="target" optional="YES" attributeType="String" indexed="YES" syncable="YES"/>
         <attribute name="truckBrand" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="truckNumber" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="xid" optional="YES" attributeType="Binary" indexed="YES" syncable="YES"/>
         <relationship name="shipments" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="STMShipment" inverseName="driver" inverseEntity="STMShipment" syncable="YES"/>
     </entity>
     <entity name="STMEntity" representedClassName="STMEntity" syncable="YES">
@@ -728,39 +698,19 @@
             <entry key="STORE" value="FMDB"/>
         </userInfo>
     </entity>
-    <entity name="STMShipment" syncable="YES">
-        <attribute name="commentText" optional="YES" attributeType="String" syncable="YES"/>
+    <entity name="STMShipment" parentEntity="STMAbstract" syncable="YES">
         <attribute name="date" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="deviceCts" optional="YES" attributeType="Date" usesScalarValueType="NO" indexed="YES" syncable="YES"/>
-        <attribute name="deviceTs" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
-        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="NO" indexed="YES" syncable="YES"/>
-        <attribute name="isFantom" optional="YES" attributeType="Boolean" defaultValueString="YES" usesScalarValueType="NO" syncable="YES"/>
-        <attribute name="lts" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
         <attribute name="ndoc" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="ownerXid" optional="YES" attributeType="Binary" indexed="YES" syncable="YES"/>
-        <attribute name="source" optional="YES" attributeType="String" indexed="YES" syncable="YES"/>
-        <attribute name="target" optional="YES" attributeType="String" indexed="YES" syncable="YES"/>
-        <attribute name="xid" optional="YES" attributeType="Binary" indexed="YES" syncable="YES"/>
         <relationship name="driver" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMDriver" inverseName="shipments" inverseEntity="STMDriver" syncable="YES"/>
         <relationship name="outlet" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMOutlet" inverseName="shipments" inverseEntity="STMOutlet" syncable="YES"/>
         <relationship name="positions" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="STMShipmentPosition" inverseName="shipment" inverseEntity="STMShipmentPosition" syncable="YES"/>
         <relationship name="saleOrder" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMSaleOrder" inverseName="shipments" inverseEntity="STMSaleOrder" syncable="YES"/>
         <relationship name="salesman" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMSalesman" inverseName="shipments" inverseEntity="STMSalesman" syncable="YES"/>
     </entity>
-    <entity name="STMShipmentPosition" syncable="YES">
-        <attribute name="commentText" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="deviceCts" optional="YES" attributeType="Date" usesScalarValueType="NO" indexed="YES" syncable="YES"/>
-        <attribute name="deviceTs" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
-        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="NO" indexed="YES" syncable="YES"/>
-        <attribute name="isFantom" optional="YES" attributeType="Boolean" defaultValueString="YES" usesScalarValueType="NO" syncable="YES"/>
-        <attribute name="lts" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
-        <attribute name="ownerXid" optional="YES" attributeType="Binary" indexed="YES" syncable="YES"/>
+    <entity name="STMShipmentPosition" parentEntity="STMAbstract" syncable="YES">
         <attribute name="price" optional="YES" attributeType="Decimal" defaultValueString="0.0" syncable="YES"/>
         <attribute name="priceDoc" optional="YES" attributeType="Decimal" defaultValueString="0.0" syncable="YES"/>
-        <attribute name="source" optional="YES" attributeType="String" indexed="YES" syncable="YES"/>
-        <attribute name="target" optional="YES" attributeType="String" indexed="YES" syncable="YES"/>
         <attribute name="volume" optional="YES" attributeType="Decimal" defaultValueString="0.0" syncable="YES"/>
-        <attribute name="xid" optional="YES" attributeType="Binary" indexed="YES" syncable="YES"/>
         <relationship name="article" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMArticle" inverseName="shipmentPositions" inverseEntity="STMArticle" syncable="YES"/>
         <relationship name="shipment" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMShipment" inverseName="positions" inverseEntity="STMShipment" syncable="YES"/>
     </entity>
@@ -903,8 +853,8 @@
         <element name="STMBarCodeScan" positionX="-72" positionY="-2286" width="128" height="238"/>
         <element name="STMBarCodeType" positionX="-218" positionY="-2286" width="128" height="253"/>
         <element name="STMBatteryStatus" positionX="-648" positionY="-2286" width="128" height="223"/>
-        <element name="STMCampaign" positionX="-1206" positionY="-2016" width="128" height="270"/>
-        <element name="STMCampaignGroup" positionX="-1215" positionY="-2025" width="128" height="255"/>
+        <element name="STMCampaign" positionX="-1206" positionY="-2016" width="128" height="120"/>
+        <element name="STMCampaignGroup" positionX="-1215" positionY="-2025" width="128" height="105"/>
         <element name="STMCampaignPicture" positionX="-1197" positionY="-2007" width="128" height="60"/>
         <element name="STMCatalogueAlert" positionX="-1314" positionY="-2079" width="128" height="150"/>
         <element name="STMClientData" positionX="-936" positionY="-2286" width="128" height="418"/>
@@ -916,7 +866,7 @@
         <element name="STMCorePhoto" positionX="-272" positionY="-1147" width="128" height="60"/>
         <element name="STMCorePicture" positionX="-92" positionY="-1188" width="128" height="330"/>
         <element name="STMDatum" positionX="-1224" positionY="-2286" width="128" height="135"/>
-        <element name="STMDriver" positionX="-1323" positionY="-2088" width="128" height="270"/>
+        <element name="STMDriver" positionX="-1323" positionY="-2088" width="128" height="120"/>
         <element name="STMEntity" positionX="232" positionY="-681" width="128" height="390"/>
         <element name="STMEntityTemplate" positionX="-1368" positionY="-2286" width="128" height="193"/>
         <element name="STMJson" positionX="-504" positionY="-2286" width="128" height="238"/>
@@ -946,8 +896,8 @@
         <element name="STMScheduledEvent" positionX="-686" positionY="-747" width="128" height="298"/>
         <element name="STMSchedulePurpose" positionX="-342" positionY="-765" width="128" height="255"/>
         <element name="STMSetting" positionX="-1080" positionY="-2286" width="128" height="238"/>
-        <element name="STMShipment" positionX="-1341" positionY="-2106" width="128" height="300"/>
-        <element name="STMShipmentPosition" positionX="-1332" positionY="-2097" width="128" height="270"/>
+        <element name="STMShipment" positionX="-1341" positionY="-2106" width="128" height="150"/>
+        <element name="STMShipmentPosition" positionX="-1332" positionY="-2097" width="128" height="120"/>
         <element name="STMStock" positionX="-947" positionY="-540" width="128" height="238"/>
         <element name="STMVisit" positionX="-729" positionY="-1756" width="128" height="300"/>
         <element name="STMVisitAnswer" positionX="-540" positionY="-1746" width="128" height="238"/>
