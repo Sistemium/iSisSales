@@ -853,12 +853,9 @@
         <element name="STMBarCodeScan" positionX="-72" positionY="-2286" width="128" height="238"/>
         <element name="STMBarCodeType" positionX="-218" positionY="-2286" width="128" height="253"/>
         <element name="STMBatteryStatus" positionX="-648" positionY="-2286" width="128" height="223"/>
-<<<<<<< HEAD
-=======
         <element name="STMCampaign" positionX="-1206" positionY="-2016" width="128" height="120"/>
         <element name="STMCampaignGroup" positionX="-1215" positionY="-2025" width="128" height="105"/>
         <element name="STMCampaignPicture" positionX="-1197" positionY="-2007" width="128" height="60"/>
->>>>>>> campaigns
         <element name="STMCatalogueAlert" positionX="-1314" positionY="-2079" width="128" height="150"/>
         <element name="STMClientData" positionX="-936" positionY="-2286" width="128" height="418"/>
         <element name="STMClientEntity" positionX="70" positionY="-2286" width="128" height="223"/>
@@ -909,10 +906,6 @@
         <element name="STMVisitQuestionDataType" positionX="-171" positionY="-1710" width="128" height="238"/>
         <element name="STMVisitQuestionGroup" positionX="-171" positionY="-1458" width="128" height="240"/>
         <element name="STMVisitQuestionSet" positionX="7" positionY="-1566" width="128" height="253"/>
-<<<<<<< HEAD
-        <element name="STMWorkflow" positionX="45" positionY="-675" width="128" height="255"/>
-=======
         <element name="STMWorkflow" positionX="45" positionY="-675" width="128" height="253"/>
->>>>>>> campaigns
     </elements>
 </model>
