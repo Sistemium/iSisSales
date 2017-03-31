@@ -330,6 +330,8 @@
 		355CFD391E79B50C005C4EDB /* STMTestDirectoring.m in Sources */ = {isa = PBXBuildFile; fileRef = 35B53DBC1E72D5B00002230F /* STMTestDirectoring.m */; };
 		35A985CA1E80987500DE2299 /* NSJSONSerializationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A985C91E80987500DE2299 /* NSJSONSerializationTests.m */; };
 		35B53DBD1E72D5B00002230F /* STMTestDirectoring.m in Sources */ = {isa = PBXBuildFile; fileRef = 35B53DBC1E72D5B00002230F /* STMTestDirectoring.m */; };
+		35E85ED51E8E7A860047CE33 /* STMStatingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 35E85ED41E8E7A860047CE33 /* STMStatingTests.m */; };
+		35E85ED61E8E7A860047CE33 /* STMStatingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 35E85ED41E8E7A860047CE33 /* STMStatingTests.m */; };
 		3E873491EFBF4D2FD467BB9A /* Pods_iSisSalesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFEE3E7425CEF6DC61EAF6D3 /* Pods_iSisSalesTests.framework */; };
 		4678C3D65044EE1435611066 /* Pods_iSisSalesUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 464A3CD5CCC3049472886369 /* Pods_iSisSalesUITests.framework */; };
 		744B5294EF591EB5FCB18EDD /* Pods_iSisSalesTestsInMemory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F3911A3DEFF236838CDC4D1 /* Pods_iSisSalesTestsInMemory.framework */; };
@@ -995,6 +997,8 @@
 		35A985C91E80987500DE2299 /* NSJSONSerializationTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSJSONSerializationTests.m; sourceTree = "<group>"; };
 		35B53DBB1E72D5620002230F /* STMTestDirectoring.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STMTestDirectoring.h; sourceTree = "<group>"; };
 		35B53DBC1E72D5B00002230F /* STMTestDirectoring.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMTestDirectoring.m; sourceTree = "<group>"; };
+		35E85ECF1E8C04FA0047CE33 /* STMStating.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STMStating.h; sourceTree = "<group>"; };
+		35E85ED41E8E7A860047CE33 /* STMStatingTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMStatingTests.m; sourceTree = "<group>"; };
 		390FE1B1108DBF3207298BAA /* Pods-iSisSalesSpeedTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesSpeedTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesSpeedTests/Pods-iSisSalesSpeedTests.debug.xcconfig"; sourceTree = "<group>"; };
 		4033E05BE502B1B13735187B /* Pods-iSisSales.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSales.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSales/Pods-iSisSales.debug.xcconfig"; sourceTree = "<group>"; };
 		464A3CD5CCC3049472886369 /* Pods_iSisSalesUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iSisSalesUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -2092,6 +2096,7 @@
 				D96BFED11E584AEB0080327D /* STMNotifications.h */,
 				D9E439521E60115C0094DC14 /* STMLogging.h */,
 				2CD5D8771E647B2300A88639 /* STMFiling.h */,
+				35E85ECF1E8C04FA0047CE33 /* STMStating.h */,
 			);
 			name = "☯ Protocols";
 			path = ../../iSistemiumCore/iSistemiumCore/Protocols;
@@ -2243,6 +2248,7 @@
 		D90B75741E2FA62D0015A994 /* ☯ iSistemiumCoreTests */ = {
 			isa = PBXGroup;
 			children = (
+				35E85ED41E8E7A860047CE33 /* STMStatingTests.m */,
 				35A985C91E80987500DE2299 /* NSJSONSerializationTests.m */,
 				D9F0B3981E40BB5D00989BB0 /* Abstract */,
 				2CD5D8C81E6AB02600A88639 /* Persisting */,
@@ -3226,6 +3232,7 @@
 				2CC0E1D61E6AB20F00DB5BF0 /* LtsCoreDataTests.m in Sources */,
 				2CC0E1D71E6AB20F00DB5BF0 /* PersistingAsyncTests.m in Sources */,
 				2CC0E1D91E6AB20F00DB5BF0 /* PersistingObservingTests.m in Sources */,
+				35E85ED51E8E7A860047CE33 /* STMStatingTests.m in Sources */,
 				2CA8B6471E4CA49200E359B0 /* LoggerTests.m in Sources */,
 				2CC0E1DB1E6AB20F00DB5BF0 /* STMFMDBTests.m in Sources */,
 				2CC0E1D01E6AB1FB00DB5BF0 /* SyncingDataTests.m in Sources */,
@@ -3289,6 +3296,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D9F0B3B81E447E5500989BB0 /* SocketIOTests.m in Sources */,
+				35E85ED61E8E7A860047CE33 /* STMStatingTests.m in Sources */,
 				D92983041E4B7DFF00A4F153 /* LazyDictionaryTests.m in Sources */,
 				35A985CA1E80987500DE2299 /* NSJSONSerializationTests.m in Sources */,
 			);
