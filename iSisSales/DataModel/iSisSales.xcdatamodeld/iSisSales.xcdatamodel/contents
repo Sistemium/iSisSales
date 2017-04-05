@@ -6,6 +6,15 @@
         <attribute name="source" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="target" optional="YES" attributeType="String" syncable="YES"/>
     </entity>
+    <entity name="STMAccount" parentEntity="STMAbstract" syncable="YES">
+        <attribute name="email" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="emailCC" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isCoordinator" optional="YES" attributeType="Boolean" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="mobileNumber" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="cashings" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="STMCashing" inverseName="creator" inverseEntity="STMCashing" syncable="YES"/>
+        <relationship name="uncashings" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="STMUncashing" inverseName="creator" inverseEntity="STMUncashing" syncable="YES"/>
+    </entity>
     <entity name="STMArticle" representedClassName="STMArticle" syncable="YES">
         <attribute name="barcode" optional="YES" attributeType="String" indexed="YES" syncable="YES"/>
         <attribute name="code" optional="YES" attributeType="String" syncable="YES"/>
@@ -141,6 +150,7 @@
         <attribute name="isProcessed" optional="YES" attributeType="Boolean" usesScalarValueType="NO" syncable="YES"/>
         <attribute name="ndoc" optional="YES" attributeType="String" indexed="YES" syncable="YES"/>
         <attribute name="summ" optional="YES" attributeType="Decimal" defaultValueString="0.0" syncable="YES"/>
+        <relationship name="creator" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMAccount" inverseName="cashings" inverseEntity="STMAccount" syncable="YES"/>
         <relationship name="debt" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMDebt" inverseName="cashings" inverseEntity="STMDebt" syncable="YES"/>
         <relationship name="outlet" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMOutlet" inverseName="cashings" inverseEntity="STMOutlet" syncable="YES"/>
         <relationship name="uncashing" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMUncashing" inverseName="cashings" inverseEntity="STMUncashing" syncable="YES"/>
@@ -750,6 +760,7 @@
         <attribute name="summOrigin" optional="YES" attributeType="Decimal" defaultValueString="0.0" syncable="YES"/>
         <attribute name="type" optional="YES" attributeType="String" syncable="YES"/>
         <relationship name="cashings" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="STMCashing" inverseName="uncashing" inverseEntity="STMCashing" syncable="YES"/>
+        <relationship name="creator" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMAccount" inverseName="uncashings" inverseEntity="STMAccount" syncable="YES"/>
         <relationship name="pictures" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="STMUncashingPicture" inverseName="uncashing" inverseEntity="STMUncashingPicture" syncable="YES"/>
         <relationship name="uncashingPlace" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMUncashingPlace" inverseName="uncashings" inverseEntity="STMUncashingPlace" syncable="YES"/>
     </entity>
@@ -939,10 +950,11 @@
         <element name="STMVisitQuestionGroup" positionX="-171" positionY="-1458" width="128" height="240"/>
         <element name="STMVisitQuestionSet" positionX="7" positionY="-1566" width="128" height="253"/>
         <element name="STMWorkflow" positionX="45" positionY="-675" width="128" height="253"/>
-        <element name="STMCashing" positionX="-1368" positionY="-2133" width="128" height="150"/>
+        <element name="STMCashing" positionX="-1368" positionY="-2133" width="128" height="165"/>
         <element name="STMDebt" positionX="-1359" positionY="-2124" width="128" height="195"/>
-        <element name="STMUncashing" positionX="-1350" positionY="-2115" width="128" height="165"/>
+        <element name="STMUncashing" positionX="-1350" positionY="-2115" width="128" height="180"/>
         <element name="STMUncashingPicture" positionX="-1341" positionY="-2106" width="128" height="60"/>
         <element name="STMUncashingPlace" positionX="-1332" positionY="-2097" width="128" height="90"/>
+        <element name="STMAccount" positionX="-1323" positionY="-2088" width="128" height="150"/>
     </elements>
 </model>
