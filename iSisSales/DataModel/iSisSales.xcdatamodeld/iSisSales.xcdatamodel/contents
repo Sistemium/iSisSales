@@ -143,6 +143,7 @@
         <attribute name="summ" optional="YES" attributeType="Decimal" defaultValueString="0.0" syncable="YES"/>
         <relationship name="debt" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMDebt" inverseName="cashings" inverseEntity="STMDebt" syncable="YES"/>
         <relationship name="outlet" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMOutlet" inverseName="cashings" inverseEntity="STMOutlet" syncable="YES"/>
+        <relationship name="uncashing" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMUncashing" inverseName="cashings" inverseEntity="STMUncashing" syncable="YES"/>
     </entity>
     <entity name="STMCatalogueAlert" parentEntity="STMAbstract" syncable="YES">
         <attribute name="dateB" optional="YES" attributeType="String" syncable="YES"/>
@@ -742,6 +743,24 @@
         <attribute name="xid" optional="YES" attributeType="Binary" indexed="YES" syncable="YES"/>
         <relationship name="article" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMArticle" inverseName="stocks" inverseEntity="STMArticle" syncable="YES"/>
     </entity>
+    <entity name="STMUncashing" parentEntity="STMAbstract" syncable="YES">
+        <attribute name="date" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="processing" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="summ" optional="YES" attributeType="Decimal" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="summOrigin" optional="YES" attributeType="Decimal" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="cashings" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="STMCashing" inverseName="uncashing" inverseEntity="STMCashing" syncable="YES"/>
+        <relationship name="pictures" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="STMUncashingPicture" inverseName="uncashing" inverseEntity="STMUncashingPicture" syncable="YES"/>
+        <relationship name="uncashingPlace" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMUncashingPlace" inverseName="uncashings" inverseEntity="STMUncashingPlace" syncable="YES"/>
+    </entity>
+    <entity name="STMUncashingPicture" parentEntity="STMCorePhoto" syncable="YES">
+        <relationship name="uncashing" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMUncashing" inverseName="pictures" inverseEntity="STMUncashing" syncable="YES"/>
+    </entity>
+    <entity name="STMUncashingPlace" parentEntity="STMAbstract" syncable="YES">
+        <attribute name="email" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="uncashings" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="STMUncashing" inverseName="uncashingPlace" inverseEntity="STMUncashing" syncable="YES"/>
+    </entity>
     <entity name="STMVisit" representedClassName="STMVisit" syncable="YES">
         <attribute name="commentText" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="date" optional="YES" attributeType="String" syncable="YES"/>
@@ -920,7 +939,10 @@
         <element name="STMVisitQuestionGroup" positionX="-171" positionY="-1458" width="128" height="240"/>
         <element name="STMVisitQuestionSet" positionX="7" positionY="-1566" width="128" height="253"/>
         <element name="STMWorkflow" positionX="45" positionY="-675" width="128" height="253"/>
-        <element name="STMCashing" positionX="-1368" positionY="-2133" width="128" height="135"/>
+        <element name="STMCashing" positionX="-1368" positionY="-2133" width="128" height="150"/>
         <element name="STMDebt" positionX="-1359" positionY="-2124" width="128" height="195"/>
+        <element name="STMUncashing" positionX="-1350" positionY="-2115" width="128" height="165"/>
+        <element name="STMUncashingPicture" positionX="-1341" positionY="-2106" width="128" height="60"/>
+        <element name="STMUncashingPlace" positionX="-1332" positionY="-2097" width="128" height="90"/>
     </elements>
 </model>
