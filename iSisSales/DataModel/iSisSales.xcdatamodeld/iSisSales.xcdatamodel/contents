@@ -331,7 +331,7 @@
         <relationship name="partner" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMPartner" inverseName="partnerPriceGroups" inverseEntity="STMPartner" syncable="YES"/>
         <relationship name="priceGroup" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMPriceGroup" inverseName="partnerPriceGroups" inverseEntity="STMPriceGroup" syncable="YES"/>
     </entity>
-    <entity name="STMPhotoReport" parentEntity="STMCorePhoto" syncable="YES">
+    <entity name="STMPhotoReport" representedClassName="STMPhotoReport" parentEntity="STMCorePhoto" syncable="YES">
         <relationship name="campaign" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMCampaign" inverseName="photoReports" inverseEntity="STMCampaign" syncable="YES"/>
         <relationship name="outlet" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMOutlet" inverseName="photoReports" inverseEntity="STMOutlet" syncable="YES"/>
         <relationship name="salesman" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMSalesman" inverseName="photoReports" inverseEntity="STMSalesman" syncable="YES"/>
@@ -573,6 +573,7 @@
         <element name="STMPartner" positionX="-1170" positionY="-1594" width="128" height="150"/>
         <element name="STMPartnerArticle" positionX="-1359" positionY="-2124" width="128" height="90"/>
         <element name="STMPartnerPriceGroup" positionX="-1368" positionY="-2133" width="128" height="90"/>
+        <element name="STMPhotoReport" positionX="-1314" positionY="-2079" width="128" height="90"/>
         <element name="STMPrice" positionX="-1575" positionY="-517" width="128" height="90"/>
         <element name="STMPriceGroup" positionX="-1368" positionY="-2133" width="128" height="105"/>
         <element name="STMPriceType" positionX="-1377" positionY="-262" width="128" height="150"/>
@@ -601,6 +602,5 @@
         <element name="STMVisitQuestionGroup" positionX="-171" positionY="-1458" width="128" height="90"/>
         <element name="STMVisitQuestionSet" positionX="7" positionY="-1566" width="128" height="105"/>
         <element name="STMWorkflow" positionX="45" positionY="-675" width="128" height="105"/>
-        <element name="STMPhotoReport" positionX="-1314" positionY="-2079" width="128" height="90"/>
     </elements>
 </model>
