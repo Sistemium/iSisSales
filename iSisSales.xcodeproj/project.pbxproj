@@ -25,6 +25,8 @@
 		2C1AE2521D9BF62500272A63 /* errorCatcherScript.js in Resources */ = {isa = PBXBuildFile; fileRef = 2C1AE2511D9BF62500272A63 /* errorCatcherScript.js */; };
 		2C1BE5811E6EE2C4006866E4 /* FilingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CD5D8781E65938100A88639 /* FilingTests.m */; };
 		2C2379B21CF2FFB4002AF3F5 /* STMObjectsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C2379B11CF2FFB4002AF3F5 /* STMObjectsController.m */; };
+		2C2BC23E1E9A2BEF00ADA42B /* STMPhotoReport+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C2BC23B1E9A2BEF00ADA42B /* STMPhotoReport+CoreDataClass.m */; };
+		2C2BC23F1E9A2BEF00ADA42B /* STMPhotoReport+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C2BC23D1E9A2BEF00ADA42B /* STMPhotoReport+CoreDataProperties.m */; };
 		2C32C9D81D14441F00CE4981 /* STMCameraOverlayView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C32C9D71D14441F00CE4981 /* STMCameraOverlayView.xib */; };
 		2C34EDAE1E2522D1004DE82D /* STMArticlePicture+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C34EDAB1E2522D1004DE82D /* STMArticlePicture+CoreDataClass.m */; };
 		2C34EDAF1E2522D1004DE82D /* STMArticlePicture+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C34EDAD1E2522D1004DE82D /* STMArticlePicture+CoreDataProperties.m */; };
@@ -443,6 +445,10 @@
 		2C1AE2511D9BF62500272A63 /* errorCatcherScript.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = errorCatcherScript.js; sourceTree = "<group>"; };
 		2C2379B01CF2FFB4002AF3F5 /* STMObjectsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMObjectsController.h; sourceTree = "<group>"; };
 		2C2379B11CF2FFB4002AF3F5 /* STMObjectsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMObjectsController.m; sourceTree = "<group>"; };
+		2C2BC23A1E9A2BEF00ADA42B /* STMPhotoReport+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "STMPhotoReport+CoreDataClass.h"; sourceTree = "<group>"; };
+		2C2BC23B1E9A2BEF00ADA42B /* STMPhotoReport+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "STMPhotoReport+CoreDataClass.m"; sourceTree = "<group>"; };
+		2C2BC23C1E9A2BEF00ADA42B /* STMPhotoReport+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "STMPhotoReport+CoreDataProperties.h"; sourceTree = "<group>"; };
+		2C2BC23D1E9A2BEF00ADA42B /* STMPhotoReport+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "STMPhotoReport+CoreDataProperties.m"; sourceTree = "<group>"; };
 		2C32C9D71D14441F00CE4981 /* STMCameraOverlayView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = STMCameraOverlayView.xib; sourceTree = "<group>"; };
 		2C34EDAA1E2522D1004DE82D /* STMArticlePicture+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "STMArticlePicture+CoreDataClass.h"; sourceTree = "<group>"; };
 		2C34EDAB1E2522D1004DE82D /* STMArticlePicture+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "STMArticlePicture+CoreDataClass.m"; sourceTree = "<group>"; };
@@ -1747,6 +1753,10 @@
 		2C94C19D1CF1B234004476D8 /* DataModel */ = {
 			isa = PBXGroup;
 			children = (
+				2C2BC23A1E9A2BEF00ADA42B /* STMPhotoReport+CoreDataClass.h */,
+				2C2BC23B1E9A2BEF00ADA42B /* STMPhotoReport+CoreDataClass.m */,
+				2C2BC23C1E9A2BEF00ADA42B /* STMPhotoReport+CoreDataProperties.h */,
+				2C2BC23D1E9A2BEF00ADA42B /* STMPhotoReport+CoreDataProperties.m */,
 				2CD5D8721E5D7C9C00A88639 /* iSisSales.xcdatamodeld */,
 				2C40F7901CF203BF00231E01 /* STMDataModel.h */,
 				2C5034061DF5B00900687A64 /* STMArticle+CoreDataClass.h */,
@@ -3145,6 +3155,7 @@
 				2C94C0F11CF1B1BB004476D8 /* STMCoreBarCodeController.m in Sources */,
 				2C94C1201CF1B1BB004476D8 /* UIViewController+custom.m in Sources */,
 				D9F0B3921E3FE98400989BB0 /* STMScriptMessageHandler+Private.m in Sources */,
+				2C2BC23F1E9A2BEF00ADA42B /* STMPhotoReport+CoreDataProperties.m in Sources */,
 				2CCD468D1D646BAF003F8A14 /* STMLegalForm.m in Sources */,
 				2C94C25A1CF1B3D8004476D8 /* STMCoreApplication.m in Sources */,
 				D96BFEB01E547E950080327D /* STMIndexedArrayPersisting.m in Sources */,
@@ -3174,6 +3185,7 @@
 				2C50340B1DF5B00900687A64 /* STMPriceType+CoreDataProperties.m in Sources */,
 				2CCD5DD71E36478500B84565 /* STMCoreBatteryTracker.m in Sources */,
 				2C0A8CB21D09903C007C5B57 /* STMVisitQuestionGroup+CoreDataProperties.m in Sources */,
+				2C2BC23E1E9A2BEF00ADA42B /* STMPhotoReport+CoreDataClass.m in Sources */,
 				D96BFEB11E547E950080327D /* STMFakePersisting.m in Sources */,
 				2C5034181DF5B00900687A64 /* STMPrice+CoreDataClass.m in Sources */,
 				2C94C1071CF1B1BB004476D8 /* STMCustom3TVCell.m in Sources */,
