@@ -1753,12 +1753,12 @@
 		2C94C19D1CF1B234004476D8 /* DataModel */ = {
 			isa = PBXGroup;
 			children = (
+				2CD5D8721E5D7C9C00A88639 /* iSisSales.xcdatamodeld */,
+				2C40F7901CF203BF00231E01 /* STMDataModel.h */,
 				2C2BC23A1E9A2BEF00ADA42B /* STMPhotoReport+CoreDataClass.h */,
 				2C2BC23B1E9A2BEF00ADA42B /* STMPhotoReport+CoreDataClass.m */,
 				2C2BC23C1E9A2BEF00ADA42B /* STMPhotoReport+CoreDataProperties.h */,
 				2C2BC23D1E9A2BEF00ADA42B /* STMPhotoReport+CoreDataProperties.m */,
-				2CD5D8721E5D7C9C00A88639 /* iSisSales.xcdatamodeld */,
-				2C40F7901CF203BF00231E01 /* STMDataModel.h */,
 				2C5034061DF5B00900687A64 /* STMArticle+CoreDataClass.h */,
 				2C5034071DF5B00900687A64 /* STMArticle+CoreDataClass.m */,
 				2C5034081DF5B00900687A64 /* STMArticle+CoreDataProperties.h */,
