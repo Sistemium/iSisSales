@@ -3534,6 +3534,11 @@
 				DEVELOPMENT_TEAM = HZMMGDCLPA;
 				ENABLE_BITCODE = NO;
 				GCC_PREFIX_HEADER = "iSisSales/iSistemium-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"CONFIGURATION_${CONFIGURATION}",
+				);
 				INFOPLIST_FILE = iSisSales/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -3704,6 +3709,11 @@
 				DEVELOPMENT_TEAM = HZMMGDCLPA;
 				ENABLE_BITCODE = NO;
 				GCC_PREFIX_HEADER = "iSisSales/iSistemium-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"CONFIGURATION_${CONFIGURATION}",
+				);
 				INFOPLIST_FILE = iSisSales/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -3880,6 +3890,11 @@
 				DEVELOPMENT_TEAM = HZMMGDCLPA;
 				ENABLE_BITCODE = NO;
 				GCC_PREFIX_HEADER = "iSisSales/iSistemium-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"CONFIGURATION_${CONFIGURATION}",
+				);
 				INFOPLIST_FILE = iSisSales/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -4050,6 +4065,11 @@
 				DEVELOPMENT_TEAM = HZMMGDCLPA;
 				ENABLE_BITCODE = NO;
 				GCC_PREFIX_HEADER = "iSisSales/iSistemium-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"CONFIGURATION_${CONFIGURATION}",
+				);
 				INFOPLIST_FILE = iSisSales/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
