@@ -3589,7 +3589,7 @@
 				CODE_SIGN_ENTITLEMENTS = iSisSales/iSisSales.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CustomAppBundleId = "com.sistemium.${PRODUCT_NAME:rfc1034identifier}.${CONFIGURATION}";
-				CustomProductName = dSales;
+				CustomProductName = iSisSales;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = HZMMGDCLPA;
 				ENABLE_BITCODE = NO;
@@ -3770,7 +3770,7 @@
 				CODE_SIGN_ENTITLEMENTS = iSisSales/iSisSales.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CustomAppBundleId = "com.sistemium.${PRODUCT_NAME:rfc1034identifier}.${CONFIGURATION}";
-				CustomProductName = dWarehouse;
+				CustomProductName = iSisWarehouse;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = HZMMGDCLPA;
 				ENABLE_BITCODE = NO;
