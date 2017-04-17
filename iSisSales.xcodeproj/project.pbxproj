@@ -3524,8 +3524,8 @@
 			baseConfigurationReference = 38F93DAAE76053192F30F3F7 /* Pods-iSisSales.debug warehouse.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-Warehouse";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-Warehouse";
 				CODE_SIGN_ENTITLEMENTS = iSisSales/iSisSales.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CustomAppBundleId = "com.sistemium.${PRODUCT_NAME:rfc1034identifier}.${CONFIGURATION}";
@@ -3695,8 +3695,8 @@
 			baseConfigurationReference = FBE8651D97F3731272D3BBD9 /* Pods-iSisSales.release warehouse.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-Warehouse";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-Warehouse";
 				CODE_SIGN_ENTITLEMENTS = iSisSales/iSisSales.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CustomAppBundleId = "com.sistemium.${PRODUCT_NAME:rfc1034identifier}.${CONFIGURATION}";
@@ -3870,8 +3870,8 @@
 			baseConfigurationReference = CD5250C2C3C2AA62E8A288EA /* Pods-iSisSales.debug sales.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-Sales";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-Sales";
 				CODE_SIGN_ENTITLEMENTS = iSisSales/iSisSales.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CustomAppBundleId = "com.sistemium.${PRODUCT_NAME:rfc1034identifier}.${CONFIGURATION}";
@@ -4041,8 +4041,8 @@
 			baseConfigurationReference = 44E87E414D7C3811B169FF54 /* Pods-iSisSales.release sales.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-Sales";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-Sales";
 				CODE_SIGN_ENTITLEMENTS = iSisSales/iSisSales.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CustomAppBundleId = "com.sistemium.${PRODUCT_NAME:rfc1034identifier}.${CONFIGURATION}";
