@@ -2473,7 +2473,7 @@
 				2C94BFC61CF1ACB8004476D8 /* Sources */,
 				2C94BFC71CF1ACB8004476D8 /* Frameworks */,
 				2C94BFC81CF1ACB8004476D8 /* Resources */,
-				2C0A8CB41D0994CF007C5B57 /* ShellScript */,
+				2C0A8CB41D0994CF007C5B57 /* Source ./fabric.sh */,
 				D44387C132DB2AC55C4A5EF2 /* [CP] Embed Pods Frameworks */,
 				CD2A0D5AC71221D92370282F /* [CP] Copy Pods Resources */,
 			);
@@ -2825,13 +2825,14 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iSisSalesOfLibsTests/Pods-iSisSalesOfLibsTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		2C0A8CB41D0994CF007C5B57 /* ShellScript */ = {
+		2C0A8CB41D0994CF007C5B57 /* Source ./fabric.sh */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
+			name = "Source ./fabric.sh";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
