@@ -2473,6 +2473,7 @@
 				2C94BFC61CF1ACB8004476D8 /* Sources */,
 				2C94BFC71CF1ACB8004476D8 /* Frameworks */,
 				2C94BFC81CF1ACB8004476D8 /* Resources */,
+				2CCF551E1EA4AF5400A54B64 /* Copy Configuration File(s) */,
 				2C0A8CB41D0994CF007C5B57 /* Source ./fabric.sh */,
 				D44387C132DB2AC55C4A5EF2 /* [CP] Embed Pods Frameworks */,
 				CD2A0D5AC71221D92370282F /* [CP] Copy Pods Resources */,
@@ -2838,6 +2839,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "source ./fabric.sh";
+		};
+		2CCF551E1EA4AF5400A54B64 /* Copy Configuration File(s) */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Configuration File(s)";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "RESOURCE_PATH=${SRCROOT}/${PRODUCT_NAME}/config/${CONFIGURATION}\n\nBUILD_APP_DIR=${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.app\n\necho \"Copying all files under ${RESOURCE_PATH} to ${BUILD_APP_DIR}\"\ncp -v \"${RESOURCE_PATH}/\"* \"${BUILD_APP_DIR}/\"";
 		};
 		2ECAC81B13B564A74386B1D6 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
