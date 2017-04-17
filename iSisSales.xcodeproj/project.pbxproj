@@ -293,10 +293,6 @@
 		2CCD5DD71E36478500B84565 /* STMCoreBatteryTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CCD5DD21E36478500B84565 /* STMCoreBatteryTracker.m */; };
 		2CCD5DD81E36478500B84565 /* STMCoreLocationTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CCD5DD41E36478500B84565 /* STMCoreLocationTracker.m */; };
 		2CCD5DD91E36478500B84565 /* STMCoreTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CCD5DD61E36478500B84565 /* STMCoreTracker.m */; };
-		2CCF55161EA4AD7600A54B64 /* config.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2CCF55151EA4AD7600A54B64 /* config.plist */; };
-		2CCF55181EA4AD8000A54B64 /* config.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2CCF55171EA4AD8000A54B64 /* config.plist */; };
-		2CCF551A1EA4AD8700A54B64 /* config.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2CCF55191EA4AD8700A54B64 /* config.plist */; };
-		2CCF551C1EA4AD8E00A54B64 /* config.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2CCF551B1EA4AD8E00A54B64 /* config.plist */; };
 		2CD5BEFD1CF1DFAB006E1E36 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CD5BEFC1CF1DFAB006E1E36 /* WebKit.framework */; };
 		2CD5BF081CF1E780006E1E36 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2CD5BF0A1CF1E780006E1E36 /* Localizable.strings */; };
 		2CD5D82C1E4DEC8F00A88639 /* STMLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CD5D8261E4DEC8F00A88639 /* STMLogger.m */; };
@@ -2687,7 +2683,6 @@
 				2C1AE2521D9BF62500272A63 /* errorCatcherScript.js in Resources */,
 				2C94C1F41CF1B308004476D8 /* alphabetical_sorting_2.png in Resources */,
 				2C94C2041CF1B308004476D8 /* full_moon-128.png in Resources */,
-				2CCF551A1EA4AD8700A54B64 /* config.plist in Resources */,
 				2C94C20F1CF1B308004476D8 /* refresh_barcode.png in Resources */,
 				2C94C2431CF1B3BA004476D8 /* STMCustom2TVCell.xib in Resources */,
 				2C94C24A1CF1B3BA004476D8 /* STMCustom9TVCell.xib in Resources */,
@@ -2697,7 +2692,6 @@
 				2C94C1FA1CF1B308004476D8 /* checked_user-128.png in Resources */,
 				2C94C1F61CF1B308004476D8 /* barcode.png in Resources */,
 				2C94C2061CF1B308004476D8 /* help.png in Resources */,
-				2CCF55161EA4AD7600A54B64 /* config.plist in Resources */,
 				2C94C2461CF1B3BA004476D8 /* STMCustom5TVCell.xib in Resources */,
 				2C94C2121CF1B308004476D8 /* Settings-25.png in Resources */,
 				2C94C1FB1CF1B308004476D8 /* checkmark.png in Resources */,
@@ -2721,12 +2715,10 @@
 				2C94C1F81CF1B308004476D8 /* camera.png in Resources */,
 				2C94C2141CF1B308004476D8 /* settings3-128.png in Resources */,
 				2C94C2001CF1B308004476D8 /* Down4-25.png in Resources */,
-				2CCF55181EA4AD8000A54B64 /* config.plist in Resources */,
 				2C94C20A1CF1B308004476D8 /* numerical_sorting_21.png in Resources */,
 				2C94C2051CF1B308004476D8 /* future.png in Resources */,
 				2C94C2451CF1B3BA004476D8 /* STMCustom4TVCell.xib in Resources */,
 				2C94C1F21CF1B308004476D8 /* 3colors-colorless.png in Resources */,
-				2CCF551C1EA4AD8E00A54B64 /* config.plist in Resources */,
 				2C94C2101CF1B308004476D8 /* reordering.png in Resources */,
 				2C94C2511CF1B3BA004476D8 /* STMScannerInfo.storyboard in Resources */,
 				2C94C2471CF1B3BA004476D8 /* STMCustom6TVCell.xib in Resources */,
