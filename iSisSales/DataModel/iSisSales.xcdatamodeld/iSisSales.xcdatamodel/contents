@@ -464,6 +464,7 @@
         <relationship name="article" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMArticle" inverseName="stocks" inverseEntity="STMArticle" syncable="YES"/>
     </entity>
     <entity name="STMUncashing" parentEntity="STMAbstract" syncable="YES">
+        <attribute name="authId" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="date" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="processing" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="summ" optional="YES" attributeType="Decimal" defaultValueString="0.0" syncable="YES"/>
@@ -584,7 +585,7 @@
         <element name="STMShipment" positionX="-1341" positionY="-2106" width="128" height="150"/>
         <element name="STMShipmentPosition" positionX="-1332" positionY="-2097" width="128" height="120"/>
         <element name="STMStock" positionX="-947" positionY="-540" width="128" height="90"/>
-        <element name="STMUncashing" positionX="-1350" positionY="-2115" width="128" height="180"/>
+        <element name="STMUncashing" positionX="-1350" positionY="-2115" width="128" height="195"/>
         <element name="STMUncashingPicture" positionX="-1341" positionY="-2106" width="128" height="60"/>
         <element name="STMUncashingPlace" positionX="-1332" positionY="-2097" width="128" height="90"/>
         <element name="STMVisit" positionX="-729" positionY="-1756" width="128" height="150"/>
