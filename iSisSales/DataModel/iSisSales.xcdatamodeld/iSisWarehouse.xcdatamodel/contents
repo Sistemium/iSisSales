@@ -26,6 +26,7 @@
         <relationship name="articleGroup" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMArticleGroup" inverseName="articles" inverseEntity="STMArticleGroup" syncable="YES"/>
         <relationship name="avatarPicture" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMArticlePicture" inverseName="avatarArticles" inverseEntity="STMArticlePicture" syncable="YES"/>
         <relationship name="barCodes" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="STMArticleBarCode" inverseName="article" inverseEntity="STMArticleBarCode" syncable="YES"/>
+        <relationship name="inventoryBatches" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="STMInventoryBatch" inverseName="article" inverseEntity="STMInventoryBatch" syncable="YES"/>
         <relationship name="pictures" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="STMArticlePictureArticle" inverseName="article" inverseEntity="STMArticlePictureArticle" syncable="YES"/>
         <relationship name="stocks" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="STMStock" inverseName="article" inverseEntity="STMStock" syncable="YES"/>
     </entity>
@@ -150,6 +151,16 @@
             <entry key="STORE" value="FMDB"/>
         </userInfo>
     </entity>
+    <entity name="STMInventoryBatch" parentEntity="STMAbstract" syncable="YES">
+        <attribute name="code" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="exciseStampCode" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isDone" optional="YES" attributeType="Boolean" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="isRemoved" optional="YES" attributeType="Boolean" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="productionInfo" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="stockBatchCode" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="article" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMArticle" inverseName="inventoryBatches" inverseEntity="STMArticle" syncable="YES"/>
+        <relationship name="stockBatch" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMStockBatch" inverseName="inventoryBatches" inverseEntity="STMStockBatch" syncable="YES"/>
+    </entity>
     <entity name="STMLocation" representedClassName="STMLocation" parentEntity="STMCoreLocation" syncable="YES"/>
     <entity name="STMLogMessage" representedClassName="STMLogMessage" parentEntity="STMAbstract" syncable="YES">
         <attribute name="text" optional="YES" attributeType="String" syncable="YES"/>
@@ -175,6 +186,14 @@
         <attribute name="volume" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
         <relationship name="article" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMArticle" inverseName="stocks" inverseEntity="STMArticle" syncable="YES"/>
     </entity>
+    <entity name="STMStockBatch" parentEntity="STMAbstract" syncable="YES">
+        <attribute name="isInventarized" optional="YES" attributeType="Boolean" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="isRemoved" optional="YES" attributeType="Boolean" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="processing" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="productionInfo" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="volume" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <relationship name="inventoryBatches" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="STMInventoryBatch" inverseName="stockBatch" inverseEntity="STMInventoryBatch" syncable="YES"/>
+    </entity>
     <entity name="STMWorkflow" representedClassName="STMWorkflow" parentEntity="STMAbstract" syncable="YES">
         <attribute name="code" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="workflow" optional="YES" attributeType="Transformable" syncable="YES"/>
@@ -183,7 +202,7 @@
     <elements>
         <element name="STMAbstract" positionX="-1341" positionY="-2106" width="128" height="105"/>
         <element name="STMAccount" positionX="-1323" positionY="-2088" width="128" height="120"/>
-        <element name="STMArticle" positionX="-1163" positionY="-619" width="128" height="255"/>
+        <element name="STMArticle" positionX="-1163" positionY="-619" width="128" height="270"/>
         <element name="STMArticleGroup" positionX="-1386" positionY="-918" width="128" height="135"/>
         <element name="STMArticlePicture" positionX="-38" positionY="-792" width="128" height="73"/>
         <element name="STMArticlePictureArticle" positionX="-407" positionY="-349" width="128" height="75"/>
@@ -204,5 +223,7 @@
         <element name="STMStock" positionX="-947" positionY="-540" width="128" height="90"/>
         <element name="STMWorkflow" positionX="45" positionY="-675" width="128" height="90"/>
         <element name="STMArticleBarCode" positionX="-1179" positionY="-2133" width="128" height="75"/>
+        <element name="STMInventoryBatch" positionX="-1170" positionY="-2124" width="128" height="165"/>
+        <element name="STMStockBatch" positionX="-1161" positionY="-2115" width="128" height="135"/>
     </elements>
 </model>
