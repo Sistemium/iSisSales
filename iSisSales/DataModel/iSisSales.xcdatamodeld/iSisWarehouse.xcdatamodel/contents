@@ -25,8 +25,13 @@
         <attribute name="price" optional="YES" attributeType="Decimal" defaultValueString="0.0" syncable="YES"/>
         <relationship name="articleGroup" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMArticleGroup" inverseName="articles" inverseEntity="STMArticleGroup" syncable="YES"/>
         <relationship name="avatarPicture" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMArticlePicture" inverseName="avatarArticles" inverseEntity="STMArticlePicture" syncable="YES"/>
+        <relationship name="barCodes" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="STMArticleBarCode" inverseName="article" inverseEntity="STMArticleBarCode" syncable="YES"/>
         <relationship name="pictures" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="STMArticlePictureArticle" inverseName="article" inverseEntity="STMArticlePictureArticle" syncable="YES"/>
         <relationship name="stocks" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="STMStock" inverseName="article" inverseEntity="STMStock" syncable="YES"/>
+    </entity>
+    <entity name="STMArticleBarCode" syncable="YES">
+        <attribute name="code" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="article" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMArticle" inverseName="barCodes" inverseEntity="STMArticle" syncable="YES"/>
     </entity>
     <entity name="STMArticleGroup" representedClassName="STMArticleGroup" parentEntity="STMAbstract" syncable="YES">
         <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
@@ -178,7 +183,7 @@
     <elements>
         <element name="STMAbstract" positionX="-1341" positionY="-2106" width="128" height="105"/>
         <element name="STMAccount" positionX="-1323" positionY="-2088" width="128" height="120"/>
-        <element name="STMArticle" positionX="-1163" positionY="-619" width="128" height="240"/>
+        <element name="STMArticle" positionX="-1163" positionY="-619" width="128" height="255"/>
         <element name="STMArticleGroup" positionX="-1386" positionY="-918" width="128" height="135"/>
         <element name="STMArticlePicture" positionX="-38" positionY="-792" width="128" height="73"/>
         <element name="STMArticlePictureArticle" positionX="-407" positionY="-349" width="128" height="75"/>
@@ -198,5 +203,6 @@
         <element name="STMSetting" positionX="-1080" positionY="-2286" width="128" height="90"/>
         <element name="STMStock" positionX="-947" positionY="-540" width="128" height="90"/>
         <element name="STMWorkflow" positionX="45" positionY="-675" width="128" height="90"/>
+        <element name="STMArticleBarCode" positionX="-1179" positionY="-2133" width="128" height="75"/>
     </elements>
 </model>
