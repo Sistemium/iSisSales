@@ -159,7 +159,13 @@
         <attribute name="productionInfo" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="stockBatchCode" optional="YES" attributeType="String" syncable="YES"/>
         <relationship name="article" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMArticle" inverseName="inventoryBatches" inverseEntity="STMArticle" syncable="YES"/>
+        <relationship name="inventoryBatchItems" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="STMInventoryBatchItem" inverseName="inventoryBatch" inverseEntity="STMInventoryBatchItem" syncable="YES"/>
         <relationship name="stockBatch" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMStockBatch" inverseName="inventoryBatches" inverseEntity="STMStockBatch" syncable="YES"/>
+    </entity>
+    <entity name="STMInventoryBatchItem" parentEntity="STMAbstract" syncable="YES">
+        <attribute name="code" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isRemoved" optional="YES" attributeType="Boolean" usesScalarValueType="NO" syncable="YES"/>
+        <relationship name="inventoryBatch" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMInventoryBatch" inverseName="inventoryBatchItems" inverseEntity="STMInventoryBatch" syncable="YES"/>
     </entity>
     <entity name="STMLocation" representedClassName="STMLocation" parentEntity="STMCoreLocation" syncable="YES"/>
     <entity name="STMLogMessage" representedClassName="STMLogMessage" parentEntity="STMAbstract" syncable="YES">
@@ -223,7 +229,8 @@
         <element name="STMStock" positionX="-947" positionY="-540" width="128" height="90"/>
         <element name="STMWorkflow" positionX="45" positionY="-675" width="128" height="90"/>
         <element name="STMArticleBarCode" positionX="-1179" positionY="-2133" width="128" height="75"/>
-        <element name="STMInventoryBatch" positionX="-1170" positionY="-2124" width="128" height="165"/>
+        <element name="STMInventoryBatch" positionX="-1170" positionY="-2124" width="128" height="180"/>
         <element name="STMStockBatch" positionX="-1161" positionY="-2115" width="128" height="135"/>
+        <element name="STMInventoryBatchItem" positionX="-1152" positionY="-2106" width="128" height="90"/>
     </elements>
 </model>
