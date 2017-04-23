@@ -172,6 +172,19 @@
         <attribute name="text" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="type" optional="YES" attributeType="String" syncable="YES"/>
     </entity>
+    <entity name="STMOutlet" parentEntity="STMAbstract" syncable="YES">
+        <attribute name="address" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isActive" optional="YES" attributeType="Boolean" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="shortName" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="partner" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMPartner" inverseName="outlets" inverseEntity="STMPartner" syncable="YES"/>
+        <relationship name="pickingOrders" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="STMPickingOrder" inverseName="outlet" inverseEntity="STMPickingOrder" syncable="YES"/>
+    </entity>
+    <entity name="STMPartner" parentEntity="STMAbstract" syncable="YES">
+        <attribute name="inn" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="outlets" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="STMOutlet" inverseName="partner" inverseEntity="STMOutlet" syncable="YES"/>
+    </entity>
     <entity name="STMPicker" parentEntity="STMAbstract" syncable="YES">
         <attribute name="code" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="isDismissed" optional="YES" attributeType="Boolean" usesScalarValueType="NO" syncable="YES"/>
@@ -241,5 +254,7 @@
         <element name="STMStockBatch" positionX="-1161" positionY="-2115" width="128" height="135"/>
         <element name="STMInventoryBatchItem" positionX="-1152" positionY="-2106" width="128" height="90"/>
         <element name="STMPicker" positionX="-1143" positionY="-2097" width="128" height="135"/>
+        <element name="STMOutlet" positionX="-1125" positionY="-2079" width="128" height="135"/>
+        <element name="STMPartner" positionX="-1179" positionY="-2133" width="128" height="90"/>
     </elements>
 </model>
