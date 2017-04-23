@@ -204,14 +204,14 @@
         <relationship name="picker" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMPicker" inverseName="pickingOrders" inverseEntity="STMPicker" syncable="YES"/>
         <relationship name="pickingOrderPositions" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="STMPickingOrderPosition" inverseName="pickingOrder" inverseEntity="STMPickingOrderPosition" syncable="YES"/>
     </entity>
-    <entity name="STMPickingOrderPosition" syncable="YES">
+    <entity name="STMPickingOrderPosition" parentEntity="STMAbstract" syncable="YES">
         <attribute name="ord" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
         <attribute name="volume" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
         <relationship name="article" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMArticle" inverseName="pickingOrderPositions" inverseEntity="STMArticle" syncable="YES"/>
         <relationship name="pickingOrder" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMPickingOrder" inverseName="pickingOrderPositions" inverseEntity="STMPickingOrder" syncable="YES"/>
         <relationship name="pickingOrderPositionsPicked" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="STMPickingOrderPositionPicked" inverseName="pickingOrderPosition" inverseEntity="STMPickingOrderPositionPicked" syncable="YES"/>
     </entity>
-    <entity name="STMPickingOrderPositionPicked" syncable="YES">
+    <entity name="STMPickingOrderPositionPicked" parentEntity="STMAbstract" syncable="YES">
         <attribute name="code" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="isRemoved" optional="YES" attributeType="Boolean" usesScalarValueType="NO" syncable="YES"/>
         <attribute name="ord" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
