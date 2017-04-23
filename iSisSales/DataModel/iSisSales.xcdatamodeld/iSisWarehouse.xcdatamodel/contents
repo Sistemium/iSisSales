@@ -192,6 +192,14 @@
         <attribute name="outerCode" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="outerXid" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="password" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="pickingOrders" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="STMPickingOrder" inverseName="picker" inverseEntity="STMPickingOrder" syncable="YES"/>
+    </entity>
+    <entity name="STMPickingOrder" parentEntity="STMAbstract" syncable="YES">
+        <attribute name="date" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ndoc" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="processing" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="outlet" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMOutlet" inverseName="pickingOrders" inverseEntity="STMOutlet" syncable="YES"/>
+        <relationship name="picker" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMPicker" inverseName="pickingOrders" inverseEntity="STMPicker" syncable="YES"/>
     </entity>
     <entity name="STMRecordStatus" representedClassName="STMRecordStatus" parentEntity="STMAbstract" syncable="YES">
         <attribute name="isRead" optional="YES" attributeType="Boolean" usesScalarValueType="NO" syncable="YES"/>
@@ -253,7 +261,8 @@
         <element name="STMInventoryBatch" positionX="-1170" positionY="-2124" width="128" height="180"/>
         <element name="STMStockBatch" positionX="-1161" positionY="-2115" width="128" height="135"/>
         <element name="STMInventoryBatchItem" positionX="-1152" positionY="-2106" width="128" height="90"/>
-        <element name="STMPicker" positionX="-1143" positionY="-2097" width="128" height="135"/>
+        <element name="STMPicker" positionX="-1143" positionY="-2097" width="128" height="150"/>
+        <element name="STMPickingOrder" positionX="-1134" positionY="-2088" width="128" height="120"/>
         <element name="STMOutlet" positionX="-1125" positionY="-2079" width="128" height="135"/>
         <element name="STMPartner" positionX="-1179" positionY="-2133" width="128" height="90"/>
     </elements>
