@@ -254,8 +254,14 @@
         <attribute name="processing" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="productionInfo" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="volume" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <relationship name="barCodes" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="STMStockBatchBarCode" inverseName="stockBatch" inverseEntity="STMStockBatchBarCode" syncable="YES"/>
         <relationship name="inventoryBatches" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="STMInventoryBatch" inverseName="stockBatch" inverseEntity="STMInventoryBatch" syncable="YES"/>
         <relationship name="pickingOrderPositionsPicked" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="STMPickingOrderPositionPicked" inverseName="stockBatch" inverseEntity="STMPickingOrderPositionPicked" syncable="YES"/>
+    </entity>
+    <entity name="STMStockBatchBarCode" parentEntity="STMAbstract" syncable="YES">
+        <attribute name="code" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isRemoved" optional="YES" attributeType="Boolean" usesScalarValueType="NO" syncable="YES"/>
+        <relationship name="stockBatch" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMStockBatch" inverseName="barCodes" inverseEntity="STMStockBatch" syncable="YES"/>
     </entity>
     <entity name="STMWorkflow" representedClassName="STMWorkflow" parentEntity="STMAbstract" syncable="YES">
         <attribute name="code" optional="YES" attributeType="String" syncable="YES"/>
@@ -287,7 +293,7 @@
         <element name="STMWorkflow" positionX="45" positionY="-675" width="128" height="90"/>
         <element name="STMArticleBarCode" positionX="-1179" positionY="-2133" width="128" height="75"/>
         <element name="STMInventoryBatch" positionX="-1170" positionY="-2124" width="128" height="180"/>
-        <element name="STMStockBatch" positionX="-1161" positionY="-2115" width="128" height="150"/>
+        <element name="STMStockBatch" positionX="-1161" positionY="-2115" width="128" height="165"/>
         <element name="STMInventoryBatchItem" positionX="-1152" positionY="-2106" width="128" height="90"/>
         <element name="STMPicker" positionX="-1143" positionY="-2097" width="128" height="150"/>
         <element name="STMPickingOrder" positionX="-1134" positionY="-2088" width="128" height="135"/>
@@ -296,5 +302,6 @@
         <element name="STMPickingOrderPosition" positionX="-1170" positionY="-2124" width="128" height="120"/>
         <element name="STMPickingOrderPositionPicked" positionX="-1161" positionY="-2115" width="128" height="180"/>
         <element name="STMProductionInfoType" positionX="-1152" positionY="-2106" width="128" height="105"/>
+        <element name="STMStockBatchBarCode" positionX="-1143" positionY="-2097" width="128" height="90"/>
     </elements>
 </model>
