@@ -312,6 +312,11 @@
         <relationship name="salesman" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMSalesman" inverseName="outletSalesmanContracts" inverseEntity="STMSalesman" syncable="YES"/>
     </entity>
     <entity name="STMPartner" representedClassName="STMPartner" parentEntity="STMAbstract" syncable="YES">
+        <attribute name="allowAnyTotal" optional="YES" attributeType="Boolean" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="allowAnyVolume" optional="YES" attributeType="Boolean" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="allowLowTotal" optional="YES" attributeType="Boolean" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="allowNoCharges" optional="YES" attributeType="Boolean" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="allowNoDocDiscounts" optional="YES" attributeType="Boolean" usesScalarValueType="NO" syncable="YES"/>
         <attribute name="inn" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
         <relationship name="contracts" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="STMContract" inverseName="partner" inverseEntity="STMContract" syncable="YES"/>
@@ -565,7 +570,7 @@
         <element name="STMOutletPhoto" positionX="-513" positionY="-1278" width="128" height="73"/>
         <element name="STMOutletRestriction" positionX="-1332" positionY="-2097" width="128" height="75"/>
         <element name="STMOutletSalesmanContract" positionX="-1152" positionY="-1287" width="128" height="120"/>
-        <element name="STMPartner" positionX="-1170" positionY="-1594" width="128" height="150"/>
+        <element name="STMPartner" positionX="-1170" positionY="-1594" width="128" height="225"/>
         <element name="STMPartnerArticle" positionX="-1359" positionY="-2124" width="128" height="90"/>
         <element name="STMPartnerPriceGroup" positionX="-1368" positionY="-2133" width="128" height="90"/>
         <element name="STMPrice" positionX="-1575" positionY="-517" width="128" height="90"/>
