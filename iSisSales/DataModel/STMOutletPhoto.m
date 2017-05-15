@@ -7,7 +7,7 @@
 //
 
 #import "STMOutletPhoto.h"
-#import "STMOutlet.h"
+#import "STMOutlet+CoreDataClass.h"
 
 @implementation STMOutletPhoto
 

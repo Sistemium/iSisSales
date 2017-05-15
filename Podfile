@@ -1,19 +1,45 @@
 platform :ios, '8.0'
+use_frameworks!
 
-pod 'KiteJSONValidator', '~> 0.2.3'
-pod 'Reachability', '~> 3.1.0'
-pod 'Crashlytics', '~> 3.8.0'
-pod 'JNKeychain', '~> 0.1.4'
-pod 'ScanAPI', :path => '../ScanApiSDK'
+target 'iSisSales' do
+    pod 'KiteJSONValidator', '~> 0.2.3'
+    pod 'Reachability', '~> 3.2'
+    pod 'Crashlytics', '~> 3.8.0'
+    pod 'Fabric', '~> 1.6.10'
+    pod 'JNKeychain', '~> 0.1.4'
+    pod 'ScanAPI', :path => '../ScanApiSDK'
+    pod 'Socket.IO-Client-Swift', :git => 'https://github.com/Sistemium/socket.io-client-swift.git'
+    pod 'FMDB', '~> 2.6.2’
+    pod 'PromiseKit', '~> 4.0'
 
-post_install do |installer_representation|
-
-    installer_representation.pods_project.targets.each do |target|
-        
-        target.build_configurations.each do |config|
-            config.build_settings['ONLY_ACTIVE_ARCH'] = 'NO'
-        end
-        
+    target 'iSisSalesTests' do
+        inherit! :search_paths
+    end
+    
+    target 'iSisSalesOfLibsTests' do
+        inherit! :search_paths
     end
 
+    target 'iSisSalesTestsInMemory' do
+        inherit! :search_paths
+    end
+
+    target 'iSisSalesSpeedTests' do
+        inherit! :search_paths
+    end
+
+    target 'iSisSalesUITests' do
+        inherit! :search_paths
+    end
+
+end
+
+
+post_install do |installer|
+    installer.pods_project.targets.each do |target|
+        target.build_configurations.each do |config|
+            config.build_settings['ONLY_ACTIVE_ARCH'] = 'NO'
+            config.build_settings['SWIFT_VERSION'] = '3.0'
+        end
+    end
 end

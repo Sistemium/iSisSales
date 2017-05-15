@@ -7,7 +7,7 @@
 //
 
 #import "STMLocation.h"
-#import "STMOutlet.h"
+#import "STMOutlet+CoreDataClass.h"
 #import "STMVisit.h"
 
 @implementation STMLocation

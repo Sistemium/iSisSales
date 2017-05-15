@@ -16,7 +16,7 @@ NS_ASSUME_NONNULL_BEGIN
 @interface STMVisit (CoreDataProperties)
 
 @property (nullable, nonatomic, retain) NSString *commentText;
-@property (nullable, nonatomic, retain) NSDate *date;
+@property (nullable, nonatomic, retain) NSString *date;
 @property (nullable, nonatomic, retain) NSDate *deviceCts;
 @property (nullable, nonatomic, retain) NSDate *deviceTs;
 @property (nullable, nonatomic, retain) NSNumber *id;
