@@ -2653,7 +2653,7 @@
 		2C94BFC21CF1ACB8004476D8 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0820;
+				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = "Sistemium UAB";
 				TargetAttributes = {
 					2C94BFC91CF1ACB8004476D8 = {
