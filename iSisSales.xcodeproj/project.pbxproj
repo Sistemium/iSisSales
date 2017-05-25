@@ -329,6 +329,7 @@
 		2CE24E2E1D226B0C0004B63C /* STMContract.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CE24E2A1D226B0C0004B63C /* STMContract.m */; };
 		2CFA30361D50DBF300BB9E35 /* STMOutletPhoto+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CFA30331D50DBF300BB9E35 /* STMOutletPhoto+CoreDataProperties.m */; };
 		2CFA30371D50DBF300BB9E35 /* STMOutletPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CFA30351D50DBF300BB9E35 /* STMOutletPhoto.m */; };
+		350A20EB1ED5B82C00C9FB28 /* STMPersisterRunner.m in Sources */ = {isa = PBXBuildFile; fileRef = 350A20EA1ED5B82C00C9FB28 /* STMPersisterRunner.m */; };
 		3550B1DC1DAE59F300F8A368 /* STMCorePicture.m in Sources */ = {isa = PBXBuildFile; fileRef = 3550B1D91DAE59F300F8A368 /* STMCorePicture.m */; };
 		3550B1DD1DAE59F300F8A368 /* STMCorePicture+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 3550B1DB1DAE59F300F8A368 /* STMCorePicture+CoreDataProperties.m */; };
 		3550B1E21DAE5CC300F8A368 /* STMEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 3550B1DF1DAE5CC300F8A368 /* STMEntity.m */; };
@@ -1005,6 +1006,9 @@
 		2CFA30331D50DBF300BB9E35 /* STMOutletPhoto+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "STMOutletPhoto+CoreDataProperties.m"; sourceTree = "<group>"; };
 		2CFA30341D50DBF300BB9E35 /* STMOutletPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMOutletPhoto.h; sourceTree = "<group>"; };
 		2CFA30351D50DBF300BB9E35 /* STMOutletPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMOutletPhoto.m; sourceTree = "<group>"; };
+		350A20E91ED5B59700C9FB28 /* STMPersistingRunning.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = STMPersistingRunning.h; path = ../STMPersistingRunning.h; sourceTree = "<group>"; };
+		350A20EA1ED5B82C00C9FB28 /* STMPersisterRunner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMPersisterRunner.m; sourceTree = "<group>"; };
+		350A20EC1ED5BEE500C9FB28 /* STMPersisterRunner.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STMPersisterRunner.h; sourceTree = "<group>"; };
 		350B7E711E4CB0350051D0A9 /* STMCorePicturesControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMCorePicturesControllerTests.m; sourceTree = "<group>"; };
 		3550B1D81DAE59F300F8A368 /* STMCorePicture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMCorePicture.h; sourceTree = "<group>"; };
 		3550B1D91DAE59F300F8A368 /* STMCorePicture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMCorePicture.m; sourceTree = "<group>"; };
@@ -2225,6 +2229,7 @@
 				2CD5D8581E4DF36C00A88639 /* STMPersistingWithHeadersAsync.h */,
 				D96BFEC01E571D1A0080327D /* STMPersistingIntercepting.h */,
 				D96BFED61E58AE6F0080327D /* STMPersistingTransaction.h */,
+				350A20E91ED5B59700C9FB28 /* STMPersistingRunning.h */,
 			);
 			name = "☯ Persisting";
 			path = Persisting;
@@ -2276,6 +2281,8 @@
 				2CD5D8AB1E6AAE6100A88639 /* STMPersisterFantoms.m */,
 				2CD5D8AC1E6AAE6100A88639 /* STMPersistingObservable.h */,
 				2CD5D8AD1E6AAE6100A88639 /* STMPersistingObservable.m */,
+				350A20EC1ED5BEE500C9FB28 /* STMPersisterRunner.h */,
+				350A20EA1ED5B82C00C9FB28 /* STMPersisterRunner.m */,
 			);
 			path = Persister;
 			sourceTree = "<group>";
@@ -3228,6 +3235,7 @@
 				2C94C10B1CF1B1BB004476D8 /* STMCustom7TVCell.m in Sources */,
 				D9F0B38E1E3EA6B900989BB0 /* STMSyncerHelper+Defantomizing.m in Sources */,
 				2C94C1231CF1B1BB004476D8 /* STMAuthSMSVC.m in Sources */,
+				350A20EB1ED5B82C00C9FB28 /* STMPersisterRunner.m in Sources */,
 				2C94C1041CF1B1BB004476D8 /* STMCustom1CVHeader.m in Sources */,
 				2C94C1941CF1B1F3004476D8 /* STMMessagePicture.m in Sources */,
 				2C6113011D0BDE7B006BCB30 /* STMLocation+CoreDataProperties.m in Sources */,
