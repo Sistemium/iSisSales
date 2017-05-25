@@ -3590,7 +3590,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CustomAppBuild = 332;
 				CustomAppBundleId = "com.sistemium.${PRODUCT_NAME:rfc1034identifier}";
-				CustomAppVersion = 3.3.2;
+				CustomAppVersion = 3.3.4;
 				CustomProductName = iSisSales;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = HZMMGDCLPA;
@@ -3951,7 +3951,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CustomAppBuild = 332;
 				CustomAppBundleId = "com.sistemium.${PRODUCT_NAME:rfc1034identifier}";
-				CustomAppVersion = 3.3.2;
+				CustomAppVersion = 3.3.4;
 				CustomProductName = iSisSales;
 				DEVELOPMENT_TEAM = HZMMGDCLPA;
 				ENABLE_BITCODE = NO;
