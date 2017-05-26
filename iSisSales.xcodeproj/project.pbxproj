@@ -3588,7 +3588,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-Sales";
 				CODE_SIGN_ENTITLEMENTS = iSisSales/iSisSales.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CustomAppBuild = 332;
+				CustomAppBuild = 334;
 				CustomAppBundleId = "com.sistemium.${PRODUCT_NAME:rfc1034identifier}";
 				CustomAppVersion = 3.3.4;
 				CustomProductName = iSisSales;
@@ -3949,7 +3949,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-Sales";
 				CODE_SIGN_ENTITLEMENTS = iSisSales/iSisSales.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CustomAppBuild = 332;
+				CustomAppBuild = 334;
 				CustomAppBundleId = "com.sistemium.${PRODUCT_NAME:rfc1034identifier}";
 				CustomAppVersion = 3.3.4;
 				CustomProductName = iSisSales;
