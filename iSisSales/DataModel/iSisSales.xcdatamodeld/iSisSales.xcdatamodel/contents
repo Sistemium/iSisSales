@@ -381,6 +381,7 @@
         <relationship name="restriction" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMRestriction" inverseName="restrictionArticles" inverseEntity="STMRestriction" syncable="YES"/>
     </entity>
     <entity name="STMSaleOrder" representedClassName="STMSaleOrder" parentEntity="STMAbstract" syncable="YES">
+        <attribute name="authId" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="cashOnShipment" optional="YES" attributeType="Boolean" usesScalarValueType="NO" syncable="YES"/>
         <attribute name="commentExpeditor" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="date" optional="YES" attributeType="String" indexed="YES" syncable="YES"/>
@@ -599,7 +600,7 @@
         <element name="STMRecordStatus" positionX="-360" positionY="-2286" width="128" height="120"/>
         <element name="STMRestriction" positionX="-1350" positionY="-2115" width="128" height="120"/>
         <element name="STMRestrictionArticle" positionX="-1341" positionY="-2106" width="128" height="75"/>
-        <element name="STMSaleOrder" positionX="-945" positionY="-901" width="128" height="285"/>
+        <element name="STMSaleOrder" positionX="-945" positionY="-901" width="128" height="300"/>
         <element name="STMSaleOrderPosition" positionX="-1134" positionY="-999" width="128" height="195"/>
         <element name="STMSalesman" positionX="-974" positionY="-1242" width="128" height="165"/>
         <element name="STMSalesmanOutletRestriction" positionX="-1323" positionY="-2088" width="128" height="90"/>
@@ -608,6 +609,7 @@
         <element name="STMSchedulePurpose" positionX="-342" positionY="-765" width="128" height="105"/>
         <element name="STMSetting" positionX="-1080" positionY="-2286" width="128" height="90"/>
         <element name="STMShipment" positionX="-1341" positionY="-2106" width="128" height="165"/>
+        <element name="STMShipmentEgais" positionX="-1368" positionY="-2133" width="128" height="165"/>
         <element name="STMShipmentPosition" positionX="-1332" positionY="-2097" width="128" height="120"/>
         <element name="STMStock" positionX="-947" positionY="-540" width="128" height="90"/>
         <element name="STMUncashing" positionX="-1350" positionY="-2115" width="128" height="195"/>
@@ -621,6 +623,5 @@
         <element name="STMVisitQuestionGroup" positionX="-171" positionY="-1458" width="128" height="90"/>
         <element name="STMVisitQuestionSet" positionX="7" positionY="-1566" width="128" height="105"/>
         <element name="STMWorkflow" positionX="45" positionY="-675" width="128" height="105"/>
-        <element name="STMShipmentEgais" positionX="-1368" positionY="-2133" width="128" height="165"/>
     </elements>
 </model>
