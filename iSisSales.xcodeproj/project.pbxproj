@@ -1027,6 +1027,7 @@
 		35B53DBB1E72D5620002230F /* STMTestDirectoring.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STMTestDirectoring.h; sourceTree = "<group>"; };
 		35B53DBC1E72D5B00002230F /* STMTestDirectoring.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMTestDirectoring.m; sourceTree = "<group>"; };
 		35BA96D571E5CBAA739B97AD /* Pods-iSisSalesTestsInMemory.releasesales.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesTestsInMemory.releasesales.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesTestsInMemory/Pods-iSisSalesTestsInMemory.releasesales.xcconfig"; sourceTree = "<group>"; };
+		35E414511EEAD597005BF054 /* STMAdapting.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STMAdapting.h; sourceTree = "<group>"; };
 		38F93DAAE76053192F30F3F7 /* Pods-iSisSales.debug warehouse.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSales.debug warehouse.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSales/Pods-iSisSales.debug warehouse.xcconfig"; sourceTree = "<group>"; };
 		390FE1B1108DBF3207298BAA /* Pods-iSisSalesSpeedTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesSpeedTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesSpeedTests/Pods-iSisSalesSpeedTests.debug.xcconfig"; sourceTree = "<group>"; };
 		39C5AABAD927DF528D873CB7 /* Pods-iSisSalesSpeedTests.debug warehouse.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesSpeedTests.debug warehouse.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesSpeedTests/Pods-iSisSalesSpeedTests.debug warehouse.xcconfig"; sourceTree = "<group>"; };
@@ -2233,6 +2234,7 @@
 				D96BFEC01E571D1A0080327D /* STMPersistingIntercepting.h */,
 				D96BFED61E58AE6F0080327D /* STMPersistingTransaction.h */,
 				350A20E91ED5B59700C9FB28 /* STMPersistingRunning.h */,
+				35E414511EEAD597005BF054 /* STMAdapting.h */,
 			);
 			name = "☯ Persisting";
 			path = Persisting;
