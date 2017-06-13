@@ -381,6 +381,7 @@
         <relationship name="restriction" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMRestriction" inverseName="restrictionArticles" inverseEntity="STMRestriction" syncable="YES"/>
     </entity>
     <entity name="STMSaleOrder" representedClassName="STMSaleOrder" parentEntity="STMAbstract" syncable="YES">
+        <attribute name="authId" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="cashOnShipment" optional="YES" attributeType="Boolean" usesScalarValueType="NO" syncable="YES"/>
         <attribute name="commentExpeditor" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="date" optional="YES" attributeType="String" indexed="YES" syncable="YES"/>
@@ -463,6 +464,17 @@
         <relationship name="positions" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="STMShipmentPosition" inverseName="shipment" inverseEntity="STMShipmentPosition" syncable="YES"/>
         <relationship name="saleOrder" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMSaleOrder" inverseName="shipments" inverseEntity="STMSaleOrder" syncable="YES"/>
         <relationship name="salesman" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMSalesman" inverseName="shipments" inverseEntity="STMSalesman" syncable="YES"/>
+        <relationship name="shipmentEgaiss" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="STMShipmentEgais" inverseName="shipment" inverseEntity="STMShipmentEgais" syncable="YES"/>
+    </entity>
+    <entity name="STMShipmentEgais" parentEntity="STMAbstract" syncable="YES">
+        <attribute name="egaisActCls" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="egaisActStatus" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="egaisActTs" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="egaisTtnCls" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="egaisTtnNdoc" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="egaisTtnStatus" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="egaisTtnStatusTs" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <relationship name="shipment" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMShipment" inverseName="shipmentEgaiss" inverseEntity="STMShipment" syncable="YES"/>
     </entity>
     <entity name="STMShipmentPosition" parentEntity="STMAbstract" syncable="YES">
         <attribute name="price" optional="YES" attributeType="Decimal" defaultValueString="0.0" syncable="YES"/>
@@ -588,7 +600,7 @@
         <element name="STMRecordStatus" positionX="-360" positionY="-2286" width="128" height="120"/>
         <element name="STMRestriction" positionX="-1350" positionY="-2115" width="128" height="120"/>
         <element name="STMRestrictionArticle" positionX="-1341" positionY="-2106" width="128" height="75"/>
-        <element name="STMSaleOrder" positionX="-945" positionY="-901" width="128" height="285"/>
+        <element name="STMSaleOrder" positionX="-945" positionY="-901" width="128" height="300"/>
         <element name="STMSaleOrderPosition" positionX="-1134" positionY="-999" width="128" height="195"/>
         <element name="STMSalesman" positionX="-974" positionY="-1242" width="128" height="165"/>
         <element name="STMSalesmanOutletRestriction" positionX="-1323" positionY="-2088" width="128" height="90"/>
@@ -596,7 +608,8 @@
         <element name="STMScheduledEvent" positionX="-686" positionY="-747" width="128" height="150"/>
         <element name="STMSchedulePurpose" positionX="-342" positionY="-765" width="128" height="105"/>
         <element name="STMSetting" positionX="-1080" positionY="-2286" width="128" height="90"/>
-        <element name="STMShipment" positionX="-1341" positionY="-2106" width="128" height="150"/>
+        <element name="STMShipment" positionX="-1341" positionY="-2106" width="128" height="165"/>
+        <element name="STMShipmentEgais" positionX="-1368" positionY="-2133" width="128" height="165"/>
         <element name="STMShipmentPosition" positionX="-1332" positionY="-2097" width="128" height="120"/>
         <element name="STMStock" positionX="-947" positionY="-540" width="128" height="90"/>
         <element name="STMUncashing" positionX="-1350" positionY="-2115" width="128" height="195"/>
