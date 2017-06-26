@@ -314,7 +314,6 @@
 		2CD5D89F1E6AAE2100A88639 /* STMFmdb+Transactions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CD5D89C1E6AAE2100A88639 /* STMFmdb+Transactions.m */; };
 		2CD5D8AE1E6AAE6100A88639 /* STMPersister.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CD5D8A21E6AAE6100A88639 /* STMPersister.m */; };
 		2CD5D8AF1E6AAE6100A88639 /* STMPersister+Async.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CD5D8A41E6AAE6100A88639 /* STMPersister+Async.m */; };
-		2CD5D8B01E6AAE6100A88639 /* STMPersister+CoreData.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CD5D8A61E6AAE6100A88639 /* STMPersister+CoreData.m */; };
 		2CD5D8B21E6AAE6100A88639 /* STMPersisterFantoms.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CD5D8AB1E6AAE6100A88639 /* STMPersisterFantoms.m */; };
 		2CD5D8B31E6AAE6100A88639 /* STMPersistingObservable.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CD5D8AD1E6AAE6100A88639 /* STMPersistingObservable.m */; };
 		2CD5D8BB1E6AAE9A00A88639 /* STMModeller.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CD5D8B61E6AAE9A00A88639 /* STMModeller.m */; };
@@ -963,8 +962,6 @@
 		2CD5D8A21E6AAE6100A88639 /* STMPersister.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMPersister.m; sourceTree = "<group>"; };
 		2CD5D8A31E6AAE6100A88639 /* STMPersister+Async.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "STMPersister+Async.h"; sourceTree = "<group>"; };
 		2CD5D8A41E6AAE6100A88639 /* STMPersister+Async.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "STMPersister+Async.m"; sourceTree = "<group>"; };
-		2CD5D8A51E6AAE6100A88639 /* STMPersister+CoreData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "STMPersister+CoreData.h"; sourceTree = "<group>"; };
-		2CD5D8A61E6AAE6100A88639 /* STMPersister+CoreData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "STMPersister+CoreData.m"; sourceTree = "<group>"; };
 		2CD5D8A71E6AAE6100A88639 /* STMPersister+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "STMPersister+Private.h"; sourceTree = "<group>"; };
 		2CD5D8AA1E6AAE6100A88639 /* STMPersisterFantoms.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMPersisterFantoms.h; sourceTree = "<group>"; };
 		2CD5D8AB1E6AAE6100A88639 /* STMPersisterFantoms.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMPersisterFantoms.m; sourceTree = "<group>"; };
@@ -2274,8 +2271,6 @@
 				2CD5D8A21E6AAE6100A88639 /* STMPersister.m */,
 				2CD5D8A31E6AAE6100A88639 /* STMPersister+Async.h */,
 				2CD5D8A41E6AAE6100A88639 /* STMPersister+Async.m */,
-				2CD5D8A51E6AAE6100A88639 /* STMPersister+CoreData.h */,
-				2CD5D8A61E6AAE6100A88639 /* STMPersister+CoreData.m */,
 				2CD5D8A71E6AAE6100A88639 /* STMPersister+Private.h */,
 				2CD5D8AA1E6AAE6100A88639 /* STMPersisterFantoms.h */,
 				2CD5D8AB1E6AAE6100A88639 /* STMPersisterFantoms.m */,
@@ -3380,7 +3375,6 @@
 				2CE24E2B1D226B0C0004B63C /* STMOutletSalesmanContract+CoreDataProperties.m in Sources */,
 				2C94C11E1CF1B1BB004476D8 /* STMWorkflowAC.m in Sources */,
 				2CD5D8AF1E6AAE6100A88639 /* STMPersister+Async.m in Sources */,
-				2CD5D8B01E6AAE6100A88639 /* STMPersister+CoreData.m in Sources */,
 				2C70FBD01E4214D900FE49AF /* STMUnsyncedDataHelper.m in Sources */,
 				2C94C12A1CF1B1BB004476D8 /* STMMessagesTVC.m in Sources */,
 				2C94C1121CF1B1BB004476D8 /* STMImagePickerController.m in Sources */,
