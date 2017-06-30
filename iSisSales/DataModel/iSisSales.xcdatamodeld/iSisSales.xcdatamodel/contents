@@ -414,6 +414,7 @@
     </entity>
     <entity name="STMSalesman" representedClassName="STMSalesman" parentEntity="STMAbstract" syncable="YES">
         <attribute name="name" optional="YES" attributeType="String" indexed="YES" syncable="YES"/>
+        <attribute name="responsibility" optional="YES" attributeType="String" syncable="YES"/>
         <relationship name="debts" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="STMDebt" inverseName="salesman" inverseEntity="STMDebt" syncable="YES"/>
         <relationship name="outletSalesmanContracts" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="STMOutletSalesmanContract" inverseName="salesman" inverseEntity="STMOutletSalesmanContract" syncable="YES"/>
         <relationship name="photoReports" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="STMPhotoReport" inverseName="salesman" inverseEntity="STMPhotoReport" syncable="YES"/>
@@ -603,7 +604,7 @@
         <element name="STMRestrictionArticle" positionX="-1341" positionY="-2106" width="128" height="75"/>
         <element name="STMSaleOrder" positionX="-945" positionY="-901" width="128" height="300"/>
         <element name="STMSaleOrderPosition" positionX="-1134" positionY="-999" width="128" height="195"/>
-        <element name="STMSalesman" positionX="-974" positionY="-1242" width="128" height="165"/>
+        <element name="STMSalesman" positionX="-974" positionY="-1242" width="128" height="195"/>
         <element name="STMSalesmanOutletRestriction" positionX="-1323" positionY="-2088" width="128" height="90"/>
         <element name="STMSchedule" positionX="-504" positionY="-810" width="128" height="105"/>
         <element name="STMScheduledEvent" positionX="-686" positionY="-747" width="128" height="150"/>
