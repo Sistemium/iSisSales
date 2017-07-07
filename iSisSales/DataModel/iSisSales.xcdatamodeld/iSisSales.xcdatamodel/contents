@@ -20,6 +20,8 @@
         <attribute name="code" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="extraLabel" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="factor" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="hasAction" optional="YES" attributeType="Boolean" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="isMML" optional="YES" attributeType="Boolean" usesScalarValueType="NO" syncable="YES"/>
         <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="packageRel" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
         <attribute name="pieceVolume" optional="YES" attributeType="Decimal" defaultValueString="0.0" syncable="YES"/>
@@ -558,7 +560,7 @@
     <elements>
         <element name="STMAbstract" positionX="-1341" positionY="-2106" width="128" height="105"/>
         <element name="STMAccount" positionX="-1323" positionY="-2088" width="128" height="150"/>
-        <element name="STMArticle" positionX="-1163" positionY="-619" width="128" height="345"/>
+        <element name="STMArticle" positionX="-1163" positionY="-619" width="128" height="375"/>
         <element name="STMArticleGroup" positionX="-1386" positionY="-918" width="128" height="150"/>
         <element name="STMArticlePicture" positionX="-38" positionY="-792" width="128" height="73"/>
         <element name="STMArticlePictureArticle" positionX="-407" positionY="-349" width="128" height="75"/>
