@@ -3598,9 +3598,9 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-Sales";
 				CODE_SIGN_ENTITLEMENTS = iSisSales/iSisSales.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CustomAppBuild = 335;
+				CustomAppBuild = 336;
 				CustomAppBundleId = "com.sistemium.${PRODUCT_NAME:rfc1034identifier}";
-				CustomAppVersion = 3.3.12;
+				CustomAppVersion = 3.3.13;
 				CustomProductName = iSisSales;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = HZMMGDCLPA;
@@ -3959,9 +3959,9 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-Sales";
 				CODE_SIGN_ENTITLEMENTS = iSisSales/iSisSales.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CustomAppBuild = 335;
+				CustomAppBuild = 336;
 				CustomAppBundleId = "com.sistemium.${PRODUCT_NAME:rfc1034identifier}";
-				CustomAppVersion = 3.3.12;
+				CustomAppVersion = 3.3.14;
 				CustomProductName = iSisSales;
 				DEVELOPMENT_TEAM = HZMMGDCLPA;
 				ENABLE_BITCODE = NO;
