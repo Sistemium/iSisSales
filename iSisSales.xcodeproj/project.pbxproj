@@ -1107,6 +1107,7 @@
 		D96BFEE01E5AF3B00080327D /* STMInMemoryTransaction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMInMemoryTransaction.h; sourceTree = "<group>"; };
 		D96BFEE11E5AF3B00080327D /* STMInMemoryTransaction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMInMemoryTransaction.m; sourceTree = "<group>"; };
 		D99A12AB1E6CADF800BD4222 /* ModelMappingFMDBTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModelMappingFMDBTests.m; sourceTree = "<group>"; };
+		D9B019371F1377DF000B0EEC /* STMRemoteDataEventHandling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMRemoteDataEventHandling.h; sourceTree = "<group>"; };
 		D9DB3D841E6C5F88004A9478 /* STMFmdbSchema.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMFmdbSchema.h; sourceTree = "<group>"; };
 		D9DB3D851E6C5F88004A9478 /* STMFmdbSchema.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMFmdbSchema.m; sourceTree = "<group>"; };
 		D9E1973B1E5F0E5800F8FC18 /* STMOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMOperation.h; sourceTree = "<group>"; };
@@ -2248,6 +2249,7 @@
 				2CD5D86A1E4DF36C00A88639 /* STMDefantomizing.h */,
 				2CD5D86C1E4DF36C00A88639 /* STMSocketConnection.h */,
 				2CD5D86D1E4DF36C00A88639 /* STMSocketConnectionOwner.h */,
+				D9B019371F1377DF000B0EEC /* STMRemoteDataEventHandling.h */,
 			);
 			name = "☯ Syncing";
 			path = Syncing;
