@@ -338,6 +338,7 @@
 		35752DA71F03EFBC00CA19AF /* STMRemotePersisterController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35752DA61F03EFBC00CA19AF /* STMRemotePersisterController.m */; };
 		35A985CA1E80987500DE2299 /* NSJSONSerializationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A985C91E80987500DE2299 /* NSJSONSerializationTests.m */; };
 		35B53DBD1E72D5B00002230F /* STMTestDirectoring.m in Sources */ = {isa = PBXBuildFile; fileRef = 35B53DBC1E72D5B00002230F /* STMTestDirectoring.m */; };
+		35DB36621F139091004574A1 /* STMSyncer+RemoteData.m in Sources */ = {isa = PBXBuildFile; fileRef = 35DB36611F139091004574A1 /* STMSyncer+RemoteData.m */; };
 		3E873491EFBF4D2FD467BB9A /* Pods_iSisSalesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFEE3E7425CEF6DC61EAF6D3 /* Pods_iSisSalesTests.framework */; };
 		4678C3D65044EE1435611066 /* Pods_iSisSalesUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 464A3CD5CCC3049472886369 /* Pods_iSisSalesUITests.framework */; };
 		744B5294EF591EB5FCB18EDD /* Pods_iSisSalesTestsInMemory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F3911A3DEFF236838CDC4D1 /* Pods_iSisSalesTestsInMemory.framework */; };
@@ -1024,6 +1025,8 @@
 		35B53DBB1E72D5620002230F /* STMTestDirectoring.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STMTestDirectoring.h; sourceTree = "<group>"; };
 		35B53DBC1E72D5B00002230F /* STMTestDirectoring.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMTestDirectoring.m; sourceTree = "<group>"; };
 		35BA96D571E5CBAA739B97AD /* Pods-iSisSalesTestsInMemory.releasesales.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesTestsInMemory.releasesales.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesTestsInMemory/Pods-iSisSalesTestsInMemory.releasesales.xcconfig"; sourceTree = "<group>"; };
+		35DB36601F138FB4004574A1 /* STMSyncer+RemoteData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "STMSyncer+RemoteData.h"; path = "Socket/STMSyncer+RemoteData.h"; sourceTree = "<group>"; };
+		35DB36611F139091004574A1 /* STMSyncer+RemoteData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "STMSyncer+RemoteData.m"; sourceTree = "<group>"; };
 		35E414511EEAD597005BF054 /* STMAdapting.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STMAdapting.h; sourceTree = "<group>"; };
 		38F93DAAE76053192F30F3F7 /* Pods-iSisSales.debug warehouse.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSales.debug warehouse.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSales/Pods-iSisSales.debug warehouse.xcconfig"; sourceTree = "<group>"; };
 		390FE1B1108DBF3207298BAA /* Pods-iSisSalesSpeedTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesSpeedTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesSpeedTests/Pods-iSisSalesSpeedTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -1218,6 +1221,8 @@
 				2CD5D8BE1E6AAF3D00A88639 /* Socket */,
 				2CCD5DCD1E36476800B84565 /* STMSyncer.h */,
 				2CCD5DCE1E36476800B84565 /* STMSyncer.m */,
+				35DB36601F138FB4004574A1 /* STMSyncer+RemoteData.h */,
+				35DB36611F139091004574A1 /* STMSyncer+RemoteData.m */,
 				2C70FBCE1E4214D900FE49AF /* STMUnsyncedDataHelper.h */,
 				2C70FBCF1E4214D900FE49AF /* STMUnsyncedDataHelper.m */,
 				2C7366681E32470400DD0D45 /* STMSyncerHelper.h */,
@@ -3357,6 +3362,7 @@
 				35031DF51ED736DA0049715D /* STMPersisterTransactionCoordinator.m in Sources */,
 				D948DCA41E7A8EDB00F9A1CF /* NSManagedObjectModel+Serialization.m in Sources */,
 				2CD5D82C1E4DEC8F00A88639 /* STMLogger.m in Sources */,
+				35DB36621F139091004574A1 /* STMSyncer+RemoteData.m in Sources */,
 				2C94C18A1CF1B1F3004476D8 /* STMDatum.m in Sources */,
 				2C6113031D0BDE7B006BCB30 /* STMVisit+CoreDataProperties.m in Sources */,
 				2C94C0F51CF1B1BB004476D8 /* STMCorePicturesController.m in Sources */,
