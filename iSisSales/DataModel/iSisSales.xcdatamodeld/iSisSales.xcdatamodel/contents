@@ -280,6 +280,16 @@
         <attribute name="ord" optional="YES" attributeType="Integer 64" defaultValueString="0.0" usesScalarValueType="NO" syncable="YES"/>
         <relationship name="message" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMMessage" inverseName="pictures" inverseEntity="STMMessage" syncable="YES"/>
     </entity>
+    <entity name="STMNewsMessage" representedClassName="STMNewsMessage" parentEntity="STMAbstract" syncable="YES">
+        <attribute name="appVersion" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="body" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dateB" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dateE" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ratingsCount" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="ratingsTotal" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="subject" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="userNewsMessages" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="STMUserNewsMessage" inverseName="newsMessage" inverseEntity="STMUserNewsMessage" syncable="YES"/>
+    </entity>
     <entity name="STMOutlet" representedClassName="STMOutlet" parentEntity="STMAbstract" syncable="YES">
         <attribute name="address" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="isActive" optional="YES" attributeType="Boolean" defaultValueString="YES" usesScalarValueType="NO" syncable="YES"/>
@@ -512,6 +522,10 @@
         <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
         <relationship name="uncashings" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="STMUncashing" inverseName="uncashingPlace" inverseEntity="STMUncashing" syncable="YES"/>
     </entity>
+    <entity name="STMUserNewsMessage" representedClassName="STMUserNewsMessage" parentEntity="STMAbstract" syncable="YES">
+        <attribute name="rating" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <relationship name="newsMessage" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMNewsMessage" inverseName="userNewsMessages" inverseEntity="STMNewsMessage" syncable="YES"/>
+    </entity>
     <entity name="STMVisit" representedClassName="STMVisit" parentEntity="STMAbstract" syncable="YES">
         <attribute name="date" optional="YES" attributeType="String" syncable="YES"/>
         <relationship name="checkInLocation" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMLocation" inverseName="visitIns" inverseEntity="STMLocation" syncable="YES"/>
@@ -627,5 +641,7 @@
         <element name="STMVisitQuestionGroup" positionX="-171" positionY="-1458" width="128" height="90"/>
         <element name="STMVisitQuestionSet" positionX="7" positionY="-1566" width="128" height="105"/>
         <element name="STMWorkflow" positionX="45" positionY="-675" width="128" height="105"/>
+        <element name="STMNewsMessage" positionX="-1368" positionY="-2133" width="128" height="165"/>
+        <element name="STMUserNewsMessage" positionX="-1359" positionY="-2124" width="128" height="75"/>
     </elements>
 </model>
