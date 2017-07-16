@@ -400,6 +400,7 @@
         <attribute name="date" optional="YES" attributeType="String" indexed="YES" syncable="YES"/>
         <attribute name="deviceAts" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
         <attribute name="docDiscounts" optional="YES" attributeType="Boolean" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="markupDoc" optional="YES" attributeType="Decimal" defaultValueString="0.0" syncable="YES"/>
         <attribute name="processing" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="processingMessage" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="spoilerNotNeeded" optional="YES" attributeType="Boolean" usesScalarValueType="NO" syncable="YES"/>
@@ -417,6 +418,7 @@
         <attribute name="cost" optional="YES" attributeType="Decimal" defaultValueString="0.0" syncable="YES"/>
         <attribute name="deviceAts" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
         <attribute name="isCompDiscount" optional="YES" attributeType="Boolean" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="markupDoc" optional="YES" attributeType="Decimal" defaultValueString="0.0" syncable="YES"/>
         <attribute name="price" optional="YES" attributeType="Decimal" defaultValueString="0.0" syncable="YES"/>
         <attribute name="priceDoc" optional="YES" attributeType="Decimal" defaultValueString="0.0" syncable="YES"/>
         <attribute name="priceOrigin" optional="YES" attributeType="Decimal" defaultValueString="0.0" syncable="YES"/>
@@ -604,6 +606,7 @@
         <element name="STMLogMessage" positionX="-792" positionY="-2286" width="128" height="75"/>
         <element name="STMMessage" positionX="252" positionY="-1083" width="128" height="180"/>
         <element name="STMMessagePicture" positionX="72" positionY="-999" width="128" height="73"/>
+        <element name="STMNewsMessage" positionX="-1368" positionY="-2133" width="128" height="165"/>
         <element name="STMOutlet" positionX="-954" positionY="-1620" width="128" height="330"/>
         <element name="STMOutletPhoto" positionX="-513" positionY="-1278" width="128" height="73"/>
         <element name="STMOutletRestriction" positionX="-1332" positionY="-2097" width="128" height="75"/>
@@ -618,8 +621,8 @@
         <element name="STMRecordStatus" positionX="-360" positionY="-2286" width="128" height="120"/>
         <element name="STMRestriction" positionX="-1350" positionY="-2115" width="128" height="120"/>
         <element name="STMRestrictionArticle" positionX="-1341" positionY="-2106" width="128" height="75"/>
-        <element name="STMSaleOrder" positionX="-945" positionY="-901" width="128" height="300"/>
-        <element name="STMSaleOrderPosition" positionX="-1134" positionY="-999" width="128" height="195"/>
+        <element name="STMSaleOrder" positionX="-945" positionY="-901" width="128" height="315"/>
+        <element name="STMSaleOrderPosition" positionX="-1134" positionY="-999" width="128" height="210"/>
         <element name="STMSalesman" positionX="-974" positionY="-1242" width="128" height="195"/>
         <element name="STMSalesmanOutletRestriction" positionX="-1323" positionY="-2088" width="128" height="90"/>
         <element name="STMSchedule" positionX="-504" positionY="-810" width="128" height="105"/>
@@ -633,6 +636,7 @@
         <element name="STMUncashing" positionX="-1350" positionY="-2115" width="128" height="195"/>
         <element name="STMUncashingPicture" positionX="-1341" positionY="-2106" width="128" height="60"/>
         <element name="STMUncashingPlace" positionX="-1332" positionY="-2097" width="128" height="90"/>
+        <element name="STMUserNewsMessage" positionX="-1359" positionY="-2124" width="128" height="75"/>
         <element name="STMVisit" positionX="-729" positionY="-1756" width="128" height="150"/>
         <element name="STMVisitAnswer" positionX="-540" positionY="-1746" width="128" height="90"/>
         <element name="STMVisitPhoto" positionX="-396" positionY="-1359" width="128" height="58"/>
@@ -641,7 +645,5 @@
         <element name="STMVisitQuestionGroup" positionX="-171" positionY="-1458" width="128" height="90"/>
         <element name="STMVisitQuestionSet" positionX="7" positionY="-1566" width="128" height="105"/>
         <element name="STMWorkflow" positionX="45" positionY="-675" width="128" height="105"/>
-        <element name="STMNewsMessage" positionX="-1368" positionY="-2133" width="128" height="165"/>
-        <element name="STMUserNewsMessage" positionX="-1359" positionY="-2124" width="128" height="75"/>
     </elements>
 </model>
