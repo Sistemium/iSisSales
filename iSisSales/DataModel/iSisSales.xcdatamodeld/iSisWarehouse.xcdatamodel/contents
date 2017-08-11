@@ -23,6 +23,7 @@
         <attribute name="pieceVolume" optional="YES" attributeType="Decimal" defaultValueString="0.0" syncable="YES"/>
         <attribute name="pieceWeight" optional="YES" attributeType="Decimal" defaultValueString="0.0" syncable="YES"/>
         <attribute name="price" optional="YES" attributeType="Decimal" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="productionInfoType" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
         <relationship name="articleDocs" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="STMArticleDoc" inverseName="article" inverseEntity="STMArticleDoc" syncable="YES"/>
         <relationship name="articleGroup" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMArticleGroup" inverseName="articles" inverseEntity="STMArticleGroup" syncable="YES"/>
         <relationship name="avatarPicture" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMArticlePicture" inverseName="avatarArticles" inverseEntity="STMArticlePicture" syncable="YES"/>
@@ -202,6 +203,7 @@
         <attribute name="outerCode" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="outerXid" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="password" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="siteId" optional="YES" attributeType="String" syncable="YES"/>
         <relationship name="pickingOrders" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="STMPickingOrder" inverseName="picker" inverseEntity="STMPickingOrder" syncable="YES"/>
         <relationship name="pickingSessions" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="STMPickingSession" inverseName="picker" inverseEntity="STMPickingSession" syncable="YES"/>
     </entity>
@@ -212,7 +214,7 @@
         <relationship name="outlet" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMOutlet" inverseName="pickingOrders" inverseEntity="STMOutlet" syncable="YES"/>
         <relationship name="picker" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMPicker" inverseName="pickingOrders" inverseEntity="STMPicker" syncable="YES"/>
         <relationship name="pickingOrderPositions" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="STMPickingOrderPosition" inverseName="pickingOrder" inverseEntity="STMPickingOrderPosition" syncable="YES"/>
-        <relationship name="pickingSessions" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="STMPickingSession" inverseName="pickingOrders" inverseEntity="STMPickingSession" syncable="YES"/>
+        <relationship name="pickingSessions" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="STMPickingOrderSession" inverseName="pickingOrder" inverseEntity="STMPickingOrderSession" syncable="YES"/>
     </entity>
     <entity name="STMPickingOrderPosition" parentEntity="STMAbstract" syncable="YES">
         <attribute name="ord" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
@@ -231,11 +233,15 @@
         <relationship name="pickingOrderPosition" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMPickingOrderPosition" inverseName="pickingOrderPositionsPicked" inverseEntity="STMPickingOrderPosition" syncable="YES"/>
         <relationship name="stockBatch" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMStockBatch" inverseName="pickingOrderPositionsPicked" inverseEntity="STMStockBatch" syncable="YES"/>
     </entity>
+    <entity name="STMPickingOrderSession" parentEntity="STMAbstract" syncable="YES">
+        <relationship name="pickingOrder" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMPickingOrder" inverseName="pickingSessions" inverseEntity="STMPickingOrder" syncable="YES"/>
+        <relationship name="pickingSession" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMPickingSession" inverseName="pickingOrders" inverseEntity="STMPickingSession" syncable="YES"/>
+    </entity>
     <entity name="STMPickingSession" parentEntity="STMAbstract" syncable="YES">
         <attribute name="processing" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="siteId" optional="YES" attributeType="String" syncable="YES"/>
         <relationship name="picker" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMPicker" inverseName="pickingSessions" inverseEntity="STMPicker" syncable="YES"/>
-        <relationship name="pickingOrders" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="STMPickingOrder" inverseName="pickingSessions" inverseEntity="STMPickingOrder" syncable="YES"/>
+        <relationship name="pickingOrders" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="STMPickingOrderSession" inverseName="pickingSession" inverseEntity="STMPickingOrderSession" syncable="YES"/>
         <relationship name="weighings" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="STMPickingSessionWeighing" inverseName="pickingSession" inverseEntity="STMPickingSessionWeighing" syncable="YES"/>
     </entity>
     <entity name="STMPickingSessionWeighing" parentEntity="STMAbstract" syncable="YES">
@@ -290,7 +296,7 @@
     <elements>
         <element name="STMAbstract" positionX="-1341" positionY="-2106" width="128" height="105"/>
         <element name="STMAccount" positionX="-1323" positionY="-2088" width="128" height="120"/>
-        <element name="STMArticle" positionX="-1163" positionY="-619" width="128" height="330"/>
+        <element name="STMArticle" positionX="-1163" positionY="-619" width="128" height="345"/>
         <element name="STMArticleBarCode" positionX="-1179" positionY="-2133" width="128" height="75"/>
         <element name="STMArticleDoc" positionX="-1134" positionY="-2088" width="128" height="135"/>
         <element name="STMArticleGroup" positionX="-1386" positionY="-918" width="128" height="135"/>
@@ -312,7 +318,7 @@
         <element name="STMLogMessage" positionX="-792" positionY="-2286" width="128" height="75"/>
         <element name="STMOutlet" positionX="-1125" positionY="-2079" width="128" height="135"/>
         <element name="STMPartner" positionX="-1179" positionY="-2133" width="128" height="90"/>
-        <element name="STMPicker" positionX="-1143" positionY="-2097" width="128" height="165"/>
+        <element name="STMPicker" positionX="-1143" positionY="-2097" width="128" height="180"/>
         <element name="STMPickingOrder" positionX="-1134" positionY="-2088" width="128" height="150"/>
         <element name="STMPickingOrderPosition" positionX="-1170" positionY="-2124" width="128" height="120"/>
         <element name="STMPickingOrderPositionPicked" positionX="-1161" positionY="-2115" width="128" height="165"/>
@@ -325,5 +331,6 @@
         <element name="STMStockBatch" positionX="-1161" positionY="-2115" width="128" height="165"/>
         <element name="STMStockBatchBarCode" positionX="-1143" positionY="-2097" width="128" height="75"/>
         <element name="STMWorkflow" positionX="45" positionY="-675" width="128" height="90"/>
+        <element name="STMPickingOrderSession" positionX="-1179" positionY="-2133" width="128" height="75"/>
     </elements>
 </model>
