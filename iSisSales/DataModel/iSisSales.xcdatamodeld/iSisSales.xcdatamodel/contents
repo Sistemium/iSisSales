@@ -74,6 +74,7 @@
     <entity name="STMCampaign" parentEntity="STMAbstract" syncable="YES">
         <attribute name="dateB" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="dateE" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isActive" optional="YES" attributeType="Boolean" usesScalarValueType="NO" syncable="YES"/>
         <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
         <relationship name="campaignGroup" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMCampaignGroup" inverseName="campaigns" inverseEntity="STMCampaignGroup" syncable="YES"/>
         <relationship name="photoReports" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="STMPhotoReport" inverseName="campaign" inverseEntity="STMPhotoReport" syncable="YES"/>
@@ -583,7 +584,7 @@
         <element name="STMBarCodeScan" positionX="-72" positionY="-2286" width="128" height="90"/>
         <element name="STMBarCodeType" positionX="-218" positionY="-2286" width="128" height="105"/>
         <element name="STMBatteryStatus" positionX="-648" positionY="-2286" width="128" height="75"/>
-        <element name="STMCampaign" positionX="-1206" positionY="-2016" width="128" height="135"/>
+        <element name="STMCampaign" positionX="-1206" positionY="-2016" width="128" height="150"/>
         <element name="STMCampaignGroup" positionX="-1215" positionY="-2025" width="128" height="105"/>
         <element name="STMCampaignPicture" positionX="-1197" positionY="-2007" width="128" height="60"/>
         <element name="STMCashing" positionX="-1368" positionY="-2133" width="128" height="165"/>
