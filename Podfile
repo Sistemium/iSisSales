@@ -8,9 +8,9 @@ target 'iSisSales' do
     pod 'Fabric', '~> 1.6.10'
     pod 'JNKeychain', '~> 0.1.4'
     pod 'ScanAPI', :path => '../ScanApiSDK'
-    pod 'Socket.IO-Client-Swift', :git => 'https://github.com/Sistemium/socket.io-client-swift.git'
-    pod 'FMDB', '~> 2.6.2’
-    pod 'PromiseKit', '~> 4.0'
+    pod 'Socket.IO-Client-Swift', '~> 8.3.3’
+    pod 'FMDB', '~> 2.7.2’
+    pod 'PromiseKit', '~> 4.4’
 
     target 'iSisSalesTests' do
         inherit! :search_paths
