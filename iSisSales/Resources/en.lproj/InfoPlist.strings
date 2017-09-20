@@ -11,3 +11,4 @@ NSPhotoLibraryUsageDescription = "To select photos";
 NSLocationAlwaysUsageDescription = "";
 NSLocationWhenInUseUsageDescription = "";
 NSBluetoothPeripheralUsageDescription = "";
+NSPhotoLibraryAddUsageDescription = "To select photos";

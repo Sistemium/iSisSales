@@ -11,3 +11,4 @@ NSPhotoLibraryUsageDescription = "Чтобы выбирать фотографи
 NSLocationAlwaysUsageDescription = "";
 NSLocationWhenInUseUsageDescription = "";
 NSBluetoothPeripheralUsageDescription = "";
+NSPhotoLibraryAddUsageDescription = "Чтобы выбирать фотографии";
