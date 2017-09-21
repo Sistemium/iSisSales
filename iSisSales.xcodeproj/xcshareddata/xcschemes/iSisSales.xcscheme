@@ -39,11 +39,6 @@
                BlueprintName = "iSisSalesTests"
                ReferencedContainer = "container:iSisSales.xcodeproj">
             </BuildableReference>
-            <SkippedTests>
-               <Test
-                  Identifier = "SessionManagerTests">
-               </Test>
-            </SkippedTests>
          </TestableReference>
          <TestableReference
             skipped = "NO">

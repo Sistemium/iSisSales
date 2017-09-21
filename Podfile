@@ -1,4 +1,4 @@
-platform :ios, '8.0'
+platform :ios, '9.0'
 use_frameworks!
 
 target 'iSisSales' do
@@ -8,9 +8,9 @@ target 'iSisSales' do
     pod 'Fabric', '~> 1.6.10'
     pod 'JNKeychain', '~> 0.1.4'
     pod 'ScanAPI', :path => '../ScanApiSDK'
-    pod 'Socket.IO-Client-Swift', '~> 8.3.3’
-    pod 'FMDB', '~> 2.7.2’
-    pod 'PromiseKit', '~> 4.4’
+    pod 'Socket.IO-Client-Swift', '~> 8.3.3'
+    pod 'FMDB', '~> 2.7.2'
+    pod 'PromiseKit', '~> 4.4'
 
     target 'iSisSalesTests' do
         inherit! :search_paths
