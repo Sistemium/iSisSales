@@ -12,3 +12,4 @@ NSLocationAlwaysUsageDescription = "";
 NSLocationWhenInUseUsageDescription = "";
 NSBluetoothPeripheralUsageDescription = "";
 NSPhotoLibraryAddUsageDescription = "Чтобы выбирать фотографии";
+NSLocationAlwaysAndWhenInUseUsageDescription = "";
