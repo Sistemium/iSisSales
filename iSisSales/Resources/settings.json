@@ -49,6 +49,17 @@
                 }
             ]
        },
+   {
+       "group": "webview",
+       "data":
+       [
+            {
+                "name": "scannerHIDMode",
+                "value": false,
+                "control": "switch",
+            }
+       ]
+   }
     {
       "group": "location",
       "data":
