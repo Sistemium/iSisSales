@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="11759" systemVersion="16D32" minimumToolsVersion="Xcode 7.3" sourceLanguage="Objective-C" userDefinedModelVersionIdentifier="">
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="13240" systemVersion="16G29" minimumToolsVersion="Xcode 7.3" sourceLanguage="Objective-C" userDefinedModelVersionIdentifier="">
     <entity name="STMAbstract" isAbstract="YES" parentEntity="STMDatum" syncable="YES">
         <attribute name="commentText" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="ownerXid" optional="YES" attributeType="Binary" syncable="YES"/>
@@ -39,7 +39,7 @@
         <attribute name="code" optional="YES" attributeType="String" syncable="YES"/>
         <relationship name="article" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMArticle" inverseName="barCodes" inverseEntity="STMArticle" syncable="YES"/>
     </entity>
-    <entity name="STMArticleDoc" syncable="YES">
+    <entity name="STMArticleDoc" parentEntity="STMAbstract" syncable="YES">
         <attribute name="dateEGAIS" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="dateImport" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="dateProduction" optional="YES" attributeType="String" syncable="YES"/>
@@ -248,7 +248,7 @@
         <attribute name="weight" optional="YES" attributeType="Decimal" defaultValueString="0.0" syncable="YES"/>
         <relationship name="pickingSession" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMPickingSession" inverseName="weighings" inverseEntity="STMPickingSession" syncable="YES"/>
     </entity>
-    <entity name="STMProductionInfoType" syncable="YES">
+    <entity name="STMProductionInfoType" parentEntity="STMAbstract" syncable="YES">
         <attribute name="datatype" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="mask" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
@@ -322,6 +322,7 @@
         <element name="STMPickingOrder" positionX="-1134" positionY="-2088" width="128" height="150"/>
         <element name="STMPickingOrderPosition" positionX="-1170" positionY="-2124" width="128" height="120"/>
         <element name="STMPickingOrderPositionPicked" positionX="-1161" positionY="-2115" width="128" height="165"/>
+        <element name="STMPickingOrderSession" positionX="-1179" positionY="-2133" width="128" height="75"/>
         <element name="STMPickingSession" positionX="-1179" positionY="-2133" width="128" height="120"/>
         <element name="STMPickingSessionWeighing" positionX="-1170" positionY="-2124" width="128" height="75"/>
         <element name="STMProductionInfoType" positionX="-1152" positionY="-2106" width="128" height="105"/>
@@ -331,6 +332,5 @@
         <element name="STMStockBatch" positionX="-1161" positionY="-2115" width="128" height="165"/>
         <element name="STMStockBatchBarCode" positionX="-1143" positionY="-2097" width="128" height="75"/>
         <element name="STMWorkflow" positionX="45" positionY="-675" width="128" height="90"/>
-        <element name="STMPickingOrderSession" positionX="-1179" positionY="-2133" width="128" height="75"/>
     </elements>
 </model>
