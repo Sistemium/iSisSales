@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="13240" systemVersion="16G29" minimumToolsVersion="Xcode 7.3" sourceLanguage="Objective-C" userDefinedModelVersionIdentifier="">
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="13241" systemVersion="16G29" minimumToolsVersion="Xcode 7.3" sourceLanguage="Objective-C" userDefinedModelVersionIdentifier="">
     <entity name="STMAbstract" isAbstract="YES" parentEntity="STMDatum" syncable="YES">
         <attribute name="commentText" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="ownerXid" optional="YES" attributeType="Binary" syncable="YES"/>
         <attribute name="source" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="target" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ts" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
     </entity>
     <entity name="STMAccount" parentEntity="STMAbstract" syncable="YES">
         <attribute name="email" optional="YES" attributeType="String" syncable="YES"/>
@@ -584,7 +585,7 @@
         <relationship name="messages" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMMessage" inverseName="workflow" inverseEntity="STMMessage" syncable="YES"/>
     </entity>
     <elements>
-        <element name="STMAbstract" positionX="-1341" positionY="-2106" width="128" height="105"/>
+        <element name="STMAbstract" positionX="-1341" positionY="-2106" width="128" height="120"/>
         <element name="STMAccount" positionX="-1323" positionY="-2088" width="128" height="150"/>
         <element name="STMArticle" positionX="-1163" positionY="-619" width="128" height="375"/>
         <element name="STMArticleGroup" positionX="-1386" positionY="-918" width="128" height="150"/>
@@ -611,6 +612,7 @@
         <element name="STMDriver" positionX="-1323" positionY="-2088" width="128" height="120"/>
         <element name="STMEntity" positionX="232" positionY="-681" width="128" height="240"/>
         <element name="STMJson" positionX="-504" positionY="-2286" width="128" height="90"/>
+        <element name="STMLegalEntity" positionX="-1368" positionY="-2133" width="128" height="75"/>
         <element name="STMLegalForm" positionX="-1368" positionY="-1546" width="128" height="105"/>
         <element name="STMLocation" positionX="-720" positionY="-1135" width="128" height="88"/>
         <element name="STMLogMessage" positionX="-792" positionY="-2286" width="128" height="75"/>
@@ -655,6 +657,5 @@
         <element name="STMVisitQuestionGroup" positionX="-171" positionY="-1458" width="128" height="90"/>
         <element name="STMVisitQuestionSet" positionX="7" positionY="-1566" width="128" height="105"/>
         <element name="STMWorkflow" positionX="45" positionY="-675" width="128" height="105"/>
-        <element name="STMLegalEntity" positionX="-1368" positionY="-2133" width="128" height="75"/>
     </elements>
 </model>
