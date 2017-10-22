@@ -5,7 +5,6 @@
         <attribute name="ownerXid" optional="YES" attributeType="Binary" syncable="YES"/>
         <attribute name="source" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="target" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="ts" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
     </entity>
     <entity name="STMAccount" parentEntity="STMAbstract" syncable="YES">
         <attribute name="email" optional="YES" attributeType="String" syncable="YES"/>
@@ -295,7 +294,7 @@
         <relationship name="entities" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="STMEntity" inverseName="wf" inverseEntity="STMEntity" syncable="YES"/>
     </entity>
     <elements>
-        <element name="STMAbstract" positionX="-1341" positionY="-2106" width="128" height="120"/>
+        <element name="STMAbstract" positionX="-1341" positionY="-2106" width="128" height="105"/>
         <element name="STMAccount" positionX="-1323" positionY="-2088" width="128" height="120"/>
         <element name="STMArticle" positionX="-1163" positionY="-619" width="128" height="345"/>
         <element name="STMArticleBarCode" positionX="-1179" positionY="-2133" width="128" height="75"/>
