@@ -39,6 +39,14 @@
                BlueprintName = "iSisSalesTests"
                ReferencedContainer = "container:iSisSales.xcodeproj">
             </BuildableReference>
+            <SkippedTests>
+               <Test
+                  Identifier = "LoggerTests">
+               </Test>
+               <Test
+                  Identifier = "SessionManagerTests">
+               </Test>
+            </SkippedTests>
          </TestableReference>
          <TestableReference
             skipped = "NO">
@@ -54,31 +62,16 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D9F0B3AD1E447E0500989BB0"
-               BuildableName = "iSisSalesOfLibsTests.xctest"
-               BlueprintName = "iSisSalesOfLibsTests"
-               ReferencedContainer = "container:iSisSales.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
                BlueprintIdentifier = "D95FBAE51E489C540029F3C8"
                BuildableName = "iSisSalesTestsInMemory.xctest"
                BlueprintName = "iSisSalesTestsInMemory"
                ReferencedContainer = "container:iSisSales.xcodeproj">
             </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D96BFEA31E547DA30080327D"
-               BuildableName = "iSisSalesSpeedTests.xctest"
-               BlueprintName = "iSisSalesSpeedTests"
-               ReferencedContainer = "container:iSisSales.xcodeproj">
-            </BuildableReference>
+            <SkippedTests>
+               <Test
+                  Identifier = "FilingTests/testFiling">
+               </Test>
+            </SkippedTests>
          </TestableReference>
       </Testables>
       <MacroExpansion>
