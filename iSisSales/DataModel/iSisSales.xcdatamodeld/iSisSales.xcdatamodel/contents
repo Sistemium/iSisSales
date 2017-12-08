@@ -13,6 +13,7 @@
         <attribute name="mobileNumber" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
         <relationship name="cashings" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="STMCashing" inverseName="creator" inverseEntity="STMCashing" syncable="YES"/>
+        <relationship name="commentarys" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="STMCommentary" inverseName="author" inverseEntity="STMCommentary" syncable="YES"/>
         <relationship name="uncashings" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="STMUncashing" inverseName="creator" inverseEntity="STMUncashing" syncable="YES"/>
     </entity>
     <entity name="STMArticle" representedClassName="STMArticle" parentEntity="STMAbstract" syncable="YES">
@@ -149,6 +150,12 @@
         <userInfo>
             <entry key="STORE" value="FMDB"/>
         </userInfo>
+    </entity>
+    <entity name="STMCommentary" parentEntity="STMAbstract" syncable="YES">
+        <attribute name="authId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="body" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="timestamp" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <relationship name="author" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMAccount" inverseName="commentarys" inverseEntity="STMAccount" syncable="YES"/>
     </entity>
     <entity name="STMContract" representedClassName="STMContract" parentEntity="STMAbstract" syncable="YES">
         <attribute name="creditLimit" optional="YES" attributeType="Decimal" defaultValueString="0.0" syncable="YES"/>
@@ -296,7 +303,7 @@
         <attribute name="ratingsCount" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
         <attribute name="ratingsTotal" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
         <attribute name="subject" optional="YES" attributeType="String" syncable="YES"/>
-        <relationship name="newsMessagePictures" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMNewsMessage" inverseName="newsMessagePictures" inverseEntity="STMNewsMessage" syncable="YES"/>
+        <relationship name="newsMessagePictures" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="STMNewsMessage" inverseName="newsMessagePictures" inverseEntity="STMNewsMessage" syncable="YES"/>
         <relationship name="userNewsMessages" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="STMUserNewsMessage" inverseName="newsMessage" inverseEntity="STMUserNewsMessage" syncable="YES"/>
     </entity>
     <entity name="STMNewsMessagePicture" parentEntity="STMCorePicture" syncable="YES">
@@ -590,7 +597,7 @@
     </entity>
     <elements>
         <element name="STMAbstract" positionX="-1341" positionY="-2106" width="128" height="105"/>
-        <element name="STMAccount" positionX="-1323" positionY="-2088" width="128" height="150"/>
+        <element name="STMAccount" positionX="-1323" positionY="-2088" width="128" height="165"/>
         <element name="STMArticle" positionX="-1163" positionY="-619" width="128" height="375"/>
         <element name="STMArticleGroup" positionX="-1386" positionY="-918" width="128" height="150"/>
         <element name="STMArticlePicture" positionX="-38" positionY="-792" width="128" height="73"/>
@@ -623,6 +630,7 @@
         <element name="STMMessage" positionX="252" positionY="-1083" width="128" height="180"/>
         <element name="STMMessagePicture" positionX="72" positionY="-999" width="128" height="73"/>
         <element name="STMNewsMessage" positionX="-1368" positionY="-2133" width="128" height="210"/>
+        <element name="STMNewsMessagePicture" positionX="-1368" positionY="-2133" width="128" height="60"/>
         <element name="STMOutlet" positionX="-954" positionY="-1620" width="128" height="360"/>
         <element name="STMOutletPhoto" positionX="-513" positionY="-1278" width="128" height="73"/>
         <element name="STMOutletRestriction" positionX="-1332" positionY="-2097" width="128" height="75"/>
@@ -661,6 +669,6 @@
         <element name="STMVisitQuestionGroup" positionX="-171" positionY="-1458" width="128" height="90"/>
         <element name="STMVisitQuestionSet" positionX="7" positionY="-1566" width="128" height="105"/>
         <element name="STMWorkflow" positionX="45" positionY="-675" width="128" height="105"/>
-        <element name="STMNewsMessagePicture" positionX="-1368" positionY="-2133" width="128" height="60"/>
+        <element name="STMCommentary" positionX="-1359" positionY="-2124" width="128" height="105"/>
     </elements>
 </model>
