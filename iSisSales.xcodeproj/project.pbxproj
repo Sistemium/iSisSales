@@ -2690,18 +2690,18 @@
 					};
 					2C94BFE21CF1ACB8004476D8 = {
 						CreatedOnToolsVersion = 7.3.1;
-						LastSwiftMigration = 0830;
+						LastSwiftMigration = 0920;
 						TestTargetID = 2C94BFC91CF1ACB8004476D8;
 					};
 					2C94BFED1CF1ACB8004476D8 = {
 						CreatedOnToolsVersion = 7.3.1;
-						LastSwiftMigration = 0830;
+						LastSwiftMigration = 0920;
 						TestTargetID = 2C94BFC91CF1ACB8004476D8;
 					};
 					D95FBAE51E489C540029F3C8 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = HZMMGDCLPA;
-						LastSwiftMigration = 0830;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 2C94BFC91CF1ACB8004476D8;
 					};
@@ -3647,7 +3647,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CustomAppBuild = 350;
 				CustomAppBundleId = "com.sistemium.${PRODUCT_NAME:rfc1034identifier}";
-				CustomAppVersion = 3.5.0;
+				CustomAppVersion = 3.5.1;
 				CustomProductName = iSisSales;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = HZMMGDCLPA;
@@ -3838,7 +3838,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CustomAppBuild = 350;
 				CustomAppBundleId = com.sistemium.iSisWarehouseDebug;
-				CustomAppVersion = 3.5.0;
+				CustomAppVersion = 3.5.1;
 				CustomProductName = iSisWarehouse;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = HZMMGDCLPA;
@@ -4024,7 +4024,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CustomAppBuild = 350;
 				CustomAppBundleId = "com.sistemium.${PRODUCT_NAME:rfc1034identifier}";
-				CustomAppVersion = 3.5.0;
+				CustomAppVersion = 3.5.1;
 				CustomProductName = iSisSales;
 				DEVELOPMENT_TEAM = HZMMGDCLPA;
 				ENABLE_BITCODE = NO;
@@ -4209,7 +4209,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CustomAppBuild = 350;
 				CustomAppBundleId = com.sistemium.iSisWarehouse;
-				CustomAppVersion = 3.5.0;
+				CustomAppVersion = 3.5.1;
 				CustomProductName = iSisWarehouse;
 				DEVELOPMENT_TEAM = HZMMGDCLPA;
 				ENABLE_BITCODE = NO;
