@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="13533" systemVersion="16G29" minimumToolsVersion="Xcode 7.3" sourceLanguage="Objective-C" userDefinedModelVersionIdentifier="">
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="13772" systemVersion="16G1114" minimumToolsVersion="Xcode 7.3" sourceLanguage="Objective-C" userDefinedModelVersionIdentifier="">
     <entity name="STMAbstract" isAbstract="YES" parentEntity="STMDatum" syncable="YES">
         <attribute name="commentText" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="ownerXid" optional="YES" attributeType="Binary" syncable="YES"/>
@@ -303,11 +303,11 @@
         <attribute name="ratingsCount" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
         <attribute name="ratingsTotal" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
         <attribute name="subject" optional="YES" attributeType="String" syncable="YES"/>
-        <relationship name="newsMessagePictures" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="STMNewsMessage" inverseName="newsMessagePictures" inverseEntity="STMNewsMessage" syncable="YES"/>
+        <relationship name="newsMessagePictures" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="STMNewsMessagePicture" inverseName="newsMessage" inverseEntity="STMNewsMessagePicture" syncable="YES"/>
         <relationship name="userNewsMessages" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="STMUserNewsMessage" inverseName="newsMessage" inverseEntity="STMUserNewsMessage" syncable="YES"/>
     </entity>
     <entity name="STMNewsMessagePicture" parentEntity="STMCorePicture" syncable="YES">
-        <relationship name="newsMessage" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMNewsMessage" syncable="YES"/>
+        <relationship name="newsMessage" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMNewsMessage" inverseName="newsMessagePictures" inverseEntity="STMNewsMessage" syncable="YES"/>
     </entity>
     <entity name="STMOutlet" representedClassName="STMOutlet" parentEntity="STMAbstract" syncable="YES">
         <attribute name="address" optional="YES" attributeType="String" syncable="YES"/>
@@ -612,6 +612,7 @@
         <element name="STMCatalogueAlert" positionX="-1314" positionY="-2079" width="128" height="150"/>
         <element name="STMClientData" positionX="-936" positionY="-2286" width="128" height="270"/>
         <element name="STMClientEntity" positionX="70" positionY="-2286" width="128" height="75"/>
+        <element name="STMCommentary" positionX="-1359" positionY="-2124" width="128" height="105"/>
         <element name="STMContract" positionX="-1388" positionY="-1261" width="128" height="195"/>
         <element name="STMContractArticle" positionX="-1350" positionY="-2115" width="128" height="90"/>
         <element name="STMContractPriceGroup" positionX="-1359" positionY="-2124" width="128" height="90"/>
@@ -669,6 +670,5 @@
         <element name="STMVisitQuestionGroup" positionX="-171" positionY="-1458" width="128" height="90"/>
         <element name="STMVisitQuestionSet" positionX="7" positionY="-1566" width="128" height="105"/>
         <element name="STMWorkflow" positionX="45" positionY="-675" width="128" height="105"/>
-        <element name="STMCommentary" positionX="-1359" positionY="-2124" width="128" height="105"/>
     </elements>
 </model>
