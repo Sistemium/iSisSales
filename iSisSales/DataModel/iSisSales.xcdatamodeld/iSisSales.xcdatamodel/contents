@@ -425,7 +425,7 @@
         <attribute name="processing" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="processingMessage" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="spoilerNotNeeded" optional="YES" attributeType="Boolean" usesScalarValueType="NO" syncable="YES"/>
-        <attribute name="totalCost" optional="YES" attributeType="Decimal" defaultValueString="0.0" indexed="YES" syncable="YES"/>
+        <attribute name="totalCost" optional="YES" attributeType="Decimal" defaultValueString="0.0" syncable="YES"/>
         <attribute name="totalCostDoc" optional="YES" attributeType="Decimal" defaultValueString="0.0" syncable="YES"/>
         <relationship name="contract" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMContract" inverseName="saleOrders" inverseEntity="STMContract" syncable="YES"/>
         <relationship name="outlet" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMOutlet" inverseName="saleOrders" inverseEntity="STMOutlet" syncable="YES"/>
@@ -494,7 +494,7 @@
         </userInfo>
     </entity>
     <entity name="STMShipment" parentEntity="STMAbstract" syncable="YES">
-        <attribute name="date" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="date" optional="YES" attributeType="String" indexed="YES" syncable="YES"/>
         <attribute name="ndoc" optional="YES" attributeType="String" syncable="YES"/>
         <relationship name="driver" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMDriver" inverseName="shipments" inverseEntity="STMDriver" syncable="YES"/>
         <relationship name="outlet" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMOutlet" inverseName="shipments" inverseEntity="STMOutlet" syncable="YES"/>
@@ -551,7 +551,7 @@
         <relationship name="newsMessage" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMNewsMessage" inverseName="userNewsMessages" inverseEntity="STMNewsMessage" syncable="YES"/>
     </entity>
     <entity name="STMVisit" representedClassName="STMVisit" parentEntity="STMAbstract" syncable="YES">
-        <attribute name="date" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="date" optional="YES" attributeType="String" indexed="YES" syncable="YES"/>
         <relationship name="checkInLocation" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMLocation" inverseName="visitIns" inverseEntity="STMLocation" syncable="YES"/>
         <relationship name="checkOutLocation" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMLocation" inverseName="visitOuts" inverseEntity="STMLocation" syncable="YES"/>
         <relationship name="outlet" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMOutlet" inverseName="visits" inverseEntity="STMOutlet" syncable="YES"/>
