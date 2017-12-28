@@ -189,7 +189,7 @@
         <attribute name="speed" optional="YES" attributeType="Decimal" defaultValueString="0.0" syncable="YES"/>
         <attribute name="timestamp" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
         <attribute name="verticalAccuracy" optional="YES" attributeType="Decimal" defaultValueString="0.0" syncable="YES"/>
-        <relationship name="photos" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="STMCorePhoto" inverseName="location" inverseEntity="STMCorePhoto" syncable="YES"/>
+        <relationship name="photos" optional="YES" toMany="YES" deletionRule="Deny" destinationEntity="STMCorePhoto" inverseName="location" inverseEntity="STMCorePhoto" syncable="YES"/>
     </entity>
     <entity name="STMCorePhoto" representedClassName="STMCorePhoto" isAbstract="YES" parentEntity="STMCorePicture" elementID="photo" syncable="YES">
         <relationship name="location" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMLocation" inverseName="photos" inverseEntity="STMCoreLocation" syncable="YES"/>
@@ -270,9 +270,9 @@
         <relationship name="partners" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="STMPartner" inverseName="legalForm" inverseEntity="STMPartner" syncable="YES"/>
     </entity>
     <entity name="STMLocation" representedClassName="STMLocation" parentEntity="STMCoreLocation" syncable="YES">
-        <relationship name="outlets" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="STMOutlet" inverseName="location" inverseEntity="STMOutlet" syncable="YES"/>
-        <relationship name="visitIns" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="STMVisit" inverseName="checkInLocation" inverseEntity="STMVisit" syncable="YES"/>
-        <relationship name="visitOuts" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="STMVisit" inverseName="checkOutLocation" inverseEntity="STMVisit" syncable="YES"/>
+        <relationship name="outlets" optional="YES" toMany="YES" deletionRule="Deny" destinationEntity="STMOutlet" inverseName="location" inverseEntity="STMOutlet" syncable="YES"/>
+        <relationship name="visitIns" optional="YES" toMany="YES" deletionRule="Deny" destinationEntity="STMVisit" inverseName="checkInLocation" inverseEntity="STMVisit" syncable="YES"/>
+        <relationship name="visitOuts" optional="YES" toMany="YES" deletionRule="Deny" destinationEntity="STMVisit" inverseName="checkOutLocation" inverseEntity="STMVisit" syncable="YES"/>
     </entity>
     <entity name="STMLogMessage" representedClassName="STMLogMessage" parentEntity="STMAbstract" syncable="YES">
         <attribute name="text" optional="YES" attributeType="String" syncable="YES"/>
@@ -632,7 +632,7 @@
         <element name="STMJson" positionX="-504" positionY="-2286" width="128" height="90"/>
         <element name="STMLegalEntity" positionX="-1368" positionY="-2133" width="128" height="75"/>
         <element name="STMLegalForm" positionX="-1368" positionY="-1546" width="128" height="105"/>
-        <element name="STMLocation" positionX="-720" positionY="-1135" width="128" height="88"/>
+        <element name="STMLocation" positionX="-720" positionY="-1135" width="128" height="90"/>
         <element name="STMLogMessage" positionX="-792" positionY="-2286" width="128" height="75"/>
         <element name="STMMessage" positionX="252" positionY="-1083" width="128" height="180"/>
         <element name="STMMessagePicture" positionX="72" positionY="-999" width="128" height="73"/>
@@ -663,6 +663,7 @@
         <element name="STMShipment" positionX="-1341" positionY="-2106" width="128" height="165"/>
         <element name="STMShipmentEgais" positionX="-1368" positionY="-2133" width="128" height="165"/>
         <element name="STMShipmentPosition" positionX="-1332" positionY="-2097" width="128" height="120"/>
+        <element name="STMSQLPatch" positionX="-1368" positionY="-2133" width="128" height="105"/>
         <element name="STMStock" positionX="-947" positionY="-540" width="128" height="90"/>
         <element name="STMUncashing" positionX="-1350" positionY="-2115" width="128" height="195"/>
         <element name="STMUncashingPicture" positionX="-1341" positionY="-2106" width="128" height="60"/>
@@ -676,6 +677,5 @@
         <element name="STMVisitQuestionGroup" positionX="-171" positionY="-1458" width="128" height="90"/>
         <element name="STMVisitQuestionSet" positionX="7" positionY="-1566" width="128" height="105"/>
         <element name="STMWorkflow" positionX="45" positionY="-675" width="128" height="105"/>
-        <element name="STMSQLPatch" positionX="-1368" positionY="-2133" width="128" height="105"/>
     </elements>
 </model>
