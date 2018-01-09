@@ -12,9 +12,9 @@
         <attribute name="isCoordinator" optional="YES" attributeType="Boolean" usesScalarValueType="NO" syncable="YES"/>
         <attribute name="mobileNumber" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
-        <relationship name="cashings" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="STMCashing" inverseName="creator" inverseEntity="STMCashing" syncable="YES"/>
-        <relationship name="commentarys" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="STMCommentary" inverseName="author" inverseEntity="STMCommentary" syncable="YES"/>
-        <relationship name="uncashings" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="STMUncashing" inverseName="creator" inverseEntity="STMUncashing" syncable="YES"/>
+        <relationship name="cashings" optional="YES" toMany="YES" deletionRule="No Action" destinationEntity="STMCashing" inverseName="creator" inverseEntity="STMCashing" syncable="YES"/>
+        <relationship name="commentarys" optional="YES" toMany="YES" deletionRule="No Action" destinationEntity="STMCommentary" inverseName="author" inverseEntity="STMCommentary" syncable="YES"/>
+        <relationship name="uncashings" optional="YES" toMany="YES" deletionRule="No Action" destinationEntity="STMUncashing" inverseName="creator" inverseEntity="STMUncashing" syncable="YES"/>
     </entity>
     <entity name="STMArticle" representedClassName="STMArticle" parentEntity="STMAbstract" syncable="YES">
         <attribute name="barcode" optional="YES" attributeType="String" indexed="YES" syncable="YES"/>
