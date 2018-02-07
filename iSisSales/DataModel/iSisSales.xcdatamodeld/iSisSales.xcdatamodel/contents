@@ -564,6 +564,7 @@
     </entity>
     <entity name="STMUserNewsMessage" representedClassName="STMUserNewsMessage" parentEntity="STMAbstract" syncable="YES">
         <attribute name="authId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lastReadCommentaries" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
         <attribute name="rating" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
         <relationship name="newsMessage" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMNewsMessage" inverseName="userNewsMessages" inverseEntity="STMNewsMessage" syncable="YES"/>
     </entity>
@@ -679,7 +680,7 @@
         <element name="STMUncashing" positionX="-1350" positionY="-2115" width="128" height="195"/>
         <element name="STMUncashingPicture" positionX="-1341" positionY="-2106" width="128" height="60"/>
         <element name="STMUncashingPlace" positionX="-1332" positionY="-2097" width="128" height="90"/>
-        <element name="STMUserNewsMessage" positionX="-1359" positionY="-2124" width="128" height="90"/>
+        <element name="STMUserNewsMessage" positionX="-1359" positionY="-2124" width="128" height="105"/>
         <element name="STMVisit" positionX="-729" positionY="-1756" width="128" height="150"/>
         <element name="STMVisitAnswer" positionX="-540" positionY="-1746" width="128" height="90"/>
         <element name="STMVisitPhoto" positionX="-396" positionY="-1359" width="128" height="58"/>
