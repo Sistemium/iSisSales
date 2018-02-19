@@ -426,9 +426,11 @@
         <attribute name="markupDoc" optional="YES" attributeType="Decimal" defaultValueString="0.0" syncable="YES"/>
         <attribute name="processing" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="processingMessage" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="salesSchema" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
         <attribute name="spoilerNotNeeded" optional="YES" attributeType="Boolean" usesScalarValueType="NO" syncable="YES"/>
         <attribute name="totalCost" optional="YES" attributeType="Decimal" defaultValueString="0.0" syncable="YES"/>
         <attribute name="totalCostDoc" optional="YES" attributeType="Decimal" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="totalSelfCost" optional="YES" attributeType="Decimal" defaultValueString="0.0" syncable="YES"/>
         <relationship name="contract" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMContract" inverseName="saleOrders" inverseEntity="STMContract" syncable="YES"/>
         <relationship name="outlet" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMOutlet" inverseName="saleOrders" inverseEntity="STMOutlet" syncable="YES"/>
         <relationship name="priceType" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMPriceType" inverseName="saleOrders" inverseEntity="STMPriceType" syncable="YES"/>
@@ -452,6 +454,7 @@
         <attribute name="isCompDiscount" optional="YES" attributeType="Boolean" usesScalarValueType="NO" syncable="YES"/>
         <attribute name="markupDoc" optional="YES" attributeType="Decimal" defaultValueString="0.0" syncable="YES"/>
         <attribute name="price" optional="YES" attributeType="Decimal" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="priceAgent" optional="YES" attributeType="Decimal" defaultValueString="0.0" syncable="YES"/>
         <attribute name="priceDoc" optional="YES" attributeType="Decimal" defaultValueString="0.0" syncable="YES"/>
         <attribute name="priceOrigin" optional="YES" attributeType="Decimal" defaultValueString="0.0" syncable="YES"/>
         <attribute name="volume" optional="YES" attributeType="Integer 64" defaultValueString="0.0" usesScalarValueType="NO" syncable="YES"/>
@@ -539,6 +542,7 @@
     </entity>
     <entity name="STMStock" representedClassName="STMStock" parentEntity="STMAbstract" syncable="YES">
         <attribute name="displayVolume" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="priceAgent" optional="YES" attributeType="Decimal" defaultValueString="0.0" syncable="YES"/>
         <attribute name="volume" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
         <relationship name="article" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMArticle" inverseName="stocks" inverseEntity="STMArticle" syncable="YES"/>
     </entity>
@@ -664,8 +668,8 @@
         <element name="STMRecordStatus" positionX="-360" positionY="-2286" width="128" height="120"/>
         <element name="STMRestriction" positionX="-1350" positionY="-2115" width="128" height="120"/>
         <element name="STMRestrictionArticle" positionX="-1341" positionY="-2106" width="128" height="75"/>
-        <element name="STMSaleOrder" positionX="-945" positionY="-901" width="128" height="330"/>
-        <element name="STMSaleOrderPosition" positionX="-1134" positionY="-999" width="128" height="210"/>
+        <element name="STMSaleOrder" positionX="-945" positionY="-901" width="128" height="360"/>
+        <element name="STMSaleOrderPosition" positionX="-1134" positionY="-999" width="128" height="225"/>
         <element name="STMSalesman" positionX="-974" positionY="-1242" width="128" height="195"/>
         <element name="STMSalesmanOutletRestriction" positionX="-1323" positionY="-2088" width="128" height="90"/>
         <element name="STMSchedule" positionX="-504" positionY="-810" width="128" height="105"/>
@@ -676,7 +680,7 @@
         <element name="STMShipmentEgais" positionX="-1368" positionY="-2133" width="128" height="165"/>
         <element name="STMShipmentPosition" positionX="-1332" positionY="-2097" width="128" height="120"/>
         <element name="STMSQLPatch" positionX="-1368" positionY="-2133" width="128" height="105"/>
-        <element name="STMStock" positionX="-947" positionY="-540" width="128" height="90"/>
+        <element name="STMStock" positionX="-947" positionY="-540" width="128" height="105"/>
         <element name="STMUncashing" positionX="-1350" positionY="-2115" width="128" height="195"/>
         <element name="STMUncashingPicture" positionX="-1341" positionY="-2106" width="128" height="60"/>
         <element name="STMUncashingPlace" positionX="-1332" positionY="-2097" width="128" height="90"/>
