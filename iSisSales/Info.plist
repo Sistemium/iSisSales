@@ -46,12 +46,12 @@
 		<true/>
 		<key>NSExceptionDomains</key>
 		<dict>
-			<key>edgars-macbook-pro.local</key>
+			<key>denis.local</key>
 			<dict>
 				<key>NSExceptionAllowsInsecureHTTPLoads</key>
 				<true/>
 			</dict>
-			<key>denis.local</key>
+			<key>edgars-macbook-pro.local</key>
 			<dict>
 				<key>NSExceptionAllowsInsecureHTTPLoads</key>
 				<true/>
