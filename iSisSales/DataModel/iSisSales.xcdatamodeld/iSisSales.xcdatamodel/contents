@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="13772" systemVersion="17D47" minimumToolsVersion="Xcode 7.3" sourceLanguage="Objective-C" userDefinedModelVersionIdentifier="">
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="13772" systemVersion="17D102" minimumToolsVersion="Xcode 7.3" sourceLanguage="Objective-C" userDefinedModelVersionIdentifier="">
     <entity name="STMAbstract" isAbstract="YES" parentEntity="STMDatum" syncable="YES">
         <attribute name="commentText" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="ownerXid" optional="YES" attributeType="Binary" syncable="YES"/>
@@ -28,6 +28,7 @@
         <attribute name="pieceVolume" optional="YES" attributeType="Decimal" defaultValueString="0.0" syncable="YES"/>
         <attribute name="pieceWeight" optional="YES" attributeType="Decimal" defaultValueString="0.0" syncable="YES"/>
         <attribute name="price" optional="YES" attributeType="Decimal" defaultValueString="0.0" syncable="YES"/>
+        <relationship name="articleBarCodes" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="STMArticleBarCode" inverseName="article" inverseEntity="STMArticleBarCode" syncable="YES"/>
         <relationship name="articleGroup" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMArticleGroup" inverseName="articles" inverseEntity="STMArticleGroup" syncable="YES"/>
         <relationship name="avatarPicture" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMArticlePicture" inverseName="avatarArticles" inverseEntity="STMArticlePicture" syncable="YES"/>
         <relationship name="contractArticles" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="STMContractArticle" inverseName="article" inverseEntity="STMContractArticle" syncable="YES"/>
@@ -40,6 +41,10 @@
         <relationship name="saleOrderPositions" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="STMSaleOrderPosition" inverseName="article" inverseEntity="STMSaleOrderPosition" syncable="YES"/>
         <relationship name="shipmentPositions" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="STMShipmentPosition" inverseName="article" inverseEntity="STMShipmentPosition" syncable="YES"/>
         <relationship name="stocks" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="STMStock" inverseName="article" inverseEntity="STMStock" syncable="YES"/>
+    </entity>
+    <entity name="STMArticleBarCode" representedClassName="STMArticleBarCode" parentEntity="STMAbstract" syncable="YES">
+        <attribute name="code" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="article" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMArticle" inverseName="articleBarCodes" inverseEntity="STMArticle" syncable="YES"/>
     </entity>
     <entity name="STMArticleGroup" representedClassName="STMArticleGroup" parentEntity="STMAbstract" syncable="YES">
         <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
@@ -441,6 +446,7 @@
     </entity>
     <entity name="STMSaleOrderDiscount" parentEntity="STMAbstract" syncable="YES">
         <attribute name="discount" optional="YES" attributeType="Decimal" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="discountDoc" optional="YES" attributeType="Decimal" defaultValueString="0.0" syncable="YES"/>
         <attribute name="discountScope" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="processing" optional="YES" attributeType="String" syncable="YES"/>
         <relationship name="article" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMArticle" inverseName="saleOrderDiscounts" inverseEntity="STMArticle" syncable="YES"/>
@@ -620,7 +626,7 @@
     <elements>
         <element name="STMAbstract" positionX="-1341" positionY="-2106" width="128" height="105"/>
         <element name="STMAccount" positionX="-1323" positionY="-2088" width="128" height="165"/>
-        <element name="STMArticle" positionX="-1163" positionY="-619" width="128" height="390"/>
+        <element name="STMArticle" positionX="-1163" positionY="-619" width="128" height="405"/>
         <element name="STMArticleGroup" positionX="-1386" positionY="-918" width="128" height="150"/>
         <element name="STMArticlePicture" positionX="-38" positionY="-792" width="128" height="73"/>
         <element name="STMArticlePictureArticle" positionX="-407" positionY="-349" width="128" height="75"/>
@@ -669,6 +675,7 @@
         <element name="STMRestriction" positionX="-1350" positionY="-2115" width="128" height="120"/>
         <element name="STMRestrictionArticle" positionX="-1341" positionY="-2106" width="128" height="75"/>
         <element name="STMSaleOrder" positionX="-945" positionY="-901" width="128" height="360"/>
+        <element name="STMSaleOrderDiscount" positionX="-1368" positionY="-2133" width="128" height="150"/>
         <element name="STMSaleOrderPosition" positionX="-1134" positionY="-999" width="128" height="225"/>
         <element name="STMSalesman" positionX="-974" positionY="-1242" width="128" height="195"/>
         <element name="STMSalesmanOutletRestriction" positionX="-1323" positionY="-2088" width="128" height="90"/>
@@ -693,6 +700,6 @@
         <element name="STMVisitQuestionGroup" positionX="-171" positionY="-1458" width="128" height="90"/>
         <element name="STMVisitQuestionSet" positionX="7" positionY="-1566" width="128" height="105"/>
         <element name="STMWorkflow" positionX="45" positionY="-675" width="128" height="105"/>
-        <element name="STMSaleOrderDiscount" positionX="-1368" positionY="-2133" width="128" height="135"/>
+        <element name="STMArticleBarCode" positionX="-1368" positionY="-2133" width="128" height="75"/>
     </elements>
 </model>
