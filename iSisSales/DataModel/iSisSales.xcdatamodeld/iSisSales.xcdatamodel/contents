@@ -505,6 +505,12 @@
         <attribute name="ord" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
         <relationship name="scheduledEvents" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="STMScheduledEvent" inverseName="schedulePurpose" inverseEntity="STMScheduledEvent" syncable="YES"/>
     </entity>
+    <entity name="STMSearchQuery" representedClassName="STMSearchQuery" parentEntity="STMAbstract" syncable="YES">
+        <attribute name="cnt" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="isFavourite" optional="YES" attributeType="Boolean" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="lastUsed" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="query" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
     <entity name="STMSetting" representedClassName="STMSetting" parentEntity="STMAbstract" syncable="YES">
         <attribute name="group" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
@@ -627,6 +633,7 @@
         <element name="STMAbstract" positionX="-1341" positionY="-2106" width="128" height="105"/>
         <element name="STMAccount" positionX="-1323" positionY="-2088" width="128" height="165"/>
         <element name="STMArticle" positionX="-1163" positionY="-619" width="128" height="405"/>
+        <element name="STMArticleBarCode" positionX="-1368" positionY="-2133" width="128" height="75"/>
         <element name="STMArticleGroup" positionX="-1386" positionY="-918" width="128" height="150"/>
         <element name="STMArticlePicture" positionX="-38" positionY="-792" width="128" height="73"/>
         <element name="STMArticlePictureArticle" positionX="-407" positionY="-349" width="128" height="75"/>
@@ -700,6 +707,6 @@
         <element name="STMVisitQuestionGroup" positionX="-171" positionY="-1458" width="128" height="90"/>
         <element name="STMVisitQuestionSet" positionX="7" positionY="-1566" width="128" height="105"/>
         <element name="STMWorkflow" positionX="45" positionY="-675" width="128" height="105"/>
-        <element name="STMArticleBarCode" positionX="-1368" positionY="-2133" width="128" height="75"/>
+        <element name="STMSearchQuery" positionX="-1368" positionY="-2133" width="128" height="105"/>
     </elements>
 </model>
