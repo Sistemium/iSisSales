@@ -8,7 +8,7 @@ target 'iSisSales' do
     pod 'Fabric', '~> 1.7.5'
     pod 'JNKeychain', '~> 0.1.4'
     pod 'ScanAPI', :path => '../ScanApiSDK'
-    pod 'Socket.IO-Client-Swift', '~> 8.3.3'
+    pod 'Socket.IO-Client-Swift', '~> 12.1.3'
     pod 'FMDB', '~> 2.7.2'
     pod 'PromiseKit', '~> 4.4'
 
