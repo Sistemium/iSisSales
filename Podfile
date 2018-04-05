@@ -8,7 +8,7 @@ target 'iSisSales' do
     pod 'Fabric', '~> 1.7.5'
     pod 'JNKeychain', '~> 0.1.4'
     pod 'ScanAPI', :path => '../ScanApiSDK'
-    pod 'Socket.IO-Client-Swift', '~> 12.1.3'
+    pod 'Socket.IO-Client-Swift', '~> 13.1.2'
     pod 'FMDB', '~> 2.7.2'
     pod 'PromiseKit', '~> 4.4'
 
@@ -38,8 +38,8 @@ end
 post_install do |installer|
     installer.pods_project.targets.each do |target|
         target.build_configurations.each do |config|
-            config.build_settings['ONLY_ACTIVE_ARCH'] = 'NO'
-            config.build_settings['SWIFT_VERSION'] = '3.0'
+#            config.build_settings['ONLY_ACTIVE_ARCH'] = 'NO'
+#            config.build_settings['SWIFT_VERSION'] = '3.0'
         end
     end
 end
