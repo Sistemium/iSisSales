@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="13772" systemVersion="17D102" minimumToolsVersion="Xcode 7.3" sourceLanguage="Objective-C" userDefinedModelVersionIdentifier="">
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14133" systemVersion="17D102" minimumToolsVersion="Xcode 7.3" sourceLanguage="Objective-C" userDefinedModelVersionIdentifier="">
     <entity name="STMAbstract" isAbstract="YES" parentEntity="STMDatum" syncable="YES">
         <attribute name="commentText" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="ownerXid" optional="YES" attributeType="Binary" syncable="YES"/>
@@ -225,6 +225,7 @@
     <entity name="STMDebt" parentEntity="STMAbstract" syncable="YES">
         <attribute name="date" optional="YES" attributeType="String" indexed="YES" syncable="YES"/>
         <attribute name="dateE" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="documentId" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="ndoc" optional="YES" attributeType="String" indexed="YES" syncable="YES"/>
         <attribute name="responsibility" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="summ" optional="YES" attributeType="Decimal" defaultValueString="0.0" syncable="YES"/>
@@ -655,7 +656,7 @@
         <element name="STMCorePhoto" positionX="-272" positionY="-1147" width="128" height="60"/>
         <element name="STMCorePicture" positionX="-92" positionY="-1188" width="128" height="180"/>
         <element name="STMDatum" positionX="-1224" positionY="-2286" width="128" height="135"/>
-        <element name="STMDebt" positionX="-1359" positionY="-2124" width="128" height="210"/>
+        <element name="STMDebt" positionX="-1359" positionY="-2124" width="128" height="225"/>
         <element name="STMDriver" positionX="-1323" positionY="-2088" width="128" height="120"/>
         <element name="STMEntity" positionX="232" positionY="-681" width="128" height="240"/>
         <element name="STMJson" positionX="-504" positionY="-2286" width="128" height="90"/>
@@ -689,6 +690,7 @@
         <element name="STMSchedule" positionX="-504" positionY="-810" width="128" height="105"/>
         <element name="STMScheduledEvent" positionX="-686" positionY="-747" width="128" height="150"/>
         <element name="STMSchedulePurpose" positionX="-342" positionY="-765" width="128" height="105"/>
+        <element name="STMSearchQuery" positionX="-1368" positionY="-2133" width="128" height="105"/>
         <element name="STMSetting" positionX="-1080" positionY="-2286" width="128" height="90"/>
         <element name="STMShipment" positionX="-1341" positionY="-2106" width="128" height="165"/>
         <element name="STMShipmentEgais" positionX="-1368" positionY="-2133" width="128" height="165"/>
@@ -707,6 +709,5 @@
         <element name="STMVisitQuestionGroup" positionX="-171" positionY="-1458" width="128" height="90"/>
         <element name="STMVisitQuestionSet" positionX="7" positionY="-1566" width="128" height="105"/>
         <element name="STMWorkflow" positionX="45" positionY="-675" width="128" height="105"/>
-        <element name="STMSearchQuery" positionX="-1368" positionY="-2133" width="128" height="105"/>
     </elements>
 </model>
