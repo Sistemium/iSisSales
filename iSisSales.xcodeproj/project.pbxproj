@@ -3651,7 +3651,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CustomAppBuild = 364;
 				CustomAppBundleId = "com.sistemium.${PRODUCT_NAME:rfc1034identifier}";
-				CustomAppVersion = 3.6.8;
+				CustomAppVersion = 3.6.11;
 				CustomProductName = iSisSales;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = HZMMGDCLPA;
@@ -3844,7 +3844,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CustomAppBuild = 364;
 				CustomAppBundleId = com.sistemium.iSisWarehouseDebug;
-				CustomAppVersion = 3.6.8;
+				CustomAppVersion = 3.6.11;
 				CustomProductName = iSisWarehouse;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = HZMMGDCLPA;
@@ -4032,7 +4032,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CustomAppBuild = 364;
 				CustomAppBundleId = "com.sistemium.${PRODUCT_NAME:rfc1034identifier}";
-				CustomAppVersion = 3.6.8;
+				CustomAppVersion = 3.6.11;
 				CustomProductName = iSisSales;
 				DEVELOPMENT_TEAM = HZMMGDCLPA;
 				ENABLE_BITCODE = NO;
@@ -4219,7 +4219,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CustomAppBuild = 364;
 				CustomAppBundleId = com.sistemium.iSisWarehouse;
-				CustomAppVersion = 3.6.8;
+				CustomAppVersion = 3.6.11;
 				CustomProductName = iSisWarehouse;
 				DEVELOPMENT_TEAM = HZMMGDCLPA;
 				ENABLE_BITCODE = NO;
