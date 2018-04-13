@@ -73,7 +73,6 @@
 		2C94BFF31CF1ACB8004476D8 /* iSisSalesUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94BFF21CF1ACB8004476D8 /* iSisSalesUITests.m */; };
 		2C94C0EF1CF1B1BB004476D8 /* STMClientDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C02F1CF1B1BA004476D8 /* STMClientDataController.m */; };
 		2C94C0F01CF1B1BB004476D8 /* STMClientEntityController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C0311CF1B1BA004476D8 /* STMClientEntityController.m */; };
-		2C94C0F11CF1B1BB004476D8 /* STMCoreBarCodeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C0331CF1B1BA004476D8 /* STMCoreBarCodeController.m */; };
 		2C94C0F21CF1B1BB004476D8 /* STMCoreController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C0351CF1B1BA004476D8 /* STMCoreController.m */; };
 		2C94C0F31CF1B1BB004476D8 /* STMCoreObjectsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C0371CF1B1BA004476D8 /* STMCoreObjectsController.m */; };
 		2C94C0F41CF1B1BB004476D8 /* STMCorePhotosController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C0391CF1B1BA004476D8 /* STMCorePhotosController.m */; };
@@ -342,6 +341,7 @@
 		3E873491EFBF4D2FD467BB9A /* Pods_iSisSalesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFEE3E7425CEF6DC61EAF6D3 /* Pods_iSisSalesTests.framework */; };
 		4678C3D65044EE1435611066 /* Pods_iSisSalesUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 464A3CD5CCC3049472886369 /* Pods_iSisSalesUITests.framework */; };
 		6826348B0E32BEF985C2CDF0 /* STMFmdbOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6826312AD4D326562F3B5974 /* STMFmdbOperation.m */; };
+		6826365C6D2A0C28831BCEFE /* STMCoreBarCodeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 682630C0CF3F8D10D70A0FF7 /* STMCoreBarCodeController.m */; };
 		744B5294EF591EB5FCB18EDD /* Pods_iSisSalesTestsInMemory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F3911A3DEFF236838CDC4D1 /* Pods_iSisSalesTestsInMemory.framework */; };
 		B765DF6BD8F1900FE8C5AE92 /* Pods_iSisSales.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D83C8648154EC85EB3023D68 /* Pods_iSisSales.framework */; };
 		D920AF7D1D8D417700E825FC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D920AF7F1D8D417700E825FC /* InfoPlist.strings */; };
@@ -564,8 +564,6 @@
 		2C94C02F1CF1B1BA004476D8 /* STMClientDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = STMClientDataController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		2C94C0301CF1B1BA004476D8 /* STMClientEntityController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = STMClientEntityController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		2C94C0311CF1B1BA004476D8 /* STMClientEntityController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMClientEntityController.m; sourceTree = "<group>"; };
-		2C94C0321CF1B1BA004476D8 /* STMCoreBarCodeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = STMCoreBarCodeController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
-		2C94C0331CF1B1BA004476D8 /* STMCoreBarCodeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMCoreBarCodeController.m; sourceTree = "<group>"; };
 		2C94C0341CF1B1BA004476D8 /* STMCoreController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = STMCoreController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		2C94C0351CF1B1BA004476D8 /* STMCoreController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = STMCoreController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		2C94C0361CF1B1BA004476D8 /* STMCoreObjectsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = STMCoreObjectsController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
@@ -1041,8 +1039,10 @@
 		4F38D000E5BC9F8D2ABCAA0A /* Pods-iSisSalesUITests.release warehouse.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesUITests.release warehouse.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesUITests/Pods-iSisSalesUITests.release warehouse.xcconfig"; sourceTree = "<group>"; };
 		56A10D243249632CB3AEBCDD /* Pods-iSisSalesTestsInMemory.release warehouse.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesTestsInMemory.release warehouse.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesTestsInMemory/Pods-iSisSalesTestsInMemory.release warehouse.xcconfig"; sourceTree = "<group>"; };
 		5B6F8D8FF8734D3C12C75FA4 /* Pods-iSisSalesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesTests/Pods-iSisSalesTests.release.xcconfig"; sourceTree = "<group>"; };
+		682630C0CF3F8D10D70A0FF7 /* STMCoreBarCodeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMCoreBarCodeController.m; sourceTree = "<group>"; };
 		6826312AD4D326562F3B5974 /* STMFmdbOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMFmdbOperation.m; sourceTree = "<group>"; };
 		68263256E08AA4F68C2467A0 /* STMFmdbOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMFmdbOperation.h; sourceTree = "<group>"; };
+		6826351C209B5BC6BAD2190F /* STMCoreBarCodeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMCoreBarCodeController.h; sourceTree = "<group>"; };
 		6F3911A3DEFF236838CDC4D1 /* Pods_iSisSalesTestsInMemory.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iSisSalesTestsInMemory.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FA720401327377AC917714F /* Pods-iSisSalesOfLibsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesOfLibsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesOfLibsTests/Pods-iSisSalesOfLibsTests.release.xcconfig"; sourceTree = "<group>"; };
 		724A23B134B37243DAC340A7 /* Pods-iSisSalesUITests.debug warehouse.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesUITests.debug warehouse.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesUITests/Pods-iSisSalesUITests.debug warehouse.xcconfig"; sourceTree = "<group>"; };
@@ -1319,6 +1319,8 @@
 				2CCD5D8B1E36468000B84565 /* STMBarCodeScanner.m */,
 				2CCD5D8C1E36468000B84565 /* STMScanApiHelper.h */,
 				2CCD5D8D1E36468000B84565 /* STMScanApiHelper.m */,
+				6826351C209B5BC6BAD2190F /* STMCoreBarCodeController.h */,
+				682630C0CF3F8D10D70A0FF7 /* STMCoreBarCodeController.m */,
 			);
 			name = "☯ BarCodeScanner";
 			path = BarCodeScanner;
@@ -1477,8 +1479,6 @@
 				2C94C02F1CF1B1BA004476D8 /* STMClientDataController.m */,
 				2C94C0301CF1B1BA004476D8 /* STMClientEntityController.h */,
 				2C94C0311CF1B1BA004476D8 /* STMClientEntityController.m */,
-				2C94C0321CF1B1BA004476D8 /* STMCoreBarCodeController.h */,
-				2C94C0331CF1B1BA004476D8 /* STMCoreBarCodeController.m */,
 				2C94C0341CF1B1BA004476D8 /* STMCoreController.h */,
 				2C94C0351CF1B1BA004476D8 /* STMCoreController.m */,
 				2C94C0361CF1B1BA004476D8 /* STMCoreObjectsController.h */,
@@ -3382,7 +3382,6 @@
 				2CD5D82E1E4DEC8F00A88639 /* STMLogger+TableView.m in Sources */,
 				2C0A8CA41D09903C007C5B57 /* STMVisitQuestionSet+CoreDataProperties.m in Sources */,
 				2CD5D8B21E6AAE6100A88639 /* STMPersisterFantoms.m in Sources */,
-				2C94C0F11CF1B1BB004476D8 /* STMCoreBarCodeController.m in Sources */,
 				2C94C1201CF1B1BB004476D8 /* UIViewController+custom.m in Sources */,
 				D9F0B3921E3FE98400989BB0 /* STMScriptMessageHandler+Private.m in Sources */,
 				2C2BC23F1E9A2BEF00ADA42B /* STMPhotoReport+CoreDataProperties.m in Sources */,
@@ -3459,6 +3458,7 @@
 				D96BFEB21E547E950080327D /* STMFakePersisting+Async.m in Sources */,
 				2C94C11B1CF1B1BB004476D8 /* STMStoryboard.m in Sources */,
 				6826348B0E32BEF985C2CDF0 /* STMFmdbOperation.m in Sources */,
+				6826365C6D2A0C28831BCEFE /* STMCoreBarCodeController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
