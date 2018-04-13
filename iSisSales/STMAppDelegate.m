@@ -14,6 +14,9 @@
 
 @implementation STMAppDelegate
 
+//TODO: may be we have to rename project from iSisSales back to iSistemium for example (or create new and move all files to it)
+//      different configurations gives us needed app names/icons like iSisSales, iSisWarehouse, etc.
+//      also we have to consider to get rid of iSisCore and merge separated files/dirs/classes to one
 
 - (void)startAuthController {
     [STMAuthController authController];
@@ -32,18 +35,20 @@
     
     [Fabric with:@[CrashlyticsKit]];
     
-    [[Crashlytics sharedInstance] setObjectValue:[[UIDevice currentDevice] name]
-                                          forKey:@"deviceName"];
-    [[Crashlytics sharedInstance] setObjectValue:[STMFunctions devicePlatform]
-                                          forKey:@"devicePlatform"];
-    [[Crashlytics sharedInstance] setObjectValue:[STMClientDataController deviceUUIDString]
-                                          forKey:@"deviceUUID"];
-    [[Crashlytics sharedInstance] setObjectValue:[STMAuthController authController].userID
-                                          forKey:@"userID"];
-    [[Crashlytics sharedInstance] setObjectValue:[STMAuthController authController].userName
-                                          forKey:@"userName"];
-    [[Crashlytics sharedInstance] setObjectValue:[STMAuthController authController].phoneNumber
-                                          forKey:@"phoneNumber"];
+    Crashlytics *crashlytics = [Crashlytics sharedInstance];
+    STMAuthController *authController = [STMAuthController authController];
+    
+    [crashlytics setObjectValue:[[UIDevice currentDevice] name] forKey:@"deviceName"];
+    
+    [crashlytics setObjectValue:[STMFunctions devicePlatform] forKey:@"devicePlatform"];
+    
+    [crashlytics setObjectValue:[STMClientDataController deviceUUID] forKey:@"deviceUUID"];
+    
+    [crashlytics setObjectValue:authController.userID forKey:@"userID"];
+    
+    [crashlytics setObjectValue:authController.userName forKey:@"userName"];
+    
+    [crashlytics setObjectValue:authController.phoneNumber forKey:@"phoneNumber"];
     
 }
 
