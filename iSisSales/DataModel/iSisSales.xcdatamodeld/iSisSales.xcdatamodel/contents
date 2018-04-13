@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14133" systemVersion="17D102" minimumToolsVersion="Xcode 7.3" sourceLanguage="Objective-C" userDefinedModelVersionIdentifier="">
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14133" systemVersion="17E199" minimumToolsVersion="Xcode 7.3" sourceLanguage="Objective-C" userDefinedModelVersionIdentifier="">
     <entity name="STMAbstract" isAbstract="YES" parentEntity="STMDatum" syncable="YES">
         <attribute name="commentText" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="ownerXid" optional="YES" attributeType="Binary" syncable="YES"/>
@@ -370,6 +370,7 @@
     </entity>
     <entity name="STMPartnerArticle" parentEntity="STMAbstract" syncable="YES">
         <attribute name="discount" optional="YES" attributeType="Decimal" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="discountDoc" optional="YES" attributeType="Decimal" defaultValueString="0.0" syncable="YES"/>
         <relationship name="article" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMArticle" inverseName="partnerArticles" inverseEntity="STMArticle" syncable="YES"/>
         <relationship name="partner" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMPartner" inverseName="partnerArticles" inverseEntity="STMPartner" syncable="YES"/>
     </entity>
@@ -673,7 +674,7 @@
         <element name="STMOutletRestriction" positionX="-1332" positionY="-2097" width="128" height="75"/>
         <element name="STMOutletSalesmanContract" positionX="-1152" positionY="-1287" width="128" height="120"/>
         <element name="STMPartner" positionX="-1170" positionY="-1594" width="128" height="225"/>
-        <element name="STMPartnerArticle" positionX="-1359" positionY="-2124" width="128" height="90"/>
+        <element name="STMPartnerArticle" positionX="-1359" positionY="-2124" width="128" height="105"/>
         <element name="STMPartnerPriceGroup" positionX="-1368" positionY="-2133" width="128" height="90"/>
         <element name="STMPhotoReport" positionX="-1314" positionY="-2079" width="128" height="90"/>
         <element name="STMPrice" positionX="-1575" positionY="-517" width="128" height="90"/>
