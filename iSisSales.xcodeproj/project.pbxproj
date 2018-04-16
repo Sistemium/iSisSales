@@ -914,7 +914,7 @@
 		2CD5D8561E4DF36C00A88639 /* STMPersistingPromised.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMPersistingPromised.h; sourceTree = "<group>"; };
 		2CD5D8571E4DF36C00A88639 /* STMPersistingSync.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMPersistingSync.h; sourceTree = "<group>"; };
 		2CD5D8581E4DF36C00A88639 /* STMPersistingWithHeadersAsync.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMPersistingWithHeadersAsync.h; sourceTree = "<group>"; };
-		2CD5D8591E4DF36C00A88639 /* STMBarCodeScannerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMBarCodeScannerDelegate.h; sourceTree = "<group>"; };
+		2CD5D8591E4DF36C00A88639 /* STMBarCodeScanning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMBarCodeScanning.h; sourceTree = "<group>"; };
 		2CD5D85A1E4DF36C00A88639 /* STMCheckinDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMCheckinDelegate.h; sourceTree = "<group>"; };
 		2CD5D85B1E4DF36C00A88639 /* STMImagePickerOwnerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMImagePickerOwnerProtocol.h; sourceTree = "<group>"; };
 		2CD5D85C1E4DF36C00A88639 /* STMRequestAuthenticatable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMRequestAuthenticatable.h; sourceTree = "<group>"; };
@@ -2192,7 +2192,7 @@
 			children = (
 				2CD5D84F1E4DF36C00A88639 /* ☯ Persisting */,
 				2CD5D8641E4DF36C00A88639 /* ☯ Syncing */,
-				2CD5D8591E4DF36C00A88639 /* STMBarCodeScannerDelegate.h */,
+				2CD5D8591E4DF36C00A88639 /* STMBarCodeScanning.h */,
 				2CD5D85A1E4DF36C00A88639 /* STMCheckinDelegate.h */,
 				2CD5D85B1E4DF36C00A88639 /* STMImagePickerOwnerProtocol.h */,
 				2CD5D85C1E4DF36C00A88639 /* STMRequestAuthenticatable.h */,
