@@ -11,6 +11,7 @@ target 'iSisSales' do
     pod 'Socket.IO-Client-Swift', :path => '../../socket.io-client-swift'
     pod 'FMDB', '~> 2.7.2'
     pod 'PromiseKit', '~> 4.4'
+    pod 'zebraIos', :path => '../zebraIos'
 
     target 'iSisSalesTests' do
         inherit! :search_paths
