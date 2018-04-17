@@ -340,6 +340,7 @@
 		6826348B0E32BEF985C2CDF0 /* STMFmdbOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6826312AD4D326562F3B5974 /* STMFmdbOperation.m */; };
 		6826365C6D2A0C28831BCEFE /* STMCoreBarCodeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 682630C0CF3F8D10D70A0FF7 /* STMCoreBarCodeController.m */; };
 		68263DFCBCB5D3B6DB98E71D /* STMBarCodeType.m in Sources */ = {isa = PBXBuildFile; fileRef = 68263A75A70D7383DED70562 /* STMBarCodeType.m */; };
+		68263F633FC119BD0DB62B3B /* STMBarCodeZebra.m in Sources */ = {isa = PBXBuildFile; fileRef = 682630D0E3A6FD6CE4715EA5 /* STMBarCodeZebra.m */; };
 		744B5294EF591EB5FCB18EDD /* Pods_iSisSalesTestsInMemory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F3911A3DEFF236838CDC4D1 /* Pods_iSisSalesTestsInMemory.framework */; };
 		B765DF6BD8F1900FE8C5AE92 /* Pods_iSisSales.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D83C8648154EC85EB3023D68 /* Pods_iSisSales.framework */; };
 		D920AF7D1D8D417700E825FC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D920AF7F1D8D417700E825FC /* InfoPlist.strings */; };
@@ -1033,10 +1034,12 @@
 		5B6F8D8FF8734D3C12C75FA4 /* Pods-iSisSalesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesTests/Pods-iSisSalesTests.release.xcconfig"; sourceTree = "<group>"; };
 		6826301F2B796C6E1C3A56AC /* STMBarCodeScan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMBarCodeScan.h; sourceTree = "<group>"; };
 		682630C0CF3F8D10D70A0FF7 /* STMCoreBarCodeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMCoreBarCodeController.m; sourceTree = "<group>"; };
+		682630D0E3A6FD6CE4715EA5 /* STMBarCodeZebra.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMBarCodeZebra.m; sourceTree = "<group>"; };
 		6826312AD4D326562F3B5974 /* STMFmdbOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMFmdbOperation.m; sourceTree = "<group>"; };
 		68263256E08AA4F68C2467A0 /* STMFmdbOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMFmdbOperation.h; sourceTree = "<group>"; };
 		6826328CEFBE0CC8738556B0 /* STMBarCodeType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMBarCodeType.h; sourceTree = "<group>"; };
 		6826351C209B5BC6BAD2190F /* STMCoreBarCodeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMCoreBarCodeController.h; sourceTree = "<group>"; };
+		682638408892485A25475B0D /* STMBarCodeZebra.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMBarCodeZebra.h; sourceTree = "<group>"; };
 		68263A75A70D7383DED70562 /* STMBarCodeType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMBarCodeType.m; sourceTree = "<group>"; };
 		68263FC2BBD5147719172EA9 /* STMBarCodeScan.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMBarCodeScan.m; sourceTree = "<group>"; };
 		6F3911A3DEFF236838CDC4D1 /* Pods_iSisSalesTestsInMemory.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iSisSalesTestsInMemory.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1326,6 +1329,8 @@
 				68263A75A70D7383DED70562 /* STMBarCodeType.m */,
 				6826328CEFBE0CC8738556B0 /* STMBarCodeType.h */,
 				6826301F2B796C6E1C3A56AC /* STMBarCodeScan.h */,
+				682630D0E3A6FD6CE4715EA5 /* STMBarCodeZebra.m */,
+				682638408892485A25475B0D /* STMBarCodeZebra.h */,
 			);
 			name = "☯ BarCodeScanner";
 			path = BarCodeScanner;
@@ -3464,6 +3469,7 @@
 				6826365C6D2A0C28831BCEFE /* STMCoreBarCodeController.m in Sources */,
 				682632F65F21544097037757 /* STMBarCodeScan.m in Sources */,
 				68263DFCBCB5D3B6DB98E71D /* STMBarCodeType.m in Sources */,
+				68263F633FC119BD0DB62B3B /* STMBarCodeZebra.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
