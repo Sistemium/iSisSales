@@ -374,6 +374,7 @@
 		D9F0B39B1E40BC9A00989BB0 /* STMPersistingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F0B39A1E40BC9A00989BB0 /* STMPersistingTests.m */; };
 		D9F0B3B81E447E5500989BB0 /* SocketIOTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D94F46051E3A1FFD00D78925 /* SocketIOTests.m */; };
 		D9F7DE0E2084BF6900AF5472 /* ZebraIosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F7DE0D2084BF6900AF5472 /* ZebraIosTests.m */; };
+		D9F7DE112085D7D500AF5472 /* ZBRBarcodeTypes.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F7DE0F2085D7D500AF5472 /* ZBRBarcodeTypes.m */; };
 		ED19D6BEB9F34012551638E9 /* Pods_iSisSalesOfLibsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA69E3A73683282867CEBDE0 /* Pods_iSisSalesOfLibsTests.framework */; };
 		FAE64EC276F58CF623841B59 /* Pods_iSisSalesSpeedTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A5E8F9623682BCCB7081A46 /* Pods_iSisSalesSpeedTests.framework */; };
 /* End PBXBuildFile section */
@@ -1130,6 +1131,8 @@
 		D9F0B3B91E449C4D00989BB0 /* STMFakePersisting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMFakePersisting.h; sourceTree = "<group>"; };
 		D9F0B3BA1E449C4D00989BB0 /* STMFakePersisting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMFakePersisting.m; sourceTree = "<group>"; };
 		D9F7DE0D2084BF6900AF5472 /* ZebraIosTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZebraIosTests.m; sourceTree = "<group>"; };
+		D9F7DE0F2085D7D500AF5472 /* ZBRBarcodeTypes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZBRBarcodeTypes.m; sourceTree = "<group>"; };
+		D9F7DE102085D7D500AF5472 /* ZBRBarcodeTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBRBarcodeTypes.h; sourceTree = "<group>"; };
 		DA69E3A73683282867CEBDE0 /* Pods_iSisSalesOfLibsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iSisSalesOfLibsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBFB42CC13F54305F628400C /* Pods-iSisSalesTests.release sales.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesTests.release sales.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesTests/Pods-iSisSalesTests.release sales.xcconfig"; sourceTree = "<group>"; };
 		E365F74D0A4211BC8B9E04A5 /* Pods-iSisSalesTestsInMemory.debugsales.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesTestsInMemory.debugsales.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesTestsInMemory/Pods-iSisSalesTestsInMemory.debugsales.xcconfig"; sourceTree = "<group>"; };
@@ -1311,6 +1314,8 @@
 		2C34EDBA1E27BBB5004DE82D /* ☯ BarCodeScanner */ = {
 			isa = PBXGroup;
 			children = (
+				D9F7DE102085D7D500AF5472 /* ZBRBarcodeTypes.h */,
+				D9F7DE0F2085D7D500AF5472 /* ZBRBarcodeTypes.m */,
 				2CCD5D8A1E36468000B84565 /* STMBarCodeScanner.h */,
 				2CCD5D8B1E36468000B84565 /* STMBarCodeScanner.m */,
 				2CCD5D8C1E36468000B84565 /* STMScanApiHelper.h */,
@@ -3444,6 +3449,7 @@
 				2C9AE9A11CF5AF690018D9B3 /* STMJson+CoreDataProperties.m in Sources */,
 				2C94C19A1CF1B1F3004476D8 /* STMSetting.m in Sources */,
 				2C94C2621CF1B771004476D8 /* STMAppDelegate.m in Sources */,
+				D9F7DE112085D7D500AF5472 /* ZBRBarcodeTypes.m in Sources */,
 				2C94C1961CF1B1F3004476D8 /* STMCorePhoto.m in Sources */,
 				2C5034191DF5B00900687A64 /* STMPrice+CoreDataProperties.m in Sources */,
 				D96BFEB31E547E950080327D /* STMFakePersisting+Promised.m in Sources */,
