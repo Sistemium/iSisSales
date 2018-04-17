@@ -11,7 +11,7 @@ target 'iSisSales' do
     pod 'Socket.IO-Client-Swift', :path => '../../socket.io-client-swift'
     pod 'FMDB', '~> 2.7.2'
     pod 'PromiseKit', '~> 4.4'
-    pod 'zebraIos', :path => '../zebraIos'
+    pod 'ZebraIos', :path => '../ZebraIos'
 
     target 'iSisSalesTests' do
         inherit! :search_paths
@@ -39,7 +39,7 @@ end
 post_install do |installer|
     installer.pods_project.targets.each do |target|
         target.build_configurations.each do |config|
-#            config.build_settings['ONLY_ACTIVE_ARCH'] = 'NO'
+#            config.build_settings['ONLY_ACTIVE_ARCH'] = 'YES'
 #            config.build_settings['SWIFT_VERSION'] = '3.0'
         end
     end

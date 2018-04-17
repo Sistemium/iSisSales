@@ -373,6 +373,7 @@
 		D9F0B3971E40A9CE00989BB0 /* ScriptMessagingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F0B3961E40A9CE00989BB0 /* ScriptMessagingTests.m */; };
 		D9F0B39B1E40BC9A00989BB0 /* STMPersistingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F0B39A1E40BC9A00989BB0 /* STMPersistingTests.m */; };
 		D9F0B3B81E447E5500989BB0 /* SocketIOTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D94F46051E3A1FFD00D78925 /* SocketIOTests.m */; };
+		D9F7DE0E2084BF6900AF5472 /* ZebraIosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F7DE0D2084BF6900AF5472 /* ZebraIosTests.m */; };
 		ED19D6BEB9F34012551638E9 /* Pods_iSisSalesOfLibsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA69E3A73683282867CEBDE0 /* Pods_iSisSalesOfLibsTests.framework */; };
 		FAE64EC276F58CF623841B59 /* Pods_iSisSalesSpeedTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A5E8F9623682BCCB7081A46 /* Pods_iSisSalesSpeedTests.framework */; };
 /* End PBXBuildFile section */
@@ -1128,6 +1129,7 @@
 		D9F0B3B21E447E0500989BB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D9F0B3B91E449C4D00989BB0 /* STMFakePersisting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMFakePersisting.h; sourceTree = "<group>"; };
 		D9F0B3BA1E449C4D00989BB0 /* STMFakePersisting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMFakePersisting.m; sourceTree = "<group>"; };
+		D9F7DE0D2084BF6900AF5472 /* ZebraIosTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZebraIosTests.m; sourceTree = "<group>"; };
 		DA69E3A73683282867CEBDE0 /* Pods_iSisSalesOfLibsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iSisSalesOfLibsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBFB42CC13F54305F628400C /* Pods-iSisSalesTests.release sales.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesTests.release sales.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesTests/Pods-iSisSalesTests.release sales.xcconfig"; sourceTree = "<group>"; };
 		E365F74D0A4211BC8B9E04A5 /* Pods-iSisSalesTestsInMemory.debugsales.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesTestsInMemory.debugsales.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesTestsInMemory/Pods-iSisSalesTestsInMemory.debugsales.xcconfig"; sourceTree = "<group>"; };
@@ -2415,9 +2417,9 @@
 		D90B75741E2FA62D0015A994 /* ☯ iSistemiumCoreTests */ = {
 			isa = PBXGroup;
 			children = (
-				35A985C91E80987500DE2299 /* NSJSONSerializationTests.m */,
 				D9F0B3981E40BB5D00989BB0 /* Abstract */,
 				2CD5D8C81E6AB02600A88639 /* Persisting */,
+				D9F7DE0C2084BF4500AF5472 /* Scanner */,
 				2CD5D8DB1E6AB08600A88639 /* Syncer */,
 				D9F0B3961E40A9CE00989BB0 /* ScriptMessagingTests.m */,
 				D92983031E4B7DFF00A4F153 /* LazyDictionaryTests.m */,
@@ -2425,6 +2427,7 @@
 				350B7E711E4CB0350051D0A9 /* STMCorePicturesControllerTests.m */,
 				2CA8B6441E4C9B5E00E359B0 /* LoggerTests.m */,
 				2CD5D8701E57073300A88639 /* LoggerPatternTests.m */,
+				35A985C91E80987500DE2299 /* NSJSONSerializationTests.m */,
 				2CD5D86E1E51FB1E00A88639 /* SessionManagerTests.m */,
 				2CD5D8781E65938100A88639 /* FilingTests.m */,
 				2CD5D87A1E65C23C00A88639 /* testModel.xcdatamodeld */,
@@ -2526,6 +2529,14 @@
 				D94F46051E3A1FFD00D78925 /* SocketIOTests.m */,
 			);
 			path = iSisSalesOfLibsTests;
+			sourceTree = "<group>";
+		};
+		D9F7DE0C2084BF4500AF5472 /* Scanner */ = {
+			isa = PBXGroup;
+			children = (
+				D9F7DE0D2084BF6900AF5472 /* ZebraIosTests.m */,
+			);
+			path = Scanner;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -3134,7 +3145,6 @@
 				"${BUILT_PRODUCTS_DIR}/ScanAPI/ScanAPI.framework",
 				"${BUILT_PRODUCTS_DIR}/Socket.IO-Client-Swift/SocketIO.framework",
 				"${BUILT_PRODUCTS_DIR}/Starscream/Starscream.framework",
-				"${BUILT_PRODUCTS_DIR}/zebraIos/zebraIos.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
@@ -3146,7 +3156,6 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ScanAPI.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SocketIO.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Starscream.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/zebraIos.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -3521,6 +3530,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9F7DE0E2084BF6900AF5472 /* ZebraIosTests.m in Sources */,
 				D9F0B3B81E447E5500989BB0 /* SocketIOTests.m in Sources */,
 				D92983041E4B7DFF00A4F153 /* LazyDictionaryTests.m in Sources */,
 				35A985CA1E80987500DE2299 /* NSJSONSerializationTests.m in Sources */,
