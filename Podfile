@@ -12,6 +12,7 @@ target 'iSisSales' do
     pod 'FMDB', '~> 2.7.2'
     pod 'PromiseKit', '~> 4.4'
     pod 'ZebraIos', :path => '../ZebraIos'
+    pod 'PMAlertController', '~> 3.3.0'
 
     target 'iSisSalesTests' do
         inherit! :search_paths
