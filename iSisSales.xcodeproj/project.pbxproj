@@ -376,6 +376,7 @@
 		D9F0B3B81E447E5500989BB0 /* SocketIOTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D94F46051E3A1FFD00D78925 /* SocketIOTests.m */; };
 		D9F7DE0E2084BF6900AF5472 /* ZebraIosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F7DE0D2084BF6900AF5472 /* ZebraIosTests.m */; };
 		D9F7DE112085D7D500AF5472 /* ZBRBarcodeTypes.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F7DE0F2085D7D500AF5472 /* ZBRBarcodeTypes.m */; };
+		D9F7DE15208A15E300AF5472 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D9F7DE14208A15E300AF5472 /* Settings.bundle */; };
 		ED19D6BEB9F34012551638E9 /* Pods_iSisSalesOfLibsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA69E3A73683282867CEBDE0 /* Pods_iSisSalesOfLibsTests.framework */; };
 		FAE64EC276F58CF623841B59 /* Pods_iSisSalesSpeedTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A5E8F9623682BCCB7081A46 /* Pods_iSisSalesSpeedTests.framework */; };
 /* End PBXBuildFile section */
@@ -1136,6 +1137,7 @@
 		D9F7DE0D2084BF6900AF5472 /* ZebraIosTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZebraIosTests.m; sourceTree = "<group>"; };
 		D9F7DE0F2085D7D500AF5472 /* ZBRBarcodeTypes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZBRBarcodeTypes.m; sourceTree = "<group>"; };
 		D9F7DE102085D7D500AF5472 /* ZBRBarcodeTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBRBarcodeTypes.h; sourceTree = "<group>"; };
+		D9F7DE14208A15E300AF5472 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		DA69E3A73683282867CEBDE0 /* Pods_iSisSalesOfLibsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iSisSalesOfLibsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBFB42CC13F54305F628400C /* Pods-iSisSalesTests.release sales.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesTests.release sales.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesTests/Pods-iSisSalesTests.release sales.xcconfig"; sourceTree = "<group>"; };
 		E365F74D0A4211BC8B9E04A5 /* Pods-iSisSalesTestsInMemory.debugsales.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesTestsInMemory.debugsales.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesTestsInMemory/Pods-iSisSalesTestsInMemory.debugsales.xcconfig"; sourceTree = "<group>"; };
@@ -2012,6 +2014,7 @@
 				2C94C2201CF1B36F004476D8 /* settings.json */,
 				2CD5BF0A1CF1E780006E1E36 /* Localizable.strings */,
 				D920AF7F1D8D417700E825FC /* InfoPlist.strings */,
+				D9F7DE14208A15E300AF5472 /* Settings.bundle */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -2818,6 +2821,7 @@
 				2C94C2091CF1B308004476D8 /* numerical_sorting_12.png in Resources */,
 				2C94C24F1CF1B3BA004476D8 /* STMMessageVC.storyboard in Resources */,
 				2C94C2221CF1B36F004476D8 /* settings.json in Resources */,
+				D9F7DE15208A15E300AF5472 /* Settings.bundle in Resources */,
 				2C94C20D1CF1B308004476D8 /* photo-icon.png in Resources */,
 				2C94C2401CF1B3BA004476D8 /* STMCustom1CVCell.xib in Resources */,
 				2CD5BF081CF1E780006E1E36 /* Localizable.strings in Resources */,
