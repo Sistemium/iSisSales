@@ -19,11 +19,13 @@
 			<array>
 				<string>SocketMobile</string>
 				<string>Zebra</string>
+				<string>Both</string>
 			</array>
 			<key>Values</key>
 			<array>
 				<string>socketMobile</string>
 				<string>zebra</string>
+				<string>both</string>
 			</array>
 		</dict>
 	</array>
