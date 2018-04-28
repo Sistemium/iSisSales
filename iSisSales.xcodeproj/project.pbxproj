@@ -322,7 +322,7 @@
 		2CE24E2E1D226B0C0004B63C /* STMContract.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CE24E2A1D226B0C0004B63C /* STMContract.m */; };
 		2CFA30361D50DBF300BB9E35 /* STMOutletPhoto+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CFA30331D50DBF300BB9E35 /* STMOutletPhoto+CoreDataProperties.m */; };
 		2CFA30371D50DBF300BB9E35 /* STMOutletPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CFA30351D50DBF300BB9E35 /* STMOutletPhoto.m */; };
-		35031DF51ED736DA0049715D /* STMPersisterTransactionCoordinator.m in Sources */ = {isa = PBXBuildFile; fileRef = 35031DF41ED736DA0049715D /* STMPersisterTransactionCoordinator.m */; };
+		35031DF51ED736DA0049715D /* STMPersisterTransaction.m in Sources */ = {isa = PBXBuildFile; fileRef = 35031DF41ED736DA0049715D /* STMPersisterTransaction.m */; };
 		350A20EB1ED5B82C00C9FB28 /* STMPersisterRunner.m in Sources */ = {isa = PBXBuildFile; fileRef = 350A20EA1ED5B82C00C9FB28 /* STMPersisterRunner.m */; };
 		3550B1DC1DAE59F300F8A368 /* STMCorePicture.m in Sources */ = {isa = PBXBuildFile; fileRef = 3550B1D91DAE59F300F8A368 /* STMCorePicture.m */; };
 		3550B1DD1DAE59F300F8A368 /* STMCorePicture+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 3550B1DB1DAE59F300F8A368 /* STMCorePicture+CoreDataProperties.m */; };
@@ -996,8 +996,8 @@
 		2CFA30331D50DBF300BB9E35 /* STMOutletPhoto+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "STMOutletPhoto+CoreDataProperties.m"; sourceTree = "<group>"; };
 		2CFA30341D50DBF300BB9E35 /* STMOutletPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMOutletPhoto.h; sourceTree = "<group>"; };
 		2CFA30351D50DBF300BB9E35 /* STMOutletPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMOutletPhoto.m; sourceTree = "<group>"; };
-		35031DF31ED732E50049715D /* STMPersisterTransactionCoordinator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STMPersisterTransactionCoordinator.h; sourceTree = "<group>"; };
-		35031DF41ED736DA0049715D /* STMPersisterTransactionCoordinator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMPersisterTransactionCoordinator.m; sourceTree = "<group>"; };
+		35031DF31ED732E50049715D /* STMPersisterTransaction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STMPersisterTransaction.h; sourceTree = "<group>"; };
+		35031DF41ED736DA0049715D /* STMPersisterTransaction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMPersisterTransaction.m; sourceTree = "<group>"; };
 		350A20E91ED5B59700C9FB28 /* STMPersistingRunning.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = STMPersistingRunning.h; path = ../STMPersistingRunning.h; sourceTree = "<group>"; };
 		350A20EA1ED5B82C00C9FB28 /* STMPersisterRunner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMPersisterRunner.m; sourceTree = "<group>"; };
 		350A20EC1ED5BEE500C9FB28 /* STMPersisterRunner.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STMPersisterRunner.h; sourceTree = "<group>"; };
@@ -2298,8 +2298,8 @@
 				2CD5D8AD1E6AAE6100A88639 /* STMPersistingObservable.m */,
 				350A20EC1ED5BEE500C9FB28 /* STMPersisterRunner.h */,
 				350A20EA1ED5B82C00C9FB28 /* STMPersisterRunner.m */,
-				35031DF31ED732E50049715D /* STMPersisterTransactionCoordinator.h */,
-				35031DF41ED736DA0049715D /* STMPersisterTransactionCoordinator.m */,
+				35031DF31ED732E50049715D /* STMPersisterTransaction.h */,
+				35031DF41ED736DA0049715D /* STMPersisterTransaction.m */,
 				35752DA51F03ED2E00CA19AF /* STMRemotePersisterController.h */,
 				35752DA61F03EFBC00CA19AF /* STMRemotePersisterController.m */,
 			);
@@ -3411,7 +3411,7 @@
 				3550B1E21DAE5CC300F8A368 /* STMEntity.m in Sources */,
 				355322231E6DAAC10028DF5C /* UITestSetup.m in Sources */,
 				2CCD5D9A1E3646BE00B84565 /* STMCoreAuthController.m in Sources */,
-				35031DF51ED736DA0049715D /* STMPersisterTransactionCoordinator.m in Sources */,
+				35031DF51ED736DA0049715D /* STMPersisterTransaction.m in Sources */,
 				D948DCA41E7A8EDB00F9A1CF /* NSManagedObjectModel+Serialization.m in Sources */,
 				2CD5D82C1E4DEC8F00A88639 /* STMLogger.m in Sources */,
 				35DB36621F139091004574A1 /* STMSyncer+RemoteData.m in Sources */,
