@@ -342,6 +342,8 @@
 		682632F65F21544097037757 /* STMBarCodeScan.m in Sources */ = {isa = PBXBuildFile; fileRef = 68263FC2BBD5147719172EA9 /* STMBarCodeScan.m */; };
 		6826348B0E32BEF985C2CDF0 /* STMFmdbOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6826312AD4D326562F3B5974 /* STMFmdbOperation.m */; };
 		6826365C6D2A0C28831BCEFE /* STMCoreBarCodeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 682630C0CF3F8D10D70A0FF7 /* STMCoreBarCodeController.m */; };
+		68263B525E88F5D3AB473939 /* STMCoreWKWebViewVC+ScriptMessaging.m in Sources */ = {isa = PBXBuildFile; fileRef = 682632A75C923FB8235FDA35 /* STMCoreWKWebViewVC+ScriptMessaging.m */; };
+		68263B9FE2ED5A3ECE6BF70E /* STMCoreWKWebViewVC+Navigation.m in Sources */ = {isa = PBXBuildFile; fileRef = 68263C8A545FD939E8013F0E /* STMCoreWKWebViewVC+Navigation.m */; };
 		68263DFCBCB5D3B6DB98E71D /* STMBarCodeType.m in Sources */ = {isa = PBXBuildFile; fileRef = 68263A75A70D7383DED70562 /* STMBarCodeType.m */; };
 		68263F633FC119BD0DB62B3B /* STMBarCodeZebra.m in Sources */ = {isa = PBXBuildFile; fileRef = 682630D0E3A6FD6CE4715EA5 /* STMBarCodeZebra.m */; };
 		744B5294EF591EB5FCB18EDD /* Pods_iSisSalesTestsInMemory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F3911A3DEFF236838CDC4D1 /* Pods_iSisSalesTestsInMemory.framework */; };
@@ -1048,9 +1050,14 @@
 		6826312AD4D326562F3B5974 /* STMFmdbOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMFmdbOperation.m; sourceTree = "<group>"; };
 		68263256E08AA4F68C2467A0 /* STMFmdbOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMFmdbOperation.h; sourceTree = "<group>"; };
 		6826328CEFBE0CC8738556B0 /* STMBarCodeType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMBarCodeType.h; sourceTree = "<group>"; };
+		682632A75C923FB8235FDA35 /* STMCoreWKWebViewVC+ScriptMessaging.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "STMCoreWKWebViewVC+ScriptMessaging.m"; sourceTree = "<group>"; };
+		682632CAAFF6A837E8ED3136 /* STMCoreWKWebViewVC+Navigation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "STMCoreWKWebViewVC+Navigation.h"; sourceTree = "<group>"; };
 		6826351C209B5BC6BAD2190F /* STMCoreBarCodeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMCoreBarCodeController.h; sourceTree = "<group>"; };
+		682636AD86A3DB4A2CCF7283 /* STMCoreWKWebViewVC+ScriptMessaging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "STMCoreWKWebViewVC+ScriptMessaging.h"; sourceTree = "<group>"; };
 		682638408892485A25475B0D /* STMBarCodeZebra.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMBarCodeZebra.h; sourceTree = "<group>"; };
 		68263A75A70D7383DED70562 /* STMBarCodeType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMBarCodeType.m; sourceTree = "<group>"; };
+		68263C8A545FD939E8013F0E /* STMCoreWKWebViewVC+Navigation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "STMCoreWKWebViewVC+Navigation.m"; sourceTree = "<group>"; };
+		68263DB2743F69C6309B05C9 /* STMCoreWKWebViewVC+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "STMCoreWKWebViewVC+Private.h"; sourceTree = "<group>"; };
 		68263FC2BBD5147719172EA9 /* STMBarCodeScan.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMBarCodeScan.m; sourceTree = "<group>"; };
 		6F3911A3DEFF236838CDC4D1 /* Pods_iSisSalesTestsInMemory.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iSisSalesTestsInMemory.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FA720401327377AC917714F /* Pods-iSisSalesOfLibsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesOfLibsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesOfLibsTests/Pods-iSisSalesOfLibsTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -1771,6 +1778,11 @@
 				D9F0B3911E3FE98400989BB0 /* STMScriptMessageHandler+Private.m */,
 				D9F0B3931E4094F300989BB0 /* STMScriptMessageHandler+Predicates.h */,
 				D9F0B3941E4094F300989BB0 /* STMScriptMessageHandler+Predicates.m */,
+				68263C8A545FD939E8013F0E /* STMCoreWKWebViewVC+Navigation.m */,
+				682632CAAFF6A837E8ED3136 /* STMCoreWKWebViewVC+Navigation.h */,
+				68263DB2743F69C6309B05C9 /* STMCoreWKWebViewVC+Private.h */,
+				682632A75C923FB8235FDA35 /* STMCoreWKWebViewVC+ScriptMessaging.m */,
+				682636AD86A3DB4A2CCF7283 /* STMCoreWKWebViewVC+ScriptMessaging.h */,
 			);
 			name = "☯ STMWKWebView";
 			path = STMWKWebView;
@@ -3352,6 +3364,8 @@
 				682632F65F21544097037757 /* STMBarCodeScan.m in Sources */,
 				68263DFCBCB5D3B6DB98E71D /* STMBarCodeType.m in Sources */,
 				68263F633FC119BD0DB62B3B /* STMBarCodeZebra.m in Sources */,
+				68263B9FE2ED5A3ECE6BF70E /* STMCoreWKWebViewVC+Navigation.m in Sources */,
+				68263B525E88F5D3AB473939 /* STMCoreWKWebViewVC+ScriptMessaging.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3549,9 +3563,9 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-Sales";
 				CODE_SIGN_ENTITLEMENTS = iSisSales/iSisSales.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CustomAppBuild = 366;
+				CustomAppBuild = 367;
 				CustomAppBundleId = "com.sistemium.${PRODUCT_NAME:rfc1034identifier}";
-				CustomAppVersion = 3.6.25;
+				CustomAppVersion = 3.6.29;
 				CustomProductName = iSisSales;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = HZMMGDCLPA;
@@ -3743,9 +3757,9 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-Warehouse";
 				CODE_SIGN_ENTITLEMENTS = iSisSales/iSisSales.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CustomAppBuild = 366;
+				CustomAppBuild = 367;
 				CustomAppBundleId = com.sistemium.iSisWarehouseDebug;
-				CustomAppVersion = 3.6.25;
+				CustomAppVersion = 3.6.29;
 				CustomProductName = iSisWarehouse;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = HZMMGDCLPA;
@@ -3931,9 +3945,9 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-Sales";
 				CODE_SIGN_ENTITLEMENTS = iSisSales/iSisSales.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CustomAppBuild = 366;
+				CustomAppBuild = 367;
 				CustomAppBundleId = "com.sistemium.${PRODUCT_NAME:rfc1034identifier}";
-				CustomAppVersion = 3.6.25;
+				CustomAppVersion = 3.6.29;
 				CustomProductName = iSisSales;
 				DEVELOPMENT_TEAM = HZMMGDCLPA;
 				ENABLE_BITCODE = NO;
@@ -4118,9 +4132,9 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-Warehouse";
 				CODE_SIGN_ENTITLEMENTS = iSisSales/iSisSales.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CustomAppBuild = 366;
+				CustomAppBuild = 367;
 				CustomAppBundleId = com.sistemium.iSisWarehouse;
-				CustomAppVersion = 3.6.25;
+				CustomAppVersion = 3.6.29;
 				CustomProductName = iSisWarehouse;
 				DEVELOPMENT_TEAM = HZMMGDCLPA;
 				ENABLE_BITCODE = NO;
