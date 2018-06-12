@@ -3566,6 +3566,7 @@
 				CustomAppBuild = 367;
 				CustomAppBundleId = "com.sistemium.${PRODUCT_NAME:rfc1034identifier}";
 				CustomAppVersion = 3.6.29;
+				CustomDisplayName = iSisSales;
 				CustomProductName = iSisSales;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = HZMMGDCLPA;
@@ -3760,6 +3761,7 @@
 				CustomAppBuild = 367;
 				CustomAppBundleId = com.sistemium.iSisWarehouseDebug;
 				CustomAppVersion = 3.6.29;
+				CustomDisplayName = iSisWarehouse;
 				CustomProductName = iSisWarehouse;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = HZMMGDCLPA;
@@ -3948,6 +3950,7 @@
 				CustomAppBuild = 367;
 				CustomAppBundleId = "com.sistemium.${PRODUCT_NAME:rfc1034identifier}";
 				CustomAppVersion = 3.6.29;
+				CustomDisplayName = iSisSales;
 				CustomProductName = iSisSales;
 				DEVELOPMENT_TEAM = HZMMGDCLPA;
 				ENABLE_BITCODE = NO;
@@ -4135,6 +4138,7 @@
 				CustomAppBuild = 367;
 				CustomAppBundleId = com.sistemium.iSisWarehouse;
 				CustomAppVersion = 3.6.29;
+				CustomDisplayName = iSisWarehouse;
 				CustomProductName = iSisWarehouse;
 				DEVELOPMENT_TEAM = HZMMGDCLPA;
 				ENABLE_BITCODE = NO;
@@ -4320,14 +4324,15 @@
 			baseConfigurationReference = 44A9DB434CB2CF38AC982002 /* Pods-iSisSales.debugdriver.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
-				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-SalesDebug";
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-DriverDebug";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-Sales";
 				CODE_SIGN_ENTITLEMENTS = iSisSales/iSisSales.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CustomAppBuild = 366;
-				CustomAppBundleId = "com.sistemium.${PRODUCT_NAME:rfc1034identifier}";
+				CustomAppBundleId = com.sistemium.iSisDriverDebug;
 				CustomAppVersion = 3.6.25;
-				CustomProductName = iSisSales;
+				CustomDisplayName = "ST Driver";
+				CustomProductName = iSisDriver;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = HZMMGDCLPA;
 				ENABLE_BITCODE = NO;
@@ -4341,7 +4346,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.sistemium.iSisSales;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sistemium.iSisDriver;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "iSisSales/iSistemium-Bridging-Header.h";
 				SWIFT_OBJC_INTERFACE_HEADER_NAME = "iSistemiumCore-Swift.h";
@@ -4509,14 +4514,15 @@
 			baseConfigurationReference = D862CAB358C06DAFC27AD789 /* Pods-iSisSales.releasedriver.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
-				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-Sales";
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-Driver";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-Sales";
 				CODE_SIGN_ENTITLEMENTS = iSisSales/iSisSales.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CustomAppBuild = 366;
-				CustomAppBundleId = "com.sistemium.${PRODUCT_NAME:rfc1034identifier}";
+				CustomAppBundleId = com.sistemium.iSisDriver;
 				CustomAppVersion = 3.6.25;
-				CustomProductName = iSisSales;
+				CustomDisplayName = "ST Driver";
+				CustomProductName = iSisDriver;
 				DEVELOPMENT_TEAM = HZMMGDCLPA;
 				ENABLE_BITCODE = NO;
 				GCC_PREFIX_HEADER = "iSisSales/iSistemium-Prefix.pch";
@@ -4528,7 +4534,7 @@
 				INFOPLIST_FILE = iSisSales/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.sistemium.iSisSales;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sistemium.iSisDriver;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "iSisSales/iSistemium-Bridging-Header.h";
 				SWIFT_OBJC_INTERFACE_HEADER_NAME = "iSistemiumCore-Swift.h";
