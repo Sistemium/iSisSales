@@ -250,6 +250,12 @@
         <attribute name="weight" optional="YES" attributeType="Decimal" defaultValueString="0.0" syncable="YES"/>
         <relationship name="pickingSession" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMPickingSession" inverseName="weighings" inverseEntity="STMPickingSession" syncable="YES"/>
     </entity>
+    <entity name="STMProducer" parentEntity="STMAbstract" syncable="YES">
+        <attribute name="address" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="inn" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="warehouseArticles" optional="YES" toMany="YES" deletionRule="No Action" destinationEntity="STMWarehouseArticle" inverseName="producer" inverseEntity="STMWarehouseArticle" syncable="YES"/>
+    </entity>
     <entity name="STMProductionInfoType" parentEntity="STMAbstract" syncable="YES">
         <attribute name="datatype" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="mask" optional="YES" attributeType="String" syncable="YES"/>
@@ -323,6 +329,16 @@
         <relationship name="stockTakings" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="STMStockTaking" inverseName="warehouse" inverseEntity="STMStockTaking" syncable="YES"/>
         <relationship name="warehouseStocks" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="STMWarehouseStock" inverseName="warehouse" inverseEntity="STMWarehouseStock" syncable="YES"/>
     </entity>
+    <entity name="STMWarehouseArticle" parentEntity="STMAbstract" syncable="YES">
+        <attribute name="barcodes" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="code" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="firstName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lastName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pieceVolume" optional="YES" attributeType="Decimal" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="preName" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="producer" optional="YES" maxCount="1" deletionRule="No Action" destinationEntity="STMProducer" inverseName="warehouseArticles" inverseEntity="STMProducer" syncable="YES"/>
+    </entity>
     <entity name="STMWarehouseStock" parentEntity="STMAbstract" syncable="YES">
         <attribute name="date" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="volume" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
@@ -366,6 +382,7 @@
         <element name="STMPickingOrderSession" positionX="-1179" positionY="-2133" width="128" height="75"/>
         <element name="STMPickingSession" positionX="-1179" positionY="-2133" width="128" height="120"/>
         <element name="STMPickingSessionWeighing" positionX="-1170" positionY="-2124" width="128" height="75"/>
+        <element name="STMProducer" positionX="-1134" positionY="-2088" width="128" height="105"/>
         <element name="STMProductionInfoType" positionX="-1152" positionY="-2106" width="128" height="105"/>
         <element name="STMRecordStatus" positionX="-360" positionY="-2286" width="128" height="120"/>
         <element name="STMSetting" positionX="-1080" positionY="-2286" width="128" height="90"/>
@@ -373,11 +390,12 @@
         <element name="STMStock" positionX="-947" positionY="-540" width="128" height="105"/>
         <element name="STMStockBatch" positionX="-1161" positionY="-2115" width="128" height="165"/>
         <element name="STMStockBatchBarCode" positionX="-1143" positionY="-2097" width="128" height="75"/>
+        <element name="STMStockBatchItem" positionX="-1179" positionY="-2133" width="128" height="105"/>
         <element name="STMStockTaking" positionX="-1170" positionY="-2124" width="128" height="105"/>
         <element name="STMStockTakingItem" positionX="-1161" positionY="-2115" width="128" height="135"/>
         <element name="STMWarehouse" positionX="-1179" positionY="-2133" width="128" height="105"/>
+        <element name="STMWarehouseArticle" positionX="-1143" positionY="-2097" width="128" height="165"/>
         <element name="STMWarehouseStock" positionX="-1152" positionY="-2106" width="128" height="105"/>
         <element name="STMWorkflow" positionX="45" positionY="-675" width="128" height="90"/>
-        <element name="STMStockBatchItem" positionX="-1179" positionY="-2133" width="128" height="105"/>
     </elements>
 </model>
