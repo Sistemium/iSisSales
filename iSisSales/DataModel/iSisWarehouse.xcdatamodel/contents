@@ -338,6 +338,22 @@
         <attribute name="pieceVolume" optional="YES" attributeType="Decimal" defaultValueString="0.0" syncable="YES"/>
         <attribute name="preName" optional="YES" attributeType="String" syncable="YES"/>
         <relationship name="producer" optional="YES" maxCount="1" deletionRule="No Action" destinationEntity="STMProducer" inverseName="warehouseArticles" inverseEntity="STMProducer" syncable="YES"/>
+        <relationship name="warehouseBoxes" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="STMWarehouseBox" inverseName="warehouseArticle" inverseEntity="STMWarehouseBox" syncable="YES"/>
+        <relationship name="warehouseItems" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="STMWarehouseArticle" inverseName="warehouseItems" inverseEntity="STMWarehouseArticle" syncable="YES"/>
+    </entity>
+    <entity name="STMWarehouseBox" parentEntity="STMAbstract" syncable="YES">
+        <attribute name="barcode" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="processing" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="timestamp" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <relationship name="currentItems" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="STMWarehouseItem" inverseName="currentBox" inverseEntity="STMWarehouseItem" syncable="YES"/>
+        <relationship name="warehouseArticle" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMWarehouseArticle" inverseName="warehouseBoxes" inverseEntity="STMWarehouseArticle" syncable="YES"/>
+    </entity>
+    <entity name="STMWarehouseItem" parentEntity="STMAbstract" syncable="YES">
+        <attribute name="barcode" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="processing" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="timestamp" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <relationship name="currentBox" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMWarehouseBox" inverseName="currentItems" inverseEntity="STMWarehouseBox" syncable="YES"/>
+        <relationship name="warehouseArticle" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMWarehouseArticle" syncable="YES"/>
     </entity>
     <entity name="STMWarehouseStock" parentEntity="STMAbstract" syncable="YES">
         <attribute name="date" optional="YES" attributeType="String" syncable="YES"/>
@@ -394,8 +410,10 @@
         <element name="STMStockTaking" positionX="-1170" positionY="-2124" width="128" height="105"/>
         <element name="STMStockTakingItem" positionX="-1161" positionY="-2115" width="128" height="135"/>
         <element name="STMWarehouse" positionX="-1179" positionY="-2133" width="128" height="105"/>
-        <element name="STMWarehouseArticle" positionX="-1143" positionY="-2097" width="128" height="165"/>
+        <element name="STMWarehouseArticle" positionX="-1143" positionY="-2097" width="128" height="195"/>
         <element name="STMWarehouseStock" positionX="-1152" positionY="-2106" width="128" height="105"/>
         <element name="STMWorkflow" positionX="45" positionY="-675" width="128" height="90"/>
+        <element name="STMWarehouseBox" positionX="-1179" positionY="-2133" width="128" height="120"/>
+        <element name="STMWarehouseItem" positionX="-1170" positionY="-2124" width="128" height="120"/>
     </elements>
 </model>
