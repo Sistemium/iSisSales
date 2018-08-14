@@ -239,7 +239,7 @@
     </entity>
     <entity name="STMLocation" representedClassName="STMLocation" parentEntity="STMCoreLocation" syncable="YES">
         <relationship name="outlets" optional="YES" toMany="YES" deletionRule="Deny" destinationEntity="STMOutlet" inverseName="location" inverseEntity="STMOutlet" syncable="YES"/>
-        <relationship name="shipmentRoutePoint" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMShipmentRoutePoint" inverseName="reachedAtLocation" inverseEntity="STMShipmentRoutePoint" syncable="YES"/>
+        <relationship name="shipmentRoutePoint" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="STMShipmentRoutePoint" inverseName="reachedAtLocation" inverseEntity="STMShipmentRoutePoint" syncable="YES"/>
     </entity>
     <entity name="STMLogMessage" representedClassName="STMLogMessage" parentEntity="STMAbstract" syncable="YES">
         <attribute name="text" optional="YES" attributeType="String" syncable="YES"/>
