@@ -3739,8 +3739,8 @@
 			baseConfigurationReference = BBFF6ACCE0C81E2296130600 /* Pods-iSisSales.debugsales.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
-				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-Driver";
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-Driver";
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-Sales";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-Sales";
 				CODE_SIGN_ENTITLEMENTS = iSisSales/iSisSales.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CustomAppBuild = 367;
@@ -4123,8 +4123,8 @@
 			baseConfigurationReference = C182AD917F157525B9F413B5 /* Pods-iSisSales.releasesales.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
-				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-Driver";
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-Driver";
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-Sales";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-Sales";
 				CODE_SIGN_ENTITLEMENTS = iSisSales/iSisSales.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CustomAppBuild = 367;
