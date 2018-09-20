@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14135" systemVersion="17E202" minimumToolsVersion="Xcode 7.3" sourceLanguage="Objective-C" userDefinedModelVersionIdentifier="">
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14135" systemVersion="17G65" minimumToolsVersion="Xcode 7.3" sourceLanguage="Objective-C" userDefinedModelVersionIdentifier="">
     <entity name="STMAbstract" isAbstract="YES" parentEntity="STMDatum" syncable="YES">
         <attribute name="commentText" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="ownerXid" optional="YES" attributeType="Binary" syncable="YES"/>
@@ -537,6 +537,8 @@
         <attribute name="egaisActCls" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="egaisActStatus" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="egaisActTs" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="egaisReceiver" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="egaisSender" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="egaisTtnCls" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="egaisTtnNdoc" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="egaisTtnStatus" optional="YES" attributeType="String" syncable="YES"/>
@@ -696,7 +698,7 @@
         <element name="STMSearchQuery" positionX="-1368" positionY="-2133" width="128" height="105"/>
         <element name="STMSetting" positionX="-1080" positionY="-2286" width="128" height="90"/>
         <element name="STMShipment" positionX="-1341" positionY="-2106" width="128" height="165"/>
-        <element name="STMShipmentEgais" positionX="-1368" positionY="-2133" width="128" height="165"/>
+        <element name="STMShipmentEgais" positionX="-1368" positionY="-2133" width="128" height="195"/>
         <element name="STMShipmentPosition" positionX="-1332" positionY="-2097" width="128" height="120"/>
         <element name="STMSQLPatch" positionX="-1368" positionY="-2133" width="128" height="105"/>
         <element name="STMStock" positionX="-947" positionY="-540" width="128" height="105"/>
