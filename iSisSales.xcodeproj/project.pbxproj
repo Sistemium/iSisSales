@@ -329,9 +329,12 @@
 		3550B1E21DAE5CC300F8A368 /* STMEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 3550B1DF1DAE5CC300F8A368 /* STMEntity.m */; };
 		3550B1E31DAE5CC300F8A368 /* STMEntity+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 3550B1E11DAE5CC300F8A368 /* STMEntity+CoreDataProperties.m */; };
 		355322231E6DAAC10028DF5C /* UITestSetup.m in Sources */ = {isa = PBXBuildFile; fileRef = 355322221E6DAAC10028DF5C /* UITestSetup.m */; };
+		35552F2320CAB0B200ADC062 /* iSisDriver.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 35552F2120CAB0B200ADC062 /* iSisDriver.xcdatamodeld */; };
 		355CFD391E79B50C005C4EDB /* STMTestDirectoring.m in Sources */ = {isa = PBXBuildFile; fileRef = 35B53DBC1E72D5B00002230F /* STMTestDirectoring.m */; };
 		35752DA71F03EFBC00CA19AF /* STMRemotePersisterController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35752DA61F03EFBC00CA19AF /* STMRemotePersisterController.m */; };
 		35A985CA1E80987500DE2299 /* NSJSONSerializationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A985C91E80987500DE2299 /* NSJSONSerializationTests.m */; };
+		35AE9A0720C93ED800343AA3 /* config.plist in Resources */ = {isa = PBXBuildFile; fileRef = 35AE9A0620C93ED800343AA3 /* config.plist */; };
+		35AE9A0920C93FE500343AA3 /* config.plist in Resources */ = {isa = PBXBuildFile; fileRef = 35AE9A0820C93FE500343AA3 /* config.plist */; };
 		35B53DBD1E72D5B00002230F /* STMTestDirectoring.m in Sources */ = {isa = PBXBuildFile; fileRef = 35B53DBC1E72D5B00002230F /* STMTestDirectoring.m */; };
 		35DB36621F139091004574A1 /* STMSyncer+RemoteData.m in Sources */ = {isa = PBXBuildFile; fileRef = 35DB36611F139091004574A1 /* STMSyncer+RemoteData.m */; };
 		3E873491EFBF4D2FD467BB9A /* Pods_iSisSalesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFEE3E7425CEF6DC61EAF6D3 /* Pods_iSisSalesTests.framework */; };
@@ -367,6 +370,7 @@
 		D96BFEB91E54A8870080327D /* STMCoreObject.m in Sources */ = {isa = PBXBuildFile; fileRef = D96BFEB81E54A8870080327D /* STMCoreObject.m */; };
 		D96BFEE21E5AF3B00080327D /* STMInMemoryTransaction.m in Sources */ = {isa = PBXBuildFile; fileRef = D96BFEE11E5AF3B00080327D /* STMInMemoryTransaction.m */; };
 		D99A12AC1E6CADF800BD4222 /* ModelMappingFMDBTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D99A12AB1E6CADF800BD4222 /* ModelMappingFMDBTests.m */; };
+		D99C0F042119E7E400035E7A /* icons8-truck.png in Resources */ = {isa = PBXBuildFile; fileRef = D99C0F032119E7E400035E7A /* icons8-truck.png */; };
 		D9DB3D861E6C5F88004A9478 /* STMFmdbSchema.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DB3D851E6C5F88004A9478 /* STMFmdbSchema.m */; };
 		D9E1973D1E5F0E5800F8FC18 /* STMOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = D9E1973C1E5F0E5800F8FC18 /* STMOperation.m */; };
 		D9E197401E5F0E7500F8FC18 /* STMOperationQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = D9E1973F1E5F0E7500F8FC18 /* STMOperationQueue.m */; };
@@ -998,6 +1002,7 @@
 		2CFA30331D50DBF300BB9E35 /* STMOutletPhoto+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "STMOutletPhoto+CoreDataProperties.m"; sourceTree = "<group>"; };
 		2CFA30341D50DBF300BB9E35 /* STMOutletPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMOutletPhoto.h; sourceTree = "<group>"; };
 		2CFA30351D50DBF300BB9E35 /* STMOutletPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMOutletPhoto.m; sourceTree = "<group>"; };
+		2E6332E015A9E9E24955D89D /* Pods-iSisSalesSpeedTests.debugdriver.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesSpeedTests.debugdriver.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesSpeedTests/Pods-iSisSalesSpeedTests.debugdriver.xcconfig"; sourceTree = "<group>"; };
 		35031DF31ED732E50049715D /* STMPersisterTransaction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STMPersisterTransaction.h; sourceTree = "<group>"; };
 		35031DF41ED736DA0049715D /* STMPersisterTransaction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMPersisterTransaction.m; sourceTree = "<group>"; };
 		350A20E91ED5B59700C9FB28 /* STMPersistingRunning.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = STMPersistingRunning.h; path = ../STMPersistingRunning.h; sourceTree = "<group>"; };
@@ -1014,20 +1019,25 @@
 		3550B1E11DAE5CC300F8A368 /* STMEntity+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "STMEntity+CoreDataProperties.m"; sourceTree = "<group>"; };
 		355322211E6DAA540028DF5C /* UITestSetup.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UITestSetup.h; sourceTree = "<group>"; };
 		355322221E6DAAC10028DF5C /* UITestSetup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UITestSetup.m; sourceTree = "<group>"; };
+		35552F2220CAB0B200ADC062 /* iSisDriver.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iSisDriver.xcdatamodel; sourceTree = "<group>"; };
 		35752DA51F03ED2E00CA19AF /* STMRemotePersisterController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STMRemotePersisterController.h; sourceTree = "<group>"; };
 		35752DA61F03EFBC00CA19AF /* STMRemotePersisterController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMRemotePersisterController.m; sourceTree = "<group>"; };
 		35A985C91E80987500DE2299 /* NSJSONSerializationTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSJSONSerializationTests.m; sourceTree = "<group>"; };
+		35AE9A0620C93ED800343AA3 /* config.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = config.plist; sourceTree = "<group>"; };
+		35AE9A0820C93FE500343AA3 /* config.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = config.plist; sourceTree = "<group>"; };
 		35B53DBB1E72D5620002230F /* STMTestDirectoring.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STMTestDirectoring.h; sourceTree = "<group>"; };
 		35B53DBC1E72D5B00002230F /* STMTestDirectoring.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMTestDirectoring.m; sourceTree = "<group>"; };
 		35BA96D571E5CBAA739B97AD /* Pods-iSisSalesTestsInMemory.releasesales.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesTestsInMemory.releasesales.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesTestsInMemory/Pods-iSisSalesTestsInMemory.releasesales.xcconfig"; sourceTree = "<group>"; };
 		35DB36601F138FB4004574A1 /* STMSyncer+RemoteData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "STMSyncer+RemoteData.h"; path = "Socket/STMSyncer+RemoteData.h"; sourceTree = "<group>"; };
 		35DB36611F139091004574A1 /* STMSyncer+RemoteData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "STMSyncer+RemoteData.m"; sourceTree = "<group>"; };
 		35E414511EEAD597005BF054 /* STMAdapting.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STMAdapting.h; sourceTree = "<group>"; };
+		37E418D5956AF3812C22C69A /* Pods-iSisSalesTestsInMemory.debugdriver.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesTestsInMemory.debugdriver.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesTestsInMemory/Pods-iSisSalesTestsInMemory.debugdriver.xcconfig"; sourceTree = "<group>"; };
 		38F93DAAE76053192F30F3F7 /* Pods-iSisSales.debug warehouse.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSales.debug warehouse.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSales/Pods-iSisSales.debug warehouse.xcconfig"; sourceTree = "<group>"; };
 		390FE1B1108DBF3207298BAA /* Pods-iSisSalesSpeedTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesSpeedTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesSpeedTests/Pods-iSisSalesSpeedTests.debug.xcconfig"; sourceTree = "<group>"; };
 		39C5AABAD927DF528D873CB7 /* Pods-iSisSalesSpeedTests.debug warehouse.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesSpeedTests.debug warehouse.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesSpeedTests/Pods-iSisSalesSpeedTests.debug warehouse.xcconfig"; sourceTree = "<group>"; };
 		3BE632A4B5A8B855AD87CD5F /* Pods-iSisSalesSpeedTests.release sales.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesSpeedTests.release sales.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesSpeedTests/Pods-iSisSalesSpeedTests.release sales.xcconfig"; sourceTree = "<group>"; };
 		4033E05BE502B1B13735187B /* Pods-iSisSales.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSales.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSales/Pods-iSisSales.debug.xcconfig"; sourceTree = "<group>"; };
+		44A9DB434CB2CF38AC982002 /* Pods-iSisSales.debugdriver.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSales.debugdriver.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSales/Pods-iSisSales.debugdriver.xcconfig"; sourceTree = "<group>"; };
 		44E87E414D7C3811B169FF54 /* Pods-iSisSales.release sales.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSales.release sales.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSales/Pods-iSisSales.release sales.xcconfig"; sourceTree = "<group>"; };
 		464A3CD5CCC3049472886369 /* Pods_iSisSalesUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iSisSalesUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		46562F2F7D1F307B473CAD01 /* Pods-iSisSalesOfLibsTests.debug sales.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesOfLibsTests.debug sales.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesOfLibsTests/Pods-iSisSalesOfLibsTests.debug sales.xcconfig"; sourceTree = "<group>"; };
@@ -1053,7 +1063,9 @@
 		6F3911A3DEFF236838CDC4D1 /* Pods_iSisSalesTestsInMemory.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iSisSalesTestsInMemory.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FA720401327377AC917714F /* Pods-iSisSalesOfLibsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesOfLibsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesOfLibsTests/Pods-iSisSalesOfLibsTests.release.xcconfig"; sourceTree = "<group>"; };
 		724A23B134B37243DAC340A7 /* Pods-iSisSalesUITests.debug warehouse.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesUITests.debug warehouse.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesUITests/Pods-iSisSalesUITests.debug warehouse.xcconfig"; sourceTree = "<group>"; };
+		7ACFF8D91721C8AA5C03A90F /* Pods-iSisSalesUITests.releasedriver.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesUITests.releasedriver.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesUITests/Pods-iSisSalesUITests.releasedriver.xcconfig"; sourceTree = "<group>"; };
 		7AF898A3C0FE4AFCC59D63CE /* Pods-iSisSalesOfLibsTests.release warehouse.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesOfLibsTests.release warehouse.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesOfLibsTests/Pods-iSisSalesOfLibsTests.release warehouse.xcconfig"; sourceTree = "<group>"; };
+		7BEB21FB713C0295948E0A89 /* Pods-iSisSalesUITests.debugdriver.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesUITests.debugdriver.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesUITests/Pods-iSisSalesUITests.debugdriver.xcconfig"; sourceTree = "<group>"; };
 		7F5A7B8227D5632A122E2E14 /* Pods-iSisSalesTests.debug sales.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesTests.debug sales.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesTests/Pods-iSisSalesTests.debug sales.xcconfig"; sourceTree = "<group>"; };
 		7F9A16DF9FD983FA1D0AF51E /* Pods-iSisSalesTestsInMemory.debug warehouse.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesTestsInMemory.debug warehouse.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesTestsInMemory/Pods-iSisSalesTestsInMemory.debug warehouse.xcconfig"; sourceTree = "<group>"; };
 		81E5B4C6DDB6959C412B070E /* Pods-iSisSalesSpeedTests.debug sales.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesSpeedTests.debug sales.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesSpeedTests/Pods-iSisSalesSpeedTests.debug sales.xcconfig"; sourceTree = "<group>"; };
@@ -1068,6 +1080,8 @@
 		9E84FB99CDB74294B79CC535 /* Pods-iSisSalesOfLibsTests.releasesales.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesOfLibsTests.releasesales.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesOfLibsTests/Pods-iSisSalesOfLibsTests.releasesales.xcconfig"; sourceTree = "<group>"; };
 		A5AB0EC47BD72C1AE7EBF7FA /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAB8576EE5628A8DD926ABB9 /* Pods-iSisSalesTests.releasewarehouse.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesTests.releasewarehouse.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesTests/Pods-iSisSalesTests.releasewarehouse.xcconfig"; sourceTree = "<group>"; };
+		B1F379B09CBAA1B3B78D1446 /* Pods-iSisSalesTestsInMemory.releasedriver.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesTestsInMemory.releasedriver.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesTestsInMemory/Pods-iSisSalesTestsInMemory.releasedriver.xcconfig"; sourceTree = "<group>"; };
+		B64731D6FF2B75BA8D1E43E9 /* Pods-iSisSalesSpeedTests.releasedriver.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesSpeedTests.releasedriver.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesSpeedTests/Pods-iSisSalesSpeedTests.releasedriver.xcconfig"; sourceTree = "<group>"; };
 		B7CB6FC51F4B8F41FE884A27 /* Pods-iSisSalesTests.releasesales.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesTests.releasesales.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesTests/Pods-iSisSalesTests.releasesales.xcconfig"; sourceTree = "<group>"; };
 		BABBA9023B105EF42B21C27D /* Pods-iSisSalesUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesUITests/Pods-iSisSalesUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		BBFF6ACCE0C81E2296130600 /* Pods-iSisSales.debugsales.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSales.debugsales.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSales/Pods-iSisSales.debugsales.xcconfig"; sourceTree = "<group>"; };
@@ -1077,8 +1091,10 @@
 		CA2614DA82650630E31EC8AF /* Pods-iSisSalesTestsInMemory.releasewarehouse.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesTestsInMemory.releasewarehouse.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesTestsInMemory/Pods-iSisSalesTestsInMemory.releasewarehouse.xcconfig"; sourceTree = "<group>"; };
 		CD5250C2C3C2AA62E8A288EA /* Pods-iSisSales.debug sales.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSales.debug sales.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSales/Pods-iSisSales.debug sales.xcconfig"; sourceTree = "<group>"; };
 		D3575B0D49491FEADB85EA8C /* Pods-iSisSalesTestsInMemory.debugwarehouse.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesTestsInMemory.debugwarehouse.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesTestsInMemory/Pods-iSisSalesTestsInMemory.debugwarehouse.xcconfig"; sourceTree = "<group>"; };
+		D5475771DE8B1033267C27B6 /* Pods-iSisSalesTests.releasedriver.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesTests.releasedriver.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesTests/Pods-iSisSalesTests.releasedriver.xcconfig"; sourceTree = "<group>"; };
 		D64ACD54CC89160C6E42208F /* Pods-iSisSales.debugwarehouse.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSales.debugwarehouse.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSales/Pods-iSisSales.debugwarehouse.xcconfig"; sourceTree = "<group>"; };
 		D83C8648154EC85EB3023D68 /* Pods_iSisSales.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iSisSales.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D862CAB358C06DAFC27AD789 /* Pods-iSisSales.releasedriver.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSales.releasedriver.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSales/Pods-iSisSales.releasedriver.xcconfig"; sourceTree = "<group>"; };
 		D8EA36A0AC383581E9899EC7 /* Pods-iSisSalesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesTests/Pods-iSisSalesTests.debug.xcconfig"; sourceTree = "<group>"; };
 		D920AF7E1D8D417700E825FC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D920AF801D8D417C00E825FC /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -1120,6 +1136,7 @@
 		D96BFEE01E5AF3B00080327D /* STMInMemoryTransaction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMInMemoryTransaction.h; sourceTree = "<group>"; };
 		D96BFEE11E5AF3B00080327D /* STMInMemoryTransaction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMInMemoryTransaction.m; sourceTree = "<group>"; };
 		D99A12AB1E6CADF800BD4222 /* ModelMappingFMDBTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModelMappingFMDBTests.m; sourceTree = "<group>"; };
+		D99C0F032119E7E400035E7A /* icons8-truck.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-truck.png"; sourceTree = "<group>"; };
 		D9B019371F1377DF000B0EEC /* STMRemoteDataEventHandling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMRemoteDataEventHandling.h; sourceTree = "<group>"; };
 		D9DB3D841E6C5F88004A9478 /* STMFmdbSchema.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMFmdbSchema.h; sourceTree = "<group>"; };
 		D9DB3D851E6C5F88004A9478 /* STMFmdbSchema.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMFmdbSchema.m; sourceTree = "<group>"; };
@@ -1147,6 +1164,7 @@
 		D9F7DE14208A15E300AF5472 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		DA69E3A73683282867CEBDE0 /* Pods_iSisSalesOfLibsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iSisSalesOfLibsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBFB42CC13F54305F628400C /* Pods-iSisSalesTests.release sales.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesTests.release sales.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesTests/Pods-iSisSalesTests.release sales.xcconfig"; sourceTree = "<group>"; };
+		DC4D6D1117EE8212D7FBD798 /* Pods-iSisSalesOfLibsTests.debugdriver.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesOfLibsTests.debugdriver.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesOfLibsTests/Pods-iSisSalesOfLibsTests.debugdriver.xcconfig"; sourceTree = "<group>"; };
 		E365F74D0A4211BC8B9E04A5 /* Pods-iSisSalesTestsInMemory.debugsales.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesTestsInMemory.debugsales.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesTestsInMemory/Pods-iSisSalesTestsInMemory.debugsales.xcconfig"; sourceTree = "<group>"; };
 		E39A6A53AA65BA2768BF58B7 /* Pods-iSisSalesSpeedTests.debugsales.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesSpeedTests.debugsales.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesSpeedTests/Pods-iSisSalesSpeedTests.debugsales.xcconfig"; sourceTree = "<group>"; };
 		E40623DC4ABD0FB0D719ED86 /* Pods-iSisSales.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSales.release.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSales/Pods-iSisSales.release.xcconfig"; sourceTree = "<group>"; };
@@ -1156,7 +1174,9 @@
 		EFEE3E7425CEF6DC61EAF6D3 /* Pods_iSisSalesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iSisSalesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F12856D00A0FFDF64D0F984F /* Pods-iSisSalesTestsInMemory.debug sales.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesTestsInMemory.debug sales.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesTestsInMemory/Pods-iSisSalesTestsInMemory.debug sales.xcconfig"; sourceTree = "<group>"; };
 		F2D15E37B8C453640F70F6F6 /* Pods-iSisSalesUITests.debugwarehouse.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesUITests.debugwarehouse.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesUITests/Pods-iSisSalesUITests.debugwarehouse.xcconfig"; sourceTree = "<group>"; };
+		F820D94CE9DB34F1BEC2F01B /* Pods-iSisSalesTests.debugdriver.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesTests.debugdriver.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesTests/Pods-iSisSalesTests.debugdriver.xcconfig"; sourceTree = "<group>"; };
 		F90DB7103A61A94D3A49A8D4 /* Pods-iSisSalesUITests.debugsales.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesUITests.debugsales.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesUITests/Pods-iSisSalesUITests.debugsales.xcconfig"; sourceTree = "<group>"; };
+		FB409336F4F8E73E5DFC29A7 /* Pods-iSisSalesOfLibsTests.releasedriver.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesOfLibsTests.releasedriver.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesOfLibsTests/Pods-iSisSalesOfLibsTests.releasedriver.xcconfig"; sourceTree = "<group>"; };
 		FBE8651D97F3731272D3BBD9 /* Pods-iSisSales.release warehouse.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSales.release warehouse.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSales/Pods-iSisSales.release warehouse.xcconfig"; sourceTree = "<group>"; };
 		FCE75EE42F351494BC43E2DD /* Pods-iSisSalesUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesUITests/Pods-iSisSalesUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -1844,6 +1864,7 @@
 			children = (
 				2CCF551F1EA4E4E500A54B64 /* iSisWarehouse.xcdatamodel */,
 				2CD5D8721E5D7C9C00A88639 /* iSisSales.xcdatamodeld */,
+				35552F2120CAB0B200ADC062 /* iSisDriver.xcdatamodeld */,
 				2C40F7901CF203BF00231E01 /* STMDataModel.h */,
 				2C2BC23A1E9A2BEF00ADA42B /* STMPhotoReport+CoreDataClass.h */,
 				2C2BC23B1E9A2BEF00ADA42B /* STMPhotoReport+CoreDataClass.m */,
@@ -1971,6 +1992,7 @@
 		2C94C1C51CF1B308004476D8 /* ☯ Images */ = {
 			isa = PBXGroup;
 			children = (
+				D99C0F032119E7E400035E7A /* icons8-truck.png */,
 				2C94C1C61CF1B308004476D8 /* 3colors-colorless.png */,
 				2C94C1C71CF1B308004476D8 /* alphabetical_sorting.png */,
 				2C94C1C81CF1B308004476D8 /* alphabetical_sorting_2.png */,
@@ -2174,6 +2196,8 @@
 		2CCF554B1EA4E67A00A54B64 /* config */ = {
 			isa = PBXGroup;
 			children = (
+				35FC5A8620C93DEA00DF4587 /* ReleaseDriver */,
+				35FC5A8520C93DD400DF4587 /* DebugDriver */,
 				2CCF554C1EA4E67A00A54B64 /* DebugSales */,
 				2CCF554E1EA4E67A00A54B64 /* DebugWarehouse */,
 				2CCF55501EA4E67A00A54B64 /* ReleaseSales */,
@@ -2372,6 +2396,22 @@
 			path = Syncer;
 			sourceTree = "<group>";
 		};
+		35FC5A8520C93DD400DF4587 /* DebugDriver */ = {
+			isa = PBXGroup;
+			children = (
+				35AE9A0620C93ED800343AA3 /* config.plist */,
+			);
+			path = DebugDriver;
+			sourceTree = "<group>";
+		};
+		35FC5A8620C93DEA00DF4587 /* ReleaseDriver */ = {
+			isa = PBXGroup;
+			children = (
+				35AE9A0820C93FE500343AA3 /* config.plist */,
+			);
+			path = ReleaseDriver;
+			sourceTree = "<group>";
+		};
 		B667165BAF36E7D3E97FC469 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -2435,6 +2475,18 @@
 				F2D15E37B8C453640F70F6F6 /* Pods-iSisSalesUITests.debugwarehouse.xcconfig */,
 				1A0CE0EC634B0880798BF9FB /* Pods-iSisSalesUITests.releasesales.xcconfig */,
 				02D959C0D52595D8A118D616 /* Pods-iSisSalesUITests.releasewarehouse.xcconfig */,
+				44A9DB434CB2CF38AC982002 /* Pods-iSisSales.debugdriver.xcconfig */,
+				D862CAB358C06DAFC27AD789 /* Pods-iSisSales.releasedriver.xcconfig */,
+				DC4D6D1117EE8212D7FBD798 /* Pods-iSisSalesOfLibsTests.debugdriver.xcconfig */,
+				FB409336F4F8E73E5DFC29A7 /* Pods-iSisSalesOfLibsTests.releasedriver.xcconfig */,
+				2E6332E015A9E9E24955D89D /* Pods-iSisSalesSpeedTests.debugdriver.xcconfig */,
+				B64731D6FF2B75BA8D1E43E9 /* Pods-iSisSalesSpeedTests.releasedriver.xcconfig */,
+				F820D94CE9DB34F1BEC2F01B /* Pods-iSisSalesTests.debugdriver.xcconfig */,
+				D5475771DE8B1033267C27B6 /* Pods-iSisSalesTests.releasedriver.xcconfig */,
+				37E418D5956AF3812C22C69A /* Pods-iSisSalesTestsInMemory.debugdriver.xcconfig */,
+				B1F379B09CBAA1B3B78D1446 /* Pods-iSisSalesTestsInMemory.releasedriver.xcconfig */,
+				7BEB21FB713C0295948E0A89 /* Pods-iSisSalesUITests.debugdriver.xcconfig */,
+				7ACFF8D91721C8AA5C03A90F /* Pods-iSisSalesUITests.releasedriver.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -2578,7 +2630,7 @@
 				2CCF551E1EA4AF5400A54B64 /* Copy Configuration File(s) */,
 				2C0A8CB41D0994CF007C5B57 /* Source ./fabric.sh */,
 				D44387C132DB2AC55C4A5EF2 /* [CP] Embed Pods Frameworks */,
-				CD2A0D5AC71221D92370282F /* [CP] Copy Pods Resources */,
+				5C9E18159DCE0C172293F6C1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -2597,8 +2649,8 @@
 				2C94BFDF1CF1ACB8004476D8 /* Sources */,
 				2C94BFE01CF1ACB8004476D8 /* Frameworks */,
 				2C94BFE11CF1ACB8004476D8 /* Resources */,
-				F86F68B8B0E5A518B240B194 /* [CP] Embed Pods Frameworks */,
-				6C21C0CB111F23B7F47CC65E /* [CP] Copy Pods Resources */,
+				6D368B362075FE4757E647A9 /* [CP] Embed Pods Frameworks */,
+				8A7436976221F70E0D9038F9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -2618,8 +2670,8 @@
 				2C94BFEA1CF1ACB8004476D8 /* Sources */,
 				2C94BFEB1CF1ACB8004476D8 /* Frameworks */,
 				2C94BFEC1CF1ACB8004476D8 /* Resources */,
-				2ECAC81B13B564A74386B1D6 /* [CP] Embed Pods Frameworks */,
-				30ED465DFEC666AFFEBB0846 /* [CP] Copy Pods Resources */,
+				A209397B54A5B34BC38840A9 /* [CP] Embed Pods Frameworks */,
+				D329E0C0B36A59291932B7FF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -2639,8 +2691,8 @@
 				D95FBAE21E489C540029F3C8 /* Sources */,
 				D95FBAE31E489C540029F3C8 /* Frameworks */,
 				D95FBAE41E489C540029F3C8 /* Resources */,
-				981D844582FA4275DF8DDAA7 /* [CP] Embed Pods Frameworks */,
-				68396CE7FE95651C7F90A5DD /* [CP] Copy Pods Resources */,
+				99EEDB051454B8B1A462A4BE /* [CP] Embed Pods Frameworks */,
+				340C1D6BBE47F030C30DC8C1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -2660,8 +2712,8 @@
 				D96BFEA01E547DA30080327D /* Sources */,
 				D96BFEA11E547DA30080327D /* Frameworks */,
 				D96BFEA21E547DA30080327D /* Resources */,
-				8958ABDFA73434E4E0F4D134 /* [CP] Embed Pods Frameworks */,
-				65B9862EAD0789E03B55F53B /* [CP] Copy Pods Resources */,
+				3B6012ED1D37C9B21CE40589 /* [CP] Embed Pods Frameworks */,
+				909E0F5E4BB2E2BFEF11E221 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -2681,8 +2733,8 @@
 				D9F0B3AA1E447E0500989BB0 /* Sources */,
 				D9F0B3AB1E447E0500989BB0 /* Frameworks */,
 				D9F0B3AC1E447E0500989BB0 /* Resources */,
-				FA0D8D8CBF63DFF3C3BC30AE /* [CP] Embed Pods Frameworks */,
-				1CB358D02A2E68B03D9E331C /* [CP] Copy Pods Resources */,
+				C7ABDA70C441BC21C4481BBD /* [CP] Embed Pods Frameworks */,
+				61BC04CE68B007993AB3E375 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -2781,6 +2833,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35AE9A0920C93FE500343AA3 /* config.plist in Resources */,
+				35AE9A0720C93ED800343AA3 /* config.plist in Resources */,
 				2C94C2011CF1B308004476D8 /* Download From Cloud-100.png in Resources */,
 				2C94C2411CF1B3BA004476D8 /* STMCustom1CVHeader.xib in Resources */,
 				2C1AE2521D9BF62500272A63 /* errorCatcherScript.js in Resources */,
@@ -2804,6 +2858,7 @@
 				2C94C2481CF1B3BA004476D8 /* STMCustom7TVCell.xib in Resources */,
 				2C94C2171CF1B308004476D8 /* uncheckmark_filled.png in Resources */,
 				2CC33EEE1DAD06B200D21771 /* ok.mp3 in Resources */,
+				D99C0F042119E7E400035E7A /* icons8-truck.png in Resources */,
 				2CC33EEF1DAD06B200D21771 /* silent.wav in Resources */,
 				2C94C2081CF1B308004476D8 /* No connection Cloud-100.png in Resources */,
 				2C94C2111CF1B308004476D8 /* scanner_info.png in Resources */,
@@ -2921,21 +2976,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		1CB358D02A2E68B03D9E331C /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iSisSalesOfLibsTests/Pods-iSisSalesOfLibsTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		2C0A8CB41D0994CF007C5B57 /* Source ./fabric.sh */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -2964,22 +3004,7 @@
 			shellPath = /bin/sh;
 			shellScript = "RESOURCE_PATH=${SRCROOT}/${PRODUCT_NAME}/config/${CONFIGURATION}\n\nBUILD_APP_DIR=${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.app\n\necho \"Copying all files under ${RESOURCE_PATH} to ${BUILD_APP_DIR}\"\ncp -v \"${RESOURCE_PATH}/\"* \"${BUILD_APP_DIR}/\"";
 		};
-		2ECAC81B13B564A74386B1D6 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iSisSalesUITests/Pods-iSisSalesUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		30ED465DFEC666AFFEBB0846 /* [CP] Copy Pods Resources */ = {
+		340C1D6BBE47F030C30DC8C1 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -2991,7 +3016,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iSisSalesUITests/Pods-iSisSalesUITests-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iSisSalesTestsInMemory/Pods-iSisSalesTestsInMemory-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3B6012ED1D37C9B21CE40589 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iSisSalesSpeedTests/Pods-iSisSalesSpeedTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		41490621D821E641AA346E52 /* [CP] Check Pods Manifest.lock */ = {
@@ -3012,7 +3052,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		65B9862EAD0789E03B55F53B /* [CP] Copy Pods Resources */ = {
+		5C9E18159DCE0C172293F6C1 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -3024,10 +3064,10 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iSisSalesSpeedTests/Pods-iSisSalesSpeedTests-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iSisSales/Pods-iSisSales-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		68396CE7FE95651C7F90A5DD /* [CP] Copy Pods Resources */ = {
+		61BC04CE68B007993AB3E375 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -3039,7 +3079,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iSisSalesTestsInMemory/Pods-iSisSalesTestsInMemory-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iSisSalesOfLibsTests/Pods-iSisSalesOfLibsTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		69D886EB70C979EEF59D8F01 /* [CP] Check Pods Manifest.lock */ = {
@@ -3060,7 +3100,22 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		6C21C0CB111F23B7F47CC65E /* [CP] Copy Pods Resources */ = {
+		6D368B362075FE4757E647A9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iSisSalesTests/Pods-iSisSalesTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A7436976221F70E0D9038F9 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -3075,22 +3130,22 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iSisSalesTests/Pods-iSisSalesTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		8958ABDFA73434E4E0F4D134 /* [CP] Embed Pods Frameworks */ = {
+		909E0F5E4BB2E2BFEF11E221 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "[CP] Embed Pods Frameworks";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iSisSalesSpeedTests/Pods-iSisSalesSpeedTests-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iSisSalesSpeedTests/Pods-iSisSalesSpeedTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		981D844582FA4275DF8DDAA7 /* [CP] Embed Pods Frameworks */ = {
+		99EEDB051454B8B1A462A4BE /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -3123,19 +3178,34 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		CD2A0D5AC71221D92370282F /* [CP] Copy Pods Resources */ = {
+		A209397B54A5B34BC38840A9 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "[CP] Copy Pods Resources";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iSisSales/Pods-iSisSales-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iSisSalesUITests/Pods-iSisSalesUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C7ABDA70C441BC21C4481BBD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iSisSalesOfLibsTests/Pods-iSisSalesOfLibsTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		CDDA2B6803C4971A47898666 /* [CP] Check Pods Manifest.lock */ = {
@@ -3154,6 +3224,21 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D329E0C0B36A59291932B7FF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iSisSalesUITests/Pods-iSisSalesUITests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		D44387C132DB2AC55C4A5EF2 /* [CP] Embed Pods Frameworks */ = {
@@ -3206,36 +3291,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F86F68B8B0E5A518B240B194 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iSisSalesTests/Pods-iSisSalesTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		FA0D8D8CBF63DFF3C3BC30AE /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iSisSalesOfLibsTests/Pods-iSisSalesOfLibsTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -3368,6 +3423,7 @@
 				2C0A8CAA1D09903C007C5B57 /* STMVisitQuestionDataType+CoreDataProperties.m in Sources */,
 				2C94C1171CF1B1BB004476D8 /* STMSegmentedControl.m in Sources */,
 				2C94C18E1CF1B1F3004476D8 /* STMCoreLocation.m in Sources */,
+				35552F2320CAB0B200ADC062 /* iSisDriver.xcdatamodeld in Sources */,
 				2CD5D82D1E4DEC8F00A88639 /* STMLogger+Logger.m in Sources */,
 				2C94C1351CF1B1BB004476D8 /* STMWebViewVC.m in Sources */,
 				2C94C1271CF1B1BB004476D8 /* STMLogMessagesMasterTVC.m in Sources */,
@@ -3683,13 +3739,20 @@
 			baseConfigurationReference = BBFF6ACCE0C81E2296130600 /* Pods-iSisSales.debugsales.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
-				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-SalesDebug";
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-Sales";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-Sales";
 				CODE_SIGN_ENTITLEMENTS = iSisSales/iSisSales.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+<<<<<<< HEAD
 				CustomAppBuild = 374;
 				CustomAppBundleId = "com.sistemium.${PRODUCT_NAME:rfc1034identifier}";
 				CustomAppVersion = 3.7.4;
+=======
+				CustomAppBuild = 369;
+				CustomAppBundleId = "com.sistemium.${PRODUCT_NAME:rfc1034identifier}";
+				CustomAppVersion = 3.6.32;
+				CustomDisplayName = iSisSales;
+>>>>>>> driver
 				CustomProductName = iSisSales;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = HZMMGDCLPA;
@@ -3877,13 +3940,18 @@
 			baseConfigurationReference = D64ACD54CC89160C6E42208F /* Pods-iSisSales.debugwarehouse.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
-				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-WarehouseDebug";
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-Warehouse";
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-Driver";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-Driver";
 				CODE_SIGN_ENTITLEMENTS = iSisSales/iSisSales.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CustomAppBuild = 374;
 				CustomAppBundleId = com.sistemium.iSisWarehouseDebug;
+<<<<<<< HEAD
 				CustomAppVersion = 3.7.4;
+=======
+				CustomAppVersion = 3.6.29;
+				CustomDisplayName = iSisWarehouse;
+>>>>>>> driver
 				CustomProductName = iSisWarehouse;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = HZMMGDCLPA;
@@ -4069,9 +4137,16 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-Sales";
 				CODE_SIGN_ENTITLEMENTS = iSisSales/iSisSales.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+<<<<<<< HEAD
 				CustomAppBuild = 374;
 				CustomAppBundleId = "com.sistemium.${PRODUCT_NAME:rfc1034identifier}";
 				CustomAppVersion = 3.7.4;
+=======
+				CustomAppBuild = 369;
+				CustomAppBundleId = "com.sistemium.${PRODUCT_NAME:rfc1034identifier}";
+				CustomAppVersion = 3.6.32;
+				CustomDisplayName = iSisSales;
+>>>>>>> driver
 				CustomProductName = iSisSales;
 				DEVELOPMENT_TEAM = HZMMGDCLPA;
 				ENABLE_BITCODE = NO;
@@ -4252,13 +4327,18 @@
 			baseConfigurationReference = 1AE7380A595B333909D339C0 /* Pods-iSisSales.releasewarehouse.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
-				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-Warehouse";
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-Warehouse";
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-Driver";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-Driver";
 				CODE_SIGN_ENTITLEMENTS = iSisSales/iSisSales.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CustomAppBuild = 374;
 				CustomAppBundleId = com.sistemium.iSisWarehouse;
+<<<<<<< HEAD
 				CustomAppVersion = 3.7.4;
+=======
+				CustomAppVersion = 3.6.29;
+				CustomDisplayName = iSisWarehouse;
+>>>>>>> driver
 				CustomProductName = iSisWarehouse;
 				DEVELOPMENT_TEAM = HZMMGDCLPA;
 				ENABLE_BITCODE = NO;
@@ -4382,6 +4462,389 @@
 			};
 			name = ReleaseWarehouse;
 		};
+		35AE9A0A20C9458300343AA3 /* DebugDriver */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = DebugDriver;
+		};
+		35AE9A0B20C9458300343AA3 /* DebugDriver */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44A9DB434CB2CF38AC982002 /* Pods-iSisSales.debugdriver.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-Driver";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-Driver";
+				CODE_SIGN_ENTITLEMENTS = iSisSales/iSisSales.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CustomAppBuild = 366;
+				CustomAppBundleId = com.sistemium.iSisDriverDebug;
+				CustomAppVersion = 3.6.25;
+				CustomDisplayName = "ST Driver";
+				CustomProductName = iSisDriver;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = HZMMGDCLPA;
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = "iSisSales/iSistemium-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"CONFIGURATION_${CONFIGURATION}",
+				);
+				INFOPLIST_FILE = iSisSales/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sistemium.iSisDriver;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "iSisSales/iSistemium-Bridging-Header.h";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "iSistemiumCore-Swift.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = DebugDriver;
+		};
+		35AE9A0C20C9458300343AA3 /* DebugDriver */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F820D94CE9DB34F1BEC2F01B /* Pods-iSisSalesTests.debugdriver.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GCC_PREFIX_HEADER = "iSisSales/iSistemium-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(CONFIGURATION_TEMP_DIR)/$(PROJECT_NAME).build/DerivedSources",
+					"$(TARGET_TEMP_DIR)/../$(PROJECT_NAME).build/DerivedSources",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = iSisSalesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sistemium.iSisSalesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iSisSales.app/iSisSales";
+				USER_HEADER_SEARCH_PATHS = "$(CONFIGURATION_TEMP_DIR)/$(PROJECT_NAME).build/DerivedSources $(TARGET_TEMP_DIR)/../$(PROJECT_NAME).build/DerivedSources";
+			};
+			name = DebugDriver;
+		};
+		35AE9A0D20C9458300343AA3 /* DebugDriver */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BEB21FB713C0295948E0A89 /* Pods-iSisSalesUITests.debugdriver.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iSisSales.app/iSisSales";
+				GCC_PREFIX_HEADER = "iSisSales/iSistemium-Prefix.pch";
+				INFOPLIST_FILE = iSisSalesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sistemium.iSisSalesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = iSisSales;
+			};
+			name = DebugDriver;
+		};
+		35AE9A0E20C9458300343AA3 /* DebugDriver */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC4D6D1117EE8212D7FBD798 /* Pods-iSisSalesOfLibsTests.debugdriver.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				DEVELOPMENT_TEAM = HZMMGDCLPA;
+				GCC_PREFIX_HEADER = "iSisSales/iSistemium-Prefix.pch";
+				INFOPLIST_FILE = iSisSalesOfLibsTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sistemium.iSisSalesOfLibsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iSisSales.app/iSisSales";
+			};
+			name = DebugDriver;
+		};
+		35AE9A0F20C9458300343AA3 /* DebugDriver */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37E418D5956AF3812C22C69A /* Pods-iSisSalesTestsInMemory.debugdriver.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				DEVELOPMENT_TEAM = HZMMGDCLPA;
+				GCC_PREFIX_HEADER = "iSisSales/iSistemium-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/Crashlytics\"",
+					"\"${PODS_ROOT}/Headers/Public/Fabric\"",
+					"\"$(TARGET_TEMP_DIR)/../$(PROJECT_NAME).build/DerivedSources\"",
+				);
+				INFOPLIST_FILE = iSisSalesTestsInMemory/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sistemium.iSisSalesTestsInMemory;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iSisSales.app/iSisSales";
+			};
+			name = DebugDriver;
+		};
+		35AE9A1020C9458300343AA3 /* DebugDriver */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E6332E015A9E9E24955D89D /* Pods-iSisSalesSpeedTests.debugdriver.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				DEVELOPMENT_TEAM = HZMMGDCLPA;
+				GCC_PREFIX_HEADER = "iSisSales/iSistemium-Prefix.pch";
+				INFOPLIST_FILE = iSisSalesSpeedTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sistemium.iSisSalesSpeedTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iSisSales.app/iSisSales";
+			};
+			name = DebugDriver;
+		};
+		35AE9A1120C945EA00343AA3 /* ReleaseDriver */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = ReleaseDriver;
+		};
+		35AE9A1220C945EA00343AA3 /* ReleaseDriver */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D862CAB358C06DAFC27AD789 /* Pods-iSisSales.releasedriver.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-Driver";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-Driver";
+				CODE_SIGN_ENTITLEMENTS = iSisSales/iSisSales.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CustomAppBuild = 366;
+				CustomAppBundleId = com.sistemium.iSisDriver;
+				CustomAppVersion = 3.6.25;
+				CustomDisplayName = "ST Driver";
+				CustomProductName = iSisDriver;
+				DEVELOPMENT_TEAM = HZMMGDCLPA;
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = "iSisSales/iSistemium-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"CONFIGURATION_${CONFIGURATION}",
+				);
+				INFOPLIST_FILE = iSisSales/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sistemium.iSisDriver;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "iSisSales/iSistemium-Bridging-Header.h";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "iSistemiumCore-Swift.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = ReleaseDriver;
+		};
+		35AE9A1320C945EA00343AA3 /* ReleaseDriver */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5475771DE8B1033267C27B6 /* Pods-iSisSalesTests.releasedriver.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GCC_PREFIX_HEADER = "iSisSales/iSistemium-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(CONFIGURATION_TEMP_DIR)/$(PROJECT_NAME).build/DerivedSources",
+					"$(TARGET_TEMP_DIR)/../$(PROJECT_NAME).build/DerivedSources",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = iSisSalesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sistemium.iSisSalesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iSisSales.app/iSisSales";
+				USER_HEADER_SEARCH_PATHS = "$(CONFIGURATION_TEMP_DIR)/$(PROJECT_NAME).build/DerivedSources $(TARGET_TEMP_DIR)/../$(PROJECT_NAME).build/DerivedSources";
+			};
+			name = ReleaseDriver;
+		};
+		35AE9A1420C945EA00343AA3 /* ReleaseDriver */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7ACFF8D91721C8AA5C03A90F /* Pods-iSisSalesUITests.releasedriver.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iSisSales.app/iSisSales";
+				GCC_PREFIX_HEADER = "iSisSales/iSistemium-Prefix.pch";
+				INFOPLIST_FILE = iSisSalesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sistemium.iSisSalesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = iSisSales;
+			};
+			name = ReleaseDriver;
+		};
+		35AE9A1520C945EA00343AA3 /* ReleaseDriver */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB409336F4F8E73E5DFC29A7 /* Pods-iSisSalesOfLibsTests.releasedriver.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				DEVELOPMENT_TEAM = HZMMGDCLPA;
+				GCC_PREFIX_HEADER = "iSisSales/iSistemium-Prefix.pch";
+				INFOPLIST_FILE = iSisSalesOfLibsTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sistemium.iSisSalesOfLibsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iSisSales.app/iSisSales";
+			};
+			name = ReleaseDriver;
+		};
+		35AE9A1620C945EA00343AA3 /* ReleaseDriver */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1F379B09CBAA1B3B78D1446 /* Pods-iSisSalesTestsInMemory.releasedriver.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				DEVELOPMENT_TEAM = HZMMGDCLPA;
+				GCC_PREFIX_HEADER = "iSisSales/iSistemium-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/Crashlytics\"",
+					"\"${PODS_ROOT}/Headers/Public/Fabric\"",
+					"\"$(TARGET_TEMP_DIR)/../$(PROJECT_NAME).build/DerivedSources\"",
+				);
+				INFOPLIST_FILE = iSisSalesTestsInMemory/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sistemium.iSisSalesTestsInMemory;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iSisSales.app/iSisSales";
+			};
+			name = ReleaseDriver;
+		};
+		35AE9A1720C945EA00343AA3 /* ReleaseDriver */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B64731D6FF2B75BA8D1E43E9 /* Pods-iSisSalesSpeedTests.releasedriver.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				DEVELOPMENT_TEAM = HZMMGDCLPA;
+				GCC_PREFIX_HEADER = "iSisSales/iSistemium-Prefix.pch";
+				INFOPLIST_FILE = iSisSalesSpeedTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sistemium.iSisSalesSpeedTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iSisSales.app/iSisSales";
+			};
+			name = ReleaseDriver;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -4389,8 +4852,10 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2CCF552F1EA4E5E700A54B64 /* DebugSales */,
+				35AE9A0A20C9458300343AA3 /* DebugDriver */,
 				2CCF55361EA4E5EF00A54B64 /* DebugWarehouse */,
 				2CCF553D1EA4E5F700A54B64 /* ReleaseSales */,
+				35AE9A1120C945EA00343AA3 /* ReleaseDriver */,
 				2CCF55441EA4E60200A54B64 /* ReleaseWarehouse */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -4400,8 +4865,10 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2CCF55301EA4E5E700A54B64 /* DebugSales */,
+				35AE9A0B20C9458300343AA3 /* DebugDriver */,
 				2CCF55371EA4E5EF00A54B64 /* DebugWarehouse */,
 				2CCF553E1EA4E5F700A54B64 /* ReleaseSales */,
+				35AE9A1220C945EA00343AA3 /* ReleaseDriver */,
 				2CCF55451EA4E60200A54B64 /* ReleaseWarehouse */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -4411,8 +4878,10 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2CCF55311EA4E5E700A54B64 /* DebugSales */,
+				35AE9A0C20C9458300343AA3 /* DebugDriver */,
 				2CCF55381EA4E5EF00A54B64 /* DebugWarehouse */,
 				2CCF553F1EA4E5F700A54B64 /* ReleaseSales */,
+				35AE9A1320C945EA00343AA3 /* ReleaseDriver */,
 				2CCF55461EA4E60200A54B64 /* ReleaseWarehouse */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -4422,8 +4891,10 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2CCF55321EA4E5E700A54B64 /* DebugSales */,
+				35AE9A0D20C9458300343AA3 /* DebugDriver */,
 				2CCF55391EA4E5EF00A54B64 /* DebugWarehouse */,
 				2CCF55401EA4E5F700A54B64 /* ReleaseSales */,
+				35AE9A1420C945EA00343AA3 /* ReleaseDriver */,
 				2CCF55471EA4E60200A54B64 /* ReleaseWarehouse */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -4433,8 +4904,10 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2CCF55341EA4E5E700A54B64 /* DebugSales */,
+				35AE9A0F20C9458300343AA3 /* DebugDriver */,
 				2CCF553B1EA4E5EF00A54B64 /* DebugWarehouse */,
 				2CCF55421EA4E5F700A54B64 /* ReleaseSales */,
+				35AE9A1620C945EA00343AA3 /* ReleaseDriver */,
 				2CCF55491EA4E60200A54B64 /* ReleaseWarehouse */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -4444,8 +4917,10 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2CCF55351EA4E5E700A54B64 /* DebugSales */,
+				35AE9A1020C9458300343AA3 /* DebugDriver */,
 				2CCF553C1EA4E5EF00A54B64 /* DebugWarehouse */,
 				2CCF55431EA4E5F700A54B64 /* ReleaseSales */,
+				35AE9A1720C945EA00343AA3 /* ReleaseDriver */,
 				2CCF554A1EA4E60200A54B64 /* ReleaseWarehouse */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -4455,8 +4930,10 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2CCF55331EA4E5E700A54B64 /* DebugSales */,
+				35AE9A0E20C9458300343AA3 /* DebugDriver */,
 				2CCF553A1EA4E5EF00A54B64 /* DebugWarehouse */,
 				2CCF55411EA4E5F700A54B64 /* ReleaseSales */,
+				35AE9A1520C945EA00343AA3 /* ReleaseDriver */,
 				2CCF55481EA4E60200A54B64 /* ReleaseWarehouse */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -4492,6 +4969,16 @@
 			);
 			currentVersion = 2CD5D88A1E670AB400A88639 /* testModelChanged.xcdatamodel */;
 			path = testModelChanged.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		35552F2120CAB0B200ADC062 /* iSisDriver.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				35552F2220CAB0B200ADC062 /* iSisDriver.xcdatamodel */,
+			);
+			currentVersion = 35552F2220CAB0B200ADC062 /* iSisDriver.xcdatamodel */;
+			path = iSisDriver.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
