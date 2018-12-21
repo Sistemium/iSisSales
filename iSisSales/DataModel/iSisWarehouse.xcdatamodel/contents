@@ -104,6 +104,7 @@
     </entity>
     <entity name="STMClientEntity" representedClassName="STMClientEntity" parentEntity="STMAbstract" syncable="YES">
         <attribute name="eTag" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lastSent" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
         <attribute name="name" optional="YES" attributeType="String" syncable="YES">
             <userInfo>
                 <entry key="UNIQUE" value="REPLACE"/>
@@ -402,7 +403,7 @@
         <element name="STMBarCodeType" positionX="-218" positionY="-2286" width="128" height="105"/>
         <element name="STMBatteryStatus" positionX="-648" positionY="-2286" width="128" height="75"/>
         <element name="STMClientData" positionX="-936" positionY="-2286" width="128" height="270"/>
-        <element name="STMClientEntity" positionX="70" positionY="-2286" width="128" height="75"/>
+        <element name="STMClientEntity" positionX="70" positionY="-2286" width="128" height="90"/>
         <element name="STMCoreLocation" positionX="-495" positionY="-1179" width="128" height="195"/>
         <element name="STMCorePhoto" positionX="-272" positionY="-1147" width="128" height="60"/>
         <element name="STMCorePicture" positionX="-92" positionY="-1188" width="128" height="180"/>
