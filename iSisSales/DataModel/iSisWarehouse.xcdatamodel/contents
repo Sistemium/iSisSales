@@ -354,7 +354,7 @@
         <relationship name="pickingOrderPositionPickeds" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="STMPickingOrderPositionPicked" inverseName="warehouseBox" inverseEntity="STMPickingOrderPositionPicked" syncable="YES"/>
         <relationship name="warehouseArticle" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMWarehouseArticle" inverseName="warehouseBoxes" inverseEntity="STMWarehouseArticle" syncable="YES"/>
     </entity>
-    <entity name="STMWarehouseBoxOperaton" parentEntity="STMAbstract" syncable="YES">
+    <entity name="STMWarehouseBoxOperation" parentEntity="STMAbstract" syncable="YES">
         <attribute name="paletteFromId" optional="YES" attributeType="Binary" syncable="YES"/>
         <attribute name="paletteToId" optional="YES" attributeType="Binary" syncable="YES"/>
         <attribute name="timestamp" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
@@ -436,7 +436,7 @@
         <element name="STMWarehouse" positionX="-1179" positionY="-2133" width="128" height="105"/>
         <element name="STMWarehouseArticle" positionX="-1143" positionY="-2097" width="128" height="195"/>
         <element name="STMWarehouseBox" positionX="-1179" positionY="-2133" width="128" height="135"/>
-        <element name="STMWarehouseBoxOperaton" positionX="-1152" positionY="-2106" width="128" height="105"/>
+        <element name="STMWarehouseBoxOperation" positionX="-1152" positionY="-2106" width="128" height="105"/>
         <element name="STMWarehouseItem" positionX="-1170" positionY="-2124" width="128" height="135"/>
         <element name="STMWarehouseItemOperation" positionX="-1170" positionY="-2124" width="128" height="105"/>
         <element name="STMWarehousePalette" positionX="-1161" positionY="-2115" width="128" height="90"/>
