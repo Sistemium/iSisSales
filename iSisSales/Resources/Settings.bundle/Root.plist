@@ -14,7 +14,7 @@
 			<key>Key</key>
 			<string>ScannerType</string>
 			<key>DefaultValue</key>
-			<string>socketMobile</string>
+			<string>zebra</string>
 			<key>Titles</key>
 			<array>
 				<string>SocketMobile</string>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14460.32" systemVersion="18C54" minimumToolsVersion="Xcode 7.3" sourceLanguage="Objective-C" userDefinedModelVersionIdentifier="">
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14490.99" systemVersion="18F132" minimumToolsVersion="Xcode 7.3" sourceLanguage="Objective-C" userDefinedModelVersionIdentifier="">
     <entity name="STMAbstract" isAbstract="YES" parentEntity="STMDatum" syncable="YES">
         <attribute name="commentText" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="ownerXid" optional="YES" attributeType="Binary" syncable="YES"/>
@@ -305,7 +305,7 @@
         <relationship name="pickingOrderPositionsPicked" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="STMPickingOrderPositionPicked" inverseName="stockBatch" inverseEntity="STMPickingOrderPositionPicked" syncable="YES"/>
     </entity>
     <entity name="STMStockBatchBarCode" parentEntity="STMAbstract" syncable="YES">
-        <attribute name="code" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="code" optional="YES" attributeType="String" indexed="YES" syncable="YES"/>
         <relationship name="stockBatch" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMStockBatch" inverseName="barCodes" inverseEntity="STMStockBatch" syncable="YES"/>
     </entity>
     <entity name="STMStockBatchItem" parentEntity="STMAbstract" syncable="YES">
@@ -429,7 +429,7 @@
         <element name="STMSQLPatch" positionX="-1179" positionY="-2133" width="128" height="105"/>
         <element name="STMStock" positionX="-947" positionY="-540" width="128" height="105"/>
         <element name="STMStockBatch" positionX="-1161" positionY="-2115" width="128" height="165"/>
-        <element name="STMStockBatchBarCode" positionX="-1143" positionY="-2097" width="128" height="75"/>
+        <element name="STMStockBatchBarCode" positionX="-1143" positionY="-2097" width="128" height="73"/>
         <element name="STMStockBatchItem" positionX="-1179" positionY="-2133" width="128" height="105"/>
         <element name="STMStockTaking" positionX="-1170" positionY="-2124" width="128" height="105"/>
         <element name="STMStockTakingItem" positionX="-1161" positionY="-2115" width="128" height="135"/>
