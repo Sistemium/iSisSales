@@ -13,3 +13,4 @@ NSLocationWhenInUseUsageDescription = "";
 NSBluetoothPeripheralUsageDescription = "";
 NSPhotoLibraryAddUsageDescription = "Чтобы выбирать фотографии";
 NSLocationAlwaysAndWhenInUseUsageDescription = "";
+NSBluetoothAlwaysUsageDescription = "Требуется для сканера";
