@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14490.99" systemVersion="18G103" minimumToolsVersion="Xcode 7.3" sourceLanguage="Objective-C" userDefinedModelVersionIdentifier="">
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14490.99" systemVersion="18G1012" minimumToolsVersion="Xcode 7.3" sourceLanguage="Objective-C" userDefinedModelVersionIdentifier="">
     <entity name="STMAbstract" isAbstract="YES" parentEntity="STMDatum" syncable="YES">
         <attribute name="commentText" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="ownerXid" optional="YES" attributeType="Binary" syncable="YES"/>
@@ -81,8 +81,11 @@
     <entity name="STMCampaign" parentEntity="STMAbstract" syncable="YES">
         <attribute name="dateB" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="dateE" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="discount" optional="YES" attributeType="Decimal" defaultValueString="0.0" syncable="YES"/>
         <attribute name="isActive" optional="YES" attributeType="Boolean" usesScalarValueType="NO" syncable="YES"/>
         <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="restrictions" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="variants" optional="YES" attributeType="Transformable" syncable="YES"/>
         <relationship name="campaignGroup" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMCampaignGroup" inverseName="campaigns" inverseEntity="STMCampaignGroup" syncable="YES"/>
         <relationship name="photoReports" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="STMPhotoReport" inverseName="campaign" inverseEntity="STMPhotoReport" syncable="YES"/>
         <relationship name="pictures" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="STMCampaignPicture" inverseName="campaign" inverseEntity="STMCampaignPicture" syncable="YES"/>
@@ -472,6 +475,7 @@
     </entity>
     <entity name="STMSaleOrderPosition" representedClassName="STMSaleOrderPosition" parentEntity="STMAbstract" syncable="YES">
         <attribute name="backVolume" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="campaignVariantId" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="cost" optional="YES" attributeType="Decimal" defaultValueString="0.0" syncable="YES"/>
         <attribute name="deviceAts" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
         <attribute name="isCompDiscount" optional="YES" attributeType="Boolean" usesScalarValueType="NO" syncable="YES"/>
@@ -660,7 +664,7 @@
         <element name="STMBarCodeScan" positionX="-72" positionY="-2286" width="128" height="90"/>
         <element name="STMBarCodeType" positionX="-218" positionY="-2286" width="128" height="105"/>
         <element name="STMBatteryStatus" positionX="-648" positionY="-2286" width="128" height="75"/>
-        <element name="STMCampaign" positionX="-1206" positionY="-2016" width="128" height="150"/>
+        <element name="STMCampaign" positionX="-1206" positionY="-2016" width="128" height="195"/>
         <element name="STMCampaignGroup" positionX="-1215" positionY="-2025" width="128" height="105"/>
         <element name="STMCampaignPicture" positionX="-1197" positionY="-2007" width="128" height="60"/>
         <element name="STMCashing" positionX="-1368" positionY="-2133" width="128" height="165"/>
@@ -695,6 +699,8 @@
         <element name="STMPartnerArticle" positionX="-1359" positionY="-2124" width="128" height="105"/>
         <element name="STMPartnerPriceGroup" positionX="-1368" positionY="-2133" width="128" height="90"/>
         <element name="STMPhotoReport" positionX="-1314" positionY="-2079" width="128" height="90"/>
+        <element name="STMPossibleOutlet" positionX="-1368" positionY="-2133" width="128" height="120"/>
+        <element name="STMPossibleOutletPhoto" positionX="-1359" positionY="-2124" width="128" height="60"/>
         <element name="STMPrice" positionX="-1575" positionY="-517" width="128" height="90"/>
         <element name="STMPriceGroup" positionX="-1368" positionY="-2133" width="128" height="120"/>
         <element name="STMPriceType" positionX="-1377" positionY="-262" width="128" height="150"/>
@@ -703,7 +709,7 @@
         <element name="STMRestrictionArticle" positionX="-1341" positionY="-2106" width="128" height="75"/>
         <element name="STMSaleOrder" positionX="-945" positionY="-901" width="128" height="360"/>
         <element name="STMSaleOrderDiscount" positionX="-1368" positionY="-2133" width="128" height="150"/>
-        <element name="STMSaleOrderPosition" positionX="-1134" positionY="-999" width="128" height="225"/>
+        <element name="STMSaleOrderPosition" positionX="-1134" positionY="-999" width="128" height="240"/>
         <element name="STMSalesman" positionX="-974" positionY="-1242" width="128" height="210"/>
         <element name="STMSalesmanOutletRestriction" positionX="-1323" positionY="-2088" width="128" height="90"/>
         <element name="STMSchedule" positionX="-504" positionY="-810" width="128" height="105"/>
@@ -728,7 +734,5 @@
         <element name="STMVisitQuestionGroup" positionX="-171" positionY="-1458" width="128" height="90"/>
         <element name="STMVisitQuestionSet" positionX="7" positionY="-1566" width="128" height="105"/>
         <element name="STMWorkflow" positionX="45" positionY="-675" width="128" height="105"/>
-        <element name="STMPossibleOutlet" positionX="-1368" positionY="-2133" width="128" height="120"/>
-        <element name="STMPossibleOutletPhoto" positionX="-1359" positionY="-2124" width="128" height="60"/>
     </elements>
 </model>
