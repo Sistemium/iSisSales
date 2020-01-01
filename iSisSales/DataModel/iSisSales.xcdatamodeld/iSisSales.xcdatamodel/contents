@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14490.99" systemVersion="18G2022" minimumToolsVersion="Xcode 7.3" sourceLanguage="Objective-C" userDefinedModelVersionIdentifier="371">
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14490.99" systemVersion="18G2022" minimumToolsVersion="Xcode 7.3" sourceLanguage="Objective-C" userDefinedModelVersionIdentifier="372">
     <entity name="STMAbstract" isAbstract="YES" parentEntity="STMDatum" syncable="YES">
         <attribute name="commentText" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="ownerXid" optional="YES" attributeType="Binary" syncable="YES"/>
@@ -394,6 +394,7 @@
     </entity>
     <entity name="STMPossibleOutlet" parentEntity="STMAbstract" syncable="YES">
         <attribute name="address" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="groupId" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
         <relationship name="location" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMLocation" inverseName="possibleOutlets" inverseEntity="STMLocation" syncable="YES"/>
         <relationship name="possibleOutletPhotos" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="STMPossibleOutletPhoto" inverseName="possibleOutlet" inverseEntity="STMPossibleOutletPhoto" syncable="YES"/>
@@ -699,7 +700,7 @@
         <element name="STMPartnerArticle" positionX="-1359" positionY="-2124" width="128" height="105"/>
         <element name="STMPartnerPriceGroup" positionX="-1368" positionY="-2133" width="128" height="90"/>
         <element name="STMPhotoReport" positionX="-1314" positionY="-2079" width="128" height="90"/>
-        <element name="STMPossibleOutlet" positionX="-1368" positionY="-2133" width="128" height="120"/>
+        <element name="STMPossibleOutlet" positionX="-1368" positionY="-2133" width="128" height="135"/>
         <element name="STMPossibleOutletPhoto" positionX="-1359" positionY="-2124" width="128" height="60"/>
         <element name="STMPrice" positionX="-1575" positionY="-517" width="128" height="90"/>
         <element name="STMPriceGroup" positionX="-1368" positionY="-2133" width="128" height="120"/>
