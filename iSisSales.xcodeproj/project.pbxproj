@@ -3558,7 +3558,7 @@
 				CODE_SIGN_STYLE = Manual;
 				CustomAppBuild = 371;
 				CustomAppBundleId = "com.sistemium.${PRODUCT_NAME:rfc1034identifier}";
-				CustomAppVersion = 3.7.2;
+				CustomAppVersion = 3.10.1;
 				CustomProductName = iSisSales;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = "";
@@ -3753,7 +3753,7 @@
 				CODE_SIGN_STYLE = Manual;
 				CustomAppBuild = 392;
 				CustomAppBundleId = com.sistemium.iSisWarehouseDebug;
-				CustomAppVersion = 3.9.0;
+				CustomAppVersion = 3.10.1;
 				CustomProductName = iSisWarehouse;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = "";
@@ -3942,7 +3942,7 @@
 				CODE_SIGN_STYLE = Manual;
 				CustomAppBuild = 371;
 				CustomAppBundleId = "com.sistemium.${PRODUCT_NAME:rfc1034identifier}";
-				CustomAppVersion = 3.7.2;
+				CustomAppVersion = 3.10.1;
 				CustomProductName = iSisSales;
 				DEVELOPMENT_TEAM = HZMMGDCLPA;
 				ENABLE_BITCODE = NO;
@@ -4130,7 +4130,7 @@
 				CODE_SIGN_STYLE = Manual;
 				CustomAppBuild = 392;
 				CustomAppBundleId = com.sistemium.iSisWarehouse;
-				CustomAppVersion = 3.9.0;
+				CustomAppVersion = 3.10.1;
 				CustomProductName = iSisWarehouse;
 				DEVELOPMENT_TEAM = "";
 				ENABLE_BITCODE = NO;
@@ -4323,7 +4323,7 @@
 				CODE_SIGN_STYLE = Manual;
 				CustomAppBuild = 366;
 				CustomAppBundleId = com.sistemium.iSisDriverDebug;
-				CustomAppVersion = 3.6.26;
+				CustomAppVersion = 3.10.1;
 				CustomDisplayName = "ST Driver";
 				CustomProductName = iSisDriver;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -4514,7 +4514,7 @@
 				CODE_SIGN_STYLE = Manual;
 				CustomAppBuild = 366;
 				CustomAppBundleId = com.sistemium.iSisDriver;
-				CustomAppVersion = 3.6.26;
+				CustomAppVersion = 3.10.1;
 				CustomDisplayName = "ST Driver";
 				CustomProductName = iSisDriver;
 				DEVELOPMENT_TEAM = "";
