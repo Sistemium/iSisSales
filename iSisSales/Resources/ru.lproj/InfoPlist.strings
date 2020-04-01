@@ -8,9 +8,9 @@
 
 NSCameraUsageDescription = "Чтобы делать фотографии";
 NSPhotoLibraryUsageDescription = "Чтобы выбирать фотографии";
-NSLocationAlwaysUsageDescription = "";
-NSLocationWhenInUseUsageDescription = "";
-NSBluetoothPeripheralUsageDescription = "";
+NSLocationAlwaysUsageDescription = "Чтобы считать километраж";
+NSLocationWhenInUseUsageDescription = "Чтобы делать отметки о визитах";
+NSLocationAlwaysAndWhenInUseUsageDescription = "Чтобы делать отметки о визитах";
+NSBluetoothPeripheralUsageDescription = "Чтобы работал сканер штрих-кодов";
 NSPhotoLibraryAddUsageDescription = "Чтобы выбирать фотографии";
-NSLocationAlwaysAndWhenInUseUsageDescription = "";
 NSBluetoothAlwaysUsageDescription = "Требуется для сканера";
