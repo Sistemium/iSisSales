@@ -14,3 +14,5 @@ NSBluetoothPeripheralUsageDescription = "";
 NSPhotoLibraryAddUsageDescription = "To select photos";
 NSLocationAlwaysAndWhenInUseUsageDescription = "";
 NSBluetoothAlwaysUsageDescription = "To use scanner";
+NSContactsUsageDescription = "For search suggestion";
+
