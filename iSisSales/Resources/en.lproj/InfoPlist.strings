@@ -1,4 +1,4 @@
-/* 
+/*
   InfoPlist.strings
   iSisSales
 
@@ -8,11 +8,11 @@
 
 NSCameraUsageDescription = "To make photos";
 NSPhotoLibraryUsageDescription = "To select photos";
-NSLocationAlwaysUsageDescription = "";
-NSLocationWhenInUseUsageDescription = "";
-NSBluetoothPeripheralUsageDescription = "";
+NSLocationAlwaysUsageDescription = "To provide tacking information";
+NSLocationWhenInUseUsageDescription = "To check-in locations";
+NSLocationAlwaysAndWhenInUseUsageDescription = "To provide tacking information";
+NSBluetoothPeripheralUsageDescription = "To use barcode scanner";
 NSPhotoLibraryAddUsageDescription = "To select photos";
 NSLocationAlwaysAndWhenInUseUsageDescription = "";
 NSBluetoothAlwaysUsageDescription = "To use scanner";
 NSContactsUsageDescription = "For search suggestion";
-
