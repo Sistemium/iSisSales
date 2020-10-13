@@ -13,6 +13,6 @@ NSLocationWhenInUseUsageDescription = "Чтобы делать отметки о
 NSLocationAlwaysAndWhenInUseUsageDescription = "Чтобы делать отметки о визитах";
 NSBluetoothPeripheralUsageDescription = "Чтобы работал сканер штрих-кодов";
 NSPhotoLibraryAddUsageDescription = "Чтобы выбирать фотографии";
-NSLocationAlwaysAndWhenInUseUsageDescription = "";
+NSLocationAlwaysAndWhenInUseUsageDescription = "Чтобы считать километраж";
 NSBluetoothAlwaysUsageDescription = "Требуется для сканера";
 NSContactsUsageDescription = "Для подсказок при поиске";

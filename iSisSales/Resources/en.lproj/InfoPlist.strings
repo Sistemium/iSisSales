@@ -13,6 +13,6 @@ NSLocationWhenInUseUsageDescription = "To check-in locations";
 NSLocationAlwaysAndWhenInUseUsageDescription = "To provide tacking information";
 NSBluetoothPeripheralUsageDescription = "To use barcode scanner";
 NSPhotoLibraryAddUsageDescription = "To select photos";
-NSLocationAlwaysAndWhenInUseUsageDescription = "";
+NSLocationAlwaysAndWhenInUseUsageDescription = "To provide tacking information";
 NSBluetoothAlwaysUsageDescription = "To use scanner";
 NSContactsUsageDescription = "For search suggestion";
