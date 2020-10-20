@@ -10,7 +10,7 @@ target 'iSisSales' do
     pod 'ScanAPI', :path => '../ScanApiSDK'
     pod 'Socket.IO-Client-Swift', :path => '../socket.io-client-swift'
     pod 'FMDB', '~> 2.7.5'
-    pod 'PromiseKit', '~> 6.8'
+    pod 'PromiseKit', '~> 6.13'
     pod 'ZebraIos', :path => '../ZebraIos'
     pod 'PMAlertController', '~> 3.5.0'
 
@@ -32,6 +32,12 @@ target 'iSisSales' do
 
     target 'iSisSalesUITests' do
         inherit! :search_paths
+    end
+    
+    post_install do |installer|
+      installer.pods_project.build_configurations.each do |config|
+        config.build_settings["EXCLUDED_ARCHS[sdk=iphonesimulator*]"] = "arm64"
+      end
     end
 
 end
