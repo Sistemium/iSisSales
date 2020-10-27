@@ -50,7 +50,7 @@
 		<true/>
 		<key>NSExceptionDomains</key>
 		<dict>
-			<key>denis.local</key>
+			<key>lamac16.local</key>
 			<dict>
 				<key>NSExceptionAllowsInsecureHTTPLoads</key>
 				<true/>
