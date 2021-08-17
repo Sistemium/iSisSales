@@ -315,6 +315,7 @@
 		35752DA71F03EFBC00CA19AF /* STMRemotePersisterController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35752DA61F03EFBC00CA19AF /* STMRemotePersisterController.m */; };
 		3593B6B523FEC986001F5EBB /* config.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3593B6B423FEC986001F5EBB /* config.plist */; };
 		35A230EA26CBF00000EA0F1A /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35A230E926CBF00000EA0F1A /* Login.swift */; };
+		35A230EC26CBF87300EA0F1A /* LoginUIHostingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35A230EB26CBF87300EA0F1A /* LoginUIHostingController.swift */; };
 		35A985CA1E80987500DE2299 /* NSJSONSerializationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A985C91E80987500DE2299 /* NSJSONSerializationTests.m */; };
 		35B53DBD1E72D5B00002230F /* STMTestDirectoring.m in Sources */ = {isa = PBXBuildFile; fileRef = 35B53DBC1E72D5B00002230F /* STMTestDirectoring.m */; };
 		35DB36621F139091004574A1 /* STMSyncer+RemoteData.m in Sources */ = {isa = PBXBuildFile; fileRef = 35DB36611F139091004574A1 /* STMSyncer+RemoteData.m */; };
@@ -993,6 +994,7 @@
 		3593B6B223FEC971001F5EBB /* config.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = config.plist; sourceTree = "<group>"; };
 		3593B6B423FEC986001F5EBB /* config.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = config.plist; sourceTree = "<group>"; };
 		35A230E926CBF00000EA0F1A /* Login.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		35A230EB26CBF87300EA0F1A /* LoginUIHostingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginUIHostingController.swift; sourceTree = "<group>"; };
 		35A985C91E80987500DE2299 /* NSJSONSerializationTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSJSONSerializationTests.m; sourceTree = "<group>"; };
 		35AE9A0620C93ED800343AA3 /* config.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = config.plist; sourceTree = "<group>"; };
 		35AE9A0820C93FE500343AA3 /* config.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = config.plist; sourceTree = "<group>"; };
@@ -2376,6 +2378,7 @@
 			isa = PBXGroup;
 			children = (
 				35A230E926CBF00000EA0F1A /* Login.swift */,
+				35A230EB26CBF87300EA0F1A /* LoginUIHostingController.swift */,
 			);
 			name = "☯ Login";
 			path = ../../iSistemiumCore/iSistemiumCore/Login;
@@ -3190,6 +3193,7 @@
 				2C40F78F1CF203A100231E01 /* STMSettingsController.m in Sources */,
 				2C94C1021CF1B1BB004476D8 /* STMCustom10TVCell.m in Sources */,
 				2C94C12E1CF1B1BB004476D8 /* STMScannerInfoNC.m in Sources */,
+				35A230EC26CBF87300EA0F1A /* LoginUIHostingController.swift in Sources */,
 				2C94C1031CF1B1BB004476D8 /* STMCustom1CVCell.m in Sources */,
 				2CCD5D8E1E36468000B84565 /* STMBarCodeScanner.m in Sources */,
 				2C94C1211CF1B1BB004476D8 /* STMAuthNC.m in Sources */,
