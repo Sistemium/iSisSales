@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -313,6 +313,7 @@
 		35552F2320CAB0B200ADC062 /* iSisDriver.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 35552F2120CAB0B200ADC062 /* iSisDriver.xcdatamodeld */; };
 		355CFD391E79B50C005C4EDB /* STMTestDirectoring.m in Sources */ = {isa = PBXBuildFile; fileRef = 35B53DBC1E72D5B00002230F /* STMTestDirectoring.m */; };
 		35752DA71F03EFBC00CA19AF /* STMRemotePersisterController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35752DA61F03EFBC00CA19AF /* STMRemotePersisterController.m */; };
+		3575A09426CE73D50048DAF0 /* iPhoneNumberField in Frameworks */ = {isa = PBXBuildFile; productRef = 3575A09326CE73D50048DAF0 /* iPhoneNumberField */; };
 		3593B6B523FEC986001F5EBB /* config.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3593B6B423FEC986001F5EBB /* config.plist */; };
 		35A230EA26CBF00000EA0F1A /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35A230E926CBF00000EA0F1A /* Login.swift */; };
 		35A230EC26CBF87300EA0F1A /* LoginUIHostingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35A230EB26CBF87300EA0F1A /* LoginUIHostingController.swift */; };
@@ -1171,6 +1172,7 @@
 			files = (
 				2CD5BEFD1CF1DFAB006E1E36 /* WebKit.framework in Frameworks */,
 				B765DF6BD8F1900FE8C5AE92 /* Pods_iSisSales.framework in Frameworks */,
+				3575A09426CE73D50048DAF0 /* iPhoneNumberField in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2636,6 +2638,9 @@
 			dependencies = (
 			);
 			name = iSisSales;
+			packageProductDependencies = (
+				3575A09326CE73D50048DAF0 /* iPhoneNumberField */,
+			);
 			productName = iSisSales;
 			productReference = 2C94BFCA1CF1ACB8004476D8 /* iSisSales.app */;
 			productType = "com.apple.product-type.application";
@@ -2804,6 +2809,9 @@
 				ru,
 			);
 			mainGroup = 2C94BFC11CF1ACB8004476D8;
+			packageReferences = (
+				3575A09226CE73D50048DAF0 /* XCRemoteSwiftPackageReference "iPhoneNumberField" */,
+			);
 			productRefGroup = 2C94BFCB1CF1ACB8004476D8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -3567,7 +3575,10 @@
 				);
 				INFOPLIST_FILE = iSisSales/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				MARKETING_VERSION = 3.11.6;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.sistemium.iSisSales;
@@ -3593,12 +3604,19 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = iSisSalesTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.sistemium.iSisSalesTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iSisSales.app/iSisSales";
-				USER_HEADER_SEARCH_PATHS = "$(CONFIGURATION_TEMP_DIR)/$(PROJECT_NAME).build/DerivedSources $(TARGET_TEMP_DIR)/../$(PROJECT_NAME).build/DerivedSources";
+				USER_HEADER_SEARCH_PATHS = (
+					"$(CONFIGURATION_TEMP_DIR)/$(PROJECT_NAME).build/DerivedSources",
+					"$(TARGET_TEMP_DIR)/../$(PROJECT_NAME).build/DerivedSources",
+				);
 			};
 			name = DebugSales;
 		};
@@ -3609,7 +3627,11 @@
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iSisSales.app/iSisSales";
 				GCC_PREFIX_HEADER = "iSisSales/iSistemium-Prefix.pch";
 				INFOPLIST_FILE = iSisSalesUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.sistemium.iSisSalesUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
@@ -3628,7 +3650,11 @@
 				GCC_PREFIX_HEADER = "iSisSales/iSistemium-Prefix.pch";
 				INFOPLIST_FILE = iSisSalesOfLibsTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.sistemium.iSisSalesOfLibsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
@@ -3654,7 +3680,11 @@
 				);
 				INFOPLIST_FILE = iSisSalesTestsInMemory/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.sistemium.iSisSalesTestsInMemory;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
@@ -3673,7 +3703,11 @@
 				GCC_PREFIX_HEADER = "iSisSales/iSistemium-Prefix.pch";
 				INFOPLIST_FILE = iSisSalesSpeedTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.sistemium.iSisSalesSpeedTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
@@ -3763,7 +3797,10 @@
 				);
 				INFOPLIST_FILE = iSisSales/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				MARKETING_VERSION = 3.11.6;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.sistemium.iSisWarehouse;
@@ -3789,12 +3826,19 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = iSisSalesTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.sistemium.iSisSalesTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iSisSales.app/iSisSales";
-				USER_HEADER_SEARCH_PATHS = "$(CONFIGURATION_TEMP_DIR)/$(PROJECT_NAME).build/DerivedSources $(TARGET_TEMP_DIR)/../$(PROJECT_NAME).build/DerivedSources";
+				USER_HEADER_SEARCH_PATHS = (
+					"$(CONFIGURATION_TEMP_DIR)/$(PROJECT_NAME).build/DerivedSources",
+					"$(TARGET_TEMP_DIR)/../$(PROJECT_NAME).build/DerivedSources",
+				);
 			};
 			name = DebugWarehouse;
 		};
@@ -3805,7 +3849,11 @@
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iSisSales.app/iSisSales";
 				GCC_PREFIX_HEADER = "iSisSales/iSistemium-Prefix.pch";
 				INFOPLIST_FILE = iSisSalesUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.sistemium.iSisSalesUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
@@ -3824,7 +3872,11 @@
 				GCC_PREFIX_HEADER = "iSisSales/iSistemium-Prefix.pch";
 				INFOPLIST_FILE = iSisSalesOfLibsTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.sistemium.iSisSalesOfLibsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
@@ -3850,7 +3902,11 @@
 				);
 				INFOPLIST_FILE = iSisSalesTestsInMemory/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.sistemium.iSisSalesTestsInMemory;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
@@ -3869,7 +3925,11 @@
 				GCC_PREFIX_HEADER = "iSisSales/iSistemium-Prefix.pch";
 				INFOPLIST_FILE = iSisSalesSpeedTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.sistemium.iSisSalesSpeedTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
@@ -3923,7 +3983,8 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -3953,14 +4014,18 @@
 				);
 				INFOPLIST_FILE = iSisSales/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				MARKETING_VERSION = 3.11.6;
 				PRODUCT_BUNDLE_IDENTIFIER = com.sistemium.iSisSales;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OBJC_BRIDGING_HEADER = "iSisSales/iSistemium-Bridging-Header.h";
 				SWIFT_OBJC_INTERFACE_HEADER_NAME = "iSistemiumCore-Swift.h";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -3978,12 +4043,19 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = iSisSalesTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.sistemium.iSisSalesTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iSisSales.app/iSisSales";
-				USER_HEADER_SEARCH_PATHS = "$(CONFIGURATION_TEMP_DIR)/$(PROJECT_NAME).build/DerivedSources $(TARGET_TEMP_DIR)/../$(PROJECT_NAME).build/DerivedSources";
+				USER_HEADER_SEARCH_PATHS = (
+					"$(CONFIGURATION_TEMP_DIR)/$(PROJECT_NAME).build/DerivedSources",
+					"$(TARGET_TEMP_DIR)/../$(PROJECT_NAME).build/DerivedSources",
+				);
 			};
 			name = ReleaseSales;
 		};
@@ -3994,7 +4066,11 @@
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iSisSales.app/iSisSales";
 				GCC_PREFIX_HEADER = "iSisSales/iSistemium-Prefix.pch";
 				INFOPLIST_FILE = iSisSalesUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.sistemium.iSisSalesUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
@@ -4013,7 +4089,11 @@
 				GCC_PREFIX_HEADER = "iSisSales/iSistemium-Prefix.pch";
 				INFOPLIST_FILE = iSisSalesOfLibsTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.sistemium.iSisSalesOfLibsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
@@ -4039,7 +4119,11 @@
 				);
 				INFOPLIST_FILE = iSisSalesTestsInMemory/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.sistemium.iSisSalesTestsInMemory;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
@@ -4058,7 +4142,11 @@
 				GCC_PREFIX_HEADER = "iSisSales/iSistemium-Prefix.pch";
 				INFOPLIST_FILE = iSisSalesSpeedTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.sistemium.iSisSalesSpeedTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
@@ -4112,7 +4200,8 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -4142,14 +4231,18 @@
 				);
 				INFOPLIST_FILE = iSisSales/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				MARKETING_VERSION = 3.11.6;
 				PRODUCT_BUNDLE_IDENTIFIER = com.sistemium.iSisWarehouse;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "iSisWarehouse 2022";
+				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OBJC_BRIDGING_HEADER = "iSisSales/iSistemium-Bridging-Header.h";
 				SWIFT_OBJC_INTERFACE_HEADER_NAME = "iSistemiumCore-Swift.h";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -4167,12 +4260,19 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = iSisSalesTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.sistemium.iSisSalesTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iSisSales.app/iSisSales";
-				USER_HEADER_SEARCH_PATHS = "$(CONFIGURATION_TEMP_DIR)/$(PROJECT_NAME).build/DerivedSources $(TARGET_TEMP_DIR)/../$(PROJECT_NAME).build/DerivedSources";
+				USER_HEADER_SEARCH_PATHS = (
+					"$(CONFIGURATION_TEMP_DIR)/$(PROJECT_NAME).build/DerivedSources",
+					"$(TARGET_TEMP_DIR)/../$(PROJECT_NAME).build/DerivedSources",
+				);
 			};
 			name = ReleaseWarehouse;
 		};
@@ -4183,7 +4283,11 @@
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iSisSales.app/iSisSales";
 				GCC_PREFIX_HEADER = "iSisSales/iSistemium-Prefix.pch";
 				INFOPLIST_FILE = iSisSalesUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.sistemium.iSisSalesUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
@@ -4202,7 +4306,11 @@
 				GCC_PREFIX_HEADER = "iSisSales/iSistemium-Prefix.pch";
 				INFOPLIST_FILE = iSisSalesOfLibsTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.sistemium.iSisSalesOfLibsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
@@ -4228,7 +4336,11 @@
 				);
 				INFOPLIST_FILE = iSisSalesTestsInMemory/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.sistemium.iSisSalesTestsInMemory;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
@@ -4247,7 +4359,11 @@
 				GCC_PREFIX_HEADER = "iSisSales/iSistemium-Prefix.pch";
 				INFOPLIST_FILE = iSisSalesSpeedTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.sistemium.iSisSalesSpeedTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
@@ -4337,7 +4453,10 @@
 				);
 				INFOPLIST_FILE = iSisSales/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				MARKETING_VERSION = 3.11.6;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = org.sistemium.vfs;
@@ -4363,12 +4482,19 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = iSisSalesTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.sistemium.iSisSalesTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iSisSales.app/iSisSales";
-				USER_HEADER_SEARCH_PATHS = "$(CONFIGURATION_TEMP_DIR)/$(PROJECT_NAME).build/DerivedSources $(TARGET_TEMP_DIR)/../$(PROJECT_NAME).build/DerivedSources";
+				USER_HEADER_SEARCH_PATHS = (
+					"$(CONFIGURATION_TEMP_DIR)/$(PROJECT_NAME).build/DerivedSources",
+					"$(TARGET_TEMP_DIR)/../$(PROJECT_NAME).build/DerivedSources",
+				);
 			};
 			name = DebugVfs;
 		};
@@ -4379,7 +4505,11 @@
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iSisSales.app/iSisSales";
 				GCC_PREFIX_HEADER = "iSisSales/iSistemium-Prefix.pch";
 				INFOPLIST_FILE = iSisSalesUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.sistemium.iSisSalesUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
@@ -4398,7 +4528,11 @@
 				GCC_PREFIX_HEADER = "iSisSales/iSistemium-Prefix.pch";
 				INFOPLIST_FILE = iSisSalesOfLibsTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.sistemium.iSisSalesOfLibsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
@@ -4424,7 +4558,11 @@
 				);
 				INFOPLIST_FILE = iSisSalesTestsInMemory/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.sistemium.iSisSalesTestsInMemory;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
@@ -4443,7 +4581,11 @@
 				GCC_PREFIX_HEADER = "iSisSales/iSistemium-Prefix.pch";
 				INFOPLIST_FILE = iSisSalesSpeedTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.sistemium.iSisSalesSpeedTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
@@ -4497,7 +4639,8 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -4528,14 +4671,18 @@
 				);
 				INFOPLIST_FILE = iSisSales/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				MARKETING_VERSION = 3.11.6;
 				PRODUCT_BUNDLE_IDENTIFIER = org.sistemium.vfs;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "VFS mobile development";
+				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OBJC_BRIDGING_HEADER = "iSisSales/iSistemium-Bridging-Header.h";
 				SWIFT_OBJC_INTERFACE_HEADER_NAME = "iSistemiumCore-Swift.h";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -4553,12 +4700,19 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = iSisSalesTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.sistemium.iSisSalesTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iSisSales.app/iSisSales";
-				USER_HEADER_SEARCH_PATHS = "$(CONFIGURATION_TEMP_DIR)/$(PROJECT_NAME).build/DerivedSources $(TARGET_TEMP_DIR)/../$(PROJECT_NAME).build/DerivedSources";
+				USER_HEADER_SEARCH_PATHS = (
+					"$(CONFIGURATION_TEMP_DIR)/$(PROJECT_NAME).build/DerivedSources",
+					"$(TARGET_TEMP_DIR)/../$(PROJECT_NAME).build/DerivedSources",
+				);
 			};
 			name = ReleaseVfs;
 		};
@@ -4569,7 +4723,11 @@
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iSisSales.app/iSisSales";
 				GCC_PREFIX_HEADER = "iSisSales/iSistemium-Prefix.pch";
 				INFOPLIST_FILE = iSisSalesUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.sistemium.iSisSalesUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
@@ -4588,7 +4746,11 @@
 				GCC_PREFIX_HEADER = "iSisSales/iSistemium-Prefix.pch";
 				INFOPLIST_FILE = iSisSalesOfLibsTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.sistemium.iSisSalesOfLibsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
@@ -4614,7 +4776,11 @@
 				);
 				INFOPLIST_FILE = iSisSalesTestsInMemory/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.sistemium.iSisSalesTestsInMemory;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
@@ -4633,7 +4799,11 @@
 				GCC_PREFIX_HEADER = "iSisSales/iSistemium-Prefix.pch";
 				INFOPLIST_FILE = iSisSalesSpeedTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.sistemium.iSisSalesSpeedTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
@@ -4724,7 +4894,10 @@
 				);
 				INFOPLIST_FILE = iSisSales/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				MARKETING_VERSION = 3.11.6;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.sistemium.iSisDriver;
@@ -4750,12 +4923,19 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = iSisSalesTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.sistemium.iSisSalesTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iSisSales.app/iSisSales";
-				USER_HEADER_SEARCH_PATHS = "$(CONFIGURATION_TEMP_DIR)/$(PROJECT_NAME).build/DerivedSources $(TARGET_TEMP_DIR)/../$(PROJECT_NAME).build/DerivedSources";
+				USER_HEADER_SEARCH_PATHS = (
+					"$(CONFIGURATION_TEMP_DIR)/$(PROJECT_NAME).build/DerivedSources",
+					"$(TARGET_TEMP_DIR)/../$(PROJECT_NAME).build/DerivedSources",
+				);
 			};
 			name = DebugDriver;
 		};
@@ -4766,7 +4946,11 @@
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iSisSales.app/iSisSales";
 				GCC_PREFIX_HEADER = "iSisSales/iSistemium-Prefix.pch";
 				INFOPLIST_FILE = iSisSalesUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.sistemium.iSisSalesUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
@@ -4785,7 +4969,11 @@
 				GCC_PREFIX_HEADER = "iSisSales/iSistemium-Prefix.pch";
 				INFOPLIST_FILE = iSisSalesOfLibsTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.sistemium.iSisSalesOfLibsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
@@ -4811,7 +4999,11 @@
 				);
 				INFOPLIST_FILE = iSisSalesTestsInMemory/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.sistemium.iSisSalesTestsInMemory;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
@@ -4830,7 +5022,11 @@
 				GCC_PREFIX_HEADER = "iSisSales/iSistemium-Prefix.pch";
 				INFOPLIST_FILE = iSisSalesSpeedTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.sistemium.iSisSalesSpeedTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
@@ -4884,7 +5080,8 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -4915,14 +5112,18 @@
 				);
 				INFOPLIST_FILE = iSisSales/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				MARKETING_VERSION = 3.11.6;
 				PRODUCT_BUNDLE_IDENTIFIER = com.sistemium.iSisDriver;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "iSisDriver 2020";
+				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OBJC_BRIDGING_HEADER = "iSisSales/iSistemium-Bridging-Header.h";
 				SWIFT_OBJC_INTERFACE_HEADER_NAME = "iSistemiumCore-Swift.h";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -4940,12 +5141,19 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = iSisSalesTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.sistemium.iSisSalesTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iSisSales.app/iSisSales";
-				USER_HEADER_SEARCH_PATHS = "$(CONFIGURATION_TEMP_DIR)/$(PROJECT_NAME).build/DerivedSources $(TARGET_TEMP_DIR)/../$(PROJECT_NAME).build/DerivedSources";
+				USER_HEADER_SEARCH_PATHS = (
+					"$(CONFIGURATION_TEMP_DIR)/$(PROJECT_NAME).build/DerivedSources",
+					"$(TARGET_TEMP_DIR)/../$(PROJECT_NAME).build/DerivedSources",
+				);
 			};
 			name = ReleaseDriver;
 		};
@@ -4956,7 +5164,11 @@
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iSisSales.app/iSisSales";
 				GCC_PREFIX_HEADER = "iSisSales/iSistemium-Prefix.pch";
 				INFOPLIST_FILE = iSisSalesUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.sistemium.iSisSalesUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
@@ -4975,7 +5187,11 @@
 				GCC_PREFIX_HEADER = "iSisSales/iSistemium-Prefix.pch";
 				INFOPLIST_FILE = iSisSalesOfLibsTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.sistemium.iSisSalesOfLibsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
@@ -5001,7 +5217,11 @@
 				);
 				INFOPLIST_FILE = iSisSalesTestsInMemory/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.sistemium.iSisSalesTestsInMemory;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
@@ -5020,7 +5240,11 @@
 				GCC_PREFIX_HEADER = "iSisSales/iSistemium-Prefix.pch";
 				INFOPLIST_FILE = iSisSalesSpeedTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.sistemium.iSisSalesSpeedTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
@@ -5137,6 +5361,25 @@
 			defaultConfigurationName = DebugSales;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3575A09226CE73D50048DAF0 /* XCRemoteSwiftPackageReference "iPhoneNumberField" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/MojtabaHs/iPhoneNumberField.git";
+			requirement = {
+				kind = exactVersion;
+				version = 0.5.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3575A09326CE73D50048DAF0 /* iPhoneNumberField */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3575A09226CE73D50048DAF0 /* XCRemoteSwiftPackageReference "iPhoneNumberField" */;
+			productName = iPhoneNumberField;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		2CD5D8721E5D7C9C00A88639 /* iSisSales.xcdatamodeld */ = {
