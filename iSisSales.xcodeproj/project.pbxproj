@@ -314,6 +314,8 @@
 		355CFD391E79B50C005C4EDB /* STMTestDirectoring.m in Sources */ = {isa = PBXBuildFile; fileRef = 35B53DBC1E72D5B00002230F /* STMTestDirectoring.m */; };
 		35752DA71F03EFBC00CA19AF /* STMRemotePersisterController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35752DA61F03EFBC00CA19AF /* STMRemotePersisterController.m */; };
 		3575A09426CE73D50048DAF0 /* iPhoneNumberField in Frameworks */ = {isa = PBXBuildFile; productRef = 3575A09326CE73D50048DAF0 /* iPhoneNumberField */; };
+		358ED09D26D4FC3D009C3510 /* CoreAuthController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 358ED09C26D4FC3D009C3510 /* CoreAuthController.swift */; };
+		358ED0A026D532F9009C3510 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 358ED09F26D532F9009C3510 /* Alamofire */; };
 		3593B6B523FEC986001F5EBB /* config.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3593B6B423FEC986001F5EBB /* config.plist */; };
 		35A230EA26CBF00000EA0F1A /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35A230E926CBF00000EA0F1A /* Login.swift */; };
 		35A230EC26CBF87300EA0F1A /* LoginUIHostingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35A230EB26CBF87300EA0F1A /* LoginUIHostingController.swift */; };
@@ -992,6 +994,7 @@
 		35552F2220CAB0B200ADC062 /* iSisDriver.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iSisDriver.xcdatamodel; sourceTree = "<group>"; };
 		35752DA51F03ED2E00CA19AF /* STMRemotePersisterController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STMRemotePersisterController.h; sourceTree = "<group>"; };
 		35752DA61F03EFBC00CA19AF /* STMRemotePersisterController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMRemotePersisterController.m; sourceTree = "<group>"; };
+		358ED09C26D4FC3D009C3510 /* CoreAuthController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreAuthController.swift; sourceTree = "<group>"; };
 		3593B6B223FEC971001F5EBB /* config.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = config.plist; sourceTree = "<group>"; };
 		3593B6B423FEC986001F5EBB /* config.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = config.plist; sourceTree = "<group>"; };
 		35A230E926CBF00000EA0F1A /* Login.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
@@ -1171,6 +1174,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2CD5BEFD1CF1DFAB006E1E36 /* WebKit.framework in Frameworks */,
+				358ED0A026D532F9009C3510 /* Alamofire in Frameworks */,
 				B765DF6BD8F1900FE8C5AE92 /* Pods_iSisSales.framework in Frameworks */,
 				3575A09426CE73D50048DAF0 /* iPhoneNumberField in Frameworks */,
 			);
@@ -2360,6 +2364,14 @@
 			path = Syncer;
 			sourceTree = "<group>";
 		};
+		358ED09B26D4FBE0009C3510 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				358ED09C26D4FC3D009C3510 /* CoreAuthController.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
 		3593B6B023FEC8D3001F5EBB /* DebugVfs */ = {
 			isa = PBXGroup;
 			children = (
@@ -2379,6 +2391,7 @@
 		35A230E826CBF00000EA0F1A /* ☯ Login */ = {
 			isa = PBXGroup;
 			children = (
+				358ED09B26D4FBE0009C3510 /* Auth */,
 				35A230E926CBF00000EA0F1A /* Login.swift */,
 				35A230EB26CBF87300EA0F1A /* LoginUIHostingController.swift */,
 			);
@@ -2640,6 +2653,7 @@
 			name = iSisSales;
 			packageProductDependencies = (
 				3575A09326CE73D50048DAF0 /* iPhoneNumberField */,
+				358ED09F26D532F9009C3510 /* Alamofire */,
 			);
 			productName = iSisSales;
 			productReference = 2C94BFCA1CF1ACB8004476D8 /* iSisSales.app */;
@@ -2811,6 +2825,7 @@
 			mainGroup = 2C94BFC11CF1ACB8004476D8;
 			packageReferences = (
 				3575A09226CE73D50048DAF0 /* XCRemoteSwiftPackageReference "iPhoneNumberField" */,
+				358ED09E26D532F9009C3510 /* XCRemoteSwiftPackageReference "Alamofire" */,
 			);
 			productRefGroup = 2C94BFCB1CF1ACB8004476D8 /* Products */;
 			projectDirPath = "";
@@ -3121,6 +3136,7 @@
 				2CE24E2D1D226B0C0004B63C /* STMContract+CoreDataProperties.m in Sources */,
 				2CCD5DC71E36473500B84565 /* STMGarbageCollector.swift in Sources */,
 				2CD5D8741E5D7C9C00A88639 /* iSisSales.xcdatamodeld in Sources */,
+				358ED09D26D4FC3D009C3510 /* CoreAuthController.swift in Sources */,
 				2C50340F1DF5B00900687A64 /* STMArticleGroup+CoreDataProperties.m in Sources */,
 				2C0A8CB01D09903C007C5B57 /* STMVisitAnswer+CoreDataProperties.m in Sources */,
 				2C40F78B1CF203A100231E01 /* STMAuthController.m in Sources */,
@@ -5371,6 +5387,14 @@
 				version = 0.5.4;
 			};
 		};
+		358ED09E26D532F9009C3510 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.4.3;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -5378,6 +5402,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 3575A09226CE73D50048DAF0 /* XCRemoteSwiftPackageReference "iPhoneNumberField" */;
 			productName = iPhoneNumberField;
+		};
+		358ED09F26D532F9009C3510 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 358ED09E26D532F9009C3510 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
 		};
 /* End XCSwiftPackageProductDependency section */
 
