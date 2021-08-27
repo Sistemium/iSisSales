@@ -312,6 +312,7 @@
 		355322231E6DAAC10028DF5C /* UITestSetup.m in Sources */ = {isa = PBXBuildFile; fileRef = 355322221E6DAAC10028DF5C /* UITestSetup.m */; };
 		35552F2320CAB0B200ADC062 /* iSisDriver.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 35552F2120CAB0B200ADC062 /* iSisDriver.xcdatamodeld */; };
 		355CFD391E79B50C005C4EDB /* STMTestDirectoring.m in Sources */ = {isa = PBXBuildFile; fileRef = 35B53DBC1E72D5B00002230F /* STMTestDirectoring.m */; };
+		35735CD626D91FC500A918C8 /* PasswordView.dart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35735CD526D91FC500A918C8 /* PasswordView.dart.swift */; };
 		35752DA71F03EFBC00CA19AF /* STMRemotePersisterController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35752DA61F03EFBC00CA19AF /* STMRemotePersisterController.m */; };
 		3575A09426CE73D50048DAF0 /* iPhoneNumberField in Frameworks */ = {isa = PBXBuildFile; productRef = 3575A09326CE73D50048DAF0 /* iPhoneNumberField */; };
 		358ED09D26D4FC3D009C3510 /* CoreAuthController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 358ED09C26D4FC3D009C3510 /* CoreAuthController.swift */; };
@@ -992,6 +993,7 @@
 		355322211E6DAA540028DF5C /* UITestSetup.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UITestSetup.h; sourceTree = "<group>"; };
 		355322221E6DAAC10028DF5C /* UITestSetup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UITestSetup.m; sourceTree = "<group>"; };
 		35552F2220CAB0B200ADC062 /* iSisDriver.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iSisDriver.xcdatamodel; sourceTree = "<group>"; };
+		35735CD526D91FC500A918C8 /* PasswordView.dart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordView.dart.swift; sourceTree = "<group>"; };
 		35752DA51F03ED2E00CA19AF /* STMRemotePersisterController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STMRemotePersisterController.h; sourceTree = "<group>"; };
 		35752DA61F03EFBC00CA19AF /* STMRemotePersisterController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMRemotePersisterController.m; sourceTree = "<group>"; };
 		358ED09C26D4FC3D009C3510 /* CoreAuthController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreAuthController.swift; sourceTree = "<group>"; };
@@ -1458,7 +1460,7 @@
 		2C94C0001CF1B140004476D8 /* ☯ iSisCore */ = {
 			isa = PBXGroup;
 			children = (
-				35A230E826CBF00000EA0F1A /* ☯ Login */,
+				35A230E826CBF00000EA0F1A /* ☯ LoginUIHostingController */,
 				2C94C0011CF1B1BA004476D8 /* ☯ Classes */,
 				2C94C1391CF1B1F3004476D8 /* ☯ DataModel */,
 				2CD5D82F1E4DED0F00A88639 /* ☯ Protocols */,
@@ -2364,6 +2366,24 @@
 			path = Syncer;
 			sourceTree = "<group>";
 		};
+		35735CD426D91EA800A918C8 /* PasswordView */ = {
+			isa = PBXGroup;
+			children = (
+				35735CD526D91FC500A918C8 /* PasswordView.dart.swift */,
+			);
+			path = PasswordView;
+			sourceTree = "<group>";
+		};
+		35878ED326D7D2090010C306 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				35735CD426D91EA800A918C8 /* PasswordView */,
+				35A230E926CBF00000EA0F1A /* Login.swift */,
+				358ED09B26D4FBE0009C3510 /* Auth */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
 		358ED09B26D4FBE0009C3510 /* Auth */ = {
 			isa = PBXGroup;
 			children = (
@@ -2388,15 +2408,14 @@
 			path = ReleaseVfs;
 			sourceTree = "<group>";
 		};
-		35A230E826CBF00000EA0F1A /* ☯ Login */ = {
+		35A230E826CBF00000EA0F1A /* ☯ LoginUIHostingController */ = {
 			isa = PBXGroup;
 			children = (
-				358ED09B26D4FBE0009C3510 /* Auth */,
-				35A230E926CBF00000EA0F1A /* Login.swift */,
+				35878ED326D7D2090010C306 /* Login */,
 				35A230EB26CBF87300EA0F1A /* LoginUIHostingController.swift */,
 			);
-			name = "☯ Login";
-			path = ../../iSistemiumCore/iSistemiumCore/Login;
+			name = "☯ LoginUIHostingController";
+			path = ../../iSistemiumCore/iSistemiumCore/LoginUIHostingController;
 			sourceTree = "<group>";
 		};
 		35FC5A8520C93DD400DF4587 /* DebugDriver */ = {
@@ -3175,6 +3194,7 @@
 				2C94C1011CF1B1BB004476D8 /* STMCoreVolumeTVCell.m in Sources */,
 				2C94C0FB1CF1B1BB004476D8 /* STMEntityDescription.m in Sources */,
 				2C94C1381CF1B1BB004476D8 /* STMWorkflowEditablesVC.m in Sources */,
+				35735CD626D91FC500A918C8 /* PasswordView.dart.swift in Sources */,
 				2C34EDAE1E2522D1004DE82D /* STMArticlePicture+CoreDataClass.m in Sources */,
 				3550B1DC1DAE59F300F8A368 /* STMCorePicture.m in Sources */,
 				2C0A8CA51D09903C007C5B57 /* STMVisitQuestionSet.m in Sources */,
