@@ -19,7 +19,7 @@
 //      also we have to consider to get rid of iSisCore and merge separated files/dirs/classes to one
 
 - (void)startAuthController {
-    [STMAuthController authController];
+    [STMAuthController sharedAuthController];
 }
 
 - (STMCoreSessionManager *)sessionManager {
@@ -36,7 +36,7 @@
     [Fabric with:@[CrashlyticsKit]];
     
     Crashlytics *crashlytics = [Crashlytics sharedInstance];
-    STMAuthController *authController = [STMAuthController authController];
+    STMAuthController *authController = [STMAuthController sharedAuthController];
     
     [crashlytics setObjectValue:[[UIDevice currentDevice] name] forKey:@"deviceName"];
     
