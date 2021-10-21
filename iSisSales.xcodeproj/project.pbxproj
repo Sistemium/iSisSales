@@ -321,6 +321,7 @@
 		3593B6B523FEC986001F5EBB /* config.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3593B6B423FEC986001F5EBB /* config.plist */; };
 		35A230EA26CBF00000EA0F1A /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35A230E926CBF00000EA0F1A /* Login.swift */; };
 		35A230EC26CBF87300EA0F1A /* LoginUIHostingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35A230EB26CBF87300EA0F1A /* LoginUIHostingController.swift */; };
+		35A269A527205AAE00EF9C97 /* DEMO in Resources */ = {isa = PBXBuildFile; fileRef = 35A269A427205AAE00EF9C97 /* DEMO */; };
 		35A985CA1E80987500DE2299 /* NSJSONSerializationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A985C91E80987500DE2299 /* NSJSONSerializationTests.m */; };
 		35B53DBD1E72D5B00002230F /* STMTestDirectoring.m in Sources */ = {isa = PBXBuildFile; fileRef = 35B53DBC1E72D5B00002230F /* STMTestDirectoring.m */; };
 		35DB36621F139091004574A1 /* STMSyncer+RemoteData.m in Sources */ = {isa = PBXBuildFile; fileRef = 35DB36611F139091004574A1 /* STMSyncer+RemoteData.m */; };
@@ -1002,6 +1003,7 @@
 		3593B6B423FEC986001F5EBB /* config.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = config.plist; sourceTree = "<group>"; };
 		35A230E926CBF00000EA0F1A /* Login.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
 		35A230EB26CBF87300EA0F1A /* LoginUIHostingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginUIHostingController.swift; sourceTree = "<group>"; };
+		35A269A427205AAE00EF9C97 /* DEMO */ = {isa = PBXFileReference; lastKnownFileType = folder; path = DEMO; sourceTree = "<group>"; };
 		35A985C91E80987500DE2299 /* NSJSONSerializationTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSJSONSerializationTests.m; sourceTree = "<group>"; };
 		35AE9A0620C93ED800343AA3 /* config.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = config.plist; sourceTree = "<group>"; };
 		35AE9A0820C93FE500343AA3 /* config.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = config.plist; sourceTree = "<group>"; };
@@ -1975,6 +1977,7 @@
 		2C94C1C41CF1B308004476D8 /* ☯ Resources */ = {
 			isa = PBXGroup;
 			children = (
+				35A269A427205AAE00EF9C97 /* DEMO */,
 				2C907E051DA6979500326CA8 /* ☯ Sounds */,
 				2C94C1C51CF1B308004476D8 /* ☯ Images */,
 				2C94C1F11CF1B308004476D8 /* settings_schema.json */,
@@ -2895,6 +2898,7 @@
 				D920AF7D1D8D417700E825FC /* InfoPlist.strings in Resources */,
 				2C94C21D1CF1B308004476D8 /* settings_schema.json in Resources */,
 				2C94C2501CF1B3BA004476D8 /* STMProfile.storyboard in Resources */,
+				35A269A527205AAE00EF9C97 /* DEMO in Resources */,
 				2C94C21A1CF1B308004476D8 /* Upload-100.png in Resources */,
 				2C94C2161CF1B308004476D8 /* uncheckmark.png in Resources */,
 				2C94C1F81CF1B308004476D8 /* camera.png in Resources */,
