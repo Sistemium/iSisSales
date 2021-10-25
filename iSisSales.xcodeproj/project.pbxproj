@@ -324,6 +324,8 @@
 		35A269A527205AAE00EF9C97 /* DEMO in Resources */ = {isa = PBXBuildFile; fileRef = 35A269A427205AAE00EF9C97 /* DEMO */; };
 		35A985CA1E80987500DE2299 /* NSJSONSerializationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A985C91E80987500DE2299 /* NSJSONSerializationTests.m */; };
 		35B53DBD1E72D5B00002230F /* STMTestDirectoring.m in Sources */ = {isa = PBXBuildFile; fileRef = 35B53DBC1E72D5B00002230F /* STMTestDirectoring.m */; };
+		35B77F8E2726D159008B9FD9 /* ProfileUIHostingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B77F8D2726D159008B9FD9 /* ProfileUIHostingController.swift */; };
+		35B77F912726D2B3008B9FD9 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B77F902726D2B3008B9FD9 /* Profile.swift */; };
 		35DB36621F139091004574A1 /* STMSyncer+RemoteData.m in Sources */ = {isa = PBXBuildFile; fileRef = 35DB36611F139091004574A1 /* STMSyncer+RemoteData.m */; };
 		35E750D72722DAE600275E24 /* iSisSales-DEMO.db in Resources */ = {isa = PBXBuildFile; fileRef = 35E750D62722DAE600275E24 /* iSisSales-DEMO.db */; };
 		3E873491EFBF4D2FD467BB9A /* Pods_iSisSalesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFEE3E7425CEF6DC61EAF6D3 /* Pods_iSisSalesTests.framework */; };
@@ -1010,6 +1012,8 @@
 		35AE9A0820C93FE500343AA3 /* config.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = config.plist; sourceTree = "<group>"; };
 		35B53DBB1E72D5620002230F /* STMTestDirectoring.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STMTestDirectoring.h; sourceTree = "<group>"; };
 		35B53DBC1E72D5B00002230F /* STMTestDirectoring.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMTestDirectoring.m; sourceTree = "<group>"; };
+		35B77F8D2726D159008B9FD9 /* ProfileUIHostingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileUIHostingController.swift; sourceTree = "<group>"; };
+		35B77F902726D2B3008B9FD9 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 		35BA96D571E5CBAA739B97AD /* Pods-iSisSalesTestsInMemory.releasesales.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesTestsInMemory.releasesales.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesTestsInMemory/Pods-iSisSalesTestsInMemory.releasesales.xcconfig"; sourceTree = "<group>"; };
 		35DB36601F138FB4004574A1 /* STMSyncer+RemoteData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "STMSyncer+RemoteData.h"; path = "Socket/STMSyncer+RemoteData.h"; sourceTree = "<group>"; };
 		35DB36611F139091004574A1 /* STMSyncer+RemoteData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "STMSyncer+RemoteData.m"; sourceTree = "<group>"; };
@@ -1466,6 +1470,7 @@
 		2C94C0001CF1B140004476D8 /* ☯ iSisCore */ = {
 			isa = PBXGroup;
 			children = (
+				35B77F8C2726D0CB008B9FD9 /* ☯ ProfileUIHostingController */,
 				35A230E826CBF00000EA0F1A /* ☯ LoginUIHostingController */,
 				2C94C0011CF1B1BA004476D8 /* ☯ Classes */,
 				2C94C1391CF1B1F3004476D8 /* ☯ DataModel */,
@@ -2426,6 +2431,24 @@
 			path = ../../iSistemiumCore/iSistemiumCore/LoginUIHostingController;
 			sourceTree = "<group>";
 		};
+		35B77F8C2726D0CB008B9FD9 /* ☯ ProfileUIHostingController */ = {
+			isa = PBXGroup;
+			children = (
+				35B77F8F2726D290008B9FD9 /* Profile */,
+				35B77F8D2726D159008B9FD9 /* ProfileUIHostingController.swift */,
+			);
+			name = "☯ ProfileUIHostingController";
+			path = ../../iSistemiumCore/iSistemiumCore/ProfileUIHostingController;
+			sourceTree = "<group>";
+		};
+		35B77F8F2726D290008B9FD9 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				35B77F902726D2B3008B9FD9 /* Profile.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
 		35FC5A8520C93DD400DF4587 /* DebugDriver */ = {
 			isa = PBXGroup;
 			children = (
@@ -3261,6 +3284,7 @@
 				2CCD5DB31E3646EB00B84565 /* STMKeychain.m in Sources */,
 				2C6113021D0BDE7B006BCB30 /* STMLocation.m in Sources */,
 				2C4255841DFC4B3300F0BF9B /* STMSchedulePurpose+CoreDataProperties.m in Sources */,
+				35B77F8E2726D159008B9FD9 /* ProfileUIHostingController.swift in Sources */,
 				2CCD5DD01E36476800B84565 /* STMSyncer.m in Sources */,
 				D96BFEE21E5AF3B00080327D /* STMInMemoryTransaction.m in Sources */,
 				2C0A8CAE1D09903C007C5B57 /* STMPartner+CoreDataProperties.m in Sources */,
@@ -3399,6 +3423,7 @@
 				2C94C1811CF1B1F3004476D8 /* STMBatteryStatus+CoreDataProperties.m in Sources */,
 				2C94C0FC1CF1B1BB004476D8 /* STMFetchRequest.m in Sources */,
 				2C94C1001CF1B1BB004476D8 /* STMCoreVolumePicker.m in Sources */,
+				35B77F912726D2B3008B9FD9 /* Profile.swift in Sources */,
 				2CCD5DC91E36473500B84565 /* STMPredicateToSQL.m in Sources */,
 				D96BFEB21E547E950080327D /* STMFakePersisting+Async.m in Sources */,
 				2C94C11B1CF1B1BB004476D8 /* STMStoryboard.m in Sources */,
