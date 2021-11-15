@@ -2875,9 +2875,9 @@
 			);
 			mainGroup = 2C94BFC11CF1ACB8004476D8;
 			packageReferences = (
-				3575A09226CE73D50048DAF0 /* XCRemoteSwiftPackageReference "iPhoneNumberField" */,
-				358ED09E26D532F9009C3510 /* XCRemoteSwiftPackageReference "Alamofire" */,
-				3556FCD326DCECAB003E1D5F /* XCRemoteSwiftPackageReference "SwiftUI-Introspect" */,
+				3575A09226CE73D50048DAF0 /* XCRemoteSwiftPackageReference "iPhoneNumberField.git" */,
+				358ED09E26D532F9009C3510 /* XCRemoteSwiftPackageReference "Alamofire.git" */,
+				3556FCD326DCECAB003E1D5F /* XCRemoteSwiftPackageReference "SwiftUI-Introspect.git" */,
 			);
 			productRefGroup = 2C94BFCB1CF1ACB8004476D8 /* Products */;
 			projectDirPath = "";
@@ -5436,7 +5436,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		3556FCD326DCECAB003E1D5F /* XCRemoteSwiftPackageReference "SwiftUI-Introspect" */ = {
+		3556FCD326DCECAB003E1D5F /* XCRemoteSwiftPackageReference "SwiftUI-Introspect.git" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/siteline/SwiftUI-Introspect.git";
 			requirement = {
@@ -5444,7 +5444,7 @@
 				minimumVersion = 0.1.3;
 			};
 		};
-		3575A09226CE73D50048DAF0 /* XCRemoteSwiftPackageReference "iPhoneNumberField" */ = {
+		3575A09226CE73D50048DAF0 /* XCRemoteSwiftPackageReference "iPhoneNumberField.git" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/MojtabaHs/iPhoneNumberField.git";
 			requirement = {
@@ -5452,7 +5452,7 @@
 				version = 0.5.4;
 			};
 		};
-		358ED09E26D532F9009C3510 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+		358ED09E26D532F9009C3510 /* XCRemoteSwiftPackageReference "Alamofire.git" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
 			requirement = {
@@ -5465,17 +5465,17 @@
 /* Begin XCSwiftPackageProductDependency section */
 		3556FCD426DCECAB003E1D5F /* Introspect */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 3556FCD326DCECAB003E1D5F /* XCRemoteSwiftPackageReference "SwiftUI-Introspect" */;
+			package = 3556FCD326DCECAB003E1D5F /* XCRemoteSwiftPackageReference "SwiftUI-Introspect.git" */;
 			productName = Introspect;
 		};
 		3575A09326CE73D50048DAF0 /* iPhoneNumberField */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 3575A09226CE73D50048DAF0 /* XCRemoteSwiftPackageReference "iPhoneNumberField" */;
+			package = 3575A09226CE73D50048DAF0 /* XCRemoteSwiftPackageReference "iPhoneNumberField.git" */;
 			productName = iPhoneNumberField;
 		};
 		358ED09F26D532F9009C3510 /* Alamofire */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 358ED09E26D532F9009C3510 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			package = 358ED09E26D532F9009C3510 /* XCRemoteSwiftPackageReference "Alamofire.git" */;
 			productName = Alamofire;
 		};
 /* End XCSwiftPackageProductDependency section */

@@ -13,3 +13,4 @@ fabric.sh
 
 .DS_Store
 .idea
+.build
