@@ -315,7 +315,6 @@
 		355CFD391E79B50C005C4EDB /* STMTestDirectoring.m in Sources */ = {isa = PBXBuildFile; fileRef = 35B53DBC1E72D5B00002230F /* STMTestDirectoring.m */; };
 		35735CD626D91FC500A918C8 /* PasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35735CD526D91FC500A918C8 /* PasswordView.swift */; };
 		35752DA71F03EFBC00CA19AF /* STMRemotePersisterController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35752DA61F03EFBC00CA19AF /* STMRemotePersisterController.m */; };
-		3575A09426CE73D50048DAF0 /* iPhoneNumberField in Frameworks */ = {isa = PBXBuildFile; productRef = 3575A09326CE73D50048DAF0 /* iPhoneNumberField */; };
 		358ED09D26D4FC3D009C3510 /* CoreAuthController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 358ED09C26D4FC3D009C3510 /* CoreAuthController.swift */; };
 		358ED0A026D532F9009C3510 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 358ED09F26D532F9009C3510 /* Alamofire */; };
 		3593B6B523FEC986001F5EBB /* config.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3593B6B423FEC986001F5EBB /* config.plist */; };
@@ -374,6 +373,7 @@
 		D9F7DE0E2084BF6900AF5472 /* ZebraIosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F7DE0D2084BF6900AF5472 /* ZebraIosTests.m */; };
 		D9F7DE112085D7D500AF5472 /* ZBRBarcodeTypes.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F7DE0F2085D7D500AF5472 /* ZBRBarcodeTypes.m */; };
 		D9F7DE15208A15E300AF5472 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D9F7DE14208A15E300AF5472 /* Settings.bundle */; };
+		DF17F374066B52D7EF00203A /* PhoneNumberInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF17F4D731806DB72FD4F0B8 /* PhoneNumberInput.swift */; };
 		ED19D6BEB9F34012551638E9 /* Pods_iSisSalesOfLibsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA69E3A73683282867CEBDE0 /* Pods_iSisSalesOfLibsTests.framework */; };
 		FAE64EC276F58CF623841B59 /* Pods_iSisSalesSpeedTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A5E8F9623682BCCB7081A46 /* Pods_iSisSalesSpeedTests.framework */; };
 /* End PBXBuildFile section */
@@ -1163,6 +1163,7 @@
 		DBFB42CC13F54305F628400C /* Pods-iSisSalesTests.release sales.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesTests.release sales.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesTests/Pods-iSisSalesTests.release sales.xcconfig"; sourceTree = "<group>"; };
 		DC4D6D1117EE8212D7FBD798 /* Pods-iSisSalesOfLibsTests.debugdriver.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesOfLibsTests.debugdriver.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesOfLibsTests/Pods-iSisSalesOfLibsTests.debugdriver.xcconfig"; sourceTree = "<group>"; };
 		DCA90AA60896539F073A1271 /* Pods-iSisSalesOfLibsTests.releasevfs.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesOfLibsTests.releasevfs.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesOfLibsTests/Pods-iSisSalesOfLibsTests.releasevfs.xcconfig"; sourceTree = "<group>"; };
+		DF17F4D731806DB72FD4F0B8 /* PhoneNumberInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhoneNumberInput.swift; sourceTree = "<group>"; };
 		E365F74D0A4211BC8B9E04A5 /* Pods-iSisSalesTestsInMemory.debugsales.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesTestsInMemory.debugsales.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesTestsInMemory/Pods-iSisSalesTestsInMemory.debugsales.xcconfig"; sourceTree = "<group>"; };
 		E39A6A53AA65BA2768BF58B7 /* Pods-iSisSalesSpeedTests.debugsales.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesSpeedTests.debugsales.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesSpeedTests/Pods-iSisSalesSpeedTests.debugsales.xcconfig"; sourceTree = "<group>"; };
 		E40623DC4ABD0FB0D719ED86 /* Pods-iSisSales.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSales.release.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSales/Pods-iSisSales.release.xcconfig"; sourceTree = "<group>"; };
@@ -1188,7 +1189,6 @@
 				358ED0A026D532F9009C3510 /* Alamofire in Frameworks */,
 				3556FCD526DCECAB003E1D5F /* Introspect in Frameworks */,
 				B765DF6BD8F1900FE8C5AE92 /* Pods_iSisSales.framework in Frameworks */,
-				3575A09426CE73D50048DAF0 /* iPhoneNumberField in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2393,6 +2393,7 @@
 				35735CD426D91EA800A918C8 /* PasswordView */,
 				35A230E926CBF00000EA0F1A /* Login.swift */,
 				358ED09B26D4FBE0009C3510 /* Auth */,
+				DF17FD61FEEEDD901B498D22 /* PhoneNumberInput */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -2681,6 +2682,14 @@
 			path = Scanner;
 			sourceTree = "<group>";
 		};
+		DF17FD61FEEEDD901B498D22 /* PhoneNumberInput */ = {
+			isa = PBXGroup;
+			children = (
+				DF17F4D731806DB72FD4F0B8 /* PhoneNumberInput.swift */,
+			);
+			path = PhoneNumberInput;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -2702,7 +2711,6 @@
 			);
 			name = iSisSales;
 			packageProductDependencies = (
-				3575A09326CE73D50048DAF0 /* iPhoneNumberField */,
 				358ED09F26D532F9009C3510 /* Alamofire */,
 				3556FCD426DCECAB003E1D5F /* Introspect */,
 			);
@@ -2875,9 +2883,8 @@
 			);
 			mainGroup = 2C94BFC11CF1ACB8004476D8;
 			packageReferences = (
-				3575A09226CE73D50048DAF0 /* XCRemoteSwiftPackageReference "iPhoneNumberField.git" */,
-				358ED09E26D532F9009C3510 /* XCRemoteSwiftPackageReference "Alamofire.git" */,
-				3556FCD326DCECAB003E1D5F /* XCRemoteSwiftPackageReference "SwiftUI-Introspect.git" */,
+				358ED09E26D532F9009C3510 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				3556FCD326DCECAB003E1D5F /* XCRemoteSwiftPackageReference "SwiftUI-Introspect" */,
 			);
 			productRefGroup = 2C94BFCB1CF1ACB8004476D8 /* Products */;
 			projectDirPath = "";
@@ -3434,6 +3441,7 @@
 				68263F633FC119BD0DB62B3B /* STMBarCodeZebra.m in Sources */,
 				68263B9FE2ED5A3ECE6BF70E /* STMCoreWKWebViewVC+Navigation.m in Sources */,
 				68263B525E88F5D3AB473939 /* STMCoreWKWebViewVC+ScriptMessaging.m in Sources */,
+				DF17F374066B52D7EF00203A /* PhoneNumberInput.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -5436,7 +5444,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		3556FCD326DCECAB003E1D5F /* XCRemoteSwiftPackageReference "SwiftUI-Introspect.git" */ = {
+		3556FCD326DCECAB003E1D5F /* XCRemoteSwiftPackageReference "SwiftUI-Introspect" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/siteline/SwiftUI-Introspect.git";
 			requirement = {
@@ -5444,15 +5452,7 @@
 				minimumVersion = 0.1.3;
 			};
 		};
-		3575A09226CE73D50048DAF0 /* XCRemoteSwiftPackageReference "iPhoneNumberField.git" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/MojtabaHs/iPhoneNumberField.git";
-			requirement = {
-				kind = exactVersion;
-				version = 0.5.4;
-			};
-		};
-		358ED09E26D532F9009C3510 /* XCRemoteSwiftPackageReference "Alamofire.git" */ = {
+		358ED09E26D532F9009C3510 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
 			requirement = {
@@ -5465,17 +5465,12 @@
 /* Begin XCSwiftPackageProductDependency section */
 		3556FCD426DCECAB003E1D5F /* Introspect */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 3556FCD326DCECAB003E1D5F /* XCRemoteSwiftPackageReference "SwiftUI-Introspect.git" */;
+			package = 3556FCD326DCECAB003E1D5F /* XCRemoteSwiftPackageReference "SwiftUI-Introspect" */;
 			productName = Introspect;
-		};
-		3575A09326CE73D50048DAF0 /* iPhoneNumberField */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 3575A09226CE73D50048DAF0 /* XCRemoteSwiftPackageReference "iPhoneNumberField.git" */;
-			productName = iPhoneNumberField;
 		};
 		358ED09F26D532F9009C3510 /* Alamofire */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 358ED09E26D532F9009C3510 /* XCRemoteSwiftPackageReference "Alamofire.git" */;
+			package = 358ED09E26D532F9009C3510 /* XCRemoteSwiftPackageReference "Alamofire" */;
 			productName = Alamofire;
 		};
 /* End XCSwiftPackageProductDependency section */
