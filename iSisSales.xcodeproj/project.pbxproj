@@ -313,18 +313,18 @@
 		35552F2320CAB0B200ADC062 /* iSisDriver.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 35552F2120CAB0B200ADC062 /* iSisDriver.xcdatamodeld */; };
 		3556FCD526DCECAB003E1D5F /* Introspect in Frameworks */ = {isa = PBXBuildFile; productRef = 3556FCD426DCECAB003E1D5F /* Introspect */; };
 		355CFD391E79B50C005C4EDB /* STMTestDirectoring.m in Sources */ = {isa = PBXBuildFile; fileRef = 35B53DBC1E72D5B00002230F /* STMTestDirectoring.m */; };
-		35735CD626D91FC500A918C8 /* PasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35735CD526D91FC500A918C8 /* PasswordView.swift */; };
 		35752DA71F03EFBC00CA19AF /* STMRemotePersisterController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35752DA61F03EFBC00CA19AF /* STMRemotePersisterController.m */; };
-		358ED09D26D4FC3D009C3510 /* CoreAuthController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 358ED09C26D4FC3D009C3510 /* CoreAuthController.swift */; };
 		358ED0A026D532F9009C3510 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 358ED09F26D532F9009C3510 /* Alamofire */; };
 		3593B6B523FEC986001F5EBB /* config.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3593B6B423FEC986001F5EBB /* config.plist */; };
-		35A230EA26CBF00000EA0F1A /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35A230E926CBF00000EA0F1A /* Login.swift */; };
-		35A230EC26CBF87300EA0F1A /* LoginUIHostingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35A230EB26CBF87300EA0F1A /* LoginUIHostingController.swift */; };
 		35A269A527205AAE00EF9C97 /* DEMO in Resources */ = {isa = PBXBuildFile; fileRef = 35A269A427205AAE00EF9C97 /* DEMO */; };
 		35A985CA1E80987500DE2299 /* NSJSONSerializationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A985C91E80987500DE2299 /* NSJSONSerializationTests.m */; };
 		35B53DBD1E72D5B00002230F /* STMTestDirectoring.m in Sources */ = {isa = PBXBuildFile; fileRef = 35B53DBC1E72D5B00002230F /* STMTestDirectoring.m */; };
-		35B77F8E2726D159008B9FD9 /* ProfileUIHostingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B77F8D2726D159008B9FD9 /* ProfileUIHostingController.swift */; };
-		35B77F912726D2B3008B9FD9 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B77F902726D2B3008B9FD9 /* Profile.swift */; };
+		35B7D44F274FDDE600855E23 /* ProfileUIHostingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35BD4083274FD8F8006364AE /* ProfileUIHostingController.swift */; };
+		35B7D450274FDDEA00855E23 /* LoginUIHostingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35BD4085274FD8F8006364AE /* LoginUIHostingController.swift */; };
+		35B7D451274FDE0400855E23 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35BD4087274FD8F9006364AE /* Profile.swift */; };
+		35B7D452274FDE0900855E23 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35BD4089274FD8F9006364AE /* Login.swift */; };
+		35B7D453274FDE0D00855E23 /* PasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35BD408B274FD8F9006364AE /* PasswordView.swift */; };
+		35B7D454274FDE3900855E23 /* CoreAuthController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35BD408D274FD8F9006364AE /* CoreAuthController.swift */; };
 		35DB36621F139091004574A1 /* STMSyncer+RemoteData.m in Sources */ = {isa = PBXBuildFile; fileRef = 35DB36611F139091004574A1 /* STMSyncer+RemoteData.m */; };
 		35E750D72722DAE600275E24 /* iSisSales-DEMO.db in Resources */ = {isa = PBXBuildFile; fileRef = 35E750D62722DAE600275E24 /* iSisSales-DEMO.db */; };
 		3E873491EFBF4D2FD467BB9A /* Pods_iSisSalesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFEE3E7425CEF6DC61EAF6D3 /* Pods_iSisSalesTests.framework */; };
@@ -997,23 +997,23 @@
 		355322211E6DAA540028DF5C /* UITestSetup.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UITestSetup.h; sourceTree = "<group>"; };
 		355322221E6DAAC10028DF5C /* UITestSetup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UITestSetup.m; sourceTree = "<group>"; };
 		35552F2220CAB0B200ADC062 /* iSisDriver.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iSisDriver.xcdatamodel; sourceTree = "<group>"; };
-		35735CD526D91FC500A918C8 /* PasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordView.swift; sourceTree = "<group>"; };
 		35752DA51F03ED2E00CA19AF /* STMRemotePersisterController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STMRemotePersisterController.h; sourceTree = "<group>"; };
 		35752DA61F03EFBC00CA19AF /* STMRemotePersisterController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMRemotePersisterController.m; sourceTree = "<group>"; };
-		358ED09C26D4FC3D009C3510 /* CoreAuthController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreAuthController.swift; sourceTree = "<group>"; };
 		3593B6B223FEC971001F5EBB /* config.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = config.plist; sourceTree = "<group>"; };
 		3593B6B423FEC986001F5EBB /* config.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = config.plist; sourceTree = "<group>"; };
-		35A230E926CBF00000EA0F1A /* Login.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
-		35A230EB26CBF87300EA0F1A /* LoginUIHostingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginUIHostingController.swift; sourceTree = "<group>"; };
 		35A269A427205AAE00EF9C97 /* DEMO */ = {isa = PBXFileReference; lastKnownFileType = folder; path = DEMO; sourceTree = "<group>"; };
 		35A985C91E80987500DE2299 /* NSJSONSerializationTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSJSONSerializationTests.m; sourceTree = "<group>"; };
 		35AE9A0620C93ED800343AA3 /* config.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = config.plist; sourceTree = "<group>"; };
 		35AE9A0820C93FE500343AA3 /* config.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = config.plist; sourceTree = "<group>"; };
 		35B53DBB1E72D5620002230F /* STMTestDirectoring.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STMTestDirectoring.h; sourceTree = "<group>"; };
 		35B53DBC1E72D5B00002230F /* STMTestDirectoring.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMTestDirectoring.m; sourceTree = "<group>"; };
-		35B77F8D2726D159008B9FD9 /* ProfileUIHostingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileUIHostingController.swift; sourceTree = "<group>"; };
-		35B77F902726D2B3008B9FD9 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 		35BA96D571E5CBAA739B97AD /* Pods-iSisSalesTestsInMemory.releasesales.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesTestsInMemory.releasesales.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesTestsInMemory/Pods-iSisSalesTestsInMemory.releasesales.xcconfig"; sourceTree = "<group>"; };
+		35BD4083274FD8F8006364AE /* ProfileUIHostingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileUIHostingController.swift; sourceTree = "<group>"; };
+		35BD4085274FD8F8006364AE /* LoginUIHostingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginUIHostingController.swift; sourceTree = "<group>"; };
+		35BD4087274FD8F9006364AE /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		35BD4089274FD8F9006364AE /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		35BD408B274FD8F9006364AE /* PasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordView.swift; sourceTree = "<group>"; };
+		35BD408D274FD8F9006364AE /* CoreAuthController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreAuthController.swift; sourceTree = "<group>"; };
 		35DB36601F138FB4004574A1 /* STMSyncer+RemoteData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "STMSyncer+RemoteData.h"; path = "Socket/STMSyncer+RemoteData.h"; sourceTree = "<group>"; };
 		35DB36611F139091004574A1 /* STMSyncer+RemoteData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "STMSyncer+RemoteData.m"; sourceTree = "<group>"; };
 		35E414511EEAD597005BF054 /* STMAdapting.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STMAdapting.h; sourceTree = "<group>"; };
@@ -1422,7 +1422,6 @@
 				2C94C25C1CF1B46E004476D8 /* Classes */,
 				2C94C19D1CF1B234004476D8 /* DataModel */,
 				2C94C21E1CF1B352004476D8 /* Resources */,
-				2C94C25D1CF1B4BC004476D8 /* Storyboards */,
 				2C94BFCD1CF1ACB8004476D8 /* Supporting Files */,
 				2C94C2641CF1B78D004476D8 /* iSistemium-Bridging-Header.h */,
 				2C94C25E1CF1B771004476D8 /* STMAppDelegate.h */,
@@ -1468,8 +1467,7 @@
 		2C94C0001CF1B140004476D8 /* ☯ iSisCore */ = {
 			isa = PBXGroup;
 			children = (
-				35B77F8C2726D0CB008B9FD9 /* ☯ ProfileUIHostingController */,
-				35A230E826CBF00000EA0F1A /* ☯ LoginUIHostingController */,
+				35BD4081274FD8EF006364AE /* SwiftUI */,
 				2C94C0011CF1B1BA004476D8 /* ☯ Classes */,
 				2C94C1391CF1B1F3004476D8 /* ☯ DataModel */,
 				2CD5D82F1E4DED0F00A88639 /* ☯ Protocols */,
@@ -2045,8 +2043,6 @@
 		2C94C21E1CF1B352004476D8 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				2C94C26D1CF1B870004476D8 /* Images */,
-				2C94C26C1CF1B860004476D8 /* Sounds */,
 				2C94C21F1CF1B36F004476D8 /* iphoneTabs.json */,
 				2C94C2201CF1B36F004476D8 /* settings.json */,
 				2CD5BF0A1CF1E780006E1E36 /* Localizable.strings */,
@@ -2086,13 +2082,6 @@
 				2C94C26A1CF1B818004476D8 /* Views */,
 			);
 			path = Classes;
-			sourceTree = "<group>";
-		};
-		2C94C25D1CF1B4BC004476D8 /* Storyboards */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Storyboards;
 			sourceTree = "<group>";
 		};
 		2C94C2651CF1B7C9004476D8 /* STMUI */ = {
@@ -2156,20 +2145,6 @@
 				2C40F7961CF2056700231E01 /* STMNS.h */,
 			);
 			path = STMNS;
-			sourceTree = "<group>";
-		};
-		2C94C26C1CF1B860004476D8 /* Sounds */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Sounds;
-			sourceTree = "<group>";
-		};
-		2C94C26D1CF1B870004476D8 /* Images */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Images;
 			sourceTree = "<group>";
 		};
 		2CCF554B1EA4E67A00A54B64 /* config */ = {
@@ -2377,32 +2352,6 @@
 			path = Syncer;
 			sourceTree = "<group>";
 		};
-		35735CD426D91EA800A918C8 /* PasswordView */ = {
-			isa = PBXGroup;
-			children = (
-				35735CD526D91FC500A918C8 /* PasswordView.swift */,
-			);
-			path = PasswordView;
-			sourceTree = "<group>";
-		};
-		35878ED326D7D2090010C306 /* Login */ = {
-			isa = PBXGroup;
-			children = (
-				35735CD426D91EA800A918C8 /* PasswordView */,
-				35A230E926CBF00000EA0F1A /* Login.swift */,
-				358ED09B26D4FBE0009C3510 /* Auth */,
-			);
-			path = Login;
-			sourceTree = "<group>";
-		};
-		358ED09B26D4FBE0009C3510 /* Auth */ = {
-			isa = PBXGroup;
-			children = (
-				358ED09C26D4FC3D009C3510 /* CoreAuthController.swift */,
-			);
-			path = Auth;
-			sourceTree = "<group>";
-		};
 		3593B6B023FEC8D3001F5EBB /* DebugVfs */ = {
 			isa = PBXGroup;
 			children = (
@@ -2419,32 +2368,66 @@
 			path = ReleaseVfs;
 			sourceTree = "<group>";
 		};
-		35A230E826CBF00000EA0F1A /* ☯ LoginUIHostingController */ = {
+		35BD4081274FD8EF006364AE /* SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				35878ED326D7D2090010C306 /* Login */,
-				35A230EB26CBF87300EA0F1A /* LoginUIHostingController.swift */,
+				35BD4082274FD8F8006364AE /* ProfileUIHostingController */,
+				35BD4084274FD8F8006364AE /* LoginUIHostingController */,
 			);
-			name = "☯ LoginUIHostingController";
-			path = ../../iSistemiumCore/iSistemiumCore/LoginUIHostingController;
+			name = SwiftUI;
+			path = ../../iSistemiumCore/iSistemiumCore/SwiftUI;
 			sourceTree = "<group>";
 		};
-		35B77F8C2726D0CB008B9FD9 /* ☯ ProfileUIHostingController */ = {
+		35BD4082274FD8F8006364AE /* ProfileUIHostingController */ = {
 			isa = PBXGroup;
 			children = (
-				35B77F8F2726D290008B9FD9 /* Profile */,
-				35B77F8D2726D159008B9FD9 /* ProfileUIHostingController.swift */,
+				35BD4086274FD8F9006364AE /* Profile */,
+				35BD4083274FD8F8006364AE /* ProfileUIHostingController.swift */,
 			);
-			name = "☯ ProfileUIHostingController";
-			path = ../../iSistemiumCore/iSistemiumCore/ProfileUIHostingController;
+			path = ProfileUIHostingController;
 			sourceTree = "<group>";
 		};
-		35B77F8F2726D290008B9FD9 /* Profile */ = {
+		35BD4084274FD8F8006364AE /* LoginUIHostingController */ = {
 			isa = PBXGroup;
 			children = (
-				35B77F902726D2B3008B9FD9 /* Profile.swift */,
+				35BD4088274FD8F9006364AE /* Login */,
+				35BD4085274FD8F8006364AE /* LoginUIHostingController.swift */,
+			);
+			path = LoginUIHostingController;
+			sourceTree = "<group>";
+		};
+		35BD4086274FD8F9006364AE /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				35BD4087274FD8F9006364AE /* Profile.swift */,
 			);
 			path = Profile;
+			sourceTree = "<group>";
+		};
+		35BD4088274FD8F9006364AE /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				35BD408A274FD8F9006364AE /* PasswordView */,
+				35BD4089274FD8F9006364AE /* Login.swift */,
+				35BD408C274FD8F9006364AE /* Auth */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		35BD408A274FD8F9006364AE /* PasswordView */ = {
+			isa = PBXGroup;
+			children = (
+				35BD408B274FD8F9006364AE /* PasswordView.swift */,
+			);
+			path = PasswordView;
+			sourceTree = "<group>";
+		};
+		35BD408C274FD8F9006364AE /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				35BD408D274FD8F9006364AE /* CoreAuthController.swift */,
+			);
+			path = Auth;
 			sourceTree = "<group>";
 		};
 		35FC5A8520C93DD400DF4587 /* DebugDriver */ = {
@@ -2872,8 +2855,8 @@
 			);
 			mainGroup = 2C94BFC11CF1ACB8004476D8;
 			packageReferences = (
-				358ED09E26D532F9009C3510 /* XCRemoteSwiftPackageReference "Alamofire.git" */,
-				3556FCD326DCECAB003E1D5F /* XCRemoteSwiftPackageReference "SwiftUI-Introspect.git" */,
+				358ED09E26D532F9009C3510 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				3556FCD326DCECAB003E1D5F /* XCRemoteSwiftPackageReference "SwiftUI-Introspect" */,
 			);
 			productRefGroup = 2C94BFCB1CF1ACB8004476D8 /* Products */;
 			projectDirPath = "";
@@ -3031,7 +3014,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "source ./fabric.sh";
+			shellScript = "source ./fabric.sh\n";
 		};
 		2CCF551E1EA4AF5400A54B64 /* Copy Configuration File(s) */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -3186,7 +3169,6 @@
 				2CE24E2D1D226B0C0004B63C /* STMContract+CoreDataProperties.m in Sources */,
 				2CCD5DC71E36473500B84565 /* STMGarbageCollector.swift in Sources */,
 				2CD5D8741E5D7C9C00A88639 /* iSisSales.xcdatamodeld in Sources */,
-				358ED09D26D4FC3D009C3510 /* CoreAuthController.swift in Sources */,
 				2C50340F1DF5B00900687A64 /* STMArticleGroup+CoreDataProperties.m in Sources */,
 				2C0A8CB01D09903C007C5B57 /* STMVisitAnswer+CoreDataProperties.m in Sources */,
 				2C40F78B1CF203A100231E01 /* STMAuthController.m in Sources */,
@@ -3225,7 +3207,6 @@
 				2C94C1011CF1B1BB004476D8 /* STMCoreVolumeTVCell.m in Sources */,
 				2C94C0FB1CF1B1BB004476D8 /* STMEntityDescription.m in Sources */,
 				2C94C1381CF1B1BB004476D8 /* STMWorkflowEditablesVC.m in Sources */,
-				35735CD626D91FC500A918C8 /* PasswordView.swift in Sources */,
 				2C34EDAE1E2522D1004DE82D /* STMArticlePicture+CoreDataClass.m in Sources */,
 				3550B1DC1DAE59F300F8A368 /* STMCorePicture.m in Sources */,
 				2C0A8CA51D09903C007C5B57 /* STMVisitQuestionSet.m in Sources */,
@@ -3235,6 +3216,7 @@
 				2CCD5D9C1E3646BE00B84565 /* STMCoreSessionManager.m in Sources */,
 				2C94C0F01CF1B1BB004476D8 /* STMClientEntityController.m in Sources */,
 				2C09C7401E471A9900D88DFD /* STMSyncerHelper+Downloading.m in Sources */,
+				35B7D453274FDE0D00855E23 /* PasswordView.swift in Sources */,
 				3550B1DD1DAE59F300F8A368 /* STMCorePicture+CoreDataProperties.m in Sources */,
 				2C94C1371CF1B1BB004476D8 /* STMCoreWKWebViewVC.m in Sources */,
 				2C0A8CA61D09903C007C5B57 /* STMOutlet+CoreDataProperties.m in Sources */,
@@ -3251,6 +3233,7 @@
 				2C6113011D0BDE7B006BCB30 /* STMLocation+CoreDataProperties.m in Sources */,
 				2C5033E51DF5AF4F00687A64 /* STMOutlet+CoreDataClass.m in Sources */,
 				2C94C1061CF1B1BB004476D8 /* STMCustom2TVCell.m in Sources */,
+				35B7D452274FDE0900855E23 /* Login.swift in Sources */,
 				2C94C0FE1CF1B1BB004476D8 /* STMActionPopoverNC.m in Sources */,
 				2CC2D3041D13E0A90026EB72 /* STMVisitPhoto+CoreDataProperties.m in Sources */,
 				2C94C1831CF1B1F3004476D8 /* STMClientData+CoreDataProperties.m in Sources */,
@@ -3268,7 +3251,7 @@
 				2C40F78F1CF203A100231E01 /* STMSettingsController.m in Sources */,
 				2C94C1021CF1B1BB004476D8 /* STMCustom10TVCell.m in Sources */,
 				2C94C12E1CF1B1BB004476D8 /* STMScannerInfoNC.m in Sources */,
-				35A230EC26CBF87300EA0F1A /* LoginUIHostingController.swift in Sources */,
+				35B7D450274FDDEA00855E23 /* LoginUIHostingController.swift in Sources */,
 				2C94C1031CF1B1BB004476D8 /* STMCustom1CVCell.m in Sources */,
 				2CCD5D8E1E36468000B84565 /* STMBarCodeScanner.m in Sources */,
 				2C94C1211CF1B1BB004476D8 /* STMAuthNC.m in Sources */,
@@ -3280,7 +3263,6 @@
 				2CCD5DB31E3646EB00B84565 /* STMKeychain.m in Sources */,
 				2C6113021D0BDE7B006BCB30 /* STMLocation.m in Sources */,
 				2C4255841DFC4B3300F0BF9B /* STMSchedulePurpose+CoreDataProperties.m in Sources */,
-				35B77F8E2726D159008B9FD9 /* ProfileUIHostingController.swift in Sources */,
 				2CCD5DD01E36476800B84565 /* STMSyncer.m in Sources */,
 				D96BFEE21E5AF3B00080327D /* STMInMemoryTransaction.m in Sources */,
 				2C0A8CAE1D09903C007C5B57 /* STMPartner+CoreDataProperties.m in Sources */,
@@ -3366,7 +3348,6 @@
 				2CD5D82C1E4DEC8F00A88639 /* STMLogger.m in Sources */,
 				35DB36621F139091004574A1 /* STMSyncer+RemoteData.m in Sources */,
 				2C94C18A1CF1B1F3004476D8 /* STMDatum.m in Sources */,
-				35A230EA26CBF00000EA0F1A /* Login.swift in Sources */,
 				2C6113031D0BDE7B006BCB30 /* STMVisit+CoreDataProperties.m in Sources */,
 				2C94C0F51CF1B1BB004476D8 /* STMCorePicturesController.m in Sources */,
 				2C94C1991CF1B1F3004476D8 /* STMSetting+CoreDataProperties.m in Sources */,
@@ -3374,6 +3355,7 @@
 				2C94C1091CF1B1BB004476D8 /* STMCustom5TVCell.m in Sources */,
 				2C94C2591CF1B3D8004476D8 /* STMCoreAppDelegate.m in Sources */,
 				2C94C1131CF1B1BB004476D8 /* STMInfoTableViewCell.m in Sources */,
+				35B7D454274FDE3900855E23 /* CoreAuthController.swift in Sources */,
 				2CCD5DB91E3646EB00B84565 /* STMUserDefaults.m in Sources */,
 				2C9AE9A01CF5AF690018D9B3 /* STMJson.m in Sources */,
 				2CFA30361D50DBF300BB9E35 /* STMOutletPhoto+CoreDataProperties.m in Sources */,
@@ -3405,6 +3387,7 @@
 				2C4255811DFC4B3300F0BF9B /* STMSchedule+CoreDataClass.m in Sources */,
 				2C94C0FD1CF1B1BB004476D8 /* STMPredicate.m in Sources */,
 				2CD5D8951E6AADE500A88639 /* STMPersistingInterceptorUniqueProperty.m in Sources */,
+				35B7D451274FDE0400855E23 /* Profile.swift in Sources */,
 				2C73666A1E32470400DD0D45 /* STMSyncerHelper.m in Sources */,
 				2C94C1281CF1B1BB004476D8 /* STMLogMessagesSVC.m in Sources */,
 				D9E197401E5F0E7500F8FC18 /* STMOperationQueue.m in Sources */,
@@ -3416,10 +3399,10 @@
 				2C5034191DF5B00900687A64 /* STMPrice+CoreDataProperties.m in Sources */,
 				D96BFEB31E547E950080327D /* STMFakePersisting+Promised.m in Sources */,
 				2C50340C1DF5B00900687A64 /* STMSaleOrderPosition+CoreDataClass.m in Sources */,
+				35B7D44F274FDDE600855E23 /* ProfileUIHostingController.swift in Sources */,
 				2C94C1811CF1B1F3004476D8 /* STMBatteryStatus+CoreDataProperties.m in Sources */,
 				2C94C0FC1CF1B1BB004476D8 /* STMFetchRequest.m in Sources */,
 				2C94C1001CF1B1BB004476D8 /* STMCoreVolumePicker.m in Sources */,
-				35B77F912726D2B3008B9FD9 /* Profile.swift in Sources */,
 				2CCD5DC91E36473500B84565 /* STMPredicateToSQL.m in Sources */,
 				D96BFEB21E547E950080327D /* STMFakePersisting+Async.m in Sources */,
 				2C94C11B1CF1B1BB004476D8 /* STMStoryboard.m in Sources */,
@@ -5432,7 +5415,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		3556FCD326DCECAB003E1D5F /* XCRemoteSwiftPackageReference "SwiftUI-Introspect.git" */ = {
+		3556FCD326DCECAB003E1D5F /* XCRemoteSwiftPackageReference "SwiftUI-Introspect" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/siteline/SwiftUI-Introspect.git";
 			requirement = {
@@ -5440,7 +5423,7 @@
 				minimumVersion = 0.1.3;
 			};
 		};
-		358ED09E26D532F9009C3510 /* XCRemoteSwiftPackageReference "Alamofire.git" */ = {
+		358ED09E26D532F9009C3510 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
 			requirement = {
@@ -5453,12 +5436,12 @@
 /* Begin XCSwiftPackageProductDependency section */
 		3556FCD426DCECAB003E1D5F /* Introspect */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 3556FCD326DCECAB003E1D5F /* XCRemoteSwiftPackageReference "SwiftUI-Introspect.git" */;
+			package = 3556FCD326DCECAB003E1D5F /* XCRemoteSwiftPackageReference "SwiftUI-Introspect" */;
 			productName = Introspect;
 		};
 		358ED09F26D532F9009C3510 /* Alamofire */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 358ED09E26D532F9009C3510 /* XCRemoteSwiftPackageReference "Alamofire.git" */;
+			package = 358ED09E26D532F9009C3510 /* XCRemoteSwiftPackageReference "Alamofire" */;
 			productName = Alamofire;
 		};
 /* End XCSwiftPackageProductDependency section */
