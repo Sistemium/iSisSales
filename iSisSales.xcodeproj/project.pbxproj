@@ -314,6 +314,7 @@
 		3556FCD526DCECAB003E1D5F /* Introspect in Frameworks */ = {isa = PBXBuildFile; productRef = 3556FCD426DCECAB003E1D5F /* Introspect */; };
 		355CFD391E79B50C005C4EDB /* STMTestDirectoring.m in Sources */ = {isa = PBXBuildFile; fileRef = 35B53DBC1E72D5B00002230F /* STMTestDirectoring.m */; };
 		35752DA71F03EFBC00CA19AF /* STMRemotePersisterController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35752DA61F03EFBC00CA19AF /* STMRemotePersisterController.m */; };
+		358926F12751284600934DBC /* STMLoading.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 358926F02751284600934DBC /* STMLoading.storyboard */; };
 		358ED0A026D532F9009C3510 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 358ED09F26D532F9009C3510 /* Alamofire */; };
 		3593B6B523FEC986001F5EBB /* config.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3593B6B423FEC986001F5EBB /* config.plist */; };
 		35A269A527205AAE00EF9C97 /* DEMO in Resources */ = {isa = PBXBuildFile; fileRef = 35A269A427205AAE00EF9C97 /* DEMO */; };
@@ -327,6 +328,8 @@
 		35B7D454274FDE3900855E23 /* CoreAuthController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35BD408D274FD8F9006364AE /* CoreAuthController.swift */; };
 		35DB36621F139091004574A1 /* STMSyncer+RemoteData.m in Sources */ = {isa = PBXBuildFile; fileRef = 35DB36611F139091004574A1 /* STMSyncer+RemoteData.m */; };
 		35E750D72722DAE600275E24 /* iSisSales-DEMO.db in Resources */ = {isa = PBXBuildFile; fileRef = 35E750D62722DAE600275E24 /* iSisSales-DEMO.db */; };
+		35FC7A8F2751153F004BC056 /* LoadingUIHostingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35FC7A8E2751153F004BC056 /* LoadingUIHostingController.swift */; };
+		35FC7A922751174B004BC056 /* Loading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35FC7A912751174B004BC056 /* Loading.swift */; };
 		3E873491EFBF4D2FD467BB9A /* Pods_iSisSalesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFEE3E7425CEF6DC61EAF6D3 /* Pods_iSisSalesTests.framework */; };
 		4678C3D65044EE1435611066 /* Pods_iSisSalesUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 464A3CD5CCC3049472886369 /* Pods_iSisSalesUITests.framework */; };
 		682632F65F21544097037757 /* STMBarCodeScan.m in Sources */ = {isa = PBXBuildFile; fileRef = 68263FC2BBD5147719172EA9 /* STMBarCodeScan.m */; };
@@ -999,6 +1002,7 @@
 		35552F2220CAB0B200ADC062 /* iSisDriver.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iSisDriver.xcdatamodel; sourceTree = "<group>"; };
 		35752DA51F03ED2E00CA19AF /* STMRemotePersisterController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STMRemotePersisterController.h; sourceTree = "<group>"; };
 		35752DA61F03EFBC00CA19AF /* STMRemotePersisterController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMRemotePersisterController.m; sourceTree = "<group>"; };
+		358926F02751284600934DBC /* STMLoading.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = STMLoading.storyboard; sourceTree = "<group>"; };
 		3593B6B223FEC971001F5EBB /* config.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = config.plist; sourceTree = "<group>"; };
 		3593B6B423FEC986001F5EBB /* config.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = config.plist; sourceTree = "<group>"; };
 		35A269A427205AAE00EF9C97 /* DEMO */ = {isa = PBXFileReference; lastKnownFileType = folder; path = DEMO; sourceTree = "<group>"; };
@@ -1018,6 +1022,8 @@
 		35DB36611F139091004574A1 /* STMSyncer+RemoteData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "STMSyncer+RemoteData.m"; sourceTree = "<group>"; };
 		35E414511EEAD597005BF054 /* STMAdapting.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STMAdapting.h; sourceTree = "<group>"; };
 		35E750D62722DAE600275E24 /* iSisSales-DEMO.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = "iSisSales-DEMO.db"; sourceTree = "<group>"; };
+		35FC7A8E2751153F004BC056 /* LoadingUIHostingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingUIHostingController.swift; sourceTree = "<group>"; };
+		35FC7A912751174B004BC056 /* Loading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loading.swift; sourceTree = "<group>"; };
 		37E418D5956AF3812C22C69A /* Pods-iSisSalesTestsInMemory.debugdriver.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesTestsInMemory.debugdriver.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesTestsInMemory/Pods-iSisSalesTestsInMemory.debugdriver.xcconfig"; sourceTree = "<group>"; };
 		38F93DAAE76053192F30F3F7 /* Pods-iSisSales.debug warehouse.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSales.debug warehouse.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSales/Pods-iSisSales.debug warehouse.xcconfig"; sourceTree = "<group>"; };
 		390FE1B1108DBF3207298BAA /* Pods-iSisSalesSpeedTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesSpeedTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesSpeedTests/Pods-iSisSalesSpeedTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -2065,6 +2071,7 @@
 				2C94C23A1CF1B3BA004476D8 /* STMSettings.storyboard */,
 				2C94C23B1CF1B3BA004476D8 /* STMWebView.storyboard */,
 				2C94C23C1CF1B3BA004476D8 /* STMWKWebView.storyboard */,
+				358926F02751284600934DBC /* STMLoading.storyboard */,
 			);
 			name = "☯ Storyboards";
 			path = ../../iSistemiumCore/iSistemiumCore/Storyboards;
@@ -2371,6 +2378,7 @@
 		35BD4081274FD8EF006364AE /* SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				35FC7A8D275114FA004BC056 /* LoadingUIHostingController */,
 				35BD4082274FD8F8006364AE /* ProfileUIHostingController */,
 				35BD4084274FD8F8006364AE /* LoginUIHostingController */,
 			);
@@ -2444,6 +2452,23 @@
 				35AE9A0820C93FE500343AA3 /* config.plist */,
 			);
 			path = ReleaseDriver;
+			sourceTree = "<group>";
+		};
+		35FC7A8D275114FA004BC056 /* LoadingUIHostingController */ = {
+			isa = PBXGroup;
+			children = (
+				35FC7A90275115AC004BC056 /* Loading */,
+				35FC7A8E2751153F004BC056 /* LoadingUIHostingController.swift */,
+			);
+			path = LoadingUIHostingController;
+			sourceTree = "<group>";
+		};
+		35FC7A90275115AC004BC056 /* Loading */ = {
+			isa = PBXGroup;
+			children = (
+				35FC7A912751174B004BC056 /* Loading.swift */,
+			);
+			path = Loading;
 			sourceTree = "<group>";
 		};
 		B667165BAF36E7D3E97FC469 /* Pods */ = {
@@ -2896,6 +2921,7 @@
 				D99C0F042119E7E400035E7A /* icons8-truck.png in Resources */,
 				2CC33EEF1DAD06B200D21771 /* silent.wav in Resources */,
 				2C94C2081CF1B308004476D8 /* No connection Cloud-100.png in Resources */,
+				358926F12751284600934DBC /* STMLoading.storyboard in Resources */,
 				2C94C2111CF1B308004476D8 /* scanner_info.png in Resources */,
 				2C94C1F91CF1B308004476D8 /* camera_filled.png in Resources */,
 				2C94C1FD1CF1B308004476D8 /* Clear Filters-25.png in Resources */,
@@ -3211,6 +3237,7 @@
 				3550B1DC1DAE59F300F8A368 /* STMCorePicture.m in Sources */,
 				2C0A8CA51D09903C007C5B57 /* STMVisitQuestionSet.m in Sources */,
 				2C94C19C1CF1B1F3004476D8 /* STMWorkflow.m in Sources */,
+				35FC7A922751174B004BC056 /* Loading.swift in Sources */,
 				2C50340A1DF5B00900687A64 /* STMPriceType+CoreDataClass.m in Sources */,
 				2C94C10C1CF1B1BB004476D8 /* STMCustom8TVCell.m in Sources */,
 				2CCD5D9C1E3646BE00B84565 /* STMCoreSessionManager.m in Sources */,
@@ -3360,6 +3387,7 @@
 				2C9AE9A01CF5AF690018D9B3 /* STMJson.m in Sources */,
 				2CFA30361D50DBF300BB9E35 /* STMOutletPhoto+CoreDataProperties.m in Sources */,
 				2C50340B1DF5B00900687A64 /* STMPriceType+CoreDataProperties.m in Sources */,
+				35FC7A8F2751153F004BC056 /* LoadingUIHostingController.swift in Sources */,
 				2CCD5DD71E36478500B84565 /* STMCoreBatteryTracker.m in Sources */,
 				2C0A8CB21D09903C007C5B57 /* STMVisitQuestionGroup+CoreDataProperties.m in Sources */,
 				2C2BC23E1E9A2BEF00ADA42B /* STMPhotoReport+CoreDataClass.m in Sources */,
