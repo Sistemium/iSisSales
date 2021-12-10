@@ -492,5 +492,5 @@
 "ZEBRA PAIRING DESCRIPTION" = "Scan the barcode to connect scanner";
 "CONTACT PERMISSION DENIED" = "Contact permission denied";
 "ENTER PASSWORD" = "Enter One Time Password";
-"SYNCING DATA" = "Syncing data";
+"SYNCING DATA" = "   Syncing data";
 "SYNC DATA" = "Synchronize data";
