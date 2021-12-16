@@ -480,10 +480,10 @@
 "SAVE TO CAMERA ROLL" = "Image was saved to the camera roll";
 "IMPOSSIBLE TO SAVE" = "Impossible to save image to the camera roll (access to photos is denied)";
 "GIVE PERMISSIONS" = "Change photos permissions in app settings";
-"0UNUSED" = "%lu unused %@";
-"1UNUSED" = "%lu unused %@";
-"2UNUSED" = "%lu unused %@";
-"5UNUSED" = "%lu unused %@";
+"0UNUSED" = "unused";
+"1UNUSED" = "unused";
+"2UNUSED" = "unused";
+"5UNUSED" = "unused";
 "UNUSED PICTURES" = "Unused pictures";
 "CAMERA PERMISSION RESTRICTED" = "Camera permission restricted";
 "CAMERA PERMISSION DENIED" = "Camera permission denied";
