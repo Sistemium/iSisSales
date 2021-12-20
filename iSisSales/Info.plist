@@ -50,10 +50,15 @@
 		<true/>
 		<key>NSExceptionDomains</key>
 		<dict>
-			<key>lamac16.local</key>
+			<key>192.168.1.219</key>
 			<dict>
 				<key>NSExceptionAllowsInsecureHTTPLoads</key>
-				<true/>
+				<false/>
+			</dict>
+			<key>192.168.196.17</key>
+			<dict>
+				<key>NSExceptionAllowsInsecureHTTPLoads</key>
+				<false/>
 			</dict>
 			<key>edgars-macbook-pro.local</key>
 			<dict>
@@ -61,6 +66,11 @@
 				<true/>
 			</dict>
 			<key>lamac.local</key>
+			<dict>
+				<key>NSExceptionAllowsInsecureHTTPLoads</key>
+				<true/>
+			</dict>
+			<key>lamac16.local</key>
 			<dict>
 				<key>NSExceptionAllowsInsecureHTTPLoads</key>
 				<true/>
