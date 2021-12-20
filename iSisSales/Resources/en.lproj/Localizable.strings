@@ -494,3 +494,5 @@
 "ENTER PASSWORD" = "Enter One Time Password";
 "SYNCING DATA" = "   Syncing data";
 "SYNC DATA" = "Synchronize data";
+"INITIAL LOADING ERROR" = "Connection interupted.";
+"TRY AGAIN" = "Repeat attempt";
