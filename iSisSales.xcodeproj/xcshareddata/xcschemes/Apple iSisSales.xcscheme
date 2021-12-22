@@ -23,10 +23,11 @@
       </BuildActionEntries>
    </BuildAction>
    <TestAction
-      buildConfiguration = "DebugVfs"
+      buildConfiguration = "DebugSalesApple"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      shouldUseLaunchSchemeArgsEnv = "YES">
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      codeCoverageEnabled = "YES">
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
@@ -37,10 +38,53 @@
          </BuildableReference>
       </MacroExpansion>
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "2C94BFE21CF1ACB8004476D8"
+               BuildableName = "iSisSalesTests.xctest"
+               BlueprintName = "iSisSalesTests"
+               ReferencedContainer = "container:iSisSales.xcodeproj">
+            </BuildableReference>
+            <SkippedTests>
+               <Test
+                  Identifier = "LoggerTests">
+               </Test>
+               <Test
+                  Identifier = "SessionManagerTests">
+               </Test>
+            </SkippedTests>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "2C94BFED1CF1ACB8004476D8"
+               BuildableName = "iSisSalesUITests.xctest"
+               BlueprintName = "iSisSalesUITests"
+               ReferencedContainer = "container:iSisSales.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "D95FBAE51E489C540029F3C8"
+               BuildableName = "iSisSalesTestsInMemory.xctest"
+               BlueprintName = "iSisSalesTestsInMemory"
+               ReferencedContainer = "container:iSisSales.xcodeproj">
+            </BuildableReference>
+            <SkippedTests>
+               <Test
+                  Identifier = "FilingTests/testFiling">
+               </Test>
+            </SkippedTests>
+         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction
-      buildConfiguration = "DebugVfs"
+      buildConfiguration = "DebugSalesApple"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       launchStyle = "0"
@@ -59,9 +103,15 @@
             ReferencedContainer = "container:iSisSales.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
+      <CommandLineArguments>
+         <CommandLineArgument
+            argument = "-com.apple.CoreData.ConcurrencyDebug 1"
+            isEnabled = "NO">
+         </CommandLineArgument>
+      </CommandLineArguments>
    </LaunchAction>
    <ProfileAction
-      buildConfiguration = "DebugVfs"
+      buildConfiguration = "ReleaseSalesApple"
       shouldUseLaunchSchemeArgsEnv = "YES"
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
@@ -78,10 +128,10 @@
       </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
-      buildConfiguration = "DebugVfs">
+      buildConfiguration = "DebugSalesApple">
    </AnalyzeAction>
    <ArchiveAction
-      buildConfiguration = "ReleaseVfs"
+      buildConfiguration = "ReleaseSalesApple"
       revealArchiveInOrganizer = "YES">
    </ArchiveAction>
 </Scheme>
