@@ -27,30 +27,4 @@
 }
 
 
-#pragma mark - Crashlytics
-
-- (void)startCrashlytics {
-    
-//    [[Crashlytics sharedInstance] setDebugMode:YES];
-    
-    [Fabric with:@[CrashlyticsKit]];
-    
-    Crashlytics *crashlytics = [Crashlytics sharedInstance];
-    STMAuthController *authController = [STMAuthController sharedAuthController];
-    
-    [crashlytics setObjectValue:[[UIDevice currentDevice] name] forKey:@"deviceName"];
-    
-    [crashlytics setObjectValue:[STMFunctions devicePlatform] forKey:@"devicePlatform"];
-    
-    [crashlytics setObjectValue:[STMClientDataController deviceUUID] forKey:@"deviceUUID"];
-    
-    [crashlytics setObjectValue:authController.userID forKey:@"userID"];
-    
-    [crashlytics setObjectValue:authController.userName forKey:@"userName"];
-    
-    [crashlytics setObjectValue:authController.phoneNumber forKey:@"phoneNumber"];
-    
-}
-
-
 @end

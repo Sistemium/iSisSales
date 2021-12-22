@@ -304,6 +304,9 @@
 		2CFA30361D50DBF300BB9E35 /* STMOutletPhoto+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CFA30331D50DBF300BB9E35 /* STMOutletPhoto+CoreDataProperties.m */; };
 		2CFA30371D50DBF300BB9E35 /* STMOutletPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CFA30351D50DBF300BB9E35 /* STMOutletPhoto.m */; };
 		35031DF51ED736DA0049715D /* STMPersisterTransaction.m in Sources */ = {isa = PBXBuildFile; fileRef = 35031DF41ED736DA0049715D /* STMPersisterTransaction.m */; };
+		35061EF1277379BA00692210 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 35061EF0277379BA00692210 /* FirebaseAnalytics */; };
+		35061EF3277379BA00692210 /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = 35061EF2277379BA00692210 /* FirebaseCrashlytics */; };
+		35061EF82773803700692210 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 35061EF727737FBC00692210 /* GoogleService-Info.plist */; };
 		350A20EB1ED5B82C00C9FB28 /* STMPersisterRunner.m in Sources */ = {isa = PBXBuildFile; fileRef = 350A20EA1ED5B82C00C9FB28 /* STMPersisterRunner.m */; };
 		3550B1DC1DAE59F300F8A368 /* STMCorePicture.m in Sources */ = {isa = PBXBuildFile; fileRef = 3550B1D91DAE59F300F8A368 /* STMCorePicture.m */; };
 		3550B1DD1DAE59F300F8A368 /* STMCorePicture+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 3550B1DB1DAE59F300F8A368 /* STMCorePicture+CoreDataProperties.m */; };
@@ -423,7 +426,10 @@
 /* Begin PBXFileReference section */
 		02D959C0D52595D8A118D616 /* Pods-iSisSalesUITests.releasewarehouse.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesUITests.releasewarehouse.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesUITests/Pods-iSisSalesUITests.releasewarehouse.xcconfig"; sourceTree = "<group>"; };
 		06542CF1661B0DC897C24A83 /* Pods-iSisSalesTests.release warehouse.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesTests.release warehouse.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesTests/Pods-iSisSalesTests.release warehouse.xcconfig"; sourceTree = "<group>"; };
+		08B900E268A051511BC2E59B /* Pods-iSisSalesOfLibsTests.debugsalesapple.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesOfLibsTests.debugsalesapple.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesOfLibsTests/Pods-iSisSalesOfLibsTests.debugsalesapple.xcconfig"; sourceTree = "<group>"; };
+		08FBE1D891D662311F572028 /* Pods-iSisSalesTestsInMemory.debugsalesapple.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesTestsInMemory.debugsalesapple.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesTestsInMemory/Pods-iSisSalesTestsInMemory.debugsalesapple.xcconfig"; sourceTree = "<group>"; };
 		13BD4DCEC7C7773998CA9B2D /* Pods-iSisSalesOfLibsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesOfLibsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesOfLibsTests/Pods-iSisSalesOfLibsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		16A2FB32DA34265B702E4422 /* Pods-iSisSalesSpeedTests.debugsalesapple.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesSpeedTests.debugsalesapple.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesSpeedTests/Pods-iSisSalesSpeedTests.debugsalesapple.xcconfig"; sourceTree = "<group>"; };
 		1854B4801A2A85F12079B130 /* Pods-iSisSalesTests.releasevfs.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesTests.releasevfs.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesTests/Pods-iSisSalesTests.releasevfs.xcconfig"; sourceTree = "<group>"; };
 		1A0CE0EC634B0880798BF9FB /* Pods-iSisSalesUITests.releasesales.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesUITests.releasesales.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesUITests/Pods-iSisSalesUITests.releasesales.xcconfig"; sourceTree = "<group>"; };
 		1AD55F607D405BE1614DD20C /* Pods-iSisSalesUITests.release sales.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesUITests.release sales.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesUITests/Pods-iSisSalesUITests.release sales.xcconfig"; sourceTree = "<group>"; };
@@ -987,6 +993,7 @@
 		2E6332E015A9E9E24955D89D /* Pods-iSisSalesSpeedTests.debugdriver.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesSpeedTests.debugdriver.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesSpeedTests/Pods-iSisSalesSpeedTests.debugdriver.xcconfig"; sourceTree = "<group>"; };
 		35031DF31ED732E50049715D /* STMPersisterTransaction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STMPersisterTransaction.h; sourceTree = "<group>"; };
 		35031DF41ED736DA0049715D /* STMPersisterTransaction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMPersisterTransaction.m; sourceTree = "<group>"; };
+		35061EF727737FBC00692210 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		350A20E91ED5B59700C9FB28 /* STMPersistingRunning.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = STMPersistingRunning.h; path = ../STMPersistingRunning.h; sourceTree = "<group>"; };
 		350A20EA1ED5B82C00C9FB28 /* STMPersisterRunner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMPersisterRunner.m; sourceTree = "<group>"; };
 		350A20EC1ED5BEE500C9FB28 /* STMPersisterRunner.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STMPersisterRunner.h; sourceTree = "<group>"; };
@@ -1041,6 +1048,7 @@
 		52A837F39BC8E50D507E5D25 /* Pods-iSisSalesTestsInMemory.releasevfs.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesTestsInMemory.releasevfs.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesTestsInMemory/Pods-iSisSalesTestsInMemory.releasevfs.xcconfig"; sourceTree = "<group>"; };
 		56A10D243249632CB3AEBCDD /* Pods-iSisSalesTestsInMemory.release warehouse.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesTestsInMemory.release warehouse.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesTestsInMemory/Pods-iSisSalesTestsInMemory.release warehouse.xcconfig"; sourceTree = "<group>"; };
 		5B6F8D8FF8734D3C12C75FA4 /* Pods-iSisSalesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesTests/Pods-iSisSalesTests.release.xcconfig"; sourceTree = "<group>"; };
+		65DD154EB09BDEFFAB364FF8 /* Pods-iSisSalesTestsInMemory.releasesalesapple.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesTestsInMemory.releasesalesapple.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesTestsInMemory/Pods-iSisSalesTestsInMemory.releasesalesapple.xcconfig"; sourceTree = "<group>"; };
 		6826301F2B796C6E1C3A56AC /* STMBarCodeScan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMBarCodeScan.h; sourceTree = "<group>"; };
 		682630C0CF3F8D10D70A0FF7 /* STMCoreBarCodeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMCoreBarCodeController.m; sourceTree = "<group>"; };
 		682630D0E3A6FD6CE4715EA5 /* STMBarCodeZebra.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMBarCodeZebra.m; sourceTree = "<group>"; };
@@ -1056,6 +1064,7 @@
 		68263C8A545FD939E8013F0E /* STMCoreWKWebViewVC+Navigation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "STMCoreWKWebViewVC+Navigation.m"; sourceTree = "<group>"; };
 		68263DB2743F69C6309B05C9 /* STMCoreWKWebViewVC+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "STMCoreWKWebViewVC+Private.h"; sourceTree = "<group>"; };
 		68263FC2BBD5147719172EA9 /* STMBarCodeScan.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMBarCodeScan.m; sourceTree = "<group>"; };
+		693580EA7EBF124FE61B17E5 /* Pods-iSisSalesUITests.debugsalesapple.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesUITests.debugsalesapple.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesUITests/Pods-iSisSalesUITests.debugsalesapple.xcconfig"; sourceTree = "<group>"; };
 		6F3911A3DEFF236838CDC4D1 /* Pods_iSisSalesTestsInMemory.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iSisSalesTestsInMemory.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FA720401327377AC917714F /* Pods-iSisSalesOfLibsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesOfLibsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesOfLibsTests/Pods-iSisSalesOfLibsTests.release.xcconfig"; sourceTree = "<group>"; };
 		724A23B134B37243DAC340A7 /* Pods-iSisSalesUITests.debug warehouse.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesUITests.debug warehouse.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesUITests/Pods-iSisSalesUITests.debug warehouse.xcconfig"; sourceTree = "<group>"; };
@@ -1074,10 +1083,13 @@
 		8D4510655A3EFBF91E035B08 /* Pods-iSisSalesOfLibsTests.debugvfs.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesOfLibsTests.debugvfs.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesOfLibsTests/Pods-iSisSalesOfLibsTests.debugvfs.xcconfig"; sourceTree = "<group>"; };
 		9023A6F7D3A5F4790C0A3379 /* Pods-iSisSalesSpeedTests.releasewarehouse.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesSpeedTests.releasewarehouse.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesSpeedTests/Pods-iSisSalesSpeedTests.releasewarehouse.xcconfig"; sourceTree = "<group>"; };
 		907D4FE639448211522DD97C /* Pods-iSisSalesTestsInMemory.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesTestsInMemory.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesTestsInMemory/Pods-iSisSalesTestsInMemory.debug.xcconfig"; sourceTree = "<group>"; };
+		9711201675473089F45DD5BE /* Pods-iSisSalesTests.debugsalesapple.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesTests.debugsalesapple.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesTests/Pods-iSisSalesTests.debugsalesapple.xcconfig"; sourceTree = "<group>"; };
 		9921C3949B4C96EBBABCC91C /* Pods-iSisSalesTests.debug warehouse.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesTests.debug warehouse.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesTests/Pods-iSisSalesTests.debug warehouse.xcconfig"; sourceTree = "<group>"; };
 		9A5E8F9623682BCCB7081A46 /* Pods_iSisSalesSpeedTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iSisSalesSpeedTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9ABF4A6FD9F2C33D149A9E1B /* Pods-iSisSalesTestsInMemory.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesTestsInMemory.release.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesTestsInMemory/Pods-iSisSalesTestsInMemory.release.xcconfig"; sourceTree = "<group>"; };
+		9BE29A1B3F8CACA621E6C588 /* Pods-iSisSales.releasesalesapple.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSales.releasesalesapple.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSales/Pods-iSisSales.releasesalesapple.xcconfig"; sourceTree = "<group>"; };
 		9E84FB99CDB74294B79CC535 /* Pods-iSisSalesOfLibsTests.releasesales.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesOfLibsTests.releasesales.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesOfLibsTests/Pods-iSisSalesOfLibsTests.releasesales.xcconfig"; sourceTree = "<group>"; };
+		A1A8E342BBD6D306AEEB81A7 /* Pods-iSisSalesUITests.releasesalesapple.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesUITests.releasesalesapple.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesUITests/Pods-iSisSalesUITests.releasesalesapple.xcconfig"; sourceTree = "<group>"; };
 		A2DCF1077B9C7E61AB580813 /* Pods-iSisSalesUITests.releasevfs.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesUITests.releasevfs.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesUITests/Pods-iSisSalesUITests.releasevfs.xcconfig"; sourceTree = "<group>"; };
 		A5AB0EC47BD72C1AE7EBF7FA /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAB8576EE5628A8DD926ABB9 /* Pods-iSisSalesTests.releasewarehouse.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesTests.releasewarehouse.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesTests/Pods-iSisSalesTests.releasewarehouse.xcconfig"; sourceTree = "<group>"; };
@@ -1090,6 +1102,7 @@
 		BBFF6ACCE0C81E2296130600 /* Pods-iSisSales.debugsales.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSales.debugsales.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSales/Pods-iSisSales.debugsales.xcconfig"; sourceTree = "<group>"; };
 		C182AD917F157525B9F413B5 /* Pods-iSisSales.releasesales.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSales.releasesales.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSales/Pods-iSisSales.releasesales.xcconfig"; sourceTree = "<group>"; };
 		C2382F6CB5E133CB531D2CFA /* Pods-iSisSalesTestsInMemory.release sales.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesTestsInMemory.release sales.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesTestsInMemory/Pods-iSisSalesTestsInMemory.release sales.xcconfig"; sourceTree = "<group>"; };
+		C5B7D8AD0482921BD6AAFB56 /* Pods-iSisSalesSpeedTests.releasesalesapple.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesSpeedTests.releasesalesapple.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesSpeedTests/Pods-iSisSalesSpeedTests.releasesalesapple.xcconfig"; sourceTree = "<group>"; };
 		C9E2ADE5368C727B023B3FA3 /* Pods-iSisSalesTests.debugwarehouse.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesTests.debugwarehouse.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesTests/Pods-iSisSalesTests.debugwarehouse.xcconfig"; sourceTree = "<group>"; };
 		CA2614DA82650630E31EC8AF /* Pods-iSisSalesTestsInMemory.releasewarehouse.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesTestsInMemory.releasewarehouse.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesTestsInMemory/Pods-iSisSalesTestsInMemory.releasewarehouse.xcconfig"; sourceTree = "<group>"; };
 		CD5250C2C3C2AA62E8A288EA /* Pods-iSisSales.debug sales.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSales.debug sales.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSales/Pods-iSisSales.debug sales.xcconfig"; sourceTree = "<group>"; };
@@ -1172,12 +1185,14 @@
 		DCA90AA60896539F073A1271 /* Pods-iSisSalesOfLibsTests.releasevfs.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesOfLibsTests.releasevfs.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesOfLibsTests/Pods-iSisSalesOfLibsTests.releasevfs.xcconfig"; sourceTree = "<group>"; };
 		DF17FC21FD5D3E1DC32CF097 /* AnimatedText.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatedText.swift; sourceTree = "<group>"; };
 		DF17FF8718804E3F675E9A80 /* CircularProgressBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircularProgressBar.swift; sourceTree = "<group>"; };
+		DF43E8D3E180F33A933A7E07 /* Pods-iSisSalesTests.releasesalesapple.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesTests.releasesalesapple.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesTests/Pods-iSisSalesTests.releasesalesapple.xcconfig"; sourceTree = "<group>"; };
 		E365F74D0A4211BC8B9E04A5 /* Pods-iSisSalesTestsInMemory.debugsales.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesTestsInMemory.debugsales.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesTestsInMemory/Pods-iSisSalesTestsInMemory.debugsales.xcconfig"; sourceTree = "<group>"; };
 		E39A6A53AA65BA2768BF58B7 /* Pods-iSisSalesSpeedTests.debugsales.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesSpeedTests.debugsales.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesSpeedTests/Pods-iSisSalesSpeedTests.debugsales.xcconfig"; sourceTree = "<group>"; };
 		E40623DC4ABD0FB0D719ED86 /* Pods-iSisSales.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSales.release.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSales/Pods-iSisSales.release.xcconfig"; sourceTree = "<group>"; };
 		E6C2D643E13FF7C2043AEDE1 /* Pods-iSisSalesOfLibsTests.debug warehouse.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesOfLibsTests.debug warehouse.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesOfLibsTests/Pods-iSisSalesOfLibsTests.debug warehouse.xcconfig"; sourceTree = "<group>"; };
 		E8294CB5252B1B9280632408 /* Pods-iSisSalesOfLibsTests.releasewarehouse.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesOfLibsTests.releasewarehouse.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesOfLibsTests/Pods-iSisSalesOfLibsTests.releasewarehouse.xcconfig"; sourceTree = "<group>"; };
 		EB23D5D8575D75B71A91A80A /* Pods-iSisSalesSpeedTests.debugwarehouse.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesSpeedTests.debugwarehouse.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesSpeedTests/Pods-iSisSalesSpeedTests.debugwarehouse.xcconfig"; sourceTree = "<group>"; };
+		EE92F1703B6D1B188BD013DC /* Pods-iSisSalesOfLibsTests.releasesalesapple.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesOfLibsTests.releasesalesapple.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesOfLibsTests/Pods-iSisSalesOfLibsTests.releasesalesapple.xcconfig"; sourceTree = "<group>"; };
 		EFEE3E7425CEF6DC61EAF6D3 /* Pods_iSisSalesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iSisSalesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F12856D00A0FFDF64D0F984F /* Pods-iSisSalesTestsInMemory.debug sales.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesTestsInMemory.debug sales.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesTestsInMemory/Pods-iSisSalesTestsInMemory.debug sales.xcconfig"; sourceTree = "<group>"; };
 		F2D15E37B8C453640F70F6F6 /* Pods-iSisSalesUITests.debugwarehouse.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesUITests.debugwarehouse.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesUITests/Pods-iSisSalesUITests.debugwarehouse.xcconfig"; sourceTree = "<group>"; };
@@ -1186,6 +1201,7 @@
 		FB409336F4F8E73E5DFC29A7 /* Pods-iSisSalesOfLibsTests.releasedriver.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesOfLibsTests.releasedriver.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesOfLibsTests/Pods-iSisSalesOfLibsTests.releasedriver.xcconfig"; sourceTree = "<group>"; };
 		FBE8651D97F3731272D3BBD9 /* Pods-iSisSales.release warehouse.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSales.release warehouse.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSales/Pods-iSisSales.release warehouse.xcconfig"; sourceTree = "<group>"; };
 		FCE75EE42F351494BC43E2DD /* Pods-iSisSalesUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesUITests/Pods-iSisSalesUITests.release.xcconfig"; sourceTree = "<group>"; };
+		FF9FBD122D3902097B0F5001 /* Pods-iSisSales.debugsalesapple.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSales.debugsalesapple.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSales/Pods-iSisSales.debugsalesapple.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1196,6 +1212,8 @@
 				2CD5BEFD1CF1DFAB006E1E36 /* WebKit.framework in Frameworks */,
 				358ED0A026D532F9009C3510 /* Alamofire in Frameworks */,
 				3556FCD526DCECAB003E1D5F /* Introspect in Frameworks */,
+				35061EF3277379BA00692210 /* FirebaseCrashlytics in Frameworks */,
+				35061EF1277379BA00692210 /* FirebaseAnalytics in Frameworks */,
 				B765DF6BD8F1900FE8C5AE92 /* Pods_iSisSales.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1990,6 +2008,7 @@
 		2C94C1C41CF1B308004476D8 /* ☯ Resources */ = {
 			isa = PBXGroup;
 			children = (
+				35061EF727737FBC00692210 /* GoogleService-Info.plist */,
 				35E750D62722DAE600275E24 /* iSisSales-DEMO.db */,
 				35A269A427205AAE00EF9C97 /* DEMO */,
 				2C907E051DA6979500326CA8 /* ☯ Sounds */,
@@ -2564,6 +2583,18 @@
 				52A837F39BC8E50D507E5D25 /* Pods-iSisSalesTestsInMemory.releasevfs.xcconfig */,
 				BB5E5EFA48FA24FA6B29AC73 /* Pods-iSisSalesUITests.debugvfs.xcconfig */,
 				A2DCF1077B9C7E61AB580813 /* Pods-iSisSalesUITests.releasevfs.xcconfig */,
+				FF9FBD122D3902097B0F5001 /* Pods-iSisSales.debugsalesapple.xcconfig */,
+				9BE29A1B3F8CACA621E6C588 /* Pods-iSisSales.releasesalesapple.xcconfig */,
+				08B900E268A051511BC2E59B /* Pods-iSisSalesOfLibsTests.debugsalesapple.xcconfig */,
+				EE92F1703B6D1B188BD013DC /* Pods-iSisSalesOfLibsTests.releasesalesapple.xcconfig */,
+				16A2FB32DA34265B702E4422 /* Pods-iSisSalesSpeedTests.debugsalesapple.xcconfig */,
+				C5B7D8AD0482921BD6AAFB56 /* Pods-iSisSalesSpeedTests.releasesalesapple.xcconfig */,
+				9711201675473089F45DD5BE /* Pods-iSisSalesTests.debugsalesapple.xcconfig */,
+				DF43E8D3E180F33A933A7E07 /* Pods-iSisSalesTests.releasesalesapple.xcconfig */,
+				08FBE1D891D662311F572028 /* Pods-iSisSalesTestsInMemory.debugsalesapple.xcconfig */,
+				65DD154EB09BDEFFAB364FF8 /* Pods-iSisSalesTestsInMemory.releasesalesapple.xcconfig */,
+				693580EA7EBF124FE61B17E5 /* Pods-iSisSalesUITests.debugsalesapple.xcconfig */,
+				A1A8E342BBD6D306AEEB81A7 /* Pods-iSisSalesUITests.releasesalesapple.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -2705,8 +2736,8 @@
 				2C94BFC71CF1ACB8004476D8 /* Frameworks */,
 				2C94BFC81CF1ACB8004476D8 /* Resources */,
 				2CCF551E1EA4AF5400A54B64 /* Copy Configuration File(s) */,
-				2C0A8CB41D0994CF007C5B57 /* Source ./fabric.sh */,
 				D44387C132DB2AC55C4A5EF2 /* [CP] Embed Pods Frameworks */,
+				35061EF427737C0800692210 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -2716,6 +2747,8 @@
 			packageProductDependencies = (
 				358ED09F26D532F9009C3510 /* Alamofire */,
 				3556FCD426DCECAB003E1D5F /* Introspect */,
+				35061EF0277379BA00692210 /* FirebaseAnalytics */,
+				35061EF2277379BA00692210 /* FirebaseCrashlytics */,
 			);
 			productName = iSisSales;
 			productReference = 2C94BFCA1CF1ACB8004476D8 /* iSisSales.app */;
@@ -2886,6 +2919,7 @@
 			packageReferences = (
 				358ED09E26D532F9009C3510 /* XCRemoteSwiftPackageReference "Alamofire" */,
 				3556FCD326DCECAB003E1D5F /* XCRemoteSwiftPackageReference "SwiftUI-Introspect" */,
+				35061EEF277379BA00692210 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
 			);
 			productRefGroup = 2C94BFCB1CF1ACB8004476D8 /* Products */;
 			projectDirPath = "";
@@ -2935,6 +2969,7 @@
 				2C94C2501CF1B3BA004476D8 /* STMProfile.storyboard in Resources */,
 				35A269A527205AAE00EF9C97 /* DEMO in Resources */,
 				2C94C21A1CF1B308004476D8 /* Upload-100.png in Resources */,
+				35061EF82773803700692210 /* GoogleService-Info.plist in Resources */,
 				2C94C2161CF1B308004476D8 /* uncheckmark.png in Resources */,
 				2C94C1F81CF1B308004476D8 /* camera.png in Resources */,
 				2C94C2141CF1B308004476D8 /* settings3-128.png in Resources */,
@@ -3032,20 +3067,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		2C0A8CB41D0994CF007C5B57 /* Source ./fabric.sh */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Source ./fabric.sh";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "source ./fabric.sh\n";
-		};
 		2CCF551E1EA4AF5400A54B64 /* Copy Configuration File(s) */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -3059,6 +3080,25 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "RESOURCE_PATH=${SRCROOT}/${PRODUCT_NAME}/config/${CONFIGURATION}\n\nBUILD_APP_DIR=${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.app\n\necho \"Copying all files under ${RESOURCE_PATH} to ${BUILD_APP_DIR}\"\ncp -v \"${RESOURCE_PATH}/\"* \"${BUILD_APP_DIR}/\"\n";
+		};
+		35061EF427737C0800692210 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}/Contents/Resources/DWARF/${TARGET_NAME}",
+				"$(SRCROOT)/$(BUILT_PRODUCTS_DIR)/$(INFOPLIST_PATH)",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${BUILD_DIR%/Build/*}/SourcePackages/checkouts/firebase-ios-sdk/Crashlytics/run\"\n";
 		};
 		41490621D821E641AA346E52 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -4517,7 +4557,7 @@
 		};
 		35061EE22773630A00692210 /* DebugSalesApple */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BBFF6ACCE0C81E2296130600 /* Pods-iSisSales.debugsales.xcconfig */;
+			baseConfigurationReference = FF9FBD122D3902097B0F5001 /* Pods-iSisSales.debugsalesapple.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-SalesDebug";
@@ -4559,7 +4599,7 @@
 		};
 		35061EE32773630A00692210 /* DebugSalesApple */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 868139A4FE40C52966269104 /* Pods-iSisSalesTests.debugsales.xcconfig */;
+			baseConfigurationReference = 9711201675473089F45DD5BE /* Pods-iSisSalesTests.debugsalesapple.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREFIX_HEADER = "iSisSales/iSistemium-Prefix.pch";
@@ -4587,7 +4627,7 @@
 		};
 		35061EE42773630A00692210 /* DebugSalesApple */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F90DB7103A61A94D3A49A8D4 /* Pods-iSisSalesUITests.debugsales.xcconfig */;
+			baseConfigurationReference = 693580EA7EBF124FE61B17E5 /* Pods-iSisSalesUITests.debugsalesapple.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iSisSales.app/iSisSales";
 				GCC_PREFIX_HEADER = "iSisSales/iSistemium-Prefix.pch";
@@ -4606,7 +4646,7 @@
 		};
 		35061EE52773630A00692210 /* DebugSalesApple */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8552D7D75BCDD62EAE4AE093 /* Pods-iSisSalesOfLibsTests.debugsales.xcconfig */;
+			baseConfigurationReference = 08B900E268A051511BC2E59B /* Pods-iSisSalesOfLibsTests.debugsalesapple.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -4629,7 +4669,7 @@
 		};
 		35061EE62773630A00692210 /* DebugSalesApple */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E365F74D0A4211BC8B9E04A5 /* Pods-iSisSalesTestsInMemory.debugsales.xcconfig */;
+			baseConfigurationReference = 08FBE1D891D662311F572028 /* Pods-iSisSalesTestsInMemory.debugsalesapple.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -4659,7 +4699,7 @@
 		};
 		35061EE72773630A00692210 /* DebugSalesApple */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E39A6A53AA65BA2768BF58B7 /* Pods-iSisSalesSpeedTests.debugsales.xcconfig */;
+			baseConfigurationReference = 16A2FB32DA34265B702E4422 /* Pods-iSisSalesSpeedTests.debugsalesapple.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -4735,7 +4775,7 @@
 		};
 		35061EE92773635100692210 /* ReleaseSalesApple */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C182AD917F157525B9F413B5 /* Pods-iSisSales.releasesales.xcconfig */;
+			baseConfigurationReference = 9BE29A1B3F8CACA621E6C588 /* Pods-iSisSales.releasesalesapple.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-Sales";
@@ -4776,7 +4816,7 @@
 		};
 		35061EEA2773635100692210 /* ReleaseSalesApple */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B7CB6FC51F4B8F41FE884A27 /* Pods-iSisSalesTests.releasesales.xcconfig */;
+			baseConfigurationReference = DF43E8D3E180F33A933A7E07 /* Pods-iSisSalesTests.releasesalesapple.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREFIX_HEADER = "iSisSales/iSistemium-Prefix.pch";
@@ -4804,7 +4844,7 @@
 		};
 		35061EEB2773635100692210 /* ReleaseSalesApple */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1A0CE0EC634B0880798BF9FB /* Pods-iSisSalesUITests.releasesales.xcconfig */;
+			baseConfigurationReference = A1A8E342BBD6D306AEEB81A7 /* Pods-iSisSalesUITests.releasesalesapple.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iSisSales.app/iSisSales";
 				GCC_PREFIX_HEADER = "iSisSales/iSistemium-Prefix.pch";
@@ -4823,7 +4863,7 @@
 		};
 		35061EEC2773635100692210 /* ReleaseSalesApple */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9E84FB99CDB74294B79CC535 /* Pods-iSisSalesOfLibsTests.releasesales.xcconfig */;
+			baseConfigurationReference = EE92F1703B6D1B188BD013DC /* Pods-iSisSalesOfLibsTests.releasesalesapple.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -4846,7 +4886,7 @@
 		};
 		35061EED2773635100692210 /* ReleaseSalesApple */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 35BA96D571E5CBAA739B97AD /* Pods-iSisSalesTestsInMemory.releasesales.xcconfig */;
+			baseConfigurationReference = 65DD154EB09BDEFFAB364FF8 /* Pods-iSisSalesTestsInMemory.releasesalesapple.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -4876,7 +4916,7 @@
 		};
 		35061EEE2773635100692210 /* ReleaseSalesApple */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2998009F2899574476C84813 /* Pods-iSisSalesSpeedTests.releasesales.xcconfig */;
+			baseConfigurationReference = C5B7D8AD0482921BD6AAFB56 /* Pods-iSisSalesSpeedTests.releasesalesapple.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -5903,11 +5943,19 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		35061EEF277379BA00692210 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 8.2.0;
+			};
+		};
 		3556FCD326DCECAB003E1D5F /* XCRemoteSwiftPackageReference "SwiftUI-Introspect" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/siteline/SwiftUI-Introspect.git";
 			requirement = {
-				kind = upToNextMajorVersion;
+				kind = upToNextMinorVersion;
 				minimumVersion = 0.1.3;
 			};
 		};
@@ -5915,13 +5963,23 @@
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
 			requirement = {
-				kind = upToNextMajorVersion;
+				kind = upToNextMinorVersion;
 				minimumVersion = 5.4.3;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		35061EF0277379BA00692210 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 35061EEF277379BA00692210 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		35061EF2277379BA00692210 /* FirebaseCrashlytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 35061EEF277379BA00692210 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCrashlytics;
+		};
 		3556FCD426DCECAB003E1D5F /* Introspect */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 3556FCD326DCECAB003E1D5F /* XCRemoteSwiftPackageReference "SwiftUI-Introspect" */;
