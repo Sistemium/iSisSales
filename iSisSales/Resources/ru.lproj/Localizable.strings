@@ -496,4 +496,5 @@
 "SYNC DATA" = "Синхронизация данных";
 "INITIAL LOADING ERROR" = "Соединение прервано.";
 "TRY AGAIN" = "Повторить попытку";
-
+"POLICY" = "Политика конфиденциальности";
+"POLICY_URL" = "https://sistemium.com/static/privacy-Sales-ru.html";
