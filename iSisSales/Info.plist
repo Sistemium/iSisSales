@@ -73,7 +73,7 @@
 		</dict>
 	</dict>
 	<key>NSBluetoothAlwaysUsageDescription</key>
-	<string>NSBluetoothAlwaysUsageDescription</string>
+	<string>To connect bluetooth scanner</string>
 	<key>NSBluetoothPeripheralUsageDescription</key>
 	<string>NSBluetoothPeripheralUsageDescription</string>
 	<key>NSCameraUsageDescription</key>

@@ -14,5 +14,5 @@ NSLocationAlwaysAndWhenInUseUsageDescription = "To provide tacking information";
 NSBluetoothPeripheralUsageDescription = "To use barcode scanner";
 NSPhotoLibraryAddUsageDescription = "To select photos";
 NSLocationAlwaysAndWhenInUseUsageDescription = "To provide tacking information";
-NSBluetoothAlwaysUsageDescription = "To use scanner";
+"To connect bluetooth scanner" = "To connect bluetooth scanner";
 NSContactsUsageDescription = "For search suggestion";
