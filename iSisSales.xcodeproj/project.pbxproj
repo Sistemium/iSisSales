@@ -2827,9 +2827,7 @@
 				TargetAttributes = {
 					2C94BFC91CF1ACB8004476D8 = {
 						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = HZMMGDCLPA;
 						LastSwiftMigration = 1000;
-						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
 								enabled = 1;
@@ -2886,8 +2884,8 @@
 			);
 			mainGroup = 2C94BFC11CF1ACB8004476D8;
 			packageReferences = (
-				358ED09E26D532F9009C3510 /* XCRemoteSwiftPackageReference "Alamofire.git" */,
-				3556FCD326DCECAB003E1D5F /* XCRemoteSwiftPackageReference "SwiftUI-Introspect.git" */,
+				358ED09E26D532F9009C3510 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				3556FCD326DCECAB003E1D5F /* XCRemoteSwiftPackageReference "SwiftUI-Introspect" */,
 			);
 			productRefGroup = 2C94BFCB1CF1ACB8004476D8 /* Products */;
 			projectDirPath = "";
@@ -3630,7 +3628,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -3852,7 +3850,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -4068,7 +4066,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -4092,7 +4090,7 @@
 				CustomAppBundleId = "com.sistemium.${PRODUCT_NAME:rfc1034identifier}";
 				CustomAppVersion = 3.10.1;
 				CustomProductName = iSisSales;
-				DEVELOPMENT_TEAM = HZMMGDCLPA;
+				DEVELOPMENT_TEAM = 9NZ3S2EYFP;
 				ENABLE_BITCODE = NO;
 				GCC_PREFIX_HEADER = "iSisSales/iSistemium-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -4285,7 +4283,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -4459,6 +4457,446 @@
 			};
 			name = ReleaseWarehouse;
 		};
+		35061EE12773630A00692210 /* DebugSalesApple */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = DebugSalesApple;
+		};
+		35061EE22773630A00692210 /* DebugSalesApple */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBFF6ACCE0C81E2296130600 /* Pods-iSisSales.debugsales.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-SalesDebug";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-Sales";
+				CODE_SIGN_ENTITLEMENTS = iSisSales/iSisSales.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CustomAppBuild = 371;
+				CustomAppBundleId = "com.sistemium.${PRODUCT_NAME:rfc1034identifier}";
+				CustomAppVersion = 3.10.1;
+				CustomProductName = iSisSales;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = DP58H3X45C;
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = "iSisSales/iSistemium-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"CONFIGURATION_${CONFIGURATION}",
+				);
+				INFOPLIST_FILE = iSisSales/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 3.11.6;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = apple.sistemium.iSisSales;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "iSisSales/iSistemium-Bridging-Header.h";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "iSistemiumCore-Swift.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = DebugSalesApple;
+		};
+		35061EE32773630A00692210 /* DebugSalesApple */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 868139A4FE40C52966269104 /* Pods-iSisSalesTests.debugsales.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GCC_PREFIX_HEADER = "iSisSales/iSistemium-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(CONFIGURATION_TEMP_DIR)/$(PROJECT_NAME).build/DerivedSources",
+					"$(TARGET_TEMP_DIR)/../$(PROJECT_NAME).build/DerivedSources",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = iSisSalesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sistemium.iSisSalesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iSisSales.app/iSisSales";
+				USER_HEADER_SEARCH_PATHS = (
+					"$(CONFIGURATION_TEMP_DIR)/$(PROJECT_NAME).build/DerivedSources",
+					"$(TARGET_TEMP_DIR)/../$(PROJECT_NAME).build/DerivedSources",
+				);
+			};
+			name = DebugSalesApple;
+		};
+		35061EE42773630A00692210 /* DebugSalesApple */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F90DB7103A61A94D3A49A8D4 /* Pods-iSisSalesUITests.debugsales.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iSisSales.app/iSisSales";
+				GCC_PREFIX_HEADER = "iSisSales/iSistemium-Prefix.pch";
+				INFOPLIST_FILE = iSisSalesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sistemium.iSisSalesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = iSisSales;
+			};
+			name = DebugSalesApple;
+		};
+		35061EE52773630A00692210 /* DebugSalesApple */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8552D7D75BCDD62EAE4AE093 /* Pods-iSisSalesOfLibsTests.debugsales.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				DEVELOPMENT_TEAM = HZMMGDCLPA;
+				GCC_PREFIX_HEADER = "iSisSales/iSistemium-Prefix.pch";
+				INFOPLIST_FILE = iSisSalesOfLibsTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sistemium.iSisSalesOfLibsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iSisSales.app/iSisSales";
+			};
+			name = DebugSalesApple;
+		};
+		35061EE62773630A00692210 /* DebugSalesApple */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E365F74D0A4211BC8B9E04A5 /* Pods-iSisSalesTestsInMemory.debugsales.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				DEVELOPMENT_TEAM = HZMMGDCLPA;
+				GCC_PREFIX_HEADER = "iSisSales/iSistemium-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/Crashlytics\"",
+					"\"${PODS_ROOT}/Headers/Public/Fabric\"",
+					"\"$(TARGET_TEMP_DIR)/../$(PROJECT_NAME).build/DerivedSources\"",
+				);
+				INFOPLIST_FILE = iSisSalesTestsInMemory/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sistemium.iSisSalesTestsInMemory;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iSisSales.app/iSisSales";
+			};
+			name = DebugSalesApple;
+		};
+		35061EE72773630A00692210 /* DebugSalesApple */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E39A6A53AA65BA2768BF58B7 /* Pods-iSisSalesSpeedTests.debugsales.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				DEVELOPMENT_TEAM = HZMMGDCLPA;
+				GCC_PREFIX_HEADER = "iSisSales/iSistemium-Prefix.pch";
+				INFOPLIST_FILE = iSisSalesSpeedTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sistemium.iSisSalesSpeedTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iSisSales.app/iSisSales";
+			};
+			name = DebugSalesApple;
+		};
+		35061EE82773635100692210 /* ReleaseSalesApple */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = ReleaseSalesApple;
+		};
+		35061EE92773635100692210 /* ReleaseSalesApple */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C182AD917F157525B9F413B5 /* Pods-iSisSales.releasesales.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-Sales";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-Sales";
+				CODE_SIGN_ENTITLEMENTS = iSisSales/iSisSales.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CustomAppBuild = 371;
+				CustomAppBundleId = "com.sistemium.${PRODUCT_NAME:rfc1034identifier}";
+				CustomAppVersion = 3.10.1;
+				CustomProductName = iSisSales;
+				DEVELOPMENT_TEAM = 9NZ3S2EYFP;
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = "iSisSales/iSistemium-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"CONFIGURATION_${CONFIGURATION}",
+				);
+				INFOPLIST_FILE = iSisSales/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 3.11.6;
+				PRODUCT_BUNDLE_IDENTIFIER = apple.sistemium.iSisSales;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OBJC_BRIDGING_HEADER = "iSisSales/iSistemium-Bridging-Header.h";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "iSistemiumCore-Swift.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = ReleaseSalesApple;
+		};
+		35061EEA2773635100692210 /* ReleaseSalesApple */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7CB6FC51F4B8F41FE884A27 /* Pods-iSisSalesTests.releasesales.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GCC_PREFIX_HEADER = "iSisSales/iSistemium-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(CONFIGURATION_TEMP_DIR)/$(PROJECT_NAME).build/DerivedSources",
+					"$(TARGET_TEMP_DIR)/../$(PROJECT_NAME).build/DerivedSources",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = iSisSalesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sistemium.iSisSalesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iSisSales.app/iSisSales";
+				USER_HEADER_SEARCH_PATHS = (
+					"$(CONFIGURATION_TEMP_DIR)/$(PROJECT_NAME).build/DerivedSources",
+					"$(TARGET_TEMP_DIR)/../$(PROJECT_NAME).build/DerivedSources",
+				);
+			};
+			name = ReleaseSalesApple;
+		};
+		35061EEB2773635100692210 /* ReleaseSalesApple */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A0CE0EC634B0880798BF9FB /* Pods-iSisSalesUITests.releasesales.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iSisSales.app/iSisSales";
+				GCC_PREFIX_HEADER = "iSisSales/iSistemium-Prefix.pch";
+				INFOPLIST_FILE = iSisSalesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sistemium.iSisSalesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = iSisSales;
+			};
+			name = ReleaseSalesApple;
+		};
+		35061EEC2773635100692210 /* ReleaseSalesApple */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E84FB99CDB74294B79CC535 /* Pods-iSisSalesOfLibsTests.releasesales.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				DEVELOPMENT_TEAM = HZMMGDCLPA;
+				GCC_PREFIX_HEADER = "iSisSales/iSistemium-Prefix.pch";
+				INFOPLIST_FILE = iSisSalesOfLibsTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sistemium.iSisSalesOfLibsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iSisSales.app/iSisSales";
+			};
+			name = ReleaseSalesApple;
+		};
+		35061EED2773635100692210 /* ReleaseSalesApple */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35BA96D571E5CBAA739B97AD /* Pods-iSisSalesTestsInMemory.releasesales.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				DEVELOPMENT_TEAM = HZMMGDCLPA;
+				GCC_PREFIX_HEADER = "iSisSales/iSistemium-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/Crashlytics\"",
+					"\"${PODS_ROOT}/Headers/Public/Fabric\"",
+					"\"$(TARGET_TEMP_DIR)/../$(PROJECT_NAME).build/DerivedSources\"",
+				);
+				INFOPLIST_FILE = iSisSalesTestsInMemory/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sistemium.iSisSalesTestsInMemory;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iSisSales.app/iSisSales";
+			};
+			name = ReleaseSalesApple;
+		};
+		35061EEE2773635100692210 /* ReleaseSalesApple */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2998009F2899574476C84813 /* Pods-iSisSalesSpeedTests.releasesales.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				DEVELOPMENT_TEAM = HZMMGDCLPA;
+				GCC_PREFIX_HEADER = "iSisSales/iSistemium-Prefix.pch";
+				INFOPLIST_FILE = iSisSalesSpeedTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sistemium.iSisSalesSpeedTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iSisSales.app/iSisSales";
+			};
+			name = ReleaseSalesApple;
+		};
 		3593B6BD23FEDA51001F5EBB /* DebugVfs */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -4508,7 +4946,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -4724,7 +5162,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -4948,7 +5386,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -5165,7 +5603,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -5347,10 +5785,12 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2CCF552F1EA4E5E700A54B64 /* DebugSales */,
+				35061EE12773630A00692210 /* DebugSalesApple */,
 				35AE9A0A20C9458300343AA3 /* DebugDriver */,
 				3593B6BD23FEDA51001F5EBB /* DebugVfs */,
 				2CCF55361EA4E5EF00A54B64 /* DebugWarehouse */,
 				2CCF553D1EA4E5F700A54B64 /* ReleaseSales */,
+				35061EE82773635100692210 /* ReleaseSalesApple */,
 				35AE9A1120C945EA00343AA3 /* ReleaseDriver */,
 				3593B6C423FEDA89001F5EBB /* ReleaseVfs */,
 				2CCF55441EA4E60200A54B64 /* ReleaseWarehouse */,
@@ -5362,10 +5802,12 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2CCF55301EA4E5E700A54B64 /* DebugSales */,
+				35061EE22773630A00692210 /* DebugSalesApple */,
 				35AE9A0B20C9458300343AA3 /* DebugDriver */,
 				3593B6BE23FEDA51001F5EBB /* DebugVfs */,
 				2CCF55371EA4E5EF00A54B64 /* DebugWarehouse */,
 				2CCF553E1EA4E5F700A54B64 /* ReleaseSales */,
+				35061EE92773635100692210 /* ReleaseSalesApple */,
 				35AE9A1220C945EA00343AA3 /* ReleaseDriver */,
 				3593B6C523FEDA89001F5EBB /* ReleaseVfs */,
 				2CCF55451EA4E60200A54B64 /* ReleaseWarehouse */,
@@ -5377,10 +5819,12 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2CCF55311EA4E5E700A54B64 /* DebugSales */,
+				35061EE32773630A00692210 /* DebugSalesApple */,
 				35AE9A0C20C9458300343AA3 /* DebugDriver */,
 				3593B6BF23FEDA51001F5EBB /* DebugVfs */,
 				2CCF55381EA4E5EF00A54B64 /* DebugWarehouse */,
 				2CCF553F1EA4E5F700A54B64 /* ReleaseSales */,
+				35061EEA2773635100692210 /* ReleaseSalesApple */,
 				35AE9A1320C945EA00343AA3 /* ReleaseDriver */,
 				3593B6C623FEDA89001F5EBB /* ReleaseVfs */,
 				2CCF55461EA4E60200A54B64 /* ReleaseWarehouse */,
@@ -5392,10 +5836,12 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2CCF55321EA4E5E700A54B64 /* DebugSales */,
+				35061EE42773630A00692210 /* DebugSalesApple */,
 				35AE9A0D20C9458300343AA3 /* DebugDriver */,
 				3593B6C023FEDA51001F5EBB /* DebugVfs */,
 				2CCF55391EA4E5EF00A54B64 /* DebugWarehouse */,
 				2CCF55401EA4E5F700A54B64 /* ReleaseSales */,
+				35061EEB2773635100692210 /* ReleaseSalesApple */,
 				35AE9A1420C945EA00343AA3 /* ReleaseDriver */,
 				3593B6C723FEDA89001F5EBB /* ReleaseVfs */,
 				2CCF55471EA4E60200A54B64 /* ReleaseWarehouse */,
@@ -5407,10 +5853,12 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2CCF55341EA4E5E700A54B64 /* DebugSales */,
+				35061EE62773630A00692210 /* DebugSalesApple */,
 				35AE9A0F20C9458300343AA3 /* DebugDriver */,
 				3593B6C223FEDA51001F5EBB /* DebugVfs */,
 				2CCF553B1EA4E5EF00A54B64 /* DebugWarehouse */,
 				2CCF55421EA4E5F700A54B64 /* ReleaseSales */,
+				35061EED2773635100692210 /* ReleaseSalesApple */,
 				35AE9A1620C945EA00343AA3 /* ReleaseDriver */,
 				3593B6C923FEDA89001F5EBB /* ReleaseVfs */,
 				2CCF55491EA4E60200A54B64 /* ReleaseWarehouse */,
@@ -5422,10 +5870,12 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2CCF55351EA4E5E700A54B64 /* DebugSales */,
+				35061EE72773630A00692210 /* DebugSalesApple */,
 				35AE9A1020C9458300343AA3 /* DebugDriver */,
 				3593B6C323FEDA51001F5EBB /* DebugVfs */,
 				2CCF553C1EA4E5EF00A54B64 /* DebugWarehouse */,
 				2CCF55431EA4E5F700A54B64 /* ReleaseSales */,
+				35061EEE2773635100692210 /* ReleaseSalesApple */,
 				35AE9A1720C945EA00343AA3 /* ReleaseDriver */,
 				3593B6CA23FEDA89001F5EBB /* ReleaseVfs */,
 				2CCF554A1EA4E60200A54B64 /* ReleaseWarehouse */,
@@ -5437,10 +5887,12 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2CCF55331EA4E5E700A54B64 /* DebugSales */,
+				35061EE52773630A00692210 /* DebugSalesApple */,
 				35AE9A0E20C9458300343AA3 /* DebugDriver */,
 				3593B6C123FEDA51001F5EBB /* DebugVfs */,
 				2CCF553A1EA4E5EF00A54B64 /* DebugWarehouse */,
 				2CCF55411EA4E5F700A54B64 /* ReleaseSales */,
+				35061EEC2773635100692210 /* ReleaseSalesApple */,
 				35AE9A1520C945EA00343AA3 /* ReleaseDriver */,
 				3593B6C823FEDA89001F5EBB /* ReleaseVfs */,
 				2CCF55481EA4E60200A54B64 /* ReleaseWarehouse */,
@@ -5451,7 +5903,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		3556FCD326DCECAB003E1D5F /* XCRemoteSwiftPackageReference "SwiftUI-Introspect.git" */ = {
+		3556FCD326DCECAB003E1D5F /* XCRemoteSwiftPackageReference "SwiftUI-Introspect" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/siteline/SwiftUI-Introspect.git";
 			requirement = {
@@ -5459,7 +5911,7 @@
 				minimumVersion = 0.1.3;
 			};
 		};
-		358ED09E26D532F9009C3510 /* XCRemoteSwiftPackageReference "Alamofire.git" */ = {
+		358ED09E26D532F9009C3510 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
 			requirement = {
@@ -5472,12 +5924,12 @@
 /* Begin XCSwiftPackageProductDependency section */
 		3556FCD426DCECAB003E1D5F /* Introspect */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 3556FCD326DCECAB003E1D5F /* XCRemoteSwiftPackageReference "SwiftUI-Introspect.git" */;
+			package = 3556FCD326DCECAB003E1D5F /* XCRemoteSwiftPackageReference "SwiftUI-Introspect" */;
 			productName = Introspect;
 		};
 		358ED09F26D532F9009C3510 /* Alamofire */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 358ED09E26D532F9009C3510 /* XCRemoteSwiftPackageReference "Alamofire.git" */;
+			package = 358ED09E26D532F9009C3510 /* XCRemoteSwiftPackageReference "Alamofire" */;
 			productName = Alamofire;
 		};
 /* End XCSwiftPackageProductDependency section */
