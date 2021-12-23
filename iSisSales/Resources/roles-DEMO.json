@@ -9,20 +9,18 @@
         "code": 635,
         "email": "email@email.com",
         "mobile-number": "+7 DEMO 000",
-        "org": "DEMO ORG",
+        "org": "demo",
         "name": "DEMO ACC"
     },
     "cts": "2021-10-06 11:46:20.764",
     "id": "DEMO ID",
     "roles": {
         "authenticated": 1,
-        "mailer": 1,
         "models": "iSisSales",
-        "org": "DEMO ORG",
+        "org": "demo",
         "saleType": "op",
         "salesman": 77495,
         "stc": 1,
-        "tester": 1,
         "stcTabs": [{
                 "imageName": "checked_user-128.png",
                 "name": "STMProfile",
@@ -32,7 +30,7 @@
                 "disableScroll": 1,
                 "imageName": "3colors-colorless.png",
                 "name": "STMWKWebView",
-                "title": "Демо1",
+                "title": "Заказы",
                 "url": "DEMO URL"
             }
         ]
