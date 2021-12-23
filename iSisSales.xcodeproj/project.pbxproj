@@ -4134,7 +4134,7 @@
 				CustomAppBundleId = "com.sistemium.${PRODUCT_NAME:rfc1034identifier}";
 				CustomAppVersion = 3.10.1;
 				CustomProductName = iSisSales;
-				DEVELOPMENT_TEAM = 9NZ3S2EYFP;
+				DEVELOPMENT_TEAM = HZMMGDCLPA;
 				ENABLE_BITCODE = NO;
 				GCC_PREFIX_HEADER = "iSisSales/iSistemium-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -4791,7 +4791,7 @@
 				CustomAppBundleId = "com.sistemium.${PRODUCT_NAME:rfc1034identifier}";
 				CustomAppVersion = 3.10.1;
 				CustomProductName = iSisSales;
-				DEVELOPMENT_TEAM = 9NZ3S2EYFP;
+				DEVELOPMENT_TEAM = DP58H3X45C;
 				ENABLE_BITCODE = NO;
 				GCC_PREFIX_HEADER = "iSisSales/iSistemium-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
