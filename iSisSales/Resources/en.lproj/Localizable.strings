@@ -494,7 +494,7 @@
 "ENTER PASSWORD" = "Enter One Time Password";
 "SYNCING DATA" = "   Syncing data";
 "SYNC DATA" = "Synchronize data";
-"INITIAL LOADING ERROR" = "Connection interupted.";
+"INITIAL LOADING ERROR" = "Connection interupted";
 "TRY AGAIN" = "Repeat attempt";
 "POLICY" = "Privacy policy";
 "POLICY_URL" = "https://sistemium.com/static/privacy-Sales-ru.html";
