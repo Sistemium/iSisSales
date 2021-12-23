@@ -380,6 +380,7 @@
 		D9F7DE0E2084BF6900AF5472 /* ZebraIosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F7DE0D2084BF6900AF5472 /* ZebraIosTests.m */; };
 		D9F7DE112085D7D500AF5472 /* ZBRBarcodeTypes.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F7DE0F2085D7D500AF5472 /* ZBRBarcodeTypes.m */; };
 		D9F7DE15208A15E300AF5472 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D9F7DE14208A15E300AF5472 /* Settings.bundle */; };
+		D9F8354C2774BC2E008D1B7C /* ReleaseSalesApple in Resources */ = {isa = PBXBuildFile; fileRef = D9F8354B2774BC2E008D1B7C /* ReleaseSalesApple */; };
 		DF17F978B3A69AA2E95874EF /* AnimatedText.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF17FC21FD5D3E1DC32CF097 /* AnimatedText.swift */; };
 		DF17FCF11FBED1B0D6106E5F /* CircularProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF17FF8718804E3F675E9A80 /* CircularProgressBar.swift */; };
 		ED19D6BEB9F34012551638E9 /* Pods_iSisSalesOfLibsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA69E3A73683282867CEBDE0 /* Pods_iSisSalesOfLibsTests.framework */; };
@@ -1181,6 +1182,7 @@
 		D9F7DE0F2085D7D500AF5472 /* ZBRBarcodeTypes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZBRBarcodeTypes.m; sourceTree = "<group>"; };
 		D9F7DE102085D7D500AF5472 /* ZBRBarcodeTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBRBarcodeTypes.h; sourceTree = "<group>"; };
 		D9F7DE14208A15E300AF5472 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		D9F8354B2774BC2E008D1B7C /* ReleaseSalesApple */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ReleaseSalesApple; sourceTree = "<group>"; };
 		DA69E3A73683282867CEBDE0 /* Pods_iSisSalesOfLibsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iSisSalesOfLibsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBFB42CC13F54305F628400C /* Pods-iSisSalesTests.release sales.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesTests.release sales.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesTests/Pods-iSisSalesTests.release sales.xcconfig"; sourceTree = "<group>"; };
 		DC4D6D1117EE8212D7FBD798 /* Pods-iSisSalesOfLibsTests.debugdriver.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesOfLibsTests.debugdriver.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesOfLibsTests/Pods-iSisSalesOfLibsTests.debugdriver.xcconfig"; sourceTree = "<group>"; };
@@ -2183,6 +2185,7 @@
 		2CCF554B1EA4E67A00A54B64 /* config */ = {
 			isa = PBXGroup;
 			children = (
+				D9F8354B2774BC2E008D1B7C /* ReleaseSalesApple */,
 				3593B6B123FEC8E2001F5EBB /* ReleaseVfs */,
 				3593B6B023FEC8D3001F5EBB /* DebugVfs */,
 				35FC5A8620C93DEA00DF4587 /* ReleaseDriver */,
@@ -3001,6 +3004,7 @@
 				2C94C2021CF1B308004476D8 /* exit-128.png in Resources */,
 				2C94C2211CF1B36F004476D8 /* iphoneTabs.json in Resources */,
 				3593B6B523FEC986001F5EBB /* config.plist in Resources */,
+				D9F8354C2774BC2E008D1B7C /* ReleaseSalesApple in Resources */,
 				2C94C1F31CF1B308004476D8 /* alphabetical_sorting.png in Resources */,
 				2CC33EED1DAD06B200D21771 /* error.mp3 in Resources */,
 				2C94BFDA1CF1ACB8004476D8 /* Assets.xcassets in Resources */,
