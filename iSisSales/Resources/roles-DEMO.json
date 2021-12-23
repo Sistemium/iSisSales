@@ -34,20 +34,6 @@
                 "name": "STMWKWebView",
                 "title": "Демо1",
                 "url": "DEMO URL"
-            },
-            {
-                "disableScroll": 1,
-                "imageName": "3colors-colorless.png",
-                "name": "STMWKWebView",
-                "title": "Демо2",
-                "url": "DEMO URL"
-            },
-            {
-                "disableScroll": 1,
-                "imageName": "3colors-colorless.png",
-                "name": "STMWKWebView",
-                "title": "Демо3",
-                "appManifestURI": "https://isd.sistemium.com/app.manifest"
             }
         ]
     }
