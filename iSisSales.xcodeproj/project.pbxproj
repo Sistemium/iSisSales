@@ -252,7 +252,6 @@
 		2CCD468C1D646BAF003F8A14 /* STMLegalForm+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CCD46891D646BAF003F8A14 /* STMLegalForm+CoreDataProperties.m */; };
 		2CCD468D1D646BAF003F8A14 /* STMLegalForm.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CCD468B1D646BAF003F8A14 /* STMLegalForm.m */; };
 		2CCD5D8E1E36468000B84565 /* STMBarCodeScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CCD5D8B1E36468000B84565 /* STMBarCodeScanner.m */; };
-		2CCD5D8F1E36468000B84565 /* STMScanApiHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CCD5D8D1E36468000B84565 /* STMScanApiHelper.m */; };
 		2CCD5D9A1E3646BE00B84565 /* STMCoreAuthController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CCD5D911E3646BE00B84565 /* STMCoreAuthController.m */; };
 		2CCD5D9B1E3646BE00B84565 /* STMCoreSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CCD5D931E3646BE00B84565 /* STMCoreSession.m */; };
 		2CCD5D9C1E3646BE00B84565 /* STMCoreSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CCD5D951E3646BE00B84565 /* STMCoreSessionManager.m */; };
@@ -848,8 +847,6 @@
 		2CCD468B1D646BAF003F8A14 /* STMLegalForm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMLegalForm.m; sourceTree = "<group>"; };
 		2CCD5D8A1E36468000B84565 /* STMBarCodeScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMBarCodeScanner.h; sourceTree = "<group>"; };
 		2CCD5D8B1E36468000B84565 /* STMBarCodeScanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMBarCodeScanner.m; sourceTree = "<group>"; };
-		2CCD5D8C1E36468000B84565 /* STMScanApiHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMScanApiHelper.h; sourceTree = "<group>"; };
-		2CCD5D8D1E36468000B84565 /* STMScanApiHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMScanApiHelper.m; sourceTree = "<group>"; };
 		2CCD5D901E3646BE00B84565 /* STMCoreAuthController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMCoreAuthController.h; sourceTree = "<group>"; };
 		2CCD5D911E3646BE00B84565 /* STMCoreAuthController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMCoreAuthController.m; sourceTree = "<group>"; };
 		2CCD5D921E3646BE00B84565 /* STMCoreSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMCoreSession.h; sourceTree = "<group>"; };
@@ -1381,8 +1378,6 @@
 				D9F7DE0F2085D7D500AF5472 /* ZBRBarcodeTypes.m */,
 				2CCD5D8A1E36468000B84565 /* STMBarCodeScanner.h */,
 				2CCD5D8B1E36468000B84565 /* STMBarCodeScanner.m */,
-				2CCD5D8C1E36468000B84565 /* STMScanApiHelper.h */,
-				2CCD5D8D1E36468000B84565 /* STMScanApiHelper.m */,
 				6826351C209B5BC6BAD2190F /* STMCoreBarCodeController.h */,
 				682630C0CF3F8D10D70A0FF7 /* STMCoreBarCodeController.m */,
 				68263FC2BBD5147719172EA9 /* STMBarCodeScan.m */,
@@ -2923,8 +2918,8 @@
 			);
 			mainGroup = 2C94BFC11CF1ACB8004476D8;
 			packageReferences = (
-				358ED09E26D532F9009C3510 /* XCRemoteSwiftPackageReference "Alamofire" */,
-				3556FCD326DCECAB003E1D5F /* XCRemoteSwiftPackageReference "SwiftUI-Introspect" */,
+				358ED09E26D532F9009C3510 /* XCRemoteSwiftPackageReference "Alamofire.git" */,
+				3556FCD326DCECAB003E1D5F /* XCRemoteSwiftPackageReference "SwiftUI-Introspect.git" */,
 				35061EEF277379BA00692210 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
 			);
 			productRefGroup = 2C94BFCB1CF1ACB8004476D8 /* Products */;
@@ -3357,7 +3352,6 @@
 				2C94C2631CF1B771004476D8 /* STMApplication.m in Sources */,
 				2C94C11A1CF1B1BB004476D8 /* STMSplitViewController_Swift.swift in Sources */,
 				35752DA71F03EFBC00CA19AF /* STMRemotePersisterController.m in Sources */,
-				2CCD5D8F1E36468000B84565 /* STMScanApiHelper.m in Sources */,
 				2C94C1331CF1B1BB004476D8 /* STMTabBarButtonTVC.m in Sources */,
 				2C94C1181CF1B1BB004476D8 /* STMSpinnerView.m in Sources */,
 				2C94C1911CF1B1F3004476D8 /* STMMessage+CoreDataProperties.m in Sources */,
@@ -5959,7 +5953,7 @@
 				minimumVersion = 8.2.0;
 			};
 		};
-		3556FCD326DCECAB003E1D5F /* XCRemoteSwiftPackageReference "SwiftUI-Introspect" */ = {
+		3556FCD326DCECAB003E1D5F /* XCRemoteSwiftPackageReference "SwiftUI-Introspect.git" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/siteline/SwiftUI-Introspect.git";
 			requirement = {
@@ -5967,7 +5961,7 @@
 				minimumVersion = 0.1.3;
 			};
 		};
-		358ED09E26D532F9009C3510 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+		358ED09E26D532F9009C3510 /* XCRemoteSwiftPackageReference "Alamofire.git" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
 			requirement = {
@@ -5990,12 +5984,12 @@
 		};
 		3556FCD426DCECAB003E1D5F /* Introspect */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 3556FCD326DCECAB003E1D5F /* XCRemoteSwiftPackageReference "SwiftUI-Introspect" */;
+			package = 3556FCD326DCECAB003E1D5F /* XCRemoteSwiftPackageReference "SwiftUI-Introspect.git" */;
 			productName = Introspect;
 		};
 		358ED09F26D532F9009C3510 /* Alamofire */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 358ED09E26D532F9009C3510 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			package = 358ED09E26D532F9009C3510 /* XCRemoteSwiftPackageReference "Alamofire.git" */;
 			productName = Alamofire;
 		};
 /* End XCSwiftPackageProductDependency section */

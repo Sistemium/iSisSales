@@ -5,7 +5,6 @@ target 'iSisSales' do
     pod 'KiteJSONValidator', '~> 0.2.3'
     pod 'Reachability', '~> 3.2'
     pod 'JNKeychain', '~> 0.1.4'
-    pod 'ScanAPI', :path => '../ScanApiSDK'
     pod 'Socket.IO-Client-Swift', :path => '../socket.io-client-swift'
     pod 'FMDB', '~> 2.7.5'
     pod 'PromiseKit', '~> 6.13'
