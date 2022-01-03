@@ -498,4 +498,5 @@
 "TRY AGAIN" = "Повторить попытку";
 "POLICY" = "Политикой Конфиденциальности";
 "POLICY_URL" = "https://sistemium.com/static/privacy-Sales-ru.html";
-"POLICY_DESC" = "Отправляя номер телефона, вы соглашаетесь с нашей ";
+"POLICY_DESC" = "Отправляя номер телефона,";
+"POLICY_DESC2" = "вы соглашаетесь с нашей ";
