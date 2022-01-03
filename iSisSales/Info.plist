@@ -78,13 +78,6 @@
 	</array>
 	<key>UIRequiresFullScreen</key>
 	<true/>
-	<key>UISupportedExternalAccessoryProtocols</key>
-	<array>
-		<string>com.zebra.scanner.SSI</string>
-		<string>com.motorolasolutions.scanner</string>
-		<string>com.motorolasolutions.CS4070_ssi</string>
-		<string>com.socketmobile.chs</string>
-	</array>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>

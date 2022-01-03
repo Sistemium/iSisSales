@@ -2923,8 +2923,8 @@
 			);
 			mainGroup = 2C94BFC11CF1ACB8004476D8;
 			packageReferences = (
-				358ED09E26D532F9009C3510 /* XCRemoteSwiftPackageReference "Alamofire.git" */,
-				3556FCD326DCECAB003E1D5F /* XCRemoteSwiftPackageReference "SwiftUI-Introspect.git" */,
+				358ED09E26D532F9009C3510 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				3556FCD326DCECAB003E1D5F /* XCRemoteSwiftPackageReference "SwiftUI-Introspect" */,
 				35061EEF277379BA00692210 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
 			);
 			productRefGroup = 2C94BFCB1CF1ACB8004476D8 /* Products */;
@@ -5957,7 +5957,7 @@
 				minimumVersion = 8.2.0;
 			};
 		};
-		3556FCD326DCECAB003E1D5F /* XCRemoteSwiftPackageReference "SwiftUI-Introspect.git" */ = {
+		3556FCD326DCECAB003E1D5F /* XCRemoteSwiftPackageReference "SwiftUI-Introspect" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/siteline/SwiftUI-Introspect.git";
 			requirement = {
@@ -5965,7 +5965,7 @@
 				minimumVersion = 0.1.3;
 			};
 		};
-		358ED09E26D532F9009C3510 /* XCRemoteSwiftPackageReference "Alamofire.git" */ = {
+		358ED09E26D532F9009C3510 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
 			requirement = {
@@ -5988,12 +5988,12 @@
 		};
 		3556FCD426DCECAB003E1D5F /* Introspect */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 3556FCD326DCECAB003E1D5F /* XCRemoteSwiftPackageReference "SwiftUI-Introspect.git" */;
+			package = 3556FCD326DCECAB003E1D5F /* XCRemoteSwiftPackageReference "SwiftUI-Introspect" */;
 			productName = Introspect;
 		};
 		358ED09F26D532F9009C3510 /* Alamofire */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 358ED09E26D532F9009C3510 /* XCRemoteSwiftPackageReference "Alamofire.git" */;
+			package = 358ED09E26D532F9009C3510 /* XCRemoteSwiftPackageReference "Alamofire" */;
 			productName = Alamofire;
 		};
 /* End XCSwiftPackageProductDependency section */
