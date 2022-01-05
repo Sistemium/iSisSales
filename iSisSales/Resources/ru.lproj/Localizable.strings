@@ -500,3 +500,5 @@
 "POLICY_URL" = "https://sistemium.com/static/privacy-Sales-ru.html";
 "POLICY_DESC1" = "Отправляя номер телефона,";
 "POLICY_DESC2" = "вы соглашаетесь с нашей ";
+"GEOLOCATION" = "Геопзиция:";
+"PUSH" = "Уведомления:";
