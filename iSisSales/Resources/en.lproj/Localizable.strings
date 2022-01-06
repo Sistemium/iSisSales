@@ -502,3 +502,6 @@
 "POLICY_DESC2" = "you agree to our ";
 "GEOLOCATION" = "Geolocation:";
 "PUSH" = "Notifications:";
+"YOU NEED GO SETTING LOCATION" = "You can change location permissions in phone settings";
+"YOU NEED GO SETTING NOTIFICATIONS" = "You can change notification permissions in phone settings";
+"GO SETTINGS?" = "Go to settings?";
