@@ -321,6 +321,8 @@
 		358ED0A026D532F9009C3510 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 358ED09F26D532F9009C3510 /* Alamofire */; };
 		358F71FD277477700033FBAE /* roles-DEMO.json in Resources */ = {isa = PBXBuildFile; fileRef = 358F71FC277472FE0033FBAE /* roles-DEMO.json */; };
 		3593B6B523FEC986001F5EBB /* config.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3593B6B423FEC986001F5EBB /* config.plist */; };
+		359E79F1278EECC300A5FE03 /* iSisWarehouse-DEMO.db in Resources */ = {isa = PBXBuildFile; fileRef = 359E79EF278EECC300A5FE03 /* iSisWarehouse-DEMO.db */; };
+		359E79F2278EECC300A5FE03 /* iSisDriver-DEMO.db in Resources */ = {isa = PBXBuildFile; fileRef = 359E79F0278EECC300A5FE03 /* iSisDriver-DEMO.db */; };
 		35A269A527205AAE00EF9C97 /* DEMO in Resources */ = {isa = PBXBuildFile; fileRef = 35A269A427205AAE00EF9C97 /* DEMO */; };
 		35A985CA1E80987500DE2299 /* NSJSONSerializationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A985C91E80987500DE2299 /* NSJSONSerializationTests.m */; };
 		35B53DBD1E72D5B00002230F /* STMTestDirectoring.m in Sources */ = {isa = PBXBuildFile; fileRef = 35B53DBC1E72D5B00002230F /* STMTestDirectoring.m */; };
@@ -1017,6 +1019,8 @@
 		358F71FC277472FE0033FBAE /* roles-DEMO.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = "roles-DEMO.json"; path = "iSisSales/Resources/roles-DEMO.json"; sourceTree = SOURCE_ROOT; };
 		3593B6B223FEC971001F5EBB /* config.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = config.plist; sourceTree = "<group>"; };
 		3593B6B423FEC986001F5EBB /* config.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = config.plist; sourceTree = "<group>"; };
+		359E79EF278EECC300A5FE03 /* iSisWarehouse-DEMO.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = "iSisWarehouse-DEMO.db"; sourceTree = "<group>"; };
+		359E79F0278EECC300A5FE03 /* iSisDriver-DEMO.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = "iSisDriver-DEMO.db"; sourceTree = "<group>"; };
 		35A269A427205AAE00EF9C97 /* DEMO */ = {isa = PBXFileReference; lastKnownFileType = folder; path = DEMO; sourceTree = "<group>"; };
 		35A985C91E80987500DE2299 /* NSJSONSerializationTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSJSONSerializationTests.m; sourceTree = "<group>"; };
 		35AE9A0620C93ED800343AA3 /* config.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = config.plist; sourceTree = "<group>"; };
@@ -2012,6 +2016,8 @@
 		2C94C1C41CF1B308004476D8 /* ☯ Resources */ = {
 			isa = PBXGroup;
 			children = (
+				359E79F0278EECC300A5FE03 /* iSisDriver-DEMO.db */,
+				359E79EF278EECC300A5FE03 /* iSisWarehouse-DEMO.db */,
 				358F71FC277472FE0033FBAE /* roles-DEMO.json */,
 				35061EF727737FBC00692210 /* GoogleService-Info.plist */,
 				35E750D62722DAE600275E24 /* iSisSales-DEMO.db */,
@@ -2998,6 +3004,7 @@
 				2C94C20C1CF1B308004476D8 /* past.png in Resources */,
 				2C94C1FE1CF1B308004476D8 /* close-128.png in Resources */,
 				2C94C2181CF1B308004476D8 /* Up4-25.png in Resources */,
+				359E79F2278EECC300A5FE03 /* iSisDriver-DEMO.db in Resources */,
 				2C94C2191CF1B308004476D8 /* Upload To Cloud-100.png in Resources */,
 				2C94C2151CF1B308004476D8 /* Sync With Cloud.png in Resources */,
 				2C94C2071CF1B308004476D8 /* location.png in Resources */,
@@ -3013,6 +3020,7 @@
 				2C94C1F71CF1B308004476D8 /* barcode_scanner.png in Resources */,
 				2C94C20E1CF1B308004476D8 /* plus.png in Resources */,
 				2C94C23D1CF1B3BA004476D8 /* STMAuth.storyboard in Resources */,
+				359E79F1278EECC300A5FE03 /* iSisWarehouse-DEMO.db in Resources */,
 				2C94C1FC1CF1B308004476D8 /* checkmark_filled.png in Resources */,
 				2C94C2521CF1B3BA004476D8 /* STMSettings.storyboard in Resources */,
 				2C94C2031CF1B308004476D8 /* forward.png in Resources */,
