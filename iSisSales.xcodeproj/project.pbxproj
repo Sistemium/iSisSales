@@ -323,7 +323,6 @@
 		3593B6B523FEC986001F5EBB /* config.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3593B6B423FEC986001F5EBB /* config.plist */; };
 		359E79F1278EECC300A5FE03 /* iSisWarehouse-DEMO.db in Resources */ = {isa = PBXBuildFile; fileRef = 359E79EF278EECC300A5FE03 /* iSisWarehouse-DEMO.db */; };
 		359E79F2278EECC300A5FE03 /* iSisDriver-DEMO.db in Resources */ = {isa = PBXBuildFile; fileRef = 359E79F0278EECC300A5FE03 /* iSisDriver-DEMO.db */; };
-		35A269A527205AAE00EF9C97 /* DEMO in Resources */ = {isa = PBXBuildFile; fileRef = 35A269A427205AAE00EF9C97 /* DEMO */; };
 		35A985CA1E80987500DE2299 /* NSJSONSerializationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A985C91E80987500DE2299 /* NSJSONSerializationTests.m */; };
 		35B53DBD1E72D5B00002230F /* STMTestDirectoring.m in Sources */ = {isa = PBXBuildFile; fileRef = 35B53DBC1E72D5B00002230F /* STMTestDirectoring.m */; };
 		35B7D44F274FDDE600855E23 /* ProfileUIHostingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35BD4083274FD8F8006364AE /* ProfileUIHostingController.swift */; };
@@ -1021,7 +1020,6 @@
 		3593B6B423FEC986001F5EBB /* config.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = config.plist; sourceTree = "<group>"; };
 		359E79EF278EECC300A5FE03 /* iSisWarehouse-DEMO.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = "iSisWarehouse-DEMO.db"; sourceTree = "<group>"; };
 		359E79F0278EECC300A5FE03 /* iSisDriver-DEMO.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = "iSisDriver-DEMO.db"; sourceTree = "<group>"; };
-		35A269A427205AAE00EF9C97 /* DEMO */ = {isa = PBXFileReference; lastKnownFileType = folder; path = DEMO; sourceTree = "<group>"; };
 		35A985C91E80987500DE2299 /* NSJSONSerializationTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSJSONSerializationTests.m; sourceTree = "<group>"; };
 		35AE9A0620C93ED800343AA3 /* config.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = config.plist; sourceTree = "<group>"; };
 		35AE9A0820C93FE500343AA3 /* config.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = config.plist; sourceTree = "<group>"; };
@@ -2021,7 +2019,6 @@
 				358F71FC277472FE0033FBAE /* roles-DEMO.json */,
 				35061EF727737FBC00692210 /* GoogleService-Info.plist */,
 				35E750D62722DAE600275E24 /* iSisSales-DEMO.db */,
-				35A269A427205AAE00EF9C97 /* DEMO */,
 				2C907E051DA6979500326CA8 /* ☯ Sounds */,
 				2C94C1C51CF1B308004476D8 /* ☯ Images */,
 				2C94C1F11CF1B308004476D8 /* settings_schema.json */,
@@ -2979,7 +2976,6 @@
 				D920AF7D1D8D417700E825FC /* InfoPlist.strings in Resources */,
 				2C94C21D1CF1B308004476D8 /* settings_schema.json in Resources */,
 				2C94C2501CF1B3BA004476D8 /* STMProfile.storyboard in Resources */,
-				35A269A527205AAE00EF9C97 /* DEMO in Resources */,
 				2C94C21A1CF1B308004476D8 /* Upload-100.png in Resources */,
 				35061EF82773803700692210 /* GoogleService-Info.plist in Resources */,
 				2C94C2161CF1B308004476D8 /* uncheckmark.png in Resources */,
@@ -3922,8 +3918,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-WarehouseDebug";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-Warehouse";
 				CODE_SIGN_ENTITLEMENTS = iSisSales/iSisSales.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				CustomAppBuild = 392;
 				CustomAppBundleId = com.sistemium.iSisWarehouseDebug;
 				CustomAppVersion = 3.10.1;
@@ -3947,7 +3943,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.sistemium.iSisWarehouse;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "iSisWarehouse 2022";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "iSisSales/iSistemium-Bridging-Header.h";
 				SWIFT_OBJC_INTERFACE_HEADER_NAME = "iSistemiumCore-Swift.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -4357,8 +4353,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-Warehouse";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-Warehouse";
 				CODE_SIGN_ENTITLEMENTS = iSisSales/iSisSales.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				CustomAppBuild = 392;
 				CustomAppBundleId = com.sistemium.iSisWarehouse;
 				CustomAppVersion = 3.10.1;
@@ -4380,7 +4376,7 @@
 				MARKETING_VERSION = 3.11.6;
 				PRODUCT_BUNDLE_IDENTIFIER = com.sistemium.iSisWarehouse;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "iSisWarehouse 2022";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OBJC_BRIDGING_HEADER = "iSisSales/iSistemium-Bridging-Header.h";
 				SWIFT_OBJC_INTERFACE_HEADER_NAME = "iSistemiumCore-Swift.h";
@@ -5018,8 +5014,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-Vfs";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-Vfs";
 				CODE_SIGN_ENTITLEMENTS = iSisSales/iSisSales.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				CustomAppBuild = 100;
 				CustomAppBundleId = com.sistemium.vfsDebug;
 				CustomAppVersion = 3.10.1;
@@ -5043,7 +5039,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = org.sistemium.vfs;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "VFS mobile development";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "iSisSales/iSistemium-Bridging-Header.h";
 				SWIFT_OBJC_INTERFACE_HEADER_NAME = "iSistemiumCore-Swift.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -5236,8 +5232,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-Vfs";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-Vfs";
 				CODE_SIGN_ENTITLEMENTS = iSisSales/iSisSales.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				CustomAppBuild = 366;
 				CustomAppBundleId = com.sistemium.vfs;
 				CustomAppVersion = 3.10.1;
@@ -5260,7 +5256,7 @@
 				MARKETING_VERSION = 3.11.6;
 				PRODUCT_BUNDLE_IDENTIFIER = org.sistemium.vfs;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "VFS mobile development";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OBJC_BRIDGING_HEADER = "iSisSales/iSistemium-Bridging-Header.h";
 				SWIFT_OBJC_INTERFACE_HEADER_NAME = "iSistemiumCore-Swift.h";
@@ -5458,8 +5454,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-DriverDebug";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-Driver";
 				CODE_SIGN_ENTITLEMENTS = iSisSales/iSisSales.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				CustomAppBuild = 366;
 				CustomAppBundleId = com.sistemium.iSisDriverDebug;
 				CustomAppVersion = 3.10.1;
@@ -5484,7 +5480,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.sistemium.iSisDriver;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "iSisDriver 2020";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "iSisSales/iSistemium-Bridging-Header.h";
 				SWIFT_OBJC_INTERFACE_HEADER_NAME = "iSistemiumCore-Swift.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -5677,8 +5673,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-Driver";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-Driver";
 				CODE_SIGN_ENTITLEMENTS = iSisSales/iSisSales.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				CustomAppBuild = 366;
 				CustomAppBundleId = com.sistemium.iSisDriver;
 				CustomAppVersion = 3.10.1;
@@ -5701,7 +5697,7 @@
 				MARKETING_VERSION = 3.11.6;
 				PRODUCT_BUNDLE_IDENTIFIER = com.sistemium.iSisDriver;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "iSisDriver 2020";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OBJC_BRIDGING_HEADER = "iSisSales/iSistemium-Bridging-Header.h";
 				SWIFT_OBJC_INTERFACE_HEADER_NAME = "iSistemiumCore-Swift.h";
