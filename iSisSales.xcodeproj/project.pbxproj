@@ -306,7 +306,6 @@
 		35031DF51ED736DA0049715D /* STMPersisterTransaction.m in Sources */ = {isa = PBXBuildFile; fileRef = 35031DF41ED736DA0049715D /* STMPersisterTransaction.m */; };
 		35061EF1277379BA00692210 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 35061EF0277379BA00692210 /* FirebaseAnalytics */; };
 		35061EF3277379BA00692210 /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = 35061EF2277379BA00692210 /* FirebaseCrashlytics */; };
-		35061EF82773803700692210 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 35061EF727737FBC00692210 /* GoogleService-Info.plist */; };
 		350A20EB1ED5B82C00C9FB28 /* STMPersisterRunner.m in Sources */ = {isa = PBXBuildFile; fileRef = 350A20EA1ED5B82C00C9FB28 /* STMPersisterRunner.m */; };
 		3550B1DC1DAE59F300F8A368 /* STMCorePicture.m in Sources */ = {isa = PBXBuildFile; fileRef = 3550B1D91DAE59F300F8A368 /* STMCorePicture.m */; };
 		3550B1DD1DAE59F300F8A368 /* STMCorePicture+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 3550B1DB1DAE59F300F8A368 /* STMCorePicture+CoreDataProperties.m */; };
@@ -1000,7 +999,6 @@
 		2E6332E015A9E9E24955D89D /* Pods-iSisSalesSpeedTests.debugdriver.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesSpeedTests.debugdriver.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesSpeedTests/Pods-iSisSalesSpeedTests.debugdriver.xcconfig"; sourceTree = "<group>"; };
 		35031DF31ED732E50049715D /* STMPersisterTransaction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STMPersisterTransaction.h; sourceTree = "<group>"; };
 		35031DF41ED736DA0049715D /* STMPersisterTransaction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMPersisterTransaction.m; sourceTree = "<group>"; };
-		35061EF727737FBC00692210 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		350A20E91ED5B59700C9FB28 /* STMPersistingRunning.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = STMPersistingRunning.h; path = ../STMPersistingRunning.h; sourceTree = "<group>"; };
 		350A20EA1ED5B82C00C9FB28 /* STMPersisterRunner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMPersisterRunner.m; sourceTree = "<group>"; };
 		350A20EC1ED5BEE500C9FB28 /* STMPersisterRunner.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STMPersisterRunner.h; sourceTree = "<group>"; };
@@ -1018,6 +1016,9 @@
 		35552F2220CAB0B200ADC062 /* iSisDriver.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iSisDriver.xcdatamodel; sourceTree = "<group>"; };
 		35752DA51F03ED2E00CA19AF /* STMRemotePersisterController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STMRemotePersisterController.h; sourceTree = "<group>"; };
 		35752DA61F03EFBC00CA19AF /* STMRemotePersisterController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMRemotePersisterController.m; sourceTree = "<group>"; };
+		3575E9C32791CD8B00BAA8B5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3575E9C52791CD8B00BAA8B5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3575E9C72791CD8C00BAA8B5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		358926F02751284600934DBC /* STMLoading.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = STMLoading.storyboard; sourceTree = "<group>"; };
 		3593B6B223FEC971001F5EBB /* config.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = config.plist; sourceTree = "<group>"; };
 		3593B6B423FEC986001F5EBB /* config.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = config.plist; sourceTree = "<group>"; };
@@ -2033,7 +2034,6 @@
 			isa = PBXGroup;
 			children = (
 				35F27B702790501B008C0A32 /* DEMO */,
-				35061EF727737FBC00692210 /* GoogleService-Info.plist */,
 				2C907E051DA6979500326CA8 /* ☯ Sounds */,
 				2C94C1C51CF1B308004476D8 /* ☯ Images */,
 				2C94C1F11CF1B308004476D8 /* settings_schema.json */,
@@ -2095,6 +2095,7 @@
 		2C94C21E1CF1B352004476D8 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				3575E9C12791CD8B00BAA8B5 /* Firebase */,
 				2C94C21F1CF1B36F004476D8 /* iphoneTabs.json */,
 				2C94C2201CF1B36F004476D8 /* settings.json */,
 				2CD5BF0A1CF1E780006E1E36 /* Localizable.strings */,
@@ -2404,6 +2405,40 @@
 				2CD5D8DE1E6AB0C400A88639 /* SyncingDataTests.m */,
 			);
 			path = Syncer;
+			sourceTree = "<group>";
+		};
+		3575E9C12791CD8B00BAA8B5 /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				3575E9C22791CD8B00BAA8B5 /* iSisDriver */,
+				3575E9C42791CD8B00BAA8B5 /* iSisWarehouse */,
+				3575E9C62791CD8C00BAA8B5 /* iSisSales */,
+			);
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+		3575E9C22791CD8B00BAA8B5 /* iSisDriver */ = {
+			isa = PBXGroup;
+			children = (
+				3575E9C32791CD8B00BAA8B5 /* GoogleService-Info.plist */,
+			);
+			path = iSisDriver;
+			sourceTree = "<group>";
+		};
+		3575E9C42791CD8B00BAA8B5 /* iSisWarehouse */ = {
+			isa = PBXGroup;
+			children = (
+				3575E9C52791CD8B00BAA8B5 /* GoogleService-Info.plist */,
+			);
+			path = iSisWarehouse;
+			sourceTree = "<group>";
+		};
+		3575E9C62791CD8C00BAA8B5 /* iSisSales */ = {
+			isa = PBXGroup;
+			children = (
+				3575E9C72791CD8C00BAA8B5 /* GoogleService-Info.plist */,
+			);
+			path = iSisSales;
 			sourceTree = "<group>";
 		};
 		3593B6B023FEC8D3001F5EBB /* DebugVfs */ = {
@@ -2785,7 +2820,8 @@
 				2C94BFC81CF1ACB8004476D8 /* Resources */,
 				2CCF551E1EA4AF5400A54B64 /* Copy Configuration File(s) */,
 				D44387C132DB2AC55C4A5EF2 /* [CP] Embed Pods Frameworks */,
-				35061EF427737C0800692210 /* ShellScript */,
+				35D7CED72791BE6800CEE2CC /* Setup Firebase Environment GoogleService-Info.plist */,
+				35061EF427737C0800692210 /* Run Script */,
 			);
 			buildRules = (
 			);
@@ -2965,8 +3001,8 @@
 			);
 			mainGroup = 2C94BFC11CF1ACB8004476D8;
 			packageReferences = (
-				358ED09E26D532F9009C3510 /* XCRemoteSwiftPackageReference "Alamofire.git" */,
-				3556FCD326DCECAB003E1D5F /* XCRemoteSwiftPackageReference "SwiftUI-Introspect.git" */,
+				358ED09E26D532F9009C3510 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				3556FCD326DCECAB003E1D5F /* XCRemoteSwiftPackageReference "SwiftUI-Introspect" */,
 				35061EEF277379BA00692210 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
 			);
 			productRefGroup = 2C94BFCB1CF1ACB8004476D8 /* Products */;
@@ -3017,7 +3053,6 @@
 				2C94C21D1CF1B308004476D8 /* settings_schema.json in Resources */,
 				2C94C2501CF1B3BA004476D8 /* STMProfile.storyboard in Resources */,
 				2C94C21A1CF1B308004476D8 /* Upload-100.png in Resources */,
-				35061EF82773803700692210 /* GoogleService-Info.plist in Resources */,
 				2C94C2161CF1B308004476D8 /* uncheckmark.png in Resources */,
 				2C94C1F81CF1B308004476D8 /* camera.png in Resources */,
 				2C94C2141CF1B308004476D8 /* settings3-128.png in Resources */,
@@ -3129,7 +3164,7 @@
 			shellPath = /bin/sh;
 			shellScript = "RESOURCE_PATH=${SRCROOT}/${PRODUCT_NAME}/config/${CONFIGURATION}\n\nBUILD_APP_DIR=${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.app\n\necho \"Copying all files under ${RESOURCE_PATH} to ${BUILD_APP_DIR}\"\ncp -v \"${RESOURCE_PATH}/\"* \"${BUILD_APP_DIR}/\"\n";
 		};
-		35061EF427737C0800692210 /* ShellScript */ = {
+		35061EF427737C0800692210 /* Run Script */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -3140,6 +3175,7 @@
 				"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}/Contents/Resources/DWARF/${TARGET_NAME}",
 				"$(SRCROOT)/$(BUILT_PRODUCTS_DIR)/$(INFOPLIST_PATH)",
 			);
+			name = "Run Script";
 			outputFileListPaths = (
 			);
 			outputPaths = (
@@ -3147,6 +3183,24 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${BUILD_DIR%/Build/*}/SourcePackages/checkouts/firebase-ios-sdk/Crashlytics/run\"\n";
+		};
+		35D7CED72791BE6800CEE2CC /* Setup Firebase Environment GoogleService-Info.plist */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Setup Firebase Environment GoogleService-Info.plist";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\nGOOGLESERVICE_INFO_PLIST=GoogleService-Info.plist\n\nGOOGLESERVICE_INFO_SALES=${PROJECT_DIR}/${TARGET_NAME}/Resources/Firebase/iSisSales/${GOOGLESERVICE_INFO_PLIST}\nGOOGLESERVICE_INFO_DRIVER=${PROJECT_DIR}/${TARGET_NAME}/Resources/Firebase/iSisDriver/${GOOGLESERVICE_INFO_PLIST}\nGOOGLESERVICE_INFO_WAREHOUSE=${PROJECT_DIR}/${TARGET_NAME}/Resources/Firebase/iSisWarehouse/${GOOGLESERVICE_INFO_PLIST}\n\necho \"Looking for ${GOOGLESERVICE_INFO_PLIST} in ${GOOGLESERVICE_INFO_SALES}\"\nif [ ! -f $GOOGLESERVICE_INFO_SALES ]\nthen\n    echo \"No Development GoogleService-Info.plist found. Please ensure it's in the proper directory.\"\n    exit 1\nfi\n\necho \"Looking for ${GOOGLESERVICE_INFO_PLIST} in ${GOOGLESERVICE_INFO_DRIVER}\"\nif [ ! -f $GOOGLESERVICE_INFO_DRIVER ]\nthen\n    echo \"No Development GoogleService-Info.plist found. Please ensure it's in the proper directory.\"\n    exit 1\nfi\n\necho \"Looking for ${GOOGLESERVICE_INFO_PLIST} in ${GOOGLESERVICE_INFO_WAREHOUSE}\"\nif [ ! -f $GOOGLESERVICE_INFO_WAREHOUSE ]\nthen\n    echo \"No Development GoogleService-Info.plist found. Please ensure it's in the proper directory.\"\n    exit 1\nfi\n\n# Get a reference to the destination location for the GoogleService-Info.plist\nPLIST_DESTINATION=${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.app\necho \"Will copy ${GOOGLESERVICE_INFO_PLIST} to final destination: ${PLIST_DESTINATION}\"\n\necho \"${CONFIGURATION}\"\n\n# Copy over the prod GoogleService-Info.plist for Release builds\nif [[ \"${CONFIGURATION}\" == *\"Sales\"* ]]\nthen\n    echo \"Using ${GOOGLESERVICE_INFO_SALES}\"\n    cp \"${GOOGLESERVICE_INFO_SALES}\" \"${PLIST_DESTINATION}\"\nfi\n\nif [[ \"${CONFIGURATION}\" == *\"Driver\"* ]]\nthen\n    echo \"Using ${GOOGLESERVICE_INFO_SALES}\"\n    cp \"${GOOGLESERVICE_INFO_DRIVER}\" \"${PLIST_DESTINATION}\"\nfi\n\nif [[ \"${CONFIGURATION}\" == *\"Warehouse\"* ]]\nthen\n    echo \"Using ${GOOGLESERVICE_INFO_SALES}\"\n    cp \"${GOOGLESERVICE_INFO_Warehouse}\" \"${PLIST_DESTINATION}\"\nfi\n\n";
 		};
 		41490621D821E641AA346E52 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -6907,7 +6961,7 @@
 				minimumVersion = 8.2.0;
 			};
 		};
-		3556FCD326DCECAB003E1D5F /* XCRemoteSwiftPackageReference "SwiftUI-Introspect.git" */ = {
+		3556FCD326DCECAB003E1D5F /* XCRemoteSwiftPackageReference "SwiftUI-Introspect" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/siteline/SwiftUI-Introspect.git";
 			requirement = {
@@ -6915,7 +6969,7 @@
 				minimumVersion = 0.1.3;
 			};
 		};
-		358ED09E26D532F9009C3510 /* XCRemoteSwiftPackageReference "Alamofire.git" */ = {
+		358ED09E26D532F9009C3510 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
 			requirement = {
@@ -6938,12 +6992,12 @@
 		};
 		3556FCD426DCECAB003E1D5F /* Introspect */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 3556FCD326DCECAB003E1D5F /* XCRemoteSwiftPackageReference "SwiftUI-Introspect.git" */;
+			package = 3556FCD326DCECAB003E1D5F /* XCRemoteSwiftPackageReference "SwiftUI-Introspect" */;
 			productName = Introspect;
 		};
 		358ED09F26D532F9009C3510 /* Alamofire */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 358ED09E26D532F9009C3510 /* XCRemoteSwiftPackageReference "Alamofire.git" */;
+			package = 358ED09E26D532F9009C3510 /* XCRemoteSwiftPackageReference "Alamofire" */;
 			productName = Alamofire;
 		};
 /* End XCSwiftPackageProductDependency section */
