@@ -3807,7 +3807,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 3.11.6;
+				MARKETING_VERSION = 3.11.8;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.sistemium.iSisSales;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -4029,7 +4029,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 3.11.6;
+				MARKETING_VERSION = 3.11.8;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.sistemium.iSisWarehouse;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -4246,7 +4246,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 3.11.6;
+				MARKETING_VERSION = 3.11.8;
 				PRODUCT_BUNDLE_IDENTIFIER = com.sistemium.iSisSales;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -4463,7 +4463,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 3.11.6;
+				MARKETING_VERSION = 3.11.8;
 				PRODUCT_BUNDLE_IDENTIFIER = com.sistemium.iSisWarehouse;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -4686,7 +4686,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 3.11.6;
+				MARKETING_VERSION = 3.11.8;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = apple.sistemium.iSisSales;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -4903,7 +4903,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 3.11.6;
+				MARKETING_VERSION = 3.11.8;
 				PRODUCT_BUNDLE_IDENTIFIER = apple.sistemium.iSisSales;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -5126,7 +5126,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 3.11.6;
+				MARKETING_VERSION = 3.11.8;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = apple.sistemium.iSisDriver;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -5344,7 +5344,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 3.11.6;
+				MARKETING_VERSION = 3.11.8;
 				PRODUCT_BUNDLE_IDENTIFIER = apple.sistemium.iSisDriver;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -5566,7 +5566,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 3.11.6;
+				MARKETING_VERSION = 3.11.8;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = apple.sistemium.iSisWarehouse;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -5783,7 +5783,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 3.11.6;
+				MARKETING_VERSION = 3.11.8;
 				PRODUCT_BUNDLE_IDENTIFIER = apple.sistemium.iSisWarehouse;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -6005,7 +6005,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 3.11.6;
+				MARKETING_VERSION = 3.11.8;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = org.sistemium.vfs;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -6223,7 +6223,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 3.11.6;
+				MARKETING_VERSION = 3.11.8;
 				PRODUCT_BUNDLE_IDENTIFIER = org.sistemium.vfs;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -6446,7 +6446,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 3.11.6;
+				MARKETING_VERSION = 3.11.8;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.sistemium.iSisDriver;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -6664,7 +6664,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 3.11.6;
+				MARKETING_VERSION = 3.11.8;
 				PRODUCT_BUNDLE_IDENTIFIER = com.sistemium.iSisDriver;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
