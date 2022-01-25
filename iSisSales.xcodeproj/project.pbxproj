@@ -6463,7 +6463,7 @@
 				CustomDisplayName = "ST Driver";
 				CustomProductName = iSisDriver;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = HZMMGDCLPA;
 				ENABLE_BITCODE = NO;
 				GCC_PREFIX_HEADER = "iSisSales/iSistemium-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -6681,7 +6681,7 @@
 				CustomAppVersion = 3.10.1;
 				CustomDisplayName = "ST Driver";
 				CustomProductName = iSisDriver;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = HZMMGDCLPA;
 				ENABLE_BITCODE = NO;
 				GCC_PREFIX_HEADER = "iSisSales/iSistemium-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (

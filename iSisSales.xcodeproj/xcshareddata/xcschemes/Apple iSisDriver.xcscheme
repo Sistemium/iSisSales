@@ -81,7 +81,7 @@
       buildConfiguration = "DebugDriver">
    </AnalyzeAction>
    <ArchiveAction
-      buildConfiguration = "ReleaseDriver"
+      buildConfiguration = "ReleaseDriverApple"
       revealArchiveInOrganizer = "YES">
    </ArchiveAction>
 </Scheme>
