@@ -307,6 +307,7 @@
 		35061EF1277379BA00692210 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 35061EF0277379BA00692210 /* FirebaseAnalytics */; };
 		35061EF3277379BA00692210 /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = 35061EF2277379BA00692210 /* FirebaseCrashlytics */; };
 		350A20EB1ED5B82C00C9FB28 /* STMPersisterRunner.m in Sources */ = {isa = PBXBuildFile; fileRef = 350A20EA1ED5B82C00C9FB28 /* STMPersisterRunner.m */; };
+		354E10C727B678B200FE5753 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 354E10C627B678B200FE5753 /* GoogleService-Info.plist */; };
 		3550B1DC1DAE59F300F8A368 /* STMCorePicture.m in Sources */ = {isa = PBXBuildFile; fileRef = 3550B1D91DAE59F300F8A368 /* STMCorePicture.m */; };
 		3550B1DD1DAE59F300F8A368 /* STMCorePicture+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 3550B1DB1DAE59F300F8A368 /* STMCorePicture+CoreDataProperties.m */; };
 		3550B1E21DAE5CC300F8A368 /* STMEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 3550B1DF1DAE5CC300F8A368 /* STMEntity.m */; };
@@ -1003,6 +1004,7 @@
 		350A20EA1ED5B82C00C9FB28 /* STMPersisterRunner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMPersisterRunner.m; sourceTree = "<group>"; };
 		350A20EC1ED5BEE500C9FB28 /* STMPersisterRunner.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STMPersisterRunner.h; sourceTree = "<group>"; };
 		350B7E711E4CB0350051D0A9 /* STMCorePicturesControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMCorePicturesControllerTests.m; sourceTree = "<group>"; };
+		354E10C627B678B200FE5753 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		3550B1D81DAE59F300F8A368 /* STMCorePicture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMCorePicture.h; sourceTree = "<group>"; };
 		3550B1D91DAE59F300F8A368 /* STMCorePicture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMCorePicture.m; sourceTree = "<group>"; };
 		3550B1DA1DAE59F300F8A368 /* STMCorePicture+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "STMCorePicture+CoreDataProperties.h"; sourceTree = "<group>"; };
@@ -2407,9 +2409,18 @@
 			path = Syncer;
 			sourceTree = "<group>";
 		};
+		354E10C527B678B200FE5753 /* vfs */ = {
+			isa = PBXGroup;
+			children = (
+				354E10C627B678B200FE5753 /* GoogleService-Info.plist */,
+			);
+			path = vfs;
+			sourceTree = "<group>";
+		};
 		3575E9C12791CD8B00BAA8B5 /* Firebase */ = {
 			isa = PBXGroup;
 			children = (
+				354E10C527B678B200FE5753 /* vfs */,
 				3575E9C22791CD8B00BAA8B5 /* iSisDriver */,
 				3575E9C42791CD8B00BAA8B5 /* iSisWarehouse */,
 				3575E9C62791CD8C00BAA8B5 /* iSisSales */,
@@ -3053,6 +3064,7 @@
 				2C94C21D1CF1B308004476D8 /* settings_schema.json in Resources */,
 				2C94C2501CF1B3BA004476D8 /* STMProfile.storyboard in Resources */,
 				2C94C21A1CF1B308004476D8 /* Upload-100.png in Resources */,
+				354E10C727B678B200FE5753 /* GoogleService-Info.plist in Resources */,
 				2C94C2161CF1B308004476D8 /* uncheckmark.png in Resources */,
 				2C94C1F81CF1B308004476D8 /* camera.png in Resources */,
 				2C94C2141CF1B308004476D8 /* settings3-128.png in Resources */,
@@ -3200,7 +3212,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\nGOOGLESERVICE_INFO_PLIST=GoogleService-Info.plist\n\nGOOGLESERVICE_INFO_SALES=${PROJECT_DIR}/${TARGET_NAME}/Resources/Firebase/iSisSales/${GOOGLESERVICE_INFO_PLIST}\nGOOGLESERVICE_INFO_DRIVER=${PROJECT_DIR}/${TARGET_NAME}/Resources/Firebase/iSisDriver/${GOOGLESERVICE_INFO_PLIST}\nGOOGLESERVICE_INFO_WAREHOUSE=${PROJECT_DIR}/${TARGET_NAME}/Resources/Firebase/iSisWarehouse/${GOOGLESERVICE_INFO_PLIST}\n\necho \"Looking for ${GOOGLESERVICE_INFO_PLIST} in ${GOOGLESERVICE_INFO_SALES}\"\nif [ ! -f $GOOGLESERVICE_INFO_SALES ]\nthen\n    echo \"No Development GoogleService-Info.plist found. Please ensure it's in the proper directory.\"\n    exit 1\nfi\n\necho \"Looking for ${GOOGLESERVICE_INFO_PLIST} in ${GOOGLESERVICE_INFO_DRIVER}\"\nif [ ! -f $GOOGLESERVICE_INFO_DRIVER ]\nthen\n    echo \"No Development GoogleService-Info.plist found. Please ensure it's in the proper directory.\"\n    exit 1\nfi\n\necho \"Looking for ${GOOGLESERVICE_INFO_PLIST} in ${GOOGLESERVICE_INFO_WAREHOUSE}\"\nif [ ! -f $GOOGLESERVICE_INFO_WAREHOUSE ]\nthen\n    echo \"No Development GoogleService-Info.plist found. Please ensure it's in the proper directory.\"\n    exit 1\nfi\n\n# Get a reference to the destination location for the GoogleService-Info.plist\nPLIST_DESTINATION=${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.app\necho \"Will copy ${GOOGLESERVICE_INFO_PLIST} to final destination: ${PLIST_DESTINATION}\"\n\necho \"${CONFIGURATION}\"\n\n# Copy over the prod GoogleService-Info.plist for Release builds\nif [[ \"${CONFIGURATION}\" == *\"Sales\"* ]]\nthen\n    echo \"Using ${GOOGLESERVICE_INFO_SALES}\"\n    cp \"${GOOGLESERVICE_INFO_SALES}\" \"${PLIST_DESTINATION}\"\nfi\n\nif [[ \"${CONFIGURATION}\" == *\"Driver\"* ]]\nthen\n    echo \"Using ${GOOGLESERVICE_INFO_SALES}\"\n    cp \"${GOOGLESERVICE_INFO_DRIVER}\" \"${PLIST_DESTINATION}\"\nfi\n\nif [[ \"${CONFIGURATION}\" == *\"Warehouse\"* ]]\nthen\n    echo \"Using ${GOOGLESERVICE_INFO_SALES}\"\n    cp \"${GOOGLESERVICE_INFO_Warehouse}\" \"${PLIST_DESTINATION}\"\nfi\n\n";
+			shellScript = "\nGOOGLESERVICE_INFO_PLIST=GoogleService-Info.plist\n\nGOOGLESERVICE_INFO_SALES=${PROJECT_DIR}/${TARGET_NAME}/Resources/Firebase/iSisSales/${GOOGLESERVICE_INFO_PLIST}\nGOOGLESERVICE_INFO_DRIVER=${PROJECT_DIR}/${TARGET_NAME}/Resources/Firebase/iSisDriver/${GOOGLESERVICE_INFO_PLIST}\nGOOGLESERVICE_INFO_WAREHOUSE=${PROJECT_DIR}/${TARGET_NAME}/Resources/Firebase/iSisWarehouse/${GOOGLESERVICE_INFO_PLIST}\nGOOGLESERVICE_INFO_WFS=${PROJECT_DIR}/${TARGET_NAME}/Resources/Firebase/vfs/${GOOGLESERVICE_INFO_PLIST}\n\n\necho \"Looking for ${GOOGLESERVICE_INFO_PLIST} in ${GOOGLESERVICE_INFO_SALES}\"\nif [ ! -f $GOOGLESERVICE_INFO_SALES ]\nthen\n    echo \"No Development GoogleService-Info.plist found. Please ensure it's in the proper directory.\"\n    exit 1\nfi\n\necho \"Looking for ${GOOGLESERVICE_INFO_PLIST} in ${GOOGLESERVICE_INFO_DRIVER}\"\nif [ ! -f $GOOGLESERVICE_INFO_DRIVER ]\nthen\n    echo \"No Development GoogleService-Info.plist found. Please ensure it's in the proper directory.\"\n    exit 1\nfi\n\necho \"Looking for ${GOOGLESERVICE_INFO_PLIST} in ${GOOGLESERVICE_INFO_WAREHOUSE}\"\nif [ ! -f $GOOGLESERVICE_INFO_WAREHOUSE ]\nthen\n    echo \"No Development GoogleService-Info.plist found. Please ensure it's in the proper directory.\"\n    exit 1\nfi\n\necho \"Looking for ${GOOGLESERVICE_INFO_PLIST} in ${GOOGLESERVICE_INFO_WFS}\"\nif [ ! -f $GOOGLESERVICE_INFO_WFS ]\nthen\n    echo \"No Development GoogleService-Info.plist found. Please ensure it's in the proper directory.\"\n    exit 1\nfi\n\n# Get a reference to the destination location for the GoogleService-Info.plist\nPLIST_DESTINATION=${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.app\necho \"Will copy ${GOOGLESERVICE_INFO_PLIST} to final destination: ${PLIST_DESTINATION}\"\n\necho \"${CONFIGURATION}\"\n\n# Copy over the prod GoogleService-Info.plist for Release builds\nif [[ \"${CONFIGURATION}\" == *\"Sales\"* ]]\nthen\n    echo \"Using ${GOOGLESERVICE_INFO_SALES}\"\n    cp \"${GOOGLESERVICE_INFO_SALES}\" \"${PLIST_DESTINATION}\"\nfi\n\nif [[ \"${CONFIGURATION}\" == *\"Driver\"* ]]\nthen\n    echo \"Using ${GOOGLESERVICE_INFO_SALES}\"\n    cp \"${GOOGLESERVICE_INFO_DRIVER}\" \"${PLIST_DESTINATION}\"\nfi\n\nif [[ \"${CONFIGURATION}\" == *\"Warehouse\"* ]]\nthen\n    echo \"Using ${GOOGLESERVICE_INFO_SALES}\"\n    cp \"${GOOGLESERVICE_INFO_Warehouse}\" \"${PLIST_DESTINATION}\"\nfi\n\nif [[ \"${CONFIGURATION}\" == *\"vfs\"* ]]\nthen\n    echo \"Using ${GOOGLESERVICE_INFO_VFS}\"\n    cp \"${GOOGLESERVICE_INFO_WFS}\" \"${PLIST_DESTINATION}\"\nfi\n\n";
 		};
 		41490621D821E641AA346E52 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
