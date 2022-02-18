@@ -307,7 +307,6 @@
 		35061EF1277379BA00692210 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 35061EF0277379BA00692210 /* FirebaseAnalytics */; };
 		35061EF3277379BA00692210 /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = 35061EF2277379BA00692210 /* FirebaseCrashlytics */; };
 		350A20EB1ED5B82C00C9FB28 /* STMPersisterRunner.m in Sources */ = {isa = PBXBuildFile; fileRef = 350A20EA1ED5B82C00C9FB28 /* STMPersisterRunner.m */; };
-		354E10C727B678B200FE5753 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 354E10C627B678B200FE5753 /* GoogleService-Info.plist */; };
 		354E10C927B6820900FE5753 /* STMAuthOld.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 354E10C827B6820900FE5753 /* STMAuthOld.storyboard */; };
 		3550B1DC1DAE59F300F8A368 /* STMCorePicture.m in Sources */ = {isa = PBXBuildFile; fileRef = 3550B1D91DAE59F300F8A368 /* STMCorePicture.m */; };
 		3550B1DD1DAE59F300F8A368 /* STMCorePicture+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 3550B1DB1DAE59F300F8A368 /* STMCorePicture+CoreDataProperties.m */; };
@@ -330,7 +329,6 @@
 		35B7D453274FDE0D00855E23 /* PasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35BD408B274FD8F9006364AE /* PasswordView.swift */; };
 		35B7D454274FDE3900855E23 /* CoreAuthController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35BD408D274FD8F9006364AE /* CoreAuthController.swift */; };
 		35DB36621F139091004574A1 /* STMSyncer+RemoteData.m in Sources */ = {isa = PBXBuildFile; fileRef = 35DB36611F139091004574A1 /* STMSyncer+RemoteData.m */; };
-		35F27B712790501B008C0A32 /* DEMO in Resources */ = {isa = PBXBuildFile; fileRef = 35F27B702790501B008C0A32 /* DEMO */; };
 		35FC7A8F2751153F004BC056 /* LoadingUIHostingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35FC7A8E2751153F004BC056 /* LoadingUIHostingController.swift */; };
 		35FC7A922751174B004BC056 /* Loading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35FC7A912751174B004BC056 /* Loading.swift */; };
 		3E873491EFBF4D2FD467BB9A /* Pods_iSisSalesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFEE3E7425CEF6DC61EAF6D3 /* Pods_iSisSalesTests.framework */; };
@@ -1041,7 +1039,6 @@
 		35DB36601F138FB4004574A1 /* STMSyncer+RemoteData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "STMSyncer+RemoteData.h"; path = "Socket/STMSyncer+RemoteData.h"; sourceTree = "<group>"; };
 		35DB36611F139091004574A1 /* STMSyncer+RemoteData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "STMSyncer+RemoteData.m"; sourceTree = "<group>"; };
 		35E414511EEAD597005BF054 /* STMAdapting.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STMAdapting.h; sourceTree = "<group>"; };
-		35F27B702790501B008C0A32 /* DEMO */ = {isa = PBXFileReference; lastKnownFileType = folder; path = DEMO; sourceTree = "<group>"; };
 		35FC7A8E2751153F004BC056 /* LoadingUIHostingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingUIHostingController.swift; sourceTree = "<group>"; };
 		35FC7A912751174B004BC056 /* Loading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loading.swift; sourceTree = "<group>"; };
 		37E418D5956AF3812C22C69A /* Pods-iSisSalesTestsInMemory.debugdriver.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesTestsInMemory.debugdriver.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesTestsInMemory/Pods-iSisSalesTestsInMemory.debugdriver.xcconfig"; sourceTree = "<group>"; };
@@ -2037,7 +2034,6 @@
 		2C94C1C41CF1B308004476D8 /* ☯ Resources */ = {
 			isa = PBXGroup;
 			children = (
-				35F27B702790501B008C0A32 /* DEMO */,
 				2C907E051DA6979500326CA8 /* ☯ Sounds */,
 				2C94C1C51CF1B308004476D8 /* ☯ Images */,
 				2C94C1F11CF1B308004476D8 /* settings_schema.json */,
@@ -2836,6 +2832,7 @@
 				D44387C132DB2AC55C4A5EF2 /* [CP] Embed Pods Frameworks */,
 				35D7CED72791BE6800CEE2CC /* Setup Firebase Environment GoogleService-Info.plist */,
 				35061EF427737C0800692210 /* Run Script */,
+				352D42D227BFFE2C005FCB4F /* DEMO COPY */,
 			);
 			buildRules = (
 			);
@@ -3055,7 +3052,6 @@
 				2C94C2171CF1B308004476D8 /* uncheckmark_filled.png in Resources */,
 				2CC33EEE1DAD06B200D21771 /* ok.mp3 in Resources */,
 				D99C0F042119E7E400035E7A /* icons8-truck.png in Resources */,
-				35F27B712790501B008C0A32 /* DEMO in Resources */,
 				2CC33EEF1DAD06B200D21771 /* silent.wav in Resources */,
 				2C94C2081CF1B308004476D8 /* No connection Cloud-100.png in Resources */,
 				358926F12751284600934DBC /* STMLoading.storyboard in Resources */,
@@ -3067,7 +3063,6 @@
 				2C94C21D1CF1B308004476D8 /* settings_schema.json in Resources */,
 				2C94C2501CF1B3BA004476D8 /* STMProfile.storyboard in Resources */,
 				2C94C21A1CF1B308004476D8 /* Upload-100.png in Resources */,
-				354E10C727B678B200FE5753 /* GoogleService-Info.plist in Resources */,
 				2C94C2161CF1B308004476D8 /* uncheckmark.png in Resources */,
 				2C94C1F81CF1B308004476D8 /* camera.png in Resources */,
 				2C94C2141CF1B308004476D8 /* settings3-128.png in Resources */,
@@ -3200,9 +3195,27 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${BUILD_DIR%/Build/*}/SourcePackages/checkouts/firebase-ios-sdk/Crashlytics/run\"\n";
 		};
-		35D7CED72791BE6800CEE2CC /* Setup Firebase Environment GoogleService-Info.plist */ = {
+		352D42D227BFFE2C005FCB4F /* DEMO COPY */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "DEMO COPY";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "DEMO_SALES=${PROJECT_DIR}/${TARGET_NAME}/Resources/DEMO/iSisSales\nDEMO_DRIVER=${PROJECT_DIR}/${TARGET_NAME}/Resources/DEMO/iSisDriver\nDEMO_WAREHOUSE=${PROJECT_DIR}/${TARGET_NAME}/Resources/DEMO/iSisWarehouse\n\nPLIST_DESTINATION=${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.app/DEMO\n\necho \"${CONFIGURATION}\"\n\nif [[ \"${CONFIGURATION}\" == *\"Sales\"* ]]\nthen\n    echo \"Using ${DEMO_SALES}\"\n    cp -R \"${DEMO_SALES}\" \"${PLIST_DESTINATION}\"\nfi\n\nif [[ \"${CONFIGURATION}\" == *\"Driver\"* ]]\nthen\n    echo \"Using ${DEMO_DRIVER}\"\n    cp \"${DEMO_DRIVER}\" \"${PLIST_DESTINATION}\"\nfi\n\nif [[ \"${CONFIGURATION}\" == *\"Warehouse\"* ]]\nthen\n    echo \"Using ${DEMO_WAREHOUSE}\"\n    cp \"${DEMO_Warehouse}\" \"${PLIST_DESTINATION}\"\nfi\n\n\n";
+		};
+		35D7CED72791BE6800CEE2CC /* Setup Firebase Environment GoogleService-Info.plist */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
 			files = (
 			);
 			inputFileListPaths = (
@@ -3216,7 +3229,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\nGOOGLESERVICE_INFO_PLIST=GoogleService-Info.plist\n\nGOOGLESERVICE_INFO_SALES=${PROJECT_DIR}/${TARGET_NAME}/Resources/Firebase/iSisSales/${GOOGLESERVICE_INFO_PLIST}\nGOOGLESERVICE_INFO_DRIVER=${PROJECT_DIR}/${TARGET_NAME}/Resources/Firebase/iSisDriver/${GOOGLESERVICE_INFO_PLIST}\nGOOGLESERVICE_INFO_WAREHOUSE=${PROJECT_DIR}/${TARGET_NAME}/Resources/Firebase/iSisWarehouse/${GOOGLESERVICE_INFO_PLIST}\nGOOGLESERVICE_INFO_WFS=${PROJECT_DIR}/${TARGET_NAME}/Resources/Firebase/vfs/${GOOGLESERVICE_INFO_PLIST}\n\n\necho \"Looking for ${GOOGLESERVICE_INFO_PLIST} in ${GOOGLESERVICE_INFO_SALES}\"\nif [ ! -f $GOOGLESERVICE_INFO_SALES ]\nthen\n    echo \"No Development GoogleService-Info.plist found. Please ensure it's in the proper directory.\"\n    exit 1\nfi\n\necho \"Looking for ${GOOGLESERVICE_INFO_PLIST} in ${GOOGLESERVICE_INFO_DRIVER}\"\nif [ ! -f $GOOGLESERVICE_INFO_DRIVER ]\nthen\n    echo \"No Development GoogleService-Info.plist found. Please ensure it's in the proper directory.\"\n    exit 1\nfi\n\necho \"Looking for ${GOOGLESERVICE_INFO_PLIST} in ${GOOGLESERVICE_INFO_WAREHOUSE}\"\nif [ ! -f $GOOGLESERVICE_INFO_WAREHOUSE ]\nthen\n    echo \"No Development GoogleService-Info.plist found. Please ensure it's in the proper directory.\"\n    exit 1\nfi\n\necho \"Looking for ${GOOGLESERVICE_INFO_PLIST} in ${GOOGLESERVICE_INFO_WFS}\"\nif [ ! -f $GOOGLESERVICE_INFO_WFS ]\nthen\n    echo \"No Development GoogleService-Info.plist found. Please ensure it's in the proper directory.\"\n    exit 1\nfi\n\n# Get a reference to the destination location for the GoogleService-Info.plist\nPLIST_DESTINATION=${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.app\necho \"Will copy ${GOOGLESERVICE_INFO_PLIST} to final destination: ${PLIST_DESTINATION}\"\n\necho \"${CONFIGURATION}\"\n\n# Copy over the prod GoogleService-Info.plist for Release builds\nif [[ \"${CONFIGURATION}\" == *\"Sales\"* ]]\nthen\n    echo \"Using ${GOOGLESERVICE_INFO_SALES}\"\n    cp \"${GOOGLESERVICE_INFO_SALES}\" \"${PLIST_DESTINATION}\"\nfi\n\nif [[ \"${CONFIGURATION}\" == *\"Driver\"* ]]\nthen\n    echo \"Using ${GOOGLESERVICE_INFO_SALES}\"\n    cp \"${GOOGLESERVICE_INFO_DRIVER}\" \"${PLIST_DESTINATION}\"\nfi\n\nif [[ \"${CONFIGURATION}\" == *\"Warehouse\"* ]]\nthen\n    echo \"Using ${GOOGLESERVICE_INFO_SALES}\"\n    cp \"${GOOGLESERVICE_INFO_Warehouse}\" \"${PLIST_DESTINATION}\"\nfi\n\nif [[ \"${CONFIGURATION}\" == *\"vfs\"* ]]\nthen\n    echo \"Using ${GOOGLESERVICE_INFO_VFS}\"\n    cp \"${GOOGLESERVICE_INFO_WFS}\" \"${PLIST_DESTINATION}\"\nfi\n\n";
+			shellScript = "\nGOOGLESERVICE_INFO_PLIST=GoogleService-Info.plist\n\nGOOGLESERVICE_INFO_SALES=${PROJECT_DIR}/${TARGET_NAME}/Resources/Firebase/iSisSales/${GOOGLESERVICE_INFO_PLIST}\nGOOGLESERVICE_INFO_DRIVER=${PROJECT_DIR}/${TARGET_NAME}/Resources/Firebase/iSisDriver/${GOOGLESERVICE_INFO_PLIST}\nGOOGLESERVICE_INFO_WAREHOUSE=${PROJECT_DIR}/${TARGET_NAME}/Resources/Firebase/iSisWarehouse/${GOOGLESERVICE_INFO_PLIST}\nGOOGLESERVICE_INFO_WFS=${PROJECT_DIR}/${TARGET_NAME}/Resources/Firebase/vfs/${GOOGLESERVICE_INFO_PLIST}\n\n\necho \"Looking for ${GOOGLESERVICE_INFO_PLIST} in ${GOOGLESERVICE_INFO_SALES}\"\nif [ ! -f $GOOGLESERVICE_INFO_SALES ]\nthen\n    echo \"No Development GoogleService-Info.plist found. Please ensure it's in the proper directory.\"\n    exit 1\nfi\n\necho \"Looking for ${GOOGLESERVICE_INFO_PLIST} in ${GOOGLESERVICE_INFO_DRIVER}\"\nif [ ! -f $GOOGLESERVICE_INFO_DRIVER ]\nthen\n    echo \"No Development GoogleService-Info.plist found. Please ensure it's in the proper directory.\"\n    exit 1\nfi\n\necho \"Looking for ${GOOGLESERVICE_INFO_PLIST} in ${GOOGLESERVICE_INFO_WAREHOUSE}\"\nif [ ! -f $GOOGLESERVICE_INFO_WAREHOUSE ]\nthen\n    echo \"No Development GoogleService-Info.plist found. Please ensure it's in the proper directory.\"\n    exit 1\nfi\n\necho \"Looking for ${GOOGLESERVICE_INFO_PLIST} in ${GOOGLESERVICE_INFO_WFS}\"\nif [ ! -f $GOOGLESERVICE_INFO_WFS ]\nthen\n    echo \"No Development GoogleService-Info.plist found. Please ensure it's in the proper directory.\"\n    exit 1\nfi\n\n# Get a reference to the destination location for the GoogleService-Info.plist\nPLIST_DESTINATION=${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.app\necho \"Will copy ${GOOGLESERVICE_INFO_PLIST} to final destination: ${PLIST_DESTINATION}\"\n\necho \"${CONFIGURATION}\"\n\n# Copy over the prod GoogleService-Info.plist for Release builds\nif [[ \"${CONFIGURATION}\" == *\"Sales\"* ]]\nthen\n    echo \"Using ${GOOGLESERVICE_INFO_SALES}\"\n    cp \"${GOOGLESERVICE_INFO_SALES}\" \"${PLIST_DESTINATION}\"\nfi\n\nif [[ \"${CONFIGURATION}\" == *\"Driver\"* ]]\nthen\n    echo \"Using ${GOOGLESERVICE_INFO_DRIVER}\"\n    cp \"${GOOGLESERVICE_INFO_DRIVER}\" \"${PLIST_DESTINATION}\"\nfi\n\nif [[ \"${CONFIGURATION}\" == *\"Warehouse\"* ]]\nthen\n    echo \"Using ${GOOGLESERVICE_INFO_Warehouse}\"\n    cp \"${GOOGLESERVICE_INFO_Warehouse}\" \"${PLIST_DESTINATION}\"\nfi\n\nif [[ \"${CONFIGURATION}\" == *\"vfs\"* ]]\nthen\n    echo \"Using ${GOOGLESERVICE_INFO_VFS}\"\n    cp \"${GOOGLESERVICE_INFO_WFS}\" \"${PLIST_DESTINATION}\"\nfi\n\n";
 		};
 		41490621D821E641AA346E52 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
