@@ -17,3 +17,5 @@ fabric.sh
 iSisSales/Resources/Firebase/iSisWarehouse/GoogleService-Info.plist
 iSisSales/Resources/Firebase/iSisSales/GoogleService-Info.plist
 iSisSales/Resources/Firebase/iSisDriver/GoogleService-Info.plist
+iSisSales/Resources/Firebase/vfs/GoogleService-Info.plist
+iSisSales/Resources/DEMO/*
