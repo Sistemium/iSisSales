@@ -3816,7 +3816,7 @@
 				CustomAppVersion = 3.10.1;
 				CustomProductName = iSisSales;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = HZMMGDCLPA;
+				DEVELOPMENT_TEAM = DP58H3X45C;
 				ENABLE_BITCODE = NO;
 				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
 				GCC_PREFIX_HEADER = "iSisSales/iSistemium-Prefix.pch";
@@ -3833,7 +3833,7 @@
 				);
 				MARKETING_VERSION = 3.11.8;
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.sistemium.iSisSales;
+				PRODUCT_BUNDLE_IDENTIFIER = apple.sistemium.iSisSales;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "iSisSales/iSistemium-Bridging-Header.h";
@@ -4039,7 +4039,7 @@
 				CustomAppVersion = 3.10.1;
 				CustomProductName = iSisWarehouse;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = HZMMGDCLPA;
+				DEVELOPMENT_TEAM = DP58H3X45C;
 				ENABLE_BITCODE = NO;
 				GCC_PREFIX_HEADER = "iSisSales/iSistemium-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -4055,7 +4055,7 @@
 				);
 				MARKETING_VERSION = 3.11.8;
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.sistemium.iSisWarehouse;
+				PRODUCT_BUNDLE_IDENTIFIER = apple.sistemium.iSisWarehouse;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "iSisSales/iSistemium-Bridging-Header.h";
@@ -4256,7 +4256,7 @@
 				CustomAppBundleId = "com.sistemium.${PRODUCT_NAME:rfc1034identifier}";
 				CustomAppVersion = 3.10.1;
 				CustomProductName = iSisSales;
-				DEVELOPMENT_TEAM = HZMMGDCLPA;
+				DEVELOPMENT_TEAM = DP58H3X45C;
 				ENABLE_BITCODE = NO;
 				GCC_PREFIX_HEADER = "iSisSales/iSistemium-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -4272,7 +4272,7 @@
 				);
 				MARKETING_VERSION = 3.11.8;
 				ONLY_ACTIVE_ARCH = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = com.sistemium.iSisSales;
+				PRODUCT_BUNDLE_IDENTIFIER = apple.sistemium.iSisSales;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -4474,7 +4474,7 @@
 				CustomAppBundleId = com.sistemium.iSisWarehouse;
 				CustomAppVersion = 3.10.1;
 				CustomProductName = iSisWarehouse;
-				DEVELOPMENT_TEAM = HZMMGDCLPA;
+				DEVELOPMENT_TEAM = DP58H3X45C;
 				ENABLE_BITCODE = NO;
 				GCC_PREFIX_HEADER = "iSisSales/iSistemium-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -4490,7 +4490,7 @@
 				);
 				MARKETING_VERSION = 3.11.8;
 				ONLY_ACTIVE_ARCH = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = com.sistemium.iSisWarehouse;
+				PRODUCT_BUNDLE_IDENTIFIER = apple.sistemium.iSisWarehouse;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -6463,7 +6463,7 @@
 				CustomDisplayName = "ST Driver";
 				CustomProductName = iSisDriver;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = HZMMGDCLPA;
+				DEVELOPMENT_TEAM = DP58H3X45C;
 				ENABLE_BITCODE = NO;
 				GCC_PREFIX_HEADER = "iSisSales/iSistemium-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -6479,7 +6479,7 @@
 				);
 				MARKETING_VERSION = 3.11.8;
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.sistemium.iSisDriver;
+				PRODUCT_BUNDLE_IDENTIFIER = apple.sistemium.iSisDriver;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "iSisSales/iSistemium-Bridging-Header.h";
@@ -6681,7 +6681,7 @@
 				CustomAppVersion = 3.10.1;
 				CustomDisplayName = "ST Driver";
 				CustomProductName = iSisDriver;
-				DEVELOPMENT_TEAM = HZMMGDCLPA;
+				DEVELOPMENT_TEAM = DP58H3X45C;
 				ENABLE_BITCODE = NO;
 				GCC_PREFIX_HEADER = "iSisSales/iSistemium-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -6697,7 +6697,7 @@
 				);
 				MARKETING_VERSION = 3.11.8;
 				ONLY_ACTIVE_ARCH = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = com.sistemium.iSisDriver;
+				PRODUCT_BUNDLE_IDENTIFIER = apple.sistemium.iSisDriver;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_COMPILATION_MODE = wholemodule;
