@@ -6,13 +6,12 @@
   Copyright © 2016 Sistemium UAB. All rights reserved.
 */
 
-NSCameraUsageDescription = "Чтобы делать фотографии";
-NSPhotoLibraryUsageDescription = "Чтобы выбирать фотографии";
-NSLocationAlwaysUsageDescription = "Чтобы считать километраж";
-NSLocationWhenInUseUsageDescription = "Чтобы делать отметки о визитах";
-NSLocationAlwaysAndWhenInUseUsageDescription = "Чтобы делать отметки о визитах";
+NSCameraUsageDescription = "Чтобы вы могли делать фотографии камерой этого устройства";
+NSPhotoLibraryUsageDescription = "Чтобы выбирать фотографии, которые вы сделали ранее";
+NSLocationAlwaysUsageDescription = "Чтобы отследить маршрут перемещения в течение рабочего для и посчитать общий пробег, если потребует ваш супервайзер";
+NSLocationWhenInUseUsageDescription = "Чтобы делать отметки о посещении торговых точек";
 NSBluetoothPeripheralUsageDescription = "Чтобы работал сканер штрих-кодов";
-NSPhotoLibraryAddUsageDescription = "Чтобы выбирать фотографии";
-NSLocationAlwaysAndWhenInUseUsageDescription = "Чтобы считать километраж";
-"To connect bluetooth scanner" = "Требуется для сканера";
-NSContactsUsageDescription = "Для подсказок при поиске";
+NSPhotoLibraryAddUsageDescription = "Чтобы выбирать фотографии, которые вы сделали ранее";
+NSLocationAlwaysAndWhenInUseUsageDescription = "Чтобы отследить маршрут перемещения в течение рабочего для и посчитать общий пробег, если потребует ваш супервайзер";
+"To connect bluetooth scanner" = "Чтобы подключить сканер штрих-кодов";
+NSContactsUsageDescription = "Для подсказок при поиске номера телефона";

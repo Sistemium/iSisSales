@@ -6,13 +6,12 @@
   Copyright © 2016 Sistemium UAB. All rights reserved.
 */
 
-NSCameraUsageDescription = "To make photos";
-NSPhotoLibraryUsageDescription = "To select photos";
-NSLocationAlwaysUsageDescription = "To provide tacking information";
-NSLocationWhenInUseUsageDescription = "To check-in locations";
-NSLocationAlwaysAndWhenInUseUsageDescription = "To provide tacking information";
-NSBluetoothPeripheralUsageDescription = "To use barcode scanner";
-NSPhotoLibraryAddUsageDescription = "To select photos";
-NSLocationAlwaysAndWhenInUseUsageDescription = "To provide tacking information";
-"To connect bluetooth scanner" = "To connect bluetooth scanner";
-NSContactsUsageDescription = "For search suggestion";
+NSCameraUsageDescription = "To make photos with your camera";
+NSPhotoLibraryUsageDescription = "To allow you to select photos taken earlier";
+NSLocationAlwaysUsageDescription = "To provide workday route tacking information if your supervisor demands it";
+NSLocationWhenInUseUsageDescription = "To check-in your location when you register visit to an outlet";
+NSBluetoothPeripheralUsageDescription = "To connect barcode scanner";
+NSPhotoLibraryAddUsageDescription = "To allow you to select photos taken earlier";
+NSLocationAlwaysAndWhenInUseUsageDescription = "To provide workday route tacking information if your supervisor demands it";
+"To connect bluetooth scanner" = "To connect barcode scanner";
+NSContactsUsageDescription = "For searching phone number suggestions";
