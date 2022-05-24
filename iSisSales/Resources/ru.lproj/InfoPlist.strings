@@ -13,5 +13,5 @@ NSLocationWhenInUseUsageDescription = "Чтобы делать отметки о
 NSBluetoothPeripheralUsageDescription = "Чтобы работал сканер штрих-кодов";
 NSPhotoLibraryAddUsageDescription = "Чтобы выбирать фотографии, которые вы сделали ранее";
 NSLocationAlwaysAndWhenInUseUsageDescription = "Чтобы отследить маршрут перемещения в течение рабочего для и посчитать общий пробег, если потребует ваш супервайзер";
-"To connect bluetooth scanner" = "Чтобы подключить сканер штрих-кодов";
+NSBluetoothAlwaysUsageDescription = "Чтобы подключить сканер штрих-кодов";
 NSContactsUsageDescription = "Для подсказок при поиске номера телефона";
