@@ -3226,7 +3226,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\nGOOGLESERVICE_INFO_PLIST=GoogleService-Info.plist\n\nGOOGLESERVICE_INFO_SALES=${PROJECT_DIR}/${TARGET_NAME}/Resources/Firebase/iSisSales/${GOOGLESERVICE_INFO_PLIST}\nGOOGLESERVICE_INFO_DRIVER=${PROJECT_DIR}/${TARGET_NAME}/Resources/Firebase/iSisDriver/${GOOGLESERVICE_INFO_PLIST}\nGOOGLESERVICE_INFO_WAREHOUSE=${PROJECT_DIR}/${TARGET_NAME}/Resources/Firebase/iSisWarehouse/${GOOGLESERVICE_INFO_PLIST}\nGOOGLESERVICE_INFO_WFS=${PROJECT_DIR}/${TARGET_NAME}/Resources/Firebase/vfs/${GOOGLESERVICE_INFO_PLIST}\n\n\necho \"Looking for ${GOOGLESERVICE_INFO_PLIST} in ${GOOGLESERVICE_INFO_SALES}\"\nif [ ! -f $GOOGLESERVICE_INFO_SALES ]\nthen\n    echo \"No Development GoogleService-Info.plist found. Please ensure it's in the proper directory.\"\n    exit 1\nfi\n\necho \"Looking for ${GOOGLESERVICE_INFO_PLIST} in ${GOOGLESERVICE_INFO_DRIVER}\"\nif [ ! -f $GOOGLESERVICE_INFO_DRIVER ]\nthen\n    echo \"No Development GoogleService-Info.plist found. Please ensure it's in the proper directory.\"\n    exit 1\nfi\n\necho \"Looking for ${GOOGLESERVICE_INFO_PLIST} in ${GOOGLESERVICE_INFO_WAREHOUSE}\"\nif [ ! -f $GOOGLESERVICE_INFO_WAREHOUSE ]\nthen\n    echo \"No Development GoogleService-Info.plist found. Please ensure it's in the proper directory.\"\n    exit 1\nfi\n\necho \"Looking for ${GOOGLESERVICE_INFO_PLIST} in ${GOOGLESERVICE_INFO_WFS}\"\nif [ ! -f $GOOGLESERVICE_INFO_WFS ]\nthen\n    echo \"No Development GoogleService-Info.plist found. Please ensure it's in the proper directory.\"\n    exit 1\nfi\n\n# Get a reference to the destination location for the GoogleService-Info.plist\nPLIST_DESTINATION=${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.app\necho \"Will copy ${GOOGLESERVICE_INFO_PLIST} to final destination: ${PLIST_DESTINATION}\"\n\necho \"${CONFIGURATION}\"\n\n# Copy over the prod GoogleService-Info.plist for Release builds\nif [[ \"${CONFIGURATION}\" == *\"Sales\"* ]]\nthen\n    echo \"Using ${GOOGLESERVICE_INFO_SALES}\"\n    cp \"${GOOGLESERVICE_INFO_SALES}\" \"${PLIST_DESTINATION}\"\nfi\n\nif [[ \"${CONFIGURATION}\" == *\"Driver\"* ]]\nthen\n    echo \"Using ${GOOGLESERVICE_INFO_DRIVER}\"\n    cp \"${GOOGLESERVICE_INFO_DRIVER}\" \"${PLIST_DESTINATION}\"\nfi\n\nif [[ \"${CONFIGURATION}\" == *\"Warehouse\"* ]]\nthen\n    echo \"Using ${GOOGLESERVICE_INFO_WAREHOUSE}\"\n    cp \"${GOOGLESERVICE_INFO_WAREHOUSE}\" \"${PLIST_DESTINATION}\"\nfi\n\nif [[ \"${CONFIGURATION}\" == *\"vfs\"* ]]\nthen\n    echo \"Using ${GOOGLESERVICE_INFO_VFS}\"\n    cp \"${GOOGLESERVICE_INFO_WFS}\" \"${PLIST_DESTINATION}\"\nfi\n\n";
+			shellScript = "\nGOOGLESERVICE_INFO_PLIST=GoogleService-Info.plist\n\nGOOGLESERVICE_INFO_SALES=${PROJECT_DIR}/${TARGET_NAME}/Resources/Firebase/iSisSales/${GOOGLESERVICE_INFO_PLIST}\nGOOGLESERVICE_INFO_DRIVER=${PROJECT_DIR}/${TARGET_NAME}/Resources/Firebase/iSisDriver/${GOOGLESERVICE_INFO_PLIST}\nGOOGLESERVICE_INFO_WAREHOUSE=${PROJECT_DIR}/${TARGET_NAME}/Resources/Firebase/iSisWarehouse/${GOOGLESERVICE_INFO_PLIST}\nGOOGLESERVICE_INFO_VFS=${PROJECT_DIR}/${TARGET_NAME}/Resources/Firebase/vfs/${GOOGLESERVICE_INFO_PLIST}\n\n\necho \"Looking for ${GOOGLESERVICE_INFO_PLIST} in ${GOOGLESERVICE_INFO_SALES}\"\nif [ ! -f $GOOGLESERVICE_INFO_SALES ]\nthen\n    echo \"No Development GoogleService-Info.plist found. Please ensure it's in the proper directory.\"\n    exit 1\nfi\n\necho \"Looking for ${GOOGLESERVICE_INFO_PLIST} in ${GOOGLESERVICE_INFO_DRIVER}\"\nif [ ! -f $GOOGLESERVICE_INFO_DRIVER ]\nthen\n    echo \"No Development GoogleService-Info.plist found. Please ensure it's in the proper directory.\"\n    exit 1\nfi\n\necho \"Looking for ${GOOGLESERVICE_INFO_PLIST} in ${GOOGLESERVICE_INFO_WAREHOUSE}\"\nif [ ! -f $GOOGLESERVICE_INFO_WAREHOUSE ]\nthen\n    echo \"No Development GoogleService-Info.plist found. Please ensure it's in the proper directory.\"\n    exit 1\nfi\n\necho \"Looking for ${GOOGLESERVICE_INFO_PLIST} in ${GOOGLESERVICE_INFO_VFS}\"\nif [ ! -f $GOOGLESERVICE_INFO_VFS ]\nthen\n    echo \"No Development GoogleService-Info.plist found. Please ensure it's in the proper directory.\"\n    exit 1\nfi\n\n# Get a reference to the destination location for the GoogleService-Info.plist\nPLIST_DESTINATION=${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.app\necho \"Will copy ${GOOGLESERVICE_INFO_PLIST} to final destination: ${PLIST_DESTINATION}\"\n\necho \"${CONFIGURATION}\"\n\n# Copy over the prod GoogleService-Info.plist for Release builds\nif [[ \"${CONFIGURATION}\" == *\"Sales\"* ]]\nthen\n    echo \"Using ${GOOGLESERVICE_INFO_SALES}\"\n    cp \"${GOOGLESERVICE_INFO_SALES}\" \"${PLIST_DESTINATION}\"\nfi\n\nif [[ \"${CONFIGURATION}\" == *\"Driver\"* ]]\nthen\n    echo \"Using ${GOOGLESERVICE_INFO_DRIVER}\"\n    cp \"${GOOGLESERVICE_INFO_DRIVER}\" \"${PLIST_DESTINATION}\"\nfi\n\nif [[ \"${CONFIGURATION}\" == *\"Warehouse\"* ]]\nthen\n    echo \"Using ${GOOGLESERVICE_INFO_WAREHOUSE}\"\n    cp \"${GOOGLESERVICE_INFO_WAREHOUSE}\" \"${PLIST_DESTINATION}\"\nfi\n\nif [[ \"${CONFIGURATION}\" == *\"vfs\"* ]]\nthen\n    echo \"Using ${GOOGLESERVICE_INFO_VFS}\"\n    cp \"${GOOGLESERVICE_INFO_VFS}\" \"${PLIST_DESTINATION}\"\nfi\n\n";
 		};
 		41490621D821E641AA346E52 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -6021,7 +6021,7 @@
 				CustomAppVersion = 3.10.1;
 				CustomProductName = Vfs;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = HZMMGDCLPA;
+				DEVELOPMENT_TEAM = DP58H3X45C;
 				ENABLE_BITCODE = NO;
 				GCC_PREFIX_HEADER = "iSisSales/iSistemium-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -6037,7 +6037,7 @@
 				);
 				MARKETING_VERSION = 3.12.5;
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = org.sistemium.vfs;
+				PRODUCT_BUNDLE_IDENTIFIER = apple.sistemium.vfs;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "iSisSales/iSistemium-Bridging-Header.h";
@@ -6239,7 +6239,7 @@
 				CustomAppVersion = 3.10.1;
 				CustomDisplayName = "";
 				CustomProductName = Vfs;
-				DEVELOPMENT_TEAM = HZMMGDCLPA;
+				DEVELOPMENT_TEAM = DP58H3X45C;
 				ENABLE_BITCODE = NO;
 				GCC_PREFIX_HEADER = "iSisSales/iSistemium-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -6255,7 +6255,7 @@
 				);
 				MARKETING_VERSION = 3.12.5;
 				ONLY_ACTIVE_ARCH = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = org.sistemium.vfs;
+				PRODUCT_BUNDLE_IDENTIFIER = apple.sistemium.vfs;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_COMPILATION_MODE = wholemodule;
