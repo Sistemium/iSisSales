@@ -3816,7 +3816,7 @@
 				CustomAppVersion = 3.10.1;
 				CustomProductName = iSisSales;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = DP58H3X45C;
+				DEVELOPMENT_TEAM = FBPXDS9DW7;
 				ENABLE_BITCODE = NO;
 				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
 				GCC_PREFIX_HEADER = "iSisSales/iSistemium-Prefix.pch";
@@ -3833,7 +3833,7 @@
 				);
 				MARKETING_VERSION = 3.12.5;
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = apple.sistemium.iSisSales;
+				PRODUCT_BUNDLE_IDENTIFIER = u.sistemium.iSisSales;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "iSisSales/iSistemium-Bridging-Header.h";
@@ -4256,7 +4256,7 @@
 				CustomAppBundleId = "com.sistemium.${PRODUCT_NAME:rfc1034identifier}";
 				CustomAppVersion = 3.10.1;
 				CustomProductName = iSisSales;
-				DEVELOPMENT_TEAM = DP58H3X45C;
+				DEVELOPMENT_TEAM = FBPXDS9DW7;
 				ENABLE_BITCODE = NO;
 				GCC_PREFIX_HEADER = "iSisSales/iSistemium-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -4272,7 +4272,7 @@
 				);
 				MARKETING_VERSION = 3.12.5;
 				ONLY_ACTIVE_ARCH = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = apple.sistemium.iSisSales;
+				PRODUCT_BUNDLE_IDENTIFIER = u.sistemium.iSisSales;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_COMPILATION_MODE = wholemodule;
