@@ -41,6 +41,11 @@
 				<key>NSExceptionAllowsInsecureHTTPLoads</key>
 				<true/>
 			</dict>
+			<key>lam1.local</key>
+			<dict>
+				<key>NSExceptionAllowsInsecureHTTPLoads</key>
+				<true/>
+			</dict>
 			<key>lamac16.local</key>
 			<dict>
 				<key>NSExceptionAllowsInsecureHTTPLoads</key>
