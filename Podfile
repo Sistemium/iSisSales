@@ -1,5 +1,8 @@
-platform :ios, '13.0'
+platform :ios, '9.0'
 use_frameworks!
+
+flutter_application_path = '../flutter_onboarding'
+load File.join(flutter_application_path, '.ios', 'Flutter', 'podhelper.rb')
 
 target 'iSisSales' do
     pod 'KiteJSONValidator', '~> 0.2.3'
@@ -10,6 +13,8 @@ target 'iSisSales' do
     pod 'PromiseKit', '~> 6.13'
     pod 'ZebraIos', :path => '../ZebraIos'
     pod 'PMAlertController', '~> 3.5.0'
+    pod 'Firebase/Analytics', '~> 6.34.0'
+    pod 'Firebase/Crashlytics', '~> 6.34.0'
 
     target 'iSisSalesTests' do
         inherit! :search_paths
@@ -31,10 +36,13 @@ target 'iSisSales' do
         inherit! :search_paths
     end
     
+    install_all_flutter_pods(flutter_application_path)
+    
     post_install do |installer|
       installer.pods_project.build_configurations.each do |config|
         config.build_settings["EXCLUDED_ARCHS[sdk=iphonesimulator*]"] = ""
       end
+      flutter_post_install(installer) if defined?(flutter_post_install)
     end
 
 end
