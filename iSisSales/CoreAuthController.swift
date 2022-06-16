@@ -65,6 +65,7 @@ class CoreAuthController:NSObject{
         
     }
     
+    @objc
     static func demoAuth(){
         
         STMCoreAuthController.shared().phoneNumber = "+7 DEMO 000"
