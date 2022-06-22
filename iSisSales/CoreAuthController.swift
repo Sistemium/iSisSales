@@ -12,50 +12,31 @@ class CoreAuthController:NSObject{
     static private var resolver:Resolver<Void>? = nil
     
     @objc
-    static func resolve(){
-        resolver?.fulfill(Void())
-    }
-    
-    @objc
     static func reject(error:String){
         resolver?.reject(NSError(domain: "", code: 0, userInfo: ["error": error]))
     }
     
-    static func checkPhoneNumber() -> Promise<Void>{
-                
-        Promise { _promise in
-            
-            resolver = _promise
-                        
+    @objc
+    static func sendPhoneNumber(phoneNumber:String) {
+        
+        var _phoneNumber = phoneNumber;
+        
+        if (_phoneNumber.starts(with: "+7")){
+            _phoneNumber = _phoneNumber.replacingOccurrences(of: "+7", with: "8")
         }
+        
+        _phoneNumber = _phoneNumber.replacingOccurrences(of: " ", with: "")
+        
+        _phoneNumber = _phoneNumber.replacingOccurrences(of: "-", with: "")
+                
+        STMCoreAuthController.shared().sendPhoneNumber(_phoneNumber)
         
     }
     
-    static func sendPhoneNumber(phoneNumber:String) -> Promise<Void>{
-        
-        Promise { _promise in
-            
-            var _phoneNumber = phoneNumber;
-            
-            if (_phoneNumber.starts(with: "+7")){
-                _phoneNumber = _phoneNumber.replacingOccurrences(of: "+7", with: "8")
-            }
-            
-            _phoneNumber = _phoneNumber.replacingOccurrences(of: " ", with: "")
-            
-            _phoneNumber = _phoneNumber.replacingOccurrences(of: "-", with: "")
-            
-            resolver = _promise
-            
-            STMCoreAuthController.shared().sendPhoneNumber(_phoneNumber)
-                        
-        }
-        
-    }
-    
-    static func sendSMSCode(SMSCode:String) -> Promise<Void>{
+    @objc
+    static func sendSMSCode(SMSCode:String) {
                 
-        Promise { _promise in
+        Promise<Void> { _promise in
                         
             resolver = _promise
             
