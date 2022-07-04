@@ -17,15 +17,13 @@
 			<string>zebra</string>
 			<key>Titles</key>
 			<array>
-				<string>SocketMobile</string>
 				<string>Zebra</string>
-				<string>Both</string>
+				<string>Camera</string>
 			</array>
 			<key>Values</key>
 			<array>
-				<string>socketMobile</string>
 				<string>zebra</string>
-				<string>both</string>
+				<string>camera</string>
 			</array>
 		</dict>
 	</array>
