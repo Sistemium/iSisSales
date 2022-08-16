@@ -215,7 +215,6 @@
 		2C94C24D1CF1B3BA004476D8 /* STMLogs.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C94C2351CF1B3BA004476D8 /* STMLogs.storyboard */; };
 		2C94C24E1CF1B3BA004476D8 /* STMMessages.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C94C2361CF1B3BA004476D8 /* STMMessages.storyboard */; };
 		2C94C24F1CF1B3BA004476D8 /* STMMessageVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C94C2371CF1B3BA004476D8 /* STMMessageVC.storyboard */; };
-		2C94C2501CF1B3BA004476D8 /* STMProfile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C94C2381CF1B3BA004476D8 /* STMProfile.storyboard */; };
 		2C94C2511CF1B3BA004476D8 /* STMScannerInfo.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C94C2391CF1B3BA004476D8 /* STMScannerInfo.storyboard */; };
 		2C94C2521CF1B3BA004476D8 /* STMSettings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C94C23A1CF1B3BA004476D8 /* STMSettings.storyboard */; };
 		2C94C2531CF1B3BA004476D8 /* STMWebView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C94C23B1CF1B3BA004476D8 /* STMWebView.storyboard */; };
@@ -304,7 +303,6 @@
 		2CFA30371D50DBF300BB9E35 /* STMOutletPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CFA30351D50DBF300BB9E35 /* STMOutletPhoto.m */; };
 		35031DF51ED736DA0049715D /* STMPersisterTransaction.m in Sources */ = {isa = PBXBuildFile; fileRef = 35031DF41ED736DA0049715D /* STMPersisterTransaction.m */; };
 		350A20EB1ED5B82C00C9FB28 /* STMPersisterRunner.m in Sources */ = {isa = PBXBuildFile; fileRef = 350A20EA1ED5B82C00C9FB28 /* STMPersisterRunner.m */; };
-		354E10C927B6820900FE5753 /* STMAuthOld.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 354E10C827B6820900FE5753 /* STMAuthOld.storyboard */; };
 		3550B1DC1DAE59F300F8A368 /* STMCorePicture.m in Sources */ = {isa = PBXBuildFile; fileRef = 3550B1D91DAE59F300F8A368 /* STMCorePicture.m */; };
 		3550B1DD1DAE59F300F8A368 /* STMCorePicture+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 3550B1DB1DAE59F300F8A368 /* STMCorePicture+CoreDataProperties.m */; };
 		3550B1E21DAE5CC300F8A368 /* STMEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 3550B1DF1DAE5CC300F8A368 /* STMEntity.m */; };
@@ -803,7 +801,6 @@
 		2C94C2351CF1B3BA004476D8 /* STMLogs.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = STMLogs.storyboard; sourceTree = "<group>"; };
 		2C94C2361CF1B3BA004476D8 /* STMMessages.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = STMMessages.storyboard; sourceTree = "<group>"; };
 		2C94C2371CF1B3BA004476D8 /* STMMessageVC.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = STMMessageVC.storyboard; sourceTree = "<group>"; };
-		2C94C2381CF1B3BA004476D8 /* STMProfile.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = STMProfile.storyboard; sourceTree = "<group>"; };
 		2C94C2391CF1B3BA004476D8 /* STMScannerInfo.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = STMScannerInfo.storyboard; sourceTree = "<group>"; };
 		2C94C23A1CF1B3BA004476D8 /* STMSettings.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = STMSettings.storyboard; sourceTree = "<group>"; };
 		2C94C23B1CF1B3BA004476D8 /* STMWebView.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = STMWebView.storyboard; sourceTree = "<group>"; };
@@ -988,7 +985,6 @@
 		350A20EC1ED5BEE500C9FB28 /* STMPersisterRunner.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STMPersisterRunner.h; sourceTree = "<group>"; };
 		350B7E711E4CB0350051D0A9 /* STMCorePicturesControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMCorePicturesControllerTests.m; sourceTree = "<group>"; };
 		354E10C627B678B200FE5753 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		354E10C827B6820900FE5753 /* STMAuthOld.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = STMAuthOld.storyboard; sourceTree = "<group>"; };
 		3550B1D81DAE59F300F8A368 /* STMCorePicture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMCorePicture.h; sourceTree = "<group>"; };
 		3550B1D91DAE59F300F8A368 /* STMCorePicture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMCorePicture.m; sourceTree = "<group>"; };
 		3550B1DA1DAE59F300F8A368 /* STMCorePicture+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "STMCorePicture+CoreDataProperties.h"; sourceTree = "<group>"; };
@@ -2084,13 +2080,11 @@
 				2C94C2351CF1B3BA004476D8 /* STMLogs.storyboard */,
 				2C94C2361CF1B3BA004476D8 /* STMMessages.storyboard */,
 				2C94C2371CF1B3BA004476D8 /* STMMessageVC.storyboard */,
-				2C94C2381CF1B3BA004476D8 /* STMProfile.storyboard */,
 				2C94C2391CF1B3BA004476D8 /* STMScannerInfo.storyboard */,
 				2C94C23A1CF1B3BA004476D8 /* STMSettings.storyboard */,
 				2C94C23B1CF1B3BA004476D8 /* STMWebView.storyboard */,
 				2C94C23C1CF1B3BA004476D8 /* STMWKWebView.storyboard */,
 				358926F02751284600934DBC /* STMLoading.storyboard */,
-				354E10C827B6820900FE5753 /* STMAuthOld.storyboard */,
 			);
 			name = "☯ Storyboards";
 			path = ../../iSistemiumCore/iSistemiumCore/Storyboards;
@@ -2942,7 +2936,6 @@
 				2C94C2541CF1B3BA004476D8 /* STMWKWebView.storyboard in Resources */,
 				D920AF7D1D8D417700E825FC /* InfoPlist.strings in Resources */,
 				2C94C21D1CF1B308004476D8 /* settings_schema.json in Resources */,
-				2C94C2501CF1B3BA004476D8 /* STMProfile.storyboard in Resources */,
 				2C94C21A1CF1B308004476D8 /* Upload-100.png in Resources */,
 				2C94C2161CF1B308004476D8 /* uncheckmark.png in Resources */,
 				2C94C1F81CF1B308004476D8 /* camera.png in Resources */,
@@ -2973,7 +2966,6 @@
 				D9F8354C2774BC2E008D1B7C /* ReleaseSalesApple in Resources */,
 				2C94C1F31CF1B308004476D8 /* alphabetical_sorting.png in Resources */,
 				2CC33EED1DAD06B200D21771 /* error.mp3 in Resources */,
-				354E10C927B6820900FE5753 /* STMAuthOld.storyboard in Resources */,
 				2C94BFDA1CF1ACB8004476D8 /* Assets.xcassets in Resources */,
 				2C94C1FF1CF1B308004476D8 /* data_in_both_directions.png in Resources */,
 				2C94C24E1CF1B3BA004476D8 /* STMMessages.storyboard in Resources */,
@@ -3203,6 +3195,7 @@
 				"${BUILT_PRODUCTS_DIR}/Starscream/Starscream.framework",
 				"${PODS_ROOT}/../../flutter_onboarding/.ios/Flutter/App.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+				"${BUILT_PRODUCTS_DIR}/package_info_plus/package_info_plus.framework",
 				"${BUILT_PRODUCTS_DIR}/sms_autofill/sms_autofill.framework",
 				"${BUILT_PRODUCTS_DIR}/url_launcher_ios/url_launcher_ios.framework",
 				"${PODS_XCFRAMEWORKS_BUILD_DIR}/Flutter/Flutter.framework/Flutter",
@@ -3221,6 +3214,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Starscream.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/App.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/package_info_plus.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/sms_autofill.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/url_launcher_ios.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Flutter.framework",
@@ -3729,7 +3723,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MARKETING_VERSION = 3.12.6;
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = u.sistemium.iSisSales;
+				PRODUCT_BUNDLE_IDENTIFIER = u3.sistemium.iSisSales;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "iSisSales/iSistemium-Bridging-Header.h";
@@ -4115,7 +4109,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MARKETING_VERSION = 3.12.6;
 				ONLY_ACTIVE_ARCH = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = u.sistemium.iSisSales;
+				PRODUCT_BUNDLE_IDENTIFIER = u3.sistemium.iSisSales;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "iSisSales/iSistemium-Bridging-Header.h";
