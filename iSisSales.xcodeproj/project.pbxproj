@@ -316,6 +316,7 @@
 		35A985CA1E80987500DE2299 /* NSJSONSerializationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A985C91E80987500DE2299 /* NSJSONSerializationTests.m */; };
 		35B53DBD1E72D5B00002230F /* STMTestDirectoring.m in Sources */ = {isa = PBXBuildFile; fileRef = 35B53DBC1E72D5B00002230F /* STMTestDirectoring.m */; };
 		35DB36621F139091004574A1 /* STMSyncer+RemoteData.m in Sources */ = {isa = PBXBuildFile; fileRef = 35DB36611F139091004574A1 /* STMSyncer+RemoteData.m */; };
+		35EA653628B50F9E00310ED3 /* Info-Debug.plist in Resources */ = {isa = PBXBuildFile; fileRef = 35EA653528B50F9E00310ED3 /* Info-Debug.plist */; };
 		35F255C92859F20700B88A9F /* CoreAuthController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F255C82859F20700B88A9F /* CoreAuthController.swift */; };
 		3E873491EFBF4D2FD467BB9A /* Pods_iSisSalesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFEE3E7425CEF6DC61EAF6D3 /* Pods_iSisSalesTests.framework */; };
 		4678C3D65044EE1435611066 /* Pods_iSisSalesUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 464A3CD5CCC3049472886369 /* Pods_iSisSalesUITests.framework */; };
@@ -554,7 +555,7 @@
 		2C94BFCA1CF1ACB8004476D8 /* iSisSales.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iSisSales.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C94BFCE1CF1ACB8004476D8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2C94BFD91CF1ACB8004476D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		2C94BFDE1CF1ACB8004476D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C94BFDE1CF1ACB8004476D8 /* Info-Release.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-Release.plist"; sourceTree = "<group>"; };
 		2C94BFE31CF1ACB8004476D8 /* iSisSalesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iSisSalesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C94BFE71CF1ACB8004476D8 /* iSisSalesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iSisSalesTests.m; sourceTree = "<group>"; };
 		2C94BFE91CF1ACB8004476D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -1014,6 +1015,7 @@
 		35DB36611F139091004574A1 /* STMSyncer+RemoteData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "STMSyncer+RemoteData.m"; sourceTree = "<group>"; };
 		35E414511EEAD597005BF054 /* STMAdapting.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STMAdapting.h; sourceTree = "<group>"; };
 		35E9B91027CE8AB3005ECBEB /* DEMO */ = {isa = PBXFileReference; lastKnownFileType = folder; path = DEMO; sourceTree = "<group>"; };
+		35EA653528B50F9E00310ED3 /* Info-Debug.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-Debug.plist"; sourceTree = "<group>"; };
 		35F255C82859F20700B88A9F /* CoreAuthController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreAuthController.swift; sourceTree = "<group>"; };
 		37E418D5956AF3812C22C69A /* Pods-iSisSalesTestsInMemory.debugdriver.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesTestsInMemory.debugdriver.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesTestsInMemory/Pods-iSisSalesTestsInMemory.debugdriver.xcconfig"; sourceTree = "<group>"; };
 		38F93DAAE76053192F30F3F7 /* Pods-iSisSales.debug warehouse.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSales.debug warehouse.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSales/Pods-iSisSales.debug warehouse.xcconfig"; sourceTree = "<group>"; };
@@ -1455,10 +1457,11 @@
 		2C94BFCD1CF1ACB8004476D8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				35EA653528B50F9E00310ED3 /* Info-Debug.plist */,
 				2CCF554B1EA4E67A00A54B64 /* config */,
 				2CD5BEFB1CF1DEE1006E1E36 /* iSistemium-Prefix.pch */,
 				2C94BFD91CF1ACB8004476D8 /* Assets.xcassets */,
-				2C94BFDE1CF1ACB8004476D8 /* Info.plist */,
+				2C94BFDE1CF1ACB8004476D8 /* Info-Release.plist */,
 				2C94BFCE1CF1ACB8004476D8 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -2944,6 +2947,7 @@
 				2C94C20A1CF1B308004476D8 /* numerical_sorting_21.png in Resources */,
 				2C94C2051CF1B308004476D8 /* future.png in Resources */,
 				2C94C1F21CF1B308004476D8 /* 3colors-colorless.png in Resources */,
+				35EA653628B50F9E00310ED3 /* Info-Debug.plist in Resources */,
 				2C94C2101CF1B308004476D8 /* reordering.png in Resources */,
 				2C94C2511CF1B3BA004476D8 /* STMScannerInfo.storyboard in Resources */,
 				2C32C9D81D14441F00CE4981 /* STMCameraOverlayView.xib in Resources */,
@@ -3711,14 +3715,14 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = DP58H3X45C;
 				ENABLE_BITCODE = NO;
-				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
 				GCC_PREFIX_HEADER = "iSisSales/iSistemium-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"$(inherited)",
 					"COCOAPODS=1",
 					"CONFIGURATION_${CONFIGURATION}",
 				);
-				INFOPLIST_FILE = iSisSales/Info.plist;
+				INFOPLIST_FILE = "iSisSales/Info-Debug.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MARKETING_VERSION = 3.12.6;
@@ -3908,13 +3912,14 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = DP58H3X45C;
 				ENABLE_BITCODE = NO;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
 				GCC_PREFIX_HEADER = "iSisSales/iSistemium-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"$(inherited)",
 					"COCOAPODS=1",
 					"CONFIGURATION_${CONFIGURATION}",
 				);
-				INFOPLIST_FILE = iSisSales/Info.plist;
+				INFOPLIST_FILE = "iSisSales/Info-Debug.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MARKETING_VERSION = 3.12.6;
@@ -4104,7 +4109,7 @@
 					"COCOAPODS=1",
 					"CONFIGURATION_${CONFIGURATION}",
 				);
-				INFOPLIST_FILE = iSisSales/Info.plist;
+				INFOPLIST_FILE = "iSisSales/Info-Release.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MARKETING_VERSION = 3.12.6;
@@ -4294,7 +4299,7 @@
 					"COCOAPODS=1",
 					"CONFIGURATION_${CONFIGURATION}",
 				);
-				INFOPLIST_FILE = iSisSales/Info.plist;
+				INFOPLIST_FILE = "iSisSales/Info-Release.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MARKETING_VERSION = 3.12.6;
@@ -4485,14 +4490,14 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = DP58H3X45C;
 				ENABLE_BITCODE = NO;
-				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
 				GCC_PREFIX_HEADER = "iSisSales/iSistemium-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"$(inherited)",
 					"COCOAPODS=1",
 					"CONFIGURATION_${CONFIGURATION}",
 				);
-				INFOPLIST_FILE = iSisSales/Info.plist;
+				INFOPLIST_FILE = "iSisSales/Info-Debug.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MARKETING_VERSION = 3.12.6;
@@ -4682,7 +4687,7 @@
 					"COCOAPODS=1",
 					"CONFIGURATION_${CONFIGURATION}",
 				);
-				INFOPLIST_FILE = iSisSales/Info.plist;
+				INFOPLIST_FILE = "iSisSales/Info-Release.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MARKETING_VERSION = 3.12.6;
@@ -4873,13 +4878,15 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = DP58H3X45C;
 				ENABLE_BITCODE = NO;
+				EXCLUDED_ARCHS = "";
+				"EXCLUDED_ARCHS[sdk=*]" = arm64;
 				GCC_PREFIX_HEADER = "iSisSales/iSistemium-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"$(inherited)",
 					"COCOAPODS=1",
 					"CONFIGURATION_${CONFIGURATION}",
 				);
-				INFOPLIST_FILE = iSisSales/Info.plist;
+				INFOPLIST_FILE = "iSisSales/Info-Debug.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MARKETING_VERSION = 3.12.6;
@@ -5070,7 +5077,7 @@
 					"COCOAPODS=1",
 					"CONFIGURATION_${CONFIGURATION}",
 				);
-				INFOPLIST_FILE = iSisSales/Info.plist;
+				INFOPLIST_FILE = "iSisSales/Info-Release.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MARKETING_VERSION = 3.12.6;
@@ -5260,13 +5267,15 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = DP58H3X45C;
 				ENABLE_BITCODE = NO;
+				EXCLUDED_ARCHS = "";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
 				GCC_PREFIX_HEADER = "iSisSales/iSistemium-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"$(inherited)",
 					"COCOAPODS=1",
 					"CONFIGURATION_${CONFIGURATION}",
 				);
-				INFOPLIST_FILE = iSisSales/Info.plist;
+				INFOPLIST_FILE = "iSisSales/Info-Debug.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MARKETING_VERSION = 3.12.6;
@@ -5456,7 +5465,7 @@
 					"COCOAPODS=1",
 					"CONFIGURATION_${CONFIGURATION}",
 				);
-				INFOPLIST_FILE = iSisSales/Info.plist;
+				INFOPLIST_FILE = "iSisSales/Info-Release.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MARKETING_VERSION = 3.12.6;
@@ -5646,13 +5655,14 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = DP58H3X45C;
 				ENABLE_BITCODE = NO;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
 				GCC_PREFIX_HEADER = "iSisSales/iSistemium-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"$(inherited)",
 					"COCOAPODS=1",
 					"CONFIGURATION_${CONFIGURATION}",
 				);
-				INFOPLIST_FILE = iSisSales/Info.plist;
+				INFOPLIST_FILE = "iSisSales/Info-Debug.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MARKETING_VERSION = 3.12.6;
@@ -5843,7 +5853,7 @@
 					"COCOAPODS=1",
 					"CONFIGURATION_${CONFIGURATION}",
 				);
-				INFOPLIST_FILE = iSisSales/Info.plist;
+				INFOPLIST_FILE = "iSisSales/Info-Release.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MARKETING_VERSION = 3.12.6;
@@ -6034,13 +6044,15 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = DP58H3X45C;
 				ENABLE_BITCODE = NO;
+				EXCLUDED_ARCHS = "";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
 				GCC_PREFIX_HEADER = "iSisSales/iSistemium-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"$(inherited)",
 					"COCOAPODS=1",
 					"CONFIGURATION_${CONFIGURATION}",
 				);
-				INFOPLIST_FILE = iSisSales/Info.plist;
+				INFOPLIST_FILE = "iSisSales/Info-Debug.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MARKETING_VERSION = 3.12.6;
@@ -6231,7 +6243,7 @@
 					"COCOAPODS=1",
 					"CONFIGURATION_${CONFIGURATION}",
 				);
-				INFOPLIST_FILE = iSisSales/Info.plist;
+				INFOPLIST_FILE = "iSisSales/Info-Release.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MARKETING_VERSION = 3.12.6;
