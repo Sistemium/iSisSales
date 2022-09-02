@@ -39,6 +39,15 @@ target 'iSisSales' do
     install_all_flutter_pods(flutter_application_path)
     
     post_install do |installer|
+      installer.pods_project.targets.each do |target|
+          target.build_configurations.each do |config|
+            config.build_settings['GCC_PREPROCESSOR_DEFINITIONS'] ||= [
+                '$(inherited)',
+                'PERMISSION_LOCATION=1',
+                'PERMISSION_NOTIFICATIONS=1',
+              ]
+            end
+      end
       installer.pods_project.build_configurations.each do |config|
         config.build_settings["EXCLUDED_ARCHS[sdk=iphonesimulator*]"] = ""
       end
