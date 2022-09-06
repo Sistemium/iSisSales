@@ -2720,6 +2720,7 @@
 				35D7CED72791BE6800CEE2CC /* Setup Firebase Environment GoogleService-Info.plist */,
 				35061EF427737C0800692210 /* Run Script */,
 				352D42D227BFFE2C005FCB4F /* DEMO COPY */,
+				321ACA26B4C7514F0EE00681 /* [CP-User] Embed Flutter Build flutter_onboarding Script */,
 			);
 			buildRules = (
 			);
@@ -3052,6 +3053,16 @@
 			shellPath = /bin/sh;
 			shellScript = "RESOURCE_PATH=${SRCROOT}/${PRODUCT_NAME}/config/${CONFIGURATION}\n\nBUILD_APP_DIR=${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.app\n\necho \"Copying all files under ${RESOURCE_PATH} to ${BUILD_APP_DIR}\"\ncp -v \"${RESOURCE_PATH}/\"* \"${BUILD_APP_DIR}/\"\n";
 		};
+		321ACA26B4C7514F0EE00681 /* [CP-User] Embed Flutter Build flutter_onboarding Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "[CP-User] Embed Flutter Build flutter_onboarding Script";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\nset -u\nsource \"${SRCROOT}/../flutter_onboarding/.ios/Flutter/flutter_export_environment.sh\"\nexport VERBOSE_SCRIPT_LOGGING=1 && \"$FLUTTER_ROOT\"/packages/flutter_tools/bin/xcode_backend.sh embed_and_thin";
+		};
 		35061EF427737C0800692210 /* Run Script */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -3197,13 +3208,11 @@
 				"${BUILT_PRODUCTS_DIR}/Reachability/Reachability.framework",
 				"${BUILT_PRODUCTS_DIR}/Socket.IO-Client-Swift/SocketIO.framework",
 				"${BUILT_PRODUCTS_DIR}/Starscream/Starscream.framework",
-				"${PODS_ROOT}/../../flutter_onboarding/.ios/Flutter/App.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 				"${BUILT_PRODUCTS_DIR}/package_info_plus/package_info_plus.framework",
 				"${BUILT_PRODUCTS_DIR}/shared_preferences_ios/shared_preferences_ios.framework",
 				"${BUILT_PRODUCTS_DIR}/sms_autofill/sms_autofill.framework",
 				"${BUILT_PRODUCTS_DIR}/url_launcher_ios/url_launcher_ios.framework",
-				"${PODS_XCFRAMEWORKS_BUILD_DIR}/Flutter/Flutter.framework/Flutter",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
@@ -3217,13 +3226,11 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reachability.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SocketIO.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Starscream.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/App.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/package_info_plus.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/shared_preferences_ios.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/sms_autofill.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/url_launcher_ios.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Flutter.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -3725,7 +3732,7 @@
 					"CONFIGURATION_${CONFIGURATION}",
 				);
 				INFOPLIST_FILE = "iSisSales/Info-Debug.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MARKETING_VERSION = 3.12.6;
 				ONLY_ACTIVE_ARCH = YES;
@@ -3922,7 +3929,7 @@
 					"CONFIGURATION_${CONFIGURATION}",
 				);
 				INFOPLIST_FILE = "iSisSales/Info-Debug.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MARKETING_VERSION = 3.12.6;
 				ONLY_ACTIVE_ARCH = YES;
@@ -4112,7 +4119,7 @@
 					"CONFIGURATION_${CONFIGURATION}",
 				);
 				INFOPLIST_FILE = "iSisSales/Info-Release.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MARKETING_VERSION = 3.12.6;
 				ONLY_ACTIVE_ARCH = NO;
@@ -4302,7 +4309,7 @@
 					"CONFIGURATION_${CONFIGURATION}",
 				);
 				INFOPLIST_FILE = "iSisSales/Info-Release.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MARKETING_VERSION = 3.12.6;
 				ONLY_ACTIVE_ARCH = NO;
@@ -4500,7 +4507,7 @@
 					"CONFIGURATION_${CONFIGURATION}",
 				);
 				INFOPLIST_FILE = "iSisSales/Info-Debug.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MARKETING_VERSION = 3.12.6;
 				ONLY_ACTIVE_ARCH = YES;
@@ -4690,7 +4697,7 @@
 					"CONFIGURATION_${CONFIGURATION}",
 				);
 				INFOPLIST_FILE = "iSisSales/Info-Release.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MARKETING_VERSION = 3.12.6;
 				ONLY_ACTIVE_ARCH = NO;
@@ -4889,7 +4896,7 @@
 					"CONFIGURATION_${CONFIGURATION}",
 				);
 				INFOPLIST_FILE = "iSisSales/Info-Debug.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MARKETING_VERSION = 3.12.6;
 				ONLY_ACTIVE_ARCH = YES;
@@ -5080,7 +5087,7 @@
 					"CONFIGURATION_${CONFIGURATION}",
 				);
 				INFOPLIST_FILE = "iSisSales/Info-Release.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MARKETING_VERSION = 3.12.6;
 				ONLY_ACTIVE_ARCH = NO;
@@ -5278,7 +5285,7 @@
 					"CONFIGURATION_${CONFIGURATION}",
 				);
 				INFOPLIST_FILE = "iSisSales/Info-Debug.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MARKETING_VERSION = 3.12.6;
 				ONLY_ACTIVE_ARCH = YES;
@@ -5468,7 +5475,7 @@
 					"CONFIGURATION_${CONFIGURATION}",
 				);
 				INFOPLIST_FILE = "iSisSales/Info-Release.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MARKETING_VERSION = 3.12.6;
 				ONLY_ACTIVE_ARCH = NO;
@@ -5665,7 +5672,7 @@
 					"CONFIGURATION_${CONFIGURATION}",
 				);
 				INFOPLIST_FILE = "iSisSales/Info-Debug.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MARKETING_VERSION = 3.12.6;
 				ONLY_ACTIVE_ARCH = YES;
@@ -5856,7 +5863,7 @@
 					"CONFIGURATION_${CONFIGURATION}",
 				);
 				INFOPLIST_FILE = "iSisSales/Info-Release.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MARKETING_VERSION = 3.12.6;
 				ONLY_ACTIVE_ARCH = NO;
@@ -6055,7 +6062,7 @@
 					"CONFIGURATION_${CONFIGURATION}",
 				);
 				INFOPLIST_FILE = "iSisSales/Info-Debug.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MARKETING_VERSION = 3.12.6;
 				ONLY_ACTIVE_ARCH = YES;
@@ -6246,7 +6253,7 @@
 					"CONFIGURATION_${CONFIGURATION}",
 				);
 				INFOPLIST_FILE = "iSisSales/Info-Release.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MARKETING_VERSION = 3.12.6;
 				ONLY_ACTIVE_ARCH = NO;
