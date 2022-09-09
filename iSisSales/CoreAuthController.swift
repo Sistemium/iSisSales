@@ -57,7 +57,6 @@ class CoreAuthController:NSObject{
         STMCoreAuthController.shared().userID = "DEMO USER ID"
         STMCoreAuthController.shared().userName = "DEMO USER"
         STMCoreAuthController.shared().isDemo = true
-        STMCoreRootTBC.sharedRootVC().showTabBar()
         if let path = Bundle.main.path(forResource: "DEMO/roles-DEMO", ofType: "json") {
             do {
                   let data = try Data(contentsOf: URL(fileURLWithPath: path), options: .mappedIfSafe)
