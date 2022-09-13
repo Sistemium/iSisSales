@@ -3734,7 +3734,7 @@
 				INFOPLIST_FILE = "iSisSales/Info-Debug.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 3.12.6;
+				MARKETING_VERSION = 3.12.7;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = u3.sistemium.iSisSales;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -3931,7 +3931,7 @@
 				INFOPLIST_FILE = "iSisSales/Info-Debug.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 3.12.6;
+				MARKETING_VERSION = 3.12.7;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = apple.sistemium.iSisWarehouse;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -4121,7 +4121,7 @@
 				INFOPLIST_FILE = "iSisSales/Info-Release.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 3.12.6;
+				MARKETING_VERSION = 3.12.7;
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = u3.sistemium.iSisSales;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -4311,7 +4311,7 @@
 				INFOPLIST_FILE = "iSisSales/Info-Release.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 3.12.6;
+				MARKETING_VERSION = 3.12.7;
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = apple.sistemium.iSisWarehouse;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -4509,7 +4509,7 @@
 				INFOPLIST_FILE = "iSisSales/Info-Debug.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 3.12.6;
+				MARKETING_VERSION = 3.12.7;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = apple.sistemium.iSisSales;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -4699,7 +4699,7 @@
 				INFOPLIST_FILE = "iSisSales/Info-Release.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 3.12.6;
+				MARKETING_VERSION = 3.12.7;
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = apple.sistemium.iSisSales;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -4898,7 +4898,7 @@
 				INFOPLIST_FILE = "iSisSales/Info-Debug.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 3.12.6;
+				MARKETING_VERSION = 3.12.7;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = apple.sistemium.iSisDriver;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -5089,7 +5089,7 @@
 				INFOPLIST_FILE = "iSisSales/Info-Release.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 3.12.6;
+				MARKETING_VERSION = 3.12.7;
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = apple.sistemium.iSisDriver;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -5287,7 +5287,7 @@
 				INFOPLIST_FILE = "iSisSales/Info-Debug.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 3.12.6;
+				MARKETING_VERSION = 3.12.7;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = apple.sistemium.iSisWarehouse;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -5477,7 +5477,7 @@
 				INFOPLIST_FILE = "iSisSales/Info-Release.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 3.12.6;
+				MARKETING_VERSION = 3.12.7;
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = apple.sistemium.iSisWarehouse;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -5674,7 +5674,7 @@
 				INFOPLIST_FILE = "iSisSales/Info-Debug.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 3.12.6;
+				MARKETING_VERSION = 3.12.7;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = apple.sistemium.vfs;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -5865,7 +5865,7 @@
 				INFOPLIST_FILE = "iSisSales/Info-Release.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 3.12.6;
+				MARKETING_VERSION = 3.12.7;
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = apple.sistemium.vfs;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -6064,7 +6064,7 @@
 				INFOPLIST_FILE = "iSisSales/Info-Debug.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 3.12.6;
+				MARKETING_VERSION = 3.12.7;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = apple.sistemium.iSisDriver;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -6255,7 +6255,7 @@
 				INFOPLIST_FILE = "iSisSales/Info-Release.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 3.12.6;
+				MARKETING_VERSION = 3.12.7;
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = apple.sistemium.iSisDriver;
 				PRODUCT_NAME = "$(TARGET_NAME)";

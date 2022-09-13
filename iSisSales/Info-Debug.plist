@@ -57,10 +57,16 @@
 	<string>NSBluetoothAlwaysUsageDescription</string>
 	<key>NSBluetoothPeripheralUsageDescription</key>
 	<string>NSBluetoothPeripheralUsageDescription</string>
+	<key>NSBonjourServices</key>
+	<array>
+		<string>_dartobservatory._tcp</string>
+	</array>
 	<key>NSCameraUsageDescription</key>
 	<string>NSCameraUsageDescription</string>
 	<key>NSContactsUsageDescription</key>
 	<string>NSContactsUsageDescription</string>
+	<key>NSLocalNetworkUsageDescription</key>
+	<string>Flutter debug permission</string>
 	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
 	<string>NSLocationAlwaysAndWhenInUseUsageDescription</string>
 	<key>NSLocationAlwaysUsageDescription</key>
@@ -98,13 +104,7 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
-	<key>NSBonjourServices</key>
-	<array>
-		<string>_dartobservatory._tcp</string>
-	</array>
 	<key>UIUserInterfaceStyle</key>
 	<string>Light</string>
-	<key>NSLocalNetworkUsageDescription</key>
-	<string>Flutter debug permission</string>
 </dict>
 </plist>

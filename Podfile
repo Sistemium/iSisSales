@@ -39,7 +39,14 @@ target 'iSisSales' do
     install_all_flutter_pods(flutter_application_path)
     
     post_install do |installer|
-      installer.pods_project.targets.each do |target|
+        installer.generated_projects.each do |project|
+          project.targets.each do |target|
+              target.build_configurations.each do |config|
+                  config.build_settings["DEVELOPMENT_TEAM"] = "DP58H3X45C"
+               end
+          end
+        end
+        installer.pods_project.targets.each do |target|
           target.build_configurations.each do |config|
             config.build_settings['GCC_PREPROCESSOR_DEFINITIONS'] ||= [
                 '$(inherited)',
@@ -47,11 +54,11 @@ target 'iSisSales' do
                 'PERMISSION_NOTIFICATIONS=1',
               ]
             end
-      end
-      installer.pods_project.build_configurations.each do |config|
-        config.build_settings["EXCLUDED_ARCHS[sdk=iphonesimulator*]"] = ""
-      end
-      flutter_post_install(installer) if defined?(flutter_post_install)
+        end
+        installer.pods_project.build_configurations.each do |config|
+            config.build_settings["EXCLUDED_ARCHS[sdk=iphonesimulator*]"] = ""
+        end
+        flutter_post_install(installer) if defined?(flutter_post_install)
     end
 
 end
