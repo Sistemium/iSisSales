@@ -6368,6 +6368,394 @@
 			};
 			name = ReleaseDriver;
 		};
+		35C4863428D1F2C800020CFA /* DebugVfsClient */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = DebugVfsClient;
+		};
+		35C4863528D1F2C800020CFA /* DebugVfsClient */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF9FBD122D3902097B0F5001 /* Pods-iSisSales.debugsalesapple.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-SalesDebug";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-Sales";
+				CODE_SIGN_ENTITLEMENTS = iSisSales/iSisSales.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CustomAppBuild = 371;
+				CustomAppBundleId = "com.sistemium.${PRODUCT_NAME:rfc1034identifier}";
+				CustomAppVersion = 3.10.1;
+				CustomProductName = iSisSales;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = DP58H3X45C;
+				ENABLE_BITCODE = NO;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				GCC_PREFIX_HEADER = "iSisSales/iSistemium-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"CONFIGURATION_${CONFIGURATION}",
+				);
+				INFOPLIST_FILE = "iSisSales/Info-Debug.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 3.12.7;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = apple.sistemium.vfsClient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "iSisSales/iSistemium-Bridging-Header.h";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "iSistemiumCore-Swift.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = DebugVfsClient;
+		};
+		35C4863628D1F2C800020CFA /* DebugVfsClient */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9711201675473089F45DD5BE /* Pods-iSisSalesTests.debugsalesapple.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GCC_PREFIX_HEADER = "iSisSales/iSistemium-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(CONFIGURATION_TEMP_DIR)/$(PROJECT_NAME).build/DerivedSources",
+					"$(TARGET_TEMP_DIR)/../$(PROJECT_NAME).build/DerivedSources",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = iSisSalesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sistemium.iSisSalesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iSisSales.app/iSisSales";
+				USER_HEADER_SEARCH_PATHS = "$(CONFIGURATION_TEMP_DIR)/$(PROJECT_NAME).build/DerivedSources $(TARGET_TEMP_DIR)/../$(PROJECT_NAME).build/DerivedSources";
+			};
+			name = DebugVfsClient;
+		};
+		35C4863728D1F2C800020CFA /* DebugVfsClient */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 693580EA7EBF124FE61B17E5 /* Pods-iSisSalesUITests.debugsalesapple.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iSisSales.app/iSisSales";
+				GCC_PREFIX_HEADER = "iSisSales/iSistemium-Prefix.pch";
+				INFOPLIST_FILE = iSisSalesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sistemium.iSisSalesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = iSisSales;
+			};
+			name = DebugVfsClient;
+		};
+		35C4863828D1F2C800020CFA /* DebugVfsClient */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08B900E268A051511BC2E59B /* Pods-iSisSalesOfLibsTests.debugsalesapple.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				DEVELOPMENT_TEAM = HZMMGDCLPA;
+				GCC_PREFIX_HEADER = "iSisSales/iSistemium-Prefix.pch";
+				INFOPLIST_FILE = iSisSalesOfLibsTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sistemium.iSisSalesOfLibsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iSisSales.app/iSisSales";
+			};
+			name = DebugVfsClient;
+		};
+		35C4863928D1F2C800020CFA /* DebugVfsClient */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08FBE1D891D662311F572028 /* Pods-iSisSalesTestsInMemory.debugsalesapple.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				DEVELOPMENT_TEAM = HZMMGDCLPA;
+				GCC_PREFIX_HEADER = "iSisSales/iSistemium-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/Crashlytics\"",
+					"\"${PODS_ROOT}/Headers/Public/Fabric\"",
+					"\"$(TARGET_TEMP_DIR)/../$(PROJECT_NAME).build/DerivedSources\"",
+				);
+				INFOPLIST_FILE = iSisSalesTestsInMemory/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sistemium.iSisSalesTestsInMemory;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iSisSales.app/iSisSales";
+			};
+			name = DebugVfsClient;
+		};
+		35C4863A28D1F2C800020CFA /* DebugVfsClient */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16A2FB32DA34265B702E4422 /* Pods-iSisSalesSpeedTests.debugsalesapple.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				DEVELOPMENT_TEAM = HZMMGDCLPA;
+				GCC_PREFIX_HEADER = "iSisSales/iSistemium-Prefix.pch";
+				INFOPLIST_FILE = iSisSalesSpeedTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sistemium.iSisSalesSpeedTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iSisSales.app/iSisSales";
+			};
+			name = DebugVfsClient;
+		};
+		35C4864228D1F3AB00020CFA /* ReleaseVfsClient */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = ReleaseVfsClient;
+		};
+		35C4864328D1F3AB00020CFA /* ReleaseVfsClient */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C182AD917F157525B9F413B5 /* Pods-iSisSales.releasesales.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-Sales";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-Sales";
+				CODE_SIGN_ENTITLEMENTS = iSisSales/iSisSales.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CustomAppBuild = 371;
+				CustomAppBundleId = "com.sistemium.${PRODUCT_NAME:rfc1034identifier}";
+				CustomAppVersion = 3.10.1;
+				CustomProductName = iSisSales;
+				DEVELOPMENT_TEAM = DP58H3X45C;
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = "iSisSales/iSistemium-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"CONFIGURATION_${CONFIGURATION}",
+				);
+				INFOPLIST_FILE = "iSisSales/Info-Release.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 3.12.7;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = u3.sistemium.iSisSales;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "iSisSales/iSistemium-Bridging-Header.h";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "iSistemiumCore-Swift.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = ReleaseVfsClient;
+		};
+		35C4864428D1F3AB00020CFA /* ReleaseVfsClient */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7CB6FC51F4B8F41FE884A27 /* Pods-iSisSalesTests.releasesales.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GCC_PREFIX_HEADER = "iSisSales/iSistemium-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(CONFIGURATION_TEMP_DIR)/$(PROJECT_NAME).build/DerivedSources",
+					"$(TARGET_TEMP_DIR)/../$(PROJECT_NAME).build/DerivedSources",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = iSisSalesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sistemium.iSisSalesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iSisSales.app/iSisSales";
+				USER_HEADER_SEARCH_PATHS = "$(CONFIGURATION_TEMP_DIR)/$(PROJECT_NAME).build/DerivedSources $(TARGET_TEMP_DIR)/../$(PROJECT_NAME).build/DerivedSources";
+			};
+			name = ReleaseVfsClient;
+		};
+		35C4864528D1F3AB00020CFA /* ReleaseVfsClient */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A0CE0EC634B0880798BF9FB /* Pods-iSisSalesUITests.releasesales.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iSisSales.app/iSisSales";
+				GCC_PREFIX_HEADER = "iSisSales/iSistemium-Prefix.pch";
+				INFOPLIST_FILE = iSisSalesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sistemium.iSisSalesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = iSisSales;
+			};
+			name = ReleaseVfsClient;
+		};
+		35C4864628D1F3AB00020CFA /* ReleaseVfsClient */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E84FB99CDB74294B79CC535 /* Pods-iSisSalesOfLibsTests.releasesales.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				DEVELOPMENT_TEAM = HZMMGDCLPA;
+				GCC_PREFIX_HEADER = "iSisSales/iSistemium-Prefix.pch";
+				INFOPLIST_FILE = iSisSalesOfLibsTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sistemium.iSisSalesOfLibsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iSisSales.app/iSisSales";
+			};
+			name = ReleaseVfsClient;
+		};
+		35C4864728D1F3AB00020CFA /* ReleaseVfsClient */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35BA96D571E5CBAA739B97AD /* Pods-iSisSalesTestsInMemory.releasesales.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				DEVELOPMENT_TEAM = HZMMGDCLPA;
+				GCC_PREFIX_HEADER = "iSisSales/iSistemium-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/Crashlytics\"",
+					"\"${PODS_ROOT}/Headers/Public/Fabric\"",
+					"\"$(TARGET_TEMP_DIR)/../$(PROJECT_NAME).build/DerivedSources\"",
+				);
+				INFOPLIST_FILE = iSisSalesTestsInMemory/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sistemium.iSisSalesTestsInMemory;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iSisSales.app/iSisSales";
+			};
+			name = ReleaseVfsClient;
+		};
+		35C4864828D1F3AB00020CFA /* ReleaseVfsClient */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2998009F2899574476C84813 /* Pods-iSisSalesSpeedTests.releasesales.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				DEVELOPMENT_TEAM = HZMMGDCLPA;
+				GCC_PREFIX_HEADER = "iSisSales/iSistemium-Prefix.pch";
+				INFOPLIST_FILE = iSisSalesSpeedTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sistemium.iSisSalesSpeedTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iSisSales.app/iSisSales";
+			};
+			name = ReleaseVfsClient;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -6376,12 +6764,14 @@
 			buildConfigurations = (
 				2CCF552F1EA4E5E700A54B64 /* DebugSales */,
 				35061EE12773630A00692210 /* DebugSalesApple */,
+				35C4863428D1F2C800020CFA /* DebugVfsClient */,
 				35AE9A0A20C9458300343AA3 /* DebugDriver */,
 				358E8E762791949700334E83 /* DebugDriverApple */,
 				3593B6BD23FEDA51001F5EBB /* DebugVfs */,
 				2CCF55361EA4E5EF00A54B64 /* DebugWarehouse */,
 				358E8E842791954500334E83 /* DebugWarehouseApple */,
 				2CCF553D1EA4E5F700A54B64 /* ReleaseSales */,
+				35C4864228D1F3AB00020CFA /* ReleaseVfsClient */,
 				35061EE82773635100692210 /* ReleaseSalesApple */,
 				35AE9A1120C945EA00343AA3 /* ReleaseDriver */,
 				358E8E7D279194AA00334E83 /* ReleaseDriverApple */,
@@ -6397,12 +6787,14 @@
 			buildConfigurations = (
 				2CCF55301EA4E5E700A54B64 /* DebugSales */,
 				35061EE22773630A00692210 /* DebugSalesApple */,
+				35C4863528D1F2C800020CFA /* DebugVfsClient */,
 				35AE9A0B20C9458300343AA3 /* DebugDriver */,
 				358E8E772791949700334E83 /* DebugDriverApple */,
 				3593B6BE23FEDA51001F5EBB /* DebugVfs */,
 				2CCF55371EA4E5EF00A54B64 /* DebugWarehouse */,
 				358E8E852791954500334E83 /* DebugWarehouseApple */,
 				2CCF553E1EA4E5F700A54B64 /* ReleaseSales */,
+				35C4864328D1F3AB00020CFA /* ReleaseVfsClient */,
 				35061EE92773635100692210 /* ReleaseSalesApple */,
 				35AE9A1220C945EA00343AA3 /* ReleaseDriver */,
 				358E8E7E279194AA00334E83 /* ReleaseDriverApple */,
@@ -6418,12 +6810,14 @@
 			buildConfigurations = (
 				2CCF55311EA4E5E700A54B64 /* DebugSales */,
 				35061EE32773630A00692210 /* DebugSalesApple */,
+				35C4863628D1F2C800020CFA /* DebugVfsClient */,
 				35AE9A0C20C9458300343AA3 /* DebugDriver */,
 				358E8E782791949700334E83 /* DebugDriverApple */,
 				3593B6BF23FEDA51001F5EBB /* DebugVfs */,
 				2CCF55381EA4E5EF00A54B64 /* DebugWarehouse */,
 				358E8E862791954500334E83 /* DebugWarehouseApple */,
 				2CCF553F1EA4E5F700A54B64 /* ReleaseSales */,
+				35C4864428D1F3AB00020CFA /* ReleaseVfsClient */,
 				35061EEA2773635100692210 /* ReleaseSalesApple */,
 				35AE9A1320C945EA00343AA3 /* ReleaseDriver */,
 				358E8E7F279194AA00334E83 /* ReleaseDriverApple */,
@@ -6439,12 +6833,14 @@
 			buildConfigurations = (
 				2CCF55321EA4E5E700A54B64 /* DebugSales */,
 				35061EE42773630A00692210 /* DebugSalesApple */,
+				35C4863728D1F2C800020CFA /* DebugVfsClient */,
 				35AE9A0D20C9458300343AA3 /* DebugDriver */,
 				358E8E792791949700334E83 /* DebugDriverApple */,
 				3593B6C023FEDA51001F5EBB /* DebugVfs */,
 				2CCF55391EA4E5EF00A54B64 /* DebugWarehouse */,
 				358E8E872791954500334E83 /* DebugWarehouseApple */,
 				2CCF55401EA4E5F700A54B64 /* ReleaseSales */,
+				35C4864528D1F3AB00020CFA /* ReleaseVfsClient */,
 				35061EEB2773635100692210 /* ReleaseSalesApple */,
 				35AE9A1420C945EA00343AA3 /* ReleaseDriver */,
 				358E8E80279194AA00334E83 /* ReleaseDriverApple */,
@@ -6460,12 +6856,14 @@
 			buildConfigurations = (
 				2CCF55341EA4E5E700A54B64 /* DebugSales */,
 				35061EE62773630A00692210 /* DebugSalesApple */,
+				35C4863928D1F2C800020CFA /* DebugVfsClient */,
 				35AE9A0F20C9458300343AA3 /* DebugDriver */,
 				358E8E7B2791949700334E83 /* DebugDriverApple */,
 				3593B6C223FEDA51001F5EBB /* DebugVfs */,
 				2CCF553B1EA4E5EF00A54B64 /* DebugWarehouse */,
 				358E8E892791954500334E83 /* DebugWarehouseApple */,
 				2CCF55421EA4E5F700A54B64 /* ReleaseSales */,
+				35C4864728D1F3AB00020CFA /* ReleaseVfsClient */,
 				35061EED2773635100692210 /* ReleaseSalesApple */,
 				35AE9A1620C945EA00343AA3 /* ReleaseDriver */,
 				358E8E82279194AA00334E83 /* ReleaseDriverApple */,
@@ -6481,12 +6879,14 @@
 			buildConfigurations = (
 				2CCF55351EA4E5E700A54B64 /* DebugSales */,
 				35061EE72773630A00692210 /* DebugSalesApple */,
+				35C4863A28D1F2C800020CFA /* DebugVfsClient */,
 				35AE9A1020C9458300343AA3 /* DebugDriver */,
 				358E8E7C2791949700334E83 /* DebugDriverApple */,
 				3593B6C323FEDA51001F5EBB /* DebugVfs */,
 				2CCF553C1EA4E5EF00A54B64 /* DebugWarehouse */,
 				358E8E8A2791954500334E83 /* DebugWarehouseApple */,
 				2CCF55431EA4E5F700A54B64 /* ReleaseSales */,
+				35C4864828D1F3AB00020CFA /* ReleaseVfsClient */,
 				35061EEE2773635100692210 /* ReleaseSalesApple */,
 				35AE9A1720C945EA00343AA3 /* ReleaseDriver */,
 				358E8E83279194AA00334E83 /* ReleaseDriverApple */,
@@ -6502,12 +6902,14 @@
 			buildConfigurations = (
 				2CCF55331EA4E5E700A54B64 /* DebugSales */,
 				35061EE52773630A00692210 /* DebugSalesApple */,
+				35C4863828D1F2C800020CFA /* DebugVfsClient */,
 				35AE9A0E20C9458300343AA3 /* DebugDriver */,
 				358E8E7A2791949700334E83 /* DebugDriverApple */,
 				3593B6C123FEDA51001F5EBB /* DebugVfs */,
 				2CCF553A1EA4E5EF00A54B64 /* DebugWarehouse */,
 				358E8E882791954500334E83 /* DebugWarehouseApple */,
 				2CCF55411EA4E5F700A54B64 /* ReleaseSales */,
+				35C4864628D1F3AB00020CFA /* ReleaseVfsClient */,
 				35061EEC2773635100692210 /* ReleaseSalesApple */,
 				35AE9A1520C945EA00343AA3 /* ReleaseDriver */,
 				358E8E81279194AA00334E83 /* ReleaseDriverApple */,
