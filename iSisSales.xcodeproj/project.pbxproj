@@ -426,6 +426,7 @@
 		1AD55F607D405BE1614DD20C /* Pods-iSisSalesUITests.release sales.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesUITests.release sales.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesUITests/Pods-iSisSalesUITests.release sales.xcconfig"; sourceTree = "<group>"; };
 		1AE7380A595B333909D339C0 /* Pods-iSisSales.releasewarehouse.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSales.releasewarehouse.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSales/Pods-iSisSales.releasewarehouse.xcconfig"; sourceTree = "<group>"; };
 		1C2F058E789CCC06B62D470D /* Pods-iSisSalesSpeedTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesSpeedTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesSpeedTests/Pods-iSisSalesSpeedTests.release.xcconfig"; sourceTree = "<group>"; };
+		1DEE6ADEB35EF9062740A263 /* Pods-iSisSalesUITests.debugvfsclient.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesUITests.debugvfsclient.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesUITests/Pods-iSisSalesUITests.debugvfsclient.xcconfig"; sourceTree = "<group>"; };
 		27613499D4D48D96C871A7F5 /* Pods-iSisSalesSpeedTests.releasevfs.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesSpeedTests.releasevfs.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesSpeedTests/Pods-iSisSalesSpeedTests.releasevfs.xcconfig"; sourceTree = "<group>"; };
 		295E27D6F3D84CD7CA7D9C2C /* Pods-iSisSalesOfLibsTests.release sales.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesOfLibsTests.release sales.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesOfLibsTests/Pods-iSisSalesOfLibsTests.release sales.xcconfig"; sourceTree = "<group>"; };
 		2998009F2899574476C84813 /* Pods-iSisSalesSpeedTests.releasesales.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesSpeedTests.releasesales.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesSpeedTests/Pods-iSisSalesSpeedTests.releasesales.xcconfig"; sourceTree = "<group>"; };
@@ -1030,8 +1031,10 @@
 		46562F2F7D1F307B473CAD01 /* Pods-iSisSalesOfLibsTests.debug sales.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesOfLibsTests.debug sales.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesOfLibsTests/Pods-iSisSalesOfLibsTests.debug sales.xcconfig"; sourceTree = "<group>"; };
 		4764EE958DC8189B924E5647 /* Pods-iSisSalesSpeedTests.debugdriverapple.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesSpeedTests.debugdriverapple.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesSpeedTests/Pods-iSisSalesSpeedTests.debugdriverapple.xcconfig"; sourceTree = "<group>"; };
 		4E3426D44DFF84DC4A8C1349 /* Pods-iSisSalesSpeedTests.release warehouse.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesSpeedTests.release warehouse.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesSpeedTests/Pods-iSisSalesSpeedTests.release warehouse.xcconfig"; sourceTree = "<group>"; };
+		4EFC8F1BDF3422F4545E52C9 /* Pods-iSisSalesOfLibsTests.releasevfsclient.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesOfLibsTests.releasevfsclient.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesOfLibsTests/Pods-iSisSalesOfLibsTests.releasevfsclient.xcconfig"; sourceTree = "<group>"; };
 		4F38D000E5BC9F8D2ABCAA0A /* Pods-iSisSalesUITests.release warehouse.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesUITests.release warehouse.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesUITests/Pods-iSisSalesUITests.release warehouse.xcconfig"; sourceTree = "<group>"; };
 		52A837F39BC8E50D507E5D25 /* Pods-iSisSalesTestsInMemory.releasevfs.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesTestsInMemory.releasevfs.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesTestsInMemory/Pods-iSisSalesTestsInMemory.releasevfs.xcconfig"; sourceTree = "<group>"; };
+		561FD258DD845CC4926EB108 /* Pods-iSisSalesUITests.releasevfsclient.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesUITests.releasevfsclient.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesUITests/Pods-iSisSalesUITests.releasevfsclient.xcconfig"; sourceTree = "<group>"; };
 		56A10D243249632CB3AEBCDD /* Pods-iSisSalesTestsInMemory.release warehouse.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesTestsInMemory.release warehouse.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesTestsInMemory/Pods-iSisSalesTestsInMemory.release warehouse.xcconfig"; sourceTree = "<group>"; };
 		5B6F8D8FF8734D3C12C75FA4 /* Pods-iSisSalesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesTests/Pods-iSisSalesTests.release.xcconfig"; sourceTree = "<group>"; };
 		65DD154EB09BDEFFAB364FF8 /* Pods-iSisSalesTestsInMemory.releasesalesapple.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesTestsInMemory.releasesalesapple.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesTestsInMemory/Pods-iSisSalesTestsInMemory.releasesalesapple.xcconfig"; sourceTree = "<group>"; };
@@ -1063,8 +1066,10 @@
 		7F5A7B8227D5632A122E2E14 /* Pods-iSisSalesTests.debug sales.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesTests.debug sales.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesTests/Pods-iSisSalesTests.debug sales.xcconfig"; sourceTree = "<group>"; };
 		7F9A16DF9FD983FA1D0AF51E /* Pods-iSisSalesTestsInMemory.debug warehouse.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesTestsInMemory.debug warehouse.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesTestsInMemory/Pods-iSisSalesTestsInMemory.debug warehouse.xcconfig"; sourceTree = "<group>"; };
 		81E5B4C6DDB6959C412B070E /* Pods-iSisSalesSpeedTests.debug sales.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesSpeedTests.debug sales.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesSpeedTests/Pods-iSisSalesSpeedTests.debug sales.xcconfig"; sourceTree = "<group>"; };
+		8357B48A4DA0A0E080B55171 /* Pods-iSisSalesTestsInMemory.debugvfsclient.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesTestsInMemory.debugvfsclient.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesTestsInMemory/Pods-iSisSalesTestsInMemory.debugvfsclient.xcconfig"; sourceTree = "<group>"; };
 		8552D7D75BCDD62EAE4AE093 /* Pods-iSisSalesOfLibsTests.debugsales.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesOfLibsTests.debugsales.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesOfLibsTests/Pods-iSisSalesOfLibsTests.debugsales.xcconfig"; sourceTree = "<group>"; };
 		868139A4FE40C52966269104 /* Pods-iSisSalesTests.debugsales.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesTests.debugsales.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesTests/Pods-iSisSalesTests.debugsales.xcconfig"; sourceTree = "<group>"; };
+		896FD26221CFF48AF8221110 /* Pods-iSisSalesTests.debugvfsclient.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesTests.debugvfsclient.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesTests/Pods-iSisSalesTests.debugvfsclient.xcconfig"; sourceTree = "<group>"; };
 		8A9C498EA9BA821B55E4F306 /* Pods-iSisSalesUITests.debug sales.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesUITests.debug sales.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesUITests/Pods-iSisSalesUITests.debug sales.xcconfig"; sourceTree = "<group>"; };
 		8CD07CFEC3CC34380206E092 /* Pods-iSisSalesTests.debugvfs.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesTests.debugvfs.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesTests/Pods-iSisSalesTests.debugvfs.xcconfig"; sourceTree = "<group>"; };
 		8D4510655A3EFBF91E035B08 /* Pods-iSisSalesOfLibsTests.debugvfs.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesOfLibsTests.debugvfs.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesOfLibsTests/Pods-iSisSalesOfLibsTests.debugvfs.xcconfig"; sourceTree = "<group>"; };
@@ -1085,6 +1090,9 @@
 		A95CFE9A7C834F88D4F35BF3 /* Pods-iSisSalesTestsInMemory.debugwarehouseapple.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesTestsInMemory.debugwarehouseapple.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesTestsInMemory/Pods-iSisSalesTestsInMemory.debugwarehouseapple.xcconfig"; sourceTree = "<group>"; };
 		AAB8576EE5628A8DD926ABB9 /* Pods-iSisSalesTests.releasewarehouse.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesTests.releasewarehouse.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesTests/Pods-iSisSalesTests.releasewarehouse.xcconfig"; sourceTree = "<group>"; };
 		AAB8992D1AAEDE220A97AA17 /* Pods-iSisSalesUITests.releasewarehouseapple.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesUITests.releasewarehouseapple.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesUITests/Pods-iSisSalesUITests.releasewarehouseapple.xcconfig"; sourceTree = "<group>"; };
+		AD5F2A3958A533F1F2D3C6A8 /* Pods-iSisSalesTestsInMemory.releasevfsclient.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesTestsInMemory.releasevfsclient.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesTestsInMemory/Pods-iSisSalesTestsInMemory.releasevfsclient.xcconfig"; sourceTree = "<group>"; };
+		AE4CB1787C498ABE61846D1F /* Pods-iSisSales.debugvfsclient.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSales.debugvfsclient.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSales/Pods-iSisSales.debugvfsclient.xcconfig"; sourceTree = "<group>"; };
+		AFE38145BDF943AF77800049 /* Pods-iSisSalesOfLibsTests.debugvfsclient.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesOfLibsTests.debugvfsclient.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesOfLibsTests/Pods-iSisSalesOfLibsTests.debugvfsclient.xcconfig"; sourceTree = "<group>"; };
 		AFE5FF5749CA138E9A541F26 /* Pods-iSisSales.debugdriverapple.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSales.debugdriverapple.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSales/Pods-iSisSales.debugdriverapple.xcconfig"; sourceTree = "<group>"; };
 		B1F379B09CBAA1B3B78D1446 /* Pods-iSisSalesTestsInMemory.releasedriver.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesTestsInMemory.releasedriver.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesTestsInMemory/Pods-iSisSalesTestsInMemory.releasedriver.xcconfig"; sourceTree = "<group>"; };
 		B64731D6FF2B75BA8D1E43E9 /* Pods-iSisSalesSpeedTests.releasedriver.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesSpeedTests.releasedriver.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesSpeedTests/Pods-iSisSalesSpeedTests.releasedriver.xcconfig"; sourceTree = "<group>"; };
@@ -1105,6 +1113,7 @@
 		D036003EF0647B24C9719668 /* Pods-iSisSalesTestsInMemory.debugvfs.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesTestsInMemory.debugvfs.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesTestsInMemory/Pods-iSisSalesTestsInMemory.debugvfs.xcconfig"; sourceTree = "<group>"; };
 		D3575B0D49491FEADB85EA8C /* Pods-iSisSalesTestsInMemory.debugwarehouse.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesTestsInMemory.debugwarehouse.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesTestsInMemory/Pods-iSisSalesTestsInMemory.debugwarehouse.xcconfig"; sourceTree = "<group>"; };
 		D46BFD4C88CFC529EFE6F78F /* Pods-iSisSalesTests.releasewarehouseapple.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesTests.releasewarehouseapple.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesTests/Pods-iSisSalesTests.releasewarehouseapple.xcconfig"; sourceTree = "<group>"; };
+		D4755AB49D2AB2209422B7D4 /* Pods-iSisSalesTests.releasevfsclient.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesTests.releasevfsclient.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesTests/Pods-iSisSalesTests.releasevfsclient.xcconfig"; sourceTree = "<group>"; };
 		D5475771DE8B1033267C27B6 /* Pods-iSisSalesTests.releasedriver.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesTests.releasedriver.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesTests/Pods-iSisSalesTests.releasedriver.xcconfig"; sourceTree = "<group>"; };
 		D64ACD54CC89160C6E42208F /* Pods-iSisSales.debugwarehouse.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSales.debugwarehouse.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSales/Pods-iSisSales.debugwarehouse.xcconfig"; sourceTree = "<group>"; };
 		D7859E4A471571E154ACC583 /* Pods-iSisSalesTestsInMemory.debugdriverapple.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesTestsInMemory.debugdriverapple.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesTestsInMemory/Pods-iSisSalesTestsInMemory.debugdriverapple.xcconfig"; sourceTree = "<group>"; };
@@ -1181,12 +1190,15 @@
 		D9F8354B2774BC2E008D1B7C /* ReleaseSalesApple */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ReleaseSalesApple; sourceTree = "<group>"; };
 		DA69E3A73683282867CEBDE0 /* Pods_iSisSalesOfLibsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iSisSalesOfLibsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBFB42CC13F54305F628400C /* Pods-iSisSalesTests.release sales.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesTests.release sales.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesTests/Pods-iSisSalesTests.release sales.xcconfig"; sourceTree = "<group>"; };
+		DC26B5AA75F805AD7782F83C /* Pods-iSisSalesSpeedTests.debugvfsclient.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesSpeedTests.debugvfsclient.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesSpeedTests/Pods-iSisSalesSpeedTests.debugvfsclient.xcconfig"; sourceTree = "<group>"; };
 		DC4D6D1117EE8212D7FBD798 /* Pods-iSisSalesOfLibsTests.debugdriver.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesOfLibsTests.debugdriver.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesOfLibsTests/Pods-iSisSalesOfLibsTests.debugdriver.xcconfig"; sourceTree = "<group>"; };
 		DCA90AA60896539F073A1271 /* Pods-iSisSalesOfLibsTests.releasevfs.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesOfLibsTests.releasevfs.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesOfLibsTests/Pods-iSisSalesOfLibsTests.releasevfs.xcconfig"; sourceTree = "<group>"; };
 		DF43E8D3E180F33A933A7E07 /* Pods-iSisSalesTests.releasesalesapple.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesTests.releasesalesapple.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesTests/Pods-iSisSalesTests.releasesalesapple.xcconfig"; sourceTree = "<group>"; };
+		E312504C1C5B3237934DEF70 /* Pods-iSisSales.releasevfsclient.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSales.releasevfsclient.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSales/Pods-iSisSales.releasevfsclient.xcconfig"; sourceTree = "<group>"; };
 		E365F74D0A4211BC8B9E04A5 /* Pods-iSisSalesTestsInMemory.debugsales.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesTestsInMemory.debugsales.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesTestsInMemory/Pods-iSisSalesTestsInMemory.debugsales.xcconfig"; sourceTree = "<group>"; };
 		E39A6A53AA65BA2768BF58B7 /* Pods-iSisSalesSpeedTests.debugsales.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesSpeedTests.debugsales.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesSpeedTests/Pods-iSisSalesSpeedTests.debugsales.xcconfig"; sourceTree = "<group>"; };
 		E40623DC4ABD0FB0D719ED86 /* Pods-iSisSales.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSales.release.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSales/Pods-iSisSales.release.xcconfig"; sourceTree = "<group>"; };
+		E629AF8528F6CE580FD6D9A9 /* Pods-iSisSalesSpeedTests.releasevfsclient.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesSpeedTests.releasevfsclient.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesSpeedTests/Pods-iSisSalesSpeedTests.releasevfsclient.xcconfig"; sourceTree = "<group>"; };
 		E6C2D643E13FF7C2043AEDE1 /* Pods-iSisSalesOfLibsTests.debug warehouse.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesOfLibsTests.debug warehouse.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesOfLibsTests/Pods-iSisSalesOfLibsTests.debug warehouse.xcconfig"; sourceTree = "<group>"; };
 		E8294CB5252B1B9280632408 /* Pods-iSisSalesOfLibsTests.releasewarehouse.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSalesOfLibsTests.releasewarehouse.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSalesOfLibsTests/Pods-iSisSalesOfLibsTests.releasewarehouse.xcconfig"; sourceTree = "<group>"; };
 		EAB93FEDD659F69DBAF93AB7 /* Pods-iSisSales.releasewarehouseapple.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSisSales.releasewarehouseapple.xcconfig"; path = "Pods/Target Support Files/Pods-iSisSales/Pods-iSisSales.releasewarehouseapple.xcconfig"; sourceTree = "<group>"; };
@@ -2574,6 +2586,18 @@
 				CBCADDE6A7986862D790B4F6 /* Pods-iSisSalesUITests.debugwarehouseapple.xcconfig */,
 				09AA99B41747863474BC6469 /* Pods-iSisSalesUITests.releasedriverapple.xcconfig */,
 				AAB8992D1AAEDE220A97AA17 /* Pods-iSisSalesUITests.releasewarehouseapple.xcconfig */,
+				AE4CB1787C498ABE61846D1F /* Pods-iSisSales.debugvfsclient.xcconfig */,
+				E312504C1C5B3237934DEF70 /* Pods-iSisSales.releasevfsclient.xcconfig */,
+				AFE38145BDF943AF77800049 /* Pods-iSisSalesOfLibsTests.debugvfsclient.xcconfig */,
+				4EFC8F1BDF3422F4545E52C9 /* Pods-iSisSalesOfLibsTests.releasevfsclient.xcconfig */,
+				DC26B5AA75F805AD7782F83C /* Pods-iSisSalesSpeedTests.debugvfsclient.xcconfig */,
+				E629AF8528F6CE580FD6D9A9 /* Pods-iSisSalesSpeedTests.releasevfsclient.xcconfig */,
+				896FD26221CFF48AF8221110 /* Pods-iSisSalesTests.debugvfsclient.xcconfig */,
+				D4755AB49D2AB2209422B7D4 /* Pods-iSisSalesTests.releasevfsclient.xcconfig */,
+				8357B48A4DA0A0E080B55171 /* Pods-iSisSalesTestsInMemory.debugvfsclient.xcconfig */,
+				AD5F2A3958A533F1F2D3C6A8 /* Pods-iSisSalesTestsInMemory.releasevfsclient.xcconfig */,
+				1DEE6ADEB35EF9062740A263 /* Pods-iSisSalesUITests.debugvfsclient.xcconfig */,
+				561FD258DD845CC4926EB108 /* Pods-iSisSalesUITests.releasevfsclient.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -6428,7 +6452,7 @@
 		};
 		35C4863528D1F2C800020CFA /* DebugVfsClient */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FF9FBD122D3902097B0F5001 /* Pods-iSisSales.debugsalesapple.xcconfig */;
+			baseConfigurationReference = AE4CB1787C498ABE61846D1F /* Pods-iSisSales.debugvfsclient.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-SalesDebug";
@@ -6468,7 +6492,7 @@
 		};
 		35C4863628D1F2C800020CFA /* DebugVfsClient */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9711201675473089F45DD5BE /* Pods-iSisSalesTests.debugsalesapple.xcconfig */;
+			baseConfigurationReference = 896FD26221CFF48AF8221110 /* Pods-iSisSalesTests.debugvfsclient.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREFIX_HEADER = "iSisSales/iSistemium-Prefix.pch";
@@ -6489,7 +6513,7 @@
 		};
 		35C4863728D1F2C800020CFA /* DebugVfsClient */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 693580EA7EBF124FE61B17E5 /* Pods-iSisSalesUITests.debugsalesapple.xcconfig */;
+			baseConfigurationReference = 1DEE6ADEB35EF9062740A263 /* Pods-iSisSalesUITests.debugvfsclient.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iSisSales.app/iSisSales";
 				GCC_PREFIX_HEADER = "iSisSales/iSistemium-Prefix.pch";
@@ -6504,7 +6528,7 @@
 		};
 		35C4863828D1F2C800020CFA /* DebugVfsClient */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 08B900E268A051511BC2E59B /* Pods-iSisSalesOfLibsTests.debugsalesapple.xcconfig */;
+			baseConfigurationReference = AFE38145BDF943AF77800049 /* Pods-iSisSalesOfLibsTests.debugvfsclient.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -6523,7 +6547,7 @@
 		};
 		35C4863928D1F2C800020CFA /* DebugVfsClient */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 08FBE1D891D662311F572028 /* Pods-iSisSalesTestsInMemory.debugsalesapple.xcconfig */;
+			baseConfigurationReference = 8357B48A4DA0A0E080B55171 /* Pods-iSisSalesTestsInMemory.debugvfsclient.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -6549,7 +6573,7 @@
 		};
 		35C4863A28D1F2C800020CFA /* DebugVfsClient */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 16A2FB32DA34265B702E4422 /* Pods-iSisSalesSpeedTests.debugsalesapple.xcconfig */;
+			baseConfigurationReference = DC26B5AA75F805AD7782F83C /* Pods-iSisSalesSpeedTests.debugvfsclient.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -6620,7 +6644,7 @@
 		};
 		35C4864328D1F3AB00020CFA /* ReleaseVfsClient */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C182AD917F157525B9F413B5 /* Pods-iSisSales.releasesales.xcconfig */;
+			baseConfigurationReference = E312504C1C5B3237934DEF70 /* Pods-iSisSales.releasevfsclient.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-Sales";
@@ -6658,7 +6682,7 @@
 		};
 		35C4864428D1F3AB00020CFA /* ReleaseVfsClient */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B7CB6FC51F4B8F41FE884A27 /* Pods-iSisSalesTests.releasesales.xcconfig */;
+			baseConfigurationReference = D4755AB49D2AB2209422B7D4 /* Pods-iSisSalesTests.releasevfsclient.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREFIX_HEADER = "iSisSales/iSistemium-Prefix.pch";
@@ -6679,7 +6703,7 @@
 		};
 		35C4864528D1F3AB00020CFA /* ReleaseVfsClient */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1A0CE0EC634B0880798BF9FB /* Pods-iSisSalesUITests.releasesales.xcconfig */;
+			baseConfigurationReference = 561FD258DD845CC4926EB108 /* Pods-iSisSalesUITests.releasevfsclient.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iSisSales.app/iSisSales";
 				GCC_PREFIX_HEADER = "iSisSales/iSistemium-Prefix.pch";
@@ -6694,7 +6718,7 @@
 		};
 		35C4864628D1F3AB00020CFA /* ReleaseVfsClient */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9E84FB99CDB74294B79CC535 /* Pods-iSisSalesOfLibsTests.releasesales.xcconfig */;
+			baseConfigurationReference = 4EFC8F1BDF3422F4545E52C9 /* Pods-iSisSalesOfLibsTests.releasevfsclient.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -6713,7 +6737,7 @@
 		};
 		35C4864728D1F3AB00020CFA /* ReleaseVfsClient */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 35BA96D571E5CBAA739B97AD /* Pods-iSisSalesTestsInMemory.releasesales.xcconfig */;
+			baseConfigurationReference = AD5F2A3958A533F1F2D3C6A8 /* Pods-iSisSalesTestsInMemory.releasevfsclient.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -6739,7 +6763,7 @@
 		};
 		35C4864828D1F3AB00020CFA /* ReleaseVfsClient */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2998009F2899574476C84813 /* Pods-iSisSalesSpeedTests.releasesales.xcconfig */;
+			baseConfigurationReference = E629AF8528F6CE580FD6D9A9 /* Pods-iSisSalesSpeedTests.releasevfsclient.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
