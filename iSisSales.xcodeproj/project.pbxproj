@@ -3085,7 +3085,7 @@
 			name = "[CP-User] Embed Flutter Build flutter_onboarding Script";
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "set -e\nset -u\nsource \"${SRCROOT}/../flutter_onboarding/.ios/Flutter/flutter_export_environment.sh\"\nexport VERBOSE_SCRIPT_LOGGING=1 && \"$FLUTTER_ROOT\"/packages/flutter_tools/bin/xcode_backend.sh embed_and_thin";
+			shellScript = "set -e\nset -u\nsource \"${SRCROOT}/../flutter_onboarding/.ios/Flutter/flutter_export_environment.sh\"\nexport VERBOSE_SCRIPT_LOGGING=1 && \"$FLUTTER_ROOT\"/packages/flutter_tools/bin/xcode_backend.sh embed_and_thin\n";
 		};
 		35061EF427737C0800692210 /* Run Script */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -3105,7 +3105,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${BUILD_DIR%/Build/*}/SourcePackages/checkouts/firebase-ios-sdk/Crashlytics/run\"\n";
+			shellScript = "\"${PODS_ROOT}/FirebaseCrashlytics/run\"\n";
 		};
 		352D42D227BFFE2C005FCB4F /* DEMO COPY */ = {
 			isa = PBXShellScriptBuildPhase;
