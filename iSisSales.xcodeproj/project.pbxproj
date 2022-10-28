@@ -2743,7 +2743,6 @@
 				D44387C132DB2AC55C4A5EF2 /* [CP] Embed Pods Frameworks */,
 				35D7CED72791BE6800CEE2CC /* Setup Firebase Environment GoogleService-Info.plist */,
 				35061EF427737C0800692210 /* Run Script */,
-				352D42D227BFFE2C005FCB4F /* DEMO COPY */,
 				321ACA26B4C7514F0EE00681 /* [CP-User] Embed Flutter Build flutter_onboarding Script */,
 			);
 			buildRules = (
@@ -3106,24 +3105,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/FirebaseCrashlytics/run\"\n";
-		};
-		352D42D227BFFE2C005FCB4F /* DEMO COPY */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			name = "DEMO COPY";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "DEMO_SALES=${PROJECT_DIR}/${TARGET_NAME}/Resources/DEMO/iSisSales\nDEMO_DRIVER=${PROJECT_DIR}/${TARGET_NAME}/Resources/DEMO/iSisDriver\nDEMO_WAREHOUSE=${PROJECT_DIR}/${TARGET_NAME}/Resources/DEMO/iSisWarehouse\n\nPLIST_DESTINATION=${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.app/DEMO\n\necho \"${CONFIGURATION}\"\n\nif [[ \"${CONFIGURATION}\" == *\"Sales\"* ]]\nthen\n    echo \"Using ${DEMO_SALES}\"\n    cp -R \"${DEMO_SALES}\" \"${PLIST_DESTINATION}\"\nfi\n\nif [[ \"${CONFIGURATION}\" == *\"Driver\"* ]]\nthen\n    echo \"Using ${DEMO_DRIVER}\"\n    cp -R \"${DEMO_DRIVER}\" \"${PLIST_DESTINATION}\"\nfi\n\nif [[ \"${CONFIGURATION}\" == *\"Warehouse\"* ]]\nthen\n    echo \"Using ${DEMO_WAREHOUSE}\"\n    cp -R \"${DEMO_WAREHOUSE}\" \"${PLIST_DESTINATION}\"\nfi\n\n\n";
 		};
 		35D7CED72791BE6800CEE2CC /* Setup Firebase Environment GoogleService-Info.plist */ = {
 			isa = PBXShellScriptBuildPhase;
