@@ -13,8 +13,8 @@ target 'iSisSales' do
     pod 'PromiseKit', '~> 6.13'
     pod 'ZebraIos', :path => '../ZebraIos'
     pod 'PMAlertController', '~> 3.5.0'
-    pod 'Firebase/Analytics', '~> 6.34.0'
-    pod 'Firebase/Crashlytics', '~> 6.34.0'
+    pod 'Firebase/Analytics', '~> 10.11.0'
+    pod 'Firebase/Crashlytics', '~> 10.11.0'
 
     target 'iSisSalesTests' do
         inherit! :search_paths
