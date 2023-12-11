@@ -3748,7 +3748,7 @@
 				CODE_SIGN_ENTITLEMENTS = iSisSales/iSisSales.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 403;
+				CURRENT_PROJECT_VERSION = 404;
 				CustomAppBuild = 371;
 				CustomAppBundleId = "com.sistemium.${PRODUCT_NAME:rfc1034identifier}";
 				CustomAppVersion = 3.10.1;
@@ -3766,7 +3766,7 @@
 				INFOPLIST_FILE = "iSisSales/Info-Debug.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 3.12.7;
+				MARKETING_VERSION = 3.12.9;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = u3.sistemium.iSisSales;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -3946,7 +3946,7 @@
 				CODE_SIGN_ENTITLEMENTS = iSisSales/iSisSales.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 403;
+				CURRENT_PROJECT_VERSION = 404;
 				CustomAppBuild = 392;
 				CustomAppBundleId = com.sistemium.iSisWarehouseDebug;
 				CustomAppVersion = 3.10.1;
@@ -3964,7 +3964,7 @@
 				INFOPLIST_FILE = "iSisSales/Info-Debug.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 3.12.7;
+				MARKETING_VERSION = 3.12.9;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = apple.sistemium.iSisWarehouse;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -4139,7 +4139,7 @@
 				CODE_SIGN_ENTITLEMENTS = iSisSales/iSisSales.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 403;
+				CURRENT_PROJECT_VERSION = 404;
 				CustomAppBuild = 371;
 				CustomAppBundleId = "com.sistemium.${PRODUCT_NAME:rfc1034identifier}";
 				CustomAppVersion = 3.10.1;
@@ -4155,7 +4155,7 @@
 				INFOPLIST_FILE = "iSisSales/Info-Release.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 3.12.7;
+				MARKETING_VERSION = 3.12.9;
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = u3.sistemium.iSisSales;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -4330,7 +4330,7 @@
 				CODE_SIGN_ENTITLEMENTS = iSisSales/iSisSales.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 403;
+				CURRENT_PROJECT_VERSION = 404;
 				CustomAppBuild = 392;
 				CustomAppBundleId = com.sistemium.iSisWarehouse;
 				CustomAppVersion = 3.10.1;
@@ -4346,7 +4346,7 @@
 				INFOPLIST_FILE = "iSisSales/Info-Release.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 3.12.7;
+				MARKETING_VERSION = 3.12.9;
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = apple.sistemium.iSisWarehouse;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -4527,7 +4527,7 @@
 				CODE_SIGN_ENTITLEMENTS = iSisSales/iSisSales.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 403;
+				CURRENT_PROJECT_VERSION = 404;
 				CustomAppBuild = 371;
 				CustomAppBundleId = "com.sistemium.${PRODUCT_NAME:rfc1034identifier}";
 				CustomAppVersion = 3.10.1;
@@ -4545,7 +4545,7 @@
 				INFOPLIST_FILE = "iSisSales/Info-Debug.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 3.12.7;
+				MARKETING_VERSION = 3.12.9;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = d.sistemium.iSisSales;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -4720,7 +4720,7 @@
 				CODE_SIGN_ENTITLEMENTS = iSisSales/iSisSales.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 403;
+				CURRENT_PROJECT_VERSION = 404;
 				CustomAppBuild = 371;
 				CustomAppBundleId = "com.sistemium.${PRODUCT_NAME:rfc1034identifier}";
 				CustomAppVersion = 3.10.1;
@@ -4736,7 +4736,7 @@
 				INFOPLIST_FILE = "iSisSales/Info-Release.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 3.12.7;
+				MARKETING_VERSION = 3.12.9;
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = d.sistemium.iSisSales;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -4916,7 +4916,7 @@
 				CODE_SIGN_ENTITLEMENTS = iSisSales/iSisSales.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 403;
+				CURRENT_PROJECT_VERSION = 404;
 				CustomAppBuild = 366;
 				CustomAppBundleId = com.sistemium.iSisDriverDebug;
 				CustomAppVersion = 3.10.1;
@@ -4936,7 +4936,7 @@
 				INFOPLIST_FILE = "iSisSales/Info-Debug.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 3.12.7;
+				MARKETING_VERSION = 3.12.9;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = apple.sistemium.iSisDriver;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -5111,7 +5111,7 @@
 				CODE_SIGN_ENTITLEMENTS = iSisSales/iSisSales.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 403;
+				CURRENT_PROJECT_VERSION = 404;
 				CustomAppBuild = 366;
 				CustomAppBundleId = com.sistemium.iSisDriver;
 				CustomAppVersion = 3.10.1;
@@ -5128,7 +5128,7 @@
 				INFOPLIST_FILE = "iSisSales/Info-Release.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 3.12.7;
+				MARKETING_VERSION = 3.12.9;
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = apple.sistemium.iSisDriver;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -5308,7 +5308,7 @@
 				CODE_SIGN_ENTITLEMENTS = iSisSales/iSisSales.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 403;
+				CURRENT_PROJECT_VERSION = 404;
 				CustomAppBuild = 392;
 				CustomAppBundleId = com.sistemium.iSisWarehouseDebug;
 				CustomAppVersion = 3.10.1;
@@ -5327,7 +5327,7 @@
 				INFOPLIST_FILE = "iSisSales/Info-Debug.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 3.12.7;
+				MARKETING_VERSION = 3.12.9;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = apple.sistemium.iSisWarehouse;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -5502,7 +5502,7 @@
 				CODE_SIGN_ENTITLEMENTS = iSisSales/iSisSales.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 403;
+				CURRENT_PROJECT_VERSION = 404;
 				CustomAppBuild = 392;
 				CustomAppBundleId = com.sistemium.iSisWarehouse;
 				CustomAppVersion = 3.10.1;
@@ -5518,7 +5518,7 @@
 				INFOPLIST_FILE = "iSisSales/Info-Release.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 3.12.7;
+				MARKETING_VERSION = 3.12.9;
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = apple.sistemium.iSisWarehouse;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -5698,7 +5698,7 @@
 				CODE_SIGN_ENTITLEMENTS = iSisSales/iSisSales.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 403;
+				CURRENT_PROJECT_VERSION = 404;
 				CustomAppBuild = 100;
 				CustomAppBundleId = apple.sistemium.vfs;
 				CustomAppVersion = 3.10.1;
@@ -5716,7 +5716,7 @@
 				INFOPLIST_FILE = "iSisSales/Info-Debug.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 3.12.7;
+				MARKETING_VERSION = 3.12.9;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = apple.sistemium.vfs;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -5891,7 +5891,7 @@
 				CODE_SIGN_ENTITLEMENTS = iSisSales/iSisSales.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 403;
+				CURRENT_PROJECT_VERSION = 404;
 				CustomAppBuild = 366;
 				CustomAppBundleId = apple.sistemium.vfs;
 				CustomAppVersion = 3.10.1;
@@ -5908,7 +5908,7 @@
 				INFOPLIST_FILE = "iSisSales/Info-Release.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 3.12.7;
+				MARKETING_VERSION = 3.12.9;
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = apple.sistemium.vfs;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -6088,7 +6088,7 @@
 				CODE_SIGN_ENTITLEMENTS = iSisSales/iSisSales.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 403;
+				CURRENT_PROJECT_VERSION = 404;
 				CustomAppBuild = 366;
 				CustomAppBundleId = com.sistemium.iSisDriverDebug;
 				CustomAppVersion = 3.10.1;
@@ -6108,7 +6108,7 @@
 				INFOPLIST_FILE = "iSisSales/Info-Debug.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 3.12.7;
+				MARKETING_VERSION = 3.12.9;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = apple.sistemium.iSisDriver;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -6283,7 +6283,7 @@
 				CODE_SIGN_ENTITLEMENTS = iSisSales/iSisSales.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 403;
+				CURRENT_PROJECT_VERSION = 404;
 				CustomAppBuild = 366;
 				CustomAppBundleId = com.sistemium.iSisDriver;
 				CustomAppVersion = 3.10.1;
@@ -6300,7 +6300,7 @@
 				INFOPLIST_FILE = "iSisSales/Info-Release.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 3.12.7;
+				MARKETING_VERSION = 3.12.9;
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = apple.sistemium.iSisDriver;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -6481,7 +6481,7 @@
 				CODE_SIGN_ENTITLEMENTS = iSisSales/iSisSales.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 403;
+				CURRENT_PROJECT_VERSION = 404;
 				CustomAppBuild = 371;
 				CustomAppBundleId = apple.sistemium.vfsClient;
 				CustomAppVersion = 3.10.1;
@@ -6499,7 +6499,7 @@
 				INFOPLIST_FILE = "iSisSales/Info-Debug.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 3.12.7;
+				MARKETING_VERSION = 3.12.9;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = apple.sistemium.vfsClient;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -6674,7 +6674,7 @@
 				CODE_SIGN_ENTITLEMENTS = iSisSales/iSisSales.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 403;
+				CURRENT_PROJECT_VERSION = 404;
 				CustomAppBuild = 371;
 				CustomAppBundleId = apple.sistemium.vfsClient;
 				CustomAppVersion = 3.10.1;
@@ -6690,7 +6690,7 @@
 				INFOPLIST_FILE = "iSisSales/Info-Release.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 3.12.7;
+				MARKETING_VERSION = 3.12.9;
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = apple.sistemium.vfsClient;
 				PRODUCT_NAME = "$(TARGET_NAME)";
